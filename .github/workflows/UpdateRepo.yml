@@ -1,0 +1,24 @@
+name: Update-Repo
+on: [push]
+jobs:
+  Update-Repo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{ github.event_name }}."
+      - run: echo "${{ runner.os }}."
+      - run: echo "${{ github.ref }} ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: echo "${{ github.repository }}."
+      - run: echo "Runner Ready."
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: chmod +x ./updaterepo.sh
+      - run: ./updaterepo.sh
+      - run: git config --global user.email "turannul000@gmail.com"
+      - run: git config --global user.name "Github-Actions"
+      - run: git add "${{ github.workspace }}"
+      - run: git commit -a -m "Repo Güncellendi."
+      - run: git push
+      - run: echo "${{ job.status }}."

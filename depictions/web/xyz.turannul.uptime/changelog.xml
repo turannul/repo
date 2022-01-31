@@ -1,0 +1,46 @@
+<changelog>
+    <changes>
+        <version>1.0</version>
+        <change>Initial release</change>
+    </changes>
+<changes>
+        <version>1.0.1</version>
+        <change>Control düzenlemesi</change>
+    </changes>
+<changes>
+        <version>2.0</version>
+        <change>Kod düzenlemesi</change>
+    </changes>
+<changes>
+        <version>2.0.1</version>
+        <change>Uptime biçimlendirme</change>
+    </changes>
+<changes>
+        <version>2.5</version>
+        <change>Renkler</change>
+    </changes>
+<changes>
+        <version>3.0</version>
+        <change>iPad desteği</change>
+    </changes>
+<changes>
+        <version>3.0.5</version>
+        <change>Jailbreak algılama</change>
+    </changes>
+<changes>
+        <version>4.0.0</version>
+        <change>Açılış zamanı gösterme</change>
+    </changes>
+<changes>
+        <version>5.0.0</version>
+        <change>Genel düzenleme</change>
+    </changes>
+<changes>
+        <version>5.0.1</version>
+        <change>Terminal algılama</change>
+    </changes>
+<changes>
+        <version>5.0.2</version>
+        <change>İşlemci modeli algılama</change>
+    </changes>
+</changelog>
