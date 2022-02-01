@@ -757,20 +757,20 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 30312
 Pre-Depends: firmware (>= 13.0), dpkg, uikittools, apt
 Filename: ./debians/Packaging/wiki.qaq.chromatic_2.1-REL-1643304882_iphoneos-arm.deb
-Size: 10108950
-MD5sum: 0ec05beb5853c02930bd2c5ce6e43224
-SHA1: 31ad20f78374aa651a78d85852d3e997037f0e4c
-SHA256: 4e5669efeef2436cf9a6083537bc899d528ca219c3a7489c30a666fe7396fbf6
-SHA512: edddd9a378b857fa6ca8ff2965694fccb8920fc1a256b1182dcbd660ba9696d0b356427c9b199a8c8811a79c676d7cefe3647a64e142e8afb643664e7100952a
+Size: 10108976
+MD5sum: 22dc06d0b1073c36918cd972093ea242
+SHA1: f26df02af55c19e77964edcbda4b035861f8eb2a
+SHA256: eada2294b22966fca40aa234d02bb00fbcf3d99fcc9f8034b4d686276433b83f
+SHA512: 0f0fc10d72dcc10d9bac53d9b7be940e21d1353a19222f33d8755c7b49e9ca4ba564d89f26fb11bb3e1bd9fc47cc1cdde9cff868fd1b298cd0d0b9c397f03294
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sailyDp
-Description: Modern. Fast. Beautiful.
+Description: Modern. Hızlı. Güzel.
 Tag: purpose::uikit
 Name: Saily
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sailyDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Saily Team <support.0xa1@qaq.wiki>
 dev: sailyteam
-Icon: file:///Applications/chromatic.app/AppIcon60x60@2x.png
+Icon: https://turannul.github.io/home/resources/saily.png
 
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm
