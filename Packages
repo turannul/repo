@@ -2930,3 +2930,21 @@ Depiction: N/A
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
+Package: com.trappledestek.watusi3
+Architecture: iphoneos-arm
+Version: 1.1.13
+Section: AD - TR Tweak
+Maintainer: Deliturk
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
+Filename: ./debians/trappledebs/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
+Size: 4436794
+MD5sum: d5d365c4ff4f1b54b5224db05136aef5
+SHA1: 43a161489bb04195e05b7027786a718b209dae67
+SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
+SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
+Description: WhatsApp Messenger için hepsi bir arada tweak
+Name: Watusi 3 for WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
+SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
+
