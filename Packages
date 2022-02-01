@@ -871,40 +871,21 @@ Icon: https://twickd.com/images/946033c3ef959a1be66cfd70999ec7e8a4235e5f.jpeg?si
 
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
-Version: 1.0-1
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Installed-Size: 700
-Depends: firmware (>= 14.0)
-Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-1_iphoneos-arm.deb
-Size: 312368
-MD5sum: 9ac2032214f636f1618005a7b382e1d4
-SHA1: 6f04ac6c8f4e89e49809344115782a009c53c618
-SHA256: 9df95ee73e31e50f7e64d77fd342db14a295c821b5083b433db96b3da147cd7a
-SHA512: 2f7fc564bbead365347b939bd2f592de679efb8e999f298bc3d604f47eaa1c913e6136bc2dacaa2f86dd4f04d45947d37879748d659d7ad7d69b9439b7ed6d61
-Description: Invalid License uyarısını dikkate almayın tweak çalışıyor.
-Name: RelocateMe
-Author: MidnightChips
-Icon: https://turannul.github.io/resources/relocateme.png
-Depiction: https://chariz.com/buy/relocate-me
-
-Package: xyz.turannul.relocateme
-Architecture: iphoneos-arm
 Version: 1.0-2
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Installed-Size: 700
 Depends: firmware (>= 14.0)
 Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
-Size: 313096
-MD5sum: ea89d342f8ed0a041dcdebea34ffc5ff
-SHA1: d94ba76453d9cf3585ffcdce98724456df6c643f
-SHA256: 0c825661ad6caab1b6490c15702a9654c4e9544a94843e3e8c1a4cd009fc2696
-SHA512: 1a72aa6525318fb8daeae5605e0c11004d936026d52380682803a03ee3b61d4e6908f48f249c5c49f6fe99c833eb60dd69940b74d1d12bef52a3aefb6e030e0b
+Size: 313094
+MD5sum: bc59471ad422125bc01b64d8cdb1716e
+SHA1: a019089bf71b79e41aece3c77c38181b62d909ee
+SHA256: df06d913c122204e887ba8b4fd3d9eb57006c9f36f62ea7d73c76cdcd2e14b05
+SHA512: 7d0aafb48414f9b4a667ef687f178a1fed30fe62492ebceb8e28c1a22e7f7216df7ab35065eab3e2af06e523561cb4959c6459429ef0d52f69d36b52fbbe9e3b
 Description: Emulate iOS GPS Locations
 Name: RelocateMe
 Author: MidnightChips
-Icon: https://turannul.github.io/resources/relocateme.png
+Icon: https://turannul.github.io/home/resources/relocateme.png
 Depiction: https://chariz.com/buy/relocate-me
 
 Package: com.samgisaninja.successioncli
