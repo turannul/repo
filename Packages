@@ -872,36 +872,17 @@ Icon: https://twickd.com/images/946033c3ef959a1be66cfd70999ec7e8a4235e5f.jpeg?si
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
 Version: 1.0-1
-Section: 🏴‍☠️Tweak
-Maintainer: turannul
-Installed-Size: 700
-Depends: firmware (>= 14.0)
-Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-1_iphoneos-arm.deb
-Size: 279572
-MD5sum: 52b60b520f4f28cdc2ace0d12e8b4dc4
-SHA1: 3274b1fa92fd92fb86915619dbb6ee1458da1542
-SHA256: fa997be00372ad7a0f98cabf5c3b01cf7fc279cc2156f29052c6a91145b26f3b
-SHA512: 97488dc988c39c99dc91a2954ea74dfdeb6ec025d1a91a39820c1742e91683f3631ae40db993b97c06aa21d57c64b1896809501f5aa285baef02c5e12c4bfcca
-Description: Invalid License uyarısını dikkate almayın tweak çalışıyor.
-Name: RelocateMe
-Author: MidnightChips
-Icon: https://turannul.github.io/resources/relocateme.png
-Depiction: https://chariz.com/buy/relocate-me
-
-Package: xyz.turannul.relocateme
-Architecture: iphoneos-arm
-Version: 1.0
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Installed-Size: 700
 Depends: firmware (>= 14.0)
-Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0_iphoneos-arm.deb
-Size: 279484
-MD5sum: 39956f6cc16777314a272828cb4663ea
-SHA1: 716742cadffd3055824d7d3d87f3a27e55cfc9cd
-SHA256: b6feacba71e7bbd13690e2d738cba8d77b17928a1ad27acfd9a61dad9dc6a5e8
-SHA512: 6d5a7336fdeb11b844eafd6e1d7d8242d2d0bccbe54bdbf333ab66f266a6efa704cb7fb7dd67a7641aa5c066398b5ade9d696eb99ac4b4fecbdf671b83e81ff3
-Description: Emulate iOS GPS Locations
+Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-1_iphoneos-arm.deb
+Size: 312368
+MD5sum: 9ac2032214f636f1618005a7b382e1d4
+SHA1: 6f04ac6c8f4e89e49809344115782a009c53c618
+SHA256: 9df95ee73e31e50f7e64d77fd342db14a295c821b5083b433db96b3da147cd7a
+SHA512: 2f7fc564bbead365347b939bd2f592de679efb8e999f298bc3d604f47eaa1c913e6136bc2dacaa2f86dd4f04d45947d37879748d659d7ad7d69b9439b7ed6d61
+Description: Invalid License uyarısını dikkate almayın tweak çalışıyor.
 Name: RelocateMe
 Author: MidnightChips
 Icon: https://turannul.github.io/resources/relocateme.png
