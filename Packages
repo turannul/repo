@@ -59,24 +59,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
-Package: com.f0u4d.watusitools
-Architecture: iphoneos-arm
-Version: 2.2.14
-Section: Development
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Depends: firmware (>= 9.0), darwintools
-Conflicts: com.fouadraheb.watusi (<< 1.1.5), org.mr.watusitools, org.mr.watusi3, org.mr.watusi, org.mr.contactsync, net.myclassic.stalky, net.myclassic.wat3, net.myclassic.watusitools, net.myclassic.watusi3, repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.pulandres.watusi2
-Filename: ./debians/Gerekli,Gereksiz/com.f0u4d.watusitools_2.2.14_iphoneos-arm.deb
-Size: 14034774
-MD5sum: 540871023fe698bac47099098e6f46ce
-SHA1: fbce04bcaf278e2f10df1021503a7f12ebea838a
-SHA256: 1f7c1668f5efde6f962fe0ecb43f32af3e2bf199133570e7b80ad52985c628a3
-SHA512: e858711a506f0cc5b6291f06c68d4a1661dc2e6ea38c5e7683262837d40a0c2e389e4493738480598526fdc543665ec5ccd831f8a869c52a7538983efb8bfd43
-Description: Library for Watusi and WhatsApp tweaks
-Name: WatusiTools
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.f0u4d.watusitools
-
 Package: com.level3tjg.insert-dylib
 Architecture: iphoneos-arm
 Version: 1.0.3
@@ -849,25 +831,6 @@ Author: CreatureSurvive
 Sileodepiction: N/A
 Depiction: N/A
 Icon: https://turannul.github.io/home/resources/diskprobe.png
-
-Package: xyz.turannul.pencilbanner
-Architecture: iphoneos-arm
-Version: 1.2
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Filename: ./debians/PiratedTweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
-Size: 395256
-MD5sum: ed2c695a9d4508f2a1f9acfdfd030f61
-SHA1: edd815a36e8617ce5032f97e6959c71cac2ac348
-SHA256: 708171f2ff4fcf9ad1e23bc8ff47214271a49777b361be985f420a264634c09a
-SHA512: a51256b82bc161ab89c8669914b288d203aa7b68f7e2ea611b5c3fe88b2acd17ef3c68cab9157405ed13f0071561dccf1a9a68c5c48006620267f716f7b24e68
-Description: Apple Pencil banners!
-Name: PencilBanner
-Author: Ethan Whited
-Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
-SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
-Icon: https://twickd.com/images/946033c3ef959a1be66cfd70999ec7e8a4235e5f.jpeg?size=medium
 
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
@@ -2017,6 +1980,25 @@ Icon: https://apt.tale.me/packages/me.tale.panic/icon.png
 Header: https://apt.tale.me/packages/me.tale.panic/banner.jpg
 Author: Aarnav Tale <aarnav@tale.me>
 
+Package: xyz.turannul.pencilbanner
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: turannul
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Filename: ./debians/Tweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
+Size: 395220
+MD5sum: 1a67052e9e480758c9c788d07c606e35
+SHA1: 661b8fd15cea58be1216ba8a0f2b8dce3d22d102
+SHA256: 6285872289e39b69ed32466f4b2ab2b0b91e5756ce3b9e8ca11fc524565d28dd
+SHA512: 28de4d62979384b2fb4b6651b670110aa9064faaf5379112216149c661ec6e242327db3f3160f2e05ca18955909d363806cbe1e299f5f9e888cb3d99025b7a31
+Description: Apple Pencil tarzı bildirimler!
+Name: PencilBanner
+Author: Ethan Whited
+Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
+SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
+Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
+
 Package: com.ichitaso.spenabler
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -2721,26 +2703,6 @@ Author: Unknown.
 Depiction: iPhone / iPad için Uygulama imzalama aracı.
 SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
 Icon: https://turannul.github.io/home/resources/esign.png
-
-Package: com.fouadraheb.watusi
-Architecture: iphoneos-arm
-Version: 1.4.18
-Section: Tweaks
-Maintainer: Fouad Raheb <support@fouadraheb.com>
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.f0u4d.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap, applist
-Conflicts: org.mr.watusitools, com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
-Filename: ./debians/Uygulamalar/com.fouadraheb.watusi_1.4.18_iphoneos-arm.deb
-Size: 4013802
-MD5sum: 4614413359b46ef5fc85a46e8e90511f
-SHA1: 1a98fc547a603ba39ee7af3d15b9ebfc9d4db242
-SHA256: 6719a3b218bff572dd02ec0203a7d13a4c5e6cad98763c49c70f837d9c834d89
-SHA512: df7e88a281f3d306901abf2d5051e1aeed4c266654ef988c2d5a45472c5651d99d5c5b91d876312e325b07744206367595cc7fc64838d9287ade22edaab0fa97
-Description: The all-in-one tweak for WhatsApp Messenger
-Name: Watusi 2 for WhatsApp
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi
-SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi/sileo
-Icon: file:///Library/Application Support/Watusi/FRAssets.bundle/Watusi@3x.png
 
 Package: com.ichitaso.altstore
 Architecture: iphoneos-arm
