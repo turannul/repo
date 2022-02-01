@@ -2666,3 +2666,324 @@ Tag: role::hacker
 Name: vnodebypass
 Author: XsF1re
 
+Package: Appcake
+Architecture: iphoneos-arm
+Version: 7.2.2
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/Appcake_7.2.2_iphoneos-arm.deb
+Size: 13903082
+MD5sum: 1cbf71cb2aeece90b79c01cfc7f91ae1
+SHA1: 252d71a71acdf7da4d9ea08bab43434cc6cdb6c6
+SHA256: 013fd6c97f0c77edf9c36c161dbfcd312a6608c1ae9bea1061c4952c6f3ca0dd
+SHA512: 911a5aed985d1c8043f4ccf28237557f485bb009bc36656ca7059d04a1497dc3b1d107f49699331334f1dd6fe8e16dd6d8a533d1ff79a94e4bd04f40f5a7da47
+Description: iPhone / iPad için ücretsiz iPA Mağazası.
+Name: Appcake
+Author: iPA Store
+Depiction: https://www.iphonecake.com/app/
+SileoDepiction: https://www.iphonecake.com/app/
+Icon: https://turannul.github.io/home/resources/appcake.png
+
+Package: E-Sign
+Architecture: iphoneos-arm
+Version: 4.3.4
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified, com.trappledestek.installipa
+Filename: ./debians/Uygulamalar/E-Sign_4.3.4_iphoneos-arm.deb
+Size: 5350656
+MD5sum: 525f2844d55ab088c91f8a4cab73ad2f
+SHA1: ceae0d24b89cc9f9609ed4ba709334d2e7169071
+SHA256: 462fdd92b54be7f4fea10e843b049c53c1a63f8794be4b27e048a409d1e86f1b
+SHA512: fdb9ec460df04d15974a671635410bb10e3b5cf576eb80700198d4022697e8d8555b39db3a37ef76a4ec2bdabb0f3c4be1a6212e2ea804978a1bfd7c29b15880
+Description: iPhone / iPad için Uygulama imzalama aracı.
+Name: E-Sign
+Author: Unknown.
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: E-Sign
+Architecture: iphoneos-arm
+Version: 4.3.6
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/E-Sign_4.3.6_iphoneos-arm.deb
+Size: 4500594
+MD5sum: 6b743555f27fde77ab02bf0807d4e870
+SHA1: 3cda4a80d008f4ae5dcc1fadddad0bda83c6a71e
+SHA256: 7007a468dd9afadb40b8e8b2a73a20ea3349c207f610d4906f530628e32562db
+SHA512: 1968d1f2923b87af493a945fad190eb9923792c97f934b6a98510d77b588098d9d15c0684275aa7f3a5bee51e4d78fd94ca8d31a108dcc0ff4c462e34974237c
+Description: iPhone / iPad için Uygulama imzalama aracı.
+Name: E-Sign
+Author: Unknown.
+Depiction: iPhone / iPad için Uygulama imzalama aracı.
+SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
+Icon: https://turannul.github.io/home/resources/esign.png
+
+Package: com.fouadraheb.watusi
+Architecture: iphoneos-arm
+Version: 1.4.18
+Section: Tweaks
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.f0u4d.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap, applist
+Conflicts: org.mr.watusitools, com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
+Filename: ./debians/Uygulamalar/com.fouadraheb.watusi_1.4.18_iphoneos-arm.deb
+Size: 4013802
+MD5sum: 4614413359b46ef5fc85a46e8e90511f
+SHA1: 1a98fc547a603ba39ee7af3d15b9ebfc9d4db242
+SHA256: 6719a3b218bff572dd02ec0203a7d13a4c5e6cad98763c49c70f837d9c834d89
+SHA512: df7e88a281f3d306901abf2d5051e1aeed4c266654ef988c2d5a45472c5651d99d5c5b91d876312e325b07744206367595cc7fc64838d9287ade22edaab0fa97
+Description: The all-in-one tweak for WhatsApp Messenger
+Name: Watusi 2 for WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi
+SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.watusi/sileo
+Icon: file:///Library/Application Support/Watusi/FRAssets.bundle/Watusi@3x.png
+
+Package: com.ichitaso.altstore
+Architecture: iphoneos-arm
+Version: 1.4.8
+Section: Utilities
+Maintainer: ichitaso
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Replaces: com.ichitaso.altstore
+Filename: ./debians/Uygulamalar/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
+Size: 5192014
+MD5sum: 9e1b623d77327386bed02f7971b55288
+SHA1: 26e7c10e742f8cded6f8dd764131edc2eda8dd71
+SHA256: 6e4a2a30605668b85c5d5c95ad00dec73046704223270ec077d313b1514ee271
+SHA512: 6b4ae46420bf6a73d257925fdf0c406aad28a5d5c9df8bb1b47464e5049788ab08200db90deeb7ed2002d4eea186c4f60a75f5f9d7df2153267ef6047181be9b
+Homepage: https://altstore.io/
+Description: Jailbroken version of AltStore with on device signing feauture.
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: Riley Testut
+Name: AltStore
+Depiction: https://cydia.ichitaso.com/depiction/altstore.html
+dev: Riley Testut
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+
+Package: com.ichitaso.nonceset143
+Architecture: iphoneos-arm
+Version: 0.0.5
+Section: Utilities
+Maintainer: ichitaso
+Installed-Size: 924
+Depends: firmware (>= 12.0)
+Filename: ./debians/Uygulamalar/com.ichitaso.nonceset143_0.0.5_iphoneos-arm.deb
+Size: 125074
+MD5sum: c09de86cb2fb277fb3889203362810c0
+SHA1: e68e3157b490c27d05735851fd9519f0d8306f56
+SHA256: 82f118fb29488f420a1e31ab4bca1937bf578fcda6b86decefbadd5a60240537
+SHA512: 01b390066c88da77e4019ee45426165f2aecdef29896bb6d8d363c7ec24dcf43d7eac8b668215263965692e188880912266c8e30aa87f89a9cd0f0a8bb9d9492
+Homepage: https://ichitaso.com/
+Description: An app that set of generator and gets a ApNonce
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: ichitaso
+Name: NonceSet143
+Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
+dev: ichitaso
+Icon: file:///Applications/NonceSet143.app/AppIcon60x60@3x.png
+
+Package: com.julioverne.cracktool4
+Architecture: iphoneos-arm
+Version: 4.0~beta10a
+Section: Utilities
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta10a.deb
+Size: 2908956
+MD5sum: 7a00dc7379777bc72f200b167a52e435
+SHA1: 61807b57dee0e535d88648478df186cb41f5ad6e
+SHA256: 9ea60a41ee15f1c5acb1cea02716a553d40cab3b8f4679bf336c982fee9af97f
+SHA512: 151e99cd5fb340983891d3d7e8e1f1f50d311dba8432628458c0bca9568527ec53f3cc08a7f25891801139bd7fee3caaa92a9e6f96369dd69c07d53da7cde500
+Homepage: http://twitter.com/ijulioverne
+Description: Crack Tweaks on one click
+Name: CrackTool4 (iOS 9 - 14)
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+
+Package: com.julioverne.cracktool4
+Architecture: iphoneos-arm
+Version: 4.0~beta9f
+Section: Utilities
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta9f_iphoneos-arm.deb
+Size: 725534
+MD5sum: 5a5d61fd4269cc8022c7594295db888e
+SHA1: 870696348d833ba3d7fbb3c4a8745fa2a6aad118
+SHA256: 3a5c072753ee2bb1a8c41046dafa9f99a25b693e3014dcd32e63ebc146ac7035
+SHA512: 911d1876164150aca29ff1da4b0b2c316c3e880756bd995399cd5127fa1877f39c4f2d19e82f3fd147e372b8560b871207ad8aa0b0927a598d7237c1acf0b864
+Homepage: http://twitter.com/ijulioverne
+Description: Crack Tweaks on one click
+Name: CrackTool4 (iOS 12/13)
+Author: julioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+
+Package: com.mtac.lynxapp
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Uygulama
+Maintainer: turannul
+Depends: firmware (>=12.0)
+Filename: ./debians/Uygulamalar/com.mtac.lynxapp_1.1_iphoneos-arm.deb
+Size: 149900
+MD5sum: ec7bbfd1ada95bb96c64eb5214082b67
+SHA1: d7be70f5127a02d657095b06e85ba4536a3a5d37
+SHA256: 0ba8eeb947ba785328714174e159c285ba60328a2640623374ca00a92591cf88
+SHA512: 322ff430bd9f3c6df4f9fdda3a825e8e642c503f27a51fe31ca12d372e47cc97fac120af867ab4f918bd2f1781b657a813eafc335c3fabb7d5a2d567cb7da8c2
+Description: Lynx | Lynx2 ayarlarını ana ekrana ekleyin
+Name: Lynx App
+Depiction: https://mtac.app/repo/depiction/web/com.mtac.lynxapp.html
+SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.lynxapp.json
+Icon: https://turannul.github.io/home/resources/lynx.png
+Author: MTAC <mtac@mtac.app>
+
+Package: com.samgisaninja.successionrestore
+Architecture: iphoneos-arm
+Version: 1.4.16~b4
+Section: Utilities
+Maintainer: Samg_is_a_Ninja
+Depends: firmware-sbin, rsync
+Filename: ./debians/Uygulamalar/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
+Size: 1179304
+MD5sum: 9183c09c38e94fa35e0e09cf4bd3ea4f
+SHA1: 5e9635c6bbb04123cb46655a8005d54b262cb3e9
+SHA256: 1884e5bcb0e72987c0845b27a8faef76b0d325fa14bb9d2fa908993ac10b95b8
+SHA512: 073987ef9c10500eaedad7569ceaa685194be8eeca9e0b836a8a3a73213bdbb411e0003a03752ed3a80ec4851e4796169a8233f840c45fd8b366b6b465b0a8ff
+Description: Restore without updating via rootfilesystem DMG
+Name: Succession
+Author: Samg_is_a_Ninja
+Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
+
+Package: com.spark.snowboardapplication
+Architecture: iphoneos-arm
+Version: 1.0.3~Beta2
+Section: Uygulama
+Maintainer: turannul
+Depends:
+Filename: ./debians/Uygulamalar/com.spark.snowboardapplication_1.0.3~Beta2_iphoneos-arm.deb
+Size: 695378
+MD5sum: 260e0ad93c316da506e4670271780d47
+SHA1: 6edfa93c5a9a5f99a176abbd8e2cb67ae21705db
+SHA256: fe944ec09bc3a61532a8a87c4ba500a15575128dce4edd0f92afac18e804c12a
+SHA512: eaa1b2e3a08cfecfba17b2c76061c8733c04ca3879b66718027adc2a736230f28774e336b0084f6f51b9980704b18d3313e2c5c6ff349a9bb493f54784183373
+Description: An awesome application!
+Name: SnowBoard App
+Author: Spark
+Icon: https://turannul.github.io/home/resources/snowboard.png
+
+Package: iTorrent
+Architecture: iphoneos-arm
+Version: 1.8.3
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/iTorrent_1.8.3_iphoneos-arm.deb
+Size: 21094798
+MD5sum: 08deb4d75474137837e49d48a5576473
+SHA1: 0e7d42b811bb9fbf8ec88d6a0d58b28bad3d37bc
+SHA256: 9dc24562fa76b18481c463cc8044e3791acc5a1160c5b89efff4726714aa914f
+SHA512: c5149397bdd1b17a5f12f64aae5a3f5b1e425504244e27f89e18baf5b06c224ff96ee4b4660551d51d21002fa15d4159d6004815cbdc6badf18867060d229ed5
+Description: iPhone / iPad için Torrent Client.
+Name: iTorrent
+Author: XITRIX
+Depiction: https://github.com/XITRIX/iTorrent
+SileoDepiction: https://github.com/XITRIX/iTorrent
+Icon: https://turannul.github.io/home/resources/itorrent.png
+
+Package: jb.zini.tevi
+Architecture: iphoneos-arm
+Version: 1.4.9
+Section: Uygulama
+Maintainer: turannul
+Filename: ./debians/Uygulamalar/jb.zini.tevi_1.4.9_iphoneos-arm.deb
+Size: 7266958
+MD5sum: 2a2e2acd24763cec5c35cabe49fd0997
+SHA1: 5e79a35c5916082fea7d53685ed56599187e9a2a
+SHA256: 0f072f61be4a8031687930ae3141af9de407d31ed3068a119c445d226471fab2
+SHA512: 28232f5b183a0721e427a5b8f21098e96f239d3e05774aca448e5b9ec4aaa3fe344e98a5979cf8a80a74fc9400591300ca05650734fcfe188fad49f90e59d51a
+Homepage: https://zinitevi.github.io/movieapps/
+Description: Stream movies & series for Jailbreak
+Name: ZiniTevi
+Author: ZiniTevi
+Icon: https://turannul.github.io/home/resources/zinitevi.png
+
+Package: sileoturkiye.tweakcleaner
+Architecture: iphoneos-arm
+Version: 14.9c
+Section: Uygulama
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
+Filename: ./debians/Uygulamalar/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
+Size: 4717622
+MD5sum: 821eb23d600c195ec2ccd5f45d1c7a12
+SHA1: 9074c107265b7f2e5659ba69d9680536dc27cf73
+SHA256: e5ca1b5452ea8b64cabe0c1a66b11b277ee882def78044fbdce79a98f9df42fe
+SHA512: e697244f8acd1c1bfe70bc7001ac1f39c7f9881ba2ec4fc5c8ee8ac98a7fa41699f1c5dcf6c53385a67c42007cbac7933038c59fa880a70fcc4999bb6d5c10e4
+Description: Returns the device to its original JB state.
+Name: Tweak Cleaner PRO
+Author: Önder Azazi <onderazazi@hotmail.com>
+Icon: https://turannul.github.io/home/resources/tweakcleaner.png
+
+Package: xyz.canpng.istb
+Architecture: iphoneos-arm
+Version: 1.21.3
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/xyz.canpng.istb_1.21.3_iphoneos-arm.deb
+Size: 22631664
+MD5sum: 7e62b698f7e0eeefe297681a285dfa6a
+SHA1: 92a7ae2442187280e35cd1e1e9921b6bf05b56f8
+SHA256: d0b0e7e31a13f73ef459a1afe7b82995bad9a85afa60ee572088f6b522084da1
+SHA512: b546ed3fe10b6bf06bfbaf334aa07f150d5ced9008fe018468d6d5d1973d93949489c1975cf57d6a0568439b8765e822d77dbcf731a7191b8e0074eac4e1a1a5
+Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
+Description: iPhone / iPad için iPTV
+Name: iSTB
+Author: canpng & Yns61
+Icon: https://turannul.github.io/home/resources/istb.png
+
+Package: xyz.turannul.altstorebeta
+Architecture: iphoneos-arm
+Version: 1.5b3
+Section: Uygulama
+Maintainer: turannul
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Replaces: com.ichitaso.altstore, com.trappledestek.altstore
+Filename: ./debians/Uygulamalar/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
+Size: 5202368
+MD5sum: 58a18333f718cf710f3ab524543612c3
+SHA1: 2af0e18194db3ae8f8204770292249622cef5c71
+SHA256: a581e5c03aa7a43db01ae0c42f778fa5040823065bc5d384d3a9b32677c7719d
+SHA512: 4e185b17e27fbba16d3498ac24fe18d7e09d453fbc8bf306006a44c0ce54e10dcebb40228469948294f422ccf94309c435874cd5ce4ef7912197e4d5c198376f
+Homepage: https://altstore.io/
+Description: AltStore Beta
+Author: Riley Testut
+Name: AltStore (Beta)
+Depiction: AltStore Beta
+Icon: https://turannul.github.io/home/resources/altstore.png
+
+Package: xyz.turanul.flappybird
+Architecture: iphoneos-arm
+Version: 4.1.0
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
+Size: 2317988
+MD5sum: 5685a0e61d373030ff8e920362b997d5
+SHA1: ce506f9a4611f413b032576e7d6b12bd5f8afbb8
+SHA256: 21fdfb7cd766d1009b0aa110e33b11c73b2906d574b29ca9bcd25c9a9eec038f
+SHA512: 1bda67a5215912e5dd05d8538f6fb73636b2a7fdf99578a5959334a35bf06538e97986718fb7e71ae3b4bceaf9c8d709f52023929b0b9d64ab19be3d1cf83bc9
+Description: A Flappy Bird clone that runs on the latest iOS!
+Name: Flappy Bird
+Author: Brandon Plank, Thatcher Clough
+Depiction: N/A
+SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
+Icon: https://turannul.github.io/home/resources/flappybird.png
+
