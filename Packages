@@ -772,25 +772,6 @@ Author: Saily Team <support.0xa1@qaq.wiki>
 dev: sailyteam
 Icon: file:///Applications/chromatic.app/AppIcon60x60@2x.png
 
-Package: xyz.turannul.SailyTR-Patch
-Architecture: iphoneos-arm
-Version: 1.0
-Section: TR-Patch
-Maintainer: turannul
-Depends: wiki.qaq.chromatic
-Filename: ./debians/Packaging/xyz.turannul.SailyTR-Patch_1.0_iphoneos-arm.deb
-Size: 6832
-MD5sum: 925e7abe7d7682ec58cd093bfea1a317
-SHA1: 47b8e943329bdea0e84579c5ebb8f1ae18c262d0
-SHA256: 58b41ba0365723d775660169892c3345a8d2220c7359e8a3a56fe0048f3d320c
-SHA512: 4843ec1c7012c2f274896f746f3eedf4b840d77ad048587a1fc49b97253f864390581a924c6b172512d234638fd61746c25d9dc98f27892eb28db707560b5a55
-Description: Saily Paket yöneticisine Türkçe dil desteği.
-Name: Saily TR
-Author: turannul
-Depiction: N/A
-SileoDepiction: N/A
-Icon: https://turannul.github.io/home/resources/saily.png
-
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm
 Version: 1.1.23
