@@ -1290,6 +1290,26 @@ Author: Riley Testut <support@altstore.io>
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Depiction: https://chariz.com/get/altdaemon
 
+Package: xyz.turannul.appaze2
+Architecture: iphoneos-arm
+Version: 1.4
+Section: Tweaks
+Maintainer: turannul
+Installed-Size: 1791
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
+Filename: ./debians/Tweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
+Size: 945670
+MD5sum: 94d1fefae09e4be7db3b00039e1ac89e
+SHA1: 2196695eb6db9df77d6e67fdbfbb3c715a14cbc2
+SHA256: b3ba666ec1f44b503dd1c733033a6782f4a68e265b746ee73ecc5af1b180fd68
+SHA512: 9f3f1b4f548cb5c21f246f53a1cf82cdd3421fa733b16b48cc2bba19b7e91a3a6d90ac35158fcc4dd198a87799a4bec23853a3a43194783f80ab8b994fa9cc2e
+Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
+Name: Appaze 2
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://doms9.github.io/html-info/appaze2.html
+SileoDepiction: https://doms9.github.io/info/appaze2.json
+Icon: https://turannul.github.io/home/resources/appaze2.png
+
 Package: xyz.trappledestek.appstoreplusplus-iOS12
 Architecture: iphoneos-arm
 Version: 0.9.11
@@ -1657,11 +1677,11 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: jp.akusio.kernbypass, com.apple.memecity
 Replaces: jp.akusio.kernbypass-unofficial
 Filename: ./debians/Tweaks/KernBypass/jp.akusio.kernbypass-unofficial_0.0.5_iphoneos-arm.deb
-Size: 144922
-MD5sum: 88664e2a63933c4ba6c58a13936d4299
-SHA1: d2eed190bf07e978ec7e78c4f3ae5c39729a91f2
-SHA256: 8ee495c8fff663df9ddeb562b595bd8438fcc86a3a5e83fcbe0bfbf9a6a14f6b
-SHA512: 065c1e9a5bbe16fc7d6c744771124bd8ed924256879800b282f041e9644a1b5a24abe4946a1c7d71fedd61cfce53a1725afdcc4f8d57ed5a71793bb425756b6b
+Size: 291276
+MD5sum: 3a0afc33216e0ff9dbc599ec5a471645
+SHA1: c8e928a0dc83f917aa2f8bdfc15c959a3f3bf35f
+SHA256: fe8c4f757cc7319db921f4cbb10cfebb24108a9f8b02d5ab30ff3ede09ad951f
+SHA512: 671dbab76328145012a92949d367f9849605fa7d0a81b71bb9b5fd49dc0a0cd68dcc8c4c53ec7410ee33d38341f465b6324355f4faa0bf0c42578488bfa6f580
 Homepage: https://ichitaso.com
 Description: kernel level jailbreak detection bypass.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
@@ -1669,43 +1689,7 @@ Author: akusio
 Name: KernBypass (Unofficial)
 Depiction: https://cydia.ichitaso.com/depiction/kernbypass.html
 dev: akusio, Misty, ichitaso, XsF1re
-Icon: file:///Library/PreferenceBundles/KernBypassPrefs.bundle/icon@2x.png
-
-Package: jp.akusio.kernbypass
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: System
-Maintainer: akusio
-Installed-Size: 380
-Depends: mobilesubstrate, applist, preferenceloader, Firmware(>=13.0)
-Filename: ./debians/Tweaks/KernBypass/jp.akusio.kernbypass_0.0.1_iphoneos-arm.deb
-Size: 11774
-MD5sum: c2ba3079046c76f5ec3782bfc0b3afcc
-SHA1: 76fb81c10d040f022766a1a314a7a3fa1361b2c6
-SHA256: 0e641ec2b31d9e13cd419cd7df70cb7979089a6911cdaa6087c6230a27a13061
-SHA512: 57d788886d1c80ce090de1dc39bdc77c6f63f93d61577890c48ecf72be2afa08fc0d65b5fad570657984b173fdfbe2268397c4c9a6f457454c21cf6646af1453
-Description: kernel level jailbreak detection bypass.
-Name: KernBypass
-Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
-Author: akusio
-
-Package: jp.akusio.kernbypass
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: System
-Maintainer: akusio
-Installed-Size: 380
-Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
-Filename: ./debians/Tweaks/KernBypass/jp.akusio.kernbypass_0.0.2_iphoneos-arm.deb
-Size: 12098
-MD5sum: bf11d32c8efe3576fb1716ad28227f0b
-SHA1: d54a0131ea51d21447be7950ef6cb495f751dc1a
-SHA256: 612ca12f0818ed7763806d87f0e4f977d5b208b2dd67b0997745bc0e39a434b2
-SHA512: ef923d0ef5b654620c63c5da89c7cc590f573edf0685c9e2a1809ae3b6459cd0e65088a2f9ab9f12fe5b7969ca722388aaf34de6a8689c5783a800dc12084dba
-Description: kernel level jailbreak detection bypass.
-Name: KernBypass
-Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
-Author: akusio
+Icon: https://turannul.github.io/home/resources/kernbypass.png
 
 Package: com.yourepo.cydiageek.ltewant4g
 Architecture: iphoneos-arm
