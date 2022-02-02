@@ -300,11 +300,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.amonglock_1.1.6_iphoneos-arm.deb
-Size: 20861824
-MD5sum: f3d7af5bf5717a6bd5c4ef02ee4d8685
-SHA1: f7eec389eb47993bf6c3efef57ec3c8a53870e59
-SHA256: b0c37b0b298a177d4ecdbc77989dc2283b8781783725c0f056c796d0f5d384fb
-SHA512: ae28eef079f828278a100b9904e0098bce6affaaf783c958a1391e897f3240c0587ebcd4d22896e6edd2cc9c2d3a3d3132a6c4519b2911fab599f058c7e9a6ae
+Size: 20768834
+MD5sum: bb458d75f8e556f2c944e4b0938b306b
+SHA1: c93d51c324012c4e1de2865f9cedb1a3d6038ce2
+SHA256: 71d262222f1bc0007063c3b3151d048c0d53e19a654d1cbb5cdf975872512a31
+SHA512: 22909ab28a44b530bd8de4933f926ac7e1df2f80e1e375b8bf629a1195651c58f4d73923ec0272e843b4bda82728f441bc691f1b8e286caabd37e59fea5333d5
 Description: Bu telefonun sahibi sen değilsin! Kilit ekranı için Among US! teması.
 Name: AmongLock 👻
 Author: Litten & BigIlel
@@ -319,11 +319,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.astolfo_1.2.1_iphoneos-arm.deb
-Size: 1946188
-MD5sum: 9d9b8566f0a107a5ce893571202bd294
-SHA1: 2c2989be64beeab27ff71549d588f95d798fe59c
-SHA256: 5b7db942a33bdf3e3fcf0f85f844fafab9240183c9b371f9644f23908e4f4ec3
-SHA512: b5da13010f98aefcaf7811072f9204c4f87f89844ccd6ea8f1c590b00fc39b0a70ef3a8c4afb573771d050164760743f9ecfdd6fa37bd44045a995ccef88dace
+Size: 1973766
+MD5sum: ef2054fb9bead6c45b4bebbb7c43bb7a
+SHA1: 81fb1e90b362c7a3d5c22ac1c3a2e203dc53cf8e
+SHA256: 96de0d48180d3c8f9d4e29ab85a6275da6d080ce9f0a39f0542bca485c79bddc
+SHA512: 562400e5e1489342cb3d708f20dcf68b7a4cccada66c6024341a7b059937158353bba280d62edc34dcc0cf8b936532c1bad3249a2edf49ae3745efd6574c0185
 Description: Siri yi kişiselleştir.
 Name: Astolfo 👒
 Author: Litten
@@ -338,11 +338,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware (>= 13.0), com.spark.libsparkapplist, com.peterdev.libpddokdo
 Filename: ./debians/Litten-Archive/love.litten.avrora_1.2.3_iphoneos-arm.deb
-Size: 1073320
-MD5sum: 208c169125c1de2a2f590c03bdb7a875
-SHA1: a538a80ccf30372841fdf00936b21713d320d49d
-SHA256: 2c265028e9bd4af5dc8b381c49271ca7c447d3c599bff5ede708644207716317
-SHA512: 44fb54deeb2cfdd120758459eaddc7437d8efb8fd009c676baef994bf4668162151ba5b74ecff6c0d3b75dbff923b71978e7725dce84c061e4927a0cdca7d82f
+Size: 1103474
+MD5sum: cccf46df495c1a273f36ebe6f5069633
+SHA1: e9a32ef068aeb8b186252ed18731ecc006991f07
+SHA256: e69d3e79560849e1dc03d2f774477a055530a4f6939aecc4b808e5ffd3240dbe
+SHA512: 8f3fa2e98e964b44de51716b3a0674127fbcf3b11dd4df8099431bd0ba4c57e5a45ea0a01ff1b1b06e8d8f5e65b94201b1cf8e512ff3c4192e88b3f4eda1a240
 Description: Ikonların yazıları hep sıkıcıydı, yıllardır aynı. Neden biraz değiştirmeyelim?
 Name: Avrora 🌌
 Author: Litten
@@ -358,11 +358,11 @@ Maintainer: Litten
 Depends: mobilesubstrate
 Conflicts: com.neinzedd9.bazzi, com.trappledestek.bazzi, com.blakeboxberger.bazzi2
 Filename: ./debians/Litten-Archive/love.litten.batterybuddy_1.0.2_iphoneos-arm.deb
-Size: 11452
-MD5sum: 1bbd8ab8600af7dc981c8f3445c812cd
-SHA1: 95588aaea7e7add51533791c979ccbe696ae0d25
-SHA256: 342b725c13cbfa5ea6afc1c1e6b2d1d3372953d4e4f99185fe2108e5e0076107
-SHA512: 60f642f65adddc877859bcd731f0978370e0aca2e78a0884a567907bb871ec04dae698110899df2a7e6b426229038177491a6ddd498ee043361a08f081118e23
+Size: 15530
+MD5sum: fecac2fdadce9e8e2e64923094270f95
+SHA1: 242633b9396cf64f3c6587c95afe1ab7ee773099
+SHA256: 21116f866898f899cead9ba88ef23623142f78bacdd7605252c3d52b5b1e27b4
+SHA512: 36880d102c995aff46ac4391f51fe54ff0b693f628b6041b2ba9fc8b359743e19ea96f9dd3b508e4ea130146df53e6ed447debf17d17397745b26a912f8fb4e4
 Description: Batarya göstergesi ama datlı (Fav)
 Name: BatteryBuddy ⚡️
 Author: Litten & neilsardesai
@@ -377,11 +377,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.crystal_1.4.1_iphoneos-arm.deb
-Size: 1059532
-MD5sum: c2439f74a92053b83000c6b7e866e018
-SHA1: 060af5f7da4cc1212bbaadb85858960159c020f1
-SHA256: d54ef872697bfe89b24d433cb9bea15c322dddb1a06f7cd0b1cd897096ea0af0
-SHA512: 9b3c16098783f467c3c70b39777ac059c060965e7895354b17317f4a3bd0c0fcc02c6bd147de8ab8f46e1eb8c9ce7c65f661a469c03dcaa0e81e984537d93ecb
+Size: 1089908
+MD5sum: d21a8ed08e99e35c5ba2967cc8582858
+SHA1: ab546cfa8f089fb32ec21780bc719562ae5db434
+SHA256: e0547ab47897d9fd5e2681a58d8367b7a2f5850af9c5b94753519ef7a121df8a
+SHA512: 9d55171a81b2845b207362287ce5f9d02a94c9b96853e8a77ef656b102ac9bbce566926733b1a20832f57bafdf12f588758a68ab711e06b7ec4549fe2daf5064
 Description: Kulaklıklarınızı daha akıllı hale getirin.
 Name: Crystal 💎
 Author: Litten
@@ -396,11 +396,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.dejavu_1.3.2_iphoneos-arm.deb
-Size: 1752552
-MD5sum: f6b65996511c1397d79b4014cf3c25c3
-SHA1: 414fd872fd3c84193b5c59dfc0b6332da9ea898c
-SHA256: dc12060ca104034837cebfdcbbc71db8779a0c297d557f147c0d9fc20b9d2716
-SHA512: fff95e0f1a9e12e946ed0c4e929fcc5b73ffcb0d47d237a5fed0119672f5edc10da49f5d98f8a621457dc9c5336941c94a91f8030e0c13818778702a5294ae20
+Size: 1791224
+MD5sum: b481cc4812526ddb1a549755941677bf
+SHA1: 6eaea08ebc286dbdff8e1bd033147d273fd93b30
+SHA256: b0b093242a41639ca1fbc0d301b97dc3a62639e410a676c3414b5ccdabd4a621
+SHA512: c659e8e5053d09455d8128539c4c973873dcb33d3bfef1852970a998d5a3f1f9a9a3b0efae77b4d2fe975ae4127c41c9a0c5d8372ca9b2bf80c41ca5a2099c28
 Description: Minimalist Always On Display!
 Name: Déjà Vu 🕰
 Author: Litten
@@ -416,11 +416,11 @@ Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, love.litten.libkitten
 Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
 Filename: ./debians/Litten-Archive/love.litten.diary_1.2.1_iphoneos-arm.deb
-Size: 2652260
-MD5sum: 4ab424e9734b135cea839a3f470d11ee
-SHA1: 4a18a3ed0f0496824e878200872b2470f6a6c1ed
-SHA256: 75d923b00ae279e4bb8a425455b7cf5c783ac7a9e489814941c545f6392cc284
-SHA512: eb9eb1f0ae26d159f717aa206050523bba2b4e8179109517600c71f1bc443d641b137bef46ca1e03c4b5289f1ca98a80fd064c95dbfa5f74422e058148c7b3aa
+Size: 3031056
+MD5sum: 4aa07e873c01cba2a4c2b317878c365c
+SHA1: 6c446be1b4e3d6f4c9d2e9dd6569e75ad20356f3
+SHA256: ee08473869afc1c9145e550aac4dbe5b49a1a021bd252437002467d9533b9ab7
+SHA512: 3e6ccd0a6189243562efb930b2438d858308e65113000c14bc6b0fc883bdd7917c778f97c198fb083bd1a71d781ac39d4fa26fb85e0e44e1674d793426728a7f
 Description: Windows 8'den esinlenmiş kilit ekranı. (yine kilit ekranı)
 Name: Diary 📖
 Author: Litten
@@ -435,11 +435,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.dress_2.6_iphoneos-arm.deb
-Size: 996880
-MD5sum: 0859ef7748fb702825375547ed30df7d
-SHA1: 618bf6c762ec3b005ba345c28dd7bad4bbfab89f
-SHA256: be79a7d8f30d81bd82cb809390b17050780cebed2e930244180e38b3b2f4f1b0
-SHA512: 0981848e9299ac99b03914bd125da18b1e8b9229c4bbf333f3fc1439b9d4324550ccc366b8f6bc2548b74cf2677b29cbff522980176739b315a9def6f3919bf8
+Size: 1041654
+MD5sum: ff34d4db2142148089d6723221162812
+SHA1: b13b77be56d83cc5790cae94e8a0bcc374aed9d5
+SHA256: 285835e6a29357449c101d5555c4b0d0b32a2dcf9add9211f80f415d659de70e
+SHA512: 2d2e7ddf54f33ad420e83cf93fcb53d6a4f4b17c0ae66dc5cc1b5606d76bb9fc60b178bc3ea60b26bdbb280b4a3f254df79a3f2d3b1ffbe8db40a85a8c73c55a
 Description: Daha fazla kilit ekranı özelleştirmesi (evet yine).
 Name: Dress 👗
 Author: Litten
@@ -454,11 +454,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.eneko_1.1.2_iphoneos-arm.deb
-Size: 992460
-MD5sum: 4dc41ab31e0a55f9397e1e4d30ad8887
-SHA1: da4a6f906160169c9417cf2d9af0fdda1f9214aa
-SHA256: 6176092a01ba6c3e15f4a5520cf0d02c22b9d4b86522e7e15a99520919fadee4
-SHA512: 98231e2bdc891bdb1a89ee3eb45cf50be94a53e96719b4ef5c580dcf73701b912291df7dab022eaa859bfde213fc534999022a61d55ce63797323a7d215d7eac
+Size: 1027226
+MD5sum: 97d8e1e81e13fc5f079a9a009a138616
+SHA1: 165db6bb21db2b282a9aae90b97005695aa83003
+SHA256: c62256dfeec6557e97c5268735826f083b59cde1e5dc509d82c4c8ec245bcb22
+SHA512: b871498ca623e9459143f4ca6b1a9d239478a55f2873c327ddc4cec19f93dfd34028430cec05e0d6edd569affcb53618606d12865e22e3f19b6f0a21005100bb
 Description: Videolardan duvar kağıdı yapın.
 Name: Eneko 🎬
 Author: Litten
@@ -473,11 +473,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), love.litten.libkitten (>= 1.1.1), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.heartlines_1.5.3_iphoneos-arm.deb
-Size: 1173696
-MD5sum: d05c546ae2320e008f7ab637a351a4c5
-SHA1: d75b27c3998e42cf5d47edc655c5d16f032c8147
-SHA256: 277eab5941f3e2e0c76903d33ff4afccf9fdab22841976dbd9d95cc84d37470f
-SHA512: 501ffd8f93ae8ff0df169d43aacb0eacbf1b645621dcd8091692d55ea1b68bf5dcbbd2080ce9c42147c2fd2d958397a521c8815a6fb91be2363052c783b6c2db
+Size: 1244100
+MD5sum: bc0788434d940652c8eb52db54d947c5
+SHA1: d2c681a538b6d03204b27a7d6fa475f28b9b2919
+SHA256: 9dfbc1b21aa1eb52954b5d7b92c7906e2f4f18d203ba1f2806b663b4c27a3052
+SHA512: 1240a7e85330fe6be8cc0b07741698cfd8ede1898bac28f27632d605921fa60088630fc163d7c2990c3d7c51ef8c2d08f15e358374ea46acd17e879cfc5d54af
 Description: Daha fazla kilit ekranı özelleştirmesi.
 Name: Heartlines 🌺
 Author: Litten
@@ -492,11 +492,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.juin_1.1.3_iphoneos-arm.deb
-Size: 1006696
-MD5sum: 34e6ee84a0019ada3aa76448e1f6f048
-SHA1: 1c5596f8e0c8ae33049c8003026719cf53f06740
-SHA256: 764a8f813b59225c794409f0f2a5f20c51d70434e416cbde47fc4acc0076b760
-SHA512: 2c8409a1a67e2dc5cd70bea63504c52bc69f9912dbf71a4b05f5a5a52f6ced93abefbf3ba2f1160b68966b62fffb93ca39605ff5792e27e97ecd0ce3c11ed80f
+Size: 1048650
+MD5sum: 7dda83a7241eb3b9c7c9d6339b4ad39e
+SHA1: 728eee9e294250e91657d839ea80d7cab92d6ff3
+SHA256: 233fd5c5c04c5dd1cd404a23ed7110b9171c24c90efd6b4b6a8c95d35b87c46f
+SHA512: 45b2ed6d45ccb3751117d56edd75fc75ce114471cfc7b9179cfdf3c576f26e2e1e7d603d267b8c164e5f881a5a50cbb662188fa45e493eeabae7a1287cd85d38
 Description: Spotify tarzı kilit ekranı.
 Name: Juin 🏖
 Author: Litten
@@ -531,12 +531,12 @@ Version: 1.2.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), love.litten.libkitten (>= 1.3), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.liddell_1.2.2_iphoneos-arm-objective-c.deb
-Size: 484268
-MD5sum: eba56f4f7f3c883dd3dff25eda482ae7
-SHA1: 07970788858fa35b045e658aa8fcd6bdb914147a
-SHA256: c4a623d6da64badfd09e3ff235f3d983167179f92393cec4fbf0dc8f308287b7
-SHA512: 5ebf5d02b909370f778c52d252e0f5aa0d18b17af9ce385dddfb77aec6baa94e79e645ee06465aa244288e86c296774ec12569839f673d7203c4bcdcb39e01f7
+Filename: ./debians/Litten-Archive/love.litten.liddell_1.2.2_iphoneos-arm.deb
+Size: 531104
+MD5sum: 28864b592e89dfd4a0658f9023b495f7
+SHA1: bb7955e18e51c8188cc880c3061ba7d64c7d590f
+SHA256: 7c5b743e421d257efb4dbd8af2afa6ae7fe67f08e02707b4d373eb74ae34a4f9
+SHA512: 0442c083fbfdd834d351be0d82ad5600d43ce538773022906f205705760decf1d4c987b8818ab6a2123019438549680ed05293ec32fe6440f2aea426f2e6ecfe
 Description: Denemeye değer bildirim değiştirici.
 Name: Liddell 🫖
 Author: Litten
@@ -549,11 +549,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.lisa_1.5.1_iphoneos-arm.deb
-Size: 808340
-MD5sum: 759e7e1a2df3e0c061a5625134409397
-SHA1: 2dd3140cb110d19488025499853cfe3873a0dcb7
-SHA256: 52b6087355fdbd7ea14b8f99055a1ed661808ce8974ad9d151ac87a7c938288e
-SHA512: d1755357aad4a9ac796af3208ddc4b13ed2ea922f190975deb4561a22588b8c3c529dffc63ff5b3cb060985d1ba724e81e80341058e3d2e7f2d235eee75bb116
+Size: 849678
+MD5sum: 5eaa12d8f42d9232d9c2d4490b0894d8
+SHA1: 7913cc983b23ad8873d687032700e6f4f5e5f7d4
+SHA256: 55a88da669563e7b0c5be1bf183c12234b91c5130fdb25e27841ae763fccc1ab
+SHA512: 3269782e1e4a6a015900c71002f872b0df8ca59d047a9424334accd38c31ae66d3b3549d0c2e671a7f8509bef67761e51a31871faab684bc999c16201ffee65c
 Description: Kilit ekranı bildirimleri için özelleştirme.
 Name: Lisa 💅🏻
 Author: Litten & Esquilli
@@ -568,11 +568,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.lune_1.5.1_iphoneos-arm.deb
-Size: 975796
-MD5sum: aae88639e219cb3ed2c7e04c16829907
-SHA1: f84ded4a33e97f711ab0d196804d38ac7aec6cc7
-SHA256: f751147ee793be03558ef84ac5853f0bde475256254621101f12d9218e975b27
-SHA512: 9a02fd43e0453dd77323230217bcda46466a046e588c7e4463677b94f7d2ca5b4969e36aea588725689ef3159915fad87ba8622d81166711e80ef471bef7342b
+Size: 1011104
+MD5sum: caff4096bef6949ac7b4fb12a4924057
+SHA1: 431edd68c8c35391f0887fbbe40a5913af106232
+SHA256: ca5cc19735ceba86d7cb2377c8386143fff58459a6abc0ff5d9c23ee777c8add
+SHA512: e55e68d48608059c847bd12557f3867c57496540252a2323560df5c4c55293d37a21646d9e171f4d0c5caafbb9174e799d9d7f6f8c55b193bbcbd97bc278bb1a
 Description: Rahatsız etme bildiriminden rahatsızsanız bunu deneyin. (Benim favorilerimden)
 Name: Lune 🌙
 Author: Litten
@@ -587,11 +587,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.peterdev.libpddokdo
 Filename: ./debians/Litten-Archive/love.litten.nita_1.6_iphoneos-arm.deb
-Size: 894760
-MD5sum: d4b574ca99ea91836fef78425d28732f
-SHA1: b0f691481735a99cd910e024c221b93921c190f9
-SHA256: 6b4bf60c7ced4634ac6b616206ba06d30908594d4a174dda58817c3c6c8b348f
-SHA512: 7dfcd1e5f6c9b31dbdf82e1105b0757864388a5880d93a2b16ff5a97c3fea13349871cb4d907da69e7c7c76f68961528107693b16c3033d50bb6c833d953e94b
+Size: 925892
+MD5sum: d13846a2d5a4eba1828d202b630a635b
+SHA1: 6f9948147ee6344e84b2ea7bed7e87029d595c2c
+SHA256: 29355d2b5cd2ee9bb4664b94d32bb9b61194d0432e02095f10cd4cef50043483
+SHA512: 04ca29146fda560177bc52b1f8d95aeb790a45479a9ee4e854e012ab566529ef83357dba37cc869f4984e09817e6c42270556ea00232eb7c30648c770e7b87b6
 Description: Saat barında Hava Durumuna yer açın.
 Name: Nita ☀️
 Author: Litten
@@ -606,11 +606,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.opa334.ccsupport
 Filename: ./debians/Litten-Archive/love.litten.puck_2.0.3_iphoneos-arm.deb
-Size: 1773468
-MD5sum: 95ba83c4356b01eecad3469c41973777
-SHA1: 6a8e041c224f582ff5f07f528aa3fac5ef46e143
-SHA256: 5e8598420f4078963901aaaf8beff9ae001f31a80ee8233ca3094930778d1d36
-SHA512: 91f62e727e6964adc00e6da3f0cd77e3590652e67cad17439fc563a94de042dec13135ad4d89563ceba9cb5ca3affd5f6a2e34d5b6b64d4dd8c49a4f88d9d579
+Size: 1824106
+MD5sum: 45582ea26ffb3d9ecfaecdc046b0f013
+SHA1: 0dd0155761f727817cee4e1f1946b7b321956c51
+SHA256: 0e8ff0d1a46ee6d39f733dec8d5cb895e1a1584dd71b2c68b914c905acf28a3e
+SHA512: db5c0a1ad6084b9311669907d2cb3e7d59d72540142b3a19e83bd95ca00b30b2fe94cd10f881cfdd88e97b330ef77b66b9daa3dca2a4d8a42a5f0762361970ff
 Description: Pil bitmesine unc0ver için imza beklemeye SON! (Benim favorilerimden)
 Name: Puck 🔮
 Author: Litten
@@ -625,11 +625,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.rose_1.0.9_iphoneos-arm.deb
-Size: 433276
-MD5sum: ce7b16e626b86fe2c29ede8d44ef3f8d
-SHA1: 80a6fdade1490b1daf3b84bf9c6c69dd3e4ddf73
-SHA256: a75e53058316381952d7b11cf8ac02464944c399177e923fbad817ed452723ea
-SHA512: 6d5c09bfc366f66124e28e473818a09c5c63b19eabd8e8fcd634989c2af2e28bdf95877e0fc77637fb1d6be7378ae1cc43c05a7514775454a9c5b71ab335874c
+Size: 547418
+MD5sum: 2f8777ae4574b4304a4aac3062ae458b
+SHA1: d36e1be36050f2cbab6c92a9a1ab6e4524913199
+SHA256: 09cfe513b96407c2280736974db6edca0016b5957e75e249c225af79ca3947fd
+SHA512: c58e58e05b43962b1882cb1eb8802b2a3aa741410afcaf17bc371356053727257c4b2de18f2cab54970bc13b4f2bfdf62e82eca5434abd9c807f848b3cc9095e
 Description: Cihazınıza birazcık titreşim ekleyin!
 Name: Rose 🌹
 Author: Litten
@@ -644,11 +644,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, love.litten.libkitten
 Filename: ./debians/Litten-Archive/love.litten.safariwallpaper_1.5.1_iphoneos-arm.deb
-Size: 945544
-MD5sum: 9f713eaeaa52fb5883a3e5c8632f7691
-SHA1: 7a74c66410c4834dfe65787b1b11b3b3ceffe1f6
-SHA256: 37a2f67b65b0a552e5352403d837532b8c9734e50329bd99dba4dec443b23ab0
-SHA512: 3ce40fc4a23476d8daea7399a569a4e24eee1be69d52cef00d4923448e26c446d9db307fe290965500f446fd06bb89cf6cfa9de6abc9f15450078e9afe3ebd41
+Size: 978070
+MD5sum: 2c7ee13d308cecd72479322f279f2af3
+SHA1: 6dbe18f478061f8dad9d34f081015191a5476549
+SHA256: a72401ecb1ff1521fcb9d265508d07047f2698f62bca6f190ef93feeaa6cd5f0
+SHA512: 6992d74aeefc2cf2bf81629427880453f72aaa3c5d2717a5600dea512abb62116361c99fc35a917168b3d5ff2a166a987b4cb5d3a870666ae5442d28de18b49d
 Description: Safari'yi duvar kağıtlarıyla özelleştirin
 Name: SafariWallpaper 🌇
 Author: Litten
@@ -663,11 +663,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14)
 Filename: ./debians/Litten-Archive/love.litten.ve_1.0_iphoneos-arm.deb
-Size: 1867096
-MD5sum: f442b9df1b385bb08907cdd206438721
-SHA1: 39bbbc3da2f24c99d020b05c2203b530f70fd109
-SHA256: 6813b341b8f7a5c5754ea86b4f65d564ab618dc043e9adf9bf4c330d14a1ab5f
-SHA512: 68f77b11b3bf12f288cfe0ab05c40744df02be5ab8ecf2f3f0cc287d7888236bf79c692d82cb94ba2b54dccb7fce356c43cb9627c08647c2bf3c762e8ef400e2
+Size: 1942338
+MD5sum: 9639d9d41ff56abfb797f475cda0d1b2
+SHA1: a682fea416897d43ba77ecef017c750380c74d47
+SHA256: fe08a8b39f35b2c7bfeafcba72cabbb544f02143527183bb534a94d6ee2b7bd1
+SHA512: 052acd82650e1b98b2c5fadd5710fec32108b9adfd70e967700ead1bcb70e7ee6938fb799fc6f02bbc374e4018ece7ccb4a5ae862b30813eee6eee9165fe876d
 Description: Bildirimlerinizin kaydını tutun.
 Name: Vē 💌
 Author: Litten & 74k1_
@@ -682,11 +682,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14)
 Filename: ./debians/Litten-Archive/love.litten.ve_1.1.2_iphoneos-arm.deb
-Size: 1870712
-MD5sum: 9559739658680afec9db64891562accd
-SHA1: 9f217e84e5a039b5c9015d02d467753a17543238
-SHA256: 22768fb98e46c367af80828ca22ec34605f6d9ee94e89dafb5a92d7ec71f6a10
-SHA512: c7b960d89a29ced0c64ccfe28c814320b3c7476781ff573e7a72d75e4fbf00b55492cb08602e083ccb6c44980f36a3a2c7dc07b11b0b1a16badaff1f8ba5dc7d
+Size: 1949428
+MD5sum: dd2b43f5f363b1943760e8d510947818
+SHA1: 94578a38c0293866bcd1750fdf5f2f8b36336715
+SHA256: 27947cb39235ad6070cd36c690acd6f76a82e19229519ec2f8d1f9c5b15042a5
+SHA512: 4e7982ba128bef8160f92abbc6ec3264c07d0be9fd8229d41d4d38c6e4836aa543643241ee00108c7ff8c9fa3c7af31c94a07bcc355f37867a8d37eda482f8b9
 Description: Bildirimlerinizin kaydını tutun.
 Name: Vē 💌
 Author: Litten & 74k1_
@@ -699,11 +699,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
 Filename: ./debians/Litten-Archive/love.litten.violet_1.7_iphoneos-arm.deb
-Size: 1013880
-MD5sum: 5c4be9e92b3d3985df1537b6e1608142
-SHA1: 080b9ec199269d1b145a7a5a28257802948a5da8
-SHA256: 01b8dfb8f5edc5d660d600da41c0bfab569845e2213ee57fbb901580c588c27b
-SHA512: 46516994bca9f4bf09124c19e620be71300b173b0c4916ab4a2882546495f333c1effd4fbf397d1f5f0d018796233c39a64d750c2346302519831d59bc12bdc9
+Size: 1068766
+MD5sum: 5e99ebeec9a4ce7696fe1df7003cb62a
+SHA1: cd8f03bed455f0b8136a87282778d72e10165790
+SHA256: 82629d3405a2feb75a7ca598863490c0e235518d24e0f2fe29217bdb567cc65c
+SHA512: bd5e07c026fa71ac0ef5a16e0871c7ed91271b5a9dead4e658056f790ffc5851b31694208095f8653c1763639738fe5bbb425b11ff2b5b8754f920058e998057
 Description: Duvar kağıdınız için hoş bir eklenti.
 Name: Violet 🎀
 Author: Litten
@@ -718,11 +718,11 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.peterdev.libpddokdo, com.mrgcgamer.libgcuniversal
 Filename: ./debians/Litten-Archive/love.litten.yuna_1.0.2_iphoneos-arm.deb
-Size: 990060
-MD5sum: a8c78d1b2b673233c8461f0f2378f190
-SHA1: 7a3568e3d4b269739ae07edd6b0652c2d86f0e7c
-SHA256: a16a855def9c3fc944f9f7d0b535a7dec80921138d3d6d4370e0e150dbc0c2ce
-SHA512: 8bfec00a1d28479d64efd1fc1c7e918816755e08e6b8b25ee2f709fb7e9cf80daf4cdddb7bdc356c4f3baa54e388c101f48f68cf607f322f45ea248474793fbe
+Size: 1045328
+MD5sum: 141c516cd3dde65618e4705bed532f17
+SHA1: c92572295735a28896a5bf785f3b79393a8cfd07
+SHA256: 2f5029d3fb083bd188f8046d56ba87ee0f735eea79460f35d7faa32bc79ee44b
+SHA512: a25e3beefc73627dfdbba596864e9bd4f05016a28aeff98ea62b32b542d4f89cd114f8dc7b155a3d49f527369d6e70a66bcfcf2e7c836dab0721d4214f5910f9
 Description: Biri bunun ne işe bilen bana da anlatabilir mi?
 Name: Yuna 🍃
 Author: Litten
@@ -1239,12 +1239,12 @@ Section: Tweaks
 Maintainer: Deliturk
 Installed-Size: 131
 Conflicts: com.trappledestek.adblockplus
-Filename: ./debians/Tweaks/Adblock++/xyz.trappledestek.adblockplus+.deb
-Size: 5944
-MD5sum: fd2687326edb09929d8f954f835a018f
-SHA1: 04effeb1b79eb8ff0202c6377bffd35f3123a0ba
-SHA256: 4d86bda2e96dcca3419073d10acbadfb5448c5b9c093db1d954e66b33d30cc24
-SHA512: 96f89e018c2d197538fb7579c301365f497b24241ee1318686c29aedfbddfe7c495efa91dbf206e714c451c7c89ea78f562429b5419b721b79b635f9549e7090
+Filename: ./debians/Tweaks/Adblock++/xyz.trappledestek.adblockplus+_1.4.6_iphoneos-arm.deb
+Size: 8716
+MD5sum: e599f9230fb8fb500778880731399e9d
+SHA1: eed86c7c651d44c24eb53840d01d1f58c80ac170
+SHA256: 20f98d70965f56bdf1c0f212e5ef08709853ff4ee772986c4dffcd889617ba33
+SHA512: 0f9fd29376138b527f5b83de2c2cb045ca4d06f202813e138eba39969140476f8fd50dfa41d33680ea062bf8e99b5dd35d4f3caec74fab01a4aea6381133d1fe
 Description: Uygulamadaki reklamları engelle
 Name: AdBlock++ (Eski Sürüm)
 Author: Adblock
@@ -1259,11 +1259,11 @@ Maintainer: level3tjg
 Installed-Size: 352
 Depends: mobilesubstrate, preferenceloader, firmware (>=13.0)
 Filename: ./debians/Tweaks/AirPodsGlyph/com.level3tjg.airpodsglyph_1.4.1_iphoneos-arm.deb
-Size: 16328
-MD5sum: 224f65a62e13134a6ab36d34f27de7fd
-SHA1: 5ab600a7defc84a9315dd4db7e1806442c05083f
-SHA256: 8e0df629fb1b3f71e72e581b9250696c6e1a3b06dccab92ab7ab919246aa17ed
-SHA512: 81a1af2e7b3ca00cb5a69967d93d5ef10bcd706f20579df41292326c1728284aee31b4a69ed64b2c52d2324dc0c4cb243235b6cef632f0cee27051d73083e571
+Size: 24342
+MD5sum: 8f43a5eb39da1f5f8fb390a0c4eb9207
+SHA1: ceb914eec59036356074d0d5e1a6e7a0f7f3c80a
+SHA256: ec6c2f229c1e7ab6381b270a02eb879efd64cadc3e176e35cbfdf72bfd9ce9c6
+SHA512: b25f87fe2441774ed9211eb107d665b954c3b0e6b186fd268c231c7e63f49c01a923a29f8e52f404e5e1f231f0c8f2ff86e1dc16617a49e2f93bd340d134985e
 Description: Replace the Bluetooth headphones icon with an AirPods icon
 Name: AirPodsGlyph
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.airpodsglyph
@@ -1608,21 +1608,21 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 623
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debians/Tweaks/FakeModel/fakemodel_1.1-3.deb
-Size: 130142
-MD5sum: e24a6b432b8af3602111236428901f12
-SHA1: a0cae09b9a6746c357204eea54992242152956a9
-SHA256: f20816a822a2c7e50dc81d257521e87c74940f68835cc27adc1941da20bb8c98
-SHA512: c5918e97fa43034c0bc70c49688de5d298abd761c646c8e93c467701482af4d909411fec4a278887128e840a30408e04c756917550325ca2825f879400e100ce
+Filename: ./debians/Tweaks/FakeModel/netskao.fakemodel_1.1-3_iphoneos-arm.deb
+Size: 182492
+MD5sum: 3afd4f8768d9a7b7b358cafb79a5cb90
+SHA1: e9068a705dcc5333aeaebe6af069fde79746824c
+SHA256: 1994ad992348d9f3e967481b62228577b720e8a117e2bd994f4489d3a1b62ed7
+SHA512: 17237a70e0fff426beeaaa7a58ec199ba5f79f7d0e67efb49c6f94f72881df5f7b02acc2d9cb6182c96c49594af4398a40d6710e2a412a6dec98f0804ac6bbd6
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakemodelDp
-Description: 伪装设备机型，多用于某些游戏在老设备上支持高画质
+Description: iOS model Spoof
 Tag: purpose::extension
 Author: Netskao <admin@initnil.com>
 Name: FakeModel
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakemodelDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: netskao
-Icon: file:///Library/PreferenceBundles/FakeModelSettings.bundle/FakeModelSettings@2x.png
+Icon: https://turannul.github.io/home/resources/fakemodel.png
 
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm
@@ -1632,11 +1632,11 @@ Maintainer: ichitaso
 Installed-Size: 352
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
 Filename: ./debians/Tweaks/Hideserial/com.ichitaso.hideserialnumber_0.0.2_iphoneos-arm.deb
-Size: 51250
-MD5sum: cba0bd031b94d445af2bddbeeae1f945
-SHA1: 7a51aff67c120518f559890b3dc0ed2c02cb08a7
-SHA256: 91fa9d72ead015b3e680c5c9202a86422bab65712facadbaa02d3c82fdc56c74
-SHA512: 0682669d33fcc996077acf179baee002e6dc2f6d4be6555c044f096eedd3215978c580177df35ee8f58725a1e56b103f5b17ec10a78b66745fafe1696e9f361f
+Size: 71288
+MD5sum: 27d8e2b1ab553ab413ae8f4c119f44c4
+SHA1: 95c3eff09b3cf48d76140485b925f58b0883f165
+SHA256: 912f72fa320e63bd7aa87fc978a81615278170b992714cae131a4d7556d6d337
+SHA512: 45deef061eecbe23e435db2323df44ac1e653ee4c3e91489f10adb5e3ac54ce6ef6d116841d10322514761cc203c434db8126e2be43ca7b92ee2e48139a1eca6
 Homepage: https://cydia.ichitaso.com/depiction/hidesn.html
 Description: Hide Serial Number in Settings About page.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
@@ -1644,7 +1644,7 @@ Author: ichitaso
 Name: HideSerialNumber
 Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
 dev: ichitaso
-Icon: file:///Library/PreferenceBundles/HideSerialSettings.bundle/icon@2x.png
+Icon: https://turannul.github.io/home/resources/hidesn.png
 
 Package: jp.akusio.kernbypass-unofficial
 Architecture: iphoneos-arm
@@ -1750,15 +1750,15 @@ Installed-Size: 2764
 Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
 Replaces: lunotech11.Legizmo
 Filename: ./debians/Tweaks/Legizmo/lunotech11.Legizmo_1.1-21DA222330i_iphoneos-arm.deb
-Size: 481646
-MD5sum: 635242a2e25cafec4c3fef3ba8334487
-SHA1: 94dc97386f185da7bcf07dea490ee68255af0660
-SHA256: a2042ba7763e4d664e9fecc7544c2f70ec5bab18e75917d79874763c9dddd294
-SHA512: 0e74333a81c4ce0bf7ee90d0b05da83decdd45bbb58e1591fab43891760df4dd765075cf1eb1dac8c02cfe74ba18db4455e3a3f9a281ed913ba98add613ba55e
+Size: 481660
+MD5sum: 74dbf354d3017747a693883c1beed98f
+SHA1: 246870c3ecec9a83c6e557c46017df30ba178455
+SHA256: a3b4900a2d7bf6f272036b1f80afcb1e0dad531606f98aaa0c0a4b9179076b4e
+SHA512: 205514ad2a78ed5b342bd5c7d64a37d68eb1d210e7200fcf32b792c349191c80ba030b4c8ceccfed51d7a284b1a884d4cc01e4a11d8f7a709c1469b250408358
 Description: Allow iOS to pair with newer versions of watchOS
 Name: Legizmo (Internal Release)
 Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Icon: https://turannul.github.io/home/resources/legizmo.png
 
 Package: com.kurrt.lifeguard
 Architecture: iphoneos-arm
@@ -1768,17 +1768,18 @@ Maintainer: Kurrt <dev@kurrt.com>
 Installed-Size: 416
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/Lifeguard/com.kurrt.lifeguard_1.2-2+debug_iphoneos-arm.deb
-Size: 132742
-MD5sum: 7c2b4844f7fc0264f327dfe6135dd457
-SHA1: 2a9f6e04fd64d99c624e6c194a166cf794c37ac1
-SHA256: 235156b7280aa473f3acb03e38c81e7a92d21cd6b56cde9a5b845ea2eaf2e15b
-SHA512: cc9fdba2eec0c84e569e16ef2ca7fea5cde61b4910972e2eea3ffebb2385fa407ad0cf5aa8b140a5ed4bf3611b8b44243402e6a7256a60d169dabf505e834b0c
+Size: 132786
+MD5sum: 94ee38dfc713b36caab81a5c0ca25d00
+SHA1: 58ee5bb435fcab586cb6aa144fd18114b7515206
+SHA256: aff1eb6daa8caaae08e986aeafa44b6c8b2176a27e2495fd6ab809e6d206352f
+SHA512: c8b0a5ccfa70aaee6133d73d8099c1fe18d9329e392812a7b815b667dc7337329d1c41c728a7220318757d6c3a6435a80e55b1bc1979776d16ecee8a78ce5ab8
 Homepage: https://kurrt.com/repo/lifeguard
 Description: Respring your device using the hardware buttons. Original version of tweak recompiled with 14.x SDK
 Name: Lifeguard
 Depiction: https://kurrt.com/repo/lifeguard
 SileoDepiction: https://kurrt.com/repo/lifeguard/sileo.php
 Author: Kurrt <dev@kurrt.com>
+Icon: https://turannul.github.io/home/resources/lifeguard.png
 
 Package: com.devvix.nocshare
 Architecture: iphoneos-arm
@@ -2217,17 +2218,17 @@ Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
 Version: 2.0.3
 Section: Tweaks
-Maintainer: Turan
+Maintainer: turannul
 Installed-Size: 2223
 Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
 Conflicts: net.tetherme.tetherme
 Replaces: net.tetherme.tetherme
-Filename: ./debians/Tweaks/Tetherme/xyz.canpng.tetherme8.deb
-Size: 441552
-MD5sum: b5958273da23a858b6ba51182f99e152
-SHA1: 40b5dc54f57323dea84573884b8716617514c72c
-SHA256: 7a1971dcc3ca3a908b59d6c915f5339f5edbade290712655da7dfa68945bfcae
-SHA512: dd429fea34d8ce243d050e3d4dcb86e54fd79ef91118ddb58c8ea5bab8263dd04aae705150635cd92532d1cb33a1ce5e6294b83d744200c8528b05a2cf5a23cd
+Filename: ./debians/Tweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
+Size: 567588
+MD5sum: a0990a0635f46347b26251bee55abb84
+SHA1: 1eab8f07b1729796aafa795bff0c2bd411d4085b
+SHA256: abad67484f893f24c2ef90bf2b1aa76b931b4b68b713a6906c29383a2deab778
+SHA512: b4068273fee4f9b58151d5b6159e84552c607baed816f0aef866a0ba39c9da8fd79c92bda4d3de5d61e6d37164ea01fff4e8ad616a74ace6cb9de2ecd26c3529
 Description: Daha gelismis modem ayarlari
 Name: TetherMe Turkce
 Author: t.me/canpng
@@ -2247,6 +2248,26 @@ MD5sum: 9de13980abcca67b52ceb0a7494bc950
 SHA1: cf7a7563893028307e1a9d62fb4cfdeacbaf942c
 SHA256: e5d7124bcd545a38b0800c8bf7dac423699afcd29530cb889d0e76c7355b7d16
 SHA512: 1834b365ad9a703fd5e6a79626075170f2da239b98e5abdddde9a51a7c77bec21824e301f308689e00a844e6b00712e153f0420ee9f572a036bfb10aba0548f4
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Name: TweakReviewsDB
+Author: pixelomer
+
+Package: com.pixelomer.tweakreviews-db
+Architecture: iphoneos-arm
+Version: 1.1.7
+Section: Tweaks
+Maintainer: pixelomer
+Installed-Size: 624
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.7_iphoneos-arm.deb
+Size: 131104
+MD5sum: 179f3d14693be372017a5b7081bebc6a
+SHA1: b081de57183d57b0070fa39d06575881e1614245
+SHA256: 07f849fcb4acdda59d73e7db6912878fdd242f5e42625fcd111e813545cd43b2
+SHA512: 3aedd332f505393561a05ce42eda2e7dc63a3a795a948596b6a1c2e165d31fe9b0414c825d189ebf135a9bf02e954e69511598a4059f8b077c7eb15a4b08d4bc
 Description: Tweak reviews made easy.
   Easily read and create reviews about your tweaks with TweakReviewsDB.
   Works with Sileo, Zebra, Cydia and Installer 5.
@@ -2512,15 +2533,15 @@ Maintainer: Dcsyhi
 Installed-Size: 2180
 Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
 Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.2.2_iphoneos-arm.deb
-Size: 1633096
-MD5sum: d3b40e89f12980ffe805644d53aabe97
-SHA1: f026490db6dd106f67ec58599cae49932a8545a7
-SHA256: 1460b4e558bf0ca38d431860e293e8ee66cfda522bc63e76dcdc4bee2b158b6f
-SHA512: e823df92f601d30888b3641781afaa97c29c5e94b0ccaae1a37ef07c881dcccb5e2cf414a14734163c9c60766831675251ade0039b8942bb86434e14834a3e2d
+Size: 1705868
+MD5sum: 303b782e80a6eeeecdb2b69e59e54b32
+SHA1: 47c2eab7060e3ac8cfec218346a9aa4e64ca5e09
+SHA256: 7bdb76c9f29fad94959c721967bc4de4375c1768a3e89d20941d4fc9dd267697
+SHA512: 23772758d3b3eff1df39809271a03f93af0e4e5820d33df06b84f7755cebe59293aa5e4ed9d74f873d9930dfd478ee179211716b5b5882a27c697cd051e52e5e
 Description: Multitasking on iOS14.x
 Name: Zetsu
 Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+icon: https://turannul.github.io/home/resources/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 
 Package: jp.dcsyhi.zetsu
@@ -2619,15 +2640,16 @@ Section: System
 Maintainer: ichitaso
 Installed-Size: 572
 Filename: ./debians/Tweaks/vnode/kr.xsf1re.vnodebypass_0.2.6_iphoneos-arm.deb
-Size: 329950
-MD5sum: d74410df79cd7826dc5a5ecf2135e46a
-SHA1: eb9d85c41e325f79a386ab6d1ba3a29b3d60846a
-SHA256: 0fec23351b920621ee7c84ce6748dd8ef2aad3e61809fe4cf00b784184dcfb93
-SHA512: d17ea93658653321f5736d894e2678e3222a25071e4ee2a6ab0041b2ca6f246cbeade5144b802b14c3d84eced862f17a1acbc940091b8ea7f30f2a5ece3a8406
+Size: 345638
+MD5sum: 4f351982d30536fac7023a496bfeaff8
+SHA1: 7586e4ecbfacc480dcf5e4def4443ca74361b2ab
+SHA256: 0b14365fa4c2b2c8c2377da3b502a205c527a48aad0a04cd7ded89b29c7d8071
+SHA512: d7f7760e3ed93d46ec77b76753ebbf28133661fbd2ce2881a00c33b4c7659b6dccffa17ae32b9e2768f5dc6671eb6524a2f82ab7e01cd500a152f4366e745ee2
 Description: An expermental tool to hide jailbreak files for bypass detection.
 Tag: role::hacker
 Name: vnodebypass
 Author: XsF1re
+Icon: https://turannul.github.io/home/resources/vnode.png
 
 Package: Appcake
 Architecture: iphoneos-arm
