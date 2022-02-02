@@ -2782,15 +2782,15 @@ Section: Utilities
 Maintainer: Samg_is_a_Ninja
 Depends: firmware-sbin, rsync
 Filename: ./debians/Uygulamalar/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
-Size: 1179304
-MD5sum: 9183c09c38e94fa35e0e09cf4bd3ea4f
-SHA1: 5e9635c6bbb04123cb46655a8005d54b262cb3e9
-SHA256: 1884e5bcb0e72987c0845b27a8faef76b0d325fa14bb9d2fa908993ac10b95b8
-SHA512: 073987ef9c10500eaedad7569ceaa685194be8eeca9e0b836a8a3a73213bdbb411e0003a03752ed3a80ec4851e4796169a8233f840c45fd8b366b6b465b0a8ff
+Size: 1179332
+MD5sum: 8123588c1b4a65a9ad301033887ca017
+SHA1: b6ae8215319204969d3ee58ab01070bbc11e5399
+SHA256: 9f38291fcb35a167d815312aa7df5eca3b8ccddabeac4e45a1633e2efea21af0
+SHA512: a9ce946564d5b0d4e96b30b5cb025c26b3174171f0ed6b60a7dea68014db974bfe9f80518a091ceaa18f78668703f02b96446613b784fa0356a46b2cd1ce6418
 Description: Restore without updating via rootfilesystem DMG
 Name: Succession
 Author: Samg_is_a_Ninja
-Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
+Icon: https://turannul.github.io/home/resources/succession.png
 
 Package: com.spark.snowboardapplication
 Architecture: iphoneos-arm
