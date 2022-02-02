@@ -1298,16 +1298,16 @@ Maintainer: turannul
 Installed-Size: 1791
 Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
 Filename: ./debians/Tweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
-Size: 945670
-MD5sum: 94d1fefae09e4be7db3b00039e1ac89e
-SHA1: 2196695eb6db9df77d6e67fdbfbb3c715a14cbc2
-SHA256: b3ba666ec1f44b503dd1c733033a6782f4a68e265b746ee73ecc5af1b180fd68
-SHA512: 9f3f1b4f548cb5c21f246f53a1cf82cdd3421fa733b16b48cc2bba19b7e91a3a6d90ac35158fcc4dd198a87799a4bec23853a3a43194783f80ab8b994fa9cc2e
+Size: 945648
+MD5sum: 22a34549e2e60a0367014bd6c527aa88
+SHA1: ad56fcda94d45567990f0a3b3e66f8f0063eca53
+SHA256: 2481fd6ea05ca377ec2584e4abd6fe2fe32aa45b1c8194d478aadabc3d4c6d94
+SHA512: 0c120588d9574ed60ff0888dd760fab088d02640dbd97eb14e21ab56bafdb9f39916c7d1c02fd6566c56faff49546786aeb2e9afe355fe8a7859885444d25f9d
 Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
 Name: Appaze 2
 Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://doms9.github.io/html-info/appaze2.html
-SileoDepiction: https://doms9.github.io/info/appaze2.json
+Depiction: N/A
+SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/appaze2.png
 
 Package: xyz.trappledestek.appstoreplusplus-iOS12
