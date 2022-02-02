@@ -2197,23 +2197,6 @@ Icon: https://paisseon.github.io/info/satella.png
 SileoDepiction: https://paisseon.github.io/info/satella.json
 Depiction: https://paisseon.github.io/info/satella.html
 
-Package: ovh.exerhythm.speedruntime
-Architecture: iphoneos-arm
-Version: 1.0-2
-Section: Tweaks
-Maintainer: ExeRhythm
-Installed-Size: 200
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debians/Tweaks/SpeedRUNtime/ovh.exerhythm.speedruntime_1.0-2_iphoneos-arm.deb
-Size: 22418
-MD5sum: 66e24d021b263933a5fd5cb87311f0ff
-SHA1: 29142641112944eeb3fd31ed5ff9388a92eb85b0
-SHA256: 34899f4e7c3d5995cd008d76f6199af96fe296f213fa8ad66d26ff8f9e7fea15
-SHA512: d77acff1ced470b972171832b768044fb0acc5b5b640704a7e07c54a1f06f49ffef58edf0cbe7adf2591f05140b7d7d03b8cc37400a9360723fc0a9e3849631e
-Description: Shows a popup when a device reaches 1% battery... not in a usual way
-Name: SpeedrunTime
-Author: ExeRhythm
-
 Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
 Version: 2.0.3
@@ -2733,16 +2716,16 @@ Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
 Package: com.ichitaso.nonceset143
 Architecture: iphoneos-arm
 Version: 0.0.5
-Section: Utilities
+Section: Uygulama
 Maintainer: ichitaso
 Installed-Size: 924
 Depends: firmware (>= 12.0)
 Filename: ./debians/Uygulamalar/com.ichitaso.nonceset143_0.0.5_iphoneos-arm.deb
-Size: 125074
-MD5sum: c09de86cb2fb277fb3889203362810c0
-SHA1: e68e3157b490c27d05735851fd9519f0d8306f56
-SHA256: 82f118fb29488f420a1e31ab4bca1937bf578fcda6b86decefbadd5a60240537
-SHA512: 01b390066c88da77e4019ee45426165f2aecdef29896bb6d8d363c7ec24dcf43d7eac8b668215263965692e188880912266c8e30aa87f89a9cd0f0a8bb9d9492
+Size: 198436
+MD5sum: bd98adb94f0a6184ec94183e9f0f2bb3
+SHA1: 277ec7ecc3b280c798ee331be8663ae98b4c72be
+SHA256: 7b6f9dcbbddf509247cd36e15bc06f9c37658a5ad2b322bb20cb1ee9d420a282
+SHA512: 9617808209d6908d46b3836d69152d72b4f2232e7afb25eee328e4066a33eebe6dcbd3540dac76c79936785e3c3abbbe10e1ff245bfebc80f9829cfafaedd104
 Homepage: https://ichitaso.com/
 Description: An app that set of generator and gets a ApNonce
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
@@ -2750,25 +2733,26 @@ Author: ichitaso
 Name: NonceSet143
 Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
-Icon: file:///Applications/NonceSet143.app/AppIcon60x60@3x.png
+Icon: https://turannul.github.io/home/resources/noncesetter.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
 Version: 4.0~beta10a
-Section: Utilities
+Section: Uygulama
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta10a.deb
-Size: 2908956
-MD5sum: 7a00dc7379777bc72f200b167a52e435
-SHA1: 61807b57dee0e535d88648478df186cb41f5ad6e
-SHA256: 9ea60a41ee15f1c5acb1cea02716a553d40cab3b8f4679bf336c982fee9af97f
-SHA512: 151e99cd5fb340983891d3d7e8e1f1f50d311dba8432628458c0bca9568527ec53f3cc08a7f25891801139bd7fee3caaa92a9e6f96369dd69c07d53da7cde500
+Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
+Size: 2908998
+MD5sum: 005d1969e33e1bdb0fa7845eb580de72
+SHA1: 6d069cb392310e596ba72acb9d61053766587b95
+SHA256: 8d05162aac74ba4fd3400766ef2edbb4fc4ee0d335314453cb17b0bd968efd37
+SHA512: 96a6bf715cfb71be0781b778ebbe4e4a3c050bba629d1c9ae486752d1f00f601d7700b8fbd9e07d844d8e6360f62fe342fbe9c461d68c66cfe5f51b28a915d1a
 Homepage: http://twitter.com/ijulioverne
 Description: Crack Tweaks on one click
 Name: CrackTool4 (iOS 9 - 14)
 Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Icon: https://turannul.github.io/home/resources/cracktool.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
