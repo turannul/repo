@@ -2674,6 +2674,25 @@ Depiction: iPhone / iPad için Uygulama imzalama aracı.
 SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
 Icon: https://turannul.github.io/home/resources/esign.png
 
+Package: com.geosn0w.iSecureOS
+Architecture: iphoneos-arm
+Version: 1.24
+Section: Utilities
+Maintainer: GeoSn0w (@FCE365)
+Depends: firmware (>= 11.0)
+Filename: ./debians/Uygulamalar/com.geosn0w.iSecureOS.deb
+Size: 1578832
+MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
+SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
+SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
+SHA512: b9f4257c220012124a11ed939e61d2051e8e776d8aece2d3bbde7dbb7851f6d4bc86f56aa146324527f1c330e52409da792f374986be777c8ab22be4c578c342
+Description: An iOS Security Application for Jailbroken units.
+Name: iSecureOS
+Author: GeoSn0w (@FCE365)
+Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
+Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
+SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
+
 Package: com.ichitaso.altstore
 Architecture: iphoneos-arm
 Version: 1.4.8
