@@ -4,7 +4,7 @@ Version: 1.0
 Section: Duvar Kağıtları
 Maintainer: turannul
 Depends: wallpaperloader
-Filename: ./debians/Duvar-Kağıtları/xyz.turannul.xrwallpapers_1.0_iphoneos-arm.deb
+Filename: ./debians/Duvar-Kağıtları/XR-Wallpapers/xyz.turannul.xrwallpapers_1.0_iphoneos-arm.deb
 Size: 22784476
 MD5sum: a7367117c24327834c23d147cb68421b
 SHA1: 4e1a9c11601b026cca4ca28ad4e71714ab5caa17
@@ -23,7 +23,7 @@ Version: 1.1.6
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.amonglock_1.1.6_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/AmongLock/love.litten.amonglock_1.1.6_iphoneos-arm.deb
 Size: 20768834
 MD5sum: bb458d75f8e556f2c944e4b0938b306b
 SHA1: c93d51c324012c4e1de2865f9cedb1a3d6038ce2
@@ -42,7 +42,7 @@ Version: 1.2.1
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.astolfo_1.2.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Astolfo/love.litten.astolfo_1.2.1_iphoneos-arm.deb
 Size: 1973766
 MD5sum: ef2054fb9bead6c45b4bebbb7c43bb7a
 SHA1: 81fb1e90b362c7a3d5c22ac1c3a2e203dc53cf8e
@@ -61,7 +61,7 @@ Version: 1.2.3
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common(>= 1.14), firmware (>= 13.0), com.spark.libsparkapplist, com.peterdev.libpddokdo
-Filename: ./debians/Litten-Archive/love.litten.avrora_1.2.3_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Avrora/love.litten.avrora_1.2.3_iphoneos-arm.deb
 Size: 1103474
 MD5sum: cccf46df495c1a273f36ebe6f5069633
 SHA1: e9a32ef068aeb8b186252ed18731ecc006991f07
@@ -81,7 +81,7 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate
 Conflicts: com.neinzedd9.bazzi, com.trappledestek.bazzi, com.blakeboxberger.bazzi2
-Filename: ./debians/Litten-Archive/love.litten.batterybuddy_1.0.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/BatteryBuddy/love.litten.batterybuddy_1.0.2_iphoneos-arm.deb
 Size: 15530
 MD5sum: fecac2fdadce9e8e2e64923094270f95
 SHA1: 242633b9396cf64f3c6587c95afe1ab7ee773099
@@ -100,7 +100,7 @@ Version: 1.4.1
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.crystal_1.4.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Crystal/love.litten.crystal_1.4.1_iphoneos-arm.deb
 Size: 1089908
 MD5sum: d21a8ed08e99e35c5ba2967cc8582858
 SHA1: ab546cfa8f089fb32ec21780bc719562ae5db434
@@ -119,7 +119,7 @@ Version: 1.3.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.dejavu_1.3.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Dejavu/love.litten.dejavu_1.3.2_iphoneos-arm.deb
 Size: 1791224
 MD5sum: b481cc4812526ddb1a549755941677bf
 SHA1: 6eaea08ebc286dbdff8e1bd033147d273fd93b30
@@ -139,7 +139,7 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, love.litten.libkitten
 Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
-Filename: ./debians/Litten-Archive/love.litten.diary_1.2.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Diary/love.litten.diary_1.2.1_iphoneos-arm.deb
 Size: 3031056
 MD5sum: 4aa07e873c01cba2a4c2b317878c365c
 SHA1: 6c446be1b4e3d6f4c9d2e9dd6569e75ad20356f3
@@ -158,7 +158,7 @@ Version: 2.6
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.dress_2.6_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Dress/love.litten.dress_2.6_iphoneos-arm.deb
 Size: 1041654
 MD5sum: ff34d4db2142148089d6723221162812
 SHA1: b13b77be56d83cc5790cae94e8a0bcc374aed9d5
@@ -177,7 +177,7 @@ Version: 1.1.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.eneko_1.1.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Eneko/love.litten.eneko_1.1.2_iphoneos-arm.deb
 Size: 1027226
 MD5sum: 97d8e1e81e13fc5f079a9a009a138616
 SHA1: 165db6bb21db2b282a9aae90b97005695aa83003
@@ -196,7 +196,7 @@ Version: 1.5.3
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), love.litten.libkitten (>= 1.1.1), com.peterdev.libpddokdo, me.conorthedev.libappearancecell, com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.heartlines_1.5.3_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Heartlines/love.litten.heartlines_1.5.3_iphoneos-arm.deb
 Size: 1244100
 MD5sum: bc0788434d940652c8eb52db54d947c5
 SHA1: d2c681a538b6d03204b27a7d6fa475f28b9b2919
@@ -215,7 +215,7 @@ Version: 1.1.3
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.juin_1.1.3_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Juin/love.litten.juin_1.1.3_iphoneos-arm.deb
 Size: 1048650
 MD5sum: 7dda83a7241eb3b9c7c9d6339b4ad39e
 SHA1: 728eee9e294250e91657d839ea80d7cab92d6ff3
@@ -235,7 +235,7 @@ Section: System
 Maintainer: Litten
 Installed-Size: 172
 Depends: firmware (>= 12.0)
-Filename: ./debians/Litten-Archive/love.litten.libkitten_1.3.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Libkitten/love.litten.libkitten_1.3.2_iphoneos-arm.deb
 Size: 9048
 MD5sum: c3d0f36e6bff7b29de0f3e09c39a681e
 SHA1: ec8eeb3c4152184d4014d3f503a21878099e0168
@@ -255,7 +255,7 @@ Version: 1.2.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), love.litten.libkitten (>= 1.3), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.liddell_1.2.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Liddell/love.litten.liddell_1.2.2_iphoneos-arm.deb
 Size: 531104
 MD5sum: 28864b592e89dfd4a0658f9023b495f7
 SHA1: bb7955e18e51c8188cc880c3061ba7d64c7d590f
@@ -272,7 +272,7 @@ Version: 1.5.1
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.lisa_1.5.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Lisa/love.litten.lisa_1.5.1_iphoneos-arm.deb
 Size: 849678
 MD5sum: 5eaa12d8f42d9232d9c2d4490b0894d8
 SHA1: 7913cc983b23ad8873d687032700e6f4f5e5f7d4
@@ -291,7 +291,7 @@ Version: 1.5.1
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13), ws.hbang.common (>= 1.14), love.litten.libkitten (>= 1.1.1), com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.lune_1.5.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Lune/love.litten.lune_1.5.1_iphoneos-arm.deb
 Size: 1011104
 MD5sum: caff4096bef6949ac7b4fb12a4924057
 SHA1: 431edd68c8c35391f0887fbbe40a5913af106232
@@ -310,7 +310,7 @@ Version: 1.6
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.peterdev.libpddokdo
-Filename: ./debians/Litten-Archive/love.litten.nita_1.6_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Nita/love.litten.nita_1.6_iphoneos-arm.deb
 Size: 925892
 MD5sum: d13846a2d5a4eba1828d202b630a635b
 SHA1: 6f9948147ee6344e84b2ea7bed7e87029d595c2c
@@ -329,7 +329,7 @@ Version: 2.0.3
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.opa334.ccsupport
-Filename: ./debians/Litten-Archive/love.litten.puck_2.0.3_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Puck/love.litten.puck_2.0.3_iphoneos-arm.deb
 Size: 1824106
 MD5sum: 45582ea26ffb3d9ecfaecdc046b0f013
 SHA1: 0dd0155761f727817cee4e1f1946b7b321956c51
@@ -348,7 +348,7 @@ Version: 1.0.9
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.rose_1.0.9_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Rose/love.litten.rose_1.0.9_iphoneos-arm.deb
 Size: 547418
 MD5sum: 2f8777ae4574b4304a4aac3062ae458b
 SHA1: d36e1be36050f2cbab6c92a9a1ab6e4524913199
@@ -367,7 +367,7 @@ Version: 1.5.1
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, love.litten.libkitten
-Filename: ./debians/Litten-Archive/love.litten.safariwallpaper_1.5.1_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/SafariWallpaper/love.litten.safariwallpaper_1.5.1_iphoneos-arm.deb
 Size: 978070
 MD5sum: 2c7ee13d308cecd72479322f279f2af3
 SHA1: 6dbe18f478061f8dad9d34f081015191a5476549
@@ -386,7 +386,7 @@ Version: 1.0
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14)
-Filename: ./debians/Litten-Archive/love.litten.ve_1.0_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Ve/love.litten.ve_1.0_iphoneos-arm.deb
 Size: 1942338
 MD5sum: 9639d9d41ff56abfb797f475cda0d1b2
 SHA1: a682fea416897d43ba77ecef017c750380c74d47
@@ -405,7 +405,7 @@ Version: 1.1.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0), ws.hbang.common (>= 1.14)
-Filename: ./debians/Litten-Archive/love.litten.ve_1.1.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Ve/love.litten.ve_1.1.2_iphoneos-arm.deb
 Size: 1949428
 MD5sum: dd2b43f5f363b1943760e8d510947818
 SHA1: 94578a38c0293866bcd1750fdf5f2f8b36336715
@@ -422,7 +422,7 @@ Version: 1.7
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
-Filename: ./debians/Litten-Archive/love.litten.violet_1.7_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Violet/love.litten.violet_1.7_iphoneos-arm.deb
 Size: 1068766
 MD5sum: 5e99ebeec9a4ce7696fe1df7003cb62a
 SHA1: cd8f03bed455f0b8136a87282778d72e10165790
@@ -441,7 +441,7 @@ Version: 1.0.2
 Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.peterdev.libpddokdo, com.mrgcgamer.libgcuniversal
-Filename: ./debians/Litten-Archive/love.litten.yuna_1.0.2_iphoneos-arm.deb
+Filename: ./debians/Litten-Archive/Yuna/love.litten.yuna_1.0.2_iphoneos-arm.deb
 Size: 1045328
 MD5sum: 141c516cd3dde65618e4705bed532f17
 SHA1: c92572295735a28896a5bf785f3b79393a8cfd07
@@ -454,24 +454,6 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/yuna.png
 
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm
-Version: 2.2.6
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./debians/Packaging/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
-Size: 2006476
-MD5sum: 9c6d562f5d3c097ce5450fad85cf9574
-SHA1: de402f69af4bbd255c4ee4a87a1d16188cfbe193
-SHA256: 21facaf703f83b930391040edbe327f3c0d8730b31c3962d974aefee421c8e0d
-SHA512: df5f602f772fcccf0789de0adafcd90142337e3a3e6d0c5802a485ebda1cd231e984232c9d18c88176ef712eb385095a790e038bd62052e484594ccf79b7a61a
-Description: A modern APT package manager frontend
-Name: Sileo
-Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
 Package: wiki.qaq.chromatic
 Architecture: iphoneos-arm
 Version: 2.1-REL-1643304882
@@ -480,7 +462,7 @@ Section: Packaging
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 30312
 Pre-Depends: firmware (>= 13.0), dpkg, uikittools, apt
-Filename: ./debians/Packaging/wiki.qaq.chromatic_2.1-REL-1643304882_iphoneos-arm.deb
+Filename: ./debians/Packaging/Saily/wiki.qaq.chromatic_2.1-REL-1643304882_iphoneos-arm.deb
 Size: 10108976
 MD5sum: 22dc06d0b1073c36918cd972093ea242
 SHA1: f26df02af55c19e77964edcbda4b035861f8eb2a
@@ -496,6 +478,24 @@ Author: Saily Team <support.0xa1@qaq.wiki>
 dev: sailyteam
 Icon: https://turannul.github.io/home/resources/saily.png
 
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
+Size: 2006476
+MD5sum: 9c6d562f5d3c097ce5450fad85cf9574
+SHA1: de402f69af4bbd255c4ee4a87a1d16188cfbe193
+SHA256: 21facaf703f83b930391040edbe327f3c0d8730b31c3962d974aefee421c8e0d
+SHA512: df5f602f772fcccf0789de0adafcd90142337e3a3e6d0c5802a485ebda1cd231e984232c9d18c88176ef712eb385095a790e038bd62052e484594ccf79b7a61a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm
 Version: 1.1.23
@@ -503,7 +503,7 @@ Section: Packaging
 Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 14616
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debians/Packaging/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
 Size: 9289720
 MD5sum: f3d37ebe399c7c15f978d516b30e8180
 SHA1: 3629ec8fa532ae3bfc7c14cedd1637179c12669c
@@ -556,30 +556,13 @@ Author: MidnightChips
 Icon: https://turannul.github.io/home/resources/relocateme.png
 Depiction: https://chariz.com/buy/relocate-me
 
-Package: com.samgisaninja.successioncli
-Architecture: iphoneos-arm
-Version: 1.0~alpha2
-Section: Utilities
-Maintainer: Samg_is_a_Ninja, demhademha
-Installed-Size: 388
-Depends: coreutils-bin, coreutils, firmware-sbin, rsync, curl, p7zip, grep, gawk
-Filename: ./debians/Scripts/com.samgisaninja.successioncli_1.0~alpha2_iphoneos-arm.deb
-Size: 34712
-MD5sum: 0b15b3305c69925199572e323a6a7793
-SHA1: 016f4e5b05f0a23ed3bc4886620c60670a17bad1
-SHA256: 99c9129336bcf2e858acb5025820f96dd24ed5c1f59a66c9d7eab7d9b159cb39
-SHA512: 494844ae06a6ab1faad036113cea931526bc857c0f07213661dba3b123da98b6b7187ed2e2ce055b6bfed1416d7c3f6b8fd623bcc8a708d67c662b2087279c85
-Description: Restore without updating via rootfilesystem DMG
-Name: SuccessionCLI
-Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>, demhademha
-
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
 Section: Scripts
 Maintainer: turannul
 Depends: odcctools, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst, zsh
-Filename: ./debians/Scripts/xyz.turannul.azule_0.5.3_iphoneos-arm.deb
+Filename: ./debians/Scripts/Azule/xyz.turannul.azule_0.5.3_iphoneos-arm.deb
 Size: 2043486
 MD5sum: bb45b5bd5f58c32ac1b51611c9746bd3
 SHA1: 1c31bf2ec03145ddaa9b87199354afb4d9f369ef
@@ -589,6 +572,23 @@ Description: A CLI tool that injects tweaks into jailed iOS apps
 Name: Azule
 Author: Alaise
 
+Package: com.samgisaninja.successioncli
+Architecture: iphoneos-arm
+Version: 1.0~alpha2
+Section: Utilities
+Maintainer: Samg_is_a_Ninja, demhademha
+Installed-Size: 388
+Depends: coreutils-bin, coreutils, firmware-sbin, rsync, curl, p7zip, grep, gawk
+Filename: ./debians/Scripts/SuccessionCLI/com.samgisaninja.successioncli_1.0~alpha2_iphoneos-arm.deb
+Size: 34712
+MD5sum: 0b15b3305c69925199572e323a6a7793
+SHA1: 016f4e5b05f0a23ed3bc4886620c60670a17bad1
+SHA256: 99c9129336bcf2e858acb5025820f96dd24ed5c1f59a66c9d7eab7d9b159cb39
+SHA512: 494844ae06a6ab1faad036113cea931526bc857c0f07213661dba3b123da98b6b7187ed2e2ce055b6bfed1416d7c3f6b8fd623bcc8a708d67c662b2087279c85
+Description: Restore without updating via rootfilesystem DMG
+Name: SuccessionCLI
+Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>, demhademha
+
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
 Version: 2.1~safe
@@ -596,7 +596,7 @@ Priority: optional
 Section: Scripts
 Maintainer: Turann
 Depends: zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_2.1~safe_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_2.1~safe_iphoneos-arm.deb
 Size: 1186
 MD5sum: ca0c64035acdd0d62e50e1961ca1c748
 SHA1: f4f8c6e832e5268bf5c436645a591d01800beff5
@@ -614,7 +614,7 @@ Priority: optional
 Section: Scripts
 Maintainer: Turann
 Depends: zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_2.2~safe_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_2.2~safe_iphoneos-arm.deb
 Size: 1630
 MD5sum: 01fd2785206f4bcde1e5286606c9958a
 SHA1: 323a03325f73c5eac06dfda4b2e6ca24a377cfa2
@@ -632,7 +632,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_3.0.1_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_3.0.1_iphoneos-arm.deb
 Size: 2768
 MD5sum: 4c87dea1b718026f123386b3b111bf7d
 SHA1: 5fd63b12f1788659cfc3c88bcca0cd70efa3a353
@@ -651,7 +651,7 @@ Priority: optional
 Section: Scripts
 Maintainer: Turann
 Depends: zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_3.0_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_3.0_iphoneos-arm.deb
 Size: 2710
 MD5sum: 7324a32f904c9b91a040b7b72dbd7872
 SHA1: 409e3cfb184eff6feaacecccbbd169b9daad4246
@@ -669,7 +669,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_5.0.1_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.0.1_iphoneos-arm.deb
 Size: 3304
 MD5sum: e65fbb203c1ca2ee2a17730c888910ef
 SHA1: 630417e0ad4852cdfa69cfd199ca5e1b6671fbe8
@@ -689,7 +689,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_5.0_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.0_iphoneos-arm.deb
 Size: 3276
 MD5sum: 8beb0b18cc498a69b745a61fae05912b
 SHA1: e1c650570a3b5cbc6e24361307896bb753dbf4dc
@@ -709,7 +709,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_5.1_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.1_iphoneos-arm.deb
 Size: 3642
 MD5sum: 88ac25183bc83945940a2e1a0a3c8b1d
 SHA1: 1ce5c708f17c28180baf8e6b2f458d96042aac4f
@@ -729,7 +729,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/Scripts/xyz.turannul.uptime_5.2_iphoneos-arm.deb
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.2_iphoneos-arm.deb
 Size: 3642
 MD5sum: 63b28b58a51e182cfbb1c2adcb68c66d
 SHA1: 07bbb138906283d5624c12508b95ae8e34f620bc
@@ -742,6 +742,40 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: Uptime 2
 Icon: https://turannul.github.io/home/resources/uptime.png
 
+Package: com.spark.snowboard.statusbar
+Architecture: iphoneos-arm
+Version: 1.0.12-Beta4
+Section: SnowBoard Extensions
+Maintainer: Spark
+Installed-Size: 460
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: ./debians/Snowboard/SnowBoard Status bar/com.spark.snowboard.statusbar_1.0.12-Beta4_iphoneos-arm.deb
+Size: 46030
+MD5sum: 785dc9dad2ed84d43c7d6f6c0e01698a
+SHA1: d4a846f4792bcd2387abfbb663d83f4a569f319d
+SHA256: b7a210b6b52fa3e050a9f7898b0290ebf8cb1895833b239684d038153aa4b079
+SHA512: 6cb50cbc7c3b6e824b500916d5915079eab904d286c1b04ecc31258ab3e4221480bf6eae5d4ef8bc01d63cbaa964999384598b03c5c3ab019246d0a4b6bb366c
+Description: StatusBar for SnowBoard
+Name: SnowBoard StatusBar Extension
+Author: Spark
+
+Package: com.spark.snowboardapplication
+Architecture: iphoneos-arm
+Version: 1.0.3~Beta2
+Section: Uygulama
+Maintainer: turannul
+Depends:
+Filename: ./debians/Snowboard/SnowBoard-App/com.spark.snowboardapplication_1.0.3~Beta2_iphoneos-arm.deb
+Size: 695378
+MD5sum: 260e0ad93c316da506e4670271780d47
+SHA1: 6edfa93c5a9a5f99a176abbd8e2cb67ae21705db
+SHA256: fe944ec09bc3a61532a8a87c4ba500a15575128dce4edd0f92afac18e804c12a
+SHA512: eaa1b2e3a08cfecfba17b2c76061c8733c04ca3879b66718027adc2a736230f28774e336b0084f6f51b9980704b18d3313e2c5c6ff349a9bb493f54784183373
+Description: An awesome application!
+Name: SnowBoard App
+Author: Spark
+Icon: https://turannul.github.io/home/resources/snowboard.png
+
 Package: com.spark.snowboard.dock
 Architecture: iphoneos-arm
 Version: 1.1.1~Beta4
@@ -749,7 +783,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 520
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.dock_1.1.1~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-Dock/com.spark.snowboard.dock_1.1.1~Beta4_iphoneos-arm.deb
 Size: 57458
 MD5sum: 15ff8f968f9d0fd0b2f5887e2092b89a
 SHA1: 517ea608b827d54f74cb7b913f754e5688799d56
@@ -769,7 +803,7 @@ Provides: com.ipr.bytafont, com.bytafont.bytafont3
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
 Replaces: com.ipr.bytafont, com.bytafont.bytafont3
-Filename: ./debians/Snowboard/com.spark.snowboard.fonts_1.0.12~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-Fonts/com.spark.snowboard.fonts_1.0.12~Beta4_iphoneos-arm.deb
 Size: 21142
 MD5sum: a5941841ae97d4f2fe077a5710f78ca9
 SHA1: cf2d13905f298cea83bfcf03ed52c32c3ec6e012
@@ -786,7 +820,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 400
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.labels_1.1.0~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-Labels/com.spark.snowboard.labels_1.1.0~Beta4_iphoneos-arm.deb
 Size: 22964
 MD5sum: ab4fc1ba517f4eceda2dc569d211b994
 SHA1: 0b42da15396a917395a93104de0f7c1084216389
@@ -803,7 +837,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 452
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.pagedots_1.1.0~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-PageDots/com.spark.snowboard.pagedots_1.1.0~Beta4_iphoneos-arm.deb
 Size: 36328
 MD5sum: b152c5d34f28448443dbb70ecc5dfe5b
 SHA1: 759d17b154c092791bbb3a4110e8ac69770ba18c
@@ -820,7 +854,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 792
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: ./debians/Snowboard/com.spark.snowboard.presetextension_1.0.21~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-PresetExtension/com.spark.snowboard.presetextension_1.0.21~Beta4_iphoneos-arm.deb
 Size: 81452
 MD5sum: 2596209b1da8363566d0bf21af7c94c0
 SHA1: ee06682558fd5b59144494c4f6a9984bfcaf3591
@@ -837,7 +871,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 404
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.0)
-Filename: ./debians/Snowboard/com.spark.snowboard.proceduralwallpapers_1.0.1~Beta1_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-ProceduralWallpapers/com.spark.snowboard.proceduralwallpapers_1.0.1~Beta1_iphoneos-arm.deb
 Size: 28616
 MD5sum: 2a8a0052644a004307de9966808d5469
 SHA1: 49d39d39b366cc32f4e034c6ccecddf93579fa19
@@ -854,7 +888,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 596
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.respringextension_1.0.7~Beta3_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-RespringExtension/com.spark.snowboard.respringextension_1.0.7~Beta3_iphoneos-arm.deb
 Size: 41728
 MD5sum: 6790e458b85966a05f3bf256da68d337
 SHA1: 41581ba711604986c19ee94adaf27c0a6db31a8b
@@ -871,7 +905,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 452
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.0)
-Filename: ./debians/Snowboard/com.spark.snowboard.settingsicons_1.0.25~Beta3_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-SettingsIcons/com.spark.snowboard.settingsicons_1.0.25~Beta3_iphoneos-arm.deb
 Size: 31196
 MD5sum: 5b125221a4eba4a2e549a4cd86e598ed
 SHA1: def29547909c5b2e3d20ab28c4d1ee529276161b
@@ -888,7 +922,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 400
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.sounds_0.0.3~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-Sounds/com.spark.snowboard.sounds_0.0.3~Beta4_iphoneos-arm.deb
 Size: 23406
 MD5sum: da0eba8282b40271057f4d0f7265c9eb
 SHA1: 7942952f3095222fc64ff12bb6b2b598249662c1
@@ -898,23 +932,6 @@ Description: Sounds for SnowBoard
 Name: SnowBoard Sounds Extension
 Author: Spark
 
-Package: com.spark.snowboard.statusbar
-Architecture: iphoneos-arm
-Version: 1.0.12-Beta4
-Section: SnowBoard Extensions
-Maintainer: Spark
-Installed-Size: 460
-Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: ./debians/Snowboard/com.spark.snowboard.statusbar_1.0.12-Beta4_iphoneos-arm.deb
-Size: 46030
-MD5sum: 785dc9dad2ed84d43c7d6f6c0e01698a
-SHA1: d4a846f4792bcd2387abfbb663d83f4a569f319d
-SHA256: b7a210b6b52fa3e050a9f7898b0290ebf8cb1895833b239684d038153aa4b079
-SHA512: 6cb50cbc7c3b6e824b500916d5915079eab904d286c1b04ecc31258ab3e4221480bf6eae5d4ef8bc01d63cbaa964999384598b03c5c3ab019246d0a4b6bb366c
-Description: StatusBar for SnowBoard
-Name: SnowBoard StatusBar Extension
-Author: Spark
-
 Package: com.spark.snowboard.ui
 Architecture: iphoneos-arm
 Version: 1.1.0~Beta4
@@ -922,7 +939,7 @@ Section: SnowBoard Extensions
 Maintainer: Spark
 Installed-Size: 476
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: ./debians/Snowboard/com.spark.snowboard.ui_1.1.0~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/SnowBoard-UI/com.spark.snowboard.ui_1.1.0~Beta4_iphoneos-arm.deb
 Size: 70390
 MD5sum: 97b2cb1fbee8f6343b730b75c0df27df
 SHA1: 50e5d683680e3aa8bfa4f62973238f2868d85bd1
@@ -942,7 +959,7 @@ Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debians/Snowboard/com.spark.snowboard_1.4.20~Beta4_iphoneos-arm.deb
+Filename: ./debians/Snowboard/Snowboard/com.spark.snowboard_1.4.20~Beta4_iphoneos-arm.deb
 Size: 1591776
 MD5sum: b75be9c7bf4881610cdfef45b3ad3d4e
 SHA1: c73ea8b19411e0d635e9c892e259bba55b253325
@@ -2342,81 +2359,6 @@ Name: vnodebypass
 Author: XsF1re
 Icon: https://turannul.github.io/home/resources/vnode.png
 
-Package: Appcake
-Architecture: iphoneos-arm
-Version: 7.2.2
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13903082
-MD5sum: 1cbf71cb2aeece90b79c01cfc7f91ae1
-SHA1: 252d71a71acdf7da4d9ea08bab43434cc6cdb6c6
-SHA256: 013fd6c97f0c77edf9c36c161dbfcd312a6608c1ae9bea1061c4952c6f3ca0dd
-SHA512: 911a5aed985d1c8043f4ccf28237557f485bb009bc36656ca7059d04a1497dc3b1d107f49699331334f1dd6fe8e16dd6d8a533d1ff79a94e4bd04f40f5a7da47
-Description: iPhone / iPad için ücretsiz iPA Mağazası.
-Name: Appcake
-Author: iPA Store
-Depiction: https://www.iphonecake.com/app/
-SileoDepiction: https://www.iphonecake.com/app/
-Icon: https://turannul.github.io/home/resources/appcake.png
-
-Package: E-Sign
-Architecture: iphoneos-arm
-Version: 4.3.4
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified, com.trappledestek.installipa
-Filename: ./debians/Uygulamalar/E-Sign_4.3.4_iphoneos-arm.deb
-Size: 5350656
-MD5sum: 525f2844d55ab088c91f8a4cab73ad2f
-SHA1: ceae0d24b89cc9f9609ed4ba709334d2e7169071
-SHA256: 462fdd92b54be7f4fea10e843b049c53c1a63f8794be4b27e048a409d1e86f1b
-SHA512: fdb9ec460df04d15974a671635410bb10e3b5cf576eb80700198d4022697e8d8555b39db3a37ef76a4ec2bdabb0f3c4be1a6212e2ea804978a1bfd7c29b15880
-Description: iPhone / iPad için Uygulama imzalama aracı.
-Name: E-Sign
-Author: Unknown.
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: E-Sign
-Architecture: iphoneos-arm
-Version: 4.3.6
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/E-Sign_4.3.6_iphoneos-arm.deb
-Size: 4500594
-MD5sum: 6b743555f27fde77ab02bf0807d4e870
-SHA1: 3cda4a80d008f4ae5dcc1fadddad0bda83c6a71e
-SHA256: 7007a468dd9afadb40b8e8b2a73a20ea3349c207f610d4906f530628e32562db
-SHA512: 1968d1f2923b87af493a945fad190eb9923792c97f934b6a98510d77b588098d9d15c0684275aa7f3a5bee51e4d78fd94ca8d31a108dcc0ff4c462e34974237c
-Description: iPhone / iPad için Uygulama imzalama aracı.
-Name: E-Sign
-Author: Unknown.
-Depiction: iPhone / iPad için Uygulama imzalama aracı.
-SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
-Icon: https://turannul.github.io/home/resources/esign.png
-
-Package: com.geosn0w.iSecureOS
-Architecture: iphoneos-arm
-Version: 1.24
-Section: Utilities
-Maintainer: GeoSn0w (@FCE365)
-Depends: firmware (>= 11.0)
-Filename: ./debians/Uygulamalar/com.geosn0w.iSecureOS.deb
-Size: 1578832
-MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
-SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
-SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
-SHA512: b9f4257c220012124a11ed939e61d2051e8e776d8aece2d3bbde7dbb7851f6d4bc86f56aa146324527f1c330e52409da792f374986be777c8ab22be4c578c342
-Description: An iOS Security Application for Jailbroken units.
-Name: iSecureOS
-Author: GeoSn0w (@FCE365)
-Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
-Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
-SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
-
 Package: com.ichitaso.altstore
 Architecture: iphoneos-arm
 Version: 1.4.8
@@ -2425,7 +2367,7 @@ Maintainer: ichitaso
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
 Replaces: com.ichitaso.altstore
-Filename: ./debians/Uygulamalar/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
+Filename: ./debians/Uygulamalar/AltStore/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
 Size: 5192014
 MD5sum: 9e1b623d77327386bed02f7971b55288
 SHA1: 26e7c10e742f8cded6f8dd764131edc2eda8dd71
@@ -2440,27 +2382,45 @@ Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 dev: Riley Testut
 Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
 
-Package: com.ichitaso.nonceset143
+Package: xyz.turannul.altstorebeta
 Architecture: iphoneos-arm
-Version: 0.0.5
+Version: 1.5b3
 Section: Uygulama
-Maintainer: ichitaso
-Installed-Size: 924
-Depends: firmware (>= 12.0)
-Filename: ./debians/Uygulamalar/com.ichitaso.nonceset143_0.0.5_iphoneos-arm.deb
-Size: 198436
-MD5sum: bd98adb94f0a6184ec94183e9f0f2bb3
-SHA1: 277ec7ecc3b280c798ee331be8663ae98b4c72be
-SHA256: 7b6f9dcbbddf509247cd36e15bc06f9c37658a5ad2b322bb20cb1ee9d420a282
-SHA512: 9617808209d6908d46b3836d69152d72b4f2232e7afb25eee328e4066a33eebe6dcbd3540dac76c79936785e3c3abbbe10e1ff245bfebc80f9829cfafaedd104
-Homepage: https://ichitaso.com/
-Description: An app that set of generator and gets a ApNonce
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
-Author: ichitaso
-Name: NonceSet143
-Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
-dev: ichitaso
-Icon: https://turannul.github.io/home/resources/noncesetter.png
+Maintainer: turannul
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Replaces: com.ichitaso.altstore, com.trappledestek.altstore
+Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
+Size: 5202368
+MD5sum: 58a18333f718cf710f3ab524543612c3
+SHA1: 2af0e18194db3ae8f8204770292249622cef5c71
+SHA256: a581e5c03aa7a43db01ae0c42f778fa5040823065bc5d384d3a9b32677c7719d
+SHA512: 4e185b17e27fbba16d3498ac24fe18d7e09d453fbc8bf306006a44c0ce54e10dcebb40228469948294f422ccf94309c435874cd5ce4ef7912197e4d5c198376f
+Homepage: https://altstore.io/
+Description: AltStore Beta
+Author: Riley Testut
+Name: AltStore (Beta)
+Depiction: AltStore Beta
+Icon: https://turannul.github.io/home/resources/altstore.png
+
+Package: Appcake
+Architecture: iphoneos-arm
+Version: 7.2.2
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/Appcake/Appcake_7.2.2_iphoneos-arm.deb
+Size: 13903082
+MD5sum: 1cbf71cb2aeece90b79c01cfc7f91ae1
+SHA1: 252d71a71acdf7da4d9ea08bab43434cc6cdb6c6
+SHA256: 013fd6c97f0c77edf9c36c161dbfcd312a6608c1ae9bea1061c4952c6f3ca0dd
+SHA512: 911a5aed985d1c8043f4ccf28237557f485bb009bc36656ca7059d04a1497dc3b1d107f49699331334f1dd6fe8e16dd6d8a533d1ff79a94e4bd04f40f5a7da47
+Description: iPhone / iPad için ücretsiz iPA Mağazası.
+Name: Appcake
+Author: iPA Store
+Depiction: https://www.iphonecake.com/app/
+SileoDepiction: https://www.iphonecake.com/app/
+Icon: https://turannul.github.io/home/resources/appcake.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
@@ -2468,7 +2428,7 @@ Version: 4.0~beta10a
 Section: Uygulama
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
+Filename: ./debians/Uygulamalar/CrackTool4/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
 Size: 2908998
 MD5sum: 005d1969e33e1bdb0fa7845eb580de72
 SHA1: 6d069cb392310e596ba72acb9d61053766587b95
@@ -2487,7 +2447,7 @@ Version: 4.0~beta9f
 Section: Utilities
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Uygulamalar/com.julioverne.cracktool4_4.0~beta9f_iphoneos-arm.deb
+Filename: ./debians/Uygulamalar/CrackTool4/com.julioverne.cracktool4_4.0~beta9f_iphoneos-arm.deb
 Size: 725534
 MD5sum: 5a5d61fd4269cc8022c7594295db888e
 SHA1: 870696348d833ba3d7fbb3c4a8745fa2a6aad118
@@ -2499,150 +2459,42 @@ Name: CrackTool4 (iOS 12/13)
 Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 
-Package: com.mtac.lynxapp
+Package: E-Sign
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 4.3.4
 Section: Uygulama
 Maintainer: turannul
-Depends: firmware (>=12.0)
-Filename: ./debians/Uygulamalar/com.mtac.lynxapp_1.1_iphoneos-arm.deb
-Size: 149900
-MD5sum: ec7bbfd1ada95bb96c64eb5214082b67
-SHA1: d7be70f5127a02d657095b06e85ba4536a3a5d37
-SHA256: 0ba8eeb947ba785328714174e159c285ba60328a2640623374ca00a92591cf88
-SHA512: 322ff430bd9f3c6df4f9fdda3a825e8e642c503f27a51fe31ca12d372e47cc97fac120af867ab4f918bd2f1781b657a813eafc335c3fabb7d5a2d567cb7da8c2
-Description: Lynx | Lynx2 ayarlarını ana ekrana ekleyin
-Name: Lynx App
-Depiction: https://mtac.app/repo/depiction/web/com.mtac.lynxapp.html
-SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.lynxapp.json
-Icon: https://turannul.github.io/home/resources/lynx.png
-Author: MTAC <mtac@mtac.app>
+Depends: com.trappledestek.appsyncunified, com.trappledestek.installipa
+Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.3.4_iphoneos-arm.deb
+Size: 5350656
+MD5sum: 525f2844d55ab088c91f8a4cab73ad2f
+SHA1: ceae0d24b89cc9f9609ed4ba709334d2e7169071
+SHA256: 462fdd92b54be7f4fea10e843b049c53c1a63f8794be4b27e048a409d1e86f1b
+SHA512: fdb9ec460df04d15974a671635410bb10e3b5cf576eb80700198d4022697e8d8555b39db3a37ef76a4ec2bdabb0f3c4be1a6212e2ea804978a1bfd7c29b15880
+Description: iPhone / iPad için Uygulama imzalama aracı.
+Name: E-Sign
+Author: Unknown.
+Depiction: N/A
+SileoDepiction: N/A
 
-Package: com.samgisaninja.successionrestore
+Package: E-Sign
 Architecture: iphoneos-arm
-Version: 1.4.16~b4
-Section: Utilities
-Maintainer: Samg_is_a_Ninja
-Depends: firmware-sbin, rsync
-Filename: ./debians/Uygulamalar/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
-Size: 1179332
-MD5sum: 8123588c1b4a65a9ad301033887ca017
-SHA1: b6ae8215319204969d3ee58ab01070bbc11e5399
-SHA256: 9f38291fcb35a167d815312aa7df5eca3b8ccddabeac4e45a1633e2efea21af0
-SHA512: a9ce946564d5b0d4e96b30b5cb025c26b3174171f0ed6b60a7dea68014db974bfe9f80518a091ceaa18f78668703f02b96446613b784fa0356a46b2cd1ce6418
-Description: Restore without updating via rootfilesystem DMG
-Name: Succession
-Author: Samg_is_a_Ninja
-Icon: https://turannul.github.io/home/resources/succession.png
-
-Package: com.spark.snowboardapplication
-Architecture: iphoneos-arm
-Version: 1.0.3~Beta2
-Section: Uygulama
-Maintainer: turannul
-Depends:
-Filename: ./debians/Uygulamalar/com.spark.snowboardapplication_1.0.3~Beta2_iphoneos-arm.deb
-Size: 695378
-MD5sum: 260e0ad93c316da506e4670271780d47
-SHA1: 6edfa93c5a9a5f99a176abbd8e2cb67ae21705db
-SHA256: fe944ec09bc3a61532a8a87c4ba500a15575128dce4edd0f92afac18e804c12a
-SHA512: eaa1b2e3a08cfecfba17b2c76061c8733c04ca3879b66718027adc2a736230f28774e336b0084f6f51b9980704b18d3313e2c5c6ff349a9bb493f54784183373
-Description: An awesome application!
-Name: SnowBoard App
-Author: Spark
-Icon: https://turannul.github.io/home/resources/snowboard.png
-
-Package: iTorrent
-Architecture: iphoneos-arm
-Version: 1.8.3
+Version: 4.3.6
 Section: Uygulama
 Maintainer: turannul
 Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/iTorrent_1.8.3_iphoneos-arm.deb
-Size: 21094798
-MD5sum: 08deb4d75474137837e49d48a5576473
-SHA1: 0e7d42b811bb9fbf8ec88d6a0d58b28bad3d37bc
-SHA256: 9dc24562fa76b18481c463cc8044e3791acc5a1160c5b89efff4726714aa914f
-SHA512: c5149397bdd1b17a5f12f64aae5a3f5b1e425504244e27f89e18baf5b06c224ff96ee4b4660551d51d21002fa15d4159d6004815cbdc6badf18867060d229ed5
-Description: iPhone / iPad için Torrent Client.
-Name: iTorrent
-Author: XITRIX
-Depiction: https://github.com/XITRIX/iTorrent
-SileoDepiction: https://github.com/XITRIX/iTorrent
-Icon: https://turannul.github.io/home/resources/itorrent.png
-
-Package: jb.zini.tevi
-Architecture: iphoneos-arm
-Version: 1.4.9
-Section: Uygulama
-Maintainer: turannul
-Filename: ./debians/Uygulamalar/jb.zini.tevi_1.4.9_iphoneos-arm.deb
-Size: 7266958
-MD5sum: 2a2e2acd24763cec5c35cabe49fd0997
-SHA1: 5e79a35c5916082fea7d53685ed56599187e9a2a
-SHA256: 0f072f61be4a8031687930ae3141af9de407d31ed3068a119c445d226471fab2
-SHA512: 28232f5b183a0721e427a5b8f21098e96f239d3e05774aca448e5b9ec4aaa3fe344e98a5979cf8a80a74fc9400591300ca05650734fcfe188fad49f90e59d51a
-Homepage: https://zinitevi.github.io/movieapps/
-Description: Stream movies & series for Jailbreak
-Name: ZiniTevi
-Author: ZiniTevi
-Icon: https://turannul.github.io/home/resources/zinitevi.png
-
-Package: sileoturkiye.tweakcleaner
-Architecture: iphoneos-arm
-Version: 14.9c
-Section: Uygulama
-Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debians/Uygulamalar/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
-Size: 4717622
-MD5sum: 821eb23d600c195ec2ccd5f45d1c7a12
-SHA1: 9074c107265b7f2e5659ba69d9680536dc27cf73
-SHA256: e5ca1b5452ea8b64cabe0c1a66b11b277ee882def78044fbdce79a98f9df42fe
-SHA512: e697244f8acd1c1bfe70bc7001ac1f39c7f9881ba2ec4fc5c8ee8ac98a7fa41699f1c5dcf6c53385a67c42007cbac7933038c59fa880a70fcc4999bb6d5c10e4
-Description: Returns the device to its original JB state.
-Name: Tweak Cleaner PRO
-Author: Önder Azazi <onderazazi@hotmail.com>
-Icon: https://turannul.github.io/home/resources/tweakcleaner.png
-
-Package: xyz.canpng.istb
-Architecture: iphoneos-arm
-Version: 1.21.3
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/xyz.canpng.istb_1.21.3_iphoneos-arm.deb
-Size: 22631664
-MD5sum: 7e62b698f7e0eeefe297681a285dfa6a
-SHA1: 92a7ae2442187280e35cd1e1e9921b6bf05b56f8
-SHA256: d0b0e7e31a13f73ef459a1afe7b82995bad9a85afa60ee572088f6b522084da1
-SHA512: b546ed3fe10b6bf06bfbaf334aa07f150d5ced9008fe018468d6d5d1973d93949489c1975cf57d6a0568439b8765e822d77dbcf731a7191b8e0074eac4e1a1a5
-Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
-Description: iPhone / iPad için iPTV
-Name: iSTB
-Author: canpng & Yns61
-Icon: https://turannul.github.io/home/resources/istb.png
-
-Package: xyz.turannul.altstorebeta
-Architecture: iphoneos-arm
-Version: 1.5b3
-Section: Uygulama
-Maintainer: turannul
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
-Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Uygulamalar/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
-Size: 5202368
-MD5sum: 58a18333f718cf710f3ab524543612c3
-SHA1: 2af0e18194db3ae8f8204770292249622cef5c71
-SHA256: a581e5c03aa7a43db01ae0c42f778fa5040823065bc5d384d3a9b32677c7719d
-SHA512: 4e185b17e27fbba16d3498ac24fe18d7e09d453fbc8bf306006a44c0ce54e10dcebb40228469948294f422ccf94309c435874cd5ce4ef7912197e4d5c198376f
-Homepage: https://altstore.io/
-Description: AltStore Beta
-Author: Riley Testut
-Name: AltStore (Beta)
-Depiction: AltStore Beta
-Icon: https://turannul.github.io/home/resources/altstore.png
+Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.3.6_iphoneos-arm.deb
+Size: 4500594
+MD5sum: 6b743555f27fde77ab02bf0807d4e870
+SHA1: 3cda4a80d008f4ae5dcc1fadddad0bda83c6a71e
+SHA256: 7007a468dd9afadb40b8e8b2a73a20ea3349c207f610d4906f530628e32562db
+SHA512: 1968d1f2923b87af493a945fad190eb9923792c97f934b6a98510d77b588098d9d15c0684275aa7f3a5bee51e4d78fd94ca8d31a108dcc0ff4c462e34974237c
+Description: iPhone / iPad için Uygulama imzalama aracı.
+Name: E-Sign
+Author: Unknown.
+Depiction: iPhone / iPad için Uygulama imzalama aracı.
+SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
+Icon: https://turannul.github.io/home/resources/esign.png
 
 Package: xyz.turanul.flappybird
 Architecture: iphoneos-arm
@@ -2650,7 +2502,7 @@ Version: 4.1.0
 Section: Uygulama
 Maintainer: turannul
 Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
+Filename: ./debians/Uygulamalar/FlappyBird/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
 Size: 2317988
 MD5sum: 5685a0e61d373030ff8e920362b997d5
 SHA1: ce506f9a4611f413b032576e7d6b12bd5f8afbb8
@@ -2663,6 +2515,172 @@ Depiction: N/A
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
+Package: com.mtac.lynxapp
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Uygulama
+Maintainer: turannul
+Depends: firmware (>=12.0)
+Filename: ./debians/Uygulamalar/LynxApp/com.mtac.lynxapp_1.1_iphoneos-arm.deb
+Size: 149900
+MD5sum: ec7bbfd1ada95bb96c64eb5214082b67
+SHA1: d7be70f5127a02d657095b06e85ba4536a3a5d37
+SHA256: 0ba8eeb947ba785328714174e159c285ba60328a2640623374ca00a92591cf88
+SHA512: 322ff430bd9f3c6df4f9fdda3a825e8e642c503f27a51fe31ca12d372e47cc97fac120af867ab4f918bd2f1781b657a813eafc335c3fabb7d5a2d567cb7da8c2
+Description: Lynx | Lynx2 ayarlarını ana ekrana ekleyin
+Name: Lynx App
+Depiction: https://mtac.app/repo/depiction/web/com.mtac.lynxapp.html
+SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.lynxapp.json
+Icon: https://turannul.github.io/home/resources/lynx.png
+Author: MTAC <mtac@mtac.app>
+
+Package: com.ichitaso.nonceset143
+Architecture: iphoneos-arm
+Version: 0.0.5
+Section: Uygulama
+Maintainer: ichitaso
+Installed-Size: 924
+Depends: firmware (>= 12.0)
+Filename: ./debians/Uygulamalar/NonceSetter143/com.ichitaso.nonceset143_0.0.5_iphoneos-arm.deb
+Size: 198436
+MD5sum: bd98adb94f0a6184ec94183e9f0f2bb3
+SHA1: 277ec7ecc3b280c798ee331be8663ae98b4c72be
+SHA256: 7b6f9dcbbddf509247cd36e15bc06f9c37658a5ad2b322bb20cb1ee9d420a282
+SHA512: 9617808209d6908d46b3836d69152d72b4f2232e7afb25eee328e4066a33eebe6dcbd3540dac76c79936785e3c3abbbe10e1ff245bfebc80f9829cfafaedd104
+Homepage: https://ichitaso.com/
+Description: An app that set of generator and gets a ApNonce
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: ichitaso
+Name: NonceSet143
+Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
+dev: ichitaso
+Icon: https://turannul.github.io/home/resources/noncesetter.png
+
+Package: com.samgisaninja.successionrestore
+Architecture: iphoneos-arm
+Version: 1.4.16~b4
+Section: Utilities
+Maintainer: Samg_is_a_Ninja
+Depends: firmware-sbin, rsync
+Filename: ./debians/Uygulamalar/Succession/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
+Size: 1179332
+MD5sum: 8123588c1b4a65a9ad301033887ca017
+SHA1: b6ae8215319204969d3ee58ab01070bbc11e5399
+SHA256: 9f38291fcb35a167d815312aa7df5eca3b8ccddabeac4e45a1633e2efea21af0
+SHA512: a9ce946564d5b0d4e96b30b5cb025c26b3174171f0ed6b60a7dea68014db974bfe9f80518a091ceaa18f78668703f02b96446613b784fa0356a46b2cd1ce6418
+Description: Restore without updating via rootfilesystem DMG
+Name: Succession
+Author: Samg_is_a_Ninja
+Icon: https://turannul.github.io/home/resources/succession.png
+
+Package: sileoturkiye.tweakcleaner
+Architecture: iphoneos-arm
+Version: 14.9c
+Section: Uygulama
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
+Filename: ./debians/Uygulamalar/TweakCleaner/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
+Size: 4717622
+MD5sum: 821eb23d600c195ec2ccd5f45d1c7a12
+SHA1: 9074c107265b7f2e5659ba69d9680536dc27cf73
+SHA256: e5ca1b5452ea8b64cabe0c1a66b11b277ee882def78044fbdce79a98f9df42fe
+SHA512: e697244f8acd1c1bfe70bc7001ac1f39c7f9881ba2ec4fc5c8ee8ac98a7fa41699f1c5dcf6c53385a67c42007cbac7933038c59fa880a70fcc4999bb6d5c10e4
+Description: Returns the device to its original JB state.
+Name: Tweak Cleaner PRO
+Author: Önder Azazi <onderazazi@hotmail.com>
+Icon: https://turannul.github.io/home/resources/tweakcleaner.png
+
+Package: jb.zini.tevi
+Architecture: iphoneos-arm
+Version: 1.4.9
+Section: Uygulama
+Maintainer: turannul
+Filename: ./debians/Uygulamalar/ZinitEvi/jb.zini.tevi_1.4.9_iphoneos-arm.deb
+Size: 7266958
+MD5sum: 2a2e2acd24763cec5c35cabe49fd0997
+SHA1: 5e79a35c5916082fea7d53685ed56599187e9a2a
+SHA256: 0f072f61be4a8031687930ae3141af9de407d31ed3068a119c445d226471fab2
+SHA512: 28232f5b183a0721e427a5b8f21098e96f239d3e05774aca448e5b9ec4aaa3fe344e98a5979cf8a80a74fc9400591300ca05650734fcfe188fad49f90e59d51a
+Homepage: https://zinitevi.github.io/movieapps/
+Description: Stream movies & series for Jailbreak
+Name: ZiniTevi
+Author: ZiniTevi
+Icon: https://turannul.github.io/home/resources/zinitevi.png
+
+Package: xyz.canpng.istb
+Architecture: iphoneos-arm
+Version: 1.21.3
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.21.3_iphoneos-arm.deb
+Size: 22631664
+MD5sum: 7e62b698f7e0eeefe297681a285dfa6a
+SHA1: 92a7ae2442187280e35cd1e1e9921b6bf05b56f8
+SHA256: d0b0e7e31a13f73ef459a1afe7b82995bad9a85afa60ee572088f6b522084da1
+SHA512: b546ed3fe10b6bf06bfbaf334aa07f150d5ced9008fe018468d6d5d1973d93949489c1975cf57d6a0568439b8765e822d77dbcf731a7191b8e0074eac4e1a1a5
+Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
+Description: iPhone / iPad için iPTV
+Name: iSTB
+Author: canpng & Yns61
+Icon: https://turannul.github.io/home/resources/istb.png
+
+Package: com.geosn0w.iSecureOS
+Architecture: iphoneos-arm
+Version: 1.24
+Section: Utilities
+Maintainer: GeoSn0w (@FCE365)
+Depends: firmware (>= 11.0)
+Filename: ./debians/Uygulamalar/iSecureOS/com.geosn0w.iSecureOS.deb
+Size: 1578832
+MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
+SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
+SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
+SHA512: b9f4257c220012124a11ed939e61d2051e8e776d8aece2d3bbde7dbb7851f6d4bc86f56aa146324527f1c330e52409da792f374986be777c8ab22be4c578c342
+Description: An iOS Security Application for Jailbroken units.
+Name: iSecureOS
+Author: GeoSn0w (@FCE365)
+Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
+Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
+SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
+
+Package: iTorrent
+Architecture: iphoneos-arm
+Version: 1.8.3
+Section: Uygulama
+Maintainer: turannul
+Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Filename: ./debians/Uygulamalar/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
+Size: 21094798
+MD5sum: 08deb4d75474137837e49d48a5576473
+SHA1: 0e7d42b811bb9fbf8ec88d6a0d58b28bad3d37bc
+SHA256: 9dc24562fa76b18481c463cc8044e3791acc5a1160c5b89efff4726714aa914f
+SHA512: c5149397bdd1b17a5f12f64aae5a3f5b1e425504244e27f89e18baf5b06c224ff96ee4b4660551d51d21002fa15d4159d6004815cbdc6badf18867060d229ed5
+Description: iPhone / iPad için Torrent Client.
+Name: iTorrent
+Author: XITRIX
+Depiction: https://github.com/XITRIX/iTorrent
+SileoDepiction: https://github.com/XITRIX/iTorrent
+Icon: https://turannul.github.io/home/resources/itorrent.png
+
+Package: com.trappledestek.watusi3
+Architecture: iphoneos-arm
+Version: 1.1.13
+Section: AD - TR Tweak
+Maintainer: Deliturk
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
+Filename: ./debians/trappledebs/Watusi3/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
+Size: 4436794
+MD5sum: d5d365c4ff4f1b54b5224db05136aef5
+SHA1: 43a161489bb04195e05b7027786a718b209dae67
+SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
+SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
+Description: WhatsApp Messenger için hepsi bir arada tweak
+Name: Watusi 3 for WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
+SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
+
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm
 Version: 1.4.3
@@ -2671,7 +2689,7 @@ Maintainer: MrGcGamer
 Installed-Size: 336
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Filename: ./debians/Zımbırtılar/6114628aa2f885001a2a3795.deb
+Filename: ./debians/zzzzz/6114628aa2f885001a2a3795.deb
 Size: 52228
 MD5sum: ec22bb5da0d1a1089ab439d37c149cb9
 SHA1: 43dfaeafb9a25a7577d6c82dd247996e18af51df
@@ -2690,7 +2708,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 980
 Depends: firmware (>= 8.0)
-Filename: ./debians/Zımbırtılar/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
+Filename: ./debians/zzzzz/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
 Size: 163032
 MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
 SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
@@ -2710,7 +2728,7 @@ Architecture: iphoneos-arm
 Version: 1.0.3
 Section: System
 Maintainer: level3tjg
-Filename: ./debians/Zımbırtılar/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
+Filename: ./debians/zzzzz/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
 Size: 40636
 MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
 SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
@@ -2732,7 +2750,7 @@ Installed-Size: 392
 Pre-Depends: firmware (>= 5.0)
 Depends: net.angelxwind.appsyncunified (>= 5.1)
 Conflicts: com.sull.appinstaller
-Filename: ./debians/Zımbırtılar/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
+Filename: ./debians/zzzzz/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
 Size: 75224
 MD5sum: bc07d52e849498a244f392d09b8d1ae8
 SHA1: b8e7578118cee54ddb49b739907ad015310601c8
@@ -2751,7 +2769,7 @@ Version: 1.3
 Section: System
 Maintainer: Soongyu Kwon
 Installed-Size: 164
-Filename: ./debians/Zımbırtılar/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
+Filename: ./debians/zzzzz/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
 Size: 6718
 MD5sum: 9eab42650b671fadd0ee909bb617c928
 SHA1: 0e40e1a0b90494c6a25ca0c904be661034ca9ac9
@@ -2770,7 +2788,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 464
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debians/Zımbırtılar/libmryipc_2.0.1.deb
+Filename: ./debians/zzzzz/libmryipc_2.0.1.deb
 Size: 28236
 MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
 SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
@@ -2791,7 +2809,7 @@ Section: Libraries
 Maintainer: Aarnav Tale <aarnav@tale.me>
 Installed-Size: 1192
 Depends: lz4, lzma
-Filename: ./debians/Zımbırtılar/libzstd1_1.5.0_iphoneos-arm.deb
+Filename: ./debians/zzzzz/libzstd1_1.5.0_iphoneos-arm.deb
 Size: 304812
 MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
 SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
@@ -2809,7 +2827,7 @@ Version: 1.0.0
 Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 68
-Filename: ./debians/Zımbırtılar/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
+Filename: ./debians/zzzzz/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
 Size: 2504
 MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
 SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
@@ -2828,7 +2846,7 @@ Version: 1.0.3
 Section: System
 Maintainer: ConorTheDev <conorthedev@gmail.com>
 Installed-Size: 204
-Filename: ./debians/Zımbırtılar/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
+Filename: ./debians/zzzzz/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
 Size: 15318
 MD5sum: b93607aad9ae0cc41f9785fef827d784
 SHA1: 17f25ecfb19fbc83edda70f92f268e0c68e3c205
@@ -2848,7 +2866,7 @@ Installed-Size: 143
 Depends: cy+cpu.arm64, firmware (>= 11), openssh-server | openssh, mobilesubstrate, com.opa334.ccsupport, u.blanxd.sshswitch
 Breaks: u.blanxd.sshoncc (<< 1.5~b3)
 Replaces: u.blanxd.sshoncc (<< 1.5~b3)
-Filename: ./debians/Zımbırtılar/opensshcc_1.0.1.deb
+Filename: ./debians/zzzzz/opensshcc_1.0.1.deb
 Size: 13720
 MD5sum: 15d1ce6769b3099bb61454264fef2728
 SHA1: a58951800a7edf65e6816298913f9cc069c2ba54
@@ -2873,7 +2891,7 @@ Installed-Size: 176
 Depends: cy+cpu.arm64, openssh-server | openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Zımbırtılar/opensshport_1.0.1.deb
+Filename: ./debians/zzzzz/opensshport_1.0.1.deb
 Size: 24292
 MD5sum: a43317e950401f8f99965606be4bf2fd
 SHA1: 2f3dbb293d6828919d5b2b76eb90250e101edf78
@@ -2898,7 +2916,7 @@ Installed-Size: 201
 Depends: cy+cpu.arm64, openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Zımbırtılar/opensshport_1.0.deb
+Filename: ./debians/zzzzz/opensshport_1.0.deb
 Size: 24262
 MD5sum: 9275a8e8cac48730318eb9f053f73328
 SHA1: 9108341f08462e78d1dadbb27b7f8313a6af074c
@@ -2924,7 +2942,7 @@ Depends: cy+cpu.arm64, openssh-server (>= 6.2) | openssh (>= 6.2)
 Conflicts: u.blanxd.opensshport (<< 1.0~b3)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Zımbırtılar/sshswitch_1.0.1.deb
+Filename: ./debians/zzzzz/sshswitch_1.0.1.deb
 Size: 229982
 MD5sum: 47a4562553f078a877ffb5f27455c5cf
 SHA1: 959b1a5897fc98f22e63747b59b5d557ada04b33
@@ -2938,22 +2956,4 @@ Name: SSHswitch
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: blanxd
-
-Package: com.trappledestek.watusi3
-Architecture: iphoneos-arm
-Version: 1.1.13
-Section: AD - TR Tweak
-Maintainer: Deliturk
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
-Filename: ./debians/trappledebs/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
-Size: 4436794
-MD5sum: d5d365c4ff4f1b54b5224db05136aef5
-SHA1: 43a161489bb04195e05b7027786a718b209dae67
-SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
-SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
-Description: WhatsApp Messenger için hepsi bir arada tweak
-Name: Watusi 3 for WhatsApp
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
-SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
 
