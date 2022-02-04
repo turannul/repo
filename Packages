@@ -17,282 +17,6 @@ Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
 
-Package: com.mrgcgamer.libgcuniversal
-Architecture: iphoneos-arm
-Version: 1.4.3
-Section: System
-Maintainer: MrGcGamer
-Installed-Size: 336
-Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Filename: ./debians/Gerekli,Gereksiz/6114628aa2f885001a2a3795.deb
-Size: 52228
-MD5sum: ec22bb5da0d1a1089ab439d37c149cb9
-SHA1: 43dfaeafb9a25a7577d6c82dd247996e18af51df
-SHA256: 95fb6c4de769236da4e7d13d6bc18c88e18f4518612522c73fe194a886e9e5be
-SHA512: 3c2edfced479238d9e8d2195a1442b73d574fe5d00a082abc5556e75db769c9ea2d9df678ff101a63d870b6f0e426e80bcb50da5030496099b2d66c77e91d11f
-Description: An awesome library of some sort!!
-Tag: role::developer
-Name: LibGcUniversal
-Author: MrGcGamer
-
-Package: com.cokepokes.libnotifications
-Architecture: iphoneos-arm
-Version: 0.3-5
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 980
-Depends: firmware (>= 8.0)
-Filename: ./debians/Gerekli,Gereksiz/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
-Size: 163032
-MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
-SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
-SHA256: 922de051826c91762b43d87e829d5d76394d41ed507ce7edb074066b78e4e10a
-SHA512: 215a4d706ce5e9adb422279eecbcb649f718f5572f3740c2fb5ec7d88f20e7ebdd9c8de992611449428a880043282587d6301c2af6ce4c1998e9b3f947e0f64d
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
-Description: App notification library.
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
-Name: libnotifications
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: CokePokes <cokepokes@gmail.com>
-dev: cokepokes
-
-Package: com.level3tjg.insert-dylib
-Architecture: iphoneos-arm
-Version: 1.0.3
-Section: System
-Maintainer: level3tjg
-Filename: ./debians/Gerekli,Gereksiz/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
-Size: 40636
-MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
-SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
-SHA256: 92f729cbf5aa9e80c34a8f76ec42d4310c0f09fc8b9f8a2b54b8cb53ca018497
-SHA512: 9a221a8ff9d0092ce3bf94eeb773811a9e26896b54ff73f9a938953e8e17c800e803fd884f1f78f5e20b361a6ef1e81eec9adb06fe051e5d8d1f613f63baa651
-Description: Command line utility for inserting a dylib load command into a Mach-O binary. https://github.com/Tyilo/insert_dylib
-Tag: role:hacker
-Name: insert_dylib
-Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.insert-dylib
-Author: level3tjg
-
-Package: com.linusyang.appinst
-Architecture: iphoneos-arm
-Version: 1.1.4
-Priority: standard
-Section: Utilities
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 392
-Pre-Depends: firmware (>= 5.0)
-Depends: net.angelxwind.appsyncunified (>= 5.1)
-Conflicts: com.sull.appinstaller
-Filename: ./debians/Gerekli,Gereksiz/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
-Size: 75224
-MD5sum: bc07d52e849498a244f392d09b8d1ae8
-SHA1: b8e7578118cee54ddb49b739907ad015310601c8
-SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
-SHA512: 5b41d6eeb45c74f18366595b87895e64e0c4d9d9f5bcc32f86691c8608f0c6f2e90b6201c6d98b06cc72d2ff3b53ea4697906ce321a5abf3a31ea405e93705b1
-Homepage: https://github.com/akemin-dayo/AppSync
-Description: Install IPAs from the command line
-Tag: role::enduser, purpose::console
-Name: appinst (App Installer)
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
-
-Package: com.peterdev.libpddokdo
-Architecture: iphoneos-arm
-Version: 1.3
-Section: System
-Maintainer: Soongyu Kwon
-Installed-Size: 164
-Filename: ./debians/Gerekli,Gereksiz/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
-Size: 6718
-MD5sum: 9eab42650b671fadd0ee909bb617c928
-SHA1: 0e40e1a0b90494c6a25ca0c904be661034ca9ac9
-SHA256: 4887b550b35e322a040d51fb8ecf28fb074af4c4f73ba433bc8da90b2a94a4d5
-SHA512: 53b021f9c2271e3a5cc25f384d1c631d8b6b54b423547d81e8cbb3de804c2017c8a2dd4578ec9f21c7b685d37e559f958c18db481d329d36f0a6ae8ebb7f12b9
-Description: An awesome library to get current weather which provides by iOS Weater.app easily.
-Tag: role::developer
-Name: libPDDokdo
-Author: Soongyu Kwon
-
-Package: com.muirey03.libmryipc
-Architecture: iphoneos-arm
-Version: 2.0.1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 464
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debians/Gerekli,Gereksiz/libmryipc_2.0.1.deb
-Size: 28236
-MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
-SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
-SHA256: 206b196b2acae7a0ebe7a82d3197e0f1fd358a1f77138d5e0ca130d67f2cd55e
-SHA512: ce9589692ea7bbb0c9e04aaf3017626062e0d14e8417c5d856534884e7b3057f0f0110303755bb85eeae9359dd3d41adc3146161eb6fe9af71c6186148f8fb09
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
-Description: Easy-to-use, RocketBootstrap-less iOS IPC
-Tag: role::developer, purpose::library, cydia::obsolete
-Name: libMRYIPC
-Author: Muirey03 <tommy.muir@btinternet.com>
-dev: muirey03
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
-
-Package: libzstd1
-Architecture: iphoneos-arm
-Version: 1.5.0
-Section: Libraries
-Maintainer: Aarnav Tale <aarnav@tale.me>
-Installed-Size: 1192
-Depends: lz4, lzma
-Filename: ./debians/Gerekli,Gereksiz/libzstd1_1.5.0_iphoneos-arm.deb
-Size: 304812
-MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
-SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
-SHA256: 8bddfd21ec9e5ce343c3b39281b2b9281a84c8a48f95eb50659d627fdc37fa0a
-SHA512: e0350f38f6120ee34bf570660eabe2aaa84fdbd87b9611213d4f93149c495bd17dee8c852be097ee509ce8d4f7bf50b6b45bf58672f93cfae3cd493c376517ae
-Description: fast lossless compression algorithm
- Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
- real-time compression scenarios at zlib-level compression ratio.
- .
- This package contains the shared library.
-
-Package: me.alfhaily.opencli
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: System
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 68
-Filename: ./debians/Gerekli,Gereksiz/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
-Size: 2504
-MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
-SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
-SHA256: c4b201a5591a339245b3cd309a1de4bcbaec594c6ff2943b5c478e5f54f00e43
-SHA512: ab0e59544b9d6683bed21365212f320fe1302db386d7a1a0140fa52ed4ceb842d64404ff996ba3cd8486d29a9f829762498215f7b5cdeeb13ffe261252742efd
-Description: Launch apps from the command-line, originally made by Conrad Kramer. This package is updated to work with Electra 11.x.
-Tag: purpose::console, role::hacker
-Author: Majd Alfhaily <freemanrepo@me.com>
-Name: Open
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: freemanrepo
-
-Package: me.conorthedev.libappearancecell
-Architecture: iphoneos-arm
-Version: 1.0.3
-Section: System
-Maintainer: ConorTheDev <conorthedev@gmail.com>
-Installed-Size: 204
-Filename: ./debians/Gerekli,Gereksiz/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
-Size: 15318
-MD5sum: b93607aad9ae0cc41f9785fef827d784
-SHA1: 17f25ecfb19fbc83edda70f92f268e0c68e3c205
-SHA256: eea75346c6de162a47deb316f20984b72cb45459be429b8a2f9db92693fd2664
-SHA512: b01de32cb80e7bad6d7cedba3b2eb99b008ef073346639995be52f16d4ca9f7d2367ebd874ee9b8abf683968a6949e5cdd31d5409a5f150f99a7efdcf1a71c8d
-Description: A library for that allows developers to use an iOS 13-style appearance selector in their Preferences.
-Tag: role::developer
-Name: libappearancecell
-Author: ConorTheDev <conorthedev@gmail.com>
-
-Package: u.blanxd.opensshcc
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Control Center (Modules)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 143
-Depends: cy+cpu.arm64, firmware (>= 11), openssh-server | openssh, mobilesubstrate, com.opa334.ccsupport, u.blanxd.sshswitch
-Breaks: u.blanxd.sshoncc (<< 1.5~b3)
-Replaces: u.blanxd.sshoncc (<< 1.5~b3)
-Filename: ./debians/Gerekli,Gereksiz/opensshcc_1.0.1.deb
-Size: 13720
-MD5sum: 15d1ce6769b3099bb61454264fef2728
-SHA1: a58951800a7edf65e6816298913f9cc069c2ba54
-SHA256: 481e44dd3c11c328a383dfef34859c043aa030c82606498c949018a5291a561b
-SHA512: 4e25be3bd01b541d8838df592d8f345c055c0f62a19259197bebc11ae1b8b5e86cce9544b8cad9b2842da97e741511b566f00f78d68053d8345f02ad2fd1373c
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
-Description: OpenSSH toggle in CC
-Tag: purpose::extension
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: OpenSSH CC Toggle
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-Icon: file:///Library/ControlCenter/Bundles/SSHonCC.bundle/SettingsIcon@2x.png
-
-Package: u.blanxd.opensshport
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Security
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 176
-Depends: cy+cpu.arm64, openssh-server | openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
-Breaks: u.blanxd.sshoncc (<= 1.4.0)
-Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Gerekli,Gereksiz/opensshport_1.0.1.deb
-Size: 24292
-MD5sum: a43317e950401f8f99965606be4bf2fd
-SHA1: 2f3dbb293d6828919d5b2b76eb90250e101edf78
-SHA256: cb9296647accf3b232265a84a5fdf9e1cabd798b68f57d638d202909fb431274
-SHA512: 259925aecf858992ae82e6acd8c44d2635e4531bb87977fa64e7c0b31b322b05260cdd13dd7de60b306d1d2c4865c2e4e8effaf8b2247e1073a9da2f039b0a71
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
-Description: OpenSSH menu in Settings
-Tag: purpose::extension
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: OpenSSH Settings
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-Icon: file:///Library/PreferenceBundles/OpenSshPort.bundle/OpenSshPort@2x.png
-
-Package: u.blanxd.opensshport
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Security
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 201
-Depends: cy+cpu.arm64, openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
-Breaks: u.blanxd.sshoncc (<= 1.4.0)
-Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Gerekli,Gereksiz/opensshport_1.0.deb
-Size: 24262
-MD5sum: 9275a8e8cac48730318eb9f053f73328
-SHA1: 9108341f08462e78d1dadbb27b7f8313a6af074c
-SHA256: 498d4da5f0bc9f84e071512837489104ed3648190c57af94c5e7a35407db718b
-SHA512: 742b0fd72ba4e6bfacbf09c3a280bc7c55f84b8b1e28ceadfbcf684473e1a3f8c3c4085375f866af74fb6fdce3ffd15a20e27eb668669211e93570eb9f823536
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
-Description: OpenSSH menu in Settings
-Tag: purpose::extension
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: OpenSSH Settings
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-Icon: file:///Library/PreferenceBundles/OpenSshPort.bundle/OpenSshPort@2x.png
-
-Package: u.blanxd.sshswitch
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 375
-Depends: cy+cpu.arm64, openssh-server (>= 6.2) | openssh (>= 6.2)
-Conflicts: u.blanxd.opensshport (<< 1.0~b3)
-Breaks: u.blanxd.sshoncc (<= 1.4.0)
-Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/Gerekli,Gereksiz/sshswitch_1.0.1.deb
-Size: 229982
-MD5sum: 47a4562553f078a877ffb5f27455c5cf
-SHA1: 959b1a5897fc98f22e63747b59b5d557ada04b33
-SHA256: be67efbf39e6f337204b7c5846ef4d0fc7e0fce0cf1d80e0772c19df27df802c
-SHA512: a84f29240dcc7c7de38870336631112603a606cee5b5ea33a1c6ffdd7142e7b5f67c8ff36644b9254b4435d13b0990bd4aaeb0b646a114c549c3a3cbfb2e2656
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
-Description: CLI tool for changing OpenSSH settings
-Tag: purpose::console
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: SSHswitch
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-
 Package: love.litten.amonglock
 Architecture: iphoneos-arm
 Version: 1.1.6
@@ -2938,6 +2662,282 @@ Author: Brandon Plank, Thatcher Clough
 Depiction: N/A
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
+
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm
+Version: 1.4.3
+Section: System
+Maintainer: MrGcGamer
+Installed-Size: 336
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: ./debians/Zımbırtılar/6114628aa2f885001a2a3795.deb
+Size: 52228
+MD5sum: ec22bb5da0d1a1089ab439d37c149cb9
+SHA1: 43dfaeafb9a25a7577d6c82dd247996e18af51df
+SHA256: 95fb6c4de769236da4e7d13d6bc18c88e18f4518612522c73fe194a886e9e5be
+SHA512: 3c2edfced479238d9e8d2195a1442b73d574fe5d00a082abc5556e75db769c9ea2d9df678ff101a63d870b6f0e426e80bcb50da5030496099b2d66c77e91d11f
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm
+Version: 0.3-5
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 980
+Depends: firmware (>= 8.0)
+Filename: ./debians/Zımbırtılar/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
+Size: 163032
+MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
+SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
+SHA256: 922de051826c91762b43d87e829d5d76394d41ed507ce7edb074066b78e4e10a
+SHA512: 215a4d706ce5e9adb422279eecbcb649f718f5572f3740c2fb5ec7d88f20e7ebdd9c8de992611449428a880043282587d6301c2af6ce4c1998e9b3f947e0f64d
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
+
+Package: com.level3tjg.insert-dylib
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: level3tjg
+Filename: ./debians/Zımbırtılar/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
+Size: 40636
+MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
+SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
+SHA256: 92f729cbf5aa9e80c34a8f76ec42d4310c0f09fc8b9f8a2b54b8cb53ca018497
+SHA512: 9a221a8ff9d0092ce3bf94eeb773811a9e26896b54ff73f9a938953e8e17c800e803fd884f1f78f5e20b361a6ef1e81eec9adb06fe051e5d8d1f613f63baa651
+Description: Command line utility for inserting a dylib load command into a Mach-O binary. https://github.com/Tyilo/insert_dylib
+Tag: role:hacker
+Name: insert_dylib
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.insert-dylib
+Author: level3tjg
+
+Package: com.linusyang.appinst
+Architecture: iphoneos-arm
+Version: 1.1.4
+Priority: standard
+Section: Utilities
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 392
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Filename: ./debians/Zımbırtılar/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
+Size: 75224
+MD5sum: bc07d52e849498a244f392d09b8d1ae8
+SHA1: b8e7578118cee54ddb49b739907ad015310601c8
+SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
+SHA512: 5b41d6eeb45c74f18366595b87895e64e0c4d9d9f5bcc32f86691c8608f0c6f2e90b6201c6d98b06cc72d2ff3b53ea4697906ce321a5abf3a31ea405e93705b1
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Name: appinst (App Installer)
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+
+Package: com.peterdev.libpddokdo
+Architecture: iphoneos-arm
+Version: 1.3
+Section: System
+Maintainer: Soongyu Kwon
+Installed-Size: 164
+Filename: ./debians/Zımbırtılar/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
+Size: 6718
+MD5sum: 9eab42650b671fadd0ee909bb617c928
+SHA1: 0e40e1a0b90494c6a25ca0c904be661034ca9ac9
+SHA256: 4887b550b35e322a040d51fb8ecf28fb074af4c4f73ba433bc8da90b2a94a4d5
+SHA512: 53b021f9c2271e3a5cc25f384d1c631d8b6b54b423547d81e8cbb3de804c2017c8a2dd4578ec9f21c7b685d37e559f958c18db481d329d36f0a6ae8ebb7f12b9
+Description: An awesome library to get current weather which provides by iOS Weater.app easily.
+Tag: role::developer
+Name: libPDDokdo
+Author: Soongyu Kwon
+
+Package: com.muirey03.libmryipc
+Architecture: iphoneos-arm
+Version: 2.0.1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debians/Zımbırtılar/libmryipc_2.0.1.deb
+Size: 28236
+MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
+SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
+SHA256: 206b196b2acae7a0ebe7a82d3197e0f1fd358a1f77138d5e0ca130d67f2cd55e
+SHA512: ce9589692ea7bbb0c9e04aaf3017626062e0d14e8417c5d856534884e7b3057f0f0110303755bb85eeae9359dd3d41adc3146161eb6fe9af71c6186148f8fb09
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Description: Easy-to-use, RocketBootstrap-less iOS IPC
+Tag: role::developer, purpose::library, cydia::obsolete
+Name: libMRYIPC
+Author: Muirey03 <tommy.muir@btinternet.com>
+dev: muirey03
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+
+Package: libzstd1
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Libraries
+Maintainer: Aarnav Tale <aarnav@tale.me>
+Installed-Size: 1192
+Depends: lz4, lzma
+Filename: ./debians/Zımbırtılar/libzstd1_1.5.0_iphoneos-arm.deb
+Size: 304812
+MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
+SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
+SHA256: 8bddfd21ec9e5ce343c3b39281b2b9281a84c8a48f95eb50659d627fdc37fa0a
+SHA512: e0350f38f6120ee34bf570660eabe2aaa84fdbd87b9611213d4f93149c495bd17dee8c852be097ee509ce8d4f7bf50b6b45bf58672f93cfae3cd493c376517ae
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
+
+Package: me.alfhaily.opencli
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 68
+Filename: ./debians/Zımbırtılar/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
+Size: 2504
+MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
+SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
+SHA256: c4b201a5591a339245b3cd309a1de4bcbaec594c6ff2943b5c478e5f54f00e43
+SHA512: ab0e59544b9d6683bed21365212f320fe1302db386d7a1a0140fa52ed4ceb842d64404ff996ba3cd8486d29a9f829762498215f7b5cdeeb13ffe261252742efd
+Description: Launch apps from the command-line, originally made by Conrad Kramer. This package is updated to work with Electra 11.x.
+Tag: purpose::console, role::hacker
+Author: Majd Alfhaily <freemanrepo@me.com>
+Name: Open
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
+
+Package: me.conorthedev.libappearancecell
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: ConorTheDev <conorthedev@gmail.com>
+Installed-Size: 204
+Filename: ./debians/Zımbırtılar/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
+Size: 15318
+MD5sum: b93607aad9ae0cc41f9785fef827d784
+SHA1: 17f25ecfb19fbc83edda70f92f268e0c68e3c205
+SHA256: eea75346c6de162a47deb316f20984b72cb45459be429b8a2f9db92693fd2664
+SHA512: b01de32cb80e7bad6d7cedba3b2eb99b008ef073346639995be52f16d4ca9f7d2367ebd874ee9b8abf683968a6949e5cdd31d5409a5f150f99a7efdcf1a71c8d
+Description: A library for that allows developers to use an iOS 13-style appearance selector in their Preferences.
+Tag: role::developer
+Name: libappearancecell
+Author: ConorTheDev <conorthedev@gmail.com>
+
+Package: u.blanxd.opensshcc
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Control Center (Modules)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 143
+Depends: cy+cpu.arm64, firmware (>= 11), openssh-server | openssh, mobilesubstrate, com.opa334.ccsupport, u.blanxd.sshswitch
+Breaks: u.blanxd.sshoncc (<< 1.5~b3)
+Replaces: u.blanxd.sshoncc (<< 1.5~b3)
+Filename: ./debians/Zımbırtılar/opensshcc_1.0.1.deb
+Size: 13720
+MD5sum: 15d1ce6769b3099bb61454264fef2728
+SHA1: a58951800a7edf65e6816298913f9cc069c2ba54
+SHA256: 481e44dd3c11c328a383dfef34859c043aa030c82606498c949018a5291a561b
+SHA512: 4e25be3bd01b541d8838df592d8f345c055c0f62a19259197bebc11ae1b8b5e86cce9544b8cad9b2842da97e741511b566f00f78d68053d8345f02ad2fd1373c
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
+Description: OpenSSH toggle in CC
+Tag: purpose::extension
+Author: BlanxdH <blanxd.h@gmail.com>
+Name: OpenSSH CC Toggle
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: blanxd
+Icon: file:///Library/ControlCenter/Bundles/SSHonCC.bundle/SettingsIcon@2x.png
+
+Package: u.blanxd.opensshport
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Security
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 176
+Depends: cy+cpu.arm64, openssh-server | openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
+Breaks: u.blanxd.sshoncc (<= 1.4.0)
+Replaces: u.blanxd.sshoncc (<= 1.4.0)
+Filename: ./debians/Zımbırtılar/opensshport_1.0.1.deb
+Size: 24292
+MD5sum: a43317e950401f8f99965606be4bf2fd
+SHA1: 2f3dbb293d6828919d5b2b76eb90250e101edf78
+SHA256: cb9296647accf3b232265a84a5fdf9e1cabd798b68f57d638d202909fb431274
+SHA512: 259925aecf858992ae82e6acd8c44d2635e4531bb87977fa64e7c0b31b322b05260cdd13dd7de60b306d1d2c4865c2e4e8effaf8b2247e1073a9da2f039b0a71
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
+Description: OpenSSH menu in Settings
+Tag: purpose::extension
+Author: BlanxdH <blanxd.h@gmail.com>
+Name: OpenSSH Settings
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: blanxd
+Icon: file:///Library/PreferenceBundles/OpenSshPort.bundle/OpenSshPort@2x.png
+
+Package: u.blanxd.opensshport
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Security
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 201
+Depends: cy+cpu.arm64, openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
+Breaks: u.blanxd.sshoncc (<= 1.4.0)
+Replaces: u.blanxd.sshoncc (<= 1.4.0)
+Filename: ./debians/Zımbırtılar/opensshport_1.0.deb
+Size: 24262
+MD5sum: 9275a8e8cac48730318eb9f053f73328
+SHA1: 9108341f08462e78d1dadbb27b7f8313a6af074c
+SHA256: 498d4da5f0bc9f84e071512837489104ed3648190c57af94c5e7a35407db718b
+SHA512: 742b0fd72ba4e6bfacbf09c3a280bc7c55f84b8b1e28ceadfbcf684473e1a3f8c3c4085375f866af74fb6fdce3ffd15a20e27eb668669211e93570eb9f823536
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
+Description: OpenSSH menu in Settings
+Tag: purpose::extension
+Author: BlanxdH <blanxd.h@gmail.com>
+Name: OpenSSH Settings
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshportDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: blanxd
+Icon: file:///Library/PreferenceBundles/OpenSshPort.bundle/OpenSshPort@2x.png
+
+Package: u.blanxd.sshswitch
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 375
+Depends: cy+cpu.arm64, openssh-server (>= 6.2) | openssh (>= 6.2)
+Conflicts: u.blanxd.opensshport (<< 1.0~b3)
+Breaks: u.blanxd.sshoncc (<= 1.4.0)
+Replaces: u.blanxd.sshoncc (<= 1.4.0)
+Filename: ./debians/Zımbırtılar/sshswitch_1.0.1.deb
+Size: 229982
+MD5sum: 47a4562553f078a877ffb5f27455c5cf
+SHA1: 959b1a5897fc98f22e63747b59b5d557ada04b33
+SHA256: be67efbf39e6f337204b7c5846ef4d0fc7e0fce0cf1d80e0772c19df27df802c
+SHA512: a84f29240dcc7c7de38870336631112603a606cee5b5ea33a1c6ffdd7142e7b5f67c8ff36644b9254b4435d13b0990bd4aaeb0b646a114c549c3a3cbfb2e2656
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
+Description: CLI tool for changing OpenSSH settings
+Tag: purpose::console
+Author: BlanxdH <blanxd.h@gmail.com>
+Name: SSHswitch
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: blanxd
 
 Package: com.trappledestek.watusi3
 Architecture: iphoneos-arm
