@@ -1,0 +1,15 @@
+#! /usr/bin/env bash
+device=$(uname -m)
+ip=$(ipconfig getifaddr en1 | ipconfig getifaddr en0)
+
+if [[ device == x86_64 ]];then
+cd /Users/turannul/Desktop/repo
+#cd /Users/turannul/Documents/Github/repo
+echo "Localhost Running at http://$ip:8000"
+python3 -m http.server &
+else 
+cd /private/var/mobile/Documents/Github/repo
+echo "Localhost Running at http://$ip:8000"
+python3 -m http.server &
+fi
+
