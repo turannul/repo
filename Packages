@@ -2456,23 +2456,23 @@ Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm
 Version: 7.9.1
-Section: Tweaks
+Section: Utilities
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debians/Tweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 5335958
-MD5sum: 5a74033fa4d0336af9e6671b57c8e3e2
-SHA1: 90fc468a63d9322415e3665667a49ff8af411995
-SHA256: 7f8ed82ad02adc376c02b7831773d01ed13d0a33610b637a107774dc9cc96635
-SHA512: db7debbfd0f4fab5a6d86cd249510890195ad98c7ce1432d0312643e3d1beeb461cf6d843f301f6164d95c237c881c24c2ad4960c39155ba5ae5a4874c79c377
+Size: 6757294
+MD5sum: 2624ce221928a6dd5850361a66b8e0e6
+SHA1: 7a351cc48c3a29467449c98241e53966ed8fa80b
+SHA256: f88c5dcbfd5e44501ebe6da8dd3c7b7c2aacb0ade1b0cd6d75662228a7fa562c
+SHA512: db1ce5d4ecd4925c261ef99fa2a483066a3e4e6ea32da710a440f8bc7bb6af68b1ef0fc16f7dcba92ebe10cf7cddd8a1805bc569c951814ff2afc38f3ca3c640
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
 Name: iCleaner Pro
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
+Icon: file:///Applications/iCleaner.app/Icon.png
 
 Package: com.turannul.paisseon.icleanerprohack
 Architecture: iphoneos-arm
