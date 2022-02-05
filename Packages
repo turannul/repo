@@ -601,16 +601,16 @@ Icon: https://turannul.github.io/home/resources/lynx2.png
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
 Version: 1.0-2
-Section: 🏴‍☠️ Tweak
+Section: Uygulama
 Maintainer: turannul
 Installed-Size: 700
 Depends: firmware (>= 14.0)
 Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
-Size: 313094
-MD5sum: bc59471ad422125bc01b64d8cdb1716e
-SHA1: a019089bf71b79e41aece3c77c38181b62d909ee
-SHA256: df06d913c122204e887ba8b4fd3d9eb57006c9f36f62ea7d73c76cdcd2e14b05
-SHA512: 7d0aafb48414f9b4a667ef687f178a1fed30fe62492ebceb8e28c1a22e7f7216df7ab35065eab3e2af06e523561cb4959c6459429ef0d52f69d36b52fbbe9e3b
+Size: 313074
+MD5sum: 6b381c432c37aec0ad026d1734c1b756
+SHA1: a40ba9f77ef8df8b90aa9d3d67604aba494258fa
+SHA256: b2f0944fb7840b20e1a0aabb033c71a8d340a037751f00eb984e717ed675b42d
+SHA512: c7dc7507f6325f355c2f191ff958f1eebe4a7ba88b22186b57cc0fc7b68b4f97e8829f82d48a0d6257f901d835ecf8d0130a98f82a1ee17c4ae51d802e9481c4
 Description: Emulate iOS GPS Locations
 Name: RelocateMe
 Author: MidnightChips
