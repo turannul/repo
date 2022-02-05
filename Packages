@@ -677,27 +677,6 @@ Author: initWithFrame <initwithframe@protonmail.com>
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
 Depiction: https://chariz.com/buy/velvet
 
-Package: com.exile90.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.9.1
-Section: 🏴‍☠️ Tweak
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debians/PiratedTweaks/iCleaner/iCleaner+Hack.deb
-Size: 5356516
-MD5sum: 84a0d463a7045c20b286811da24fc963
-SHA1: 8df12233212ad15c34768c0b42dba3ea55a6e8c5
-SHA256: 2ef4a7f2000938617330501a32fc8353fb901958fe13e75fe832b082519b8fed
-SHA512: 845e09013d71a8c1cf04cb43f0ce5bff8af11196cc4d22a7d29bfcf530b87336c1b86db911e848ab1e2b9f6f0bb305261298fc112330ec6dc31cfe9733fd6f04
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
-Name: iCleaner Pro
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
@@ -2473,6 +2452,46 @@ Name: Zetsu
 Author: Dcsyhi
 icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1
+Section: Tweaks
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debians/Tweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 5335958
+MD5sum: 5a74033fa4d0336af9e6671b57c8e3e2
+SHA1: 90fc468a63d9322415e3665667a49ff8af411995
+SHA256: 7f8ed82ad02adc376c02b7831773d01ed13d0a33610b637a107774dc9cc96635
+SHA512: db7debbfd0f4fab5a6d86cd249510890195ad98c7ce1432d0312643e3d1beeb461cf6d843f301f6164d95c237c881c24c2ad4960c39155ba5ae5a4874c79c377
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
+
+Package: com.turannul.paisseon.icleanerprohack
+Architecture: iphoneos-arm
+Version: 1.1+debug
+Section: Tweaks
+Maintainer: turannul
+Depends: firmware (>= 4.0), findutils, apt | apt7, com.exile90.icleanerpro
+Filename: ./debians/Tweaks/iCleaner/com.turannul.paisseon.icleanerprohack_1.1+debug_iphoneos-arm.deb
+Size: 21196
+MD5sum: 85c8ea7205400d5d9a6147554088199d
+SHA1: af51eb7dbe90ea588a200f80b5e2927d51f4f151
+SHA256: b1afb7b41faf84c93dcb7b8b2d2c805cd6f93d04e2cebfd18bdca40ec99261bc
+SHA512: 5b9697b95f06703cc2a33bedce982e42f84690513b33bd39e7093fe97114783c9e86154073588b6c435b2bd9c0a50cbf1498d14cfeec66d1075883b969a4b47c
+Homepage: http://ib-soft.net/icleaner
+Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
+Name: iCleaner Pro Hack
+Author: turannul
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: com.trappledestek.watusi3
 Architecture: iphoneos-arm
