@@ -517,6 +517,27 @@ Icon: https://turannul.github.io/home/resources/zebra.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.24
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14796
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.24_iphoneos-arm.deb
+Size: 8242476
+MD5sum: f7b0ddb350f8053bf74f921fd78b1f10
+SHA1: f724c15cbb20a2581e111132c0924d139ca45635
+SHA256: ccab576250770836247a1e9016c4dbe58327aab804679e375bb8fb6dbecdfb73
+SHA512: fd5785eff85ed2801491e8f24e79bd7407f6443df48bb6d337e2f4e8267e536b2c890d3ffecb4fe7c2dd67ad2ba1922cf32a88d527cff16ab26054eb2622b826
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm
 Version: 0.0.5
@@ -601,16 +622,16 @@ Icon: https://turannul.github.io/home/resources/lynx2.png
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
 Version: 1.0-2
-Section: Uygulama
+Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Installed-Size: 700
 Depends: firmware (>= 14.0)
 Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
-Size: 313074
-MD5sum: 6b381c432c37aec0ad026d1734c1b756
-SHA1: a40ba9f77ef8df8b90aa9d3d67604aba494258fa
-SHA256: b2f0944fb7840b20e1a0aabb033c71a8d340a037751f00eb984e717ed675b42d
-SHA512: c7dc7507f6325f355c2f191ff958f1eebe4a7ba88b22186b57cc0fc7b68b4f97e8829f82d48a0d6257f901d835ecf8d0130a98f82a1ee17c4ae51d802e9481c4
+Size: 313198
+MD5sum: d2aa1873c97bc0122894b08cd5eac58f
+SHA1: 0e24df9b7d343f9170650bbb5ff2529880b51e78
+SHA256: 154bd4c86cc9078beba3b775eb07cdd969183494e605f84850da5301acfb6797
+SHA512: 6f7f4d35174ae643c75d5ddf5b6ac42a8d6e1cb3387d9169434bb897ba136b7be5b475856a48d72b015dd31c836f96acb7ca43af7e3f4c39c05290940cb408aa
 Description: Emulate iOS GPS Locations
 Name: RelocateMe
 Author: MidnightChips
@@ -655,6 +676,27 @@ Name: Velvet
 Author: initWithFrame <initwithframe@protonmail.com>
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
 Depiction: https://chariz.com/buy/velvet
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1
+Section: 🏴‍☠️ Tweak
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debians/PiratedTweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 5356482
+MD5sum: 5803204de369d9dcb23dd9a72997f974
+SHA1: 6682f3867c8b1702e1d1e2ff68e00adfbb3d767a
+SHA256: 4ba73dfcc29e65c2292ff316add318e76b569d863f789563f5b65db2c91b677c
+SHA512: 75aaef68f36ca0ff072c2eeefc56a907036cb901479bdce80eabfd004d1959f0dbd01ed6566b92b903240c8798b6316bd263e6e49cb92d96973cdddda12f118f
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
