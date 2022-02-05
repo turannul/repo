@@ -1,0 +1,14 @@
+Package: com.exile90.icleanerpro
+Section: 🏴‍☠️ Tweak
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Architecture: iphoneos-arm
+Version: 7.9.1
+Replaces: org.altervista.exilecom.icleaner
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Homepage: http://ib-soft.net/icleaner
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png

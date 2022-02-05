@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Cleanup
+killall -m \'^iOS[0-9]+_iCleaner$\' 2>/dev/null
+rm -rf {Applications,var/stash/appsstash}/iCleaner.app
+rm -rf /var/root/Library/Caches/com.ivanobilenchi.icleaner
+rm -f /usr/bin/icleaner
+
+# Migrate settings and respring if necessary
+cd /var/root/Library/Preferences
+if [ -f ./com.exile90.icleanerpro.plist ]; then
+	mv ./com.exile90.icleanerpro.plist ./com.ivanobilenchi.icleaner.plist 2>/dev/null
+
+	declare -a cydia
+	cydia=($CYDIA)
+
+	if [[ $1 == install || $1 == upgrade || $1 == reinstall ]]; then
+		if [[ ${CYDIA+@} ]]; then
+			eval "echo 'finish:restart' >&${cydia[0]}"
+		else
+			echo "Please respring your device."
+		fi
+	fi
+fi
+
+exit 0
