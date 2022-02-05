@@ -2462,11 +2462,11 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debians/Tweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 6757294
-MD5sum: 2624ce221928a6dd5850361a66b8e0e6
-SHA1: 7a351cc48c3a29467449c98241e53966ed8fa80b
-SHA256: f88c5dcbfd5e44501ebe6da8dd3c7b7c2aacb0ade1b0cd6d75662228a7fa562c
-SHA512: db1ce5d4ecd4925c261ef99fa2a483066a3e4e6ea32da710a440f8bc7bb6af68b1ef0fc16f7dcba92ebe10cf7cddd8a1805bc569c951814ff2afc38f3ca3c640
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+SHA1: 36acad04b82db75d345c91ee363a27eb4d602a27
+SHA256: f1e6087494618183f7539bba3a38ee88608383868cfcd524f99b46d7e7a27a47
+SHA512: 472e851b5aa86db6bf178137aa2b0ba885c703157bd81fd61be965d5b18b14783afe7e19a90c48c4defc88779c5851fc6532baa58dbcdd6865d1b3496e11b2d2
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
 Name: iCleaner Pro
