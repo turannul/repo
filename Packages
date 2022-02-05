@@ -1706,6 +1706,132 @@ Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
 SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
 Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
 
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.4.0
+Section: Tweaks
+Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.4.0_iphoneos-arm.deb
+Size: 54974
+MD5sum: ca26517c3beed0ceb473bfabe5b43afd
+SHA1: 2e0aefb3d5e3fd5499108ea57cd446004af3d4a7
+SHA256: 9ba87647bca3e088cb99d54db9d90336553aa9cf3a1cd6e47b5cd3b892bed187
+SHA512: 0f534260202c37fc2521be397eaa613ac093185ced605f58fbcd21af5be3c31116b0542454af41bc80f0e42d13375cb0542f71d8388f8be40a7cc09ce40ea69f
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios13.0
+Name: Return YouTube Dislike
+Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Tweaks
+Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.5.0_iphoneos-arm.deb
+Size: 7226
+MD5sum: 6bdfe31426611dde92f064e75b52d19b
+SHA1: 549839d6404164d91fc762ced1b0412d8c8107f3
+SHA256: 9677b1a64cc74ba4e2b74959e798df1a086f49d01376e3b94dcd0e60da4c6b2c
+SHA512: 59cab4712460e670f46196637a5cc380697a1ed12f30279c2aaa0efb5479ce9b664e20430de630622a644924c9980c34ca50e4c30697790f85a942998c8f245b
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios11.0
+Name: Return YouTube Dislike
+Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.6.0
+Section: Tweaks
+Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.0_iphoneos-arm.deb
+Size: 13668
+MD5sum: 27afe174bd63c449b763964be201c2fa
+SHA1: 53984d19e156999e6169ffa33f06da3667a18b7c
+SHA256: 3e54f9e5a87d15a123703a6816c12103796e8afd4a22b167adb7aafd229ec704
+SHA512: 3610b2f6ba35824716dab2e381c3610b9ab93e51dc513658fe83b3efdbfb02c2c64ee77be32c3ee75479f84cb41f8972af10b68cd1efcc26abbab7a824388e95
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios11.0
+Name: Return YouTube Dislike
+Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.6.1-3
+Section: Tweaks
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 116
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.1-3_iphoneos-arm.deb
+Size: 14936
+MD5sum: 6b687df928ebf0be9aba2e7fb4e5cb8e
+SHA1: 97c8bdc210c55b5aea8221a01b22fde66af9bc98
+SHA256: 530d6164810e323f1d4201a1178a004c85bba1154cc353028e7f05f45cbf566e
+SHA512: ac43c0374b8c0ac9e2f799d90bb56fcd13a49c35eff3b6cf8f4dd087d5df355d7e490a4baef06fa2606ef632afeaf43d3a34a1254e3fe313c5f12a796e4df4e7
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios11.0
+Name: Return YouTube Dislike
+Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.6.1
+Section: Tweaks
+Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.1_iphoneos-arm.deb
+Size: 14948
+MD5sum: 98594a016f32cf4e8cbbc84603ea8497
+SHA1: c100e549867fc82cd47de0babea86d303a32d541
+SHA256: 103120fa449274855a20d8e138a4bc7c368a15c1b8f86d2262f0e066809861c1
+SHA512: 7563635e7b39740c0232a0c6f46e5281fda9aa7075443f2a08715a9eaf1f81c63ca856543b79de7ce9002df1510e33b4b61ce6e5456db1889803e455c23daeb4
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios11.0
+Name: Return YouTube Dislike
+Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
+Package: weeb.lillie.youtubedislikesreturn
+Architecture: iphoneos-arm
+Version: 1.6.2
+Section: Tweaks
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 116
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.2_iphoneos-arm.deb
+Size: 15194
+MD5sum: 133d92991dd90fc4986618e231662a53
+SHA1: f214794297840c7071bb9ff657c993617106b53c
+SHA256: 666f23b28cfc9aefeb1c7925c9f5f533a866f0f82d9a47c4e7bcfae73ac0d8f8
+SHA512: 1b69c4791d93a5c35fcffe2157a7707f876794937c0cea726099fc9915bc7b29c7b407d26999491ebc9f27ab195b2895e23813150e89cf137c3fb2649b8b73e1
+Description: Bring Back Dislikes On YouTube
+Tag: compatible_min::ios11.0
+Name: Return YouTube Dislike
+Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
+Depiction: https://chariz.com/get/return-youtube-dislike
+
 Package: com.ichitaso.spenabler
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -2053,111 +2179,6 @@ Description: animated weather background on the lock and home screen
 Name: WeatherLock13
 Author: rainwolf <rainwolf@submanifold.be>
 
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.4.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 240
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Youtube-DislikeReturn/weeb.lillie.youtubedislikesreturn_1.4.0_iphoneos-arm.deb
-Size: 54974
-MD5sum: ca26517c3beed0ceb473bfabe5b43afd
-SHA1: 2e0aefb3d5e3fd5499108ea57cd446004af3d4a7
-SHA256: 9ba87647bca3e088cb99d54db9d90336553aa9cf3a1cd6e47b5cd3b892bed187
-SHA512: 0f534260202c37fc2521be397eaa613ac093185ced605f58fbcd21af5be3c31116b0542454af41bc80f0e42d13375cb0542f71d8388f8be40a7cc09ce40ea69f
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios13.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.5.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 80
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Youtube-DislikeReturn/weeb.lillie.youtubedislikesreturn_1.5.0_iphoneos-arm.deb
-Size: 7226
-MD5sum: 6bdfe31426611dde92f064e75b52d19b
-SHA1: 549839d6404164d91fc762ced1b0412d8c8107f3
-SHA256: 9677b1a64cc74ba4e2b74959e798df1a086f49d01376e3b94dcd0e60da4c6b2c
-SHA512: 59cab4712460e670f46196637a5cc380697a1ed12f30279c2aaa0efb5479ce9b664e20430de630622a644924c9980c34ca50e4c30697790f85a942998c8f245b
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Youtube-DislikeReturn/weeb.lillie.youtubedislikesreturn_1.6.0_iphoneos-arm.deb
-Size: 13668
-MD5sum: 27afe174bd63c449b763964be201c2fa
-SHA1: 53984d19e156999e6169ffa33f06da3667a18b7c
-SHA256: 3e54f9e5a87d15a123703a6816c12103796e8afd4a22b167adb7aafd229ec704
-SHA512: 3610b2f6ba35824716dab2e381c3610b9ab93e51dc513658fe83b3efdbfb02c2c64ee77be32c3ee75479f84cb41f8972af10b68cd1efcc26abbab7a824388e95
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.1-3
-Section: Tweaks
-Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 116
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Youtube-DislikeReturn/weeb.lillie.youtubedislikesreturn_1.6.1-3_iphoneos-arm.deb
-Size: 14936
-MD5sum: 6b687df928ebf0be9aba2e7fb4e5cb8e
-SHA1: 97c8bdc210c55b5aea8221a01b22fde66af9bc98
-SHA256: 530d6164810e323f1d4201a1178a004c85bba1154cc353028e7f05f45cbf566e
-SHA512: ac43c0374b8c0ac9e2f799d90bb56fcd13a49c35eff3b6cf8f4dd087d5df355d7e490a4baef06fa2606ef632afeaf43d3a34a1254e3fe313c5f12a796e4df4e7
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.1
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Youtube-DislikeReturn/weeb.lillie.youtubedislikesreturn_1.6.1_iphoneos-arm.deb
-Size: 14948
-MD5sum: 98594a016f32cf4e8cbbc84603ea8497
-SHA1: c100e549867fc82cd47de0babea86d303a32d541
-SHA256: 103120fa449274855a20d8e138a4bc7c368a15c1b8f86d2262f0e066809861c1
-SHA512: 7563635e7b39740c0232a0c6f46e5281fda9aa7075443f2a08715a9eaf1f81c63ca856543b79de7ce9002df1510e33b4b61ce6e5456db1889803e455c23daeb4
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
 Package: jp.dcsyhi.zetsu
 Architecture: iphoneos-arm
 Version: 1.0
@@ -2270,6 +2291,24 @@ Name: Zetsu
 Author: Dcsyhi
 icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+
+Package: com.trappledestek.watusi3
+Architecture: iphoneos-arm
+Version: 1.1.13
+Section: AD - TR Tweak
+Maintainer: Deliturk
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
+Filename: ./debians/Tweaks/trappledebs/Watusi3/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
+Size: 4436794
+MD5sum: d5d365c4ff4f1b54b5224db05136aef5
+SHA1: 43a161489bb04195e05b7027786a718b209dae67
+SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
+SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
+Description: WhatsApp Messenger için hepsi bir arada tweak
+Name: Watusi 3 for WhatsApp
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
+SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
@@ -2662,24 +2701,6 @@ Author: XITRIX
 Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
-
-Package: com.trappledestek.watusi3
-Architecture: iphoneos-arm
-Version: 1.1.13
-Section: AD - TR Tweak
-Maintainer: Deliturk
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
-Filename: ./debians/trappledebs/Watusi3/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
-Size: 4436794
-MD5sum: d5d365c4ff4f1b54b5224db05136aef5
-SHA1: 43a161489bb04195e05b7027786a718b209dae67
-SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
-SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
-Description: WhatsApp Messenger için hepsi bir arada tweak
-Name: Watusi 3 for WhatsApp
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
-SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
 
 Package: com.mrgcgamer.libgcuniversal
 Architecture: iphoneos-arm
