@@ -517,6 +517,48 @@ Icon: https://turannul.github.io/home/resources/zebra.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: com.miguelaka95.bettercc
+Architecture: iphoneos-arm
+Version: 0.0.5
+Section: Tweaks
+Maintainer: Miguelaka95 <miguelaka95@gmail.com>
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/PiratedTweaks/BetterCC/com.miguelaka95.bettercc_0.0.5_iphoneos-arm.deb
+Size: 154106
+MD5sum: 438801f01b0f3a4ae2039444b4fd8321
+SHA1: 610addb086e367215e86a24f345f2abccfc28663
+SHA256: 456f7591dfe11d89b886e37bd90aec0d577ca2a77a9850f276a402443f762a7d
+SHA512: 7728f8cd73a9f87bb2f90b76a5fa02c3cbe5dd1e9ea855a2e9ed94f513eaabfa43fa2c18a1b51b55e0888ff5a888ead69e00f93545ab627eb46dfb54b13a30e9
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Name: BetterCC
+Author: Miguelaka95 <miguelaka95@gmail.com>
+
+Package: com.golddavid.colorbadges-new
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Tweaks
+Maintainer: David Goldman <help@golddavid.com>
+Installed-Size: 560
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorbadges
+Replaces: org.thebigboss.colorbadges
+Filename: ./debians/PiratedTweaks/ColorBadges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
+Size: 59594
+MD5sum: 935415997e5780b7bd38feb06b722d23
+SHA1: 5134ac807e6968b3be1ebe853be146c930ef39ab
+SHA256: d658a49acf9556e610a12115067c1c38e26d1bdf053df70d6f2d81069f4e0fa6
+SHA512: ab66e1a96c8fc4f9876a45818e837e3ccb7cb1ef4a7fcb8097b36c4f8a56f522ad0cf910e93b4f4b08c9fe13e6f96faccaaa23729810d029b3cf45db970bf165
+Description: Colorize your badges
+Name: ColorBadges (Packix)
+Author: David Goldman <help@golddavid.com>
+Depiction: http://apt.golddavid.com/depictions/ColorBadges.html
+Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
+
 Package: xyz.turannul.diskprobe
 Architecture: iphoneos-arm
 Version: 1.0.8
@@ -537,6 +579,23 @@ Sileodepiction: N/A
 Depiction: N/A
 Icon: https://turannul.github.io/home/resources/diskprobe.png
 
+Package: com.mtac.lynxtwo
+Architecture: iphoneos-arm
+Version: 2.3.1
+Section: Tweaks
+Maintainer: MTAC
+Installed-Size: 2916
+Depends: mobilesubstrate, firmware (>= 14.0), com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common
+Filename: ./debians/PiratedTweaks/Lynx2/com.mtac.lynxtwo_2.3.1_iphoneos-arm.deb
+Size: 925454
+MD5sum: dd0dbcc133af9c771e93076886d4a3e4
+SHA1: 7c054d8c0e63cea7b0393c9a09645d79a537ad28
+SHA256: fdb79d775c4faab9d3436363e3a5f1439ee8d470acef3ccc561c87565d5b7cf1
+SHA512: fce44dfe617e5b4bd1b9d564783b2322d42f4287f8cd3b443901831e84a60bf61a949220b25b569783fd303a9a251c1dbbfcb5612d152ef182cae6ec2a7c7f3f
+Description: Ultimate iDevice Customization for iOS 14+
+Name: Lynx 2
+Author: MTAC
+
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
 Version: 1.0-2
@@ -555,6 +614,44 @@ Name: RelocateMe
 Author: MidnightChips
 Icon: https://turannul.github.io/home/resources/relocateme.png
 Depiction: https://chariz.com/buy/relocate-me
+
+Package: com.jontelang.snapper2.packix
+Architecture: iphoneos-arm
+Version: 2.5.12
+Section: Tweaks
+Maintainer: Jonathan Winger-lang
+Installed-Size: 1840
+Depends: mobilesubstrate, firmware(>=12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debians/PiratedTweaks/Snapper2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
+Size: 423826
+MD5sum: 28f274fe9e0b36abeabc1ce2bd95bf5f
+SHA1: 2f6c392ab15aeff0b222190c44de8eddfa6ef836
+SHA256: e6cc49db98cf749b75cf2f8a759bfb80a7601dd62351d993ce8a4e8bbd5cc807
+SHA512: 5a909135b51bc6a747adc04a47d656212601fb5dee3142285858dbb3c1adf8d5f2fde0c89db28f4f4ce189fdb784190aa4b3ed5a7b0da557b0fc03cead8fff93
+Description: Pin screenshots on the screen.
+Name: Snapper 2
+Author: Jonathan Winger-lang
+
+Package: com.initwithframe.velvet
+Architecture: iphoneos-arm
+Version: 1.5.1
+Section: Tweaks
+Maintainer: initWithFrame <initwithframe@protonmail.com>
+Installed-Size: 764
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Filename: ./debians/PiratedTweaks/Velvet/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
+Size: 181928
+MD5sum: 78a42e747b91a9e7a3eb0ca9dfe58a36
+SHA1: 4c1f060d1ddbd36dfbc06b08e5d5473fa01d0f4a
+SHA256: b529ba7d3f73ecb08e045d0a605a552e68846cb2a8bee1e3bc6521207da4180b
+SHA512: 7d4cc2fba9106d7a213f7f7d7d664d3fbb73a95cefe634b97d91dda2ff42960621a107018936569518cb650c91765e2dbc537d897e6f68c300907321cf4e0413
+Description: A new way to customize your notifications!
+Tag: cydia::commercial, compatible_min::ios13.0
+Name: Velvet
+Author: initWithFrame <initwithframe@protonmail.com>
+Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
+Depiction: https://chariz.com/buy/velvet
 
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
@@ -1529,6 +1626,25 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Devvix <jamie@devvix.com>
 dev: devvix
 
+Package: com.brend0n.nopassafterrespringsafe
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/NoPasswordRespring/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm.deb
+Size: 6660
+MD5sum: c67c2fdfa65f4608586f6aecd991829b
+SHA1: 54ca0ed480cc254ad092a2efff1c050ead0391ae
+SHA256: c856f7750b4f9e69c332f21cc8517a8938b5f9146db006235271ece2cd4f0b9f
+SHA512: ddc0f658f34274e27e5c955777ec3d4d58b869669c5ea052ad7a4427a30e59e192a0b7e059f22e33d1296187e851cd8642541028c31dd8cc9a2281565c77738b
+Description: Disables passcode after a respring.
+Name: NoPassAfterRespring (Safe)
+Author: Brend0n <brendonjkding@126.com>
+Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
+SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
+
 Package: net.cadoth.otaenabler
 Architecture: iphoneos-arm
 Version: 0.1.0
@@ -2460,6 +2576,30 @@ Author: iPA Store
 Depiction: https://www.iphonecake.com/app/
 SileoDepiction: https://www.iphonecake.com/app/
 Icon: https://turannul.github.io/home/resources/appcake.png
+
+Package: ru.domo.cocoatop64
+Architecture: iphoneos-arm
+Version: 2.2.3
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 915
+Depends: firmware (>= 10.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debians/Uygulamalar/CocoaTop-x64/ru.domo.cocoatop64_2.2.3_iphoneos-arm.deb
+Size: 232256
+MD5sum: da9a9e05ef94810edf785413b9fecb4c
+SHA1: c0721671a1f43a50207d366c42de6e66f0b10293
+SHA256: c37aae4fd62c5598fac4b6c2aab519a475404586f506c5324d7d0e9686c613e6
+SHA512: 462668a7b59d00bd8c6717ea0be45e9461b2a091ab5fb6145f4188033ab24c46d54c20c23746cee82356176fc8e6236f7ff1617772f5fb85a31d4c84407dd6dd
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
+Description: Process Viewer for iOS 10-13
+Tag: purpose::uikit
+Author: Domo <domo@rambler.ru>
+Name: CocoaTop64
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: domo
+Icon: file:///Applications/CocoaTop.app/Icon.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
