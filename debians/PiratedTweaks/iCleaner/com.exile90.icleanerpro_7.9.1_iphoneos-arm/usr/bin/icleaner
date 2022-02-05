@@ -1,2 +1,0 @@
-#!/bin/bash
-[ $# -eq 0 ] && exec /Applications/iCleaner.app/iCleaner -cli || exec /Applications/iCleaner.app/iCleaner "$@"

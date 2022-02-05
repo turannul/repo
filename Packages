@@ -685,12 +685,12 @@ Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debians/PiratedTweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 5356482
-MD5sum: 5803204de369d9dcb23dd9a72997f974
-SHA1: 6682f3867c8b1702e1d1e2ff68e00adfbb3d767a
-SHA256: 4ba73dfcc29e65c2292ff316add318e76b569d863f789563f5b65db2c91b677c
-SHA512: 75aaef68f36ca0ff072c2eeefc56a907036cb901479bdce80eabfd004d1959f0dbd01ed6566b92b903240c8798b6316bd263e6e49cb92d96973cdddda12f118f
+Filename: ./debians/PiratedTweaks/iCleaner/iCleaner+Hack.deb
+Size: 5356516
+MD5sum: 84a0d463a7045c20b286811da24fc963
+SHA1: 8df12233212ad15c34768c0b42dba3ea55a6e8c5
+SHA256: 2ef4a7f2000938617330501a32fc8353fb901958fe13e75fe832b082519b8fed
+SHA512: 845e09013d71a8c1cf04cb43f0ce5bff8af11196cc4d22a7d29bfcf530b87336c1b86db911e848ab1e2b9f6f0bb305261298fc112330ec6dc31cfe9733fd6f04
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
 Name: iCleaner Pro
@@ -2033,6 +2033,27 @@ Name: Satella 2
 Author: Paisseon
 Icon: https://paisseon.github.io/info/satella2.png
 SileoDepiction: https://paisseon.github.io/info/satella2.json
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 0.3.1b
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 468
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Satella-2/emt.paisseon.satella_0.3.1b_iphoneos-arm.deb
+Size: 58144
+MD5sum: f4d472bee77980cf0f18ba3a9106e917
+SHA1: 13d5b5462b7ec8097ff57e2663cc183978afd088
+SHA256: cab81d752ff694058f1801042f5285b0c1b353924b9973433181257feb9e0ffe
+SHA512: 5a3cd771f46aa4b7bff23443422185ddf43e4aef0f9a656d3aea5d00209a70ca6ea718c5e07b3c19816a0ef3c501239500ad9e6c5b9208f62177c7d66904a786
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
 Package: ai.paisseon.satella12
 Architecture: iphoneos-arm
