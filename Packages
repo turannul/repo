@@ -665,13 +665,12 @@ Maintainer: initWithFrame <initwithframe@protonmail.com>
 Installed-Size: 764
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
 Filename: ./debians/PiratedTweaks/Velvet/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
-Size: 181928
-MD5sum: 78a42e747b91a9e7a3eb0ca9dfe58a36
-SHA1: 4c1f060d1ddbd36dfbc06b08e5d5473fa01d0f4a
-SHA256: b529ba7d3f73ecb08e045d0a605a552e68846cb2a8bee1e3bc6521207da4180b
-SHA512: 7d4cc2fba9106d7a213f7f7d7d664d3fbb73a95cefe634b97d91dda2ff42960621a107018936569518cb650c91765e2dbc537d897e6f68c300907321cf4e0413
+Size: 251108
+MD5sum: 59ca17c9ae3a225597c2cd8861c7be5a
+SHA1: 8b08baaf142284dc8e5b3def72c139f201d969ac
+SHA256: f31e484d33c9eeaf2b29bebcb3b636fbb50843211642306381552dac4750c2d7
+SHA512: 4432b3630827810b89f0996ec330ab0142156cd979079bdabf642ef5f601930c0e79bd59c3d8da3fe67eee21bc7e76c5740056fa9d49f0d909c2dda7147b096f
 Description: A new way to customize your notifications!
-Tag: cydia::commercial, compatible_min::ios13.0
 Name: Velvet
 Author: initWithFrame <initwithframe@protonmail.com>
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
@@ -2034,6 +2033,27 @@ Icon: https://paisseon.github.io/icons/satella2.png
 SileoDepiction: https://paisseon.github.io/depictions/satella2.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 0.4b
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 468
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Satella-2/emt.paisseon.satella_0.4b_iphoneos-arm.deb
+Size: 58292
+MD5sum: 9c78e87c2a932a3ab518b582af6c3941
+SHA1: 8475dfc0d911f6633acc9077e6be43af9f6ea74b
+SHA256: acefafcc177dfcca295db8790804ddb031de989376900e09f7d8c387123fb366
+SHA512: 5d431eae01e588e81ecf54822190ef573a5d35970741aafbe1347173a20fd4d66df8dca8fa3880f756c7367469ee92eaad540f5b2575b48cb3903f48398856fc
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
 Package: ai.paisseon.satella12
 Architecture: iphoneos-arm
 Version: 2.8
@@ -2339,6 +2359,24 @@ SHA512: a189752de0c59487f21ba80e33ada27cd28082311b4b8c438b3aacaa21986373018280bb
 Description: animated weather background on the lock and home screen
 Name: WeatherLock13
 Author: rainwolf <rainwolf@submanifold.be>
+
+Package: com.wilsonthewolf.webshade
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: WilsontheWolf
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/Tweaks/Webshade/com.wilsonthewolf.webshade_0.0.2.deb
+Size: 52444
+MD5sum: 3b5ac60dbef07d09ada09ed90aa8a23c
+SHA1: db4bfe6ce44583a5ddd5fe8dae1b21aec80872bc
+SHA256: 86251243102523c0b284096bc425d2090976caa8c76bf8196e8e2457f9b13c29
+SHA512: a34d68a73d5c906fb86659e3caeae5e3e06ccedb4650ed85158401a32e28eace84d00ece33347177cd6a65f08cf95c92bd75616dd8dab98cd8bc00e79122fc7f
+Description: Make your websites dark!
+Name: WebShade
+Author: WilsontheWolf
+Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.webshade
 
 Package: jp.dcsyhi.zetsu
 Architecture: iphoneos-arm
