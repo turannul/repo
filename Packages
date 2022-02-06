@@ -2724,6 +2724,24 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: domo
 Icon: https://turannul.github.io/home/resources/cocoatop.png
 
+Package: com.muirey03.cr4shedd
+Architecture: iphoneos-arm
+Version: 4.2.2
+Section: Uygulama
+Maintainer: Muirey03
+Depends: mobilesubstrate, com.muirey03.libmryipc, com.cokepokes.libnotifications (>= 0.2-2), cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Conflicts: com.muirey03.cr4shed
+Filename: ./debians/Uygulamalar/Cr4shed/com.muirey03.cr4shedd_4.2.2_iphoneos-arm.deb
+Size: 413478
+MD5sum: 66e6ff3f9f48db8facd2407f0ca83ea2
+SHA1: 00ceea40353aafa9568732f3399281b96043669a
+SHA256: 8dd4727a60adf07039224b7f50ebcc499c083c21a93ed99bd4edee522c8620aa
+SHA512: 040df4b727200eabab26732c32504b6c49df484749c1cb2c470795f734c4d70d2a3a120e526b0a00bb3f1b751c22d02bbcc36a2f21fcdd9925fd7f037a3fef00
+Description: A modern crash reporter for iOS Jetsam uyarıları kapatılmıştır.
+Name: Cr4shed
+Author: Muirey03
+Icon: https://turannul.github.io/home/resources/crashed.png
+
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
 Version: 4.0~beta10a
