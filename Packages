@@ -2858,6 +2858,137 @@ Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/noncesetter.png
 
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.1-beta
+Section: Uygulama
+Maintainer: b0kch01 <@PostBoxTeam>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.1-beta_iphoneos-arm.deb
+Size: 5082536
+MD5sum: dd071c9a45efae185774939dc15bccda
+SHA1: a2b880b15a739aad845795662b6bde4449b6ca36
+SHA256: ba34643062e5f000984702f5126695dd2ea9545c5481daf5f11c71996c5b2d2f
+SHA512: ef2f221a9acdedf4bdf1f8294a4d3b7cb9b7eefd59ce33ae2561a683e2b61a28c168b292579b03f0d6765d3651fd236b6214271fa4d830ef1131eb14b5a8d1a4
+Description: Not a package manager :) | getpostbox.now.sh | @PostBoxTeam
+Name: PostBox
+Author: PostBox Team <@PostBoxTeam>
+dev: PostBox Team
+Depiction: https://getpostbox.now.sh
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.2
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.2_iphoneos-arm.deb
+Size: 29713430
+MD5sum: cf29a058a1784f8027bd1e41d5186e05
+SHA1: eafd24ed82618eb3e5db8e833ddaedc921184742
+SHA256: 716f6809e0b1ed82fe03c464b59902f0ae854c18837884144be3f79bb64d5832
+SHA512: 728d6317cea8a9afe3f96d0859bdf3df9f6050586e9d0f4631e4d3da4eca1f579feab947a46c5ebffe5653840458581a4adb4f3f10b6a8cbd920eb4d11522784
+Homepage: https://getpostbox.now.sh
+Description: News, tweak lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://getpostbox.now.sh/depicts/app/icon.png
+Depiction: https://getpostbox.now.sh/depicts/app
+SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.3
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.3_iphoneos-arm.deb
+Size: 29791732
+MD5sum: 7c2ce99e67e7ac2a54090993910daca6
+SHA1: 5b0829d907cbf804955f025737eef011fc4d676f
+SHA256: bebefc1cd135f50c088866f4d25aeb5a7f4d96d672106f2d85b04ca6f80cb707
+SHA512: 059f5deddfaf8115717f780af659030ba8918523d1b5621822b92c1670515bb11e2eec7a9a87bbee01931593e29e34aca3f659330c3925502e1ce03e7967c113
+Homepage: https://getpostbox.now.sh
+Description: News, tweak lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://getpostbox.now.sh/depicts/app/icon.png
+Depiction: https://getpostbox.now.sh/depicts/app
+SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.4
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.4_iphoneos-arm.deb
+Size: 29682482
+MD5sum: 60590b132d37f210d4ee3977b216ba31
+SHA1: d387ceaa323a48acef3a44d5cc83e10685eedd3b
+SHA256: b1b87b3d85d0a221ce357fdfdd16298ff0a25ed5063bc437f48e1420efa7fe4c
+SHA512: b8a143ea93be5bc0c35552e1d266db4602c9b020f0cabb76176fdeae267b690a6a828847b1dde01e562b41ab94d6f138509d33e3296afc93b515096c0742d8e8
+Homepage: https://getpostbox.now.sh
+Description: News, tweak lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://getpostbox.now.sh/depicts/app/icon.png
+Depiction: https://getpostbox.now.sh/depicts/app
+SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.5
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.5_iphoneos-arm.deb
+Size: 22743118
+MD5sum: 219a1f9f3e3817b21a77b864e0863a31
+SHA1: 6c19be4cfbfa6d12ab40f4106a69e398db3b8baf
+SHA256: 653822ffb9fc74930bd46278a697f13c07686675602c4b348ea19c5622c9965a
+SHA512: 59a70dd36ca8e3d13a5393483142f3f8974b38d11a20c8271455e6622b045e06b015ade0b1ffb3f7e82071ca2301e7870f3aa760d898f6d5c0ade5077b3ed77c
+Homepage: https://getpostbox.now.sh
+Description: News, tweak lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://getpostbox.now.sh/depicts/app/icon.png
+Depiction: https://getpostbox.now.sh/depicts/app
+SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.6
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.6_iphoneos-arm.deb
+Size: 14367718
+MD5sum: 2d78410953adcfc44da02f94e8c9155b
+SHA1: f3fe0efba294cf4329feaefce6cd5af9806dad59
+SHA256: 8c0f9335436b24807a694654433a06b7e97a845ca7216ab61c1de6390452b31b
+SHA512: 3c253ac3a8f946f65e8b070172818f37399bcafc3c7f0fe7114847025f299e6f0f886aad151378d071bea3f99f18e0972a8e791cf79c554944e8f1527be6eccd
+Homepage: https://getpostbox.now.sh
+Description: News, package lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://getpostbox.now.sh/depicts/app/icon.png
+Depiction: https://getpostbox.now.sh/depicts/app
+SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.7
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.7_iphoneos-arm.deb
+Size: 60801480
+MD5sum: a5a9b6e581c243b35f2808fadf4303a6
+SHA1: bc1047055c4308204e51bba00f9039693d21926f
+SHA256: fcecca534a05123b7ca81a68bc37acc833e19cc35bf1bb32161b0952b1afc2e0
+SHA512: d3856b2998049926cbdba211bf79bdd4a0396e8a458d4e87356ba2e0642df38c574c58ceb7ef8351af4156c5eff407b178f2cded9d366253b8282eb900db56f8
+Homepage: https://postbox.news
+Description: News, package lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://postbox.news/depicts/app/icon.png
+Depiction: https://postbox.news/depicts/app
+SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
 Package: com.samgisaninja.successionrestore
 Architecture: iphoneos-arm
 Version: 1.4.16~b4
