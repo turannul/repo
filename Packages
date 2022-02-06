@@ -624,15 +624,14 @@ Architecture: iphoneos-arm
 Version: 1.0-2
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
-Installed-Size: 700
 Depends: firmware (>= 14.0)
 Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
-Size: 313198
-MD5sum: d2aa1873c97bc0122894b08cd5eac58f
-SHA1: 0e24df9b7d343f9170650bbb5ff2529880b51e78
-SHA256: 154bd4c86cc9078beba3b775eb07cdd969183494e605f84850da5301acfb6797
-SHA512: 6f7f4d35174ae643c75d5ddf5b6ac42a8d6e1cb3387d9169434bb897ba136b7be5b475856a48d72b015dd31c836f96acb7ca43af7e3f4c39c05290940cb408aa
-Description: Emulate iOS GPS Locations
+Size: 436706
+MD5sum: 414723a0a9c943caad371f607e98a000
+SHA1: 52d7280795fc7184afd4bfc20fba0fccb5fdd41a
+SHA256: c3b0618f1bde382d1fc96a6a6e177599066ea37c4b0945c323688cacc0ba0201
+SHA512: c0b84a74cfe5fbeb78f2cea11fb8e5044e1c5913019864cb38fbaae5d3537ad46ec05e95b057e8c509fc274efb8172df011bffe1c68ff36b8abca3b374bea2eb
+Description: Emulate iOS GPS Locations. Invalid License için yeniden düzenlendi
 Name: RelocateMe
 Author: MidnightChips
 Icon: https://turannul.github.io/home/resources/relocateme.png
