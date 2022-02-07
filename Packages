@@ -1282,6 +1282,23 @@ SileoDepiction: https://paisseon.github.io/info/cydown.json
 Depiction: https://paisseon.github.io/info/cydown.html
 Icon: https://paisseon.github.io/info/cydown.png
 
+Package: com.wilsonthewolf.eliza
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: WilsontheWolf
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware(>=12.0)
+Filename: ./debians/Tweaks/Eliza/com.wilsonthewolf.eliza_0.0.2_iphoneos-arm.deb
+Size: 12694
+MD5sum: 7dd6475eec7471e5787c83f71811d8d4
+SHA1: 688855b37ada74d46ef71c89102691b87c36970a
+SHA256: 607473fd062ba6f8119af74ca002245178a3101ba5f3face84d498ab01b8328f
+SHA512: 451b50ddc7f0ddffb741ce899cc3a7981aa0bc173d23f838f494c71870446eb0a23085c8f167029e91ad9688b782a0ac7d28b8f68daa989204099b0551fb021d
+Description: Make your battery colourful!
+Name: Eliza TR
+Author: WilsontheWolf
+Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.eliza
+
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
 Version: 0.2-beta
@@ -1526,6 +1543,54 @@ Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/hidesn.png
 
+Package: me.lightmann.iamlazy
+Architecture: iphoneos-arm
+Version: 1.4.2
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 526
+Depends: coreutils, findutils, gzip, tar, firmware (>= 13.0)
+Filename: ./debians/Tweaks/IAmLazy/me.lightmann.iamlazy_1.4.2_iphoneos-arm.deb
+Size: 116556
+MD5sum: 012955b6fd0c58ce9511484ccfa2ee8c
+SHA1: 5ac4631c87413f16ad29f0d5abbcefe71ccfa134
+SHA256: 6e757064eed906b0ac0def8020223e4d83d7c19523a7af19503c2c807b4ff2c5
+SHA512: c558488e61013b054316727079d3169ca60427e550c489ffe6f2092e573e20cb0e3f563a6ba86384d8b8b01145e50bd8f5be8e3bd7b2a07ff8955e8cb68d79bb
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
+Description: Easily backup and restore your tweaks from an 'offline' backup
+Tag: purpose::uikit
+Name: IAmLazy
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Lightmann <lightmanns11@gmail.com>
+dev: lightmann
+Icon: https://raw.githubusercontent.com/UsrLightmann/IAmLazy/main/icon.png
+
+Package: me.lightmann.iamspeed
+Architecture: iphoneos-arm
+Version: 1.0.5
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 483
+Depends: firmware (>= 13.0), findutils
+Filename: ./debians/Tweaks/IAmSpeed/me.lightmann.iamspeed_1.0.5_iphoneos-arm.deb
+Size: 92650
+MD5sum: ab3d9dc523a958f4e06f0d913d985380
+SHA1: e4a7647a4879688f20a4a2afa98c34db95338a5b
+SHA256: 290b522da4fc1e4f3d8d405d291c5c7135e9b9b05b6ccd58303e4e4a42f03066
+SHA512: 7b179284e66e84c7e16a4c401bb175664f888da43b0a47535f454e15ffe4a213e9aef1d9fb2081c35057496ba6dc9da7b0fb51e4c6fdc267b28e4ae22dae7691
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
+Description: Quickly backup and restore your tweaks from an 'online' backup
+Tag: purpose::uikit
+Name: IAmSpeed
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Lightmann <lightmanns11@gmail.com>
+dev: lightmann
+Icon: https://raw.githubusercontent.com/UsrLightmann/IAmSpeed/main/icon.png
+
 Package: jp.akusio.kernbypass-unofficial
 Architecture: iphoneos-arm
 Version: 0.0.5
@@ -1666,6 +1731,67 @@ Name: NoPassAfterRespring (Safe)
 Author: Brend0n <brendonjkding@126.com>
 Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
 SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
+
+Package: com.myxxdev.otadelay
+Architecture: iphoneos-arm
+Version: 1.020422
+Section: System
+Maintainer: MYXXdev™
+Installed-Size: 600
+Pre-Depends: dpkg
+Depends: bash, file-cmds, gawk, mobilesubstrate, plutil, preferenceloader, ws.hbang.common
+Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
+Replaces:
+Filename: ./debians/Tweaks/OTAdelay/com.myxxdev.otadelay_1.020422_iphoneos-arm.deb
+Size: 215612
+MD5sum: c2e700bcf0bc4d648e2d1a5a73e7caab
+SHA1: 94b91a80913fc09c3dccfc97188a37f0a83101d4
+SHA256: c87993306905ba75cd8d18ad4bfc4c9ee550c7127829972a1ad91be723a34b3c
+SHA512: 68325a0ae20db7acc9649ff4496ae9aa2db4ef66722078e2db5a8d35311887849d8231eb80f71da354acf9de403b68d68752da9a27969370bd5c8113cfe0b75d
+Description: Delayed OTA updates made easy!
+ • Description:
+ otaDelay® will allow you to UPDATE your device via OTA to an iOS firmware that is no longer available for regular users by extending the OTA update windows, enforcing a 90 day software update delay.
+ -
+ Thanks to otaDelay®, this can be done in 4 easy steps... No profiles, no manual file modifications, all automated!
+ -
+ All available firmware dates are clearly listed within the "Enable otaDelay®" prompt.
+ -
+ An optional AlternateSU patch is also available within otaDelay® settings that will allow you to install firmwares typically only available to those coming from specific firmwares. For example: As of this writing, this will benefit those coming from <14.5 that would like to update to 14.8 - Without the AlternateSU patch, 15.0.2 will show as the latest update. With AlternateSU enabled, 14.8 will be available to download and install.
+ -
+ Please ensure you read ALL prompts when navigating through the steps - There's important information given throughout the process!
+ -
+ Support is available via Telegram (preferred) and Discord - Links can be found in otaDelay® settings under "Tweak Support".
+ -
+ A special thanks to dhinakG, nyuszika7h and Tanbeer_191!
+ -
+ Thank you for choosing otaDelay®!
+ ♥ MYXXdev™
+ --------------------------------------
+ --------------------------------------
+ • Changelog:
+ --------------------------------------
+ -
+ ~ v1.020422
+ -
+ Fixed preference bundle for certain devices.
+ -
+ Fixed contingency issue.
+ -
+ Updated / added firmware dates.
+ -
+ Updated OTAEnabler to 0.4.0.
+ -
+ --------------------------------------
+ -
+ ~ v1.012122
+ -
+ Initial release.
+ -
+Name: otaDelay®
+Author: MYXXdev™
+Icon: https://turannul.github.io/home/resources/otadelay.png
+Depiction:
+SileoDepiction:
 
 Package: net.cadoth.otaenabler
 Architecture: iphoneos-arm
@@ -1990,6 +2116,47 @@ Author: ichitaso
 Name: SupervisedEnabler
 Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
 dev: ichitaso
+
+Package: com.myxxdev.samjet
+Architecture: iphoneos-arm
+Version: 1.020422
+Section: System
+Maintainer: MYXXdev™
+Installed-Size: 436
+Pre-Depends: dpkg
+Depends: firmware (>=14.0), firmware (<=15.0), mobilesubstrate, plutil, ws.hbang.common
+Conflicts: com.pheux.fixrandomresprings
+Replaces: com.pheux.fixrandomresprings
+Filename: ./debians/Tweaks/SamJet/com.myxxdev.samjet_1.020422_iphoneos-arm.deb
+Size: 157402
+MD5sum: 18dc2d0fb82b954e44e8cdf40025159f
+SHA1: bfeb0cd90aaeae8671a37601aaaa73da03bbb183
+SHA256: 4fe19799ab4e6a268c052a8a353ae241cc86f15f1ccb365538df57ada6342f19
+SHA512: 090f8537db8189a31353189482bfe99845c92abf986423770855c54f592b74b09fea51b2ec8d366f84d1273f8a6a644025206bbf50e8a0f7974aeab6ba632dfe
+Description: A more stable iOS 14!
+ • Description:
+ This utility will raise values for problematic jetsam entries (for iOS 14 ONLY)!
+ -
+ Your jetsam file will be backed up in its current state (whether that be stock or self-modified), with that version restored upon removal of SamJet®. Two different backups are stored in /usr/sbin/MYXXdev/SamJet/Backups and /var/mobile/Media/MYXXdev/SamJet/Backups
+ -
+ DO NOT DELETE THESE FILES/ FOLDERS!
+ -
+ Any modifications you have made to entries other than those in SamJet® prior to using this tweak will remain in tact.
+ --------------------------------------
+ Thank you for choosing SamJet®!
+ ♥ MYXXdev™
+ --------------------------------------
+ --------------------------------------
+ • Changelog:
+ --------------------------------------
+ -
+ ~ v1.020422
+ -
+ Initial release.
+ -
+Name: SamJet® (for iOS 14)
+Author: MYXXdev™
+Icon: https://turannul.github.io/home/resources/samjet.png
 
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
@@ -3113,25 +3280,6 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
-Package: com.mrgcgamer.libgcuniversal
-Architecture: iphoneos-arm
-Version: 1.4.3
-Section: System
-Maintainer: MrGcGamer
-Installed-Size: 336
-Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Filename: ./debians/zzzzz/6114628aa2f885001a2a3795.deb
-Size: 52228
-MD5sum: ec22bb5da0d1a1089ab439d37c149cb9
-SHA1: 43dfaeafb9a25a7577d6c82dd247996e18af51df
-SHA256: 95fb6c4de769236da4e7d13d6bc18c88e18f4518612522c73fe194a886e9e5be
-SHA512: 3c2edfced479238d9e8d2195a1442b73d574fe5d00a082abc5556e75db769c9ea2d9df678ff101a63d870b6f0e426e80bcb50da5030496099b2d66c77e91d11f
-Description: An awesome library of some sort!!
-Tag: role::developer
-Name: LibGcUniversal
-Author: MrGcGamer
-
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
 Version: 0.3-5
@@ -3194,6 +3342,25 @@ Tag: role::enduser, purpose::console
 Name: appinst (App Installer)
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm
+Version: 1.4.3
+Section: System
+Maintainer: MrGcGamer
+Installed-Size: 336
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: ./debians/zzzzz/com.mrgcgamer.libgcuniversal_1.4.3_iphoneos-arm.deb
+Size: 91094
+MD5sum: 091b2ee5ce4ef6dc5bc1f04b785c63c5
+SHA1: b4e330bde258a6e9d7cf5d530fc1dda03c91a81f
+SHA256: a21489abacc5b9d4799b0fa9d3e6b8c6a1a83ae820d7f5f7a9914203fd135841
+SHA512: f6542fab6d2a43ae989ce39780306e49f33443ff39be228527d102798c827e68e6b901e329a5374071bce8402b1dabfca41c4570fd352194d37525e788017932
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
 
 Package: com.peterdev.libpddokdo
 Architecture: iphoneos-arm
