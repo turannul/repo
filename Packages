@@ -1628,25 +1628,6 @@ Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 
 Package: lunotech11.Legizmo
 Architecture: iphoneos-arm
-Version: 1.1-21NA061247i
-Section: Tweaks
-Maintainer: lunotech11
-Installed-Size: 2860
-Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
-Filename: ./debians/Tweaks/Legizmo/Legizmo-Release-Internal-1.1-21NA061247i.deb
-Size: 335312
-MD5sum: bbca5a0bfb875ae26673edde81e8791d
-SHA1: c06f76962351d899a8347ccd90a7901ddbc51db0
-SHA256: e038fb8ce1b78befab915cd3eedbdfe7551f6abdde33eddbfdb7635b324a3735
-SHA512: 6f64df34b033c2da54c870c9f760e20804ad0c87a5ea52130c3aaeece6a935ed258ce2c82ab83b7e5925363b6247dadfd1981d0cecd4f95223b84c594ec822b6
-Description: Allow iOS to pair with newer versions of watchOS
-Tag: cydia::commercial
-Name: Legizmo (Internal Release)
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-
-Package: lunotech11.Legizmo
-Architecture: iphoneos-arm
 Version: 1.1-21DA222330i
 Section: Tweaks
 Maintainer: lunotech11
@@ -1659,6 +1640,24 @@ MD5sum: 74dbf354d3017747a693883c1beed98f
 SHA1: 246870c3ecec9a83c6e557c46017df30ba178455
 SHA256: a3b4900a2d7bf6f272036b1f80afcb1e0dad531606f98aaa0c0a4b9179076b4e
 SHA512: 205514ad2a78ed5b342bd5c7d64a37d68eb1d210e7200fcf32b792c349191c80ba030b4c8ceccfed51d7a284b1a884d4cc01e4a11d8f7a709c1469b250408358
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: https://turannul.github.io/home/resources/legizmo.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21NA061247i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2860
+Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
+Filename: ./debians/Tweaks/Legizmo/lunotech11.Legizmo_1.1-21NA061247i_iphoneos-arm.deb
+Size: 511010
+MD5sum: b25a3f73780f723ff1a5c56377b5d10c
+SHA1: 3e51748c3015dcbb96b6341dad9828677581e49c
+SHA256: b92454ab7273cbb6046d01a94bdeed03d8e58b93a2ced7793b4b99d246af027c
+SHA512: 3a4fa8537a56a8d3dcbc715ef79d763d182b8a6ead57ad03d85a227979d28845101327ed25f1e3112da80c558c20c898dd50a964811f260bc6c1255996cac0b1
 Description: Allow iOS to pair with newer versions of watchOS
 Name: Legizmo (Internal Release)
 Author: lunotech11
