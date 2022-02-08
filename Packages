@@ -474,38 +474,17 @@ SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm
-Version: 1.1.23
+Version: 1.1.25
 Section: Packaging
 Maintainer: Zebra Team <team@getzbra.com>
-Installed-Size: 14616
+Installed-Size: 14828
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
-Size: 9289720
-MD5sum: f3d37ebe399c7c15f978d516b30e8180
-SHA1: 3629ec8fa532ae3bfc7c14cedd1637179c12669c
-SHA256: cd2293e40aee811116c976c362807dc612434e652035ba4d88cff74c425ce3ad
-SHA512: 3d2c3e0ad0d4aff79676fd6f7b135511df41d485d42dd4a5932dc813f16c3f77bb5c56a5ed6c1366eb4f8856738afa69a534a6c031173cea9ef736a08eae52bc
-Description: A Useful Package Manager
-Tag: compatible::9.0-14.8
-Name: Zebra
-Author: Zebra Team <team@getzbra.com>
-Icon: https://turannul.github.io/home/resources/zebra.png
-Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
-Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
-
-Package: xyz.willy.zebra
-Architecture: iphoneos-arm
-Version: 1.1.24
-Section: Packaging
-Maintainer: Zebra Team <team@getzbra.com>
-Installed-Size: 14796
-Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.24_iphoneos-arm.deb
-Size: 8242476
-MD5sum: f7b0ddb350f8053bf74f921fd78b1f10
-SHA1: f724c15cbb20a2581e111132c0924d139ca45635
-SHA256: ccab576250770836247a1e9016c4dbe58327aab804679e375bb8fb6dbecdfb73
-SHA512: fd5785eff85ed2801491e8f24e79bd7407f6443df48bb6d337e2f4e8267e536b2c890d3ffecb4fe7c2dd67ad2ba1922cf32a88d527cff16ab26054eb2622b826
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.25_iphoneos-arm.deb
+Size: 9537846
+MD5sum: 6fe80dfac4e0656ff08d5c996efae740
+SHA1: b81666dd2702815ba0b6c910e660c3d386ce7c91
+SHA256: dad7648f21cf1dbfb801aa092d8e224c54dcf1bf7e74ba1317ab400c130a5e44
+SHA512: be0691e0461cf8d93234cbae508b4fbc4b71877cd16ac87424f6ddb534b84cf015ce7b37eab2d9cabac9c6a3aa676e1ab7785de15eb15e5aa5bb4eb518dc4fc8
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
 Name: Zebra
