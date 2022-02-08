@@ -454,30 +454,6 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/yuna.png
 
-Package: wiki.qaq.chromatic
-Architecture: iphoneos-arm
-Version: 2.1-REL-1643304882
-Priority: optional
-Section: Packaging
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 30312
-Pre-Depends: firmware (>= 13.0), dpkg, uikittools, apt
-Filename: ./debians/Packaging/Saily/wiki.qaq.chromatic_2.1-REL-1643304882_iphoneos-arm.deb
-Size: 10108976
-MD5sum: 22dc06d0b1073c36918cd972093ea242
-SHA1: f26df02af55c19e77964edcbda4b035861f8eb2a
-SHA256: eada2294b22966fca40aa234d02bb00fbcf3d99fcc9f8034b4d686276433b83f
-SHA512: 0f0fc10d72dcc10d9bac53d9b7be940e21d1353a19222f33d8755c7b49e9ca4ba564d89f26fb11bb3e1bd9fc47cc1cdde9cff868fd1b298cd0d0b9c397f03294
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sailyDp
-Description: Modern. Hızlı. Güzel.
-Tag: purpose::uikit
-Name: Saily
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sailyDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Saily Team <support.0xa1@qaq.wiki>
-dev: sailyteam
-Icon: https://turannul.github.io/home/resources/saily.png
-
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.6
@@ -1646,6 +1622,25 @@ SHA1: da9bc19a0f401a85bde6f46ea061a2c0245d4c9f
 SHA256: 04853f9fd4b3bc91ab37a82d343d8e49a94233b5b13cce160f5b6a303c1969f5
 SHA512: a08405d31b1b0ff30fcd35b8da603f4cafa1b4290643e9cb788ab9ee923ec15d3820b85695b88bd9e21f88c99e4174d48ab5f1de19ebaff71874bd0af7b9b6b1
 Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21NA061247i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2860
+Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
+Filename: ./debians/Tweaks/Legizmo/Legizmo-Release-Internal-1.1-21NA061247i.deb
+Size: 335312
+MD5sum: bbca5a0bfb875ae26673edde81e8791d
+SHA1: c06f76962351d899a8347ccd90a7901ddbc51db0
+SHA256: e038fb8ce1b78befab915cd3eedbdfe7551f6abdde33eddbfdb7635b324a3735
+SHA512: 6f64df34b033c2da54c870c9f760e20804ad0c87a5ea52130c3aaeece6a935ed258ce2c82ab83b7e5925363b6247dadfd1981d0cecd4f95223b84c594ec822b6
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
 Name: Legizmo (Internal Release)
 Author: lunotech11
 Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
