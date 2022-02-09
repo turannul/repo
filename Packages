@@ -454,6 +454,29 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/yuna.png
 
+Package: cydiaa
+Architecture: iphoneos-arm
+Version: 1.1.36
+Section: Packaging
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Provides: bigbossbetarepo, cydia-sources
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>= 5.0)
+Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Filename: ./debians/Packaging/Cydia/cydiaa_1.1.36_iphoneos-arm.deb
+Size: 8928020
+MD5sum: 7ad077b95413ad3bbc6188a17a046b08
+SHA1: 8395cb807262468693eb09d39b0dc9dfe71cb778
+SHA256: 602fd6a31fe6b8febf1a2ab34265c7a70e549557554a8a3e9bc2f220ace4cd94
+SHA512: ff1969d7e601ebca1309c2cb4fd77def015f5c1b4379640ff0120be25ceb2e24f95bfc6dd8fd306ad1dcd0f1f5d7e28d2461c611b8d66164a4c2ae6cf98fdc00
+Description: Cydia but better (WiP) Kurmayın
+Tag: purpose::uikit, cydia::essential, role::enduser cydia::commercial
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.6
@@ -2089,47 +2112,6 @@ Author: ichitaso
 Name: SupervisedEnabler
 Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
 dev: ichitaso
-
-Package: com.myxxdev.samjet
-Architecture: iphoneos-arm
-Version: 1.020422
-Section: System
-Maintainer: MYXXdev™
-Installed-Size: 436
-Pre-Depends: dpkg
-Depends: firmware (>=14.0), firmware (<=15.0), mobilesubstrate, plutil, ws.hbang.common
-Conflicts: com.pheux.fixrandomresprings
-Replaces: com.pheux.fixrandomresprings
-Filename: ./debians/Tweaks/SamJet/com.myxxdev.samjet_1.020422_iphoneos-arm.deb
-Size: 157402
-MD5sum: 18dc2d0fb82b954e44e8cdf40025159f
-SHA1: bfeb0cd90aaeae8671a37601aaaa73da03bbb183
-SHA256: 4fe19799ab4e6a268c052a8a353ae241cc86f15f1ccb365538df57ada6342f19
-SHA512: 090f8537db8189a31353189482bfe99845c92abf986423770855c54f592b74b09fea51b2ec8d366f84d1273f8a6a644025206bbf50e8a0f7974aeab6ba632dfe
-Description: A more stable iOS 14!
- • Description:
- This utility will raise values for problematic jetsam entries (for iOS 14 ONLY)!
- -
- Your jetsam file will be backed up in its current state (whether that be stock or self-modified), with that version restored upon removal of SamJet®. Two different backups are stored in /usr/sbin/MYXXdev/SamJet/Backups and /var/mobile/Media/MYXXdev/SamJet/Backups
- -
- DO NOT DELETE THESE FILES/ FOLDERS!
- -
- Any modifications you have made to entries other than those in SamJet® prior to using this tweak will remain in tact.
- --------------------------------------
- Thank you for choosing SamJet®!
- ♥ MYXXdev™
- --------------------------------------
- --------------------------------------
- • Changelog:
- --------------------------------------
- -
- ~ v1.020422
- -
- Initial release.
- -
-Name: SamJet® (for iOS 14)
-Author: MYXXdev™
-Icon: https://turannul.github.io/home/resources/samjet.png
 
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
