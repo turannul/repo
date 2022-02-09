@@ -42,5 +42,8 @@
 <changes>
         <version>5.0.2</version>
         <change>İşlemci modeli algılama</change>
+<changes>
+        <version>5.3</version>
+        <change>Genel düzenleme debug</change>
     </changes>
 </changelog>

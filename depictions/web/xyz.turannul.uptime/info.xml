@@ -1,7 +1,7 @@
 <package>
 	<id>xyz.turannul.uptime</id>
 	<name>uptime2</name>
-	<version>5.2</version>
+	<version>5.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>1.0</miniOS>
