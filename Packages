@@ -669,6 +669,24 @@ Description: A CLI tool that injects tweaks into jailed iOS apps
 Name: Azule
 Author: Alaise
 
+Package: com.doregon.echobat
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Depends: firmware (>=10.0), iokittools
+Filename: ./debians/Scripts/EchoBat/com.doregon.echobat_1.0.0_iphoneos-arm.deb
+Size: 992
+MD5sum: 8c61f602c630cda5538c7bb987a01a6f
+SHA1: 71f84b10b6e1445f8a2f42c55799feb1be27ea39
+SHA256: 4ab6c2137579838fd099c72ab45961afb9eeadaf8d35d5a051f432a0f68316c4
+SHA512: 365e3201a463b17d2eb3ca56d29459e32bb54d03ca73e8618d3404812d565abd8f8b17c9f180f1d2206e4ac3d38e8c424a7754ee3af347fb1226aaf1b3710706
+Description: Simple tweak to get battery capacity in a terminal.
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json&name=echob@t&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json
+Name: echob@t
+
 Package: com.samgisaninja.successioncli
 Architecture: iphoneos-arm
 Version: 1.0~alpha2
@@ -1539,6 +1557,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: netskao
 Icon: https://turannul.github.io/home/resources/fakemodel.png
 
+Package: com.4nni3.fivecolumnscc
+Architecture: iphoneos-arm
+Version: 1.0~beta3
+Section: Tweaks
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/FiveColumnCC/com.4nni3.fivecolumnscc_1.0_beta3_iphoneos-arm.deb
+Size: 5080
+MD5sum: 18daf6b3ff8223436349da8b4108dcc9
+SHA1: ccfd5c9d1403f8b85748cc36bb7c0f0754c6c528
+SHA256: 0aeeac9ce1b19f95fa46aeaae089a1614d54057eadfa5ccf4d6f4c8f265bbad8
+SHA512: 7fc71c8d6424aa0fe50ce550c41757526cc7940d0a6fbcc7d1811ba02d0219d30ba5d79bbb270049ac32a57a4b1ad3883b4ff0b5b864dfa717d7a04b464b9ec2
+Description: Add a fifth column of modules to your control center.
+Name: FiveColumnsCC
+Author: 4nni3 <4nni3.14@gmail.com>
+
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm
 Version: 0.0.2
@@ -1963,6 +1998,27 @@ Name: OTAEnabler
 Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler.html
 SileoDepiction: https://repo.cadoth.net/sileo-depictions/net.cadoth.otaenabler.json
 Author: nyuszika7h <nyuszika7h@gmail.com>
+
+Package: com.doregon.overb0ard
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Installed-Size: 276
+Depends: firmware (>= 6.0)
+Conflicts: com.doregon.overb0ard-dev, com.kramerapps.jetsamctl
+Replaces: com.kramerapps.jetsamctl
+Filename: ./debians/Tweaks/Overb0ard/com.doregon.overb0ard_1.0.3_iphoneos-arm.deb
+Size: 7316
+MD5sum: 734c5aaf03862a83e399edddb21a2544
+SHA1: 80a6271486ca330eaf45ed4251fd10428c21dbcb
+SHA256: 2c8cfd734cb7640c6edee04c99364da83fecb9d31273a314eaaa7d4ce72c303b
+SHA512: 847701b5c583b4997c89a41225fac5228566050df16129027e460c24ff1c3fa17d3f4792fdf4bf29015e4f8e036afda189f59e9a7b49bec0a482a00467d25544
+Description: Take control of your device's memory.
+Name: overb0ard
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json
 
 Package: me.tale.panic
 Architecture: iphoneos-arm
@@ -2485,6 +2541,26 @@ SHA512: 5a4094f6db43e41458f86713e7bb07f277cf964f66cf3be1a42cd75bdffceef66fb38c39
 Description: Oyun-içi FPS göstergesi
 Name: FPSIndicator TR
 Author: Brend0n <brendonjkding@126.com>
+
+Package: com.moose.upmem
+Architecture: iphoneos-arm
+Version: 0.1.7
+Section: System
+Maintainer: Moose <gathering011@gmail.com>
+Installed-Size: 12
+Depends: com.kramerapps.jetsamctl | com.doregon.overb0ard, gawk
+Filename: ./debians/Tweaks/UpMEM/com.moose.upmem_0.1.7_iphoneos-arm.deb
+Size: 2432
+MD5sum: 6ee6af155b00f8165f81faa936e1b116
+SHA1: 12e68f38c731a13de714cae1adbeda5f472d692b
+SHA256: 02e83f9e3bdc3cb712644d6ae108199b16b835e86151c75b9d132cfe7c2dec0d
+SHA512: 9e4008f50d407a73417b5050114bced4d838d830b8a2126f11663faef862cd0f041978eeba5a64e2216780761bd930c734dd0a885353b2ff9de7cb21130ff4b8
+Homepage: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+Description: A Command line to raises RAM memory of applications or system process (jetsamctl method).
+Tag: role::enduser, purpose::console
+Name: Upmem
+Author: Moose <gathering011@gmail.com>
+Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
 
 Package: ai.paisseon.vivy
 Architecture: iphoneos-arm
@@ -3317,6 +3393,24 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotific
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
+
+Package: com.kramerapps.jetsamctl
+Architecture: iphoneos-arm
+Version: 0.2
+Section: System
+Maintainer: Doregon <tunnic.adam@gmail.com>
+Depends: firmware (>= 6.0), dpkg (>= 1.13.25-5)
+Filename: ./debians/zzzzz/com.kramerapps.jetsamctl_0.2_iphoneos-arm.deb
+Size: 4308
+MD5sum: ef1e1a0aa7366f0f66e460303ce05ab2
+SHA1: cf532c933f6ac4b1bf8b3ac38848cc16acf5f21d
+SHA256: f7e43a5ecd349ea8a751e15db2346ac32737dc379bbe4944e6a183dc125c9877
+SHA512: 937247bd76e2ed7043a4005e0ddf15a7782575f91cd4098411a5a37de73b27042f8869581005363c74d72731062c6a3a4f153c36df3ad23352cb8f75dcd38877
+Description: Modify Jetsam constraints
+Name: conradev's jetsamctl
+Author: Conrad Kramer <conrad@kramerapps.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json&name=conradev's jetsamctl&dev=Conrad%20Kramer&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json
 
 Package: com.level3tjg.insert-dylib
 Architecture: iphoneos-arm
