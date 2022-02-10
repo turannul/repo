@@ -1496,6 +1496,26 @@ Icon: https://paisseon.github.io/info/erika.png
 SileoDepiction: https://paisseon.github.io/info/erika.json
 Depiction: https://paisseon.github.io/info/erika.html
 
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.5
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 576
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.5_iphoneos-arm.deb
+Size: 107736
+MD5sum: 5e5bb4225a2abbe295bd4ac1cec0c0e5
+SHA1: 4bb6717b290af5546bab61f6332ca03954973195
+SHA256: d6d80dbd1769ebb7ee426012a74b4aca96368bdb6af682887570dea7c91ea923
+SHA512: 97e97a4200fdf40b7fb4d20945ef36418a13e0a6c13fdb22e3887bd2da74bc05f98e9ca5ad3ee2263e8420ef23e30d03c128c834953e8e9cba53e0376c3f5a97
+Description: Paid tweaks for free on Saily + Sileo
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
 Package: netskao.fakemodel
 Architecture: iphoneos-arm
 Version: 1.1-3
