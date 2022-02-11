@@ -1,0 +1,2 @@
+cd /var/mobile/Documents/Github/repo/debians/Tweaks/Tweakreviews
+apt download com.pixelomer.tweakreviews-db --allow-unauthenticated

@@ -669,24 +669,6 @@ Description: A CLI tool that injects tweaks into jailed iOS apps
 Name: Azule
 Author: Alaise
 
-Package: com.doregon.echobat
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: System
-Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
-Depends: firmware (>=10.0), iokittools
-Filename: ./debians/Scripts/EchoBat/com.doregon.echobat_1.0.0_iphoneos-arm.deb
-Size: 992
-MD5sum: 8c61f602c630cda5538c7bb987a01a6f
-SHA1: 71f84b10b6e1445f8a2f42c55799feb1be27ea39
-SHA256: 4ab6c2137579838fd099c72ab45961afb9eeadaf8d35d5a051f432a0f68316c4
-SHA512: 365e3201a463b17d2eb3ca56d29459e32bb54d03ca73e8618d3404812d565abd8f8b17c9f180f1d2206e4ac3d38e8c424a7754ee3af347fb1226aaf1b3710706
-Description: Simple tweak to get battery capacity in a terminal.
-Author: Adam Tunnic <tunnic.adam@gmail.com>
-Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json&name=echob@t&dev=Adam%20Tunnic&section=System
-SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json
-Name: echob@t
-
 Package: com.samgisaninja.successioncli
 Architecture: iphoneos-arm
 Version: 1.0~alpha2
@@ -870,6 +852,26 @@ MD5sum: 8c9e01be8b160b9ef989bb47b0200672
 SHA1: 272f98de5e3dcf874c74232f1226d08aeb047eec
 SHA256: 6e698a184b8a9d43fee1e0524172fb747a434154c5ea66c4e61ef1dd72a4f97a
 SHA512: ae0c3a29507a44185d6c53db3964f383741a4f8daff7b397dfc0d0678741b61598e9624fa12031edf01434470fa87c3d81df2feb9680f32423df811adcaf3e2c
+Description: uptime ama çok daha iyisi.
+Author: turannul
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: Uptime 2
+Icon: https://turannul.github.io/home/resources/uptime.png
+
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
+Version: 5.4
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, perl, zsh, uikittools
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.4_iphoneos-arm.deb
+Size: 4300
+MD5sum: 08dcfb679d4c00934efc07a757eff9ba
+SHA1: 407532ddb8c3bdf4b010cf6b79f2c10c1f4f8620
+SHA256: 2cd3ea8cc102b38467b5b5b5aa28b7fdd3bd4f87f2f95d8250549ba26ae9d4c6
+SHA512: 941a5f8aa3cab0e74fccff707e450acc89cb5473a789516ee047d78f3998077c8246b72851c19f815ca67121843d231de30d24cd855584df7db6d97e7cafd6d8
 Description: uptime ama çok daha iyisi.
 Author: turannul
 Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
@@ -2520,6 +2522,26 @@ MD5sum: 82ef72856e54d90afad4d98f98c92a57
 SHA1: 6cd0663319c01c6651f08f989ec30aefa023352a
 SHA256: db23482cbd64ad91df176d6144278a82094e35076d712c2f021a9af4f622032c
 SHA512: 3db8ad0946637448b8d270e3dc72800a5f8e501cec272672804e2d1e2b883f31b0fb9f02a318fb39610a6809198c9da3bb62a41d2acd06b9342cbbaa3dceac6a
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Name: TweakReviewsDB
+Author: pixelomer
+
+Package: com.pixelomer.tweakreviews-db
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Tweaks
+Maintainer: pixelomer
+Installed-Size: 636
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.9_iphoneos-arm.deb
+Size: 134976
+MD5sum: 476473f70ace736ffd69b9e1de1a6bbe
+SHA1: 77aaa3eb73c14eb23edc077946c81033a6aadcd0
+SHA256: 9ede3193ecb6fa12c9c7a905f0a29348ca81d37eb3a1c212fee6829858e75123
+SHA512: 569f168211ea713e0b1233ffff3f71d9e66e957299a95547591cf5c1c28c95b53e531fe6b5d8e02787c3174118ff2c8e8966f970b92027140adacff6808bf62c
 Description: Tweak reviews made easy.
   Easily read and create reviews about your tweaks with TweakReviewsDB.
   Works with Sileo, Zebra, Cydia and Installer 5.
