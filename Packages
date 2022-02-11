@@ -516,6 +516,26 @@ Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: xyz.turannul.appaze2
+Architecture: iphoneos-arm
+Version: 1.4
+Section: Tweaks
+Maintainer: turannul
+Installed-Size: 1791
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
+Filename: ./debians/PiratedTweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
+Size: 945648
+MD5sum: 22a34549e2e60a0367014bd6c527aa88
+SHA1: ad56fcda94d45567990f0a3b3e66f8f0063eca53
+SHA256: 2481fd6ea05ca377ec2584e4abd6fe2fe32aa45b1c8194d478aadabc3d4c6d94
+SHA512: 0c120588d9574ed60ff0888dd760fab088d02640dbd97eb14e21ab56bafdb9f39916c7d1c02fd6566c56faff49546786aeb2e9afe355fe8a7859885444d25f9d
+Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
+Name: Appaze 2
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/appaze2.png
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm
 Version: 0.0.5
@@ -596,6 +616,25 @@ Description: Ultimate iDevice Customization for iOS 14+
 Name: Lynx 2
 Author: MTAC
 Icon: https://turannul.github.io/home/resources/lynx2.png
+
+Package: xyz.turannul.pencilbanner
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: turannul
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Filename: ./debians/PiratedTweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
+Size: 395220
+MD5sum: 1a67052e9e480758c9c788d07c606e35
+SHA1: 661b8fd15cea58be1216ba8a0f2b8dce3d22d102
+SHA256: 6285872289e39b69ed32466f4b2ab2b0b91e5756ce3b9e8ca11fc524565d28dd
+SHA512: 28de4d62979384b2fb4b6651b670110aa9064faaf5379112216149c661ec6e242327db3f3160f2e05ca18955909d363806cbe1e299f5f9e888cb3d99025b7a31
+Description: Apple Pencil tarzı bildirimler!
+Name: PencilBanner
+Author: Ethan Whited
+Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
+SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
+Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
 
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
@@ -1168,26 +1207,6 @@ Author: Riley Testut <support@altstore.io>
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Depiction: https://chariz.com/get/altdaemon
 
-Package: xyz.turannul.appaze2
-Architecture: iphoneos-arm
-Version: 1.4
-Section: Tweaks
-Maintainer: turannul
-Installed-Size: 1791
-Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
-Filename: ./debians/Tweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
-Size: 945648
-MD5sum: 22a34549e2e60a0367014bd6c527aa88
-SHA1: ad56fcda94d45567990f0a3b3e66f8f0063eca53
-SHA256: 2481fd6ea05ca377ec2584e4abd6fe2fe32aa45b1c8194d478aadabc3d4c6d94
-SHA512: 0c120588d9574ed60ff0888dd760fab088d02640dbd97eb14e21ab56bafdb9f39916c7d1c02fd6566c56faff49546786aeb2e9afe355fe8a7859885444d25f9d
-Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
-Name: Appaze 2
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: N/A
-SileoDepiction: N/A
-Icon: https://turannul.github.io/home/resources/appaze2.png
-
 Package: xyz.trappledestek.appstoreplusplus-iOS12
 Architecture: iphoneos-arm
 Version: 0.9.11
@@ -1316,205 +1335,6 @@ Description: Make your battery colourful!
 Name: Eliza TR
 Author: WilsontheWolf
 Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.eliza
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 0.2-beta
-Maintainer: CyPwn
-Installed-Size: 180
-Depends: mobilesubstrate, curl, sed
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_0.2-beta_iphoneos-arm.deb
-Size: 10594
-MD5sum: be5bb8fa0f33211695cb2838b908708a
-SHA1: 7563e9002f0ef33c79b97b9df8db36fd7cba99f7
-SHA256: 16159e67723e0de4cb1126f9c76e3e004b3c283cf38dd25aae2fb0376deb6245
-SHA512: 031610951c48d8a8f346b51ddf08b7f509e5c8eace5638af4fd88ead1ed7f53057f5ada5a0c47108524914e62fda0b442b4b4e601290ebff69d5312d43d4645f
-Description: Download tweaks for free in Sileo
-Name: Erika (Beta)
-Author: CyPwn
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 0.3-beta
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 156
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), sed, curl
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_0.3-beta_iphoneos-arm.deb
-Size: 25262
-MD5sum: 683c50b6f67055b8fb202d3a8413f4a9
-SHA1: ccec868cd9e7c27712161abd1c04fe579a9d6722
-SHA256: d64e1c9fb43da25ba5c5936a81a1a996109de70f0b416deb542c418b3db2ed5b
-SHA512: b29a08113f336c580e8f9203732a53c138db0ba7a07f17aa66407ed5f4c16b3c03ff387dfc46d72234ecd347cc4ffccd5ba12158e2d1b7c685f60239514de95e
-Description: Download tweaks free in Sileo
-Name: Erika (Beta)
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 0.4b
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 160
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_0.4b_iphoneos-arm.deb
-Size: 29246
-MD5sum: 9d6d9a97ec08c473509ac6384c4a8f19
-SHA1: 416ca43e4167323d0b00912a7786db3ae4f55020
-SHA256: 077d20bba5bd0c3b708941f577ae8a153c013ea9fb9cdf7d756cb5570c38a7ea
-SHA512: ce8ba589ebf62f084ac617380a577567e8525c10ca90da97639e4d184adbb6ebf675e8ce9782645a74afad1371d6a2c05616281192fb2b590e3db5388be5959a
-Description: CyDown++ for Sileo and Saily
-Name: Erika (Beta)
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 0.5b
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_0.5b_iphoneos-arm.deb
-Size: 30904
-MD5sum: 56b711496e3dd705396f3bb0d6ee691f
-SHA1: 281acc052d776b05c60a961b545b1347f15b063f
-SHA256: 9d422c65b248ecb85beef57848f73b53cb63d441b0a0a4a6ead4b4e04d9ce5c8
-SHA512: 4caf1aeb3dc73d5a20da1f0ca75550a1388b47932a21f7da453e85ae7e325cc0463a9fb352ff4171598598427acd8924bf06a0e2aa6993c7c0e861d8f26b883e
-Description: CyDown++ for Sileo and Saily
-Name: Erika (Beta)
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.0_iphoneos-arm.deb
-Size: 30666
-MD5sum: 3e890483e3baa325790c362d173141ec
-SHA1: b7e49c27ab14cc1750169cbdaa4d498eb7fe6947
-SHA256: c67f6189b42bda6164a38fc265f30688be9b1a930645d6d5caf69fc437264411
-SHA512: e84548db9811a4252cee09a893ac219ee501ab15a613439d28c51f359dc6961ae5ea26dec90e13d1eb57aec94139d3463898ef265d2201af114fb869ae25225f
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.1_iphoneos-arm.deb
-Size: 30698
-MD5sum: f03791bd7dc8f0e34f3b713988ccf17d
-SHA1: 6b78f8ca27ef647c77fcb3f99521c5a7ab07aeff
-SHA256: 9176a0ee7d89ea7b572dd30a3589a251acaa662dc37a3667ae09d80e2aa794c3
-SHA512: 5cfbadc73416e05f3c7a51049178e72a0e4a14a6a82d194df5c2fac0f2a78bd6d82e9941ffe202d042992368911cb70d25f91056b54362074cb666527d770c5a
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.2.1
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.2.1_iphoneos-arm.deb
-Size: 33270
-MD5sum: 9f059024bb47723b6d8e23663551a652
-SHA1: 715a1fac4509b91a6c0e804494f9af6c897a962b
-SHA256: 084d7121fdfbcbceb68e7770093de80592066868f96366bd42d9c96905c59471
-SHA512: fc50299878babc58c546ca6b6ff2cae18d0892560fdbb6c6cc72210f67ad7371ef1f2f89c538b6b2893604705bc43412dd6ec7175db58a6dbba30d567c7338bc
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.2_iphoneos-arm.deb
-Size: 32044
-MD5sum: d132bb30a4ddfdccb17742e99efd32aa
-SHA1: 9fc61c8df31128283da58fd3bbd9658d4b15df2a
-SHA256: 56e43d18cffa02c17829131c175191e0c5de0738cc9601e8e65bdb811e379a77
-SHA512: ef88f395c39a3bf6b993a813135418ff7e099f2734b97b6e7dbc0a9e06ca9ae3be868b1f984b9d748ce6a0f49f1c839b04e980a3ca99243e9dc96ffe58a6d0e4
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.3
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.3_iphoneos-arm.deb
-Size: 33362
-MD5sum: b58c8ec738a3afc793b2866e5b14b392
-SHA1: cab6b55325035591b16f0afe001d6fd59bd1bc6a
-SHA256: 36f9645133a01b3d9b6ee57b930b02434165c1807435bba7febe8d50ae283069
-SHA512: c22eccec15bf88f7cea28b6cc5fab5b5e5f7805b94d7073d38692e0e28b62ae01f8c896f46af5db9a7803ea5347b04444b6f1e4f0b6f2911e3b73bdc76323e52
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.4
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 176
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.4_iphoneos-arm.deb
-Size: 33442
-MD5sum: dc7ea9484bbfb48b28f0a0b80c8ea511
-SHA1: 843aeb8991de3837dcb35fcdadf7ba804a1f7cbd
-SHA256: 57261b3291ac03104cde48ec7c18fb81d52cf595901e95ea39409c5ed58e554c
-SHA512: dd0a666218caecd36dfbdca303953689cd9b79e5c274b41649a5c91934734491ec40f7100a6afba1b5e0d45d3d08b1f90118691d783d9b3c967741ca098894d8
-Description: CyDown++ for Sileo and Saily
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/info/erika.png
-SileoDepiction: https://paisseon.github.io/info/erika.json
-Depiction: https://paisseon.github.io/info/erika.html
 
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
@@ -1868,121 +1688,6 @@ SileoDepiction:
 
 Package: net.cadoth.otaenabler
 Architecture: iphoneos-arm
-Version: 0.1.0
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: file-cmds
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.1.0_iphoneos-arm.deb
-Size: 1208
-MD5sum: 86b1f34c1affc0b09d3675711e1bf746
-SHA1: ac0a2b9b243391d0f5647752111864527b68209e
-SHA256: 173297fa19b19f01c6abdda4039d705ba0954ef2ea91269280a3000a53021bba
-SHA512: 7ca40b38e20eae6e9ab4e52e3b88382d07365b251513fd445f36f1601cdaae1f5171350578a04cd12f21603d13de958bf7088d470afd62a1c6eeb90c8a31765c
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
-Version: 0.1.1
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: file-cmds
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.1.1_iphoneos-arm.deb
-Size: 1254
-MD5sum: d97df202fec675f858156020550d6fb1
-SHA1: 634c9257a84f9273cee5e197be0b05e497634b15
-SHA256: a5e045da3436f88d6b5c9850a1a6a3c206ddf492688f55c41f5bb7249a3e6a18
-SHA512: 2e518c21109a4156b7fd91f7e8d0dd3fdcbe2f72687378502fbdb5508de4bcc75b18825cb1b9b774606739034e240e32e75b32d490d3a5c976ad16ecd16bbb93
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
-Version: 0.1.2
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: file-cmds
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.1.2_iphoneos-arm.deb
-Size: 1344
-MD5sum: ca9458e2ad37b4c06de6016981309e9b
-SHA1: ec4c4d215dc2e4b33049a98619e8aad5cf2c87fe
-SHA256: f42d770dcd5fd669cb83ca7185f183e1f4e1a8fb35f8704acdbee4bc04d21760
-SHA512: 305c2a076ae710d986dbbef560e62edcea060da292f96cc7454ca895f98be3ee00b34df4a58b74cbe9a73a2b915c4eef31bdcd8c0d7c9fef4ea4755a63b59871
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
-Version: 0.2.0-1
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: file-cmds
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.2.0-1_iphoneos-arm.deb
-Size: 1426
-MD5sum: 1f7995a70825edae564b0e24fc65a61b
-SHA1: e0f50731c37d3ad2583039ad0184249456e52449
-SHA256: 680ae4ca55a9ad1760828ea18dde3e23bdcd9cc988fd446ea2cf1a215d5c231e
-SHA512: d78d79bd7eda4c0fa4b0a13fe4c60ffcf1486d339dee3a368161730d2ddb380f630c2cc05cb002531a96a4610ce1de669c3f91750101f68c84728ab422404edf
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler.html
-SileoDepiction: https://repo.cadoth.net/sileo-depictions/net.cadoth.otaenabler.json
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
-Version: 0.2.0
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: file-cmds
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.2.0_iphoneos-arm.deb
-Size: 1398
-MD5sum: 7c081fe9c55a612aa0e897ac59883c15
-SHA1: a90f976749d19dcedd38249d0e78f4c2ad428d4b
-SHA256: d42f0b433d899c4fc0a067a6727d60eba30cec17f3d0e95722a58c43fbd5387b
-SHA512: 4ad741f60622e0fe82602a9e2bfaf840e6545a90ec222c404e7d89a97e45ab6daa9511e9c581c0d414ef01e03ba5f5739b8c58254f56322a3cfcd0e2738d859a
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
-Version: 0.3.0
-Section: System
-Maintainer: nyuszika7h <nyuszika7h@gmail.com>
-Installed-Size: 4
-Depends: com.bingner.plutil, file-cmds
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.3.0_iphoneos-arm.deb
-Size: 1564
-MD5sum: 9819b463c6cdc9553dcb10f0c51a49e4
-SHA1: e0ede1408113d2503de1f738e8702142952bc12f
-SHA256: a0e66b867530dfab1da098a75b35c57cefdfb58cd62b98276daeafce7cb84ede
-SHA512: 77b95a83e20c9c5637f63e1a36ab7c408892ee924ced4f2af5c558d751c5ece95fde3e8d75d0dd0db0f5cf5a77727cdcc05585e3ba7c1260dd3edf077e2fa205
-Description: Re-enable OTA software updates blocked by various methods
-Name: OTAEnabler
-Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler.html
-SileoDepiction: https://repo.cadoth.net/sileo-depictions/net.cadoth.otaenabler.json
-Author: nyuszika7h <nyuszika7h@gmail.com>
-
-Package: net.cadoth.otaenabler
-Architecture: iphoneos-arm
 Version: 0.4.0-1+debug
 Section: System
 Maintainer: nyuszika7h <nyuszika7h@gmail.com>
@@ -2045,130 +1750,6 @@ Icon: https://apt.tale.me/packages/me.tale.panic/icon.png
 Header: https://apt.tale.me/packages/me.tale.panic/banner.jpg
 Author: Aarnav Tale <aarnav@tale.me>
 
-Package: xyz.turannul.pencilbanner
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Tweaks
-Maintainer: turannul
-Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Filename: ./debians/Tweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
-Size: 395220
-MD5sum: 1a67052e9e480758c9c788d07c606e35
-SHA1: 661b8fd15cea58be1216ba8a0f2b8dce3d22d102
-SHA256: 6285872289e39b69ed32466f4b2ab2b0b91e5756ce3b9e8ca11fc524565d28dd
-SHA512: 28de4d62979384b2fb4b6651b670110aa9064faaf5379112216149c661ec6e242327db3f3160f2e05ca18955909d363806cbe1e299f5f9e888cb3d99025b7a31
-Description: Apple Pencil tarzı bildirimler!
-Name: PencilBanner
-Author: Ethan Whited
-Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
-SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
-Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.4.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 240
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.4.0_iphoneos-arm.deb
-Size: 54974
-MD5sum: ca26517c3beed0ceb473bfabe5b43afd
-SHA1: 2e0aefb3d5e3fd5499108ea57cd446004af3d4a7
-SHA256: 9ba87647bca3e088cb99d54db9d90336553aa9cf3a1cd6e47b5cd3b892bed187
-SHA512: 0f534260202c37fc2521be397eaa613ac093185ced605f58fbcd21af5be3c31116b0542454af41bc80f0e42d13375cb0542f71d8388f8be40a7cc09ce40ea69f
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios13.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.5.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 80
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.5.0_iphoneos-arm.deb
-Size: 7226
-MD5sum: 6bdfe31426611dde92f064e75b52d19b
-SHA1: 549839d6404164d91fc762ced1b0412d8c8107f3
-SHA256: 9677b1a64cc74ba4e2b74959e798df1a086f49d01376e3b94dcd0e60da4c6b2c
-SHA512: 59cab4712460e670f46196637a5cc380697a1ed12f30279c2aaa0efb5479ce9b664e20430de630622a644924c9980c34ca50e4c30697790f85a942998c8f245b
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.0
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.0_iphoneos-arm.deb
-Size: 13668
-MD5sum: 27afe174bd63c449b763964be201c2fa
-SHA1: 53984d19e156999e6169ffa33f06da3667a18b7c
-SHA256: 3e54f9e5a87d15a123703a6816c12103796e8afd4a22b167adb7aafd229ec704
-SHA512: 3610b2f6ba35824716dab2e381c3610b9ab93e51dc513658fe83b3efdbfb02c2c64ee77be32c3ee75479f84cb41f8972af10b68cd1efcc26abbab7a824388e95
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.1-3
-Section: Tweaks
-Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 116
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.1-3_iphoneos-arm.deb
-Size: 14936
-MD5sum: 6b687df928ebf0be9aba2e7fb4e5cb8e
-SHA1: 97c8bdc210c55b5aea8221a01b22fde66af9bc98
-SHA256: 530d6164810e323f1d4201a1178a004c85bba1154cc353028e7f05f45cbf566e
-SHA512: ac43c0374b8c0ac9e2f799d90bb56fcd13a49c35eff3b6cf8f4dd087d5df355d7e490a4baef06fa2606ef632afeaf43d3a34a1254e3fe313c5f12a796e4df4e7
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.1
-Section: Tweaks
-Maintainer: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 108
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.1_iphoneos-arm.deb
-Size: 14948
-MD5sum: 98594a016f32cf4e8cbbc84603ea8497
-SHA1: c100e549867fc82cd47de0babea86d303a32d541
-SHA256: 103120fa449274855a20d8e138a4bc7c368a15c1b8f86d2262f0e066809861c1
-SHA512: 7563635e7b39740c0232a0c6f46e5281fda9aa7075443f2a08715a9eaf1f81c63ca856543b79de7ce9002df1510e33b4b61ce6e5456db1889803e455c23daeb4
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: Lillie, PoomSmart, and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
 Package: weeb.lillie.youtubedislikesreturn
 Architecture: iphoneos-arm
 Version: 1.6.2
@@ -2213,47 +1794,6 @@ dev: ichitaso
 
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
-Version: 0.2b
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 468
-Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
-Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella-2/emt.paisseon.satella_0.2b_iphoneos-arm.deb
-Size: 57354
-MD5sum: 6c99a78bacb647570c6fc51586e5cb05
-SHA1: fcf779f86077cb12471d3e05639b866af892b081
-SHA256: b002460aa2d82b681a8afe41756cc1293a717d016ee99ee35e1a694a3d351cf8
-SHA512: 2ef36c8fab91360e151e26411bc3039dd0ffad4812a1941b1d8a7a2ce8f773a1e0bb84bd6783cac8a69f059c7d23a26ff6bc53aa215da498c8343db482c2c40c
-Description: Modern in-app purchase cracker
-Name: Satella 2
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella2.png
-SileoDepiction: https://paisseon.github.io/info/satella2.json
-
-Package: emt.paisseon.satella
-Architecture: iphoneos-arm
-Version: 0.3.1b
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 468
-Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
-Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella-2/emt.paisseon.satella_0.3.1b_iphoneos-arm.deb
-Size: 58144
-MD5sum: f4d472bee77980cf0f18ba3a9106e917
-SHA1: 13d5b5462b7ec8097ff57e2663cc183978afd088
-SHA256: cab81d752ff694058f1801042f5285b0c1b353924b9973433181257feb9e0ffe
-SHA512: 5a3cd771f46aa4b7bff23443422185ddf43e4aef0f9a656d3aea5d00209a70ca6ea718c5e07b3c19816a0ef3c501239500ad9e6c5b9208f62177c7d66904a786
-Description: Modern in-app purchase cracker
-Name: Satella 2
-Author: Paisseon
-Icon: https://paisseon.github.io/icons/satella2.png
-SileoDepiction: https://paisseon.github.io/depictions/satella2.json
-Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
-
-Package: emt.paisseon.satella
-Architecture: iphoneos-arm
 Version: 0.4b
 Section: Tweaks
 Maintainer: Paisseon
@@ -2295,120 +1835,6 @@ Depiction: https://paisseon.github.io/info/satella.html
 
 Package: ai.paisseon.satella
 Architecture: iphoneos-arm
-Version: 2.4
-Maintainer: paisseon
-Installed-Size: 408
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.4_iphoneos-arm.deb
-Size: 48766
-MD5sum: 5978402f3be8727caf56bfde50c6a3bd
-SHA1: c86c0a0d75d8ae8676b7e2db8f8789d2eb489a63
-SHA256: faa92208ca9e4a77981b8c07d4f5f76f01f820936b140f7eb428c679f44e03ce
-SHA512: 20ba8847570385f8c7d637385c5da19f18eea447cebe6c51474f6fbdf6725a5c68efa65f1ed69f62a3737a8a5d471e29dd5059bcd80fab61f93ac885a78c8546
-Description: Aishiteru
-Name: Satella
-Author: paisseon
-Icon: https://i.imgur.com/HHOvZoD.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.5.1
-Section: Tweaks
-Maintainer: Paisseon
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.5.1_iphoneos-arm.deb
-Size: 47512
-MD5sum: 49397eda8591de297d534bf1305d383d
-SHA1: 099000bde49f1312c0e23d572ee0e70de0d4e6a2
-SHA256: 07f9fe68f80f81a47f10a1cb34cba1c61577cf7ebe81bf1d61c681236ac066b8
-SHA512: 8b4c220d29288d2a4dc16c70b75ffc20e19a8d67cad6ace175ba54da746271499ef21df602bb214286329af641d61ff9f9a68ba5723249ce828e0b4a0111d656
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.5
-Maintainer: Paisseon
-Installed-Size: 404
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.5_iphoneos-arm.deb
-Size: 47684
-MD5sum: 1a120e99da22ad8c1896531fab1db0a8
-SHA1: 0bc868015962381c7177a46c54ae6f827e2e6b61
-SHA256: 01c5f83348c522d3ea7f2ab91f7139a11750a2b0c4b8c67bcf8711cdccaef723
-SHA512: 69ef8af65f0372195c26b947b60fc8b2a3b94c7776d316903a82761099b7e6a846081a803d188662bef86e17edf473f98436149185237c0a6425b8852b1ab81b
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.6
-Maintainer: Paisseon
-Installed-Size: 332
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.6_iphoneos-arm.deb
-Size: 48968
-MD5sum: 5550f1dd37ed39692893c610ea5690f5
-SHA1: 27500de54ec9578a32aba35844ec85edb7838cb1
-SHA256: fc37afd010445b61b52d80f789215b200d87ad8efcb83abb834aac884e7e0411
-SHA512: bd0c32bcbb449ad335e5596a6438d6cb5deb7d6ded4667b24cbb4c2734ebdc5db31d03cb87bd2219a0ea001d32f14a16cfda0ce970395995215733fdd729b265
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.7.1
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 332
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.7.1_iphoneos-arm.deb
-Size: 48684
-MD5sum: 5c918029231fd1dccb6779c19e9f39e2
-SHA1: e52e21187dd3c1fe716ed517358132c9a7247bf1
-SHA256: 37e98f718ed70db26e220c9a543c3f1924b80d095d434a6bc3eb3484145ce76f
-SHA512: 31c40b26b2cfc32108233c4b0a95f349bf09bb75e688fe13e7a02e9d8b829347e4acb37489586db0b1520c7ac0826acc3e4da47ce59261d18c723144f88840a0
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.7
-Maintainer: Paisseon
-Installed-Size: 332
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.7_iphoneos-arm.deb
-Size: 49238
-MD5sum: 2209423d43827fe8c64396cf7b6137b9
-SHA1: 90becb8184cc413d458a823e489c009bb4a20c95
-SHA256: 60fd798808a6f878ec3be3aae7aa88a9d81406f4ccc52993ad4efb4e505987d0
-SHA512: 6003e1296c79ff8de7149a31830b448b0cf1f3bd3b8e0270648d38ce1ae74ebf830b7de5128ba02b4e25c00300ed6c12f8429f3a5218de7d87ab916f53cd6c4b
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
 Version: 2.8.1
 Section: Tweaks
 Maintainer: Paisseon
@@ -2421,26 +1847,6 @@ MD5sum: 7a14953846ee22df4d41193a61c14ad0
 SHA1: f2fa51cb5c3b5e6b55a1be430ebf7ffe2c0ce5f7
 SHA256: e3c4bba19a785a56ba3497579351645d73ad3544f8ae7b661d6d9a2fd8eced9c
 SHA512: 843a2b444c0db3e7101fcbb0abbc4298849999868e49176c77ad3ee7a063776c1ce0a1075c5322527ce27829ee97ae127e5af518ad342e9642b054fbad064634
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.8
-Maintainer: Paisseon
-Installed-Size: 332
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Replaces: ai.paisseon.satella12
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.8_iphoneos-arm.deb
-Size: 48426
-MD5sum: 306e4aee8fdb4b4fb512396b5e49f27d
-SHA1: 3477ac43983e307e2fd628fe38eaf8d7bb81b1d1
-SHA256: 72959705653d62aadba2c46fc371268e905a752387e79a5e176c9c65233e49de
-SHA512: a3bd45a318f1ea7ea1fd9bc52472becf88d84dcd5ce1469cbf3bfbe70ab4f6c857696046784c0f7a6a4780c47dca473c17696b8828469d0b4a11d84b45b58f41
 Description: IAP cracker for modern devices
 Name: Satella
 Author: Paisseon
@@ -2467,66 +1873,6 @@ Description: Daha gelismis modem ayarlari
 Name: TetherMe Turkce
 Author: t.me/canpng
 Depiction:
-
-Package: com.pixelomer.tweakreviews-db
-Architecture: iphoneos-arm
-Version: 1.1.6
-Section: Tweaks
-Maintainer: pixelomer
-Installed-Size: 576
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.6_iphoneos-arm.deb
-Size: 123936
-MD5sum: 9de13980abcca67b52ceb0a7494bc950
-SHA1: cf7a7563893028307e1a9d62fb4cfdeacbaf942c
-SHA256: e5d7124bcd545a38b0800c8bf7dac423699afcd29530cb889d0e76c7355b7d16
-SHA512: 1834b365ad9a703fd5e6a79626075170f2da239b98e5abdddde9a51a7c77bec21824e301f308689e00a844e6b00712e153f0420ee9f572a036bfb10aba0548f4
-Description: Tweak reviews made easy.
-  Easily read and create reviews about your tweaks with TweakReviewsDB.
-  Works with Sileo, Zebra, Cydia and Installer 5.
-Name: TweakReviewsDB
-Author: pixelomer
-
-Package: com.pixelomer.tweakreviews-db
-Architecture: iphoneos-arm
-Version: 1.1.7
-Section: Tweaks
-Maintainer: pixelomer
-Installed-Size: 624
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.7_iphoneos-arm.deb
-Size: 131104
-MD5sum: 179f3d14693be372017a5b7081bebc6a
-SHA1: b081de57183d57b0070fa39d06575881e1614245
-SHA256: 07f849fcb4acdda59d73e7db6912878fdd242f5e42625fcd111e813545cd43b2
-SHA512: 3aedd332f505393561a05ce42eda2e7dc63a3a795a948596b6a1c2e165d31fe9b0414c825d189ebf135a9bf02e954e69511598a4059f8b077c7eb15a4b08d4bc
-Description: Tweak reviews made easy.
-  Easily read and create reviews about your tweaks with TweakReviewsDB.
-  Works with Sileo, Zebra, Cydia and Installer 5.
-Name: TweakReviewsDB
-Author: pixelomer
-
-Package: com.pixelomer.tweakreviews-db
-Architecture: iphoneos-arm
-Version: 1.1.8
-Section: Tweaks
-Maintainer: pixelomer
-Installed-Size: 624
-Depends: mobilesubstrate, firmware (>=9.0)
-Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
-Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.8_iphoneos-arm.deb
-Size: 131490
-MD5sum: 82ef72856e54d90afad4d98f98c92a57
-SHA1: 6cd0663319c01c6651f08f989ec30aefa023352a
-SHA256: db23482cbd64ad91df176d6144278a82094e35076d712c2f021a9af4f622032c
-SHA512: 3db8ad0946637448b8d270e3dc72800a5f8e501cec272672804e2d1e2b883f31b0fb9f02a318fb39610a6809198c9da3bb62a41d2acd06b9342cbbaa3dceac6a
-Description: Tweak reviews made easy.
-  Easily read and create reviews about your tweaks with TweakReviewsDB.
-  Works with Sileo, Zebra, Cydia and Installer 5.
-Name: TweakReviewsDB
-Author: pixelomer
 
 Package: com.pixelomer.tweakreviews-db
 Architecture: iphoneos-arm
@@ -2659,81 +2005,6 @@ Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthew
 
 Package: jp.dcsyhi.zetsu
 Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: Dcsyhi
-Installed-Size: 1032
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
-Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.0_iphoneos-arm.deb
-Size: 487546
-MD5sum: ee148386a3b50aa4132bf240b7659690
-SHA1: 83266a9e51fa48e81365fea47587661157d6f375
-SHA256: 1915efeaa7f0772a2d498a77250faa2fd7a3bc31e71e563fc7046ee22c01ed3a
-SHA512: a806c1c3119c578e81b3e6784a4379997a55c916439cd14d4e41f5504e9efc4cc380dae9fce0cedfa343c1c3e576252230f5db19e64ca9fbfc8131b05f8a9beb
-Description: Multitasking on iOS14.x
-Name: Zetsu
-Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
-
-Package: jp.dcsyhi.zetsu
-Architecture: iphoneos-arm
-Version: 1.1.2
-Section: Tweaks
-Maintainer: Dcsyhi
-Installed-Size: 1036
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
-Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.1.2_iphoneos-arm.deb
-Size: 486952
-MD5sum: c23544b97051921335155923b1b5e802
-SHA1: 7832ce36682fea09dbf0fb6388ce3325518ee81c
-SHA256: 3301b20f3e9216fd295fd4398b61cf7971302c88b67cd1b0c007a0dc30397807
-SHA512: 9bacbde73f56667f6a75957996c84ff960c4f0fec60989bff7d12e0ec53820035381f956423d173cb0e241aa28c7626efab4c8d7cedf138d9e3bf4d3b128043f
-Description: Multitasking on iOS14.x
-Name: Zetsu
-Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
-Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: jp.dcsyhi.zetsu
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Tweaks
-Maintainer: Dcsyhi
-Installed-Size: 1036
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
-Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.1_iphoneos-arm.deb
-Size: 484176
-MD5sum: 7d6143291ea56179d4b56ee54e35f374
-SHA1: 32966b7ee43cdc25a726d5bd861d70608bd28c98
-SHA256: 1dd7cca9813f7f44dc0eb2d3fba1cd2f68f5a812c7ed9ff3b53beac3921ba42f
-SHA512: 362ce1ea9859a540e7bc7947fd9b2fba9dbc04885e1f74ffeff4ab7e3d24eb8e81eecef7ba52e94772125d760c7b6cd34c5a778c29d3216e79ab65611e595d0f
-Description: Multitasking on iOS14.x
-Name: Zetsu
-Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
-Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: jp.dcsyhi.zetsu
-Architecture: iphoneos-arm
-Version: 1.2.1
-Section: Tweaks
-Maintainer: Dcsyhi
-Installed-Size: 2144
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
-Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.2.1_iphoneos-arm.deb
-Size: 1631008
-MD5sum: 28799d0ebd2197edf5bc100c0451b1d7
-SHA1: 164ab3c3f2f3d44801cc347b77070528eda57edc
-SHA256: 3497009f53bfd965ead4d82abce0381b19007eb20900ffc5463f557849a30879
-SHA512: 9afc9e5ff5205f3d9968882e6bcf46b80cb3375b365256a50337d5f35bf1cb9d2cdac51403c2064cbc0fe5467185e1c1a04dc216aa4c2cc9ae17ffdbaad6ef73
-Description: Multitasking on iOS14.x
-Name: Zetsu
-Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
-Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: jp.dcsyhi.zetsu
-Architecture: iphoneos-arm
 Version: 1.2.2
 Section: Tweaks
 Maintainer: Dcsyhi
@@ -2749,25 +2020,6 @@ Description: Multitasking on iOS14.x
 Name: Zetsu
 Author: Dcsyhi
 icon: https://turannul.github.io/home/resources/zetsu.png
-Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: jp.dcsyhi.zetsu
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Tweaks
-Maintainer: Dcsyhi
-Installed-Size: 2148
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
-Filename: ./debians/Tweaks/Zetsu/jp.dcsyhi.zetsu_1.2_iphoneos-arm.deb
-Size: 1626514
-MD5sum: 96af37f5f12dc891f942442e35627ab7
-SHA1: 06266f0a5038e5bdf06a3fa5ca63bc03b22bd2d5
-SHA256: e7b48756d972d429dc1d689ff85e8e8916509cadfd6b4769a6b3a61aa2dd2112
-SHA512: a243798bb9b1f400baa95a51c2a7201d2f806532628422778a4ca75fcfd3f1a98b0aedbcb4c6d71c590ed9a856e2d851856390c7a221e674d7f01d3449a76076
-Description: Multitasking on iOS14.x
-Name: Zetsu
-Author: Dcsyhi
-icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 
 Package: com.exile90.icleanerpro
@@ -2926,10 +2178,10 @@ Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
 Replaces: com.ichitaso.altstore
 Filename: ./debians/Uygulamalar/AltStore/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
 Size: 5192014
-MD5sum: 9e1b623d77327386bed02f7971b55288
-SHA1: 26e7c10e742f8cded6f8dd764131edc2eda8dd71
-SHA256: 6e4a2a30605668b85c5d5c95ad00dec73046704223270ec077d313b1514ee271
-SHA512: 6b4ae46420bf6a73d257925fdf0c406aad28a5d5c9df8bb1b47464e5049788ab08200db90deeb7ed2002d4eea186c4f60a75f5f9d7df2153267ef6047181be9b
+MD5sum: eb4e3ce3b4e0924690aca62727d38408
+SHA1: 315e8c3c1bba5214b997b2827a8525b30e03b0f7
+SHA256: 8b14616b687cdf182d262be95eed0fa82b28efabcfcf93f6ccf0578ff62c8252
+SHA512: 56a70392d3b6e34741ca55faeeb2685ef7926b20b9380ad1203738d569f480c009aa1c39342e4f60022525c6fbb141dbbeeaa3e5b4bc5021a33a83a1d4f5dbd0
 Homepage: https://altstore.io/
 Description: Jailbroken version of AltStore with on device signing feauture.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
@@ -2937,7 +2189,7 @@ Author: Riley Testut
 Name: AltStore
 Depiction: https://cydia.ichitaso.com/depiction/altstore.html
 dev: Riley Testut
-Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+Icon: https://turannul.github.io/home/resources/altstore.png
 
 Package: xyz.turannul.altstorebeta
 Architecture: iphoneos-arm
@@ -2948,11 +2200,11 @@ Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
 Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
-Size: 5202368
-MD5sum: 58a18333f718cf710f3ab524543612c3
-SHA1: 2af0e18194db3ae8f8204770292249622cef5c71
-SHA256: a581e5c03aa7a43db01ae0c42f778fa5040823065bc5d384d3a9b32677c7719d
-SHA512: 4e185b17e27fbba16d3498ac24fe18d7e09d453fbc8bf306006a44c0ce54e10dcebb40228469948294f422ccf94309c435874cd5ce4ef7912197e4d5c198376f
+Size: 5202662
+MD5sum: 07ee84aa97057bc81c403139f350540a
+SHA1: 93cce41666c57762c84d50485ede123d071660fc
+SHA256: 220bb4182d6b2aa19ee60ca9e232b49240459ebdc050a8e6437ab1361f5eac68
+SHA512: eed35e2c8e28f880010d99b79665878a7f6847b6499768f211df15e79aa589193891138bc972f99d0aebfd4e9989cce092385d3e68fb9adf6f80cedb78396481
 Homepage: https://altstore.io/
 Description: AltStore Beta
 Author: Riley Testut
@@ -3040,42 +2292,6 @@ Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Icon: https://turannul.github.io/home/resources/cracktool.png
 
-Package: com.julioverne.cracktool4
-Architecture: iphoneos-arm
-Version: 4.0~beta9f
-Section: Utilities
-Maintainer: Julio
-Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Uygulamalar/CrackTool4/com.julioverne.cracktool4_4.0~beta9f_iphoneos-arm.deb
-Size: 725534
-MD5sum: 5a5d61fd4269cc8022c7594295db888e
-SHA1: 870696348d833ba3d7fbb3c4a8745fa2a6aad118
-SHA256: 3a5c072753ee2bb1a8c41046dafa9f99a25b693e3014dcd32e63ebc146ac7035
-SHA512: 911d1876164150aca29ff1da4b0b2c316c3e880756bd995399cd5127fa1877f39c4f2d19e82f3fd147e372b8560b871207ad8aa0b0927a598d7237c1acf0b864
-Homepage: http://twitter.com/ijulioverne
-Description: Crack Tweaks on one click
-Name: CrackTool4 (iOS 12/13)
-Author: julioverne
-Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
-
-Package: E-Sign
-Architecture: iphoneos-arm
-Version: 4.3.4
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified, com.trappledestek.installipa
-Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.3.4_iphoneos-arm.deb
-Size: 5350656
-MD5sum: 525f2844d55ab088c91f8a4cab73ad2f
-SHA1: ceae0d24b89cc9f9609ed4ba709334d2e7169071
-SHA256: 462fdd92b54be7f4fea10e843b049c53c1a63f8794be4b27e048a409d1e86f1b
-SHA512: fdb9ec460df04d15974a671635410bb10e3b5cf576eb80700198d4022697e8d8555b39db3a37ef76a4ec2bdabb0f3c4be1a6212e2ea804978a1bfd7c29b15880
-Description: iPhone / iPad için Uygulama imzalama aracı.
-Name: E-Sign
-Author: Unknown.
-Depiction: N/A
-SileoDepiction: N/A
-
 Package: E-Sign
 Architecture: iphoneos-arm
 Version: 4.3.6
@@ -3154,118 +2370,6 @@ Name: NonceSet143
 Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/noncesetter.png
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.1-beta
-Section: Uygulama
-Maintainer: b0kch01 <@PostBoxTeam>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.1-beta_iphoneos-arm.deb
-Size: 5082536
-MD5sum: dd071c9a45efae185774939dc15bccda
-SHA1: a2b880b15a739aad845795662b6bde4449b6ca36
-SHA256: ba34643062e5f000984702f5126695dd2ea9545c5481daf5f11c71996c5b2d2f
-SHA512: ef2f221a9acdedf4bdf1f8294a4d3b7cb9b7eefd59ce33ae2561a683e2b61a28c168b292579b03f0d6765d3651fd236b6214271fa4d830ef1131eb14b5a8d1a4
-Description: Not a package manager :) | getpostbox.now.sh | @PostBoxTeam
-Name: PostBox
-Author: PostBox Team <@PostBoxTeam>
-dev: PostBox Team
-Depiction: https://getpostbox.now.sh
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.2
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.2_iphoneos-arm.deb
-Size: 29713430
-MD5sum: cf29a058a1784f8027bd1e41d5186e05
-SHA1: eafd24ed82618eb3e5db8e833ddaedc921184742
-SHA256: 716f6809e0b1ed82fe03c464b59902f0ae854c18837884144be3f79bb64d5832
-SHA512: 728d6317cea8a9afe3f96d0859bdf3df9f6050586e9d0f4631e4d3da4eca1f579feab947a46c5ebffe5653840458581a4adb4f3f10b6a8cbd920eb4d11522784
-Homepage: https://getpostbox.now.sh
-Description: News, tweak lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://getpostbox.now.sh/depicts/app/icon.png
-Depiction: https://getpostbox.now.sh/depicts/app
-SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.3
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.3_iphoneos-arm.deb
-Size: 29791732
-MD5sum: 7c2ce99e67e7ac2a54090993910daca6
-SHA1: 5b0829d907cbf804955f025737eef011fc4d676f
-SHA256: bebefc1cd135f50c088866f4d25aeb5a7f4d96d672106f2d85b04ca6f80cb707
-SHA512: 059f5deddfaf8115717f780af659030ba8918523d1b5621822b92c1670515bb11e2eec7a9a87bbee01931593e29e34aca3f659330c3925502e1ce03e7967c113
-Homepage: https://getpostbox.now.sh
-Description: News, tweak lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://getpostbox.now.sh/depicts/app/icon.png
-Depiction: https://getpostbox.now.sh/depicts/app
-SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.4
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.4_iphoneos-arm.deb
-Size: 29682482
-MD5sum: 60590b132d37f210d4ee3977b216ba31
-SHA1: d387ceaa323a48acef3a44d5cc83e10685eedd3b
-SHA256: b1b87b3d85d0a221ce357fdfdd16298ff0a25ed5063bc437f48e1420efa7fe4c
-SHA512: b8a143ea93be5bc0c35552e1d266db4602c9b020f0cabb76176fdeae267b690a6a828847b1dde01e562b41ab94d6f138509d33e3296afc93b515096c0742d8e8
-Homepage: https://getpostbox.now.sh
-Description: News, tweak lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://getpostbox.now.sh/depicts/app/icon.png
-Depiction: https://getpostbox.now.sh/depicts/app
-SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.5
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.5_iphoneos-arm.deb
-Size: 22743118
-MD5sum: 219a1f9f3e3817b21a77b864e0863a31
-SHA1: 6c19be4cfbfa6d12ab40f4106a69e398db3b8baf
-SHA256: 653822ffb9fc74930bd46278a697f13c07686675602c4b348ea19c5622c9965a
-SHA512: 59a70dd36ca8e3d13a5393483142f3f8974b38d11a20c8271455e6622b045e06b015ade0b1ffb3f7e82071ca2301e7870f3aa760d898f6d5c0ade5077b3ed77c
-Homepage: https://getpostbox.now.sh
-Description: News, tweak lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://getpostbox.now.sh/depicts/app/icon.png
-Depiction: https://getpostbox.now.sh/depicts/app
-SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.6
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.6_iphoneos-arm.deb
-Size: 14367718
-MD5sum: 2d78410953adcfc44da02f94e8c9155b
-SHA1: f3fe0efba294cf4329feaefce6cd5af9806dad59
-SHA256: 8c0f9335436b24807a694654433a06b7e97a845ca7216ab61c1de6390452b31b
-SHA512: 3c253ac3a8f946f65e8b070172818f37399bcafc3c7f0fe7114847025f299e6f0f886aad151378d071bea3f99f18e0972a8e791cf79c554944e8f1527be6eccd
-Homepage: https://getpostbox.now.sh
-Description: News, package lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://getpostbox.now.sh/depicts/app/icon.png
-Depiction: https://getpostbox.now.sh/depicts/app
-SileoDepiction: https://getpostbox.now.sh/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
 
 Package: com.simplycode.PostBox
 Architecture: iphoneos-arm
