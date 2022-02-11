@@ -45,5 +45,8 @@
 <changes>
         <version>5.3</version>
         <change>Genel düzenleme debug</change>
+<changes>
+        <version>5.4</version>
+        <change>Yeni bişiler</change>
     </changes>
 </changelog>

@@ -9,17 +9,20 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>zsh perl ncurses</package>
+		<package>zsh perl ncurses iokittools</package>
 	</dependencies>
 	<shortDescription></shortDescription>
 	<descriptionlist>
-		<description>Düşündüğünden daha iyi ¯\_(ツ)_/¯</description>
+		<description>uptime den daha iyi ¯\_(ツ)_/¯</description>
 		<description>Kullanım: uptime2</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<image>IMG_0.PNG</image>
-		</screenshot>		
+			<image>0.PNG</image>
+		</screenshot>
+	<screenshot>
+			<image>1.PNG</image>
+		</screenshot>				
 		<screenshot>
 			<description></description>
 			<image></image>

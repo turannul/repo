@@ -8,14 +8,14 @@
             "tabname": "Details",
             "views": [
                 {
-                    "title": "xyz.turannul.uptime",
+                    "title": "uptime2",
                     "useBoldText": true,
                     "useBottomMargin": false,
                     "class": "DepictionSubheaderView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "\u30c4",
+                    "markdown": "uptime den daha iyi",
                     "useSpacing": true
                 },
                 {
@@ -26,8 +26,12 @@
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
                         {
-                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/IMG_0.PNG",
+                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/0.PNG",
                             "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/1.PNG",
+                            "accessibilityText": "Screenshot1"
                         }
                     ],
                     "itemCornerRadius": 6,
@@ -37,7 +41,7 @@
                     "title": "markdown-description",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "markdown": "",
+                    "markdown": ".",
                     "class": "DepictionMarkdownView"
                 },
                 {
@@ -45,12 +49,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "5.2",
+                    "text": "5.4",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "01-24-2022",
+                    "text": "02-11-2022",
                     "class": "DepictionTableTextView"
                 },
                 {
