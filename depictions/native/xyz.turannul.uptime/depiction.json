@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "tintColor": "#0657bb",
+    "tintColor": "#000000",
     "minVersion": "0.1",
     "headerImage": "",
     "tabs": [
@@ -15,7 +15,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "uptime den daha iyi",
+                    "markdown": "uptime ama daha iyisi ¯\_(ツ)_/¯",
                     "useSpacing": true
                 },
                 {
