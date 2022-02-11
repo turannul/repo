@@ -5,8 +5,8 @@
   "banners": [
     {
         "url": "https://turannul.github.io/repo/assets/Banners/notspecified.png",
-        "title": "Media Widget",
-        "package": "xyz.turannul.mediawidget",
+        "title": "N/A",
+        "package": "N/A",
         "hideShadow": false
     }
   ]
@@ -18,8 +18,8 @@
   "banners": [
     {
         "url": "https://turannul.github.io/repo/assets/Banners/notspecified.png",
-        "title": "App Store++",
-        "package": "xyz.trappledestek.appstoreplusplus-iOS12",
+        "title": "N/A",
+        "package": "N/A",
         "hideShadow": false
     }
   ]
@@ -31,8 +31,8 @@
   "banners": [
     {
         "url": "https://turannul.github.io/repo/assets/Banners/notspecified.png",
-        "title": "Upcoming!",
-        "package": "",
+        "title": "N/A",
+        "package": "N/A",
         "hideShadow": false
     }
   ]
