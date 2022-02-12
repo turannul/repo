@@ -695,18 +695,18 @@ Depiction:
 
 Package: xyz.turannul.tetherme8
 Architecture: iphoneos-arm
-Version: 2.1.1
+Version: 2.1.1-1
 Section: Tweaks
 Maintainer: turannul
 Pre-Depends: mobilesubstrate (>= 0.9.5101)
 Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
-Filename: ./debians/PiratedTweaks/Tetherme/xyz.turannul.tetherme8_2.1.1_iphoneos-arm.deb
-Size: 6221148
-MD5sum: c8d88f9a75dddba52341e7928e410d66
-SHA1: cd68fc2346e35d5aa179079a99816da0313cd73d
-SHA256: bc8d8fab4e9b7f73ca4b1d2b1cc10897ed391b48e62c4b65814a85d9f841d2e1
-SHA512: fa44c47273fe35b9ac2e01cc5f26d0240f47bd3c54b8923ff6d27c299443365eee2ad019566d8806ce5a5d0e354059ce6137eabfb2aa8f208d72c47ccc43e605
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.turannul.tetherme8_2.1.1-1_iphoneos-arm.deb
+Size: 6221164
+MD5sum: 1a324687d45b89e7264bd18b33bf87b5
+SHA1: 020cc3d43d38abe594bf3891198593a6b5f2c51f
+SHA256: 7cf2954c07dba376ad0cbd911d5825c6638de67aac27ef0cc81a984b857d5d52
+SHA512: 4f0d10e73b869a62131dca83c60071ebfa50b088d12eff734398c3e82e1632ae283cd6a66af4ccb0254255eb7291633222b97b6c4485c0cf9f573f7f7a78d0aa
 Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
 Name: TetherMe for iOS8+
 Author: Sam Bingner
