@@ -49,4 +49,8 @@
         <version>5.4</version>
         <change>Yeni bişiler</change>
     </changes>
+<changes>
+        <version>5.5</version>
+        <change>Bug Fix</change>
+    </changes>
 </changelog>
