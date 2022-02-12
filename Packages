@@ -673,6 +673,46 @@ Name: Snapper 2
 Author: Jonathan Winger-lang
 Icon: https://turannul.github.io/home/resources/snapper2.png
 
+Package: xyz.canpng.tetherme8
+Architecture: iphoneos-arm
+Version: 2.0.3
+Section: Tweaks
+Maintainer: turannul
+Installed-Size: 2223
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
+Size: 567588
+MD5sum: a0990a0635f46347b26251bee55abb84
+SHA1: 1eab8f07b1729796aafa795bff0c2bd411d4085b
+SHA256: abad67484f893f24c2ef90bf2b1aa76b931b4b68b713a6906c29383a2deab778
+SHA512: b4068273fee4f9b58151d5b6159e84552c607baed816f0aef866a0ba39c9da8fd79c92bda4d3de5d61e6d37164ea01fff4e8ad616a74ace6cb9de2ecd26c3529
+Description: Daha gelismis modem ayarlari
+Name: TetherMe Turkce
+Author: t.me/canpng
+Depiction:
+
+Package: xyz.turannul.tetherme8
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Tweaks
+Maintainer: turannul
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.turannul.tetherme8_2.1.1._iphoneos_arm.deb
+Size: 4189256
+MD5sum: 9a02451b86ffc6de832744e27262e0a1
+SHA1: b6825a001b395fccd601fe17cdee9adc74ef512b
+SHA256: be50c6233e615eda606a9ac56dcbec2779562a9a167b047746b22b6af48bd60e
+SHA512: 39e01592038152326ca4d3494af5a87963806cb20b0b18b7cdcf9296586f7d375a56f64a3c01d2161d8bf877ca5297a188db9feb94da0685d4732fd38f5c8ab8
+Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
+Name: TetherMe for iOS8+
+Author: Sam Bingner
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
+Icon: https:/turannul.github.io/home/resources/tetherme.png
+
 Package: com.initwithframe.velvet
 Architecture: iphoneos-arm
 Version: 1.5.1
@@ -1873,26 +1913,6 @@ Author: Paisseon
 Icon: https://paisseon.github.io/info/satella.png
 SileoDepiction: https://paisseon.github.io/info/satella.json
 Depiction: https://paisseon.github.io/info/satella.html
-
-Package: xyz.canpng.tetherme8
-Architecture: iphoneos-arm
-Version: 2.0.3
-Section: Tweaks
-Maintainer: turannul
-Installed-Size: 2223
-Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
-Conflicts: net.tetherme.tetherme
-Replaces: net.tetherme.tetherme
-Filename: ./debians/Tweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
-Size: 567588
-MD5sum: a0990a0635f46347b26251bee55abb84
-SHA1: 1eab8f07b1729796aafa795bff0c2bd411d4085b
-SHA256: abad67484f893f24c2ef90bf2b1aa76b931b4b68b713a6906c29383a2deab778
-SHA512: b4068273fee4f9b58151d5b6159e84552c607baed816f0aef866a0ba39c9da8fd79c92bda4d3de5d61e6d37164ea01fff4e8ad616a74ace6cb9de2ecd26c3529
-Description: Daha gelismis modem ayarlari
-Name: TetherMe Turkce
-Author: t.me/canpng
-Depiction:
 
 Package: com.pixelomer.tweakreviews-db
 Architecture: iphoneos-arm
