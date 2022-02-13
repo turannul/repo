@@ -454,29 +454,6 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/yuna.png
 
-Package: cydiaa
-Architecture: iphoneos-arm
-Version: 1.1.36
-Section: Packaging
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Provides: bigbossbetarepo, cydia-sources
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>= 5.0)
-Depends: cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.19.1), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Filename: ./debians/Packaging/Cydia/cydiaa_1.1.36_iphoneos-arm.deb
-Size: 8928020
-MD5sum: 7ad077b95413ad3bbc6188a17a046b08
-SHA1: 8395cb807262468693eb09d39b0dc9dfe71cb778
-SHA256: 602fd6a31fe6b8febf1a2ab34265c7a70e549557554a8a3e9bc2f220ace4cd94
-SHA512: ff1969d7e601ebca1309c2cb4fd77def015f5c1b4379640ff0120be25ceb2e24f95bfc6dd8fd306ad1dcd0f1f5d7e28d2461c611b8d66164a4c2ae6cf98fdc00
-Description: Cydia but better (WiP) Kurmayın
-Tag: purpose::uikit, cydia::essential, role::enduser cydia::commercial
-Name: Cydia Installer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.6
@@ -1477,6 +1454,52 @@ Name: HideSerialNumber
 Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/hidesn.png
+
+Package: com.thireus.hostscleaner
+Architecture: iphoneos-arm
+Version: 1.4.1
+Priority: standard
+Section: Security
+Maintainer: Thireus <repo@thireus.com>
+Installed-Size: 0
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: sed, grep, coreutils
+Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.thireus.untrustedhostsblocker9, com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockermega, com.reddestdream.minimalhostsblocker, com.sukarodo.notavoke, com.ceadd.blockyou12, com.nathanaccidentally.systemhostsblocker, com.thireus.untrustedhostsblockermegaipv4, com.ichitaso.removeadstoggle, com.ichitaso.removeads, com.spinward.hostsfileflipswitch, com.clezz.restorehosts, ro.iphonews.adblock, com.rishanan.hostadblocker, miktr.switch.adblocker, miktr.switch.adblocker2, com.nathanaccidentally.mdnsflush
+Filename: ./debians/Tweaks/HostsCleaner/HostsCleaner_1.4.1-1_iphoneos-arm.deb
+Size: 2716
+MD5sum: 3c0cc3e7ccc110fc5ae634b640fe5db4
+SHA1: 1d426e992e8e6095232471cf8ace516ced8e1b03
+SHA256: 2d72ee0a2db180d18183204c28f0a8a41fcfcdbf5248b1544642c69e15fedbe6
+SHA512: 37f83d6ecf3ea45828e6c549887cbfa0d64d73ad52eb49684db0233dfdb83a68937a4f7c504bb270aa0c33b512d730346f757b22e456df31f6b37a956c1cdca7
+Homepage: https://repo.thireus.com
+Description: Restore your original /etc/hosts file
+ INSTALL IT, THEN REMOVE IT. Hosts Cleaner is a script that resets your /etc/hosts file to its original state (default localhost entries). It also removes your /etc/hosts.lmb (LetMeBlock) symlink or file. DO NOT UPGRADE this package.
+ .
+ Bear in mind this package will remove all non-original Apple hosts entries (ocsp.apple.com is one of them).
+ .
+ It is advised to install this package before installing Untrusted Hosts Blocker to make sure your hosts file is clean and that other ad blocker tweaks won't interfere with it. This tweak can also help people who may have a corrupted or heavy hosts file (noticeable behaviours: connection issues or slow device).
+ .
+ You can also install this package to clean your /etc/hosts file. But if you have ad blockers installed such as 'Untrusted Hosts Blocker', you will simply have to reinstall them to add the blocked host entries back to your /etc/hosts file.
+ .
+ When installed: This package creates a backup of your current /etc/hosts file in /etc/hosts.thireus.hostscleaner.bak.
+ .
+ When uninstalled: This package only removes the backup file, understand that it will not restore your previous /etc/hosts. If you want to restore your previous /etc/hosts, do it manually with the backup file before uninstalling this package.
+ .
+ IMPORTANT: Once you are done fixing your hosts files please remove this package. DO NOT KEEP THIS PACKAGE. DO NOT UPGRADE this package (or it will flush your hosts file again)!
+ .
+ UPDATED: v1.0.4 (20/08/2016) - Original Apple hosts entries cleanup + host block count fixed.
+ UPDATED: v1.1.0 (17/03/2019) - Compatibility with MUHB.
+ UPDATED: v1.1.1 (17/03/2019) - killall mDNSResponder and killall discoveryd implemented.
+ UPDATED: v1.1.2 (17/03/2019) - Minor improvements.
+ UPDATED: v1.1.3 (17/03/2019) - Utilises force kill instead of soft kill for both mDNSResponder and discoveryd. Minor description changes.
+ UPDATED: v1.2.0 (18/03/2019) - Compatibility with LetMeBlock 0.0.3 and higher.
+ UPDATED: v1.2.1 (18/03/2019) - Added EUHB to the list of conflicts.
+ UPDATED: v1.3.0 (23/03/2019) - Added several known bad adblockers to the list of conflicts.
+ UPDATED: v1.3.1 (25/03/2019) - Added MUHB IPv4 Only conflict.
+ UPDATED: v1.4.0 (25/03/2019) - Added more bad adblockers and adblocker flipswitches to the list of conflicts.
+ UPDATED: v1.4.1 (28/03/2019) - Added more bad tweaks to the list of conflicts.
+Name: Hosts Cleaner
+Author: Thireus <repo@thireus.com>
 
 Package: me.lightmann.iamlazy
 Architecture: iphoneos-arm
