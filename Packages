@@ -1964,11 +1964,11 @@ Section: Tweaks
 Maintainer: Turan <t.me/TuranUl>
 Depends: mobilesubstrate,applist,org.thebigboss.libcolorpicker
 Filename: ./debians/Tweaks/UnityFPSindicator/xyz.turannul.unityfpsindicator_0.0.3r4_iphoneos-arm.deb
-Size: 115078
-MD5sum: 9ac13e6e1a683b3e91a8d79d8e8621c2
-SHA1: f8f1648cf3b0e8d0492ef6af1a447bc1cbfc1b16
-SHA256: bc2cbf79500fb97ede5c0646413ab2655c13847345cebd8882ec1e9cdb47f1fb
-SHA512: 5a4094f6db43e41458f86713e7bb07f277cf964f66cf3be1a42cd75bdffceef66fb38c39329d7ba1e3932961ece73382d18617872726feb3ddbbe6d479db69a9
+Size: 115366
+MD5sum: f6a7284fb7bb46c03e9ccce400d8205f
+SHA1: 1d8720084b040a79abbddeac12f4a34c52974483
+SHA256: 4fb9313a467ad93830dcb0e4390d0453e653f08b0c6f99a4c5a9a987e6f9a00f
+SHA512: a960b03de47244c3aee1afae694612600e431dbc9b737519f5b76c8f605726c461858828412b6582db102e92cacc9d71e0e4aa3170551dcd9dec7b898fa44c80
 Description: Oyun-içi FPS göstergesi
 Name: FPSIndicator TR
 Author: Brend0n <brendonjkding@126.com>
