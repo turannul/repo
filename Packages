@@ -2106,21 +2106,40 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 
-Package: com.turannul.paisseon.icleanerprohack
+Package: com.turannul.paisseon.icleanerprohack12
 Architecture: iphoneos-arm
-Version: 1.1+debug
+Version: 1.2+debug
 Section: Tweaks
 Maintainer: turannul
-Depends: firmware (>= 4.0), findutils, apt | apt7, com.exile90.icleanerpro
-Filename: ./debians/Tweaks/iCleaner/com.turannul.paisseon.icleanerprohack_1.1+debug_iphoneos-arm.deb
-Size: 21196
-MD5sum: 85c8ea7205400d5d9a6147554088199d
-SHA1: af51eb7dbe90ea588a200f80b5e2927d51f4f151
-SHA256: b1afb7b41faf84c93dcb7b8b2d2c805cd6f93d04e2cebfd18bdca40ec99261bc
-SHA512: 5b9697b95f06703cc2a33bedce982e42f84690513b33bd39e7093fe97114783c9e86154073588b6c435b2bd9c0a50cbf1498d14cfeec66d1075883b969a4b47c
+Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
+Filename: ./debians/Tweaks/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
+Size: 21218
+MD5sum: ffa64b835ffc4b6a2a46d777a0e13b53
+SHA1: a37353e2eac43d770ba412ce4fdfcaffcae0610a
+SHA256: 573b68a3bd8a11b25e683e6479640593813f9f6e6a3c4df606edbcc7c41241ed
+SHA512: 67ee830451ed4c8f6f73a0f44ee43f13f61327b145f9458eb0d10cd9d71b58927371d439b268ad6a1c7c621d9e2fd905243a96d084e4fd75cb132d6d062b5b3e
 Homepage: http://ib-soft.net/icleaner
 Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack
+Name: iCleaner Pro Hack (iOS 14+)
+Author: turannul
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
+
+Package: com.turannul.paisseon.icleanerprohack
+Architecture: iphoneos-arm
+Version: 1.2+debug
+Section: Tweaks
+Maintainer: turannul
+Depends: com.exile90.icleanerpro, dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debians/Tweaks/iCleaner/com.turannul.paisseon.icleanerprohack_1.2+debug_iphoneos-arm.deb
+Size: 21210
+MD5sum: 6265a9f7c7cba42451df9a81443be87e
+SHA1: c96efaf1c1d6f77c47f5993e01f5e8c89fdbead6
+SHA256: ad933ccd7d62147b3c11f0af8fea0f92271c7441366b9f1dc3cc99e4e4793842
+SHA512: e20a1174816bef36bbf79f7724a42c71fe46e85e0e7e7d2ae8e5918387eb732a4b328a4b27bf5b9b21025467360dbae7b0bb161b0938030fb25f8db9b7764d04
+Homepage: http://ib-soft.net/icleaner
+Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
+Name: iCleaner Pro Hack (iOS 14+)
 Author: turannul
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: https://turannul.github.io/home/resources/icleaner.png
@@ -2676,6 +2695,48 @@ Description: An awesome library to get current weather which provides by iOS Wea
 Tag: role::developer
 Name: libPDDokdo
 Author: Soongyu Kwon
+
+Package: dev.theos.orion12
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Development
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 1412
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 12.2), firmware (<< 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/zzzzz/dev.theos.orion12_1.0.0_iphoneos-arm.deb
+Size: 454406
+MD5sum: faafcff2a1229a721fff850077d1d70e
+SHA1: 992cfd79edb4b0f47773a7f023cfd2c2bd773291
+SHA256: f21ecebaa5b84c7387f9bc7e187e6c63bdd82b907103e9266f1d2affb47f371a
+SHA512: 3ff20070e97a646ed9dd6000c05320d120a45523924dec9302a3bcc25ba710d6fff6e15c50f496878fd516aeedf1cd6410df77150133d6dc9e8e68f9806bd3e3
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios12.2
+Name: Orion (iOS 12-13)
+Author: Theos Team <support@theos.dev>
+Icon: https://cdn.chariz.cloud/icon/orion-runtime12/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime12
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Development
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 2560
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 14.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/zzzzz/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Size: 815260
+MD5sum: abf3d993b38c5dc1c0d9c4f97be4ce46
+SHA1: 37310e0daeb117cb5f21f81521e2295c499dc8e6
+SHA256: 0820bd5fed1f3b7c46a270dfc0adf8e73894289b77585fd5812ccb7ebbf8cf05
+SHA512: 714d29484d09457e4181053001a4f2328e69591357e27d6e92b5529f04c8130605f173d07af407ffb18dfc1e5ace92be9d4dfffd03c6e6bdde02b5a9018f48a0
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Name: Orion Runtime (iOS 14)
+Author: Theos Team <support@theos.dev>
+Icon: https://cdn.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
 
 Package: com.muirey03.libmryipc
 Architecture: iphoneos-arm
