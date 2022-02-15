@@ -2113,14 +2113,14 @@ Section: Tweaks
 Maintainer: turannul
 Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
 Filename: ./debians/Tweaks/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
-Size: 21218
-MD5sum: ffa64b835ffc4b6a2a46d777a0e13b53
-SHA1: a37353e2eac43d770ba412ce4fdfcaffcae0610a
-SHA256: 573b68a3bd8a11b25e683e6479640593813f9f6e6a3c4df606edbcc7c41241ed
-SHA512: 67ee830451ed4c8f6f73a0f44ee43f13f61327b145f9458eb0d10cd9d71b58927371d439b268ad6a1c7c621d9e2fd905243a96d084e4fd75cb132d6d062b5b3e
+Size: 21220
+MD5sum: 8501807344446cdf0870f7bb9c0e00ea
+SHA1: bbd0a0d99f3eb2d8b36b02a095959826b1019889
+SHA256: af999beafc429e454f6f808b1a8711d8eaa34b50149975c30c63611392bf278b
+SHA512: 702294f9a70d7243879778af231492772aea82b77057157e2b5535a3b840f151b89415049939b9e7848055c19dba5a6d2bc56dd38ebefb8bc63a25bc890bb39b
 Homepage: http://ib-soft.net/icleaner
 Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack (iOS 14+)
+Name: iCleaner Pro Hack (iOS 12-13)
 Author: turannul
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: https://turannul.github.io/home/resources/icleaner.png
