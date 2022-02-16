@@ -2374,6 +2374,23 @@ Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Icon: https://turannul.github.io/home/resources/cracktool.png
 
+Package: cydia.com.ipc.crackerxi
+Architecture: iphoneos-arm
+Version: 1.1.16
+Section: Uygulama
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Filename: ./debians/Uygulamalar/CrackerXI/cydia.com.ipc.crackerxi_1.1.16_iphoneos-arm.deb
+Size: 9960934
+MD5sum: 6cca8f7b4174d7015c57944c6b976921
+SHA1: 0de4e26448c972aa3f5e2bddc0fdef4a32b847cf
+SHA256: 999784a317a9fbae7ce25b646002a152fe90d7a18bf46a43a002d7e616f4ccac
+SHA512: 45b2f61b3de7b222c7a0364cb310c2adb69ecde38668f8f4906da1c1a646b942cc61f5a0f7fa3696533024c53c88af1e5e31fb7acbdae4cf0af76f1155376c78
+Description: Decrypts iOS Apps
+Name: CrackerXI+
+Website: https://ipastore.me
+Icon: https://turannul.github.io/home/resources/crackerxi.png
+
 Package: E-Sign
 Architecture: iphoneos-arm
 Version: 4.3.6
