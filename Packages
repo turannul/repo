@@ -2523,24 +2523,6 @@ Name: ZiniTevi
 Author: ZiniTevi
 Icon: https://turannul.github.io/home/resources/zinitevi.png
 
-Package: xyz.canpng.istb
-Architecture: iphoneos-arm
-Version: 1.23.0
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.0_iphoneos-arm.deb
-Size: 24547186
-MD5sum: 3d0a75dda947558454840a0a0b643abf
-SHA1: 414b651daa5a63561365d876f90733a79d4ce62b
-SHA256: 014eac10005245bec05bcec618e7e0436f6185a1410a99a5d0197eeed08f99ff
-SHA512: a58cc894c8973bf82bc00fd02c41782b455765eefaee8458973fbd3d784ced1a72153a641e929e7877b829489398509ec64928e44095c8c992fbd52efad25f4c
-Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
-Description: iPhone / iPad için iPTV
-Name: iSTB
-Author: canpng
-Icon: https://turannul.github.io/home/resources/istb.png
-
 Package: com.geosn0w.iSecureOS
 Architecture: iphoneos-arm
 Version: 1.24
