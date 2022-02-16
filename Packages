@@ -1835,17 +1835,17 @@ Author: Aarnav Tale <aarnav@tale.me>
 
 Package: weeb.lillie.youtubedislikesreturn
 Architecture: iphoneos-arm
-Version: 1.6.2
+Version: 1.6.3
 Section: Tweaks
 Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
 Installed-Size: 116
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.2_iphoneos-arm.deb
-Size: 15194
-MD5sum: 133d92991dd90fc4986618e231662a53
-SHA1: f214794297840c7071bb9ff657c993617106b53c
-SHA256: 666f23b28cfc9aefeb1c7925c9f5f533a866f0f82d9a47c4e7bcfae73ac0d8f8
-SHA512: 1b69c4791d93a5c35fcffe2157a7707f876794937c0cea726099fc9915bc7b29c7b407d26999491ebc9f27ab195b2895e23813150e89cf137c3fb2649b8b73e1
+Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.3_iphoneos-arm.deb
+Size: 18768
+MD5sum: 985c241ea9ebbc041bf4a435d35a4b7b
+SHA1: 21f1dff74f39155f445945c69453931ccb73a822
+SHA256: 157ff73aae7195f29c0b453784fdd3827fc8363f7a12991c61a480715132ccea
+SHA512: e23e78fe362dae1ca78f4087b360fa53cf306f4a193b8b3826318b1e6cbf0b93553bd08cfa9321b74ac52e274525d42b7de85534054f0f2d8e3cb8c3be6ca97f
 Description: Bring Back Dislikes On YouTube
 Tag: compatible_min::ios11.0
 Name: Return YouTube Dislike
