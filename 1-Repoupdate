@@ -1,14 +1,21 @@
 #! /bin/zsh
-# Filza da kullanmak için, Terminali normal (nonSuperuser) olarak ayarlayın.
-echo "Oh shit! Here go again"
-echo "-Carl Johnson"
+
+cat << EOF
+Oh shit! Here go again
+- Carl Johnson
+EOF
+
 cd /private/var/mobile/Documents/Github/repo
 git pull
+
 /var/mobile/Documents/Github/repo/updaterepo.sh
+
 git add /private/var/mobile/Documents/Github/repo
+
 echo "Bir açıklama ekle"
 read not
-echo "Uploading..."
-git commit -a -m "$not" 
+git commit -a -m "$not"
+
+echo "Upload Started..."
 git push
-echo "Uploaded..."
+echo "Upload Completed..."

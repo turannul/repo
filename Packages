@@ -785,6 +785,27 @@ Depiction: https://sudo9000.github.io/info/debra.html
 SileoDepiction: https://sudo9000.github.io/info/debra.json
 Icon: https://turannul.github.io/home/resources/debra.png
 
+Package: com.anthopak.springcuts
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Scripts
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.muirey03.libmryipc (>= 2.0)
+Filename: ./debians/Scripts/SpringCuts/com.anthopak.springcuts_1.2_iphoneos-arm.deb
+Size: 62630
+MD5sum: cd4ce9fce5e4236a19468c9965c2eafd
+SHA1: 1a50fb219429f94640a3191279f2f6beeccca5c8
+SHA256: 50fb121ea0672f74abe9fb1dbe7704f8a7d6df143281ec76f201bf0c31dac9fa
+SHA512: e3accf8f0219bd98d10642aca7b5e35908402cd77b4a7ceb438e30080815e900f23b38c26ed8d3b17d89aad9f0cc91ee44bfca2dc922294e0aa9cdf78bafc6ef
+Homepage: https://repo.anthopak.dev
+Description: Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
+Name: SpringCuts
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.springcuts.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+Icon: https://turannul.github.io/home/resources/tweak.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
 Package: com.samgisaninja.successioncli
 Architecture: iphoneos-arm
 Version: 1.0~alpha2
@@ -1341,6 +1362,26 @@ Name: AutoAlerts
 Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoalerts
 
+Package: com.udevs.battsafepro
+Architecture: iphoneos-arm
+Version: 1.1.6
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 960
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: com.udevs.battsafe
+Filename: ./debians/Tweaks/BattsafePro/com.udevs.battsafepro_1.1.6_iphoneos-arm.deb
+Size: 205230
+MD5sum: e0a17ee1c9e1d271565d81cbfeb77d4c
+SHA1: e2d88f756dcd80da302847faffb0b79453ba1e0c
+SHA256: e3f8ecf773d918a06004f2f7e61c6847f9af25817918cc75da92bbfaf1f40e69
+SHA512: 82032f5a5cb28228ec431c3209127097b00a4f193382be17082540e141b9d101c24b49248f3b44401ac4d56538835bd79c9306fe7df99f3251f7df1ac17b8ac3
+Description: Controls battery charging behaviour
+Name: BattSafePro
+Author: udevs
+Icon: https://turannul.github.io/home/resources/battsafepro.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.battsafepro
+
 Package: com.neinzedd9.bazzi
 Architecture: iphoneos-arm
 Version: 2.0.6
@@ -1350,14 +1391,15 @@ Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocket
 Conflicts: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
 Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
 Filename: ./debians/Tweaks/Bazzi/com.neinzedd9.bazzi_2.0.6_iphoneos-arm.deb
-Size: 56650
-MD5sum: ed363c1525248b6d53c677988a43a427
-SHA1: 69c74376f3c6aa98d6ff35b2f6b68994967bd484
-SHA256: 4113cca8bb8b8897d07ae42ec08de4cb46e807b7f9486c20193eac5148e0ea69
-SHA512: 59b5ad7643ca83c77079bdfb9c4ea2b5404fefe1df7534aaa217a78abe4b517bef3c10cb94959d00a22908c4842f47d8e93201c09cc00c92af07dbab30226b0e
+Size: 56698
+MD5sum: cc67d3ae061f2a1ac3e995d8a67169fa
+SHA1: ea9852661994a97a7c21c47ce9713128f5d86be8
+SHA256: f2bc8fbad8129693caa1d86cd3bbf1fb725111dfd736a37ed1e80353cdd8b5bd
+SHA512: c161607c8dd1dbd0de7778f1f54047b1c53cf3d61624bda3c0e5631d34c144cda967a1ad51292d1787dbee8a859a6ef58f00b63b229c62c229b7f9e1b162605a
 Description: The ultimate iPhone X battery icon customizer tweak.
 Name: Bazzi
 Author: Blake Boxberger
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.blakeboxberger.bazzi2
 Architecture: iphoneos-arm
@@ -1368,14 +1410,15 @@ Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocket
 Conflicts: com.neinzedd9.bazzi, com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
 Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
 Filename: ./debians/Tweaks/Bazzi2/com.blakeboxberger.bazzi2_2.0.8_iphoneos-arm.deb
-Size: 85810
-MD5sum: 038c77d72c522d93e42a4c8b45e68a23
-SHA1: 893969c9693e03de391525955c270ef4e0453c86
-SHA256: b0df0a18caa4387fde45553acaa5fd46e384761bfef7ee0900a8b22e466bcfb1
-SHA512: 36aacf4142bb7d20f36daa746caeaa8848190cdd79885f4c40bfb7fb2da8332d21d44c46ee6674120e9434cb89c0b1245a2398a209a96d3d14f43f1dce533ddf
+Size: 85854
+MD5sum: 0a252cfcd7c425708b779ad4d22e69ec
+SHA1: 395cbaebc324136a2d55fe952a51965074a8ca2e
+SHA256: 672750a8c28d2773562dacbd3bcd86faf66696c1fd1afc1f1e5c8b4b961f458d
+SHA512: 7fac9bc35729377f07ca60d37133949791e52b042bb4f44d71e6800106f4fcfa91a72d171531a3fc28994ea24cf8c7a4e1225c02d3e7ee6fed6e6ff37fed284c
 Description: The ultimate battery icon customizer, modernized!
 Name: Bazzi 2
 Author: Blake Boxberger
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: ai.paisseon.cccalc
 Architecture: iphoneos-arm
@@ -1472,6 +1515,25 @@ SHA512: 7fc71c8d6424aa0fe50ce550c41757526cc7940d0a6fbcc7d1811ba02d0219d30ba5d79b
 Description: Add a fifth column of modules to your control center.
 Name: FiveColumnsCC
 Author: 4nni3 <4nni3.14@gmail.com>
+
+Package: com.udevs.ntspeedauto
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 136
+Depends: mobilesubstrate, firmware(>=13.0), com.julioverne.ntspeed
+Filename: ./debians/Tweaks/HideNTSpeed/com.udevs.ntspeedauto_1.0_iphoneos-arm.deb
+Size: 6606
+MD5sum: 70f353deb5f4e29d36f5389f1ac1c8f3
+SHA1: 4d3958425808ec7d29a4734fcd06a2bd0787963f
+SHA256: 04a604523c860713a9fdc539a723585b33a5611eef4e5a21b515a42e66b1c185
+SHA512: a96c3708960bcdb14b690b0a750e68f18372e05d567cdbd9b0b329879f2d0f448dc884cab3a58aca35d6a2d46aae0778f8f71b21fbdc5f091c0d78b295d5880e
+Description: Hide NtSpeed window when you're in fullscreen mode.
+Name: NTSpeedAuto
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.ntspeedauto
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm
@@ -2033,6 +2095,25 @@ Name: Upmem
 Author: Moose <gathering011@gmail.com>
 Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
 
+Package: com.udevs.vpnindicator
+Architecture: iphoneos-arm
+Version: 1.1.5
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
+Filename: ./debians/Tweaks/VPNIndicator/com.udevs.vpnindicator_1.1.5_iphoneos-arm.deb
+Size: 76352
+MD5sum: 6bed4c3fcb978241d4c621a30a04b2ad
+SHA1: a4516eed16f9af099edee91c1a74ffcc1fe45b97
+SHA256: ab90f8844295178dc6838c2c008a92bb9c2408d3b5c2d389ae9d9675b2378960
+SHA512: c071e834d7a3089030725902ceb2cd2a006a502beee770a187008992dae250478fccbe56333951e786bb1749cfd4c4a12e13ace6cb2723079cab23fb98515541
+Description: Indicates VPN state in status bar
+Name: VPNIndicator
+Author: udevs
+Icon: https://turannul.github.io/home/resources/vpnindicator.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
+
 Package: ai.paisseon.vivy
 Architecture: iphoneos-arm
 Version: 1.3
@@ -2124,24 +2205,6 @@ Name: Zetsu
 Author: Dcsyhi
 icon: https://turannul.github.io/home/resources/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: com.trappledestek.watusi3
-Architecture: iphoneos-arm
-Version: 1.1.13
-Section: AD - TR Tweak
-Maintainer: Deliturk
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), com.trappledestek.watusitools (>= 2.2.14), com.rpetrich.rocketbootstrap
-Filename: ./debians/Tweaks/trappledebs/Watusi3/com.trappledestek.watusi3_1.1.13_iphoneos-arm.deb
-Size: 4436794
-MD5sum: d5d365c4ff4f1b54b5224db05136aef5
-SHA1: 43a161489bb04195e05b7027786a718b209dae67
-SHA256: 28bb8623429a5b500522615254efb2072444e894f8dbebb013c32b8cbf62ee83
-SHA512: 01a69373c24ba64b2f8e0b2b075d4e8ae7570397a67554786d9ab2156160f4f2dd7f0b170b27681fb189b65f2539a70a4a3a1ae31d0b4316fe2d808bde9985bd
-Description: WhatsApp Messenger için hepsi bir arada tweak
-Name: Watusi 3 for WhatsApp
-Author: Fouad Raheb <support@fouadraheb.com>
-Depiction: https://repo.trappledestek.com/depictions/watusi3/index.html
-SileoDepiction: https://repo.trappledestek.com/depictions/watusi3/index.php
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
@@ -2713,6 +2776,25 @@ Description: An awesome library to get current weather which provides by iOS Wea
 Tag: role::developer
 Name: libPDDokdo
 Author: Soongyu Kwon
+
+Package: com.udevs.vexillarius
+Architecture: iphoneos-arm
+Version: 0.0.3
+Section: System
+Maintainer: udevs
+Installed-Size: 136
+Filename: ./debians/zzzzz/com.udevs.vexillarius_0.0.3_iphoneos-arm.deb
+Size: 5472
+MD5sum: 4b89ff607885606678559d688c77d5aa
+SHA1: 8e108531b7a78873a1b7767a2469b656e79c8d49
+SHA256: ba5a338afead68820ac3a7a759fe937f8bdd2395e592deadb452bf4dabe16155
+SHA512: 153e8d1c709394cfb96a7daa6eed7bcb4c8893934f8ead0d58ff2769da5eddd12a022bc5710a2663dca96bf13db3fa207dc7fba7db2a8a287160df1df9cbfba0
+Description: Standard Bearer
+Tag: role::hacker
+Name: vexillarius
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius
 
 Package: dev.theos.orion12
 Architecture: iphoneos-arm
