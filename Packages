@@ -576,24 +576,6 @@ Sileodepiction: N/A
 Depiction: N/A
 Icon: https://turannul.github.io/home/resources/diskprobe.png
 
-Package: com.mtac.lynxtwo
-Architecture: iphoneos-arm
-Version: 2.3.1
-Section: Tweaks
-Maintainer: MTAC
-Installed-Size: 2916
-Depends: mobilesubstrate, firmware (>= 14.0), com.spark.libsparkapplist, com.spark.libsparkcolourpicker, preferenceloader, ws.hbang.common
-Filename: ./debians/PiratedTweaks/Lynx2/com.mtac.lynxtwo_2.3.1_iphoneos-arm.deb
-Size: 1397588
-MD5sum: 11c2c131dc5ef2f9b47212db0534deb8
-SHA1: b65bc11f27ed8112489d399e9bc9aaccd0c45068
-SHA256: da26e369222ae97ac0f8c6695dcf3b3fa5c5f6c36cbe4a0e3d451208323cb7f0
-SHA512: ff4638fe577fa5535571a3b5a576df4c959a01c0fb6736125b5cd9db89a12ea023ac8b832ea42bbd988649e4bd43ec9fb64db396209a1b660db77ef47b842762
-Description: Ultimate iDevice Customization for iOS 14+
-Name: Lynx 2
-Author: MTAC
-Icon: https://turannul.github.io/home/resources/lynx2.png
-
 Package: xyz.turannul.pencilbanner
 Architecture: iphoneos-arm
 Version: 1.2
@@ -783,6 +765,25 @@ SHA512: 277de4990ddeb23e7389c1a4f75df3d836d212b0461f6b3326b17bca2fb009f3ed33688f
 Description: A CLI tool that injects tweaks into jailed iOS apps
 Name: Azule
 Author: Alaise
+
+Package: com.sudo.debra
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Scripts
+Maintainer: Sudo <sudo9000@outlook.com>
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1)
+Filename: ./debians/Scripts/Debra/com.sudo.debra_2.0_iphoneos-arm.deb
+Size: 4414
+MD5sum: da321d605c2eeaf2ff58151d4da9440b
+SHA1: 067e1594e6884e7fd0c0f7b2ff0d558f3d1cb5d5
+SHA256: c4ab0b306dbf51cf1bcfde631f8ea84db51fcd80ae2d92600a39031b7eb7ba25
+SHA512: 4756ae8126c5fb0436b62678ee50697cc4bb0810ba479531d710145a900edac27865e4cd3ead75b6bd6ddf5c4559174a87896e62d5a26acc31387c2ef49460e8
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Name: Debra
+Author: Sudo & Paisseon
+Depiction: https://sudo9000.github.io/info/debra.html
+SileoDepiction: https://sudo9000.github.io/info/debra.json
+Icon: https://turannul.github.io/home/resources/debra.png
 
 Package: com.samgisaninja.successioncli
 Architecture: iphoneos-arm
@@ -1394,26 +1395,6 @@ Author: gilesgc & paisseon
 SileoDepiction: https://paisseon.github.io/info/cccalc.json
 Depiction: https://paisseon.github.io/info/cccalc.html
 Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
-
-Package: ai.paisseon.cydown
-Architecture: iphoneos-arm
-Version: 7.1.6
-Section: Tweaks
-Maintainer: CyPwn
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown, org.mr.cydown, ru.rj.cydown
-Filename: ./debians/Tweaks/Cydown/ai.paisseon.cydown_7.1.6_iphoneos-arm.deb
-Size: 2708820
-MD5sum: 9902bcff19cdc0a3f83a247268df9534
-SHA1: b3fa65eeef6d0b5331b014ed0ede166b6d456757
-SHA256: 4c51166d70922faf7acfd4a042023dd286c45fdae371bd0f1ecacecb4e1f524e
-SHA512: 61e094726b5c1a27a8f3fc256993e612a8a717c73af2ae2102929e22f1f415956a98bdace796273af540adbee60a064c4bd2abd3d28018018e0c7a203e0c3257
-Description: Download tweaks for free
-Name: CyDown++
-Author: Julioverne & CyPwn
-SileoDepiction: https://paisseon.github.io/info/cydown.json
-Depiction: https://paisseon.github.io/info/cydown.html
-Icon: https://paisseon.github.io/info/cydown.png
 
 Package: com.wilsonthewolf.eliza
 Architecture: iphoneos-arm
@@ -2299,13 +2280,13 @@ Architecture: iphoneos-arm
 Version: 7.2.2
 Section: Uygulama
 Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
+Depends: com.trappledestek.appsyncunified | net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
 Filename: ./debians/Uygulamalar/Appcake/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13903082
-MD5sum: 1cbf71cb2aeece90b79c01cfc7f91ae1
-SHA1: 252d71a71acdf7da4d9ea08bab43434cc6cdb6c6
-SHA256: 013fd6c97f0c77edf9c36c161dbfcd312a6608c1ae9bea1061c4952c6f3ca0dd
-SHA512: 911a5aed985d1c8043f4ccf28237557f485bb009bc36656ca7059d04a1497dc3b1d107f49699331334f1dd6fe8e16dd6d8a533d1ff79a94e4bd04f40f5a7da47
+Size: 13903032
+MD5sum: d32ed4124415d6a200970af61b0e7846
+SHA1: c62f70ddd0d8fa123e09d0b6cf65f9378292f0ab
+SHA256: 55bae7616ad1e72993b3fb1684ee5d9d79588659205db8a792e4686e292a1191
+SHA512: 598e9efe0f1bd3e2ea236d8dd8f502f7a391c465042e5833cd0e8d9b79f31f556ffc8346ea3abeb8f9694a414c60e0064615197c30cda54960e4b933fb74d776
 Description: iPhone / iPad için ücretsiz iPA Mağazası.
 Name: Appcake
 Author: iPA Store
@@ -2390,6 +2371,26 @@ Description: Decrypts iOS Apps
 Name: CrackerXI+
 Website: https://ipastore.me
 Icon: https://turannul.github.io/home/resources/crackerxi.png
+
+Package: ai.paisseon.cydown
+Architecture: iphoneos-arm
+Version: 7.1.6
+Section: Uygulama
+Maintainer: Paisseon
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, org.mr.cydown, ru.rj.cydown
+Filename: ./debians/Uygulamalar/Cydown++/ai.paisseon.cydown_7.1.6_iphoneos-arm.deb
+Size: 4481284
+MD5sum: 0f90c69886c2bd6d2d013533510a4227
+SHA1: 83479b1bfd55a965833b480d04a82be050efe504
+SHA256: e6a5ff69cacc8ffd2761540e21d72a20100943f0df1401e8bc6d3cf06e064f6f
+SHA512: 7ed75b6b7c7a1472996d4abb768fe66c80fdeab983c316d9f7157d65f3a58512ef23c55f1f26b509ae09a84eac8350786d5982dacbe7d9cb6a637544dd0a8127
+Description: Download tweaks for free
+Name: CyDown++
+Author: Julioverne & CyPwn
+SileoDepiction: https://paisseon.github.io/info/cydown.json
+Depiction: https://paisseon.github.io/info/cydown.html
+Icon: https://turannul.github.io/home/resources/cydown.png
 
 Package: E-Sign
 Architecture: iphoneos-arm
