@@ -642,15 +642,16 @@ Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | ne
 Conflicts: net.tetherme.tetherme
 Replaces: net.tetherme.tetherme
 Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
-Size: 567588
-MD5sum: a0990a0635f46347b26251bee55abb84
-SHA1: 1eab8f07b1729796aafa795bff0c2bd411d4085b
-SHA256: abad67484f893f24c2ef90bf2b1aa76b931b4b68b713a6906c29383a2deab778
-SHA512: b4068273fee4f9b58151d5b6159e84552c607baed816f0aef866a0ba39c9da8fd79c92bda4d3de5d61e6d37164ea01fff4e8ad616a74ace6cb9de2ecd26c3529
+Size: 567618
+MD5sum: 307f4c1df092214e6b8d312c55222329
+SHA1: 29975b53f0b311426915ae881ad4f11a8fd5da93
+SHA256: e2adc7ed9775517044b4f1c3fbfcefc9e531f6eb9cee2c56a9e5885a826b3cb7
+SHA512: 5f114bc4a38ab68edcf5c1d7fe7af50809d5abf56adfc1e4263c71edc9b0be86e5765ab4241e9a9e747a8d33fbf397eab7d1d34056ab83ab9d19183a447597bd
 Description: Daha gelismis modem ayarlari
 Name: TetherMe Turkce
 Author: t.me/canpng
 Depiction:
+Icon: https:/turannul.github.io/home/resources/tetherme.png
 
 Package: xyz.turannul.tetherme8
 Architecture: iphoneos-arm
@@ -757,14 +758,15 @@ Section: Scripts
 Maintainer: turannul
 Depends: odcctools, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst, zsh
 Filename: ./debians/Scripts/Azule/xyz.turannul.azule_0.5.3_iphoneos-arm.deb
-Size: 2043486
-MD5sum: bb45b5bd5f58c32ac1b51611c9746bd3
-SHA1: 1c31bf2ec03145ddaa9b87199354afb4d9f369ef
-SHA256: a1e72056e14b1e6628afd82d911f137edf1dc2e8cb422a7d7f377e053b07a64a
-SHA512: 277de4990ddeb23e7389c1a4f75df3d836d212b0461f6b3326b17bca2fb009f3ed33688f336d6cf3154311499324c4915b7f3bcfe1a5f9560c70053c5740115c
+Size: 2043532
+MD5sum: ba2fd3ce8987e4dfe44857ce282d4923
+SHA1: 03fe3ea7d4d6924fabf5197e4185da3f4c3d6975
+SHA256: 5f6614cff97f16af0c8ee78fae3127c01f2ecf0ed5182a6237fb3d676707cf26
+SHA512: ad363772ce4ae0759ebb062c9012e908ebe50641087d5665738b37c436623d16d09a9ff66a67edfe2c035b18526fac2a1142315620cc54b12c76ef5ac20290fc
 Description: A CLI tool that injects tweaks into jailed iOS apps
 Name: Azule
 Author: Alaise
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.sudo.debra
 Architecture: iphoneos-arm
@@ -814,14 +816,35 @@ Maintainer: Samg_is_a_Ninja, demhademha
 Installed-Size: 388
 Depends: coreutils-bin, coreutils, firmware-sbin, rsync, curl, p7zip, grep, gawk
 Filename: ./debians/Scripts/SuccessionCLI/com.samgisaninja.successioncli_1.0~alpha2_iphoneos-arm.deb
-Size: 34712
-MD5sum: 0b15b3305c69925199572e323a6a7793
-SHA1: 016f4e5b05f0a23ed3bc4886620c60670a17bad1
-SHA256: 99c9129336bcf2e858acb5025820f96dd24ed5c1f59a66c9d7eab7d9b159cb39
-SHA512: 494844ae06a6ab1faad036113cea931526bc857c0f07213661dba3b123da98b6b7187ed2e2ce055b6bfed1416d7c3f6b8fd623bcc8a708d67c662b2087279c85
+Size: 61772
+MD5sum: 7e9a5953d28c76ccd9ead7698a6246bb
+SHA1: cc984da4c020ab806552bcb2241f4de035138aa9
+SHA256: 98ecf367d5237cbbc19fb4896076e173a3771b72282eafe8fa7acab4a6e7a462
+SHA512: cab103601a2d57f70b01a4ad171a8f09b28cfa8a76dcf56294cb9eca59257f7add46d97dbdfc37ab563acd3d75992334ad1fb222c23463797ef03703b984e989
 Description: Restore without updating via rootfilesystem DMG
 Name: SuccessionCLI
 Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>, demhademha
+Icon: https://turannul.github.io/home/resources/succession.png
+
+Package: com.moose.upmem
+Architecture: iphoneos-arm
+Version: 0.1.7
+Section: System
+Maintainer: Moose <gathering011@gmail.com>
+Installed-Size: 12
+Depends: com.kramerapps.jetsamctl | com.doregon.overb0ard, gawk
+Filename: ./debians/Scripts/UpMEM/com.moose.upmem_0.1.7_iphoneos-arm.deb
+Size: 2432
+MD5sum: 6ee6af155b00f8165f81faa936e1b116
+SHA1: 12e68f38c731a13de714cae1adbeda5f472d692b
+SHA256: 02e83f9e3bdc3cb712644d6ae108199b16b835e86151c75b9d132cfe7c2dec0d
+SHA512: 9e4008f50d407a73417b5050114bced4d838d830b8a2126f11663faef862cd0f041978eeba5a64e2216780761bd930c734dd0a885353b2ff9de7cb21130ff4b8
+Homepage: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+Description: A Command line to raises RAM memory of applications or system process (jetsamctl method).
+Tag: role::enduser, purpose::console
+Name: Upmem
+Author: Moose <gathering011@gmail.com>
+Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
@@ -1275,16 +1298,17 @@ Maintainer: Deliturk
 Installed-Size: 131
 Conflicts: com.trappledestek.adblockplus
 Filename: ./debians/Tweaks/Adblock++/xyz.trappledestek.adblockplus+_1.4.6_iphoneos-arm.deb
-Size: 8716
-MD5sum: e599f9230fb8fb500778880731399e9d
-SHA1: eed86c7c651d44c24eb53840d01d1f58c80ac170
-SHA256: 20f98d70965f56bdf1c0f212e5ef08709853ff4ee772986c4dffcd889617ba33
-SHA512: 0f9fd29376138b527f5b83de2c2cb045ca4d06f202813e138eba39969140476f8fd50dfa41d33680ea062bf8e99b5dd35d4f3caec74fab01a4aea6381133d1fe
+Size: 8758
+MD5sum: fd1b045ec896ba64ab02b2ae36fb8494
+SHA1: 56e06b066245e3f65f60d75e5d9f77b9757c30dc
+SHA256: 97e7074672f3f26057c1bc1f4ee0754aad551919169959879821d3409e20ec20
+SHA512: 0d0a96d061c597765a308bb8a8a9cf2e5c1a3f87a05d9602685c993d48d7520fe0f0bfde693618ce48d73fe91817f70762a6cf138028ecb5fd1f4494c8dd89a0
 Description: Uygulamadaki reklamları engelle
 Name: AdBlock++ (Eski Sürüm)
 Author: Adblock
 Depiction: https://repo.trappledestek.com/depictions/adblockplus/index.html
 SileoDepiction: https://repo.trappledestek.com/depictions/adblockplus/index.php
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.level3tjg.airpodsglyph
 Architecture: iphoneos-arm
@@ -1333,16 +1357,17 @@ Maintainer: Turan
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
 Filename: ./debians/Tweaks/Appstore++/xyz.trappledestek.appstoreplusplus-iOS12_0.9.11_iphoneos-arm.deb
-Size: 331416
-MD5sum: 9811936cbd01ba26403efbebe25a2410
-SHA1: 3878c55e55337f380abe4f95a9108c485638f00a
-SHA256: 85ee3a68c5c4d8793ab22edecb979585ae5427a6b68ee8654ab55050d67297a5
-SHA512: cec02bcf73f6bbe1817c78bae57e15c6042370ee9dff810576cf5a3223553f882504353047f65d2249e7fe2f0decfb75796454e15ee0d2041faf68fb9f18466d
+Size: 612840
+MD5sum: ef833630595e30120d98ff475e456561
+SHA1: 616e40e5401998e9a4867b2502def3c2a78aa3f5
+SHA256: 3fbc30f756fd06179133f5fa6eb940bad5009427d990feeae417ffe56c7bedfc
+SHA512: 2b22f41c2893229deecf76c9c696b635c197e6259669badb11393ad40c299319ec8b375037ca73a7bde21742ff251fbba1fd0f08ecd8bf42a7f8ded874f181ea
 Description: İOS'taki AppStore'da uygulamaları düşürmenize / yükseltmenize izin verir (Reklamsız Sürüm)
 Name: AppStore++ (iOS12)
 Author: CokePokes
 Depiction: https://repo.trappledestek.com/depictions/appstoreplusplus/index.html
- SileoDepiction: https://repo.trappledestek.com/depictions/appstoreplusplus/index.php
+SileoDepiction: https://repo.trappledestek.com/depictions/appstoreplusplus/index.php
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.shiftcmdk.autoalerts
 Architecture: iphoneos-arm
@@ -1352,15 +1377,16 @@ Maintainer: shiftcmdk
 Installed-Size: 424
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/AutoAlerts/com.shiftcmdk.autoalerts_1.0.2_iphoneos-arm.deb
-Size: 49792
-MD5sum: 21ee93af7a1fffb352f63aff93ff68c6
-SHA1: 4f908f2d2518d6dd7380b2c757f1caa02ba42972
-SHA256: e9913ac9973bbec2784bbb54fbbe98fefe2e1e36952221c474393deb76acc3fd
-SHA512: 2ac5c67355bfe0b656886af72c5feafb02fb9df1eb2e93c1b2443ae7146782f41016da4b75a4170721c901dc25ac20207d36d8334baf4baa2f10e21132dee534
+Size: 94838
+MD5sum: d556d574f45cd7228be7df4f07b19f68
+SHA1: 361359344f8fb8e257c2824da8c51f74b4f84b45
+SHA256: e47256c22043db80899a04629f980abc7519b47f86ecd68e8e49758b3876a3a8
+SHA512: dee4b351b4afd4d44140647840428a0a5e7ccf970c4a128e840d076a44823765e21d946f3981f81f07ab5b8380a62b61af9b7b82f1ca0ea82bdd3a87f4373579
 Description: Automate alert actions.
 Name: AutoAlerts
 Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoalerts
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.udevs.battsafepro
 Architecture: iphoneos-arm
@@ -1446,15 +1472,16 @@ Section: Tweaks
 Maintainer: WilsontheWolf
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware(>=12.0)
 Filename: ./debians/Tweaks/Eliza/com.wilsonthewolf.eliza_0.0.2_iphoneos-arm.deb
-Size: 12694
-MD5sum: 7dd6475eec7471e5787c83f71811d8d4
-SHA1: 688855b37ada74d46ef71c89102691b87c36970a
-SHA256: 607473fd062ba6f8119af74ca002245178a3101ba5f3face84d498ab01b8328f
-SHA512: 451b50ddc7f0ddffb741ce899cc3a7981aa0bc173d23f838f494c71870446eb0a23085c8f167029e91ad9688b782a0ac7d28b8f68daa989204099b0551fb021d
+Size: 12724
+MD5sum: d73f400dcac0f24857b53e1f1a61738d
+SHA1: f74b3c97cbab3b3a22a52d81c257bc6fe9e79e0d
+SHA256: 167f179bd226d8666634fa811095676b121bc0c0466e7a10ff972ac0271efa5b
+SHA512: e18ca267a1f2d6596cd6c1617994ce8fdf2be7f6aac0f3f9837b2f95580c714366a8738b3b79a6e0265945978b208a19c7bb19e927d0534afaa0a7d44ddc98ea
 Description: Make your battery colourful!
 Name: Eliza TR
 Author: WilsontheWolf
 Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.eliza
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
@@ -1475,6 +1502,23 @@ Author: Paisseon
 Icon: https://paisseon.github.io/icons/erika.png
 SileoDepiction: https://paisseon.github.io/depictions/erika.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: xyz.turannul.unityfpsindicator
+Architecture: iphoneos-arm
+Version: 0.0.3r4
+Section: Tweaks
+Maintainer: Turan <t.me/TuranUl>
+Depends: mobilesubstrate,applist,org.thebigboss.libcolorpicker
+Filename: ./debians/Tweaks/FPSindicator/xyz.turannul.unityfpsindicator_0.0.3r4_iphoneos-arm.deb
+Size: 115398
+MD5sum: 1173ed23968375eadc20f85be9e1ca71
+SHA1: 7f2934ff76f6f8f89dfa2ae8a31fe66f5616fc70
+SHA256: ab7c5e01a88624db8a7a7ddd98ba77c4bfde230905da9c70572664a5081b9615
+SHA512: 9697001adfa8bd583cc33afa825dca44a0ab03d9d3f95dd8a5c47b060147b8148a7991be2a5b07913e16934b4a713a9203e306931af31e5ce83c4edc552ead7d
+Description: Oyun-içi FPS göstergesi
+Name: FPSIndicator TR
+Author: Brend0n <brendonjkding@126.com>
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: netskao.fakemodel
 Architecture: iphoneos-arm
@@ -1506,15 +1550,16 @@ Section: Tweaks
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Installed-Size: 140
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/FiveColumnCC/com.4nni3.fivecolumnscc_1.0_beta3_iphoneos-arm.deb
-Size: 5080
-MD5sum: 18daf6b3ff8223436349da8b4108dcc9
-SHA1: ccfd5c9d1403f8b85748cc36bb7c0f0754c6c528
-SHA256: 0aeeac9ce1b19f95fa46aeaae089a1614d54057eadfa5ccf4d6f4c8f265bbad8
-SHA512: 7fc71c8d6424aa0fe50ce550c41757526cc7940d0a6fbcc7d1811ba02d0219d30ba5d79bbb270049ac32a57a4b1ad3883b4ff0b5b864dfa717d7a04b464b9ec2
+Filename: ./debians/Tweaks/FiveColumnCC/com.4nni3.fivecolumnscc_1.0~beta3_iphoneos-arm.deb
+Size: 7976
+MD5sum: 24eb245aea16cfed0f99b627f6923587
+SHA1: b67a123bb753fbd28c48a47cc24b8fd900590865
+SHA256: 65373f2fc00e9d7415cfd8f40f13d6a4baa51d490eac69549a1f800283251a02
+SHA512: 8160575436869c2f8f94691626a8c7da8a369fc3ba01e80eeaa56c546e3411de1198fc1c7ac525903bbfccdfba777eabf804741fd61575caf22c9c8241bd3a6b
 Description: Add a fifth column of modules to your control center.
 Name: FiveColumnsCC
 Author: 4nni3 <4nni3.14@gmail.com>
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.udevs.ntspeedauto
 Architecture: iphoneos-arm
@@ -1683,14 +1728,15 @@ Section: Tweaks
 Maintainer: CydiaGeek <lucaluca86@aol.com>
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/LTEwant4G/com.yourepo.cydiageek.ltewant4g_1.0.1_iphoneos-arm.deb
-Size: 4582
-MD5sum: 3e33c5cf983f952705370cc914afb9bf
-SHA1: 51d7cab96e6baf66dae9e492bead8714341400b6
-SHA256: 045c6cca234799ef5bee703583bacbcb09b4e794c18fc25fc20c84200bf34a66
-SHA512: eb14595b5d931b3a6715f85b8a18f0515fc9cee68d667f9d9cf98c87f4c50ed57cacebf76a519a1d68fb5ec3e16e9c28ddc69aac4057cb28a421bdc0f89e846c
+Size: 9176
+MD5sum: 0ac4a568b26ef250c9da1629eb641d9f
+SHA1: 0dac2007b39faa45e4e5272bf92e067c4245f4bf
+SHA256: 48519de40e838e0ee64cd60df4675b64e59e1923ef5a0b3cbf13888bc7c47aad
+SHA512: 546ed9f261e1f64944b8753cdbe04def149ddb13735d9c89ed1c8f7176eddec660fa3ba324396c2efddb6be3193747238d71e36489857ac8ac454bca85c97f38
 Description: The Tweak Shows the 4G Icon instead of LTE! Requested by @jailbrek102. For iOS 12 too.
 Name: LTEwant4G
 Author: CydiaGeek <lucaluca86@aol.com>
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: lunotech11.Legizmo
 Architecture: iphoneos-arm
@@ -1777,11 +1823,11 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 198
 Depends: mobilesubstrate, firmware (>= 13.0)
 Filename: ./debians/Tweaks/NoCShare/com.devvix.nocshare_1.1.1_iphoneos-arm.deb
-Size: 4922
-MD5sum: b6db1223bc5119dbd6d8521d502d4a13
-SHA1: bd1304bf4ab8f4ea5b833f4d94ac8b92e8aab3dc
-SHA256: 8286219844a3998c515721c904f353057fbcf7aa6f97e18c8616d3bc6c1391cc
-SHA512: aaccb65cb08a6b4ea2110fa2d62e383d946e479fb11bc8ac36fa89c523edb624833e9e736a58fccec74b5dfefb668ac7dd0ed2af72f6e09c7fa69dd9d7281044
+Size: 8186
+MD5sum: 1e913b9fdf02ecf294793cc9e6eb8668
+SHA1: b528e8c7e08666951675ce1753e5ee0d2b440671
+SHA256: a482481240b372cf2ddd1812196fd556e10ae73917301f9d1666ea21788d877f
+SHA512: b2e75706ce1b5be4376ad95ef161e34813bd6aa1ebb760b93b926338ae3860661d74225ce58753b782718e6d46149d1270f5edd6f3880d02c90c575e1978fb28
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nocshareDp
 Description: Remove annoying airdrop and contacts from share menu.
 Tag: purpose::extension, compatible::ios13
@@ -1790,6 +1836,7 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nocshareDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Devvix <jamie@devvix.com>
 dev: devvix
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.brend0n.nopassafterrespringsafe
 Architecture: iphoneos-arm
@@ -1799,16 +1846,17 @@ Maintainer: Brend0n <brendonjkding@126.com>
 Installed-Size: 200
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/NoPasswordRespring/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm.deb
-Size: 6660
-MD5sum: c67c2fdfa65f4608586f6aecd991829b
-SHA1: 54ca0ed480cc254ad092a2efff1c050ead0391ae
-SHA256: c856f7750b4f9e69c332f21cc8517a8938b5f9146db006235271ece2cd4f0b9f
-SHA512: ddc0f658f34274e27e5c955777ec3d4d58b869669c5ea052ad7a4427a30e59e192a0b7e059f22e33d1296187e851cd8642541028c31dd8cc9a2281565c77738b
+Size: 11162
+MD5sum: 4840f44f29446e3f3c02c48e825aedc1
+SHA1: 40ed91f60dd5c0f366b508f5b83e61b2e6c23812
+SHA256: 81b60ee301a8cf85de5edd7a74d0ed3ef60e3816e1d3c1205ad5a362d1dc71fb
+SHA512: dbf66c54d1a7166eab36e595ab2a96a6b62a5f20991ad5f137306cbfbec19912ddb8f14212edb3207bd73eb73cd9468649bd53927d914c52b4a2cefad070807e
 Description: Disables passcode after a respring.
 Name: NoPassAfterRespring (Safe)
 Author: Brend0n <brendonjkding@126.com>
 Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
 SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.myxxdev.otadelay
 Architecture: iphoneos-arm
@@ -1901,16 +1949,17 @@ Depends: firmware (>= 6.0)
 Conflicts: com.doregon.overb0ard-dev, com.kramerapps.jetsamctl
 Replaces: com.kramerapps.jetsamctl
 Filename: ./debians/Tweaks/Overb0ard/com.doregon.overb0ard_1.0.3_iphoneos-arm.deb
-Size: 7316
-MD5sum: 734c5aaf03862a83e399edddb21a2544
-SHA1: 80a6271486ca330eaf45ed4251fd10428c21dbcb
-SHA256: 2c8cfd734cb7640c6edee04c99364da83fecb9d31273a314eaaa7d4ce72c303b
-SHA512: 847701b5c583b4997c89a41225fac5228566050df16129027e460c24ff1c3fa17d3f4792fdf4bf29015e4f8e036afda189f59e9a7b49bec0a482a00467d25544
+Size: 14806
+MD5sum: 112d1f8bf3d04a47141288ff377299ac
+SHA1: 10233c7ae904bd644d4e8dbe870c47d5efec7ee7
+SHA256: cd95170b078bcefdb8cc47ab44037d78baced5f3e46ed76df47377a89931ff0f
+SHA512: 3e0cd50393a8e58d91fbf12a28bfa42bce6efba5e46a092499d0f37a392f54d3cd657b61e1cf9fcb09ad5f46559ff9f6d9849fc3ddc657620f96f0eefb231f1c
 Description: Take control of your device's memory.
 Name: overb0ard
 Author: Adam Tunnic <tunnic.adam@gmail.com>
 Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
 SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: me.tale.panic
 Architecture: iphoneos-arm
@@ -1977,6 +2026,47 @@ Name: SupervisedEnabler
 Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
 dev: ichitaso
 
+Package: ai.paisseon.satella12
+Architecture: iphoneos-arm
+Version: 2.8
+Maintainer: Paisseon
+Installed-Size: 100
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Satella/Satella-(iOS12)/ai.paisseon.satella12_2.8_iphoneos-arm.deb
+Size: 31066
+MD5sum: 4cdca560f274130e9fd8f67a3770e204
+SHA1: 81afd30a52a73c352e4de8acdbdee084d3a0d411
+SHA256: 1495e382f65dd97a00ee4f008c00ed5a7835e118a43cbac75dca9c11dae89d55
+SHA512: d2d515a2ea4cdb0a2300e41b1473522feabbeffed2cb78951314e94f2ee74430f941cd449ae8e1aad64df58e3c02943ff933bfc855ba279a2417d01d49aea833
+Description: Satella with iOS 12 compatible preferences?
+Name: Satella (Legacy)
+Author: Paisseon
+Icon: https://turannul.github.io/home/resources/satella.png
+SileoDepiction: https://paisseon.github.io/info/satella.json
+Depiction: https://paisseon.github.io/info/satella.html
+
+Package: ai.paisseon.satella
+Architecture: iphoneos-arm
+Version: 2.8.1
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 332
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Replaces: ai.paisseon.satella12
+Filename: ./debians/Tweaks/Satella/Satella-1/ai.paisseon.satella_2.8.1_iphoneos-arm.deb
+Size: 65306
+MD5sum: 995458804b10cdaa19d599d9bc874817
+SHA1: 51981d2e3a43fa2005f7a94f65e54bf01fc5f569
+SHA256: a05982c1b19cf16585ed7c971cf9d4fbc5e47521f98874606bc475a7f19d44bb
+SHA512: 58c8557182d5622a587fcab1bf0b343742abcc4312fb9e79d9a19888114a4e587259008757125add491601154b12edae54242a959656237ca200cb26c2924266
+Description: IAP cracker for modern devices
+Name: Satella
+Author: Paisseon
+Icon: https://turannul.github.io/home/resources/satella.png
+SileoDepiction: https://paisseon.github.io/info/satella.json
+Depiction: https://paisseon.github.io/info/satella.html
+
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
 Version: 0.4b
@@ -1985,7 +2075,7 @@ Maintainer: Paisseon
 Installed-Size: 468
 Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
 Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella-2/emt.paisseon.satella_0.4b_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Satella/Satella-2/emt.paisseon.satella_0.4b_iphoneos-arm.deb
 Size: 58292
 MD5sum: 9c78e87c2a932a3ab518b582af6c3941
 SHA1: 8475dfc0d911f6633acc9077e6be43af9f6ea74b
@@ -1998,47 +2088,6 @@ Icon: https://paisseon.github.io/icons/satella2.png
 SileoDepiction: https://paisseon.github.io/depictions/satella2.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
-Package: ai.paisseon.satella12
-Architecture: iphoneos-arm
-Version: 2.8
-Maintainer: Paisseon
-Installed-Size: 100
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella12_2.8_iphoneos-arm.deb
-Size: 29310
-MD5sum: e223aecb6581a2bb9ce7d674843caf93
-SHA1: 798ed18329bedde4703adbf445a64edf7d40b838
-SHA256: 05bccef69201d924707cd9a43a9167e8490aed6fc75495f73262f8970a9344f8
-SHA512: 8380f08dd956f6ce608e013a279adbf99b1d3aae884958508559df033beb4fd0571ff0e52eef61fd880af4adcbd2e35075936418a213c5dca2b5228773942e57
-Description: Satella with iOS 12 compatible preferences?
-Name: Satella (Legacy)
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
-Package: ai.paisseon.satella
-Architecture: iphoneos-arm
-Version: 2.8.1
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 332
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Replaces: ai.paisseon.satella12
-Filename: ./debians/Tweaks/Satella/ai.paisseon.satella_2.8.1_iphoneos-arm.deb
-Size: 47820
-MD5sum: 7a14953846ee22df4d41193a61c14ad0
-SHA1: f2fa51cb5c3b5e6b55a1be430ebf7ffe2c0ce5f7
-SHA256: e3c4bba19a785a56ba3497579351645d73ad3544f8ae7b661d6d9a2fd8eced9c
-SHA512: 843a2b444c0db3e7101fcbb0abbc4298849999868e49176c77ad3ee7a063776c1ce0a1075c5322527ce27829ee97ae127e5af518ad342e9642b054fbad064634
-Description: IAP cracker for modern devices
-Name: Satella
-Author: Paisseon
-Icon: https://paisseon.github.io/info/satella.png
-SileoDepiction: https://paisseon.github.io/info/satella.json
-Depiction: https://paisseon.github.io/info/satella.html
-
 Package: com.pixelomer.tweakreviews-db
 Architecture: iphoneos-arm
 Version: 1.1.9
@@ -2048,52 +2097,17 @@ Installed-Size: 636
 Depends: mobilesubstrate, firmware (>=9.0)
 Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
 Filename: ./debians/Tweaks/Tweakreviews/com.pixelomer.tweakreviews-db_1.1.9_iphoneos-arm.deb
-Size: 134976
-MD5sum: 476473f70ace736ffd69b9e1de1a6bbe
-SHA1: 77aaa3eb73c14eb23edc077946c81033a6aadcd0
-SHA256: 9ede3193ecb6fa12c9c7a905f0a29348ca81d37eb3a1c212fee6829858e75123
-SHA512: 569f168211ea713e0b1233ffff3f71d9e66e957299a95547591cf5c1c28c95b53e531fe6b5d8e02787c3174118ff2c8e8966f970b92027140adacff6808bf62c
+Size: 206200
+MD5sum: 56b4396e79d604dd31ab9a6d72c3cb86
+SHA1: 1c55c80261046dabb44fc884e3af874e68b475bd
+SHA256: afdf96fdc3969ba1fac109a8d5a0ee568eeff45454d417c55df736ae0a85d8b9
+SHA512: 7f146eac69302071b3692e41a5cac55e1c0c7a685bcb1f0c8eb23ced81048262576cfe28a26481c2322d30814e4e8a6c18fe8cf7a240a898acffc68578bf9134
 Description: Tweak reviews made easy.
   Easily read and create reviews about your tweaks with TweakReviewsDB.
   Works with Sileo, Zebra, Cydia and Installer 5.
 Name: TweakReviewsDB
 Author: pixelomer
-
-Package: xyz.turannul.unityfpsindicator
-Architecture: iphoneos-arm
-Version: 0.0.3r4
-Section: Tweaks
-Maintainer: Turan <t.me/TuranUl>
-Depends: mobilesubstrate,applist,org.thebigboss.libcolorpicker
-Filename: ./debians/Tweaks/UnityFPSindicator/xyz.turannul.unityfpsindicator_0.0.3r4_iphoneos-arm.deb
-Size: 115366
-MD5sum: f6a7284fb7bb46c03e9ccce400d8205f
-SHA1: 1d8720084b040a79abbddeac12f4a34c52974483
-SHA256: 4fb9313a467ad93830dcb0e4390d0453e653f08b0c6f99a4c5a9a987e6f9a00f
-SHA512: a960b03de47244c3aee1afae694612600e431dbc9b737519f5b76c8f605726c461858828412b6582db102e92cacc9d71e0e4aa3170551dcd9dec7b898fa44c80
-Description: Oyun-içi FPS göstergesi
-Name: FPSIndicator TR
-Author: Brend0n <brendonjkding@126.com>
-
-Package: com.moose.upmem
-Architecture: iphoneos-arm
-Version: 0.1.7
-Section: System
-Maintainer: Moose <gathering011@gmail.com>
-Installed-Size: 12
-Depends: com.kramerapps.jetsamctl | com.doregon.overb0ard, gawk
-Filename: ./debians/Tweaks/UpMEM/com.moose.upmem_0.1.7_iphoneos-arm.deb
-Size: 2432
-MD5sum: 6ee6af155b00f8165f81faa936e1b116
-SHA1: 12e68f38c731a13de714cae1adbeda5f472d692b
-SHA256: 02e83f9e3bdc3cb712644d6ae108199b16b835e86151c75b9d132cfe7c2dec0d
-SHA512: 9e4008f50d407a73417b5050114bced4d838d830b8a2126f11663faef862cd0f041978eeba5a64e2216780761bd930c734dd0a885353b2ff9de7cb21130ff4b8
-Homepage: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
-Description: A Command line to raises RAM memory of applications or system process (jetsamctl method).
-Tag: role::enduser, purpose::console
-Name: Upmem
-Author: Moose <gathering011@gmail.com>
-Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
+Icon: https:/turannul.github.io/home/resources/tweak.png
 
 Package: com.udevs.vpnindicator
 Architecture: iphoneos-arm
@@ -2690,16 +2704,17 @@ Section: System
 Maintainer: Doregon <tunnic.adam@gmail.com>
 Depends: firmware (>= 6.0), dpkg (>= 1.13.25-5)
 Filename: ./debians/zzzzz/com.kramerapps.jetsamctl_0.2_iphoneos-arm.deb
-Size: 4308
-MD5sum: ef1e1a0aa7366f0f66e460303ce05ab2
-SHA1: cf532c933f6ac4b1bf8b3ac38848cc16acf5f21d
-SHA256: f7e43a5ecd349ea8a751e15db2346ac32737dc379bbe4944e6a183dc125c9877
-SHA512: 937247bd76e2ed7043a4005e0ddf15a7782575f91cd4098411a5a37de73b27042f8869581005363c74d72731062c6a3a4f153c36df3ad23352cb8f75dcd38877
+Size: 7074
+MD5sum: 79d8ad5ea1879d6cba2698cb407c6dd1
+SHA1: 096a2028df64e911eafc18aae558959dea248b95
+SHA256: a51427230d10389d23618045615c93945164e977dc39857c0b241a3e5bec4a56
+SHA512: ccf36c7544448e9423d04115f9b49c8573983abb1547d44dd77ba3c3e34ae0a9c0cbe54d022a08c5f7be3abd2ec262bda8a650c6c4ef9f32ede2346bb0f59ae2
 Description: Modify Jetsam constraints
 Name: conradev's jetsamctl
 Author: Conrad Kramer <conrad@kramerapps.com>
 Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json&name=conradev's jetsamctl&dev=Conrad%20Kramer&section=System
 SileoDepiction: https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.level3tjg.insert-dylib
 Architecture: iphoneos-arm
