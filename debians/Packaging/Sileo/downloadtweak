@@ -1,0 +1,3 @@
+cd /var/mobile/Documents/Github/repo/debians/Packaging/Sileo
+rm *.deb
+apt download org.coolstar.sileo -y --allow-unauthenticated
