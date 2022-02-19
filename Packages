@@ -461,15 +461,15 @@ Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
 Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.3_iphoneos-arm.deb
-Size: 1997556
-MD5sum: 8ec089704f0bd944d914ff044fef91a4
-SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
-SHA256: d7cec451c30724bf92aec88ff217aa83a310ee87eab3fca438fce688a6d179ee
-SHA512: cedcd583b51118fd13107eb6dfc1bcfe7c1bbf5aee9a5364e38b439d7f60a34e9c016b048e912801f6edccfb1c15f531f06cc864185860fa9c3f2d3e74ddc0ff
+Size: 2565986
+MD5sum: 29bad051cd462019fc453b5a3241a495
+SHA1: c7fb29869690b5fb6ca825372496209f6c97de2b
+SHA256: a43fe63c32a266dbf292f0db7e3cbacd3e04274902d5147b359670dbd10bf070
+SHA512: afc9d920c79f23de1c1f07a1552b155eec975802c413568cccf15e9e2f4858b71dd15990eaab10a7f8995258894dc1cebba8de25eb3c76f0da6a5c93b868f3f4
 Description: A modern APT package manager frontend
 Name: Sileo
 Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://getsileo.app/img/icon.png
+Icon: Icon: https://turannul.github.io/home/resources/sileo.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: xyz.willy.zebra
@@ -480,16 +480,16 @@ Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 14828
 Depends: dpkg, uikittools, firmware (>= 9.0)
 Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.25_iphoneos-arm.deb
-Size: 9537846
-MD5sum: 6fe80dfac4e0656ff08d5c996efae740
-SHA1: b81666dd2702815ba0b6c910e660c3d386ce7c91
-SHA256: dad7648f21cf1dbfb801aa092d8e224c54dcf1bf7e74ba1317ab400c130a5e44
-SHA512: be0691e0461cf8d93234cbae508b4fbc4b71877cd16ac87424f6ddb534b84cf015ce7b37eab2d9cabac9c6a3aa676e1ab7785de15eb15e5aa5bb4eb518dc4fc8
+Size: 9537940
+MD5sum: e815aa596034f31b91b8802716339761
+SHA1: eac579de260a7d0d34c112a39a7a05e3d337de0b
+SHA256: 2d4f08f3fb9a33c2c00d4d66c92abd8ee3fa530e4164121dac4345dbd239e4c2
+SHA512: c637c0a94582cf151ccff7b4f62cad6ef2de3ca254bde6ba63c98a7593c35eed2bd8a6cdd4352ae741b180c9cf5f2c9f844514c057c81943a2e08a3936fe941d
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
 Name: Zebra
 Author: Zebra Team <team@getzbra.com>
-Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Icon: https://turannul.github.io/home/resources/zebra.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
