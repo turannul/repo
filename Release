@@ -1,37 +1,37 @@
 Architectures: iphoneos-arm
 Codename: iphoneos-arm64
 Components: main
-Date: Fri, 18 Feb 2022 14:18:07 +0000
+Date: Sat, 19 Feb 2022 20:26:03 +0000
 Description: Your next bug is not a bug, it's a feature. - Apple Inc.
 Label: Turannul's repo 
 Origin: Turannul's repo 
 Suite: stable
 Version: 2.0
 MD5Sum:
- e970faa9d670ea64dd97043fcf5be005           136755 Packages
- a173ee89bc60b0d66f60dbf29fb3ff0d            39925 Packages.bz2
- 133c25e01763ef8b9106b32cd65ca228            46802 Packages.gz
- 10fc21cf256fece473b0cff9b9ce80ee            40580 Packages.xz
- c10f23e560fd7300277242ba0a3640aa            41724 Packages.zst
- 79d62bf7abf741c41b9b62809601567c              254 Release
+ a31444111b7af00697bc45c4de3b745a           136755 Packages
+ 147866b2dfbdeda2116cd8d58effad26            39954 Packages.bz2
+ 3151b74c441d9707053ca7ebb5a42f1d            46802 Packages.gz
+ 0df1d5806679c59acafa1111d0c97a3c            40596 Packages.xz
+ a9164e5dc7fc3b8c8e5f40c6cdf3c06b            41719 Packages.zst
+ c2d9bb2ff93fb980abb09c86010a4655              254 Release
 SHA1:
- 9ae7521b8a8f05c6676ca7fdac28710c6e4633fd           136755 Packages
- 56d1765b9ede6ad8a9d5e0d0a84a89e5650de770            39925 Packages.bz2
- 3c0dade702d491938db083e3da514381919075df            46802 Packages.gz
- ddebdee4b265f0a3517d710979b0cb20e03aa28b            40580 Packages.xz
- d010feba3bc1085336819524f5465d94404cce32            41724 Packages.zst
- f58d15524d1d2797c969a050cea134dc9abb0853              254 Release
+ 56ac7fced8082ec198f3a034aa593535e2169c27           136755 Packages
+ 1984934120e02b152a9dbafe0184a94437172309            39954 Packages.bz2
+ d93c00f699ab00c413a3fe69b4e8bf9b5abfc28d            46802 Packages.gz
+ 7963818bcf6b73e50e858a953ab4dbe1cb5a8002            40596 Packages.xz
+ 973cbddda0bc1cdb160c6c14d2c0a5e94951f5d3            41719 Packages.zst
+ b62f8a37b61ca7f9a1fcebd6a983e95d4c9b2058              254 Release
 SHA256:
- 449790a9853eaa63e79a8406175a8dffdb52fca04df0da91a9cbf6f65ed16b0c           136755 Packages
- fd913ef14c723328bc1666b5060f9f1a8bc0266ddd505eb965ae09729cc5fc63            39925 Packages.bz2
- 446ca67669054070b92be44803cd8d73e8f9d1052fc70661f84e08700e495f34            46802 Packages.gz
- 1c38705e706e7590a2ccf466051f96343339492207f2cb0d4cbfc9acd803fbd6            40580 Packages.xz
- 3347c83ccc8e0ac58eb9491653014b091c6299bf42e78c8fcdaac331059d406e            41724 Packages.zst
- 633cd2e732680e9bcdd16b8c570e85903b03bb095eb2c7c1cee3e303cb4aaf5b              254 Release
+ 502878bf346bcea298798779219c2cb7ea6d0e79ca967ed52c128d95076bbc9e           136755 Packages
+ 7e70c32c0bdd02578e5dc2e9564816d8308c2109a1ad0a86ae59dfaf4b8c92a1            39954 Packages.bz2
+ 3dcba0c5691ced6ae5198ff4831a5eeed1420860a1839d9bb69a7480a5774205            46802 Packages.gz
+ 767bdb208d7252f9702df7c76498bff947cd8f9ea9a69d39f0bf52ac43c1e131            40596 Packages.xz
+ 9e62fd4223575b75cb67b96f78ec3a8da514ef8ed8fee824faa38d727b93a10c            41719 Packages.zst
+ 6806e348998e0fd200a275c70c5e10e497dc2b3725af37f6f561d1bb7d79c337              254 Release
 SHA512:
- 57cc12b62bb12f998988485d5d7e285839203b0b127c203ddb48de18e6375a8d30e6d985cc61fd2566b8fc6735618948e8eaa7eca0b9699ace937e5097941752           136755 Packages
- 4d197f47f4262af555dcb9624f9d7e40abe354a803bd905cb934ea0feb9d47b7cde0de2ded3be242f50355a948215599432c7ec086347a4ba703ebdac38d6107            39925 Packages.bz2
- 332c797eeb8d1bf60cf6b3a603d2d9dacd416a3b4e589a0e6f7bf46590f52d63baa16bb40165b7e4d5ab78c03d6b9c391f68242a1e03beeb12af13a8b84187ee            46802 Packages.gz
- a87d1cf23d8f99a376193c9965138e906ccfbaa7ac22deacee1d59a5b36b7dea62d77dfec4fb6b6e22086f9fdbbc0d9599317609841b548a350d46988b424e98            40580 Packages.xz
- 01610ec666295c537eae2945cd418fc856bf826003769946f4a03aefa3635a61f88d066711b773ec3d287f996077ce115e99a753a66fdeaf7798e0e1442872f0            41724 Packages.zst
- 2a4d94cde5512fef0fcc4aae57680812c02230d2bed2e3384df952b1170cc58c37f875b1ed60759e98d9689febfe3ddacf2aaf30dc625252eb49a88699011933              254 Release
+ a6cf08345bd9e5f7158229310d8aaa3e428b82be719e2caf1193abca44db4d1e7c5eea5ebc5b9b5a0f067f2a74cbf993317786d3d725cc8ec048a7e9fe635544           136755 Packages
+ 7522db9739c733e03dd138d7999d8d4657d223bf113cdaf5c631c14e72c6d58e243aff18070f96606f20ab582ac02354c412d38bfd2f5373e243a69676b99276            39954 Packages.bz2
+ adfc11b57e6dec9e104627b1e72cbb3e123a49492f522c33edf26cf8e1dfc1e86cdc600ee1cb4c2feae65c11ca23d9901cfb5c94d42233c164ecf8b1327031a5            46802 Packages.gz
+ ca55397a565505b7de5f01347cad659452f0e70f7ba32bdc6c7a23b3b2360ea25338385a94e5891ac11e49afe15951b48fc74ad32c703cf8a607662385eb823c            40596 Packages.xz
+ e0ef96c4af0b29506a2a4b7f37379541c3f5b9bfe18e683bd1b83cd51e6469a8cd96ad6913fed8f919fdb2fb763d529edc1ab372865f733984cbb7a3439543fb            41719 Packages.zst
+ 666138aa62a60405b13bf6dfb6ad6a7889430b3da592c60eaa2f9ee9cef97bd295d9e3a15af0882650aa22b749d86eeaef488d64c58a4460cc41ba75164a9845              254 Release

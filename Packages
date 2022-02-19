@@ -1509,17 +1509,17 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
-Version: 1.5
+Version: 1.6
 Section: Tweaks
 Maintainer: Paisseon
 Installed-Size: 576
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.5_iphoneos-arm.deb
-Size: 107736
-MD5sum: 5e5bb4225a2abbe295bd4ac1cec0c0e5
-SHA1: 4bb6717b290af5546bab61f6332ca03954973195
-SHA256: d6d80dbd1769ebb7ee426012a74b4aca96368bdb6af682887570dea7c91ea923
-SHA512: 97e97a4200fdf40b7fb4d20945ef36418a13e0a6c13fdb22e3887bd2da74bc05f98e9ca5ad3ee2263e8420ef23e30d03c128c834953e8e9cba53e0376c3f5a97
+Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.6_iphoneos-arm.deb
+Size: 104118
+MD5sum: 62fa1fd0e796b4f081b56bf7f451c76a
+SHA1: c3946c053ce3263e30b1cc69ff2cf8638aedfa20
+SHA256: 5ca9d6d3d7d1089cbdd53d6e7c6ed4236ee7665a429b00f4e43742226a8ab1b5
+SHA512: 4c74eceacbbbac2f51f8eda83e6a54c509bb4f21ad91c04a4c819ab6177e85d483d27f34a5f4edbccab9636b97c854a2139523ee381ce5652a1d310e98ece8cc
 Description: Paid tweaks for free on Saily + Sileo
 Name: Erika
 Author: Paisseon
