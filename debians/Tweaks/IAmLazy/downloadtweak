@@ -1,0 +1,3 @@
+cd /var/mobile/Documents/Github/repo/debians/Tweaks/IAmLazy
+rm *.deb
+apt download me.lightmann.iamlazy -y --allow-unauthenticated

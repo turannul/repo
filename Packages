@@ -1674,18 +1674,18 @@ Author: Thireus <repo@thireus.com>
 
 Package: me.lightmann.iamlazy
 Architecture: iphoneos-arm
-Version: 1.4.2
+Version: 1.4.3
 Priority: optional
 Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 526
+Installed-Size: 523
 Depends: coreutils, findutils, gzip, tar, firmware (>= 13.0)
-Filename: ./debians/Tweaks/IAmLazy/me.lightmann.iamlazy_1.4.2_iphoneos-arm.deb
-Size: 116556
-MD5sum: 012955b6fd0c58ce9511484ccfa2ee8c
-SHA1: 5ac4631c87413f16ad29f0d5abbcefe71ccfa134
-SHA256: 6e757064eed906b0ac0def8020223e4d83d7c19523a7af19503c2c807b4ff2c5
-SHA512: c558488e61013b054316727079d3169ca60427e550c489ffe6f2092e573e20cb0e3f563a6ba86384d8b8b01145e50bd8f5be8e3bd7b2a07ff8955e8cb68d79bb
+Filename: ./debians/Tweaks/IAmLazy/me.lightmann.iamlazy_1.4.3_iphoneos-arm.deb
+Size: 116648
+MD5sum: 4ace92a1a7dfb9930ea738916b3129a1
+SHA1: e6cd38168f9e1ed6cdf4da0913d4d1f8dcbb20d2
+SHA256: 75eef4807f99ba6cb9d76310de5dd1bcda92fa380d6a9866be4681a1dd66b48a
+SHA512: 0513577623538ae707a736535be66a6f9c12b85b67707755f686aedb887396bc7dcaf8f8acb6e216639553c89af97a6a12ce3a2811e75150ed8751ddbc7abd39
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
 Description: Easily backup and restore your tweaks from an 'offline' backup
 Tag: purpose::uikit
@@ -1694,22 +1694,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Lightmann <lightmanns11@gmail.com>
 dev: lightmann
-Icon: https://raw.githubusercontent.com/UsrLightmann/IAmLazy/main/icon.png
+Icon: https://raw.githubusercontent.com/L1ghtmann/IAmLazy/main/icon.png
 
 Package: me.lightmann.iamspeed
 Architecture: iphoneos-arm
-Version: 1.0.5
+Version: 1.0.6
 Priority: optional
 Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 483
+Installed-Size: 480
 Depends: firmware (>= 13.0), findutils
-Filename: ./debians/Tweaks/IAmSpeed/me.lightmann.iamspeed_1.0.5_iphoneos-arm.deb
-Size: 92650
-MD5sum: ab3d9dc523a958f4e06f0d913d985380
-SHA1: e4a7647a4879688f20a4a2afa98c34db95338a5b
-SHA256: 290b522da4fc1e4f3d8d405d291c5c7135e9b9b05b6ccd58303e4e4a42f03066
-SHA512: 7b179284e66e84c7e16a4c401bb175664f888da43b0a47535f454e15ffe4a213e9aef1d9fb2081c35057496ba6dc9da7b0fb51e4c6fdc267b28e4ae22dae7691
+Filename: ./debians/Tweaks/IAmSpeed/me.lightmann.iamspeed_1.0.6_iphoneos-arm.deb
+Size: 92744
+MD5sum: f1ed14e2d1138fc7c4f044a415c43160
+SHA1: a303e55685643fe09c31ba739e572137694ce075
+SHA256: 59d125714d749e0b85a3ea08ed08bcf4d2dd27be8c84ff4248a0a45b6357ed63
+SHA512: 29fe31614e712a3182fad7c9bd6b4dec9ac195f9bb2416b6300078a998e561e0ce45c48a696c405e43d91838518ebeaf02188ec34bc3c3d3de6315723889b5bd
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
 Description: Quickly backup and restore your tweaks from an 'online' backup
 Tag: purpose::uikit
@@ -1718,7 +1718,7 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Lightmann <lightmanns11@gmail.com>
 dev: lightmann
-Icon: https://raw.githubusercontent.com/UsrLightmann/IAmSpeed/main/icon.png
+Icon: https://raw.githubusercontent.com/L1ghtmann/IAmSpeed/main/icon.png
 
 Package: jp.akusio.kernbypass-unofficial
 Architecture: iphoneos-arm
