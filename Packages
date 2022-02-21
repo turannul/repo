@@ -461,15 +461,15 @@ Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
 Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.3_iphoneos-arm.deb
-Size: 2565986
-MD5sum: 29bad051cd462019fc453b5a3241a495
-SHA1: c7fb29869690b5fb6ca825372496209f6c97de2b
-SHA256: a43fe63c32a266dbf292f0db7e3cbacd3e04274902d5147b359670dbd10bf070
-SHA512: afc9d920c79f23de1c1f07a1552b155eec975802c413568cccf15e9e2f4858b71dd15990eaab10a7f8995258894dc1cebba8de25eb3c76f0da6a5c93b868f3f4
+Size: 2565976
+MD5sum: 661e08384f4519649f7c13dc01a9f408
+SHA1: 537887a3e0e5f0f0ebc75f4b491b92d375ed4873
+SHA256: 1c3b457ac5e5a8a59e776214f107d4cac1022652efeb1f3316cf020e75aa7548
+SHA512: 5aa50156a269465b335fa38b0dec39c3f694732e4c2c5ca20056b95892e536a16745ddd70afcc28cbbd6ca4ce5ffafff3717565468f99dc203dafb8ec3d96f40
 Description: A modern APT package manager frontend
 Name: Sileo
 Author: Sileo Team <getsileoapp@gmail.com>
-Icon: Icon: https://turannul.github.io/home/resources/sileo.png
+Icon: https://turannul.github.io/home/resources/sileo.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: xyz.willy.zebra
@@ -692,65 +692,6 @@ Author: initWithFrame <initwithframe@protonmail.com>
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
 Depiction: https://chariz.com/buy/velvet
 
-Package: com.exile90.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.9.1
-Section: Utilities
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debians/PiratedTweaks/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 6756204
-MD5sum: e6faecd294873085a6992343402da86f
-SHA1: 3273eefdbcd67e5c8e141efc8b55987c464c7a51
-SHA256: 0ccdb283e7d1f1850f47879184a08651d41238fe155789a45384ffd5d8722829
-SHA512: 4fa1d830b33fbeba0f766abd1f1b419cd742cd2f221646397bf84b72ec5b649226ca65d9ab0388915ce21cbb50dffae5fafa06ffdbbbcf57352490c0e36234fb
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
-Name: iCleaner Pro
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
-Package: com.turannul.paisseon.icleanerprohack12
-Architecture: iphoneos-arm
-Version: 1.2+debug
-Section: Tweaks
-Maintainer: turannul
-Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
-Filename: ./debians/PiratedTweaks/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
-Size: 21220
-MD5sum: 8501807344446cdf0870f7bb9c0e00ea
-SHA1: bbd0a0d99f3eb2d8b36b02a095959826b1019889
-SHA256: af999beafc429e454f6f808b1a8711d8eaa34b50149975c30c63611392bf278b
-SHA512: 702294f9a70d7243879778af231492772aea82b77057157e2b5535a3b840f151b89415049939b9e7848055c19dba5a6d2bc56dd38ebefb8bc63a25bc890bb39b
-Homepage: http://ib-soft.net/icleaner
-Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack (iOS 12-13)
-Author: turannul
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
-Package: com.turannul.paisseon.icleanerprohack
-Architecture: iphoneos-arm
-Version: 1.2+debug
-Section: Tweaks
-Maintainer: turannul
-Depends: com.exile90.icleanerpro, dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debians/PiratedTweaks/iCleaner/com.turannul.paisseon.icleanerprohack_1.2+debug_iphoneos-arm.deb
-Size: 21210
-MD5sum: 6265a9f7c7cba42451df9a81443be87e
-SHA1: c96efaf1c1d6f77c47f5993e01f5e8c89fdbead6
-SHA256: ad933ccd7d62147b3c11f0af8fea0f92271c7441366b9f1dc3cc99e4e4793842
-SHA512: e20a1174816bef36bbf79f7724a42c71fe46e85e0e7e7d2ae8e5918387eb732a4b328a4b27bf5b9b21025467360dbae7b0bb161b0938030fb25f8db9b7764d04
-Homepage: http://ib-soft.net/icleaner
-Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack (iOS 14+)
-Author: turannul
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
@@ -811,16 +752,16 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Package: com.samgisaninja.successioncli
 Architecture: iphoneos-arm
 Version: 1.0~alpha2
-Section: Utilities
+Section: Scripts
 Maintainer: Samg_is_a_Ninja, demhademha
 Installed-Size: 388
 Depends: coreutils-bin, coreutils, firmware-sbin, rsync, curl, p7zip, grep, gawk
 Filename: ./debians/Scripts/SuccessionCLI/com.samgisaninja.successioncli_1.0~alpha2_iphoneos-arm.deb
-Size: 61772
-MD5sum: 7e9a5953d28c76ccd9ead7698a6246bb
-SHA1: cc984da4c020ab806552bcb2241f4de035138aa9
-SHA256: 98ecf367d5237cbbc19fb4896076e173a3771b72282eafe8fa7acab4a6e7a462
-SHA512: cab103601a2d57f70b01a4ad171a8f09b28cfa8a76dcf56294cb9eca59257f7add46d97dbdfc37ab563acd3d75992334ad1fb222c23463797ef03703b984e989
+Size: 61770
+MD5sum: 71d57c48437ceb1f61cf1b51e9588a18
+SHA1: e7a1382f605ef5d7f345568908e180c6fd7b7de0
+SHA256: a156705b1c126f119bf3feda152df36a59a155887d27251813980317f214ec6b
+SHA512: 7bf88e07d0cb636bb784f2e285abfcb4986f6fd8f0c8cfcfe5c2ca4759907e2245639af1e70e10f6c2a21d4c09f6fdbc0c9fc0710faa98092999495d934dc2dd
 Description: Restore without updating via rootfilesystem DMG
 Name: SuccessionCLI
 Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>, demhademha
@@ -829,22 +770,23 @@ Icon: https://turannul.github.io/home/resources/succession.png
 Package: com.moose.upmem
 Architecture: iphoneos-arm
 Version: 0.1.7
-Section: System
+Section: Scripts
 Maintainer: Moose <gathering011@gmail.com>
 Installed-Size: 12
 Depends: com.kramerapps.jetsamctl | com.doregon.overb0ard, gawk
 Filename: ./debians/Scripts/UpMEM/com.moose.upmem_0.1.7_iphoneos-arm.deb
-Size: 2432
-MD5sum: 6ee6af155b00f8165f81faa936e1b116
-SHA1: 12e68f38c731a13de714cae1adbeda5f472d692b
-SHA256: 02e83f9e3bdc3cb712644d6ae108199b16b835e86151c75b9d132cfe7c2dec0d
-SHA512: 9e4008f50d407a73417b5050114bced4d838d830b8a2126f11663faef862cd0f041978eeba5a64e2216780761bd930c734dd0a885353b2ff9de7cb21130ff4b8
+Size: 2462
+MD5sum: e6c8fb6d84f9058206ddc02ff8a72f79
+SHA1: e1af19745c2eb12043b40172d0ab037c99bff10d
+SHA256: d3e446e783fbbfc5b0960feba0dcb0d42d55023d21a277942279a0076e50e1da
+SHA512: 57fdf9a9668a5bebda348ac02541bc323c7d6072687de323a419e9df180e5d57f2b7f5a9febc5066c3778f93e6a417b14c812433260ac870526bcdbad2ffb66a
 Homepage: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
 Description: A Command line to raises RAM memory of applications or system process (jetsamctl method).
 Tag: role::enduser, purpose::console
 Name: Upmem
 Author: Moose <gathering011@gmail.com>
 Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
@@ -1047,17 +989,17 @@ Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh, uikittools
 Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_5.5_iphoneos-arm.deb
-Size: 4152
-MD5sum: d10b853d64dc012507cacca5230b5db7
-SHA1: 680965c5fb661fed076e85cc1877209107af30ee
-SHA256: ca0c34e2ddbf537ed1b363aaf237d31fb7afdf007d88d3975f8de93e805b21e6
-SHA512: 769015a1a9dd15ce0099861a1070a0178d0d6dbf183c4d4b95cab3772df6195a663931ba3a3fa27444e95ddf1400b986979c53cc13281fc963854903e2b373c7
+Size: 4160
+MD5sum: f65c07ea70ceef2e2d9edbdaa38b2d34
+SHA1: 02f4330b9cb43008f51273ec69a116b1262e323b
+SHA256: 7a94da71f2e695aa711d9283e4dfd8daa47ebad21433d4e0a6048697148092da
+SHA512: 957f0ca57448d0da069189cf3fbb155a7d05b8d111cfeb06ab09d0f1fd98b7a2f6f12808f6ca56350a70fb5ab43d4fbbbfca3467dd9150b5d70d116bb28b11ad
 Description: uptime ama çok daha iyisi.
 Author: turannul
 Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
 Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
+Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.spark.snowboard.statusbar
 Architecture: iphoneos-arm
@@ -1449,15 +1391,15 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 Package: ai.paisseon.cccalc
 Architecture: iphoneos-arm
 Version: 2.0.2
-Section: Tweaks
+Section: Control Center (Modules)
 Maintainer: gilesgc & paisseon
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/CCcalc/ai.paisseon.cccalc_2.0.2_iphoneos-arm.deb
-Size: 96498
-MD5sum: 946182963978c5905679ed49c73c0dec
-SHA1: 800584aeb54d57d7ae7f3afd164a4520515f6d16
-SHA256: cd1c477fa5db0bbcc845ee14448fa121492fc5f43bccff1808d03398a451209b
-SHA512: 4d15442eb7ed829d8a3df1ef2987312f0678c4f92daf9fb8aaf96d99bd519ad7972e62257adb94fac5c0df78047dc9750a9ab6b51cb98c2218ee0a62c1c1bd14
+Size: 96516
+MD5sum: f85d8796f5803489845e3d3007040f52
+SHA1: 8191d52003583dfd662722624f554934a6cb7998
+SHA256: 106a341eb619015bff2cabfc46d272a6f915cca8360fe9e7896d9da0212d99e3
+SHA512: 3ec56bc460523385847e1cd38cd4113f76a99d8955721199cf5865d1c2212b099ee645af90f2e1f57f4534a7f2cf8d1e27e9594bc40179e6fd2781595c7ccbb5
 Description: Turn the Calculator CC module into a working calculator
 Name: CCCalc
 Author: gilesgc & paisseon
@@ -1981,16 +1923,17 @@ dev: ichitaso
 Package: ai.paisseon.satella12
 Architecture: iphoneos-arm
 Version: 2.8
+Section: Tweaks
 Maintainer: Paisseon
 Installed-Size: 100
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: ai.paisseon.satella
 Filename: ./debians/Tweaks/Satella/Satella-(iOS12)/ai.paisseon.satella12_2.8_iphoneos-arm.deb
-Size: 31066
-MD5sum: 4cdca560f274130e9fd8f67a3770e204
-SHA1: 81afd30a52a73c352e4de8acdbdee084d3a0d411
-SHA256: 1495e382f65dd97a00ee4f008c00ed5a7835e118a43cbac75dca9c11dae89d55
-SHA512: d2d515a2ea4cdb0a2300e41b1473522feabbeffed2cb78951314e94f2ee74430f941cd449ae8e1aad64df58e3c02943ff933bfc855ba279a2417d01d49aea833
+Size: 31078
+MD5sum: 594e659657e7605f441c68581d2acc32
+SHA1: ca199c5c47c5227ddd968e9f09a71659a146887b
+SHA256: bba6c5ff5d60c391a1171fd70a07d3b51e7b457902def4b0c353035f488e23ec
+SHA512: f25f94661284a4a4d2297ef6648520cdcd699370e4878c5dd78f567346fe32313b34e00aef3a9b7eeb5cf1858327979b99dd43c488ef985a11dfcfc862f54faa
 Description: Satella with iOS 12 compatible preferences?
 Name: Satella (Legacy)
 Author: Paisseon
@@ -2083,21 +2026,22 @@ Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicat
 Package: ai.paisseon.vivy
 Architecture: iphoneos-arm
 Version: 1.3
+Section: Tweaks
 Maintainer: Paisseon
 Installed-Size: 452
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.muirey03.libimagepicker, org.thebigboss.libcolorpicker, emt.paisseon.lipfix
 Filename: ./debians/Tweaks/Vivy/ai.paisseon.vivy_1.3_iphoneos-arm.deb
-Size: 64016
-MD5sum: c6e1c36f4952c00b9294459066184e24
-SHA1: f58684e6537c291ba8541891a98e5eb6b1d3bfd1
-SHA256: bf9e236484a6b12aa73d4522d95f9300f7f968e7b1004804eac536eaf02c1244
-SHA512: 9ed65ff3a550316e2df5208cc193cc0d09d955de4828ab9b890ab72c6c72069c0d27f9fbb049e8d10c29adf105669424a61e8490cc04bff9efd9df08a81b346e
+Size: 86410
+MD5sum: df6bf35d1d8982b98640e531e8f665ae
+SHA1: 2f07d8a04483534460f489f61767e67a415282b4
+SHA256: 77e0a784d5b5ba7a72b77c8d64051bc0df31705b7aa1c942d24a2be42e95908d
+SHA512: 5a8bba16abc1fc1ea6fb0ac49106606c09d190093784205172fabbd380f44793b4a51a5450b9de9ff4c50d0426612781cdc64a15f75a03558d7f54f0a78b1703
 Description: Free battery theming engine
 Name: Vivy
 Author: Paisseon
-Icon: https://paisseon.github.io/info/vivy.png
 SileoDepiction: https://paisseon.github.io/info/vivy.json
 Depiction: https://paisseon.github.io/info/vivy.html
+Icon: https://turannul.github.io/home/resources/vivy.png
 
 Package: wallpaperloader
 Architecture: iphoneos-arm
@@ -2326,17 +2270,17 @@ Icon: https://turannul.github.io/home/resources/appcake.png
 Package: ru.domo.cocoatop64
 Architecture: iphoneos-arm
 Version: 2.2.3
-Section: Utilities
+Section: Uygulama
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 915
 Depends: firmware (>= 10.0)
 Conflicts: ru.domo.cocoatop
 Filename: ./debians/Uygulamalar/CocoaTop-x64/ru.domo.cocoatop64_2.2.3_iphoneos-arm.deb
-Size: 313878
-MD5sum: d9e04137c19f75d72c1419b1e7742091
-SHA1: 19e35743f128916e2b198f37e13e3f6b1da39ce1
-SHA256: 14417996d12d3218946c3225075a8f37612e8055a297c0cab7330d00beba6761
-SHA512: 400fad55cdeb25822c2669333fb9c0424389ba597ce8abbccf35a77444240e46ee406ae9dfeae8d8f19d4dd0f0585090842cf0f94eb921c0237575e3613450f5
+Size: 313884
+MD5sum: 5e08ece6eb242b9cf1b1503c0a237edf
+SHA1: 174e082d752400b7da0bdb2c0d4b344b9645eefd
+SHA256: 6cf4b228c8e853ed502b91f2c79e990a15d6a437015653180d07b0f72e2b5a86
+SHA512: 78247bb4e0f14080db9393547c352d182d95bc8f7a5b1ac5f878928991170d9260d9190904d12ae9a123d5dce89ac72694985a546d8fe86b94908374256744a6
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
 Description: Process Viewer for iOS 10-13
 Tag: purpose::uikit
@@ -2570,6 +2514,65 @@ Name: ZiniTevi
 Author: ZiniTevi
 Icon: https://turannul.github.io/home/resources/zinitevi.png
 
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm
+Version: 7.9.1
+Section: Uygulama
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debians/Uygulamalar/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 6756212
+MD5sum: bb668140e12fef77ca8d7985303a1410
+SHA1: c5c3b2bf35c5b1af281810e25e1991009132acb5
+SHA256: d83c99cd66ce686ee2aeb91ffbbffce3cc8479fb2a37619c8727feeb8e52f98d
+SHA512: 1593508a57f47a9f4ff98704766432b8abb546f7535a18ea48dbff301096075ec6cf5653f98878aa6e1f082f655e8ef04380cfc9eda80b8863f133578ff86612
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
+
+Package: com.turannul.paisseon.icleanerprohack12
+Architecture: iphoneos-arm
+Version: 1.2+debug
+Section: Tweaks
+Maintainer: turannul
+Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
+Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
+Size: 21220
+MD5sum: 8501807344446cdf0870f7bb9c0e00ea
+SHA1: bbd0a0d99f3eb2d8b36b02a095959826b1019889
+SHA256: af999beafc429e454f6f808b1a8711d8eaa34b50149975c30c63611392bf278b
+SHA512: 702294f9a70d7243879778af231492772aea82b77057157e2b5535a3b840f151b89415049939b9e7848055c19dba5a6d2bc56dd38ebefb8bc63a25bc890bb39b
+Homepage: http://ib-soft.net/icleaner
+Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
+Name: iCleaner Pro Hack (iOS 12-13)
+Author: turannul
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
+
+Package: com.turannul.paisseon.icleanerprohack
+Architecture: iphoneos-arm
+Version: 1.2+debug
+Section: Tweaks
+Maintainer: turannul
+Depends: com.exile90.icleanerpro, dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack_1.2+debug_iphoneos-arm.deb
+Size: 21210
+MD5sum: 6265a9f7c7cba42451df9a81443be87e
+SHA1: c96efaf1c1d6f77c47f5993e01f5e8c89fdbead6
+SHA256: ad933ccd7d62147b3c11f0af8fea0f92271c7441366b9f1dc3cc99e4e4793842
+SHA512: e20a1174816bef36bbf79f7724a42c71fe46e85e0e7e7d2ae8e5918387eb732a4b328a4b27bf5b9b21025467360dbae7b0bb161b0938030fb25f8db9b7764d04
+Homepage: http://ib-soft.net/icleaner
+Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
+Name: iCleaner Pro Hack (iOS 14+)
+Author: turannul
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://turannul.github.io/home/resources/icleaner.png
+
 Package: xyz.canpng.istb
 Architecture: iphoneos-arm
 Version: 1.23.0
@@ -2577,11 +2580,11 @@ Section: Uygulama
 Maintainer: turannul
 Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
 Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.0_iphoneos-arm.deb
-Size: 24547162
-MD5sum: dc040ddece91d3fb96fd35485716c7ea
-SHA1: 701494848af0b7ef27f81e5546ee47606d8a7ff0
-SHA256: cc2eea28a2b942ce7c6c2d037b4e158dda8f10e3946d58ac4d5847dc3ecd8d22
-SHA512: 5dd6a309c7040d6affa8dd02feabd1d58e15a612f6a019aa59fb6aded24e5135cdf8de364b8547c7d53345cad19c89e09aae715120f6c0333ebe4f74ce4b3896
+Size: 24547168
+MD5sum: 6f5ff4a48b519ee8994d9a81f192db12
+SHA1: 8651059ace8013181affd80ecdd185a9dfd02991
+SHA256: d3f24ee4abfdcbed846b86faae08a1082f4e303d5ba72709439d6b0ceb508d94
+SHA512: 9ad737aa2043b18b5b9f0001ef3ca7315e7d1c34b996a4e2c88b6b771ccf833bfbc6b704fc02467de7be9092788c3ac0bc0b3afcc443fd51c421ac6a348d0346
 Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
 Description: iPhone / iPad için iPTV
 Name: iSTB
@@ -2591,19 +2594,19 @@ Icon: https://turannul.github.io/home/resources/istb.png
 Package: com.geosn0w.iSecureOS
 Architecture: iphoneos-arm
 Version: 1.24
-Section: Utilities
+Section: Uygulama
 Maintainer: GeoSn0w (@FCE365)
 Depends: firmware (>= 11.0)
-Filename: ./debians/Uygulamalar/iSecureOS/com.geosn0w.iSecureOS.deb
-Size: 1578832
-MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
-SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
-SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
-SHA512: b9f4257c220012124a11ed939e61d2051e8e776d8aece2d3bbde7dbb7851f6d4bc86f56aa146324527f1c330e52409da792f374986be777c8ab22be4c578c342
+Filename: ./debians/Uygulamalar/iSecureOS/com.geosn0w.iSecureOS_1.24_iphoneos-arm.deb
+Size: 5142348
+MD5sum: 33a643e0780951c7df1ea53aad1d2ec5
+SHA1: d2aee81c1d02d271f1343d74705fb5d3ad6aefc0
+SHA256: 506b0cd005eccbde253bdbe9cb973b886e063ed3192f4c249b4700cecd60c8bc
+SHA512: 1806be1740ec1aacc523dc02272e567e6a8623647274c5abf96bdb0eb14e5e0f84564545c1218d21e6c6c59e2360c9342d54b3fa12752529bcd1ec8e6aadd682
 Description: An iOS Security Application for Jailbroken units.
 Name: iSecureOS
 Author: GeoSn0w (@FCE365)
-Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
+Icon: https://turannul.github.io/home/resources/isecure.png
 Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
 SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
 
