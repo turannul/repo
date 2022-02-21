@@ -1,3 +1,0 @@
-cd /var/mobile/Documents/Github/repo/debians/Tweaks/IAmSpeed
-rm *.deb
-apt download me.lightmann.iamspeed -y --allow-unauthenticated

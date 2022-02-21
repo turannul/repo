@@ -1337,41 +1337,17 @@ Maintainer: Riley Testut <support@altstore.io>
 Installed-Size: 2560
 Depends: firmware (>= 12.2)
 Filename: ./debians/Tweaks/AltDeamon/com.rileytestut.altdaemon_1.0.1_iphoneos-arm.deb
-Size: 597754
-MD5sum: 86b026f3f838e0ca193b086898e7152a
-SHA1: ec653b6067c8dd8daa2d1fad29ebcbb0c054bbbd
-SHA256: e30852d1e922dbf83222dd1a35d726491f19ff0f25a4415846638a4f99eac695
-SHA512: 6cd71f88bb23d7affe94532904e8e8b8fe442df012c28c619fe268c5fbbfef1151e006cbd6ad5a2752db9781277f19aa108ff240a62f5aa01380732b334d0c93
+Size: 834024
+MD5sum: 166f796ae4fc518d6aa933eb26af8fd5
+SHA1: 9305eced6fc9299c4265aaef1271ecff52645f41
+SHA256: 4f6b3ae69a12d237296ef95e45d041542e2f9335b08f3c12e680fdae11a78be2
+SHA512: 3b4552944be920c9ed690e894f5fc3d58f9db7de9dbdbb0065d6575917de9c5bca0cce59c2e62ccbc684bfc2c8bc1b31ba3710b62bd237e872be45413c06c458
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
 Tag: compatible_min::ios12.2
 Name: AltDaemon
 Author: Riley Testut <support@altstore.io>
-Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
+Icon: https://turannul.github.io/home/resources/altstore.png
 Depiction: https://chariz.com/get/altdaemon
-
-Package: com.mtac.aperture
-Architecture: iphoneos-arm
-Version: 1.3
-Section: Tweaks
-Maintainer: MTAC <mtac@mtac.app>
-Depends: firmware (>=13.0), firmware (>= 13.0)
-Filename: ./debians/Tweaks/Aperture/com.mtac.aperture_1.3_iphoneos-arm.deb
-Size: 33964
-MD5sum: a57f31609e92ebdee7aca0dd79f2fdfe
-SHA1: 57e4752d9754f5e7ac46fbe290676ae79381b9de
-SHA256: 98f5b6f7ab8d49b47421579b34b16eeefa103f3e66513161f3e1a496cc359985
-SHA512: 11363028b29c75c07dec8d3ae53d940decec89038f0e058a48208594911d0a84f3c2044b512ffe83c4b3b0e904e3365558307dd0d3531de168caad3e8742d27f
-Homepage: https://github.com/MTACS/Telescope
-Description: iOS 15 Photo information for iOS 14
-Tag: role::enduser
-Name: Aperture
-Depiction: https://mtac.app/repo/depiction/web/com.mtac.aperture.html
-SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.aperture.json
-ModernDepiction: https://mtac.app/repo/depiction/native/com.mtac.aperture.json
-Icon: https://mtac.app/repo/assets/com.mtac.aperture/icon.png
-Tags: compatible_min::ios13.0, compatible_max::ios14.6
-Author: MTAC <mtac@mtac.app>
-SomeOtherEntryToControl: True
 
 Package: xyz.trappledestek.appstoreplusplus-iOS12
 Architecture: iphoneos-arm
@@ -1477,17 +1453,17 @@ Section: Tweaks
 Maintainer: gilesgc & paisseon
 Depends: mobilesubstrate
 Filename: ./debians/Tweaks/CCcalc/ai.paisseon.cccalc_2.0.2_iphoneos-arm.deb
-Size: 74620
-MD5sum: 9e301ffe153933a14ced2cc6ceb8be65
-SHA1: 62adea3fa56a2710d7ba26e4ee2453133158386d
-SHA256: 8530aad50b57ec01c14de19d30017a7456ac72fc6f43f4a60bf5b1591bba2ab3
-SHA512: faf018fe9375e4f1ec4c2798bc1228b7955c2cda5cbf087fb9845ac7a7f888d49b2d5d2b2d55e979388b99cb65f78fa0f462fc69bc80afd4ed47421dc09046b5
+Size: 96498
+MD5sum: 946182963978c5905679ed49c73c0dec
+SHA1: 800584aeb54d57d7ae7f3afd164a4520515f6d16
+SHA256: cd1c477fa5db0bbcc845ee14448fa121492fc5f43bccff1808d03398a451209b
+SHA512: 4d15442eb7ed829d8a3df1ef2987312f0678c4f92daf9fb8aaf96d99bd519ad7972e62257adb94fac5c0df78047dc9750a9ab6b51cb98c2218ee0a62c1c1bd14
 Description: Turn the Calculator CC module into a working calculator
 Name: CCCalc
 Author: gilesgc & paisseon
 SileoDepiction: https://paisseon.github.io/info/cccalc.json
 Depiction: https://paisseon.github.io/info/cccalc.html
-Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
+Icon: https://turannul.github.io/home/resources/cccalc.png
 
 Package: com.wilsonthewolf.eliza
 Architecture: iphoneos-arm
@@ -1671,54 +1647,6 @@ Description: Restore your original /etc/hosts file
  UPDATED: v1.4.1 (28/03/2019) - Added more bad tweaks to the list of conflicts.
 Name: Hosts Cleaner
 Author: Thireus <repo@thireus.com>
-
-Package: me.lightmann.iamlazy
-Architecture: iphoneos-arm
-Version: 1.4.3
-Priority: optional
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 523
-Depends: coreutils, findutils, gzip, tar, firmware (>= 13.0)
-Filename: ./debians/Tweaks/IAmLazy/me.lightmann.iamlazy_1.4.3_iphoneos-arm.deb
-Size: 116648
-MD5sum: 4ace92a1a7dfb9930ea738916b3129a1
-SHA1: e6cd38168f9e1ed6cdf4da0913d4d1f8dcbb20d2
-SHA256: 75eef4807f99ba6cb9d76310de5dd1bcda92fa380d6a9866be4681a1dd66b48a
-SHA512: 0513577623538ae707a736535be66a6f9c12b85b67707755f686aedb887396bc7dcaf8f8acb6e216639553c89af97a6a12ce3a2811e75150ed8751ddbc7abd39
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
-Description: Easily backup and restore your tweaks from an 'offline' backup
-Tag: purpose::uikit
-Name: IAmLazy
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Lightmann <lightmanns11@gmail.com>
-dev: lightmann
-Icon: https://raw.githubusercontent.com/L1ghtmann/IAmLazy/main/icon.png
-
-Package: me.lightmann.iamspeed
-Architecture: iphoneos-arm
-Version: 1.0.6
-Priority: optional
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 480
-Depends: firmware (>= 13.0), findutils
-Filename: ./debians/Tweaks/IAmSpeed/me.lightmann.iamspeed_1.0.6_iphoneos-arm.deb
-Size: 92744
-MD5sum: f1ed14e2d1138fc7c4f044a415c43160
-SHA1: a303e55685643fe09c31ba739e572137694ce075
-SHA256: 59d125714d749e0b85a3ea08ed08bcf4d2dd27be8c84ff4248a0a45b6357ed63
-SHA512: 29fe31614e712a3182fad7c9bd6b4dec9ac195f9bb2416b6300078a998e561e0ce45c48a696c405e43d91838518ebeaf02188ec34bc3c3d3de6315723889b5bd
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
-Description: Quickly backup and restore your tweaks from an 'online' backup
-Tag: purpose::uikit
-Name: IAmSpeed
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamspeedDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Lightmann <lightmanns11@gmail.com>
-dev: lightmann
-Icon: https://raw.githubusercontent.com/L1ghtmann/IAmSpeed/main/icon.png
 
 Package: jp.akusio.kernbypass-unofficial
 Architecture: iphoneos-arm

@@ -1,2 +1,0 @@
-cd /var/mobile/Documents/Github/repo/debians/Tweaks/Aperture
-apt download com.mtac.aperture -y --allow-unauthenticated
