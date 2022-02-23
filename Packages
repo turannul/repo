@@ -496,16 +496,16 @@ Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 Package: xyz.turannul.appaze2
 Architecture: iphoneos-arm
 Version: 1.4
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Installed-Size: 1791
 Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
 Filename: ./debians/PiratedTweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
-Size: 945648
-MD5sum: 22a34549e2e60a0367014bd6c527aa88
-SHA1: ad56fcda94d45567990f0a3b3e66f8f0063eca53
-SHA256: 2481fd6ea05ca377ec2584e4abd6fe2fe32aa45b1c8194d478aadabc3d4c6d94
-SHA512: 0c120588d9574ed60ff0888dd760fab088d02640dbd97eb14e21ab56bafdb9f39916c7d1c02fd6566c56faff49546786aeb2e9afe355fe8a7859885444d25f9d
+Size: 945688
+MD5sum: dc6ab12b8130ab9c4101f8eb66a3f32f
+SHA1: 24a984d365febe9e44d5cd5ab646b7ae164eb8e3
+SHA256: b48659316830dc538294ba7c1982b15ea8ed3c8593e7bf6df26ab170e9ecb19e
+SHA512: 1a77cd83e35b3ae1e18649187c8024c9911bbb821770ab5cf65a9bf2eb85e6a6f34acc766365754741808098b58fa79dda9e84c4cdecff5acb82d06db856d7d9
 Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
 Name: Appaze 2
 Author: AnthoPak <anthopakdev@gmail.com>
@@ -513,19 +513,38 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/appaze2.png
 
+Package: xyz.turannul.backupaz4
+Architecture: iphoneos-arm
+Version: 2.0
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: firmware (>= 12.0), coreutils-bin, dpkg, shell-cmds
+Filename: ./debians/PiratedTweaks/BackupAZ-IV/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
+Size: 13294560
+MD5sum: 37cd47a57b1e15bff87cd9e2e34e80bb
+SHA1: ff71bea93c7f2546cd39cb2b626993188061264b
+SHA256: 3a82c6f80b0b5c4f9cd2bd8f5133075315bad967e2e22a56dbfc34b2b19cdb82
+SHA512: 3c93dc77d45eaf2ff4c302523ef33a651431ea20bdf2ebf19dc7c6f2520289dc48764d2c45632f484c7a9d30febc23e9445f48cf94222fbcb929fa3806c0b89e
+Description: A complete and modern backup tool
+Name: BackupAZ 4 (iOS 12 - 14)
+Author: SynnyG
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/backupaz4.png
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm
 Version: 0.0.5
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: Miguelaka95 <miguelaka95@gmail.com>
 Installed-Size: 1828
 Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
 Filename: ./debians/PiratedTweaks/BetterCC/com.miguelaka95.bettercc_0.0.5_iphoneos-arm.deb
-Size: 319336
-MD5sum: 699b599d1687f1d8c41a0e86b67674f9
-SHA1: 4342b1e9b38da615ea5259a28cbf02650cffb6b6
-SHA256: 96c3a407bb42ce69abb82514057bf0ecce8c45d74fa41e930d48ebd3721b736a
-SHA512: 3270045fb526982cf9bc3fb234868a0f996218269c69ff7d6abe4a780d1c30eb4410307355aeadf45ed9714e9a1cda8967c705ec57e8ffecbb9cc3e6abbc3597
+Size: 319366
+MD5sum: d4d99209cd1d25dc246de7c52231b219
+SHA1: ceb5ac9e1f71862980ce10f9d1fd78eba6f5d651
+SHA256: b78c68d5ecbcf8794a07b14c875223dedc6821bb5859735548720f5b11c9fa75
+SHA512: d530e70ca9205e4b3b34db1142b4f14f11e80b20f661a8218076db827a11ca507706588e29e9113b594975fb9b1a01a736e9aebfe75b5f0aaefde6c2b97f1768
 Description: Customize your Control Center!
  Invisible Modules.
  Rearrange Connectivity Toggles.
@@ -538,18 +557,18 @@ Icon: https://turannul.github.io/home/resources/bettercc.png
 Package: com.golddavid.colorbadges-new
 Architecture: iphoneos-arm
 Version: 1.5.0
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: David Goldman <help@golddavid.com>
 Installed-Size: 560
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
 Filename: ./debians/PiratedTweaks/ColorBadges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
-Size: 83332
-MD5sum: 8845ebb6581a3fd1db30f668889c1dc9
-SHA1: 1ed20cf2107d24878790aa169e9b69b8016f37e2
-SHA256: 32e5bdef31e8232eab63b6f02a8197b23a63945279581363ac9b9ce82285e074
-SHA512: acdb4a601a3566f296eb97d1286acaf6bfb6e5e2b42217129f118b37d3f3fd25b44ad3304d0c56afb08ec8544992921e01249e133cb4f8f042a03bc9ed53eef0
+Size: 83366
+MD5sum: 47a2d397042c777fd0b71d961e8ccf37
+SHA1: d3a8bccd45a6468bd02eafda2008bcabef157846
+SHA256: 643101d9b0a4210c6799603dffa0e334e93ba0ae86f741513a0411e6dcf7e610
+SHA512: ddc54361524df8e509675721b61622911dd1288e4a630797a7e8add640e5444e565f411fab8862cea8707cbdb7ae98e71b6816feb012ab97e7c18c79a6882670
 Description: Colorize your badges
 Name: ColorBadges (Packix)
 Author: David Goldman <help@golddavid.com>
@@ -579,15 +598,15 @@ Icon: https://turannul.github.io/home/resources/diskprobe.png
 Package: xyz.turannul.pencilbanner
 Architecture: iphoneos-arm
 Version: 1.2
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
 Filename: ./debians/PiratedTweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
-Size: 395220
-MD5sum: 1a67052e9e480758c9c788d07c606e35
-SHA1: 661b8fd15cea58be1216ba8a0f2b8dce3d22d102
-SHA256: 6285872289e39b69ed32466f4b2ab2b0b91e5756ce3b9e8ca11fc524565d28dd
-SHA512: 28de4d62979384b2fb4b6651b670110aa9064faaf5379112216149c661ec6e242327db3f3160f2e05ca18955909d363806cbe1e299f5f9e888cb3d99025b7a31
+Size: 395250
+MD5sum: 8c56bd8f87361cae47443669f77ffa21
+SHA1: 1cbeea663aaec3647137c29c7fef732814637b66
+SHA256: 27b621ce3a8a41bb82e2789eb73f6ce14f57c15d51f45e475edc2d530235ec22
+SHA512: c0b3ffbb2a37732e4d7353dc81e38f0d2ff0391bc81245f28c96b0ad90f44614c1d69bc9f6bdda69653ceb326abda33ed187936db47ed1261c48f26e0cc9b314
 Description: Apple Pencil tarzı bildirimler!
 Name: PencilBanner
 Author: Ethan Whited
@@ -616,17 +635,17 @@ Depiction: https://chariz.com/buy/relocate-me
 Package: com.jontelang.snapper2.packix
 Architecture: iphoneos-arm
 Version: 2.5.12
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: Jonathan Winger-lang
 Installed-Size: 1840
 Depends: mobilesubstrate, firmware(>=12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
 Filename: ./debians/PiratedTweaks/Snapper2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
-Size: 530972
-MD5sum: 9b01db3aa887df3755604b3f81b4784a
-SHA1: d31f4ef2a4f3e13cf016126f4cc28f5dbad78c8c
-SHA256: a65595764becb0aaa7aa652188e88cdfd9f64af63f238f133317276f18afc00c
-SHA512: f5155a6e6537d714143b43db41f1bfa933733985e3bcf6ff4828f4d80d02557b6d7afe95fa9286deb8f522a119dd7001473ff5f60c2a39c35b0554b2ba2342be
+Size: 531004
+MD5sum: 7d9c839cf0db21705baffccf23884d7d
+SHA1: caa398813d35f3f2fafe20a1505d6c4fbee949b5
+SHA256: 78e75d8121f1b18551569edae5e5efb209c05b567377bd5e52ab06c39c4c0eb2
+SHA512: 188b81cbe12eef3113898348d868da73c67bfb2d8dedbdb378f4fc5c1a9fa224ba1970807d8a88039ccc3664046375de18f3ba47c32274befaed9301a2d19f11
 Description: Pin screenshots on the screen.
 Name: Snapper 2
 Author: Jonathan Winger-lang
@@ -635,38 +654,38 @@ Icon: https://turannul.github.io/home/resources/snapper2.png
 Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
 Version: 2.0.3
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Installed-Size: 2223
 Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
 Conflicts: net.tetherme.tetherme
 Replaces: net.tetherme.tetherme
 Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
-Size: 567618
-MD5sum: 307f4c1df092214e6b8d312c55222329
-SHA1: 29975b53f0b311426915ae881ad4f11a8fd5da93
-SHA256: e2adc7ed9775517044b4f1c3fbfcefc9e531f6eb9cee2c56a9e5885a826b3cb7
-SHA512: 5f114bc4a38ab68edcf5c1d7fe7af50809d5abf56adfc1e4263c71edc9b0be86e5765ab4241e9a9e747a8d33fbf397eab7d1d34056ab83ab9d19183a447597bd
+Size: 567634
+MD5sum: 89f0a0853d93af8d24b3569e61b17aeb
+SHA1: 31f27716c406be295515720af3202a7bdd50280b
+SHA256: 4e9d9f70b60f49445731741dec1f7335caaab637d3692579f3a657351fa53bec
+SHA512: 2a4ce88debeb2f9ab894d57e83a92dba6ff10018735c1a9ad441a24a544d9510ac3ea1a46ad714246eeb38215ba583853d09bc401d1c8a955106f01344eff2ed
 Description: Daha gelismis modem ayarlari
 Name: TetherMe Turkce
 Author: t.me/canpng
 Depiction:
 Icon: https:/turannul.github.io/home/resources/tetherme.png
 
-Package: xyz.turannul.tetherme8
+Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
 Version: 2.1.1-1
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Pre-Depends: mobilesubstrate (>= 0.9.5101)
 Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
-Filename: ./debians/PiratedTweaks/Tetherme/xyz.turannul.tetherme8_2.1.1-1_iphoneos-arm.deb
-Size: 6221164
-MD5sum: 1a324687d45b89e7264bd18b33bf87b5
-SHA1: 020cc3d43d38abe594bf3891198593a6b5f2c51f
-SHA256: 7cf2954c07dba376ad0cbd911d5825c6638de67aac27ef0cc81a984b857d5d52
-SHA512: 4f0d10e73b869a62131dca83c60071ebfa50b088d12eff734398c3e82e1632ae283cd6a66af4ccb0254255eb7291633222b97b6c4485c0cf9f573f7f7a78d0aa
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.1.1-1_iphoneos-arm.deb
+Size: 6221174
+MD5sum: c0795538b8798bc98eb16237e420f711
+SHA1: 50d15df90b7dcb80396b3bace962c271b6b83b92
+SHA256: 0d6954994c550796fe6623cd755a6bff7c811ad927431b11c7abf7b9a2d126ef
+SHA512: 4adb9c5e235f31916bcb861c8c5a92d1724958d40fcc1012d3ef1ad9c61195c991d88c4effdb403fce13228fdf5c4cb005e7f6b2fe3d5568d43da1284db53dd1
 Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
 Name: TetherMe for iOS8+
 Author: Sam Bingner
@@ -676,16 +695,16 @@ Icon: https:/turannul.github.io/home/resources/tetherme.png
 Package: com.initwithframe.velvet
 Architecture: iphoneos-arm
 Version: 1.5.1
-Section: Tweaks
+Section: 🏴‍☠️ Tweak
 Maintainer: initWithFrame <initwithframe@protonmail.com>
 Installed-Size: 764
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
 Filename: ./debians/PiratedTweaks/Velvet/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
-Size: 251108
-MD5sum: 59ca17c9ae3a225597c2cd8861c7be5a
-SHA1: 8b08baaf142284dc8e5b3def72c139f201d969ac
-SHA256: f31e484d33c9eeaf2b29bebcb3b636fbb50843211642306381552dac4750c2d7
-SHA512: 4432b3630827810b89f0996ec330ab0142156cd979079bdabf642ef5f601930c0e79bd59c3d8da3fe67eee21bc7e76c5740056fa9d49f0d909c2dda7147b096f
+Size: 251144
+MD5sum: f1bda23584c577565c80944608ad6c30
+SHA1: 1337e9ca93146482da04744398735023961d168a
+SHA256: 4ee265fe7e2018e4cddbe89f87bc335e40295b87720edc3ba84cbc661bd81906
+SHA512: 289eb00a9959a4ae5e5d0c7310dd755a56e25baa51fd04cf4666c6a5ce58405fbea07ec80272db99a961c08deac188b8fd8df97ebb9b271eec7f45ba12c8af26
 Description: A new way to customize your notifications!
 Name: Velvet
 Author: initWithFrame <initwithframe@protonmail.com>
