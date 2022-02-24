@@ -1268,25 +1268,24 @@ Author: Spark & Dennis D. Bednarz <info@sparkdev.me>
 Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
 Depiction: https://chariz.com/get/snowboard
 
-Package: xyz.trappledestek.adblockplus+
+Package: xyz.turannul.adblockplusplus
 Architecture: iphoneos-arm
 Version: 1.4.6
 Priority: optional
 Section: Tweaks
-Maintainer: Deliturk
-Installed-Size: 131
+Maintainer: turannul
 Conflicts: com.trappledestek.adblockplus
-Filename: ./debians/Tweaks/Adblock++/xyz.trappledestek.adblockplus+_1.4.6_iphoneos-arm.deb
-Size: 8758
-MD5sum: fd1b045ec896ba64ab02b2ae36fb8494
-SHA1: 56e06b066245e3f65f60d75e5d9f77b9757c30dc
-SHA256: 97e7074672f3f26057c1bc1f4ee0754aad551919169959879821d3409e20ec20
-SHA512: 0d0a96d061c597765a308bb8a8a9cf2e5c1a3f87a05d9602685c993d48d7520fe0f0bfde693618ce48d73fe91817f70762a6cf138028ecb5fd1f4494c8dd89a0
-Description: Uygulamadaki reklamları engelle
+Filename: ./debians/Tweaks/Adblock++/xyz.turannul.adblockplusplus_1.4.6_iphoneos-arm.deb
+Size: 8786
+MD5sum: 6233591b2bde21e817b8a8b4ba2ea61b
+SHA1: c0876fc5d523f69e56c1a18a72c1954c27924163
+SHA256: 593e17a4997e7873da506ad341a6f2d335ae588e4f096b2e93e692595e908e4b
+SHA512: 801e27546cecfcf29031b3b7b0b56b704937e21fd5f2007f11012b5fb0863d73d1e576104c99e6b94fdf04ac50cb09e138d531b64176dbf68065fd3b123a223f
+Description: Tweaked (++) Sosyal medya uygulamalarında reklam engelleme. (Youtube,Whatsapp,Instagram) compatible::iOS14, compatible::iOS13, compatible::iOS12 compatible::iOS11, compatible::iOS10
 Name: AdBlock++ (Eski Sürüm)
 Author: Adblock
-Depiction: https://repo.trappledestek.com/depictions/adblockplus/index.html
-SileoDepiction: https://repo.trappledestek.com/depictions/adblockplus/index.php
+Depiction: N/A
+SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.level3tjg.airpodsglyph
@@ -1345,25 +1344,45 @@ Name: Apps Hacks
 Author: Enkidu
 Icon: https://turannul.github.io/home/resources/appshacks.png
 
-Package: xyz.trappledestek.appstoreplusplus-iOS12
+Package: xyz.turannul.appstoreplusplus-iOS12
 Architecture: iphoneos-arm
 Version: 0.9.11
 Section: Tweaks
-Maintainer: Turan
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Maintainer: turannul
+Depends: firmware (>= 11.0), firmware (<= 13.0), com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debians/Tweaks/Appstore++/xyz.trappledestek.appstoreplusplus-iOS12_0.9.11_iphoneos-arm.deb
-Size: 612840
-MD5sum: ef833630595e30120d98ff475e456561
-SHA1: 616e40e5401998e9a4867b2502def3c2a78aa3f5
-SHA256: 3fbc30f756fd06179133f5fa6eb940bad5009427d990feeae417ffe56c7bedfc
-SHA512: 2b22f41c2893229deecf76c9c696b635c197e6259669badb11393ad40c299319ec8b375037ca73a7bde21742ff251fbba1fd0f08ecd8bf42a7f8ded874f181ea
-Description: İOS'taki AppStore'da uygulamaları düşürmenize / yükseltmenize izin verir (Reklamsız Sürüm)
+Filename: ./debians/Tweaks/Appstore++/xyz.turannul.appstoreplusplus-iOS12_0.9.11_iphoneos-arm.deb
+Size: 612740
+MD5sum: e3099486e5a82fc2b7b80e5c43bd5e27
+SHA1: 9fe55ab50ec572de7d4536c5d76a33059ed84d74
+SHA256: 1eef5251784a094c3607e054d4535f606698c0229d6cc5f66395d2f051c780bc
+SHA512: 78c8f767d03dd33d1f36b7e2418ded7a25f9134c3ccd382d754b626b38f8caad92dfc825b5e415750ee1124ef0cc6ec82961fb8f058bab6e0d8d5c1c9febc559
+Description: iOS 12 özel versiyon.
 Name: AppStore++ (iOS12)
 Author: CokePokes
-Depiction: https://repo.trappledestek.com/depictions/appstoreplusplus/index.html
-SileoDepiction: https://repo.trappledestek.com/depictions/appstoreplusplus/index.php
-Icon: https://turannul.github.io/home/resources/tweak.png
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/appstoreplusplus.png
+
+Package: xyz.turannul.appstoreplusplus
+Architecture: iphoneos-arm
+Version: 0.9.18
+Section: Tweaks
+Maintainer: turannul
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus, com.trappledestek.appstoreplusplus
+Filename: ./debians/Tweaks/Appstore++/xyz.turannul.appstoreplusplus_0.9.18_iphoneos-arm.deb
+Size: 3440064
+MD5sum: a18b4065ac200f1d8213c122c0b91100
+SHA1: 2c3b09e81526439ee66a1dc6aa5088caa2c00237
+SHA256: 31369d79cd9df055b121aae4657f198507f38529ebc21f7afa2c6079e97eccb8
+SHA512: 4d1ce585e282c76b394aeee9fbd4da31127f8c103fab4f8b5aac76ff2baf2eba3ef98ec9f5b53701dd4cba310f048602cb2eba9e0b3431ab8854b986c537a0b0
+Description: App Store++
+Name: AppStore++
+Author: CokePokes
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/appstoreplusplus.png
 
 Package: com.shiftcmdk.autoalerts
 Architecture: iphoneos-arm
@@ -2037,6 +2056,25 @@ Icon: https://paisseon.github.io/icons/satella2.png
 SileoDepiction: https://paisseon.github.io/depictions/satella2.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
+Package: com.julioverne.spotilife
+Architecture: iphoneos-arm
+Version: 1.7
+Section: Tweaks
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/Spotilife/com.julioverne.spotilife_1.7_iphoneos-arm.deb
+Size: 193402
+MD5sum: e1d4c6f6b524fec9bdb05b8b2a11ec6d
+SHA1: 61528501a871496796e3c6c3bc1315eaf6066816
+SHA256: 355ab1f6e19400bad11b6fb979dea6ecea8ac49459f4e075e2934c3db2aa7072
+SHA512: 80df4e1ae4dde926e2f86a2102a32a39bf337729c5b105bb4fb718c75e3b1a7068da0ca2f3a8635882e60b7ce372a2a9b3c2af0de25604aeee368cf27e067ed1
+Homepage: https://twitter.com/ijulioverne
+Description: Spotify v85.5.50 Çok yüksek (320kb/s) aktif
+Name: Spotilife
+Author: julioverne
+Depiction: N/A
+Icon: https://turannul.github.io/home/resources/spotilife.png
+
 Package: com.pixelomer.tweakreviews-db
 Architecture: iphoneos-arm
 Version: 1.1.9
@@ -2257,431 +2295,6 @@ Tag: role::hacker
 Name: vnodebypass
 Author: XsF1re
 Icon: https://turannul.github.io/home/resources/vnode.png
-
-Package: com.ichitaso.altstore
-Architecture: iphoneos-arm
-Version: 1.4.8
-Section: Utilities
-Maintainer: ichitaso
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
-Replaces: com.ichitaso.altstore
-Filename: ./debians/Uygulamalar/AltStore/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
-Size: 5192014
-MD5sum: eb4e3ce3b4e0924690aca62727d38408
-SHA1: 315e8c3c1bba5214b997b2827a8525b30e03b0f7
-SHA256: 8b14616b687cdf182d262be95eed0fa82b28efabcfcf93f6ccf0578ff62c8252
-SHA512: 56a70392d3b6e34741ca55faeeb2685ef7926b20b9380ad1203738d569f480c009aa1c39342e4f60022525c6fbb141dbbeeaa3e5b4bc5021a33a83a1d4f5dbd0
-Homepage: https://altstore.io/
-Description: Jailbroken version of AltStore with on device signing feauture.
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
-Author: Riley Testut
-Name: AltStore
-Depiction: https://cydia.ichitaso.com/depiction/altstore.html
-dev: Riley Testut
-Icon: https://turannul.github.io/home/resources/altstore.png
-
-Package: xyz.turannul.altstorebeta
-Architecture: iphoneos-arm
-Version: 1.5b3
-Section: Uygulama
-Maintainer: turannul
-Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
-Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
-Size: 5202662
-MD5sum: 07ee84aa97057bc81c403139f350540a
-SHA1: 93cce41666c57762c84d50485ede123d071660fc
-SHA256: 220bb4182d6b2aa19ee60ca9e232b49240459ebdc050a8e6437ab1361f5eac68
-SHA512: eed35e2c8e28f880010d99b79665878a7f6847b6499768f211df15e79aa589193891138bc972f99d0aebfd4e9989cce092385d3e68fb9adf6f80cedb78396481
-Homepage: https://altstore.io/
-Description: AltStore Beta
-Author: Riley Testut
-Name: AltStore (Beta)
-Depiction: AltStore Beta
-Icon: https://turannul.github.io/home/resources/altstore.png
-
-Package: Appcake
-Architecture: iphoneos-arm
-Version: 7.2.2
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified | net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/Appcake/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13903032
-MD5sum: d32ed4124415d6a200970af61b0e7846
-SHA1: c62f70ddd0d8fa123e09d0b6cf65f9378292f0ab
-SHA256: 55bae7616ad1e72993b3fb1684ee5d9d79588659205db8a792e4686e292a1191
-SHA512: 598e9efe0f1bd3e2ea236d8dd8f502f7a391c465042e5833cd0e8d9b79f31f556ffc8346ea3abeb8f9694a414c60e0064615197c30cda54960e4b933fb74d776
-Description: iPhone / iPad için ücretsiz iPA Mağazası.
-Name: Appcake
-Author: iPA Store
-Depiction: https://www.iphonecake.com/app/
-SileoDepiction: https://www.iphonecake.com/app/
-Icon: https://turannul.github.io/home/resources/appcake.png
-
-Package: ru.domo.cocoatop64
-Architecture: iphoneos-arm
-Version: 2.2.3
-Section: Uygulama
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 915
-Depends: firmware (>= 10.0)
-Conflicts: ru.domo.cocoatop
-Filename: ./debians/Uygulamalar/CocoaTop-x64/ru.domo.cocoatop64_2.2.3_iphoneos-arm.deb
-Size: 313884
-MD5sum: 5e08ece6eb242b9cf1b1503c0a237edf
-SHA1: 174e082d752400b7da0bdb2c0d4b344b9645eefd
-SHA256: 6cf4b228c8e853ed502b91f2c79e990a15d6a437015653180d07b0f72e2b5a86
-SHA512: 78247bb4e0f14080db9393547c352d182d95bc8f7a5b1ac5f878928991170d9260d9190904d12ae9a123d5dce89ac72694985a546d8fe86b94908374256744a6
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
-Description: Process Viewer for iOS 10-13
-Tag: purpose::uikit
-Author: Domo <domo@rambler.ru>
-Name: CocoaTop64
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: domo
-Icon: https://turannul.github.io/home/resources/cocoatop.png
-
-Package: com.muirey03.cr4shedd
-Architecture: iphoneos-arm
-Version: 4.2.2
-Section: Uygulama
-Maintainer: Muirey03
-Depends: mobilesubstrate, com.muirey03.libmryipc, com.cokepokes.libnotifications (>= 0.2-2), cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Conflicts: com.muirey03.cr4shed
-Filename: ./debians/Uygulamalar/Cr4shed/com.muirey03.cr4shedd_4.2.2_iphoneos-arm.deb
-Size: 413574
-MD5sum: a6916a07a4bb6dafe04e7d35d5fa4f86
-SHA1: 9b4cea56b685a5a4893e29ffa7894dd0c76b3f6d
-SHA256: 3a2d824e537016b3401ca9db5c3b90982a58da82de0a763acaca799ad4906d6d
-SHA512: 458128fda3dc5a43c6bb14a930f061bfda220bd00c5058cec34fd253d6ff99f0772667ff711b21c808a1b7cc6c2bcbd45431c9a5ed5cca5564dd4e5155fb4ae2
-Description: Sorun olduğunu bilmezsen sorun yoktur. Jetsam uyarıları kapatılmış versiyonudur.
-Name: Cr4shed
-Author: Muirey03
-Icon: https://turannul.github.io/home/resources/crashed.png
-
-Package: com.julioverne.cracktool4
-Architecture: iphoneos-arm
-Version: 4.0~beta10a
-Section: Uygulama
-Maintainer: Julio
-Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Uygulamalar/CrackTool4/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
-Size: 2908998
-MD5sum: 005d1969e33e1bdb0fa7845eb580de72
-SHA1: 6d069cb392310e596ba72acb9d61053766587b95
-SHA256: 8d05162aac74ba4fd3400766ef2edbb4fc4ee0d335314453cb17b0bd968efd37
-SHA512: 96a6bf715cfb71be0781b778ebbe4e4a3c050bba629d1c9ae486752d1f00f601d7700b8fbd9e07d844d8e6360f62fe342fbe9c461d68c66cfe5f51b28a915d1a
-Homepage: http://twitter.com/ijulioverne
-Description: Crack Tweaks on one click
-Name: CrackTool4 (iOS 9 - 14)
-Author: julioverne
-Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
-Icon: https://turannul.github.io/home/resources/cracktool.png
-
-Package: cydia.com.ipc.crackerxi
-Architecture: iphoneos-arm
-Version: 1.1.16
-Section: Uygulama
-Maintainer: c0pyn1nja
-Depends: firmware (>= 11.0)
-Filename: ./debians/Uygulamalar/CrackerXI/cydia.com.ipc.crackerxi_1.1.16_iphoneos-arm.deb
-Size: 9960934
-MD5sum: 6cca8f7b4174d7015c57944c6b976921
-SHA1: 0de4e26448c972aa3f5e2bddc0fdef4a32b847cf
-SHA256: 999784a317a9fbae7ce25b646002a152fe90d7a18bf46a43a002d7e616f4ccac
-SHA512: 45b2f61b3de7b222c7a0364cb310c2adb69ecde38668f8f4906da1c1a646b942cc61f5a0f7fa3696533024c53c88af1e5e31fb7acbdae4cf0af76f1155376c78
-Description: Decrypts iOS Apps
-Name: CrackerXI+
-Website: https://ipastore.me
-Icon: https://turannul.github.io/home/resources/crackerxi.png
-
-Package: ai.paisseon.cydown
-Architecture: iphoneos-arm
-Version: 7.1.6
-Section: Uygulama
-Maintainer: Paisseon
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown, org.mr.cydown, ru.rj.cydown
-Filename: ./debians/Uygulamalar/Cydown++/ai.paisseon.cydown_7.1.6_iphoneos-arm.deb
-Size: 4481284
-MD5sum: 0f90c69886c2bd6d2d013533510a4227
-SHA1: 83479b1bfd55a965833b480d04a82be050efe504
-SHA256: e6a5ff69cacc8ffd2761540e21d72a20100943f0df1401e8bc6d3cf06e064f6f
-SHA512: 7ed75b6b7c7a1472996d4abb768fe66c80fdeab983c316d9f7157d65f3a58512ef23c55f1f26b509ae09a84eac8350786d5982dacbe7d9cb6a637544dd0a8127
-Description: Download tweaks for free
-Name: CyDown++
-Author: Julioverne & CyPwn
-SileoDepiction: https://paisseon.github.io/info/cydown.json
-Depiction: https://paisseon.github.io/info/cydown.html
-Icon: https://turannul.github.io/home/resources/cydown.png
-
-Package: E-Sign
-Architecture: iphoneos-arm
-Version: 4.3.6
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.3.6_iphoneos-arm.deb
-Size: 4500594
-MD5sum: 6b743555f27fde77ab02bf0807d4e870
-SHA1: 3cda4a80d008f4ae5dcc1fadddad0bda83c6a71e
-SHA256: 7007a468dd9afadb40b8e8b2a73a20ea3349c207f610d4906f530628e32562db
-SHA512: 1968d1f2923b87af493a945fad190eb9923792c97f934b6a98510d77b588098d9d15c0684275aa7f3a5bee51e4d78fd94ca8d31a108dcc0ff4c462e34974237c
-Description: iPhone / iPad için Uygulama imzalama aracı.
-Name: E-Sign
-Author: Unknown.
-Depiction: iPhone / iPad için Uygulama imzalama aracı.
-SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
-Icon: https://turannul.github.io/home/resources/esign.png
-
-Package: xyz.turanul.flappybird
-Architecture: iphoneos-arm
-Version: 4.1.0
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/FlappyBird/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
-Size: 2317988
-MD5sum: 5685a0e61d373030ff8e920362b997d5
-SHA1: ce506f9a4611f413b032576e7d6b12bd5f8afbb8
-SHA256: 21fdfb7cd766d1009b0aa110e33b11c73b2906d574b29ca9bcd25c9a9eec038f
-SHA512: 1bda67a5215912e5dd05d8538f6fb73636b2a7fdf99578a5959334a35bf06538e97986718fb7e71ae3b4bceaf9c8d709f52023929b0b9d64ab19be3d1cf83bc9
-Description: A Flappy Bird clone that runs on the latest iOS!
-Name: Flappy Bird
-Author: Brandon Plank, Thatcher Clough
-Depiction: N/A
-SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
-Icon: https://turannul.github.io/home/resources/flappybird.png
-
-Package: com.mtac.lynxapp
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Uygulama
-Maintainer: turannul
-Depends: firmware (>=12.0)
-Filename: ./debians/Uygulamalar/LynxApp/com.mtac.lynxapp_1.1_iphoneos-arm.deb
-Size: 149900
-MD5sum: ec7bbfd1ada95bb96c64eb5214082b67
-SHA1: d7be70f5127a02d657095b06e85ba4536a3a5d37
-SHA256: 0ba8eeb947ba785328714174e159c285ba60328a2640623374ca00a92591cf88
-SHA512: 322ff430bd9f3c6df4f9fdda3a825e8e642c503f27a51fe31ca12d372e47cc97fac120af867ab4f918bd2f1781b657a813eafc335c3fabb7d5a2d567cb7da8c2
-Description: Lynx | Lynx2 ayarlarını ana ekrana ekleyin
-Name: Lynx App
-Depiction: https://mtac.app/repo/depiction/web/com.mtac.lynxapp.html
-SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.lynxapp.json
-Icon: https://turannul.github.io/home/resources/lynx.png
-Author: MTAC <mtac@mtac.app>
-
-Package: com.ichitaso.nonceset143
-Architecture: iphoneos-arm
-Version: 0.0.5
-Section: Uygulama
-Maintainer: ichitaso
-Installed-Size: 924
-Depends: firmware (>= 12.0)
-Filename: ./debians/Uygulamalar/NonceSetter143/com.ichitaso.nonceset143_0.0.5_iphoneos-arm.deb
-Size: 198436
-MD5sum: bd98adb94f0a6184ec94183e9f0f2bb3
-SHA1: 277ec7ecc3b280c798ee331be8663ae98b4c72be
-SHA256: 7b6f9dcbbddf509247cd36e15bc06f9c37658a5ad2b322bb20cb1ee9d420a282
-SHA512: 9617808209d6908d46b3836d69152d72b4f2232e7afb25eee328e4066a33eebe6dcbd3540dac76c79936785e3c3abbbe10e1ff245bfebc80f9829cfafaedd104
-Homepage: https://ichitaso.com/
-Description: An app that set of generator and gets a ApNonce
-Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
-Author: ichitaso
-Name: NonceSet143
-Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
-dev: ichitaso
-Icon: https://turannul.github.io/home/resources/noncesetter.png
-
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.7
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.7_iphoneos-arm.deb
-Size: 60801480
-MD5sum: a5a9b6e581c243b35f2808fadf4303a6
-SHA1: bc1047055c4308204e51bba00f9039693d21926f
-SHA256: fcecca534a05123b7ca81a68bc37acc833e19cc35bf1bb32161b0952b1afc2e0
-SHA512: d3856b2998049926cbdba211bf79bdd4a0396e8a458d4e87356ba2e0642df38c574c58ceb7ef8351af4156c5eff407b178f2cded9d366253b8282eb900db56f8
-Homepage: https://postbox.news
-Description: News, package lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://postbox.news/depicts/app/icon.png
-Depiction: https://postbox.news/depicts/app
-SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
-Package: com.samgisaninja.successionrestore
-Architecture: iphoneos-arm
-Version: 1.4.16~b4
-Section: Utilities
-Maintainer: Samg_is_a_Ninja
-Depends: firmware-sbin, rsync
-Filename: ./debians/Uygulamalar/Succession/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
-Size: 1179332
-MD5sum: 8123588c1b4a65a9ad301033887ca017
-SHA1: b6ae8215319204969d3ee58ab01070bbc11e5399
-SHA256: 9f38291fcb35a167d815312aa7df5eca3b8ccddabeac4e45a1633e2efea21af0
-SHA512: a9ce946564d5b0d4e96b30b5cb025c26b3174171f0ed6b60a7dea68014db974bfe9f80518a091ceaa18f78668703f02b96446613b784fa0356a46b2cd1ce6418
-Description: Restore without updating via rootfilesystem DMG
-Name: Succession
-Author: Samg_is_a_Ninja
-Icon: https://turannul.github.io/home/resources/succession.png
-
-Package: sileoturkiye.tweakcleaner
-Architecture: iphoneos-arm
-Version: 14.9c
-Section: Uygulama
-Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debians/Uygulamalar/TweakCleaner/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
-Size: 4717622
-MD5sum: 821eb23d600c195ec2ccd5f45d1c7a12
-SHA1: 9074c107265b7f2e5659ba69d9680536dc27cf73
-SHA256: e5ca1b5452ea8b64cabe0c1a66b11b277ee882def78044fbdce79a98f9df42fe
-SHA512: e697244f8acd1c1bfe70bc7001ac1f39c7f9881ba2ec4fc5c8ee8ac98a7fa41699f1c5dcf6c53385a67c42007cbac7933038c59fa880a70fcc4999bb6d5c10e4
-Description: Returns the device to its original JB state.
-Name: Tweak Cleaner PRO
-Author: Önder Azazi <onderazazi@hotmail.com>
-Icon: https://turannul.github.io/home/resources/tweakcleaner.png
-
-Package: jb.zini.tevi
-Architecture: iphoneos-arm
-Version: 1.4.9
-Section: Uygulama
-Maintainer: turannul
-Filename: ./debians/Uygulamalar/ZinitEvi/jb.zini.tevi_1.4.9_iphoneos-arm.deb
-Size: 7266958
-MD5sum: 2a2e2acd24763cec5c35cabe49fd0997
-SHA1: 5e79a35c5916082fea7d53685ed56599187e9a2a
-SHA256: 0f072f61be4a8031687930ae3141af9de407d31ed3068a119c445d226471fab2
-SHA512: 28232f5b183a0721e427a5b8f21098e96f239d3e05774aca448e5b9ec4aaa3fe344e98a5979cf8a80a74fc9400591300ca05650734fcfe188fad49f90e59d51a
-Homepage: https://zinitevi.github.io/movieapps/
-Description: Stream movies & series for Jailbreak
-Name: ZiniTevi
-Author: ZiniTevi
-Icon: https://turannul.github.io/home/resources/zinitevi.png
-
-Package: com.exile90.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.9.1
-Section: Uygulama
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debians/Uygulamalar/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 6756212
-MD5sum: bb668140e12fef77ca8d7985303a1410
-SHA1: c5c3b2bf35c5b1af281810e25e1991009132acb5
-SHA256: d83c99cd66ce686ee2aeb91ffbbffce3cc8479fb2a37619c8727feeb8e52f98d
-SHA512: 1593508a57f47a9f4ff98704766432b8abb546f7535a18ea48dbff301096075ec6cf5653f98878aa6e1f082f655e8ef04380cfc9eda80b8863f133578ff86612
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
-Name: iCleaner Pro
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
-Package: com.turannul.paisseon.icleanerprohack12
-Architecture: iphoneos-arm
-Version: 1.2+debug
-Section: Tweaks
-Maintainer: turannul
-Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
-Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
-Size: 21220
-MD5sum: 8501807344446cdf0870f7bb9c0e00ea
-SHA1: bbd0a0d99f3eb2d8b36b02a095959826b1019889
-SHA256: af999beafc429e454f6f808b1a8711d8eaa34b50149975c30c63611392bf278b
-SHA512: 702294f9a70d7243879778af231492772aea82b77057157e2b5535a3b840f151b89415049939b9e7848055c19dba5a6d2bc56dd38ebefb8bc63a25bc890bb39b
-Homepage: http://ib-soft.net/icleaner
-Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack (iOS 12-13)
-Author: turannul
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
-Package: com.turannul.paisseon.icleanerprohack
-Architecture: iphoneos-arm
-Version: 1.2+debug
-Section: Tweaks
-Maintainer: turannul
-Depends: com.exile90.icleanerpro, dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack_1.2+debug_iphoneos-arm.deb
-Size: 21210
-MD5sum: 6265a9f7c7cba42451df9a81443be87e
-SHA1: c96efaf1c1d6f77c47f5993e01f5e8c89fdbead6
-SHA256: ad933ccd7d62147b3c11f0af8fea0f92271c7441366b9f1dc3cc99e4e4793842
-SHA512: e20a1174816bef36bbf79f7724a42c71fe46e85e0e7e7d2ae8e5918387eb732a4b328a4b27bf5b9b21025467360dbae7b0bb161b0938030fb25f8db9b7764d04
-Homepage: http://ib-soft.net/icleaner
-Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
-Name: iCleaner Pro Hack (iOS 14+)
-Author: turannul
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
-
-Package: xyz.canpng.istb
-Architecture: iphoneos-arm
-Version: 1.23.0
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.0_iphoneos-arm.deb
-Size: 24547168
-MD5sum: 6f5ff4a48b519ee8994d9a81f192db12
-SHA1: 8651059ace8013181affd80ecdd185a9dfd02991
-SHA256: d3f24ee4abfdcbed846b86faae08a1082f4e303d5ba72709439d6b0ceb508d94
-SHA512: 9ad737aa2043b18b5b9f0001ef3ca7315e7d1c34b996a4e2c88b6b771ccf833bfbc6b704fc02467de7be9092788c3ac0bc0b3afcc443fd51c421ac6a348d0346
-Homepage: https://trappledestek.com/konu/cihazlariniz-icin-iptv-programlari-sfvip-istb-watched-rokkr-itv-hdo-player-vs.8035/
-Description: iPhone / iPad için iPTV
-Name: iSTB
-Author: canpng
-Icon: https://turannul.github.io/home/resources/istb.png
-
-Package: com.geosn0w.iSecureOS
-Architecture: iphoneos-arm
-Version: 1.24
-Section: Uygulama
-Maintainer: GeoSn0w (@FCE365)
-Depends: firmware (>= 11.0)
-Filename: ./debians/Uygulamalar/iSecureOS/com.geosn0w.iSecureOS_1.24_iphoneos-arm.deb
-Size: 5142348
-MD5sum: 33a643e0780951c7df1ea53aad1d2ec5
-SHA1: d2aee81c1d02d271f1343d74705fb5d3ad6aefc0
-SHA256: 506b0cd005eccbde253bdbe9cb973b886e063ed3192f4c249b4700cecd60c8bc
-SHA512: 1806be1740ec1aacc523dc02272e567e6a8623647274c5abf96bdb0eb14e5e0f84564545c1218d21e6c6c59e2360c9342d54b3fa12752529bcd1ec8e6aadd682
-Description: An iOS Security Application for Jailbroken units.
-Name: iSecureOS
-Author: GeoSn0w (@FCE365)
-Icon: https://turannul.github.io/home/resources/isecure.png
-Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
-SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
-
-Package: iTorrent
-Architecture: iphoneos-arm
-Version: 1.8.3
-Section: Uygulama
-Maintainer: turannul
-Depends: com.trappledestek.appsyncunified |net.angelxwind.appsyncunified, com.trappledestek.installipa | com.autopear.installipa
-Filename: ./debians/Uygulamalar/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
-Size: 21094798
-MD5sum: 08deb4d75474137837e49d48a5576473
-SHA1: 0e7d42b811bb9fbf8ec88d6a0d58b28bad3d37bc
-SHA256: 9dc24562fa76b18481c463cc8044e3791acc5a1160c5b89efff4726714aa914f
-SHA512: c5149397bdd1b17a5f12f64aae5a3f5b1e425504244e27f89e18baf5b06c224ff96ee4b4660551d51d21002fa15d4159d6004815cbdc6badf18867060d229ed5
-Description: iPhone / iPad için Torrent Client.
-Name: iTorrent
-Author: XITRIX
-Depiction: https://github.com/XITRIX/iTorrent
-SileoDepiction: https://github.com/XITRIX/iTorrent
-Icon: https://turannul.github.io/home/resources/itorrent.png
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
