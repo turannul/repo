@@ -2317,6 +2317,25 @@ Name: AltStore (Beta)
 Depiction: AltStore Beta
 Icon: https://turannul.github.io/home/resources/altstore.png
 
+Package: Appcake
+Architecture: iphoneos-arm
+Version: 7.2.2
+Section: Uygulama
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/Appcake/Appcake_7.2.2_iphoneos-arm.deb
+Size: 13903042
+MD5sum: bb70547b64d006dfe09ffdd33ec45856
+SHA1: 67eff26be49797903ebed1db973c164fb4560ed0
+SHA256: 03d1aaee93b4a1e9af450a154bfedf78ac280a10a9ddc24dc320b9d4a62c5f8f
+SHA512: 0b728cd80b1c3ee2bbbc60e117a0d18a6b6f736e09b118f26fb2ccaba956c3b8d353eda176ea51ee65ab73fccc08f46770dbae408783825de5945feb1e3fe471
+Description: iPhone / iPad için ücretsiz iPA Mağazası. AppSync Repo: https://cydia.akemi.ai/
+Name: Appcake
+Author: iPA Store
+Depiction: https://www.iphonecake.com/app/
+SileoDepiction: https://www.iphonecake.com/app/
+Icon: https://turannul.github.io/home/resources/appcake.png
+
 Package: ru.domo.cocoatop64
 Architecture: iphoneos-arm
 Version: 2.2.3
@@ -2494,6 +2513,25 @@ Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/noncesetter.png
 
+Package: com.simplycode.PostBox
+Architecture: iphoneos-arm
+Version: 0.7
+Section: Uygulama
+Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
+Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.7_iphoneos-arm.deb
+Size: 60801480
+MD5sum: a5a9b6e581c243b35f2808fadf4303a6
+SHA1: bc1047055c4308204e51bba00f9039693d21926f
+SHA256: fcecca534a05123b7ca81a68bc37acc833e19cc35bf1bb32161b0952b1afc2e0
+SHA512: d3856b2998049926cbdba211bf79bdd4a0396e8a458d4e87356ba2e0642df38c574c58ceb7ef8351af4156c5eff407b178f2cded9d366253b8282eb900db56f8
+Homepage: https://postbox.news
+Description: News, package lists, and repo lists, all community centered.
+Name: PostBox
+Icon: https://postbox.news/depicts/app/icon.png
+Depiction: https://postbox.news/depicts/app
+SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
+Author: PostBox Team <getpostboxapp@gmail.com>
+
 Package: com.samgisaninja.successionrestore
 Architecture: iphoneos-arm
 Version: 1.4.16~b4
@@ -2604,6 +2642,23 @@ Author: turannul
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: https://turannul.github.io/home/resources/icleaner.png
 
+Package: xyz.canpng.istb
+Architecture: iphoneos-arm
+Version: 1.23.0
+Section: Uygulama
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.0_iphoneos-arm.deb
+Size: 24547074
+MD5sum: 33ac2d5af209d24a7a1cdb9e72bb744a
+SHA1: ae27583bf68d714ba57fedfb2b53c8e0d1a40183
+SHA256: e610fe8e29a4c882faa5ccd1cb2f90c2dcb3b54ec48f1d4eec6a5743081db026
+SHA512: 3b105878b125217c041797016a1b43c1208cba05e1e9bde678287afc459eb15bf32cf517c0de8c483886183f43a722dec665b62b778c7cde8efb42158abb6e33
+Description: iPhone / iPad için iPTV AppSync Repo: https://cydia.akemi.ai/
+Name: iSTB
+Author: canpng
+Icon: https://turannul.github.io/home/resources/istb.png
+
 Package: com.geosn0w.iSecureOS
 Architecture: iphoneos-arm
 Version: 1.24
@@ -2622,6 +2677,25 @@ Author: GeoSn0w (@FCE365)
 Icon: https://turannul.github.io/home/resources/isecure.png
 Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
 SileoDepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
+
+Package: iTorrent
+Architecture: iphoneos-arm
+Version: 1.8.3
+Section: Uygulama
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
+Size: 21094700
+MD5sum: e73c4ae09949e8309aeb293ea7130c42
+SHA1: 82c0fc95e1a616c1e7b2cc274daf95ae12e5a899
+SHA256: 562160e6b3a657c132df0c45581e6adfad69f09205e2f5da613f3b503a90484d
+SHA512: 0ba7568738f2d905a673aae243693e66e84307aac7a3827f593083fc8b1485aa102ecef09ceab3971c0e486bce4195a9072d997b29816f70e8ec3e01fdb125d1
+Description: iPhone / iPad için Torrent Client. AppSync Repo: https://cydia.akemi.ai/
+Name: iTorrent
+Author: XITRIX
+Depiction: https://github.com/XITRIX/iTorrent
+SileoDepiction: https://github.com/XITRIX/iTorrent
+Icon: https://turannul.github.io/home/resources/itorrent.png
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
