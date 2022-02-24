@@ -2058,16 +2058,16 @@ Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
 Package: com.julioverne.spotilife
 Architecture: iphoneos-arm
-Version: 1.7
+Version: 1.7a
 Section: Tweaks
 Maintainer: Julio
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/Spotilife/com.julioverne.spotilife_1.7_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Spotilife/com.julioverne.spotilife_1.7a_iphoneos-arm.deb
 Size: 193402
-MD5sum: e1d4c6f6b524fec9bdb05b8b2a11ec6d
-SHA1: 61528501a871496796e3c6c3bc1315eaf6066816
-SHA256: 355ab1f6e19400bad11b6fb979dea6ecea8ac49459f4e075e2934c3db2aa7072
-SHA512: 80df4e1ae4dde926e2f86a2102a32a39bf337729c5b105bb4fb718c75e3b1a7068da0ca2f3a8635882e60b7ce372a2a9b3c2af0de25604aeee368cf27e067ed1
+MD5sum: 206f4527b26aae95c16540b29802d4da
+SHA1: 37bcf8baffde29f640fc218cdb4c78d25fc44872
+SHA256: a4848d495cfeba57afab807643709dcdc792e0b6aed712f95e25f1da0184db4b
+SHA512: c6e774f8c9d095dac25940614685bf5fa5b50165602869f58a0e474ef55fbfdcca86eaa99696486d3e1b5cd9009fe46649c3f59314e60687a373b0eeca90c318
 Homepage: https://twitter.com/ijulioverne
 Description: Spotify v85.5.50 Çok yüksek (320kb/s) aktif
 Name: Spotilife
