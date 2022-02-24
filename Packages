@@ -595,6 +595,24 @@ Sileodepiction: N/A
 Depiction: N/A
 Icon: https://turannul.github.io/home/resources/diskprobe.png
 
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Version: 3.9.0-2
+Section: 🏴‍☠️ Tweak
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debians/PiratedTweaks/FilzaFile/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
+Size: 8512824
+MD5sum: 340fc36229b6373001db86f174069220
+SHA1: 1bbbd0a681698ec13cae1bd2e7151e79758853d3
+SHA256: dbcb2ef40088611eaef6726d1528cc088bec5757ecd45fb7ae3999c75c6c3f14
+SHA512: bb7163a6b44bd1e9dcf05f9b6b099c86e3af6aa4108cebda19595aa17765c954a7232cb5c3821e8fb051adca49d595d060a01bceec7d599d6bb4ad19edb4e63e
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager x64
+Author: TIGI Software
+Icon: https://turannul.github.io/home/resources/filza.png
+
 Package: xyz.turannul.pencilbanner
 Architecture: iphoneos-arm
 Version: 1.2
@@ -1309,6 +1327,23 @@ Name: AltDaemon
 Author: Riley Testut <support@altstore.io>
 Icon: https://turannul.github.io/home/resources/altstore.png
 Depiction: https://chariz.com/get/altdaemon
+
+Package: com.firepo.hmodeis.apphack
+Architecture: iphoneos-arm
+Version: 4.5-4
+Section: Tweaks
+Maintainer: Enkidu
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debians/Tweaks/AppsHack/com.firepo.hmodeis.apphack_4.deb
+Size: 3368072
+MD5sum: 46a157f1d712dc73841e20c9056770bb
+SHA1: 7c49914bda32be3e2173ed3a0caf5f35e91f5be3
+SHA256: d40a77b9a73d7f59ae0f27e36594bfff93eddc52df2b246f70ba391fac2c92c2
+SHA512: 893d918b38972d818487ba4000a85909063ae673b69cecbf44912bcd50c7bf4caba077042bb8f1edf344799cf3bf9f42033a20bfb9a45070e9d9ca90c3ce9715
+SileoDepiction: https://aric0.com/Sileo.php?pid=6
+Name: Apps Hacks
+Author: Enkidu
+Icon: https://turannul.github.io/home/resources/appshacks.png
 
 Package: xyz.trappledestek.appstoreplusplus-iOS12
 Architecture: iphoneos-arm
