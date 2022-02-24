@@ -2513,25 +2513,6 @@ Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/noncesetter.png
 
-Package: com.simplycode.PostBox
-Architecture: iphoneos-arm
-Version: 0.7
-Section: Uygulama
-Maintainer: PostBoxTeam <getpostboxapp@gmail.com>
-Filename: ./debians/Uygulamalar/PostBox/com.simplycode.PostBox_0.7_iphoneos-arm.deb
-Size: 60801480
-MD5sum: a5a9b6e581c243b35f2808fadf4303a6
-SHA1: bc1047055c4308204e51bba00f9039693d21926f
-SHA256: fcecca534a05123b7ca81a68bc37acc833e19cc35bf1bb32161b0952b1afc2e0
-SHA512: d3856b2998049926cbdba211bf79bdd4a0396e8a458d4e87356ba2e0642df38c574c58ceb7ef8351af4156c5eff407b178f2cded9d366253b8282eb900db56f8
-Homepage: https://postbox.news
-Description: News, package lists, and repo lists, all community centered.
-Name: PostBox
-Icon: https://postbox.news/depicts/app/icon.png
-Depiction: https://postbox.news/depicts/app
-SileoDepiction: https://postbox.news/depicts/app/fancydeps.json
-Author: PostBox Team <getpostboxapp@gmail.com>
-
 Package: com.samgisaninja.successionrestore
 Architecture: iphoneos-arm
 Version: 1.4.16~b4
