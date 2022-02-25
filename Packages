@@ -2717,24 +2717,6 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
-Package: me.nebula.betterblock
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Tweaks
-Maintainer: Nebula
-Installed-Size: 296
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
-Conflicts: net.myxxdev.mybloxx, net.myxxdev.mybloxx10, net.myxxdev.mybloxx11, net.myxxdev.mybloxx13, net.myxxdev.mybloxx14, net.myxxdev.mybloxx4, net.myxxdev.mybloxxlite13, net.myxxdev.mybloxxlite14, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater, net.myxxdev.mybloxx14
-Filename: ./debians/me.nebula.betterblock_1.1.deb
-Size: 19524
-MD5sum: 1d5bfc54c4ac57d8c1fd393f47348cb5
-SHA1: dcd00c4c7af36005529c6a8e408d1aa6473501ef
-SHA256: cda417f29e190aa052bf8776748f576ec4de96635824032c2269f50f9bee1fb6
-SHA512: 9f10380bf711557643e5cc1eec7fe2dcc4e6c0cd42f5294721e1b8364c4a058f4fbfaf4df9f03721b05bda697f1fb1fe5926d6a80951ecbc1423d3a9bf57b003
-Description: The best AdBlocker. Auto updating, no slowdowns, 100% blocking on ads.
-Name: BetterBlock
-Author: Nebula
-
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
 Version: 0.3-5
