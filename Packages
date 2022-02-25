@@ -1,15 +1,34 @@
+Package: xyz.turannul.firewatch
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Wallpaper
+Maintainer: turannul
+Depends: wallpaperloader
+Filename: ./debians/Duvar-Kağıtları/FireWatch/xyz.turannul.firewatch_1.0_iphoneos-arm.deb
+Size: 4333368
+MD5sum: b1fb0c807166924f2716fd86d63c8994
+SHA1: 7556ab50e9344240e3fea8394720bd60b2ee277c
+SHA256: e4a856ff5e8d339c85a983c8029a9ba0804da6c3e23a28d5c9375b250c520701
+SHA512: added00c590087d9a902b421872daf7eed02a3b5a11300112de0ceef3c6f0b6e5c08f33f6a6259e82167ec27eae3b5a90007f70829e12872a9181a43caab4be8
+Description:
+Name: FireWatch Wallpaper
+Author: turannul
+Depiction: N/A
+Icon: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.xrwallpapers
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Duvar Kağıtları
+Section: Wallpaper
 Maintainer: turannul
 Depends: wallpaperloader
 Filename: ./debians/Duvar-Kağıtları/XR-Wallpapers/xyz.turannul.xrwallpapers_1.0_iphoneos-arm.deb
-Size: 22784476
-MD5sum: a7367117c24327834c23d147cb68421b
-SHA1: 4e1a9c11601b026cca4ca28ad4e71714ab5caa17
-SHA256: 3781207f41f7fd358d238ff05b41383ce22884828feb1ee98c977b8edab12f2d
-SHA512: b14c7b190cdb7be3b4f84199d4cca2c75a7e70b87994e7fceaeb8825ab54d9eddc962e3d4e385130cc96cbf6efac6e9c593a741ace18d94cd0c31c49d1c3b7fc
+Size: 22784474
+MD5sum: 87d53df5c001e966f2ee0a06cd76c834
+SHA1: 221e217814669a910a0dd8889bc0e4e82f0e1d56
+SHA256: 2ada649b4441502eea123a122ea7611c4cf859509be306d4cea3eae634f1f2b3
+SHA512: ead85fe9609b582e7c5a7bf9f1b23c56ae65a0d0f99793f9ea03d844da9628ec8845f02efff6b2a8f67368e8cb5f091ece8a7e6f85613345d3abbe10e03394e8
 Description: iPhone XR duvar kağıtları
 Name: XR Duvar kağıtları
 Author: turannul
