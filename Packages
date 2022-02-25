@@ -2115,6 +2115,26 @@ Author: udevs
 Icon: https://turannul.github.io/home/resources/vpnindicator.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vpnindicator
 
+Package: com.xyaman.visualyzer
+Architecture: iphoneos-arm
+Version: 0.3.2
+Section: Tweaks
+Maintainer: Xyaman
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.audiosnapshotserver, ws.hbang.common (>= 1.16), com.xyaman.libsona (>= 0.1.0), com.xyaman.libkuro, com.mrgcgamer.libgcuniversal
+Filename: ./debians/Tweaks/Visualyzer/com.xyaman.visualyzer_0.3.2_iphoneos-arm.deb
+Size: 31362
+MD5sum: c6a5326c1955e90874fef51dd8ed5b57
+SHA1: b16d9716debd87afa9627e30508194b94039e1d1
+SHA256: e0ccb9db3909f185fa966e0e53085dbd0fb9b7bf44cd138a447e5956acf57f15
+SHA512: c4782505b5405560b400c60cd9bf7db385e3ad46d777b0c015ef62aaa9540ae9ed1e1be971f6ab2e140e6a8bcb2c9d4407222966942df8954ec49ae12ed29a9f
+Description: Simple status bar audio visualizer.
+Name: Visualyzer
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=visualyzer
+SileoDepiction: https://repo.xyaman.xyz/depictions/visualyzer/depiction.json
+Icon: https://repo.xyaman.xyz/depictions/visualyzer/assets/icon.png
+
 Package: ai.paisseon.vivy
 Architecture: iphoneos-arm
 Version: 1.3
@@ -2769,11 +2789,11 @@ Installed-Size: 336
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Filename: ./debians/zzzzz/com.mrgcgamer.libgcuniversal_1.4.3_iphoneos-arm.deb
-Size: 91094
-MD5sum: 091b2ee5ce4ef6dc5bc1f04b785c63c5
-SHA1: b4e330bde258a6e9d7cf5d530fc1dda03c91a81f
-SHA256: a21489abacc5b9d4799b0fa9d3e6b8c6a1a83ae820d7f5f7a9914203fd135841
-SHA512: f6542fab6d2a43ae989ce39780306e49f33443ff39be228527d102798c827e68e6b901e329a5374071bce8402b1dabfca41c4570fd352194d37525e788017932
+Size: 91096
+MD5sum: 0d99c9b8388dde549c23ebb7bf51da85
+SHA1: 0e2cf32fcbd16de53749c070d1c1c293c43dfa97
+SHA256: 7c7d9d1842d8d7f49b5849682cd59cdee0a350e1697949376d84d5496fbc0215
+SHA512: 4b6d3f4d2b61447e5719ea18013d4757f7faa83a4c46f6c4d03ae50892b50fb6c14ddf8a04af2e5f23ce9d0ad394340fca253e1efc91ddbd5f11e0e00cb48630
 Description: An awesome library of some sort!!
 Tag: role::developer
 Name: LibGcUniversal
@@ -2796,6 +2816,27 @@ Tag: role::developer
 Name: libPDDokdo
 Author: Soongyu Kwon
 
+Package: com.ryannair05.audiosnapshotserver
+Architecture: iphoneos-arm
+Version: 2.1.2
+Section: Development
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 168
+Provides: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Replaces: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Filename: ./debians/zzzzz/com.ryannair05.audiosnapshotserver_2.1.2_iphoneos-arm.deb
+Size: 5182
+MD5sum: 8c42760b2804dab566125f424a83a4e3
+SHA1: 0076b42807edd7d41f61afd4b1479cb06457700c
+SHA256: dbf4a505bc017a3f69c108f1d96f7f88b819bdb94481efa33c5da3df286b7d97
+SHA512: 3cfa15c04f1dfe5856345755a0661ac365cfca19f51a39b427b97f4cb1e74db5f18aa406594b2ec79ccade94968bdc0e32d8b9e58312ee7427a7ca11a55a000f
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
+Tag: role::developer, compatible_min::ios12.0
+Name: AudioSnapshotServer
+Author: Ryan Nair and Nepeta <ryannairtweaks@gmail.com>
+Icon: https://chariz.com/cdn/icon/audiosnapshotserver/icon@3x.png
+Depiction: https://chariz.com/get/audiosnapshotserver
+
 Package: com.udevs.vexillarius
 Architecture: iphoneos-arm
 Version: 0.0.3
@@ -2814,6 +2855,47 @@ Name: vexillarius
 Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius
+
+Package: com.xyaman.libkuro
+Architecture: iphoneos-arm
+Version: 0.0.3
+Section: System
+Maintainer: Diego Barría
+Installed-Size: 172
+Filename: ./debians/zzzzz/com.xyaman.libkuro_0.0.3_iphoneos-arm.deb
+Size: 6430
+MD5sum: eea6beaa90df44b1f59bca2bbec0238d
+SHA1: 5fa81a8090a16d9fdaeb761abb49350876a4eeb2
+SHA256: 11933b238efb69f77ce3976023a397ec0867910b1fbd124d09040ca8dc3060ae
+SHA512: 0239b8c29124178721cfb2bebd490d8f1825345190cef0318777e9381565e27da1f4f96e0190ab53d40df22d425127138667debe7722732f190718732da2c540
+Description: Very simple image library.
+Tag: role::developer
+Name: libKuro
+Author: Diego Barría
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libkuro
+SileoDepiction: https://repo.xyaman.xyz/depictions/libkuro/depiction.json
+Icon: https://repo.xyaman.xyz/depictions/libkuro/assets/icon.png
+
+Package: com.xyaman.libsona
+Architecture: iphoneos-arm
+Version: 0.1.2
+Section: System
+Maintainer: Xyaman
+Installed-Size: 236
+Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
+Filename: ./debians/zzzzz/com.xyaman.libsona_0.1.2_iphoneos-arm.deb
+Size: 23308
+MD5sum: 6a0e7dab111cb2a31277edf63f5fc8c9
+SHA1: a58718fa578b88f2c6ad9efc8669ba5355f48c40
+SHA256: 64d80e4c761759e81679257eb1c717d234a98716c4a8575ffb4098cb9dec51be
+SHA512: d752bb25b5e89b20518409634c61adaf82a2244675ce61361d9b369c645979b848448609caf37ca9317da8f8b6f8728a887840b0a7d6e90f0e7252788a17adf2
+Description: Simple audio visualizer library.
+Tag: role::developer
+Name: libSona
+Author: Xyaman
+Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
+SileoDepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
+Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 
 Package: dev.theos.orion12
 Architecture: iphoneos-arm
