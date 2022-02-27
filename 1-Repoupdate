@@ -5,6 +5,23 @@ Oh shit! Here go again
 - Carl Johnson
 EOF
 
+cd /Users/turannul/Documents/Github/home
+git pull
+git add /Users/turannul/Documents/Github/home
+cd /Users/turannul/Documents/Github/home
+git commit -a -m "Updated."
+cd /Users/turannul/Documents/Github/home
+git push 
+
+echo "Upload Completed"
+
+clear 
+
+cat << EOF
+Oh shit! Here go again
+- Carl Johnson
+EOF
+
 cd /private/var/mobile/Documents/Github/repo
 git pull
 
