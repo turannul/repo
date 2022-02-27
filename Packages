@@ -748,6 +748,24 @@ Author: initWithFrame <initwithframe@protonmail.com>
 Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
 Depiction: https://chariz.com/buy/velvet
 
+Package: xyz.turannul.limneoshax
+Architecture: iphoneos-arm
+Version: 1
+Section: Tweaks
+Maintainer: turannul
+Depends: firmware (>= 8), mobilesubstrate
+Filename: ./debians/PiratedTweaks/xyz.turannul.limneoshax_1_iphoneos-arm.deb
+Size: 36930
+MD5sum: 220b2af97baa5c993b69d39ca06598f1
+SHA1: 819602ecc0980a009abfc96b4c0d6615534dd86d
+SHA256: 91f386b3e44a176d82c939de0cb7187aa40fc70d7d1344e3f2250a6e3d23628d
+SHA512: ac10365f791662de3b5e3ceea3eee4577869142f2f6f8296336d076094792b26d57f12b539c933217d10d2ffd8ef3297b58f7fa9590c4c07ba686e807c93ce48
+Description: Limneos Crack
+Name: Limneos Crack (iOS 8-14)
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
