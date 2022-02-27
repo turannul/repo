@@ -1800,6 +1800,25 @@ SileoDepiction: https://kurrt.com/repo/lifeguard/sileo.php
 Author: Kurrt <dev@kurrt.com>
 Icon: https://turannul.github.io/home/resources/lifeguard.png
 
+Package: net.tateu.moorebarx13
+Architecture: iphoneos-arm
+Version: 0.9.0~alpha1.3.0
+Section: Tweaks
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Installed-Size: 1092
+Depends: firmware (>=12.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debians/Tweaks/MoreBar/net.tateu.moorebarx13_0.9.0~alpha1.3.0_iphoneos-arm.deb
+Size: 311502
+MD5sum: 471537754a7d7545b6641540ec95dc28
+SHA1: 45f806a443fe40aeda4c1861a338b493585098da
+SHA256: 9664afa3a120919bc648bb1de92e8e437380e413a31b4f817646c5b46d5201cc
+SHA512: a7fc7103982fb7f646c6595b5b010eef996bc8802dcb62319b386befd13d2e18e5c24573a627ddde0eb9bc634e5cb9a8d0e24d0dca9ce0af64a6687266a33ac6
+Description: More StatusBar icons.
+Name: MooreBarX13
+Author: tateu (Josh Harris) <tateu@tateu.net>
+Depiction: https://www.tateu.net/repo/html/?p=moorebarx13
+Icon: https://turannul.github.io/home/resour ces/morebar.png
+
 Package: com.devvix.nocshare
 Architecture: iphoneos-arm
 Version: 1.1.1
@@ -1843,67 +1862,6 @@ Author: Brend0n <brendonjkding@126.com>
 Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
 SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
 Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: com.myxxdev.otadelay
-Architecture: iphoneos-arm
-Version: 1.020422
-Section: System
-Maintainer: MYXXdev™
-Installed-Size: 600
-Pre-Depends: dpkg
-Depends: bash, file-cmds, gawk, mobilesubstrate, plutil, preferenceloader, ws.hbang.common
-Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
-Replaces:
-Filename: ./debians/Tweaks/OTAdelay/com.myxxdev.otadelay_1.020422_iphoneos-arm.deb
-Size: 215612
-MD5sum: c2e700bcf0bc4d648e2d1a5a73e7caab
-SHA1: 94b91a80913fc09c3dccfc97188a37f0a83101d4
-SHA256: c87993306905ba75cd8d18ad4bfc4c9ee550c7127829972a1ad91be723a34b3c
-SHA512: 68325a0ae20db7acc9649ff4496ae9aa2db4ef66722078e2db5a8d35311887849d8231eb80f71da354acf9de403b68d68752da9a27969370bd5c8113cfe0b75d
-Description: Delayed OTA updates made easy!
- • Description:
- otaDelay® will allow you to UPDATE your device via OTA to an iOS firmware that is no longer available for regular users by extending the OTA update windows, enforcing a 90 day software update delay.
- -
- Thanks to otaDelay®, this can be done in 4 easy steps... No profiles, no manual file modifications, all automated!
- -
- All available firmware dates are clearly listed within the "Enable otaDelay®" prompt.
- -
- An optional AlternateSU patch is also available within otaDelay® settings that will allow you to install firmwares typically only available to those coming from specific firmwares. For example: As of this writing, this will benefit those coming from <14.5 that would like to update to 14.8 - Without the AlternateSU patch, 15.0.2 will show as the latest update. With AlternateSU enabled, 14.8 will be available to download and install.
- -
- Please ensure you read ALL prompts when navigating through the steps - There's important information given throughout the process!
- -
- Support is available via Telegram (preferred) and Discord - Links can be found in otaDelay® settings under "Tweak Support".
- -
- A special thanks to dhinakG, nyuszika7h and Tanbeer_191!
- -
- Thank you for choosing otaDelay®!
- ♥ MYXXdev™
- --------------------------------------
- --------------------------------------
- • Changelog:
- --------------------------------------
- -
- ~ v1.020422
- -
- Fixed preference bundle for certain devices.
- -
- Fixed contingency issue.
- -
- Updated / added firmware dates.
- -
- Updated OTAEnabler to 0.4.0.
- -
- --------------------------------------
- -
- ~ v1.012122
- -
- Initial release.
- -
-Name: otaDelay®
-Author: MYXXdev™
-Icon: https://turannul.github.io/home/resources/otadelay.png
-Depiction:
-SileoDepiction:
 
 Package: net.cadoth.otaenabler
 Architecture: iphoneos-arm
@@ -1969,6 +1927,29 @@ Native-Depiction: https://apt.tale.me/me.tale.panic.json
 Icon: https://apt.tale.me/packages/me.tale.panic/icon.png
 Header: https://apt.tale.me/packages/me.tale.panic/banner.jpg
 Author: Aarnav Tale <aarnav@tale.me>
+
+Package: com.rpetrich.powercuff
+Architecture: iphoneos-arm
+Version: 0.1~mario.18
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 272
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
+Filename: ./debians/Tweaks/Powercuff/com.rpetrich.powercuff_0.1~mario.18_iphoneos-arm.deb
+Size: 34534
+MD5sum: c3e9378c7eae2020f4ca6ef0f9357ddd
+SHA1: da23f96fe26ff4b9aa845c23e978093af8006cc6
+SHA256: 085f6de53365b00a51e59acb945d8f1db3e6c1a611759bbd693af66a6feb48a6
+SHA512: d92876bf021f66ab2e8f7ccfce5bf27cf6629ced3a972b79384c68837a985729ef3959066b8522f276f6def3bd42decec3ce95771638e5f11d0622a54b762a2f
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Name: Powercuff
+Depiction: http://rpetri.ch/cydia/powercuff/
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Icon: https://turannul.github.io/home/resources/powercuff.png
 
 Package: weeb.lillie.youtubedislikesreturn
 Architecture: iphoneos-arm
