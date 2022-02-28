@@ -2568,19 +2568,6 @@ Name: Succession
 Author: Samg_is_a_Ninja
 Icon: https://turannul.github.io/home/resources/succession.png
 
-Package: sileoturkiye.tweakcleaner
-Architecture: iphoneos-arm
-Version: 14.9c
-Section: Uygulama
-Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: File not Found.
-Description: BUNU KULLANMAYIN. Telefonunuzu bozabilir. Bu paket kaldırıldı.
-Tag: cydia::commercial
-Name: Tweak Cleaner PRO
-Author: Önder Azazi <onderazazi@hotmail.com>
-Icon: https://turannul.github.io/home/resources/tweakcleaner.png
-
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
 Version: 1.4.9
