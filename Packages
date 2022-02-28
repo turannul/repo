@@ -2699,6 +2699,23 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
+Package: com.wyattgahm-kanji.shadowx
+Architecture: iphoneos-arm
+Version: 1.0.1-3+debug
+Section: Tweaks
+Maintainer: Wyatt Gahm
+Installed-Size: 1076
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy
+Filename: ./debians/com.wyattgahm-kanji.shadowx_1.0.1-3+debug_iphoneos-arm.deb
+Size: 239816
+MD5sum: 1cf3d1ed06814a107ea0779bbc24a670
+SHA1: f8d32ab9a6bd9ccc2fda3ab366f69f906fdd30ad
+SHA256: ffff316064ae6c12c9fd1c8a9b74f6db4ddbf4ac27b02295af660ba94d8bc567
+SHA512: f3c91b0a92a358314b1695e82583708a6a77f4dc78f3d6e356d513efdcec0fc7975d7b5126a9a7680d1439de9eff057967506fcfad945a91879e0587ffdf3c1f
+Description: Shadow X for Snapchat
+Name: Shadow X (Beta)
+Author: Wyatt x Kanji
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
 Version: 0.3-5
