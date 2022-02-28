@@ -2574,13 +2574,9 @@ Version: 14.9c
 Section: Uygulama
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debians/Uygulamalar/TweakCleaner/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
-Size: 4717622
-MD5sum: 821eb23d600c195ec2ccd5f45d1c7a12
-SHA1: 9074c107265b7f2e5659ba69d9680536dc27cf73
-SHA256: e5ca1b5452ea8b64cabe0c1a66b11b277ee882def78044fbdce79a98f9df42fe
-SHA512: e697244f8acd1c1bfe70bc7001ac1f39c7f9881ba2ec4fc5c8ee8ac98a7fa41699f1c5dcf6c53385a67c42007cbac7933038c59fa880a70fcc4999bb6d5c10e4
-Description: Returns the device to its original JB state.
+Filename: File not Found.
+Description: BUNU KULLANMAYIN. Telefonunuzu bozabilir. Bu paket kaldırıldı.
+Tag: cydia::commercial
 Name: Tweak Cleaner PRO
 Author: Önder Azazi <onderazazi@hotmail.com>
 Icon: https://turannul.github.io/home/resources/tweakcleaner.png

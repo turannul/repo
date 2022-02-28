@@ -22,9 +22,9 @@ EOF
 
 cd /private/var/mobile/Documents/Github/repo
 git pull
-
-/var/mobile/Documents/Github/repo/updaterepo.sh
-
+#
+#/var/mobile/Documents/Github/repo/updaterepo.sh
+#
 git add /private/var/mobile/Documents/Github/repo
 
 echo "Bir açıklama ekle"
