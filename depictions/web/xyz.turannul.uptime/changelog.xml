@@ -53,4 +53,8 @@
         <version>5.5</version>
         <change>Bug Fix</change>
     </changes>
+<changes>
+        <version>6.0</version>
+        <change>Kurulu paket sayımı artık doğru. Gereksiz elementler kaldırıldı.</change>
+    </changes>
 </changelog>

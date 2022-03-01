@@ -1155,6 +1155,26 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: Uptime 2
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
+Version: 6.0
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, perl, zsh, uikittools
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_6.0_iphoneos-arm.deb
+Size: 4342
+MD5sum: a8edc308509c17459948caaa367d1aa4
+SHA1: 39560dc53b9cdffb8493bd19505b0cf41c288dad
+SHA256: 191cd296c913bdfc9ea38ecc243af6883bea3f7b490b95a33ab9894a95b12c07
+SHA512: 931792671dfadeb19e4ac76345df79b5d1d67319f0d8f6db587511b8ed35c5e937fc601d721f3f14bcff1b92a7d4f729a1657608c5f357abaa427f70b10c9746
+Description: uptime ama çok daha iyisi.
+Author: turannul
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: Uptime 2
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: com.spark.snowboard.statusbar
 Architecture: iphoneos-arm
 Version: 1.0.12-Beta4
