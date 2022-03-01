@@ -1693,25 +1693,6 @@ Name: FiveColumnsCC
 Author: 4nni3 <4nni3.14@gmail.com>
 Icon: https://turannul.github.io/home/resources/tweak.png
 
-Package: com.udevs.ntspeedauto
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: udevs
-Installed-Size: 136
-Depends: mobilesubstrate, firmware(>=13.0), com.julioverne.ntspeed
-Filename: ./debians/Tweaks/HideNTSpeed/com.udevs.ntspeedauto_1.0_iphoneos-arm.deb
-Size: 6606
-MD5sum: 70f353deb5f4e29d36f5389f1ac1c8f3
-SHA1: 4d3958425808ec7d29a4734fcd06a2bd0787963f
-SHA256: 04a604523c860713a9fdc539a723585b33a5611eef4e5a21b515a42e66b1c185
-SHA512: a96c3708960bcdb14b690b0a750e68f18372e05d567cdbd9b0b329879f2d0f448dc884cab3a58aca35d6a2d46aae0778f8f71b21fbdc5f091c0d78b295d5880e
-Description: Hide NtSpeed window when you're in fullscreen mode.
-Name: NTSpeedAuto
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.ntspeedauto
-Icon: https://turannul.github.io/home/resources/tweak.png
-
 Package: com.ichitaso.hideserialnumber
 Architecture: iphoneos-arm
 Version: 0.0.2
@@ -1861,6 +1842,26 @@ Name: MooreBarX13
 Author: tateu (Josh Harris) <tateu@tateu.net>
 Depiction: https://www.tateu.net/repo/html/?p=moorebarx13
 Icon: https://turannul.github.io/home/resour ces/morebar.png
+
+Package: com.julioverne.ntspeed
+Architecture: iphoneos-arm
+Version: 0.3
+Section: Tweaks
+Maintainer: Julio & turannul
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debians/Tweaks/NTSpeed/com.julioverne.ntspeed_0.3_iphoneos-arm.deb
+Size: 127848
+MD5sum: 4a43adf3a480905f5c9f672c10623995
+SHA1: 5c178d39fb6653652393e51106c1dd1c567ca4bd
+SHA256: 5fbf34a760e953e9327807fa354845206a989d91eabae38778061ba4c1d7d584
+SHA512: 98a5973676998da7acb22ca5376aca4304fee8f9f5004e4979f3144e092387afb86916cec202545661d3db10cccfb6b7f3154e00c27dcd774fa5d88863767360
+Homepage: https://twitter.com/ijulioverne
+Description: Bağlantı hızınızı görün.
+ Diğerlerinden farkı Tam ekranda görünmez.
+Name: NtSpeed
+Author: julioverne
+Icon: https://turannul.github.io/home/resources/ntspeed.png
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.ntspeed
 
 Package: com.devvix.nocshare
 Architecture: iphoneos-arm
