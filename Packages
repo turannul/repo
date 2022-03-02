@@ -2063,16 +2063,16 @@ Version: 2.8
 Section: Tweaks
 Maintainer: Paisseon
 Installed-Size: 100
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Depends: firmware (>= 12.0), firmware (<= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: ai.paisseon.satella
 Filename: ./debians/Tweaks/Satella/Satella-(iOS12)/ai.paisseon.satella12_2.8_iphoneos-arm.deb
-Size: 31078
-MD5sum: 594e659657e7605f441c68581d2acc32
-SHA1: ca199c5c47c5227ddd968e9f09a71659a146887b
-SHA256: bba6c5ff5d60c391a1171fd70a07d3b51e7b457902def4b0c353035f488e23ec
-SHA512: f25f94661284a4a4d2297ef6648520cdcd699370e4878c5dd78f567346fe32313b34e00aef3a9b7eeb5cf1858327979b99dd43c488ef985a11dfcfc862f54faa
-Description: Satella with iOS 12 compatible preferences?
-Name: Satella (Legacy)
+Size: 31094
+MD5sum: d0171270c2bdce2b03cddf02a81458a6
+SHA1: c8a38fc8a81cc404f228be3189ff4a422089920b
+SHA256: d8dadff76acd73fd09776f98e5abdac87457a3a098fc920ea9350c07bf5ef393
+SHA512: f373a612f531b9358f9f1fd708bfc67ae37bd8348ffdaef87e271489cfd1d2e807a2eaa06fdf851b5aa166a628182c9741714295c40d8768005828bcc919d941
+Description: Ayarları iOS 12 ile uyumlu     versiyonu.
+Name: Satella (iOS 12)
 Author: Paisseon
 Icon: https://turannul.github.io/home/resources/satella.png
 SileoDepiction: https://paisseon.github.io/info/satella.json
@@ -2654,16 +2654,16 @@ Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: com.turannul.paisseon.icleanerprohack12
 Architecture: iphoneos-arm
-Version: 1.2+debug
+Version: 1.3~test
 Section: Tweaks
 Maintainer: turannul
 Depends: com.exile90.icleanerpro, dev.theos.orion12, firmware (>= 12.0), firmware (<= 14.0)
-Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack12_1.2+debug_iphoneos-arm.deb
-Size: 21220
-MD5sum: 8501807344446cdf0870f7bb9c0e00ea
-SHA1: bbd0a0d99f3eb2d8b36b02a095959826b1019889
-SHA256: af999beafc429e454f6f808b1a8711d8eaa34b50149975c30c63611392bf278b
-SHA512: 702294f9a70d7243879778af231492772aea82b77057157e2b5535a3b840f151b89415049939b9e7848055c19dba5a6d2bc56dd38ebefb8bc63a25bc890bb39b
+Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack12_1.3~test_iphoneos-arm.deb
+Size: 21216
+MD5sum: 52c6fe85b1b99060c9550f11e1b3a727
+SHA1: 43b0a937d8a2313182115939b3cda1e1c8c7b25e
+SHA256: b587374f1beaabfbc1b5744a22395097439a53c92484cf1348155a725cdf838d
+SHA512: dd63b84a8b4279b10101752b3a8eda120529f5c025b9747d7bcc6fea135297076de3065e8137ff8ad43870879e73d49c57d57604655157ef30ceb3d096e1b637
 Homepage: http://ib-soft.net/icleaner
 Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
 Name: iCleaner Pro Hack (iOS 12-13)
@@ -2673,16 +2673,16 @@ Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: com.turannul.paisseon.icleanerprohack
 Architecture: iphoneos-arm
-Version: 1.2+debug
+Version: 1.3~test
 Section: Tweaks
 Maintainer: turannul
 Depends: com.exile90.icleanerpro, dev.theos.orion14, firmware (>= 14.0)
-Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack_1.2+debug_iphoneos-arm.deb
-Size: 21210
-MD5sum: 6265a9f7c7cba42451df9a81443be87e
-SHA1: c96efaf1c1d6f77c47f5993e01f5e8c89fdbead6
-SHA256: ad933ccd7d62147b3c11f0af8fea0f92271c7441366b9f1dc3cc99e4e4793842
-SHA512: e20a1174816bef36bbf79f7724a42c71fe46e85e0e7e7d2ae8e5918387eb732a4b328a4b27bf5b9b21025467360dbae7b0bb161b0938030fb25f8db9b7764d04
+Filename: ./debians/Uygulamalar/iCleaner/com.turannul.paisseon.icleanerprohack_1.3~test_iphoneos-arm.deb
+Size: 21204
+MD5sum: d4afe4ec28f5fbfccbff4dae70563674
+SHA1: 77440977b3c1f4c929d5a3df05964d9a0f9f3d4f
+SHA256: 93663210dba1ac4c83c41cc77134ebcb325b8db12ef36ce6b3b9f24d2b4bbaa0
+SHA512: abed12b95921e615b7896459035b1b23f3f56ce6f1aa73352acfd9781358087059d7a7e73c8db27de3cec0c4e3c622bf174b1fb01e9c013ff41a32b5718c1ea1
 Homepage: http://ib-soft.net/icleaner
 Description: iCleaner Pro LocalHost Aktivasyon paketi iCleaner Pro 7.9.1+ uyumlu
 Name: iCleaner Pro Hack (iOS 14+)
