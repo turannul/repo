@@ -2380,6 +2380,24 @@ Name: vnodebypass
 Author: XsF1re
 Icon: https://turannul.github.io/home/resources/vnode.png
 
+Package: com.level3tjg.vnodebypassccmodule
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Control Center (Modules)
+Maintainer: level3tjg
+Installed-Size: 152
+Depends: com.opa334.ccsupport, kr.xsf1re.vnodebypass
+Filename: ./debians/Tweaks/vnode/vnodecc/com.level3tjg.vnodebypassccmodule_0.0.1_iphoneos-arm.deb
+Size: 8152
+MD5sum: 6ba605b1ad8d45002c7b46972300cd9c
+SHA1: c7c8e11c8c1534a5ecffac5196c4b3d746a49fa5
+SHA256: 2cc36685bd696681c0294328f4b54fea0a69a64eda82d606485ec58f39fbbdfb
+SHA512: 871dc4d89b13b5bb590c32c958f8e45231c9756eeabbed0d6496e2710f36357e5670f4fe644fab95ffabf2a083b2dd7c74bce355e6ddea2acae2c025dcd6f27f
+Description: Enable / disable vnodebypass from the Control Center
+Name: vnodebypass CC Module
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
+Author: level3tjg
+
 Package: xyz.turannul.altstorebeta
 Architecture: iphoneos-arm
 Version: 1.5b3
