@@ -493,17 +493,17 @@ SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: xyz.willy.zebra
 Architecture: iphoneos-arm
-Version: 1.1.25
+Version: 1.1.26
 Section: Packaging
 Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 14828
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.25_iphoneos-arm.deb
-Size: 9537940
-MD5sum: e815aa596034f31b91b8802716339761
-SHA1: eac579de260a7d0d34c112a39a7a05e3d337de0b
-SHA256: 2d4f08f3fb9a33c2c00d4d66c92abd8ee3fa530e4164121dac4345dbd239e4c2
-SHA512: c637c0a94582cf151ccff7b4f62cad6ef2de3ca254bde6ba63c98a7593c35eed2bd8a6cdd4352ae741b180c9cf5f2c9f844514c057c81943a2e08a3936fe941d
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.26_iphoneos-arm.deb
+Size: 9539976
+MD5sum: a96677355eded24faf926f86cfd4142b
+SHA1: 88c854a89f8b741f643161f6d882e3f40e500191
+SHA256: f149f3011d87e794d03cbcded3726c29f8343ab945daaabd724074528d68283d
+SHA512: e4500e096e6487595d9d828d61224af3a144063a4ef0570e6c5f4d429c67f04818337c5bafbb46f6ad33d39cadf844e00148017dac974683f04be709937bfcba
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
 Name: Zebra

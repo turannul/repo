@@ -1,3 +1,4 @@
-cd /var/mobile/Documents/Github/repo/debians/Packaging/Zebra
-rm *.deb
-apt download xyz.willy.zebra -y --allow-unauthenticated
+whereami=$(pwd)
+cd $whereami
+#rm *.deb
+apt-get download xyz.willy.zebra -y --allow-unauthenticated
