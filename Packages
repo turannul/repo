@@ -1177,17 +1177,17 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
-Version: 6.0~1
+Version: 6.1
 Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, perl, zsh, uikittools, gawk
-Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_6.0~1_iphoneos-arm.deb
-Size: 4354
-MD5sum: 826e11830bd60a9e9334863043deab89
-SHA1: 262877b92e85abc663c86f1b740f2f48ce259c59
-SHA256: bf43cf6704c95282b1c94a2ded76d2ac0b5cf00a61cfe90b37e6478f6e9188d5
-SHA512: 32262e5b405a210bdd367cf20b3e89ba25b30751dd5373feb6ac36ec626c5ee7b0d4c62b1ecf3f5161e2dc1abdbee7b8b068bbbbfd6a6a9047c7c88576c2aec5
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_6.1_iphoneos-arm.deb
+Size: 4350
+MD5sum: 92b7537ccac2359e868db5508bf1be11
+SHA1: c927f0707654b89b0bfd311d1e65a67381448f6e
+SHA256: e7818715b0503e5a85cfd5f087bf37e5fff2dace578ec459b727939a5cb5b3ef
+SHA512: 4ee278a3092e2dc399a3945c3e7676d8984664faa672f801952ebf6f3412091bd15a711214b90b9109261ad795bceeac9d1889d8df8964f0693219f2b8740d6c
 Description: uptime ama çok daha iyisi.
 Author: turannul
 Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
