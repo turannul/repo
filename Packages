@@ -2121,18 +2121,19 @@ Depiction: https://paisseon.github.io/info/satella.html
 
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
-Version: 0.5b
+Version: 1.0
+Priority: optional
 Section: Tweaks
 Maintainer: Paisseon
-Installed-Size: 540
+Installed-Size: 604
 Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
 Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella/Satella-2/emt.paisseon.satella_0.5b_iphoneos-arm.deb
-Size: 61170
-MD5sum: 056ac66c81b87e4f25b42a1b199a42b1
-SHA1: 12e5ea961db26c29e997fb968e9010faa0965043
-SHA256: 8f88aeaa50fe0c146dc5603f5d9da575d4213a8b3fd1effa66dea94fe59b49e9
-SHA512: 98eddd773e3fc8a9a7dda2542371d26672f116b06e1e80e2e01c9df049af4d04f5bf52a8a082997f8b999f31e161c123ba981ddb251720b1abb24a2c30985b93
+Filename: ./debians/Tweaks/Satella/Satella-2/emt.paisseon.satella_1.0_iphoneos-arm.deb
+Size: 67604
+MD5sum: 29d2b477d302f07531a1cf5efa698b27
+SHA1: aaa5991e093c41a5b53637c8b9d43a5dfab2f9e4
+SHA256: df5ce8d6acc5deaadf51e3d76f585640738bcf2d2444385db5ee1ed79b26ae81
+SHA512: 2f6d02ccfcb8730ad9b1dbd6a2eecfb5e3a852a6aebb26f0d6ec5990a585cf59752c02d202c2523a38e5e1d932874447e684640fac1bc0ee3057b2fd9160827b
 Description: Modern in-app purchase cracker
 Name: Satella 2
 Author: Paisseon
