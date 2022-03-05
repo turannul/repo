@@ -1,0 +1,4 @@
+path=$(pwd)
+cd $path
+rm *.deb
+apt-get download emt.paisseon.satella -y --allow-unauthenticated
