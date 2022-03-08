@@ -518,11 +518,11 @@ Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 14828
 Depends: dpkg, uikittools, firmware (>= 9.0)
 Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.26_iphoneos-arm.deb
-Size: 9539976
-MD5sum: a96677355eded24faf926f86cfd4142b
-SHA1: 88c854a89f8b741f643161f6d882e3f40e500191
-SHA256: f149f3011d87e794d03cbcded3726c29f8343ab945daaabd724074528d68283d
-SHA512: e4500e096e6487595d9d828d61224af3a144063a4ef0570e6c5f4d429c67f04818337c5bafbb46f6ad33d39cadf844e00148017dac974683f04be709937bfcba
+Size: 9540066
+MD5sum: 2a8818cbd44fe35928dba9fbb38079b1
+SHA1: 4d9120c33bbe15463a2168f0487c228a1067a854
+SHA256: 580707ff1cc76002b070a10da6725cff1ec8c9b5a528da093de9857082d42226
+SHA512: 3a37abad8e15fed68c5ff0780e86270d2f8c56d343652c4efdc75c87f4bd09c133e5120c4426e5d45df1aebd829e19c5c1c03df603ae8198fd9f77aeec567d03
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
 Name: Zebra
@@ -1803,17 +1803,17 @@ SileoDepiction: N/A
 
 Package: com.rpetrich.powercuff
 Architecture: iphoneos-arm
-Version: 0.1~mario.18
+Version: 0.2-mario.18
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 272
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.opa334.altlist
-Filename: ./debians/Tweaks/Powercuff/com.rpetrich.powercuff_0.1~mario.18_iphoneos-arm.deb
-Size: 34534
-MD5sum: c3e9378c7eae2020f4ca6ef0f9357ddd
-SHA1: da23f96fe26ff4b9aa845c23e978093af8006cc6
-SHA256: 085f6de53365b00a51e59acb945d8f1db3e6c1a611759bbd693af66a6feb48a6
-SHA512: d92876bf021f66ab2e8f7ccfce5bf27cf6629ced3a972b79384c68837a985729ef3959066b8522f276f6def3bd42decec3ce95771638e5f11d0622a54b762a2f
+Filename: ./debians/Tweaks/Powercuff/com.rpetrich.powercuff_0.2-mario.18_iphoneos-arm.deb
+Size: 34532
+MD5sum: ea5c9859117860dd6324570ee420930a
+SHA1: 3a1691398a34c5e8a95dfa91952b76d5a7ca1b3f
+SHA256: 7862930f78ea0ecb716c06baae7361828f082d457af518ed491fa62000c6cc47
+SHA512: eb9dd0d287379804c87ae40dd70ba3e9158a725abff0f07755c8a05e0921736300f5c2d8d3069ed2c2ffec20a8660a4a55467d66f59322f02d5815ee973ce9b6
 Homepage: http://rpetri.ch/cydia/powercuff/
 Description: Select from additional low power device states
 Tag: purpose::extension
