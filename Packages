@@ -1467,6 +1467,23 @@ Icon: https://apt.tale.me/packages/me.tale.panic/icon.png
 Header: https://apt.tale.me/packages/me.tale.panic/banner.jpg
 Author: Aarnav Tale <aarnav@tale.me>
 
+Package: com.shepgoba.photoinfo
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/PhotoInfo/com.shepgoba.photoinfo_1.0_iphoneos-arm.deb
+Size: 3964
+MD5sum: ea7984805f51e6aab594d130602411fd
+SHA1: a3535e439cd2a70f9c0b065918415b22762339ef
+SHA256: bf5cca10c52eea10041169c1aefb284a26fa8b13a932fbf26b9bc9b28d935c9c
+SHA512: 96663aaa18e06dbe35c0deef5233f3396252ea29cc61914a90f2d546bd780ba62bdeedac16443035fd4ab6968c10f644977391c003224f5bd71e00b568ca1383
+Description: Show photo resolution and disk usage in app
+Name: PhotoInfo
+Author: shepgoba
+
 Package: xyz.turannul.appaze2
 Architecture: iphoneos-arm
 Version: 1.4
