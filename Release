@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: iphoneos-arm64
 Components: main
-Date: Sun, 06 Mar 2022 21:32:05 +0000
+Date: Tue, 08 Mar 2022 11:44:54 +0000
 Label: Turannul's repo 
 Origin: Turannul's repo 
 Suite: stable
@@ -9,28 +9,28 @@ Version: 2.0
 MD5Sum:
  369109d042f2c996153ddd388bf73ecc           143778 Packages
  50d86dd5331e18369576582265fb69cc            41574 Packages.bz2
- ec6c1d468ad5e805e4adddb1a28b00fa            49058 Packages.gz
+ e39efa06b62a8d7fa10883094b119f33            49058 Packages.gz
  da341ca54be085aa1325cd1676ed5a47            42152 Packages.xz
  81d3b3ba4ab569732e4a8ba897c428f7            44057 Packages.zst
- ca734fad746a81040e964ab9a2874611              184 Release
+ ab652b1761434a9331a34dd12bd1e380              184 Release
 SHA1:
  5838d800bb9e839a84bb0327045039ac3a797ee1           143778 Packages
  c2c4c527ee0ce484e47ee5cbf37c5361cca04f77            41574 Packages.bz2
- 12d28d6f2291f62a130aa484f89f712babbb5b25            49058 Packages.gz
+ fc05512677da85ead636916520d668ccc5d98127            49058 Packages.gz
  00fa0b4d16905f35f14549a9c47458a7c5591baf            42152 Packages.xz
  125a3fd2b129efd92b635405f4172758a7015fe1            44057 Packages.zst
- 9ada44ebdd023cfe9915f48088b92ab52c36ac91              184 Release
+ 644fc4ea1f9b27bc84ab275bba164351ad3fd783              184 Release
 SHA256:
  39ffed63e8ed145c315450c5ffbbeb5780a1b7521d30cbce379696dba8beecc3           143778 Packages
  223c741605f5892ce4fa6b23530023aa052ddba6530e4be8e87c308c69e6945f            41574 Packages.bz2
- acde8b9a60939a5547a64d8ef0f3ab8852ef1f4e8846107d04f291334996372f            49058 Packages.gz
+ 7edf92eebe4e4ebdb06c0932d1e3d4a546024198c77818c462a1d116a5857a05            49058 Packages.gz
  0ea63cfadf34d8591acf874c0aead81842ece49e9c8db657f8ea627be0938bca            42152 Packages.xz
  e26304536d96542a2f936eb26f9eef70ef92d553a626127b9d223321d673ef7d            44057 Packages.zst
- 390b3cce5a467860f26ea55b60e0d75fd3bab7006459c0c4f6bd4f3fe576cb0a              184 Release
+ 0164f8f82fa1692bb9e59e7224ffc40565eb580f727e6bfa0aaf472d3a436200              184 Release
 SHA512:
  ea3b9c7f6903bbf7e2abcde593798ba4136c0dbda8b2f490301cc5c6852d4cba37edf16cef0721b1492b07f961b8546e25041aa4fa4a1d7cf71b55bb1edad11d           143778 Packages
  ede7d50f2689eaca5995802da24bd7a0f603e94e3d9639a9e293f3bf0d0347162f99f53119464ef8a6d015b81d18b60fc05044c7bb6cc9b779439c28cfdf1d7a            41574 Packages.bz2
- 7516cdc35013e5c0e1e03804b637d0bde04cc13deec437d2e58f2ebdcd760bdeedfc94d77a33fa2f6ca99cdd93fadc154b4654d8514dd4097041fe869bdcafc9            49058 Packages.gz
+ 57d0af258bd6688510227391c6d9a3ff3ccfef4dfe50476bf97aeee1e85f4c5f1858b2b55488cb8b9701d92d7ee00fc0e0e2dc6c4fca125148743bcb5a8e2e6b            49058 Packages.gz
  4b4c49446ebb2444c2a3959f6a5536280c2afda4b27bdd6a9f79eb5cd9ebac47a134362e0e742cc05345da5f55aff31e8b60838f418473535905eb73c9a50fcf            42152 Packages.xz
  96cd24a66864ea44e4abdf7e85fec7c1d62ff7e0c758d14bb43aa2905508792fda7432236aaced41639eb7e42fa79c015616bdf3e17983ea7af741301030f201            44057 Packages.zst
- 34c8e83099494493fd5e531a84c746ea7b7be28dbf470a41198ea38b6e7238692fd890a90328878976a441f8be75190b6b4dec9c28f84b62b8f67fcd359a70ca              184 Release
+ e3402883a4dc86811af2fcd7562db70d4ca9ac5308446075947cd712114954333a9c96fd0a605df39bdc4f89df351c79b3e5699f4df0698bb12977bd9c498c48              184 Release
