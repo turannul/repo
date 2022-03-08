@@ -1930,6 +1930,23 @@ Icon: https://paisseon.github.io/icons/satella2.png
 SileoDepiction: https://paisseon.github.io/depictions/satella2.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
+Package: com.wyattgahm-kanji.shadowx
+Architecture: iphoneos-arm
+Version: 1.0.1-3+debug
+Section: Tweaks
+Maintainer: Wyatt Gahm
+Installed-Size: 1076
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy
+Filename: ./debians/Tweaks/Snapchet/com.wyattgahm-kanji.shadowx_1.0.1-3+debug_iphoneos-arm.deb
+Size: 239816
+MD5sum: 1cf3d1ed06814a107ea0779bbc24a670
+SHA1: f8d32ab9a6bd9ccc2fda3ab366f69f906fdd30ad
+SHA256: ffff316064ae6c12c9fd1c8a9b74f6db4ddbf4ac27b02295af660ba94d8bc567
+SHA512: f3c91b0a92a358314b1695e82583708a6a77f4dc78f3d6e356d513efdcec0fc7975d7b5126a9a7680d1439de9eff057967506fcfad945a91879e0587ffdf3c1f
+Description: Shadow X for Snapchat
+Name: Shadow X (Beta)
+Author: Wyatt x Kanji
+
 Package: com.spark.snowboard.statusbar
 Architecture: iphoneos-arm
 Version: 1.0.12-Beta4
@@ -2312,6 +2329,25 @@ Name: WebShade
 Author: WilsontheWolf
 Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthewolf.webshade
 
+Package: com.itaysoft.wifilist
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Utilities
+Maintainer: Itay
+Installed-Size: 1128
+Filename: ./debians/Tweaks/WiFilist/com.itaysoft.wifilist_1.0.0_iphoneos-arm.deb
+Size: 910284
+MD5sum: 67bc674ff299d7c8dcd19bb3a57f0c84
+SHA1: f4738968c03952928b1b2b06d2ae07c075e06f48
+SHA256: d617a4ace06878244e3f506a4250789309ea7660af395fedf70997b5076060b5
+SHA512: 5a58388b81f04942487b8c3742ad263e2c48e7c5a394c8438c8a1fafeec6b06a47a51ceca2e8d99d5aafdaf664ffb25a7bcebba81b53a89548d804264f80beb1
+Description: View and share WiFi passwords
+Name: WiFi List
+Author: Itay
+Icon: https://www.icaughtuapp.com/repo/icons/com.itaysoft.wifilist.png
+Depiction: https://www.icaughtuapp.com/repo/depictions/web/?p=com.itaysoft.wifilist
+SileoDepiction: https://www.icaughtuapp.com/repo/depictions/native/com.itaysoft.wifilist/depiction.json
+
 Package: jp.dcsyhi.zetsu
 Architecture: iphoneos-arm
 Version: 1.3.0.1
@@ -2330,23 +2366,6 @@ Name: Zetsu
 Author: Dcsyhi
 icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: com.wyattgahm-kanji.shadowx
-Architecture: iphoneos-arm
-Version: 1.0.1-3+debug
-Section: Tweaks
-Maintainer: Wyatt Gahm
-Installed-Size: 1076
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy
-Filename: ./debians/Tweaks/com.wyattgahm-kanji.shadowx_1.0.1-3+debug_iphoneos-arm.deb
-Size: 239816
-MD5sum: 1cf3d1ed06814a107ea0779bbc24a670
-SHA1: f8d32ab9a6bd9ccc2fda3ab366f69f906fdd30ad
-SHA256: ffff316064ae6c12c9fd1c8a9b74f6db4ddbf4ac27b02295af660ba94d8bc567
-SHA512: f3c91b0a92a358314b1695e82583708a6a77f4dc78f3d6e356d513efdcec0fc7975d7b5126a9a7680d1439de9eff057967506fcfad945a91879e0587ffdf3c1f
-Description: Shadow X for Snapchat
-Name: Shadow X (Beta)
-Author: Wyatt x Kanji
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
