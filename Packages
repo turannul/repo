@@ -5,11 +5,11 @@ Section: Wallpaper
 Maintainer: turannul
 Depends: wallpaperloader
 Filename: ./debians/Duvar-Kağıtları/FireWatch/xyz.turannul.firewatch_1.0_iphoneos-arm.deb
-Size: 4333368
-MD5sum: b1fb0c807166924f2716fd86d63c8994
-SHA1: 7556ab50e9344240e3fea8394720bd60b2ee277c
-SHA256: e4a856ff5e8d339c85a983c8029a9ba0804da6c3e23a28d5c9375b250c520701
-SHA512: added00c590087d9a902b421872daf7eed02a3b5a11300112de0ceef3c6f0b6e5c08f33f6a6259e82167ec27eae3b5a90007f70829e12872a9181a43caab4be8
+Size: 2013374
+MD5sum: 82e682fa52e4f0c1f6f99bbf8dfe7ff9
+SHA1: aa00df9587484f17e5e34a245f01d826a0bf6a3f
+SHA256: 16b45d616f40a2a869fa9f9d9f5d64b56574feb3ba29743db74ec8991d1a978b
+SHA512: e8c35f34a6930986584b19f342232fbd57951c2e955baa7b969186ba1441e885b8f15e39eed6094717d1c743acd2a4027186acd27de5029c72e1b7d6879cff2b
 Description:
 Name: FireWatch Wallpaper
 Author: turannul
@@ -995,6 +995,25 @@ Author: CokePokes
 Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/appstoreplusplus.png
+
+Package: com.dpkg.arkromepro
+Architecture: iphoneos-arm
+Version: 1.0.17
+Section: Tweaks
+Maintainer: dpkg_
+Installed-Size: 280
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.creaturesurvive.libcscolorpicker
+Conflicts: com.dpkg.batterypercent12, com.dpkg.batterypercenta12, com.dpkg.arkrome
+Filename: ./debians/Tweaks/ArkromePro/com.dpkg.arkromepro_1.0.17_iphoneos-arm.deb
+Size: 42716
+MD5sum: 301dc2a4b776f5d645fe4960a71be192
+SHA1: 6d4ef8819b7ea98e2ff11f0c1b3c7e6de889da7f
+SHA256: caddc88aa08cb155d494615c5fa9f6a26e499edf8c393009745900168db9fbdc
+SHA512: 807a6c102cf7a8df974e2611bd529e40202c523b6af2a7719de0b8ffc765006259c99b050668108468b63771b9231ef0fc259b1526e4e7e24ce97eeff7712db5
+Description: Apple's hidden feature to show the battery percentage inside the icon.
+Name: ArkromePro
+Author: dpkg_
+Icon: https://turannul.github.io/home/resources/arkromepro.png
 
 Package: com.shiftcmdk.autoalerts
 Architecture: iphoneos-arm
