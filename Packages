@@ -2824,17 +2824,19 @@ Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: xyz.canpng.istb
 Architecture: iphoneos-arm
-Version: 1.23.0
+Version: 1.23.1
 Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.0_iphoneos-arm.deb
-Size: 24547074
-MD5sum: 33ac2d5af209d24a7a1cdb9e72bb744a
-SHA1: ae27583bf68d714ba57fedfb2b53c8e0d1a40183
-SHA256: e610fe8e29a4c882faa5ccd1cb2f90c2dcb3b54ec48f1d4eec6a5743081db026
-SHA512: 3b105878b125217c041797016a1b43c1208cba05e1e9bde678287afc459eb15bf32cf517c0de8c483886183f43a722dec665b62b778c7cde8efb42158abb6e33
-Description: iPhone / iPad için iPTV AppSync Repo: https://cydia.akemi.ai/
+Filename: ./debians/Uygulamalar/iSTB/xyz.canpng.istb_1.23.1_iphoneos-arm.deb
+Size: 33950752
+MD5sum: 33a7c61b1013c602f31bd62a569d46d5
+SHA1: b3806bb161f3ab8e13b76bc3866f40752ac8dae0
+SHA256: 0c91532ee7e17bb8f7e44ec151c219cfc5fd477de7c6af326d7a34f0fef91005
+SHA512: f040fc070c2f595a844e41473e7ff6767cac7e1ebb2f9e5c0471bfddfaa1a25814408c297b815991da275da8001f3597982e9966283b181401594ad5a49012c4
+Description: iPhone / iPad için iPTV 
+ ⚠️ Aşağıdaki repoyu eklemeden kurulum yapamazsınız.
+ AppSync Repo: https://cydia.akemi.ai/
 Name: iSTB
 Author: canpng
 Icon: https://turannul.github.io/home/resources/istb.png
