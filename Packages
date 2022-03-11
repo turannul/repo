@@ -2509,25 +2509,25 @@ Name: vnodebypass CC Module
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
 Author: level3tjg
 
-Package: xyz.turannul.altstorebeta
+Package: xyz.turannul.altstore
 Architecture: iphoneos-arm
-Version: 1.5b3
+Version: 1.4.9
 Section: Uygulama
 Maintainer: turannul
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
-Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstorebeta_1.5b3_iphoneos-arm.deb
-Size: 5205104
-MD5sum: b9c6719f7edd19df458bf77013695c9f
-SHA1: 6177bbe98f0d09797d2799e2c00966c1b4b5b97a
-SHA256: 0167b6f79ecee073753f0024c7fc9ba7d92bcf99e64c787d9bda7c21d0a8e025
-SHA512: 4c29a60014b12e5e34e8dc74dc02aa0271f8c9f6404642b80fda547631eeca75fc93f197c66ba7d66585a6e2f89c73d168bc41a43df04a49b6e4488055e9fd9b
+Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
+Size: 3661316
+MD5sum: 0e717524a45a93db04fe450044f8cefe
+SHA1: 079faa30140f48ea3e495296a0f7fc41fafa3f37
+SHA256: 26ece464ba7d45bbbddaf1d84ddc2392aca6e9998657f790b56b4d2cd7095897
+SHA512: f18ccbb71e4b067d6384ef44616ead46bf187c16ddea7cbbc9fa3b125ce8aedab62f33223ca0c2660992a1b14980d007f11d785bad11d6bd1b050ec564c6a9eb
 Homepage: https://altstore.io/
-Description: AltStore Beta
+Description: Patreon özellikleri aktif.
 Author: Riley Testut
-Name: AltStore (Beta)
-Depiction: AltStore Beta
+Name: AltStore++
+Depiction: Patreon özellikleri aktif.
 Icon: https://turannul.github.io/home/resources/altstore.png
 
 Package: Appcake
@@ -2822,6 +2822,27 @@ Author: turannul
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: https://turannul.github.io/home/resources/icleaner.png
 
+Package: com.gamegod.igg
+Architecture: iphoneos-arm
+Version: 0.2.5
+Section: Uygulama
+Maintainer: iGameGod
+Installed-Size: 184304
+Depends: mobilesubstrate (>= 0.9.5000), FIRMWARE (>= 13) | applist
+Filename: ./debians/Uygulamalar/iGameGod/com.gamegod.igg_0.2.5_iphoneos-arm.deb
+Size: 51462188
+MD5sum: ed51f041a2404be718f03514e7de7e20
+SHA1: 71080a6bf57a7096d230989fbbc84acc1f015154
+SHA256: ee2aa8ea66c5f74eb71f57e745e1c90a1a2ad081489fa0e29f18627ce1f25a70
+SHA512: 0ba9c8cffe6316e9dd8a96070a4dbd0bd71688e71b25fe8bf3f2aa8dbffccac9c3bf691bad9cd26e9f6c14e6736cd229851940366062884a197a095c1410853a
+Description: Hile kolsuz işidir
+ -turannul
+ Bu tweak iPA almak için kullanılabilir,
+ Libhooker jailbreaklarda çalışıyor.
+Name: iGameGod
+Author: iGameGod
+Icon: https://turannul.github.io/home/resources/younoob.png
+
 Package: xyz.canpng.istb
 Architecture: iphoneos-arm
 Version: 1.23.1
@@ -2975,6 +2996,25 @@ MD5sum: 0d99c9b8388dde549c23ebb7bf51da85
 SHA1: 0e2cf32fcbd16de53749c070d1c1c293c43dfa97
 SHA256: 7c7d9d1842d8d7f49b5849682cd59cdee0a350e1697949376d84d5496fbc0215
 SHA512: 4b6d3f4d2b61447e5719ea18013d4757f7faa83a4c46f6c4d03ae50892b50fb6c14ddf8a04af2e5f23ce9d0ad394340fca253e1efc91ddbd5f11e0e00cb48630
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: Development
+Maintainer: MrGcGamer
+Installed-Size: 328
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: ./debians/zzzzz/com.mrgcgamer.libgcuniversal_1.5.0_iphoneos-arm.deb
+Size: 55446
+MD5sum: ad0cb30cec8e95e1e16445a8cef70a42
+SHA1: 63ac91b4a9c14a059e84eab7c3a5111cf9736271
+SHA256: d4cf75097b296a4c2ff25a514e7bdf2368a524e4f42d55e4c61f81f90960222f
+SHA512: ac3f1a0d59918507a7d6d1faef84a2c767c226342ad0be71483cf3ad132b798bd58c53e67d5b2bdbea0d560e55fc4607c8834d4849b6a57d6f924f449dbfdef5
 Description: An awesome library of some sort!!
 Tag: role::developer
 Name: LibGcUniversal

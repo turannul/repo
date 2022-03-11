@@ -1,0 +1,49 @@
+#!/bin/bash
+date1=$(date)
+date2=$(date)
+done=$(expr $date1 - $date2)
+echo "Done! in $done"
+
+echo "Started.."
+echo "Stage 1"
+cat << EOF
+Oh shit! Here go again
+- Carl Johnson
+EOF
+
+cd /var/mobile/Documents/Github/home
+git pull
+git add *
+git commit -a -m "Updated."
+git push 
+
+cd /private/var/mobile/Documents/Github/repo
+git pull
+
+echo "Stage 1 Completed."
+
+echo "Stage 2"
+
+cd /private/var/mobile/Documents/Github/repo
+
+rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
+
+apt-ftparchive packages ./debians > Packages
+    
+gzip -c9 Packages > Packages.gz
+xz -c9 Packages > Packages.xz
+zstd -c19 Packages > Packages.zst
+bzip2 -c9 Packages > Packages.bz2
+apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+
+echo "Stage 2 Completed."
+
+echo "Stage 3"
+
+cd /var/mobile/Documents/Github/repo
+git add *
+git commit -a -m "Updated."
+git push 
+
+echo "Stage 3 Completed"
+echo "Done! in $done"
