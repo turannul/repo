@@ -1,5 +1,7 @@
 #! /bin/zsh
 
+start=$(date +%s) #job start time
+
 cat << EOF
 Oh shit! Here go again
 - Carl Johnson
@@ -33,4 +35,8 @@ git commit -a -m "$not"
 
 echo "Upload Started..."
 git push
-echo "Upload Completed..."
+end=$(date +%s) #job finish time
+ptime=$(expr $end - $start)
+#echo "Done! in $ptime seconds" #Result
+echo "Upload completed in $ptime"
+ 
