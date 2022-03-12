@@ -2649,19 +2649,19 @@ Icon: https://turannul.github.io/home/resources/cydown.png
 
 Package: E-Sign
 Architecture: iphoneos-arm
-Version: 4.3.7
+Version: 4.4.0
 Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.3.7_iphoneos-arm.deb
-Size: 4164138
-MD5sum: 8ad876d6a2c2bec98a2d8707de247d6a
-SHA1: 174de1d4a2079a63d3df7935aa16a846ddb07ecb
-SHA256: 314dd9e556fcb79b79ea41e2342bf6dcc226a8f27c32a969c2e2106309ce8b61
-SHA512: 19d9a5e9e586449fec85f6de767037c24ae1a632d9334df6d123fcf9cd9789799717437f0c52cb3f195ef1ea4f72328a67626fe38c005c2f2d858090188dd728
+Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.4.0_iphoneos-arm.deb
+Size: 4184648
+MD5sum: 2fc73016bdfacfeb6b54fb7488f65824
+SHA1: 8c4c9c9f2490c336b9c85435059a937610440c41
+SHA256: 493a96396465f93240d7ed3610058ba22ccecaa5104a789a678ed0e1d5a92226
+SHA512: f04c72951a1c752e70fa3fb286868769982083eae1ed1539b8b7ba0f15eab873db6f38eafe8e13c38ac7aba56abd2eb04437c3d5183435ae106339a08d1d4753
 Description: iPhone / iPad için Uygulama imzalama aracı. AppSync Repo: https://cydia.akemi.ai/
 Name: E-Sign
-Author: ?
+Author: Unknown
 Depiction: iPhone / iPad için Uygulama imzalama aracı.
 SileoDepiction: iPhone / iPad için Uygulama imzalama aracı.
 Icon: https://turannul.github.io/home/resources/esign.png
@@ -2759,28 +2759,6 @@ Description: Stream movies & series for Jailbreak
 Name: ZiniTevi
 Author: ZiniTevi
 Icon: https://turannul.github.io/home/resources/zinitevi.png
-
-Package: com.exile90.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.9.1
-Section: Uygulama
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debians/Uygulamalar/iCleaner/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
-Size: 6756302
-MD5sum: 0f31e86e1b0d53ebf0fc4b3612f8ed21
-SHA1: 2e9b5a3e809d9be8b2ea525432eb8b6f2eca84b2
-SHA256: 5b000f9342bb0d7850d7272a2f5c288db33505b4a46be13305af331ecb21b354
-SHA512: cea13ae5ece8cbd10d6a23dd087e79c286c0f4f1e80779e9691e7ffd876126506740821e72c2857e4c4cd754270b8065dd65d3d6da4eaf8f77671c118e79f2dc
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleaner & optimizer
- *Taurine | Odyssey(ra1n) | Chimera kullananlar sadece CrackTool4 ile etkinleştirebilir.
-Name: iCleaner Pro
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://turannul.github.io/home/resources/icleaner.png
 
 Package: com.turannul.paisseon.icleanerprohack12
 Architecture: iphoneos-arm
