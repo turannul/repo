@@ -36,13 +36,32 @@ Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
 
+Package: xyz.turannul.googlesans100
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts (iOS14)
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/GoogleSans/xyz.turannul.googlesans100_1.0_iphoneos-arm.deb
+Size: 9693420
+MD5sum: 5ad56ccfa2fa9f874c6c71aa856201f8
+SHA1: 319662a0467d6d9d2ab9016dfb0872d45222cdf1
+SHA256: 399fa767bc2c03a4c579be3267f703f0dcdeaf231ebe0ba3126bd0f87efd6ead
+SHA512: 0268cc99867d391da4610000dca64fe1d4cffc1a27e08ef60a50a801fac91f29924f1ea85c16c7e97ef4ccda2ef41190e75edc399544ebc3b06c83690ad8a5bc
+Description: https://twitter.com/alexman1979/status/1372427908283650049?s=21
+Name: Google Sans Font (iOS 14)
+Icon: https://turannul.github.io/home/resources/null.png
+Author: Alexman1979
+Depiction: N/A
+ SileoDepiction: N/A
+
 Package: xyz.turannul.modulusprofont14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts (iOS14)
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.modulusprofont14.deb
+Filename: ./debians/Fonts/14/ModulusPro/xyz.turannul.modulusprofont14.deb
 Size: 31250628
 MD5sum: 20c8e9a6bab616be317fa29c28b997dd
 SHA1: 1a4a15fc7d336daed23850fb263f3d090be15045
