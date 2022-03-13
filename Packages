@@ -2450,11 +2450,11 @@ Maintainer: level3tjg <tjaygrantham@gmail.com>
 Installed-Size: 560
 Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
 Filename: ./debians/Tweaks/bfdecrypt/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
-Size: 86860
-MD5sum: 4100b0feb192312d2d43fe720d202034
-SHA1: f98a4db1ba61f38cbe83f7396575fd1eb300fb2d
-SHA256: 165e11c9c9274279b05a3623fb47dc753311a470f326fd731ebc405d4dec3b51
-SHA512: 72f915e122e8f25f40f14fe6ffc2a64d788891b470d9f514d2a5d203d16df06d20bbee50a30969f538d61e9baf4f69d7ee3afe26232a6e61a29f64dd2454a318
+Size: 68668
+MD5sum: 654d7f22422cf1903b8eeabdd4d13105
+SHA1: 7c801ff3962e27716ceaf38f25298e42cf4be089
+SHA256: fcf2489d95975c8111774c60a73c39e0f2e17d09ca115394dc3faf8acdc23528
+SHA512: 46b43308b54e50c2ca1c7e486034cc041b7206931e271b9224bbbce611a6b41a01a4f8d606c2c79bcce3f49087eb0191d8c4f4c5a688b2d5c135b719cc14e486
 Description: IPA Alma aracı Ayarlardan uygulamayı seçin, uygulamaya girin.
  AppData tweak kullanarak uygulamanın Data gidin documents klasörü içerisinde iPA olacaktır. 
  iOS 11-14 Tüm Jailbreak(ler) ile çalışır.
