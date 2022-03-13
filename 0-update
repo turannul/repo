@@ -38,7 +38,7 @@ repouploaded=$(date +%s)
 #3/3 matematikten nefret ederim.
 
 math1=$(expr $homeupdated - $homeupdate)
-math2=$(expr $homeupload - $homeuploaded)
+math2=$(expr $homeuploaded - $homeupload)
  
 math3=$(expr $repoupdated - $repoupdate)
 math4=$(expr $repouploaded - $repoupload)
