@@ -15,7 +15,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "uptime ama daha iyisi ¯\_(ツ)_/¯",
+                    "markdown": "",
                     "useSpacing": true
                 },
                 {
@@ -49,7 +49,7 @@
                 },
                 {
                     "title": "Version",
-                    "text": "6.0",
+                    "text": "6.2",
                     "class": "DepictionTableTextView"
                 },
                 {

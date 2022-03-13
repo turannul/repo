@@ -9,7 +9,8 @@ EOF
 
 cd /var/mobile/Documents/Github/home
 git pull
-git add /var/mobile/Documents/Github/home
+pwd 
+git add *
 git commit -a -m "Updated."
 git push 
 
@@ -27,7 +28,7 @@ git pull
 
 /var/mobile/Documents/Github/repo/updaterepo.sh
 
-git add /private/var/mobile/Documents/Github/repo
+git add *
 
 #echo "Bir açıklama ekle"
 #read not
@@ -37,6 +38,6 @@ echo "Upload Started..."
 git push
 end=$(date +%s) #job finish time
 ptime=$(expr $end - $start)
-#echo "Done! in $ptime seconds" #Result
+
 echo "Upload completed in $ptime seconds"
  

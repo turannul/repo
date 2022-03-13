@@ -899,6 +899,26 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: Uptime 2
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
+Version: 6.2
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, perl, zsh, uikittools, gawk
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_6.2_iphoneos-arm.deb
+Size: 4104
+MD5sum: 07122cc5c6b72ad06caa66ac85000814
+SHA1: 8c51841f497e18c9ae080be478adb2cdac5517ab
+SHA256: 9540a326bdb65e151d78220e1fc9979216f5849cbba18842316aa7dd2c1708d5
+SHA512: 4f1386626f18c7dfe458cef65239befebe7af46e30fa3f7c5b1a4c4d8ab817d155b4724ac20d5b89e3322cca38e2ac397c768ba7be200246d7e70af7005cec24
+Description: uptime ama çok daha iyisi.
+Author: turannul
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: uptime2
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: xyz.turannul.adblockplusplus
 Architecture: iphoneos-arm
 Version: 1.4.6
