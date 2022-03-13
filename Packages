@@ -984,12 +984,13 @@ Version: 4.5-4
 Section: Tweaks
 Maintainer: Enkidu
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debians/Tweaks/AppsHack/com.firepo.hmodeis.apphack_4.deb
-Size: 3368072
-MD5sum: 46a157f1d712dc73841e20c9056770bb
-SHA1: 7c49914bda32be3e2173ed3a0caf5f35e91f5be3
-SHA256: d40a77b9a73d7f59ae0f27e36594bfff93eddc52df2b246f70ba391fac2c92c2
-SHA512: 893d918b38972d818487ba4000a85909063ae673b69cecbf44912bcd50c7bf4caba077042bb8f1edf344799cf3bf9f42033a20bfb9a45070e9d9ca90c3ce9715
+Filename: ./debians/Tweaks/AppsHack/com.firepo.hmodeis.apphack_4.5-4_iphoneos-arm.deb
+Size: 3087512
+MD5sum: a51e2cef62a13fb3ef7aa0d4a2dcc852
+SHA1: 8d485f6727758881b43e3ace5164b9a657a30af4
+SHA256: 0b256d8a5d8bc57a44639b8f182f7beaf1bea2186430c677bdf7c331e4b4bfea
+SHA512: 1474809be6c96206b43f51bb4d0f5954a9df173ac3d6d39b58c372c4e3119c8f986537054ce67d7ddf1b4c16c89da9d6cca3900654807b2041950a59e47545c2
+Description: N/A
 SileoDepiction: https://aric0.com/Sileo.php?pid=6
 Name: Apps Hacks
 Author: Enkidu
