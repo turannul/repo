@@ -38,5 +38,5 @@ git push
 end=$(date +%s) #job finish time
 ptime=$(expr $end - $start)
 #echo "Done! in $ptime seconds" #Result
-echo "Upload completed in $ptime"
+echo "Upload completed in $ptime seconds"
  
