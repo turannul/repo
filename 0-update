@@ -6,7 +6,9 @@ cd /var/mobile/Documents/Github/home
 git pull
 git add *
 git commit -a -m "Updated."
+homeupload=$(date +%s)
 git push 
+homeuploaded=$(date +%s)
 
 homeupdated=$(date +%s)
 
@@ -33,14 +35,17 @@ repoupload=$(date +%s)
 git push 
 repouploaded=$(date +%s)
 ############################################
-#3/3 matematik'den nefret ederim.
+#3/3 matematikten nefret ederim.
 
 math1=$(expr $homeupdated - $homeupdate)
-math2=$(expr $repoupdated - $repoupdate)
-math3=$(expr $repouploaded - $repoupload)
-math4=$(expr $math1 + $math2 + $math3)
+math2=$(expr $homeupload - $homeuploaded)
+ 
+math3=$(expr $repoupdated - $repoupdate)
+math4=$(expr $repouploaded - $repoupload)
+
+math5=$(expr $math1 + $math2 + $math3 + $math4)
 #sonuç bölümü
 
-echo "home updated in $math1 seconds"
-echo "repo updated in $math2 seconds, uploaded in $math3 seconds"
-echo "Job completed in $math4 seconds"
+echo "home updated in $math1 seconds, uploaded in $math2 seconds"
+echo "repo updated in $math3 seconds, uploaded in $math4 seconds"
+echo "Job completed in $math5 seconds"
