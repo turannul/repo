@@ -1,0 +1,46 @@
+#! /usr/bin/zsh
+
+jobstarted=$(date +%s)
+homeupdate=$(date +%s)
+
+cd /var/mobile/Documents/Github/home
+git pull
+git add *
+git commit -a -m "Updated."
+git push 
+
+homeupdated=$(date +%s)
+
+############################################
+#2/3 #update repo
+cd /var/mobile/Documents/Github/repo
+git pull
+############################################
+repoupdate=$(date +%s)
+rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg#}} 2> /dev/null
+
+apt-ftparchive packages ./debians > Packages
+gzip -c9 Packages > Packages.gz
+xz -c9 Packages > Packages.xz
+zstd -c19 Packages > Packages.zst
+bzip2 -c9 Packages > Packages.bz2
+    
+apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+repoupdated=$(date +%s)
+############################################
+git add *
+git commit -a -m "Updated."
+repoupload=$(date +%s)
+git push 
+repouploaded=$(date +%s)
+jobcompleted=$(date +%s)
+############################################
+#3/3 matematik'den nefret ederim.
+math=$(expr $jobcompleted - $jobstarted)
+math1=$(expr $homeupdated - $homeupdate)
+math2=$(expr $repoupdated - $repoupdate)
+math3=$(expr $repouploaded - $repoupload)
+#sonuç bölümü
+echo "home updated in $math1 seconds"
+echo "repo updated in $math2 seconds, uploaded in $math3 seconds"
+echo "Job completed in $math seconds"
