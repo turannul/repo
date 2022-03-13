@@ -2422,6 +2422,47 @@ Author: Dcsyhi
 icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 
+Package: com.fouadraheb.appdata
+Architecture: iphoneos-arm
+Version: 1.3.6
+Section: Tweaks
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:
+Filename: ./debians/Tweaks/bfdecrypt+AppData/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
+Size: 151924
+MD5sum: 0bb796339255cfb47cf8adf89a73d963
+SHA1: 5eac8a662da3c32a2c2d64ad2011425931eb5157
+SHA256: 91a81e68f82953775aeb076bbf071441f0a54152749d3ee55e431561082e3b67
+SHA512: cb1887a4508e13a9110ba8aaed9ab9e81a2eb0fd94f7f1ace82c647ac52aace44f300a0e8a0d31047157454779092e1197526bb4e2de646a8ed850480eeb85f5
+Description: View & Manage Applications Data from your Home Screen
+Name: AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
+SileoDepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
+Icon: https://turannul.github.io/home/resources/appdata.png
+
+Package: com.level3tjg.bfdecrypt
+Architecture: iphoneos-arm
+Version: 1.3.3-1
+Section: System
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Installed-Size: 560
+Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
+Filename: ./debians/Tweaks/bfdecrypt+AppData/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
+Size: 86812
+MD5sum: 7760e71d9661ddd64b84ba3e8f93cb34
+SHA1: 915828491e701c5b33be5c6eb3e1cb7674b3e0c5
+SHA256: 2159331482748ea51fcae0cac8816922f779aae4d7b6570637f2d6087431746c
+SHA512: f2c1d1f0187b41bbab71f3cfe24a30e39cfcf260df25c4c8143cef080ef4bf7589bf4563b81be3f9f596e1455f383914159174b1449edeccc9ab15d77e3c8630
+Description: bfdecrypt for iOS 12/13/14
+ IPA Alma aracı Ayarlardan uygulamayı seçin, uygulamaya girin.
+ AppData tweak kullanarak uygulamanın Data gidin documents klasörü içerisinde iPA olacaktır. 
+ iOS 12-14 Tüm Jailbreak(ler) ile çalışır.
+Name: bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+Icon: https://turannul.github.io/home/resources/bfdecrypt.png
+
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
 Version: 0.2.2
