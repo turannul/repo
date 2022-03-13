@@ -29,10 +29,10 @@ git pull
 
 git add /private/var/mobile/Documents/Github/repo
 
-echo "Bir açıklama ekle"
-read not
-git commit -a -m "$not"
-
+#echo "Bir açıklama ekle"
+#read not
+#git commit -a -m "$not"
+git commit -a -m "Updated."
 echo "Upload Started..."
 git push
 end=$(date +%s) #job finish time
