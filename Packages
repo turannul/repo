@@ -978,6 +978,30 @@ Author: Riley Testut <support@altstore.io>
 Icon: https://turannul.github.io/home/resources/altstore.png
 Depiction: https://chariz.com/get/altdaemon
 
+Package: com.mtac.aperture
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: MTAC <mtac@mtac.app>
+Depends: firmware (>=13.0), firmware (>= 13.0)
+Filename: ./debians/Tweaks/Aperture/com.mtac.aperture_1.3_iphoneos-arm.deb
+Size: 33964
+MD5sum: a57f31609e92ebdee7aca0dd79f2fdfe
+SHA1: 57e4752d9754f5e7ac46fbe290676ae79381b9de
+SHA256: 98f5b6f7ab8d49b47421579b34b16eeefa103f3e66513161f3e1a496cc359985
+SHA512: 11363028b29c75c07dec8d3ae53d940decec89038f0e058a48208594911d0a84f3c2044b512ffe83c4b3b0e904e3365558307dd0d3531de168caad3e8742d27f
+Homepage: https://github.com/MTACS/Telescope
+Description: iOS 15 Photo information for iOS 14
+Tag: role::enduser
+Name: Aperture
+Depiction: https://mtac.app/repo/depiction/web/com.mtac.aperture.html
+SileoDepiction: https://mtac.app/repo/depiction/native/com.mtac.aperture.json
+ModernDepiction: https://mtac.app/repo/depiction/native/com.mtac.aperture.json
+Icon: https://mtac.app/repo/assets/com.mtac.aperture/icon.png
+Tags: compatible_min::ios13.0, compatible_max::ios14.6
+Author: MTAC <mtac@mtac.app>
+SomeOtherEntryToControl: True
+
 Package: com.fouadraheb.appdata
 Architecture: iphoneos-arm
 Version: 1.3.6
