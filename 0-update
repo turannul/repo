@@ -45,7 +45,7 @@ math4=$(expr $repouploaded - $repoupload)
 
 math5=$(expr $math1 + $math2 + $math3 + $math4)
 #sonuç bölümü
-
+tput setaf 2
 echo "home updated in $math1 seconds, uploaded in $math2 seconds"
 echo "repo updated in $math3 seconds, uploaded in $math4 seconds"
-echo "Job completed in $math5 seconds"
+echo "All done. in $math5 seconds"
