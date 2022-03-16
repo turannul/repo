@@ -2641,11 +2641,11 @@ Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Uygulamalar/Appcake/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13423912
-MD5sum: b53d19b7b635c97619318547166d48dd
-SHA1: 3ff9b846b1968d68e9770920da7f866453c8a783
-SHA256: 2ed90acbe9cb89604149913157eb2ca2917fc36700b53d762cda7a9cc2c2dfdc
-SHA512: 2125877eef68e6ed71b10b43bdc24ab855de57046b4e6910689b1313b3bc64b442bb59db1551e84c64cc0d7104138a47f1f5e56a9310c899476606e932324722
+Size: 13423588
+MD5sum: c43ab642e63501547871705f4349be8f
+SHA1: f8add85292ee0a3d4bd5bbf3d0da502c1082a65d
+SHA256: 5f68f01b7f9e9b1cc7cab1d9b6a06545b641cb69c2eea29e8b13499a23714c61
+SHA512: 67a230524c44930b7982da77ca3520fca5f8430c575cbac9f15ffecca671bcec0b113b3b93e049eb7f15c18362827ec0c49dd8a4015964730939a8d8ce4fa02f
 Description: iPhone / iPad için ücretsiz iPA Mağazası. AppSync Repo: https://cydia.akemi.ai/
 Name: Appcake
 Author: iPA Store
@@ -2758,11 +2758,11 @@ Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.4.0_iphoneos-arm.deb
-Size: 4032520
-MD5sum: d315af6e9bbeed5e466443ac588bf725
-SHA1: 1d34e0aeed7e975c96fcc71dd2c513745dc1007f
-SHA256: 89e766b9184c3d81da5ab865fec6339e6f22a45e92abd1422ff44fd17247ba36
-SHA512: ed6f094fe4f5b8d87cdaa6d038fae0a51df99df37d78d6ec41c61c3d2466978127d4c756a0e22ea6446fd74c564402402f1907b5da10377535f99a2f862ca5af
+Size: 4032076
+MD5sum: eca8abe99f57de5b7afa566259a11755
+SHA1: bf9c7c1c8e471306e7fad63f6268cd6a24eb6d78
+SHA256: 78b854aae631a9bd1c8eff60484e6990fe3cf983e26034425d50d8f277dad582
+SHA512: 08a06587127886266e481b69662a5503e444ce6f8a3bcf46a912996d9e0e4e6f0d87d6d808bc6e8ae38324fe010754414a80dbf9f50f11930a7a91b914cf1a3f
 Description: iPhone / iPad için Uygulama imzalama aracı. AppSync Repo: https://cydia.akemi.ai/
 Name: E-Sign
 Author: Unknown
@@ -2854,11 +2854,11 @@ Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Uygulamalar/ZinitEvi/jb.zini.tevi_1.4.9_iphoneos-arm.deb
-Size: 7186936
-MD5sum: ed631da12463762ca79074effb7d4f2b
-SHA1: 4ea494a5b4ae101dd6e09d7a7b9c494f7ca9c09b
-SHA256: 14a87434727231df5b60d38e977c8fc49cf9640924b7ea38b7dd52699106225c
-SHA512: 9bc9ad22fb03cd212653073461b1352c0a8f420201a262d8a0f457df94f14e32a2b0d0c92ce43d1b1c919da2ba1f3ab833d1df3fafaebc5b7f22c5deda5bcce2
+Size: 7186328
+MD5sum: 177eab5e4e2686d697c30d26b6d8a723
+SHA1: f6f33875cc6f2e8530fd3759ef1107a193628300
+SHA256: b7c44c7f05eea2fb5d1dd481a78df674af3438080cbaaa33762cf362266f4b9d
+SHA512: e8f543cf13da0e6e46adb34071b3430a3232fcee84b10d474e3cb823aa5920f0efdf4d68cc888fd761ac9e290d63d80e241b17abd8dfcc80594f806b29d8b063
 Homepage: https://zinitevi.github.io/movieapps/
 Description: Dizi ve Filmleri AppSync Repo: https://cydia.akemi.ai/
 Name: ZiniTevi
@@ -2953,11 +2953,11 @@ Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Uygulamalar/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
-Size: 20167332
-MD5sum: 3730c9a6884cdf556be3a6577d8a9ba6
-SHA1: 21f0c159cd43efa62392392ed41a28898f116142
-SHA256: 9a7e69facf431812a54db622af927c3f4ef9b79a252aa54ecfd0970a57405482
-SHA512: 52a20f363243e4b1627aa9c9751e0586ec32ee318c3e18d52f59451ccddca47fe587650caf82087f37b042709804a422a17ab65b77ac2af181f37cc10d2329ba
+Size: 20169304
+MD5sum: e9ffd1973697611260c2df4c0655d19e
+SHA1: ecaf924eb58d1f3b602728a5f2038ea33630bc13
+SHA256: 20e6fa0370d70186ea2176218c6388b08b170ef0357fc17732fa646ec0fe5a67
+SHA512: e39d6902c896d52aba4de02d011247be718043a04374f1b05bc7373f54e8aa756d010aac770ae86600f245233d53aa1e8d80ab919e715ce7405803460587bd84
 Description: iPhone / iPad için Torrent Client. AppSync Repo: https://cydia.akemi.ai/
 Name: iTorrent
 Author: XITRIX
