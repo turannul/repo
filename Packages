@@ -1834,11 +1834,11 @@ Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, appl
 Conflicts:
 Replaces:
 Filename: ./debians/Tweaks/PiratedTweaks/PulloverPro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
-Size: 743776
-MD5sum: 05ddaae272546bfe9f7204971945aeec
-SHA1: 2b871a468ce131855224ef485b97442c276058a6
-SHA256: 9964dc03e368c432e64d90ea690fc34a5ac36dac9f5d40826968e31ce979efe5
-SHA512: 8a7a92a2c0becb68ea03ae81c0df5b1a70df39f87495d360cc7f9a763111da25a90eae2ccaa48360e228c675148f450d8ba446ac994e37bfbc6cb13618161499
+Size: 743332
+MD5sum: 0760555f92f8eeb4f5539a0a5e98e290
+SHA1: 82f0a9c2bd22efd7dfb62d6ca96e96dcea100d23
+SHA256: 3c55bb58698194e572ceb3f44301527973cb26c3dcc052ce6c704cb9730a28e6
+SHA512: e172e148cac18ff5c253a1a639255ab2c9508417f9d9d812d129cf963aa80eeba36d54ce8c7d779a899a6bb8f30267315874cab62dc8e697f0239a49787a9974
 Homepage:
 Description: A better way to multitask!
  Tabiki de lisanslı ;)
