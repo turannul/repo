@@ -1696,7 +1696,7 @@ Section: 🏴‍☠️ Tweak
 Maintainer: TIGI Software
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debians/Tweaks/PiratedTweaks/FilzaFile/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/PiratedTweaks/Filza/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
 Size: 8512824
 MD5sum: 340fc36229b6373001db86f174069220
 SHA1: 1bbbd0a681698ec13cae1bd2e7151e79758853d3
@@ -1743,6 +1743,25 @@ Description: Allow iOS to pair with newer versions of watchOS
 Name: Legizmo (Internal Release)
 Author: lunotech11
 Icon: https://turannul.github.io/home/resources/legizmo.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21DA231936i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2920
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.Legizmo
+Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21DA231936i_iphoneos-arm.deb
+Size: 351168
+MD5sum: 0b3897af93348f113ccdbdd16d9fcbf9
+SHA1: 1a17c33204c8b7ed5490116b9338cedfd19c6708
+SHA256: 67633d5b938ec05e5084a2597ccca8b4f2a1aeebc45b35b2c01c37ca95ab8ffd
+SHA512: 3fb2fd60187c2849d967eefbe4ef3785148a9f3f5798461ec88044cc16773156d30d7f4891a7c369ab2cf3ac70de9c12d5b7df703d12e4d982318d89277ec589
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 
 Package: lunotech11.Legizmo
 Architecture: iphoneos-arm
@@ -1805,6 +1824,29 @@ Author: Ethan Whited
 Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
 SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
 Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
+
+Package: com.c1d3r.PullOverPro
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Tweaks
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts:
+Replaces:
+Filename: ./debians/Tweaks/PiratedTweaks/PulloverPro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
+Size: 743776
+MD5sum: 05ddaae272546bfe9f7204971945aeec
+SHA1: 2b871a468ce131855224ef485b97442c276058a6
+SHA256: 9964dc03e368c432e64d90ea690fc34a5ac36dac9f5d40826968e31ce979efe5
+SHA512: 8a7a92a2c0becb68ea03ae81c0df5b1a70df39f87495d360cc7f9a763111da25a90eae2ccaa48360e228c675148f450d8ba446ac994e37bfbc6cb13618161499
+Homepage:
+Description: A better way to multitask!
+ Tabiki de lisanslı ;)
+Name: PullOver Pro
+Author: c1d3r
+dev: c1d3r
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Icon: https://turannul.github.io/home/resources/pulloverpro.png
 
 Package: xyz.turannul.relocateme
 Architecture: iphoneos-arm
@@ -1909,7 +1951,7 @@ Version: 1
 Section: Tweaks
 Maintainer: turannul
 Depends: firmware (>= 8), mobilesubstrate
-Filename: ./debians/Tweaks/PiratedTweaks/xyz.turannul.limneoshax_1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/PiratedTweaks/limneos-all/xyz.turannul.limneoshax_1_iphoneos-arm.deb
 Size: 36930
 MD5sum: 220b2af97baa5c993b69d39ca06598f1
 SHA1: 819602ecc0980a009abfc96b4c0d6615534dd86d
