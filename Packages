@@ -43,13 +43,13 @@ Section: Fonts (iOS14)
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
 Filename: ./debians/Fonts/14/CorporativeSans/xyz.turannul.corporativesans_1.0_iphoneos-arm.deb
-Size: 10611896
-MD5sum: f7de1d257d9b7382c4c8113e66554150
-SHA1: 1d089bec6582156edf6b1e9180d3a15edc28e268
-SHA256: 3efa3a7f4b6a054a72298e8db9503d834553a0531c862832ea3f1981eb209d3d
-SHA512: 5b296a402670e5ddf07821a07a6ac6635b924820d32bff10208bcfa781a1aba4dc963e48f6b8b89770bb7ad5511285c900ba4f4ac881f172e2d251b8a95bf870
+Size: 10612000
+MD5sum: a5c66a025608ae4a44bfe032058a3964
+SHA1: 416ba5642898cb123e7c5a22605d0f8da119ee8a
+SHA256: 383f42c3414da7c93927adbc4772147e2f4495c7fcbbc71fc6575c6507a850d7
+SHA512: 089424d42e9c2c834bced0e9363047e3e5a60ee74f0eeb4fb84c6f39204a6a4168c0d322140e53ee9a340940f00d29a1189a150f31ba71392d8ec617b9f3ebe4
 Description: N/A
-Name: Google Sans Font (iOS 14)
+Name: Corporative Sans Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/null.png
 Author: Alexman1979
 Depiction: N/A
