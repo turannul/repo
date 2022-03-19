@@ -36,6 +36,25 @@ Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
 
+Package: xyz.turannul.corporativesans
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts (iOS14)
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/CorporativeSans/xyz.turannul.corporativesans_1.0_iphoneos-arm.deb
+Size: 10611896
+MD5sum: f7de1d257d9b7382c4c8113e66554150
+SHA1: 1d089bec6582156edf6b1e9180d3a15edc28e268
+SHA256: 3efa3a7f4b6a054a72298e8db9503d834553a0531c862832ea3f1981eb209d3d
+SHA512: 5b296a402670e5ddf07821a07a6ac6635b924820d32bff10208bcfa781a1aba4dc963e48f6b8b89770bb7ad5511285c900ba4f4ac881f172e2d251b8a95bf870
+Description: N/A
+Name: Google Sans Font (iOS 14)
+Icon: https://turannul.github.io/home/resources/null.png
+Author: Alexman1979
+Depiction: N/A
+ SileoDepiction: N/A
+
 Package: xyz.turannul.googlesans100
 Architecture: iphoneos-arm
 Version: 1.0
@@ -112,6 +131,382 @@ Author: Zebra Team <team@getzbra.com>
 Icon: https://turannul.github.io/home/resources/zebra.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.turannul.appaze2
+Architecture: iphoneos-arm
+Version: 1.4
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Installed-Size: 1791
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
+Filename: ./debians/PiratedTweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
+Size: 945688
+MD5sum: dc6ab12b8130ab9c4101f8eb66a3f32f
+SHA1: 24a984d365febe9e44d5cd5ab646b7ae164eb8e3
+SHA256: b48659316830dc538294ba7c1982b15ea8ed3c8593e7bf6df26ab170e9ecb19e
+SHA512: 1a77cd83e35b3ae1e18649187c8024c9911bbb821770ab5cf65a9bf2eb85e6a6f34acc766365754741808098b58fa79dda9e84c4cdecff5acb82d06db856d7d9
+Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
+Name: Appaze 2
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/appaze2.png
+
+Package: xyz.turannul.backupaz4
+Architecture: iphoneos-arm
+Version: 2.0
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: firmware (>= 12.0), coreutils-bin, dpkg, shell-cmds
+Filename: ./debians/PiratedTweaks/BackupAZ-IV/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
+Size: 13294560
+MD5sum: 37cd47a57b1e15bff87cd9e2e34e80bb
+SHA1: ff71bea93c7f2546cd39cb2b626993188061264b
+SHA256: 3a82c6f80b0b5c4f9cd2bd8f5133075315bad967e2e22a56dbfc34b2b19cdb82
+SHA512: 3c93dc77d45eaf2ff4c302523ef33a651431ea20bdf2ebf19dc7c6f2520289dc48764d2c45632f484c7a9d30febc23e9445f48cf94222fbcb929fa3806c0b89e
+Description: A complete and modern backup tool
+Name: BackupAZ 4 (iOS 12 - 14)
+Author: SynnyG
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/backupaz4.png
+
+Package: com.miguelaka95.bettercc
+Architecture: iphoneos-arm
+Version: 0.0.5
+Section: 🏴‍☠️ Tweak
+Maintainer: Miguelaka95 <miguelaka95@gmail.com>
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/PiratedTweaks/BetterCC/com.miguelaka95.bettercc_0.0.5_iphoneos-arm.deb
+Size: 319366
+MD5sum: d4d99209cd1d25dc246de7c52231b219
+SHA1: ceb5ac9e1f71862980ce10f9d1fd78eba6f5d651
+SHA256: b78c68d5ecbcf8794a07b14c875223dedc6821bb5859735548720f5b11c9fa75
+SHA512: d530e70ca9205e4b3b34db1142b4f14f11e80b20f661a8218076db827a11ca507706588e29e9113b594975fb9b1a01a736e9aebfe75b5f0aaefde6c2b97f1768
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Name: BetterCC
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Icon: https://turannul.github.io/home/resources/bettercc.png
+
+Package: com.golddavid.colorbadges-new
+Architecture: iphoneos-arm
+Version: 1.5.0
+Section: 🏴‍☠️ Tweak
+Maintainer: David Goldman <help@golddavid.com>
+Installed-Size: 560
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorbadges
+Replaces: org.thebigboss.colorbadges
+Filename: ./debians/PiratedTweaks/ColorBadges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
+Size: 83366
+MD5sum: 47a2d397042c777fd0b71d961e8ccf37
+SHA1: d3a8bccd45a6468bd02eafda2008bcabef157846
+SHA256: 643101d9b0a4210c6799603dffa0e334e93ba0ae86f741513a0411e6dcf7e610
+SHA512: ddc54361524df8e509675721b61622911dd1288e4a630797a7e8add640e5444e565f411fab8862cea8707cbdb7ae98e71b6816feb012ab97e7c18c79a6882670
+Description: Colorize your badges
+Name: ColorBadges (Packix)
+Author: David Goldman <help@golddavid.com>
+Depiction: http://apt.golddavid.com/depictions/ColorBadges.html
+Icon: https://turannul.github.io/home/resources/colorbadges.png
+
+Package: xyz.turannul.diskprobe
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Conflicts: com.creaturecoding.diskprobe
+Filename: ./debians/PiratedTweaks/DiskProbe/xyz.turannul.diskprobe_1.0.8_iphoneos-arm.deb
+Size: 4975776
+MD5sum: 1ac3d6e135ab98d6b6ae357665d53242
+SHA1: 9b63d3457ff84ebe92979eeca73d35e6d344a588
+SHA256: b74602ad6a4d900b6c6c73cc78da495743595452cee62edfae99a7fc27c8f3f2
+SHA512: 935c7872a9b8e5ee6daa5472a9793e0738076d769c1d318db0425a96821e1965c1208dcd089927507fd272bdba01ad3984ef7be51842c4d984434c815600d264
+Homepage: https://creaturecoding.com/index.html?page=depiction&id=diskprobe
+Description: A simple file browser designed to help you find the large storage hogging files and folders on your device and free up storage.
+Name: DiskProbe
+Author: CreatureSurvive
+Sileodepiction: N/A
+Depiction: N/A
+Icon: https://turannul.github.io/home/resources/diskprobe.png
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm
+Version: 3.9.0-2
+Section: 🏴‍☠️ Tweak
+Maintainer: TIGI Software
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debians/PiratedTweaks/Filza/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
+Size: 8512824
+MD5sum: 340fc36229b6373001db86f174069220
+SHA1: 1bbbd0a681698ec13cae1bd2e7151e79758853d3
+SHA256: dbcb2ef40088611eaef6726d1528cc088bec5757ecd45fb7ae3999c75c6c3f14
+SHA512: bb7163a6b44bd1e9dcf05f9b6b099c86e3af6aa4108cebda19595aa17765c954a7232cb5c3821e8fb051adca49d595d060a01bceec7d599d6bb4ad19edb4e63e
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager x64
+Author: TIGI Software
+Icon: https://turannul.github.io/home/resources/filza.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.0-21MA071416i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 1840
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debians/PiratedTweaks/Legizmo/Legizmo-Release-Internal-1.0-21MA071416i.deb
+Size: 288928
+MD5sum: 547f066d4c8fb1aac9386e49672c0204
+SHA1: da9bc19a0f401a85bde6f46ea061a2c0245d4c9f
+SHA256: 04853f9fd4b3bc91ab37a82d343d8e49a94233b5b13cce160f5b6a303c1969f5
+SHA512: a08405d31b1b0ff30fcd35b8da603f4cafa1b4290643e9cb788ab9ee923ec15d3820b85695b88bd9e21f88c99e4174d48ab5f1de19ebaff71874bd0af7b9b6b1
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21DA222330i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2764
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.Legizmo
+Filename: ./debians/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21DA222330i_iphoneos-arm.deb
+Size: 481660
+MD5sum: 74dbf354d3017747a693883c1beed98f
+SHA1: 246870c3ecec9a83c6e557c46017df30ba178455
+SHA256: a3b4900a2d7bf6f272036b1f80afcb1e0dad531606f98aaa0c0a4b9179076b4e
+SHA512: 205514ad2a78ed5b342bd5c7d64a37d68eb1d210e7200fcf32b792c349191c80ba030b4c8ceccfed51d7a284b1a884d4cc01e4a11d8f7a709c1469b250408358
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: https://turannul.github.io/home/resources/legizmo.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21DA231936i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2920
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.Legizmo
+Filename: ./debians/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21DA231936i_iphoneos-arm.deb
+Size: 351168
+MD5sum: 0b3897af93348f113ccdbdd16d9fcbf9
+SHA1: 1a17c33204c8b7ed5490116b9338cedfd19c6708
+SHA256: 67633d5b938ec05e5084a2597ccca8b4f2a1aeebc45b35b2c01c37ca95ab8ffd
+SHA512: 3fb2fd60187c2849d967eefbe4ef3785148a9f3f5798461ec88044cc16773156d30d7f4891a7c369ab2cf3ac70de9c12d5b7df703d12e4d982318d89277ec589
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+
+Package: lunotech11.Legizmo
+Architecture: iphoneos-arm
+Version: 1.1-21NA061247i
+Section: Tweaks
+Maintainer: lunotech11
+Installed-Size: 2860
+Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
+Filename: ./debians/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21NA061247i_iphoneos-arm.deb
+Size: 511010
+MD5sum: b25a3f73780f723ff1a5c56377b5d10c
+SHA1: 3e51748c3015dcbb96b6341dad9828677581e49c
+SHA256: b92454ab7273cbb6046d01a94bdeed03d8e58b93a2ced7793b4b99d246af027c
+SHA512: 3a4fa8537a56a8d3dcbc715ef79d763d182b8a6ead57ad03d85a227979d28845101327ed25f1e3112da80c558c20c898dd50a964811f260bc6c1255996cac0b1
+Description: Allow iOS to pair with newer versions of watchOS
+Name: Legizmo (Internal Release)
+Author: lunotech11
+Icon: https://turannul.github.io/home/resources/legizmo.png
+
+Package: lunotech11.legizmo.jupiter
+Architecture: iphoneos-arm
+Version: 3.1.4-1
+Section: Tweaks
+Maintainer: lunotech11 <support@legizmo.app>
+Installed-Size: 3252
+Provides: lunotech11.legizmo
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, gsc.telephony
+Conflicts: lunotech11.legizmo
+Replaces: lunotech11.legizmo
+Filename: ./debians/PiratedTweaks/Legizmo/lunotech11.legizmo.jupiter_3.1.4-1_iphoneos-arm.deb
+Size: 552828
+MD5sum: 2f0503aa62bc6d805f7f63e33903edc5
+SHA1: eaae7ad90fe0730bc302c0657acd1914916ef1cf
+SHA256: 8fd75e1edb05dc9834f48b9831a924bf45c6021b40bb4e03740c31e59c91dc62
+SHA512: d843248b597d4c7e24ec07bce2a9d8b207ca136ef81acb9a6c8c780ca9efd3f3f3a3e74ebdb3c6c5f9f12cd07b0472d5eb0c0fd9a4264879a99ecbdd521e5c32
+Description: Enables pairing, connecting and updating to unsupported versions of watchOS
+Tag: compatible_min::ios13.0
+Name: Legizmo Jupiter
+XBS-Build-Version: 22FA071811
+Author: lunotech11 <support@legizmo.app>
+Icon: https://img.chariz.cloud/icon/legizmo-jupiter/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/legizmo-jupiter.jpg
+Depiction: https://chariz.com/buy/legizmo-jupiter
+
+Package: xyz.turannul.pencilbanner
+Architecture: iphoneos-arm
+Version: 1.2
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
+Filename: ./debians/PiratedTweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
+Size: 395250
+MD5sum: 8c56bd8f87361cae47443669f77ffa21
+SHA1: 1cbeea663aaec3647137c29c7fef732814637b66
+SHA256: 27b621ce3a8a41bb82e2789eb73f6ce14f57c15d51f45e475edc2d530235ec22
+SHA512: c0b3ffbb2a37732e4d7353dc81e38f0d2ff0391bc81245f28c96b0ad90f44614c1d69bc9f6bdda69653ceb326abda33ed187936db47ed1261c48f26e0cc9b314
+Description: Apple Pencil tarzı bildirimler!
+Name: PencilBanner
+Author: Ethan Whited
+Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
+SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
+Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
+
+Package: com.c1d3r.PullOverPro
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Tweaks
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts:
+Replaces:
+Filename: ./debians/PiratedTweaks/PulloverPro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
+Size: 743332
+MD5sum: 0760555f92f8eeb4f5539a0a5e98e290
+SHA1: 82f0a9c2bd22efd7dfb62d6ca96e96dcea100d23
+SHA256: 3c55bb58698194e572ceb3f44301527973cb26c3dcc052ce6c704cb9730a28e6
+SHA512: e172e148cac18ff5c253a1a639255ab2c9508417f9d9d812d129cf963aa80eeba36d54ce8c7d779a899a6bb8f30267315874cab62dc8e697f0239a49787a9974
+Homepage:
+Description: A better way to multitask!
+ Tabiki de lisanslı ;)
+Name: PullOver Pro
+Author: c1d3r
+dev: c1d3r
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Icon: https://turannul.github.io/home/resources/pulloverpro.png
+
+Package: xyz.turannul.relocateme
+Architecture: iphoneos-arm
+Version: 1.0-2
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: firmware (>= 14.0)
+Filename: ./debians/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
+Size: 437134
+MD5sum: c783f6f07c0719fe5957843d693524f7
+SHA1: 073f8f8d0991b6d6ad1c49950bca9cc9596e5461
+SHA256: 3154b28b19f9dcdfc2f16e35fc66b3ef6a8defbf59c306e36be49756118fca1e
+SHA512: 10fb1daebb7931cd758990fc00e1a4e89fdf91e5459c2050b25f40984932af26d165bff25d1ff2fc5d7b0192b3866b700f2775598b6abe0121ad027e4b37f0fe
+Description: Emulate iOS GPS Locations. Invalid License hatasından dolayı yeniden düzenlendi
+Name: RelocateMe
+Author: MidnightChips
+Icon: https://turannul.github.io/home/resources/relocateme.png
+Depiction: https://chariz.com/buy/relocate-me
+
+Package: com.jontelang.snapper2.packix
+Architecture: iphoneos-arm
+Version: 2.5.12
+Section: 🏴‍☠️ Tweak
+Maintainer: Jonathan Winger-lang
+Installed-Size: 1840
+Depends: mobilesubstrate, firmware(>=12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./debians/PiratedTweaks/Snapper2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
+Size: 531004
+MD5sum: 7d9c839cf0db21705baffccf23884d7d
+SHA1: caa398813d35f3f2fafe20a1505d6c4fbee949b5
+SHA256: 78e75d8121f1b18551569edae5e5efb209c05b567377bd5e52ab06c39c4c0eb2
+SHA512: 188b81cbe12eef3113898348d868da73c67bfb2d8dedbdb378f4fc5c1a9fa224ba1970807d8a88039ccc3664046375de18f3ba47c32274befaed9301a2d19f11
+Description: Pin screenshots on the screen.
+Name: Snapper 2
+Author: Jonathan Winger-lang
+Icon: https://turannul.github.io/home/resources/snapper2.png
+
+Package: xyz.canpng.tetherme8
+Architecture: iphoneos-arm
+Version: 2.0.3
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Installed-Size: 2223
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
+Size: 567634
+MD5sum: 89f0a0853d93af8d24b3569e61b17aeb
+SHA1: 31f27716c406be295515720af3202a7bdd50280b
+SHA256: 4e9d9f70b60f49445731741dec1f7335caaab637d3692579f3a657351fa53bec
+SHA512: 2a4ce88debeb2f9ab894d57e83a92dba6ff10018735c1a9ad441a24a544d9510ac3ea1a46ad714246eeb38215ba583853d09bc401d1c8a955106f01344eff2ed
+Description: Daha gelismis modem ayarlari
+Name: TetherMe Turkce
+Author: t.me/canpng
+Depiction:
+Icon: https:/turannul.github.io/home/resources/tetherme.png
+
+Package: xyz.canpng.tetherme8
+Architecture: iphoneos-arm
+Version: 2.1.1-1
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
+Filename: ./debians/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.1.1-1_iphoneos-arm.deb
+Size: 6221174
+MD5sum: c0795538b8798bc98eb16237e420f711
+SHA1: 50d15df90b7dcb80396b3bace962c271b6b83b92
+SHA256: 0d6954994c550796fe6623cd755a6bff7c811ad927431b11c7abf7b9a2d126ef
+SHA512: 4adb9c5e235f31916bcb861c8c5a92d1724958d40fcc1012d3ef1ad9c61195c991d88c4effdb403fce13228fdf5c4cb005e7f6b2fe3d5568d43da1284db53dd1
+Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
+Name: TetherMe for iOS8+
+Author: Sam Bingner
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
+Icon: https:/turannul.github.io/home/resources/tetherme.png
+
+Package: com.initwithframe.velvet
+Architecture: iphoneos-arm
+Version: 1.5.1
+Section: 🏴‍☠️ Tweak
+Maintainer: initWithFrame <initwithframe@protonmail.com>
+Installed-Size: 764
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Filename: ./debians/PiratedTweaks/Velvet/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
+Size: 251144
+MD5sum: f1bda23584c577565c80944608ad6c30
+SHA1: 1337e9ca93146482da04744398735023961d168a
+SHA256: 4ee265fe7e2018e4cddbe89f87bc335e40295b87720edc3ba84cbc661bd81906
+SHA512: 289eb00a9959a4ae5e5d0c7310dd755a56e25baa51fd04cf4666c6a5ce58405fbea07ec80272db99a961c08deac188b8fd8df97ebb9b271eec7f45ba12c8af26
+Description: A new way to customize your notifications!
+Name: Velvet
+Author: initWithFrame <initwithframe@protonmail.com>
+Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
+Depiction: https://chariz.com/buy/velvet
+
+Package: xyz.turannul.limneoshax
+Architecture: iphoneos-arm
+Version: 1
+Section: Tweaks
+Maintainer: turannul
+Depends: firmware (>= 8), mobilesubstrate
+Filename: ./debians/PiratedTweaks/limneos-all/xyz.turannul.limneoshax_1_iphoneos-arm.deb
+Size: 36930
+MD5sum: 220b2af97baa5c993b69d39ca06598f1
+SHA1: 819602ecc0980a009abfc96b4c0d6615534dd86d
+SHA256: 91f386b3e44a176d82c939de0cb7187aa40fc70d7d1344e3f2250a6e3d23628d
+SHA512: ac10365f791662de3b5e3ceea3eee4577869142f2f6f8296336d076094792b26d57f12b539c933217d10d2ffd8ef3297b58f7fa9590c4c07ba686e807c93ce48
+Description: Limneos Crack
+Name: Limneos Crack (iOS 8-14)
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
 
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
@@ -1586,382 +1981,6 @@ SHA512: 96663aaa18e06dbe35c0deef5233f3396252ea29cc61914a90f2d546bd780ba62bdeedac
 Description: Show photo resolution and disk usage in app
 Name: PhotoInfo
 Author: shepgoba
-
-Package: xyz.turannul.appaze2
-Architecture: iphoneos-arm
-Version: 1.4
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Installed-Size: 1791
-Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
-Filename: ./debians/Tweaks/PiratedTweaks/Appaze 2/xyz.turannul.appaze2_1.4_iphoneos-arm.deb
-Size: 945688
-MD5sum: dc6ab12b8130ab9c4101f8eb66a3f32f
-SHA1: 24a984d365febe9e44d5cd5ab646b7ae164eb8e3
-SHA256: b48659316830dc538294ba7c1982b15ea8ed3c8593e7bf6df26ab170e9ecb19e
-SHA512: 1a77cd83e35b3ae1e18649187c8024c9911bbb821770ab5cf65a9bf2eb85e6a6f34acc766365754741808098b58fa79dda9e84c4cdecff5acb82d06db856d7d9
-Description: Customize volume/brightness/toggles per app, directly from 3DTouch menu
-Name: Appaze 2
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: N/A
-SileoDepiction: N/A
-Icon: https://turannul.github.io/home/resources/appaze2.png
-
-Package: xyz.turannul.backupaz4
-Architecture: iphoneos-arm
-Version: 2.0
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Depends: firmware (>= 12.0), coreutils-bin, dpkg, shell-cmds
-Filename: ./debians/Tweaks/PiratedTweaks/BackupAZ-IV/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
-Size: 13294560
-MD5sum: 37cd47a57b1e15bff87cd9e2e34e80bb
-SHA1: ff71bea93c7f2546cd39cb2b626993188061264b
-SHA256: 3a82c6f80b0b5c4f9cd2bd8f5133075315bad967e2e22a56dbfc34b2b19cdb82
-SHA512: 3c93dc77d45eaf2ff4c302523ef33a651431ea20bdf2ebf19dc7c6f2520289dc48764d2c45632f484c7a9d30febc23e9445f48cf94222fbcb929fa3806c0b89e
-Description: A complete and modern backup tool
-Name: BackupAZ 4 (iOS 12 - 14)
-Author: SynnyG
-Depiction: N/A
-SileoDepiction: N/A
-Icon: https://turannul.github.io/home/resources/backupaz4.png
-
-Package: com.miguelaka95.bettercc
-Architecture: iphoneos-arm
-Version: 0.0.5
-Section: 🏴‍☠️ Tweak
-Maintainer: Miguelaka95 <miguelaka95@gmail.com>
-Installed-Size: 1828
-Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
-Filename: ./debians/Tweaks/PiratedTweaks/BetterCC/com.miguelaka95.bettercc_0.0.5_iphoneos-arm.deb
-Size: 319366
-MD5sum: d4d99209cd1d25dc246de7c52231b219
-SHA1: ceb5ac9e1f71862980ce10f9d1fd78eba6f5d651
-SHA256: b78c68d5ecbcf8794a07b14c875223dedc6821bb5859735548720f5b11c9fa75
-SHA512: d530e70ca9205e4b3b34db1142b4f14f11e80b20f661a8218076db827a11ca507706588e29e9113b594975fb9b1a01a736e9aebfe75b5f0aaefde6c2b97f1768
-Description: Customize your Control Center!
- Invisible Modules.
- Rearrange Connectivity Toggles.
- Change Modules Size.
- Weather Widget.
-Name: BetterCC
-Author: Miguelaka95 <miguelaka95@gmail.com>
-Icon: https://turannul.github.io/home/resources/bettercc.png
-
-Package: com.golddavid.colorbadges-new
-Architecture: iphoneos-arm
-Version: 1.5.0
-Section: 🏴‍☠️ Tweak
-Maintainer: David Goldman <help@golddavid.com>
-Installed-Size: 560
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
-Conflicts: org.thebigboss.colorbadges
-Replaces: org.thebigboss.colorbadges
-Filename: ./debians/Tweaks/PiratedTweaks/ColorBadges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
-Size: 83366
-MD5sum: 47a2d397042c777fd0b71d961e8ccf37
-SHA1: d3a8bccd45a6468bd02eafda2008bcabef157846
-SHA256: 643101d9b0a4210c6799603dffa0e334e93ba0ae86f741513a0411e6dcf7e610
-SHA512: ddc54361524df8e509675721b61622911dd1288e4a630797a7e8add640e5444e565f411fab8862cea8707cbdb7ae98e71b6816feb012ab97e7c18c79a6882670
-Description: Colorize your badges
-Name: ColorBadges (Packix)
-Author: David Goldman <help@golddavid.com>
-Depiction: http://apt.golddavid.com/depictions/ColorBadges.html
-Icon: https://turannul.github.io/home/resources/colorbadges.png
-
-Package: xyz.turannul.diskprobe
-Architecture: iphoneos-arm
-Version: 1.0.8
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Conflicts: com.creaturecoding.diskprobe
-Filename: ./debians/Tweaks/PiratedTweaks/DiskProbe/xyz.turannul.diskprobe_1.0.8_iphoneos-arm.deb
-Size: 4975776
-MD5sum: 1ac3d6e135ab98d6b6ae357665d53242
-SHA1: 9b63d3457ff84ebe92979eeca73d35e6d344a588
-SHA256: b74602ad6a4d900b6c6c73cc78da495743595452cee62edfae99a7fc27c8f3f2
-SHA512: 935c7872a9b8e5ee6daa5472a9793e0738076d769c1d318db0425a96821e1965c1208dcd089927507fd272bdba01ad3984ef7be51842c4d984434c815600d264
-Homepage: https://creaturecoding.com/index.html?page=depiction&id=diskprobe
-Description: A simple file browser designed to help you find the large storage hogging files and folders on your device and free up storage.
-Name: DiskProbe
-Author: CreatureSurvive
-Sileodepiction: N/A
-Depiction: N/A
-Icon: https://turannul.github.io/home/resources/diskprobe.png
-
-Package: com.tigisoftware.filza64bit
-Architecture: iphoneos-arm
-Version: 3.9.0-2
-Section: 🏴‍☠️ Tweak
-Maintainer: TIGI Software
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debians/Tweaks/PiratedTweaks/Filza/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
-Size: 8512824
-MD5sum: 340fc36229b6373001db86f174069220
-SHA1: 1bbbd0a681698ec13cae1bd2e7151e79758853d3
-SHA256: dbcb2ef40088611eaef6726d1528cc088bec5757ecd45fb7ae3999c75c6c3f14
-SHA512: bb7163a6b44bd1e9dcf05f9b6b099c86e3af6aa4108cebda19595aa17765c954a7232cb5c3821e8fb051adca49d595d060a01bceec7d599d6bb4ad19edb4e63e
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Name: Filza File Manager x64
-Author: TIGI Software
-Icon: https://turannul.github.io/home/resources/filza.png
-
-Package: lunotech11.Legizmo
-Architecture: iphoneos-arm
-Version: 1.0-21MA071416i
-Section: Tweaks
-Maintainer: lunotech11
-Installed-Size: 1840
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/Legizmo-Release-Internal-1.0-21MA071416i.deb
-Size: 288928
-MD5sum: 547f066d4c8fb1aac9386e49672c0204
-SHA1: da9bc19a0f401a85bde6f46ea061a2c0245d4c9f
-SHA256: 04853f9fd4b3bc91ab37a82d343d8e49a94233b5b13cce160f5b6a303c1969f5
-SHA512: a08405d31b1b0ff30fcd35b8da603f4cafa1b4290643e9cb788ab9ee923ec15d3820b85695b88bd9e21f88c99e4174d48ab5f1de19ebaff71874bd0af7b9b6b1
-Description: Allow iOS to pair with newer versions of watchOS
-Name: Legizmo (Internal Release)
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-
-Package: lunotech11.Legizmo
-Architecture: iphoneos-arm
-Version: 1.1-21DA222330i
-Section: Tweaks
-Maintainer: lunotech11
-Installed-Size: 2764
-Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
-Replaces: lunotech11.Legizmo
-Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21DA222330i_iphoneos-arm.deb
-Size: 481660
-MD5sum: 74dbf354d3017747a693883c1beed98f
-SHA1: 246870c3ecec9a83c6e557c46017df30ba178455
-SHA256: a3b4900a2d7bf6f272036b1f80afcb1e0dad531606f98aaa0c0a4b9179076b4e
-SHA512: 205514ad2a78ed5b342bd5c7d64a37d68eb1d210e7200fcf32b792c349191c80ba030b4c8ceccfed51d7a284b1a884d4cc01e4a11d8f7a709c1469b250408358
-Description: Allow iOS to pair with newer versions of watchOS
-Name: Legizmo (Internal Release)
-Author: lunotech11
-Icon: https://turannul.github.io/home/resources/legizmo.png
-
-Package: lunotech11.Legizmo
-Architecture: iphoneos-arm
-Version: 1.1-21DA231936i
-Section: Tweaks
-Maintainer: lunotech11
-Installed-Size: 2920
-Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
-Replaces: lunotech11.Legizmo
-Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21DA231936i_iphoneos-arm.deb
-Size: 351168
-MD5sum: 0b3897af93348f113ccdbdd16d9fcbf9
-SHA1: 1a17c33204c8b7ed5490116b9338cedfd19c6708
-SHA256: 67633d5b938ec05e5084a2597ccca8b4f2a1aeebc45b35b2c01c37ca95ab8ffd
-SHA512: 3fb2fd60187c2849d967eefbe4ef3785148a9f3f5798461ec88044cc16773156d30d7f4891a7c369ab2cf3ac70de9c12d5b7df703d12e4d982318d89277ec589
-Description: Allow iOS to pair with newer versions of watchOS
-Name: Legizmo (Internal Release)
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-
-Package: lunotech11.Legizmo
-Architecture: iphoneos-arm
-Version: 1.1-21NA061247i
-Section: Tweaks
-Maintainer: lunotech11
-Installed-Size: 2860
-Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
-Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/lunotech11.Legizmo_1.1-21NA061247i_iphoneos-arm.deb
-Size: 511010
-MD5sum: b25a3f73780f723ff1a5c56377b5d10c
-SHA1: 3e51748c3015dcbb96b6341dad9828677581e49c
-SHA256: b92454ab7273cbb6046d01a94bdeed03d8e58b93a2ced7793b4b99d246af027c
-SHA512: 3a4fa8537a56a8d3dcbc715ef79d763d182b8a6ead57ad03d85a227979d28845101327ed25f1e3112da80c558c20c898dd50a964811f260bc6c1255996cac0b1
-Description: Allow iOS to pair with newer versions of watchOS
-Name: Legizmo (Internal Release)
-Author: lunotech11
-Icon: https://turannul.github.io/home/resources/legizmo.png
-
-Package: lunotech11.legizmo.jupiter
-Architecture: iphoneos-arm
-Version: 3.1.4-1
-Section: Tweaks
-Maintainer: lunotech11 <support@legizmo.app>
-Installed-Size: 3252
-Provides: lunotech11.legizmo
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, gsc.telephony
-Conflicts: lunotech11.legizmo
-Replaces: lunotech11.legizmo
-Filename: ./debians/Tweaks/PiratedTweaks/Legizmo/lunotech11.legizmo.jupiter_3.1.4-1_iphoneos-arm.deb
-Size: 552828
-MD5sum: 2f0503aa62bc6d805f7f63e33903edc5
-SHA1: eaae7ad90fe0730bc302c0657acd1914916ef1cf
-SHA256: 8fd75e1edb05dc9834f48b9831a924bf45c6021b40bb4e03740c31e59c91dc62
-SHA512: d843248b597d4c7e24ec07bce2a9d8b207ca136ef81acb9a6c8c780ca9efd3f3f3a3e74ebdb3c6c5f9f12cd07b0472d5eb0c0fd9a4264879a99ecbdd521e5c32
-Description: Enables pairing, connecting and updating to unsupported versions of watchOS
-Tag: compatible_min::ios13.0
-Name: Legizmo Jupiter
-XBS-Build-Version: 22FA071811
-Author: lunotech11 <support@legizmo.app>
-Icon: https://img.chariz.cloud/icon/legizmo-jupiter/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/legizmo-jupiter.jpg
-Depiction: https://chariz.com/buy/legizmo-jupiter
-
-Package: xyz.turannul.pencilbanner
-Architecture: iphoneos-arm
-Version: 1.2
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Filename: ./debians/Tweaks/PiratedTweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
-Size: 395250
-MD5sum: 8c56bd8f87361cae47443669f77ffa21
-SHA1: 1cbeea663aaec3647137c29c7fef732814637b66
-SHA256: 27b621ce3a8a41bb82e2789eb73f6ce14f57c15d51f45e475edc2d530235ec22
-SHA512: c0b3ffbb2a37732e4d7353dc81e38f0d2ff0391bc81245f28c96b0ad90f44614c1d69bc9f6bdda69653ceb326abda33ed187936db47ed1261c48f26e0cc9b314
-Description: Apple Pencil tarzı bildirimler!
-Name: PencilBanner
-Author: Ethan Whited
-Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
-SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
-Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
-
-Package: com.c1d3r.PullOverPro
-Architecture: iphoneos-arm
-Version: 2.1.1
-Section: Tweaks
-Maintainer: c1d3r <c1d3rdev@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
-Conflicts:
-Replaces:
-Filename: ./debians/Tweaks/PiratedTweaks/PulloverPro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
-Size: 743332
-MD5sum: 0760555f92f8eeb4f5539a0a5e98e290
-SHA1: 82f0a9c2bd22efd7dfb62d6ca96e96dcea100d23
-SHA256: 3c55bb58698194e572ceb3f44301527973cb26c3dcc052ce6c704cb9730a28e6
-SHA512: e172e148cac18ff5c253a1a639255ab2c9508417f9d9d812d129cf963aa80eeba36d54ce8c7d779a899a6bb8f30267315874cab62dc8e697f0239a49787a9974
-Homepage:
-Description: A better way to multitask!
- Tabiki de lisanslı ;)
-Name: PullOver Pro
-Author: c1d3r
-dev: c1d3r
-Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
-Icon: https://turannul.github.io/home/resources/pulloverpro.png
-
-Package: xyz.turannul.relocateme
-Architecture: iphoneos-arm
-Version: 1.0-2
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Depends: firmware (>= 14.0)
-Filename: ./debians/Tweaks/PiratedTweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
-Size: 437134
-MD5sum: c783f6f07c0719fe5957843d693524f7
-SHA1: 073f8f8d0991b6d6ad1c49950bca9cc9596e5461
-SHA256: 3154b28b19f9dcdfc2f16e35fc66b3ef6a8defbf59c306e36be49756118fca1e
-SHA512: 10fb1daebb7931cd758990fc00e1a4e89fdf91e5459c2050b25f40984932af26d165bff25d1ff2fc5d7b0192b3866b700f2775598b6abe0121ad027e4b37f0fe
-Description: Emulate iOS GPS Locations. Invalid License hatasından dolayı yeniden düzenlendi
-Name: RelocateMe
-Author: MidnightChips
-Icon: https://turannul.github.io/home/resources/relocateme.png
-Depiction: https://chariz.com/buy/relocate-me
-
-Package: com.jontelang.snapper2.packix
-Architecture: iphoneos-arm
-Version: 2.5.12
-Section: 🏴‍☠️ Tweak
-Maintainer: Jonathan Winger-lang
-Installed-Size: 1840
-Depends: mobilesubstrate, firmware(>=12.1)
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2
-Filename: ./debians/Tweaks/PiratedTweaks/Snapper2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
-Size: 531004
-MD5sum: 7d9c839cf0db21705baffccf23884d7d
-SHA1: caa398813d35f3f2fafe20a1505d6c4fbee949b5
-SHA256: 78e75d8121f1b18551569edae5e5efb209c05b567377bd5e52ab06c39c4c0eb2
-SHA512: 188b81cbe12eef3113898348d868da73c67bfb2d8dedbdb378f4fc5c1a9fa224ba1970807d8a88039ccc3664046375de18f3ba47c32274befaed9301a2d19f11
-Description: Pin screenshots on the screen.
-Name: Snapper 2
-Author: Jonathan Winger-lang
-Icon: https://turannul.github.io/home/resources/snapper2.png
-
-Package: xyz.canpng.tetherme8
-Architecture: iphoneos-arm
-Version: 2.0.3
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Installed-Size: 2223
-Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
-Conflicts: net.tetherme.tetherme
-Replaces: net.tetherme.tetherme
-Filename: ./debians/Tweaks/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.0.3_iphoneos-arm.deb
-Size: 567634
-MD5sum: 89f0a0853d93af8d24b3569e61b17aeb
-SHA1: 31f27716c406be295515720af3202a7bdd50280b
-SHA256: 4e9d9f70b60f49445731741dec1f7335caaab637d3692579f3a657351fa53bec
-SHA512: 2a4ce88debeb2f9ab894d57e83a92dba6ff10018735c1a9ad441a24a544d9510ac3ea1a46ad714246eeb38215ba583853d09bc401d1c8a955106f01344eff2ed
-Description: Daha gelismis modem ayarlari
-Name: TetherMe Turkce
-Author: t.me/canpng
-Depiction:
-Icon: https:/turannul.github.io/home/resources/tetherme.png
-
-Package: xyz.canpng.tetherme8
-Architecture: iphoneos-arm
-Version: 2.1.1-1
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Pre-Depends: mobilesubstrate (>= 0.9.5101)
-Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
-Filename: ./debians/Tweaks/PiratedTweaks/Tetherme/xyz.canpng.tetherme8_2.1.1-1_iphoneos-arm.deb
-Size: 6221174
-MD5sum: c0795538b8798bc98eb16237e420f711
-SHA1: 50d15df90b7dcb80396b3bace962c271b6b83b92
-SHA256: 0d6954994c550796fe6623cd755a6bff7c811ad927431b11c7abf7b9a2d126ef
-SHA512: 4adb9c5e235f31916bcb861c8c5a92d1724958d40fcc1012d3ef1ad9c61195c991d88c4effdb403fce13228fdf5c4cb005e7f6b2fe3d5568d43da1284db53dd1
-Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
-Name: TetherMe for iOS8+
-Author: Sam Bingner
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
-Icon: https:/turannul.github.io/home/resources/tetherme.png
-
-Package: com.initwithframe.velvet
-Architecture: iphoneos-arm
-Version: 1.5.1
-Section: 🏴‍☠️ Tweak
-Maintainer: initWithFrame <initwithframe@protonmail.com>
-Installed-Size: 764
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
-Filename: ./debians/Tweaks/PiratedTweaks/Velvet/com.initwithframe.velvet_1.5.1_iphoneos-arm.deb
-Size: 251144
-MD5sum: f1bda23584c577565c80944608ad6c30
-SHA1: 1337e9ca93146482da04744398735023961d168a
-SHA256: 4ee265fe7e2018e4cddbe89f87bc335e40295b87720edc3ba84cbc661bd81906
-SHA512: 289eb00a9959a4ae5e5d0c7310dd755a56e25baa51fd04cf4666c6a5ce58405fbea07ec80272db99a961c08deac188b8fd8df97ebb9b271eec7f45ba12c8af26
-Description: A new way to customize your notifications!
-Name: Velvet
-Author: initWithFrame <initwithframe@protonmail.com>
-Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
-Depiction: https://chariz.com/buy/velvet
-
-Package: xyz.turannul.limneoshax
-Architecture: iphoneos-arm
-Version: 1
-Section: Tweaks
-Maintainer: turannul
-Depends: firmware (>= 8), mobilesubstrate
-Filename: ./debians/Tweaks/PiratedTweaks/limneos-all/xyz.turannul.limneoshax_1_iphoneos-arm.deb
-Size: 36930
-MD5sum: 220b2af97baa5c993b69d39ca06598f1
-SHA1: 819602ecc0980a009abfc96b4c0d6615534dd86d
-SHA256: 91f386b3e44a176d82c939de0cb7187aa40fc70d7d1344e3f2250a6e3d23628d
-SHA512: ac10365f791662de3b5e3ceea3eee4577869142f2f6f8296336d076094792b26d57f12b539c933217d10d2ffd8ef3297b58f7fa9590c4c07ba686e807c93ce48
-Description: Limneos Crack
-Name: Limneos Crack (iOS 8-14)
-Author: turannul
-Depiction: N/A
-SileoDepiction: N/A
 
 Package: com.rpetrich.powercuff
 Architecture: iphoneos-arm
