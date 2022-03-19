@@ -132,6 +132,42 @@ Icon: https://turannul.github.io/home/resources/zebra.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: xyz.turannul.relocateme
+Architecture: iphoneos-arm
+Version: 1.0-2
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: firmware (>= 14.0)
+Filename: ./debians/PirateTweakss/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
+Size: 437134
+MD5sum: c783f6f07c0719fe5957843d693524f7
+SHA1: 073f8f8d0991b6d6ad1c49950bca9cc9596e5461
+SHA256: 3154b28b19f9dcdfc2f16e35fc66b3ef6a8defbf59c306e36be49756118fca1e
+SHA512: 10fb1daebb7931cd758990fc00e1a4e89fdf91e5459c2050b25f40984932af26d165bff25d1ff2fc5d7b0192b3866b700f2775598b6abe0121ad027e4b37f0fe
+Description: Emulate iOS GPS Locations. Invalid License hatasından dolayı yeniden düzenlendi
+Name: RelocateMe
+Author: MidnightChips
+Icon: https://turannul.github.io/home/resources/relocateme.png
+Depiction: https://chariz.com/buy/relocate-me
+
+Package: xyz.turannul.limneoshax
+Architecture: iphoneos-arm
+Version: 1
+Section: Tweaks
+Maintainer: turannul
+Depends: firmware (>= 8), mobilesubstrate
+Filename: ./debians/PirateTweakss/limneos-all/xyz.turannul.limneoshax_1_iphoneos-arm.deb
+Size: 36930
+MD5sum: 220b2af97baa5c993b69d39ca06598f1
+SHA1: 819602ecc0980a009abfc96b4c0d6615534dd86d
+SHA256: 91f386b3e44a176d82c939de0cb7187aa40fc70d7d1344e3f2250a6e3d23628d
+SHA512: ac10365f791662de3b5e3ceea3eee4577869142f2f6f8296336d076094792b26d57f12b539c933217d10d2ffd8ef3297b58f7fa9590c4c07ba686e807c93ce48
+Description: Limneos Crack
+Name: Limneos Crack (iOS 8-14)
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
