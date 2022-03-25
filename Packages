@@ -39,15 +39,15 @@ SileoDepiction: n/a
 Package: xyz.turannul.corporativesans
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts (iOS14)
+Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
 Filename: ./debians/Fonts/14/CorporativeSans/xyz.turannul.corporativesans_1.0_iphoneos-arm.deb
-Size: 10612000
-MD5sum: a5c66a025608ae4a44bfe032058a3964
-SHA1: 416ba5642898cb123e7c5a22605d0f8da119ee8a
-SHA256: 383f42c3414da7c93927adbc4772147e2f4495c7fcbbc71fc6575c6507a850d7
-SHA512: 089424d42e9c2c834bced0e9363047e3e5a60ee74f0eeb4fb84c6f39204a6a4168c0d322140e53ee9a340940f00d29a1189a150f31ba71392d8ec617b9f3ebe4
+Size: 10607384
+MD5sum: 610ee48d70daf79aa9fab97f34d314dd
+SHA1: 85d22dbbc02919a2496ff04b3985917c9f02a9e1
+SHA256: 344e82b104b5f74726e8a1d8c2ee1813d9d3009db5475f042b709f69d77bed32
+SHA512: cb637c714b0367c8aefd28fb870a03cfcff1820ad8c12326f6e7b44f9f4c47bfb9cc442ec4801ac25617078f3146675183493d712139f907f8fe6740ace8d558
 Description: N/A
 Name: Corporative Sans Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/null.png
@@ -58,15 +58,15 @@ Depiction: N/A
 Package: xyz.turannul.googlesans100
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts (iOS14)
+Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
 Filename: ./debians/Fonts/14/GoogleSans/xyz.turannul.googlesans100_1.0_iphoneos-arm.deb
-Size: 9693420
-MD5sum: 5ad56ccfa2fa9f874c6c71aa856201f8
-SHA1: 319662a0467d6d9d2ab9016dfb0872d45222cdf1
-SHA256: 399fa767bc2c03a4c579be3267f703f0dcdeaf231ebe0ba3126bd0f87efd6ead
-SHA512: 0268cc99867d391da4610000dca64fe1d4cffc1a27e08ef60a50a801fac91f29924f1ea85c16c7e97ef4ccda2ef41190e75edc399544ebc3b06c83690ad8a5bc
+Size: 9687896
+MD5sum: 6e32a81e724e6cbb9a781ac3727b1047
+SHA1: 1df2b2b89537e284aacbca1efd509fdc50169c42
+SHA256: 1d5ae2cbfa11eb031d9970a8cf40eaa95708c966f8c2674684a81917814daa6e
+SHA512: 64599c1beff53611223649beed08a3c178969f1c904737637c1eda68ec2126509dd325db3ee778c420a814d08454d763ebd6ed34e13372b8dbacfc3062499e6d
 Description: https://twitter.com/alexman1979/status/1372427908283650049?s=21
 Name: Google Sans Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/null.png
@@ -77,15 +77,15 @@ Depiction: N/A
 Package: xyz.turannul.modulusprofont14
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts (iOS14)
+Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/ModulusPro/xyz.turannul.modulusprofont14.deb
-Size: 31250628
-MD5sum: 20c8e9a6bab616be317fa29c28b997dd
-SHA1: 1a4a15fc7d336daed23850fb263f3d090be15045
-SHA256: e70cb8e7ef26a6a0d3d7d1071925152a3b38e62a25ff68a4a0e5728e60259ffd
-SHA512: 8d9dbd2902b05bb2b6cdab3ed0a7ff52f153d310f7ef72f5daafe83bc4cd2fc81d6ecefa3bc65a1a03e95f05e9f5c2ca759928c61ba5ac35c7e21c4afde04d68
+Filename: ./debians/Fonts/14/ModulusPro/xyz.turannul.modulusprofont14_1.0_iphoneos-arm.deb
+Size: 10613676
+MD5sum: ea3ae6a2ff9d6cb6d9f1adaaadbe4cae
+SHA1: b872509b3f34f8ba03f20d5e90505865b82053a2
+SHA256: 19da3a55135d843a71f7d975fb29485d669755f3b2176c2d70844908934a8b46
+SHA512: 8f2194f4028f247a6f708878cb6e328473d401fa3cd0cb12c096d5433146f30f8970c21c5bfc0ec704379118d93ef953f7f513d27a0eddf1f3ea056d1e2cdf2b
 Description: https://mobile.twitter.com/alexman1979/status/1409753777071034370
 Name: Modulus Pro Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/moduluspro.png
@@ -152,6 +152,25 @@ Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/appaze2.png
 
+Package: xyz.turannul.backupaz4
+Architecture: iphoneos-arm
+Version: 2.0
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Depends: firmware (>= 12.0), coreutils-bin, dpkg, shell-cmds
+Filename: ./debians/PirateTweakss/BackupAZ-IV/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
+Size: 13294560
+MD5sum: 37cd47a57b1e15bff87cd9e2e34e80bb
+SHA1: ff71bea93c7f2546cd39cb2b626993188061264b
+SHA256: 3a82c6f80b0b5c4f9cd2bd8f5133075315bad967e2e22a56dbfc34b2b19cdb82
+SHA512: 3c93dc77d45eaf2ff4c302523ef33a651431ea20bdf2ebf19dc7c6f2520289dc48764d2c45632f484c7a9d30febc23e9445f48cf94222fbcb929fa3806c0b89e
+Description: A complete and modern backup tool
+Name: BackupAZ 4 (iOS 12 - 14)
+Author: SynnyG
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/backupaz4.png
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm
 Version: 0.0.5
@@ -194,6 +213,26 @@ Name: ColorBadges (Packix)
 Author: David Goldman <help@golddavid.com>
 Depiction: http://apt.golddavid.com/depictions/ColorBadges.html
 Icon: https://turannul.github.io/home/resources/colorbadges.png
+
+Package: xyz.turannul.diskprobe
+Architecture: iphoneos-arm
+Version: 1.0.8
+Section: 🏴‍☠️ Tweak
+Maintainer: turannul
+Conflicts: com.creaturecoding.diskprobe
+Filename: ./debians/PirateTweakss/DiskProbe/xyz.turannul.diskprobe_1.0.8_iphoneos-arm.deb
+Size: 4975776
+MD5sum: 1ac3d6e135ab98d6b6ae357665d53242
+SHA1: 9b63d3457ff84ebe92979eeca73d35e6d344a588
+SHA256: b74602ad6a4d900b6c6c73cc78da495743595452cee62edfae99a7fc27c8f3f2
+SHA512: 935c7872a9b8e5ee6daa5472a9793e0738076d769c1d318db0425a96821e1965c1208dcd089927507fd272bdba01ad3984ef7be51842c4d984434c815600d264
+Homepage: https://creaturecoding.com/index.html?page=depiction&id=diskprobe
+Description: A simple file browser designed to help you find the large storage hogging files and folders on your device and free up storage.
+Name: DiskProbe
+Author: CreatureSurvive
+Sileodepiction: N/A
+Depiction: N/A
+Icon: https://turannul.github.io/home/resources/diskprobe.png
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
