@@ -36,62 +36,243 @@ Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
 
-Package: xyz.turannul.corporativesans
+Package: xyz.turannul.SFcompactrounded12
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts
+Section: Fonts-12
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/CorporativeSans/xyz.turannul.corporativesans_1.0_iphoneos-arm.deb
-Size: 10607384
-MD5sum: 610ee48d70daf79aa9fab97f34d314dd
-SHA1: 85d22dbbc02919a2496ff04b3985917c9f02a9e1
-SHA256: 344e82b104b5f74726e8a1d8c2ee1813d9d3009db5475f042b709f69d77bed32
-SHA512: cb637c714b0367c8aefd28fb870a03cfcff1820ad8c12326f6e7b44f9f4c47bfb9cc442ec4801ac25617078f3146675183493d712139f907f8fe6740ace8d558
+Filename: ./debians/Fonts/12/xyz.turannul.SFcompactrounded12.deb
+Size: 11581760
+MD5sum: 06839206966d281dbebf2f5077bc0367
+SHA1: e3c066eca1cc1e58230a88f2be194de631f91474
+SHA256: f1e21a54b39f0a1e2b01b504dd0fbc180edb4b67a7305cbd3e595f2c4eecd1c7
+SHA512: 998655fcc08d8bb81fef4c9bd3cfcacda6a360d4ba193d812555e1071b7a3546392df63416ef2f8413b523211b32279ea6446b9afce8a2f4b53118af51990043
+Description: N/A
+Name: SF Compact Rounded (iOS12)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.heartheat12
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-12
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/12/xyz.turannul.heartheat12.deb
+Size: 8955280
+MD5sum: 52aad51383d1058821eb6ac511d4b9f5
+SHA1: e38e478f3d027dceb9acec18fa9696befae52be0
+SHA256: e806bedcd469d79d1efbea431a79e063564494005407a4dcadcdabcd8b239a7e
+SHA512: c155c60a480c4f5c4985b1a4e7cf94c7a6098562f4c370cd9c93c30339e72327dc59cad8d5a879c772d85314db723cfe3d13182b6fdc54e82484b8c8802840ab
+Description: N/A
+Name: Heartheat (iOS12)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.SFcompactrounded13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-13
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/13/xyz.turannul.SFcompactrounded13.deb
+Size: 15396996
+MD5sum: a69dabb85e1520958be547a7b2caed87
+SHA1: 8b913639927e206a0f7274b2d73b7819b62ec315
+SHA256: 70667c879db6c7e58a5aec0791b038f0690f69ac399c89262c400ff3df309406
+SHA512: 3845f17b8ca070caf387202b7262250235271cfbf7dd490e1cca599e6830370e8cd46c6491215a0d4286a61104b56b2dd1e09763910171fc31bc30158200b05f
+Description: N/A
+Name: SF Compact Rounded (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.geogrotesque13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-13
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/13/xyz.turannul.geogrotesque13.deb
+Size: 13868868
+MD5sum: 3162f2b9d1184aec2c9e16b23c4e7014
+SHA1: 26449bb35ffa81d1e3666b75c7b0e31b0b3542b7
+SHA256: 60b99c9e107d8c5739bb4de019c68e2cfd2313295888c847f9cca8d29c30947c
+SHA512: 1f79ef91e0bcbd45194dbd91b98e5588dfec1ae00081b2a482711fb30e796bc35cd7ea18494afb61152239243152e091c616ac626ba4e6b1f4ee052c0fc8dd7e
+Description: N/A
+Name: Geogrotesque (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.heartheat13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-13
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/13/xyz.turannul.heartheat13.deb
+Size: 8571796
+MD5sum: a2f0b9a98dde97bcb022b5a7decd1d4c
+SHA1: be324946b112877b42415e0e22e873049ecb7070
+SHA256: bd77588697f94e3ef8b36c65a95606676a3d3925c0953e2d8da2373bc26e1c94
+SHA512: 394d1c7205b2aae95cbbccb3e9e20d13b7fda13b66770a5165a131cb14c25a8a39af79bd8de584908ce9efa23cd103ce498cfd49ad10d531544b67ae6452a51a
+Description: N/A
+Name: Heartheat (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.modulusprofont13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-13
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/13/xyz.turannul.modulusprofont13.deb
+Size: 11467060
+MD5sum: 993416d7c331ec9f98daa5d68f2a2006
+SHA1: 9cbc2166f8705bb725b72d85c6ec20d7b0c1933d
+SHA256: ac200df78ace67b13e30c78b0852ae4290e4f14e6f26c398b8b115a72b2b1b9a
+SHA512: 2cc51fc7d266f3575ec459e632abab7a4b11cce43df42c5a56cb75db45c4083624429f4e3b1cec37cce72576d8eb164fafb7ef9b7e9e7849171cc9a57ff45964
+Description: https://mobile.twitter.com/alexman1979/status/1409753777071034370
+Name: Modulus Pro Font (iOS 13)
+Icon: https://turannul.github.io/home/resources/moduluspro.png
+Author: Alexman1979
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.modulusprofont14
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
+
+Package: xyz.turannul.odin13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-13
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/13/xyz.turannul.odin13.deb
+Size: 12464208
+MD5sum: 149fd72113664b4dd33ae122ecc8640d
+SHA1: b811d612a1b62a4df14ed49a29601742dc380f03
+SHA256: 4083ac6321ef8822cd1d06564996054eb2deced4f6076fbbe4f4e9a9c64783ef
+SHA512: c6afd5dc80d71e8203ce275736d3ab7b605636d97e9c29fbe094902d24240c0400229737749d46d66d97c7064dacc84d01e423f3c0ebd1ab4228e38087a81be4
+Description: N/A
+Name: Odin (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.SFcompactrounded14
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-14
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/xyz.turannul.SFcompactrounded14.deb
+Size: 13293212
+MD5sum: a6b60b4fa4a7268c293245689d1f246e
+SHA1: 880ebb4739a9e164f194db6eff8e002ac69eb407
+SHA256: 9db72a569c0f1ecd9ddea2a0dcafae6456b8ffd631b8d8e450b2ad5dac9aafd0
+SHA512: 68a028636f293cdada9ff430f48f7e4bb2264dc4f874d1887f943a641fb9f303f2ef11afcd138bde0d9a713bd161ed8440efe1a2c1444f0b18cf5c2a6a2945bf
+Description: N/A
+Name: SF Compact Rounded (iOS14)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.corporativesans14
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-14
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/xyz.turannul.corporativesans14.deb
+Size: 10616156
+MD5sum: ac49807c7cd4d830870606d377fed834
+SHA1: e8937724d313d957e9fe23ff4a39bf126c23ba84
+SHA256: 9b7d50a412e7429e80032c1e515b68acd199ee05ac9ccb0040cdbfea3359423e
+SHA512: 2172660494c9e47f458116a8be8d645d901a3217b812a1299faec8e666ebe6b8fb0b2ca326cb911ea32797f724d8f950587b1a1d23cbc185df93e8bef91fcb1d
 Description: N/A
 Name: Corporative Sans Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/null.png
 Author: Alexman1979
 Depiction: N/A
- SileoDepiction: N/A
+SileoDepiction: N/A
 
-Package: xyz.turannul.googlesans100
+Package: xyz.turannul.geogrotesque14
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts
+Section: Fonts-14
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/GoogleSans/xyz.turannul.googlesans100_1.0_iphoneos-arm.deb
-Size: 9687896
-MD5sum: 6e32a81e724e6cbb9a781ac3727b1047
-SHA1: 1df2b2b89537e284aacbca1efd509fdc50169c42
-SHA256: 1d5ae2cbfa11eb031d9970a8cf40eaa95708c966f8c2674684a81917814daa6e
-SHA512: 64599c1beff53611223649beed08a3c178969f1c904737637c1eda68ec2126509dd325db3ee778c420a814d08454d763ebd6ed34e13372b8dbacfc3062499e6d
+Filename: ./debians/Fonts/14/xyz.turannul.geogrotesque14.deb
+Size: 11900660
+MD5sum: 6862cdd826a948326c988190b9540c80
+SHA1: 66e43cd45656d96e845cd4a4f88b5792b52c8af3
+SHA256: 195fb9e45006038b5ef7af6176fa488eeefafa58cdf6dc3d70f19cb3f4fe72f5
+SHA512: da8a2dad9d87cf7137bd2ab585154f0be28c73d1a39b427e52458858e8528b60bae0090a78380cf186a8ff38ff3633573967ff30ededf3afac4713314d72d886
+Description: N/A
+Name: Geogrotesque (iOS14)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.googlesans14
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-14
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/xyz.turannul.googlesans14.deb
+Size: 9688760
+MD5sum: 1a54a3fb7052b798359eb05f5bf07f85
+SHA1: a90c78a2c707625f1bc682f752e37d0ebd019bb9
+SHA256: 59cfdf97b43fe024b70e3677c86b7aabb4bf22ecb221eae53ff1eed336e6341d
+SHA512: 4e977706863894d6632012624fde0ccbbe5812b2bf2d6a1bfd8e7f1b008c15c3614a50089d7662cefc710228e791b947d814ebc072a2f39f7f231547849a61b3
 Description: https://twitter.com/alexman1979/status/1372427908283650049?s=21
 Name: Google Sans Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/null.png
 Author: Alexman1979
 Depiction: N/A
- SileoDepiction: N/A
+SileoDepiction: N/A
 
 Package: xyz.turannul.modulusprofont14
 Architecture: iphoneos-arm
 Version: 1.0
-Section: Fonts
+Section: Fonts-14
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/ModulusPro/xyz.turannul.modulusprofont14_1.0_iphoneos-arm.deb
-Size: 10613676
-MD5sum: ea3ae6a2ff9d6cb6d9f1adaaadbe4cae
-SHA1: b872509b3f34f8ba03f20d5e90505865b82053a2
-SHA256: 19da3a55135d843a71f7d975fb29485d669755f3b2176c2d70844908934a8b46
-SHA512: 8f2194f4028f247a6f708878cb6e328473d401fa3cd0cb12c096d5433146f30f8970c21c5bfc0ec704379118d93ef953f7f513d27a0eddf1f3ea056d1e2cdf2b
+Filename: ./debians/Fonts/14/xyz.turannul.modulusprofont14.deb
+Size: 10615880
+MD5sum: da06240160e47ff560e078acf36cff53
+SHA1: bfe07af590781b1dcd3f6ef8bef1c9b608fcb00e
+SHA256: c674ef1991f1ec1757fd6991a78220d6395a9567835a1a3019b5ede44547aee4
+SHA512: fc02b94632d94cae1d27ffedf428b4da6b9fb54faf0871a39ae29388361307062d2c97cf5058ad39feafc8a292cd30e197208a547c421475329f36a5eafcfa84
 Description: https://mobile.twitter.com/alexman1979/status/1409753777071034370
 Name: Modulus Pro Font (iOS 14)
 Icon: https://turannul.github.io/home/resources/moduluspro.png
 Author: Alexman1979
 Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.modulusprofont14
- SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
+
+Package: xyz.turannul.odin14
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts-14
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/xyz.turannul.odin14.deb
+Size: 10443500
+MD5sum: 5ee7caa89f3b2e4050770c8d632cd11b
+SHA1: c45c611bb66735ed4a1294342be2c3b7bd00ab34
+SHA256: 3f39eb093ee1ba71431a98bf804eec99167568de22008f39cfc4227f28f9f0c2
+SHA512: 998fe2ae7ee7093e0e7c528022a307a1d40398f45648a8f7588847354633a6fee3aed1fe2d1fc2da0373b4b3bb2a19883e093e22737969d52766f87a11f21b48
+Description: N/A
+Name: Odin (iOS14)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
@@ -2614,6 +2795,25 @@ Author: iPA Store
 Depiction: https://www.iphonecake.com/app/
 SileoDepiction: https://www.iphonecake.com/app/
 Icon: https://turannul.github.io/home/resources/appcake.png
+
+Package: Appdb
+Architecture: iphoneos-arm
+Version: 1.1.3
+Section: Uygulama
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified
+Filename: ./debians/Uygulamalar/Appdb/Appdb_1.1.3_iphoneos-arm.deb
+Size: 16264548
+MD5sum: 5c98785dc348fa9a94e1a437b2925709
+SHA1: 03060781f5adc008091baca8c06b016a61a2a77b
+SHA256: 632f04e48cae866e96c056e9e5c33873af8929799eed2f4a2b038fe70aaca238
+SHA512: d0baf63c6b2dc1c7a8f38c5fbc5c45ac97e17649fce0ca44b9642049a5c3e9209167f900a48b04ef2a44ea90f70c7ba374489ae6d3626471aa4cc3a77060b9ea
+Description: Appdb
+Depiction: N/A
+SileoDepiction: N/A
+Name: appdb
+Author: n3d1117
+Icon: https://turannul.github.io/home/resour ces/appdb.png
 
 Package: ru.domo.cocoatop64
 Architecture: iphoneos-arm
