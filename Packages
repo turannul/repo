@@ -2803,17 +2803,17 @@ Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified
 Filename: ./debians/Uygulamalar/Appdb/Appdb_1.1.3_iphoneos-arm.deb
-Size: 16264548
-MD5sum: 5c98785dc348fa9a94e1a437b2925709
-SHA1: 03060781f5adc008091baca8c06b016a61a2a77b
-SHA256: 632f04e48cae866e96c056e9e5c33873af8929799eed2f4a2b038fe70aaca238
-SHA512: d0baf63c6b2dc1c7a8f38c5fbc5c45ac97e17649fce0ca44b9642049a5c3e9209167f900a48b04ef2a44ea90f70c7ba374489ae6d3626471aa4cc3a77060b9ea
+Size: 16260452
+MD5sum: e87f5906a3159e7b9790e7222369da28
+SHA1: 502fbf11b0da2387b99282de8c016685b0784581
+SHA256: bdb278cb82e00d30d077a44eb75f5f932078e630ab4f87a1c990084b8f58fae5
+SHA512: 43aebbc1b43408358fe9b12445fd514810327c7a6d04d759e063076f47699c7c62fea2919762cb353e28d06a48e2efe1d64c237630ca00ef04cbf0c034372b88
 Description: Appdb
 Depiction: N/A
 SileoDepiction: N/A
 Name: appdb
 Author: n3d1117
-Icon: https://turannul.github.io/home/resour ces/appdb.png
+Icon: https://turannul.github.io/home/resources/appdb.png
 
 Package: ru.domo.cocoatop64
 Architecture: iphoneos-arm
