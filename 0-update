@@ -1,7 +1,7 @@
 #! /usr/bin/zsh
 
+echo "Say something, what song you like?"
 read msg
-echo "$msg"
 
 homeupdate=$(date +%s)
 
