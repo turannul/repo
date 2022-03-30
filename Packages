@@ -1600,20 +1600,20 @@ Icon: https://turannul.github.io/home/resources/diary.png
 Package: love.litten.diary
 Architecture: iphoneos-arm
 Version: 1.2.2
-Section: Tweaks
+Section: Litten-Archive
 Maintainer: Litten
-Installed-Size: 5800
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, love.litten.libkitten
 Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
 Filename: ./debians/Tweaks/Litten-Archive/Diary/love.litten.diary_1.2.2_iphoneos-arm.deb
-Size: 2663262
-MD5sum: a7d45a761e58dd88f00cabc672924855
-SHA1: 8f2be75ad2b5756a8009d26dd50c48323195f259
-SHA256: a1d8902754052f56c5741a7be8cd39d00cf2210ba038846d248b64ddcabc9528
-SHA512: d0980ab072553d6e4b28bb7d0bfb330d0e5c186aa7a2744d43ceca9c8b8e4c28e532a6d24b8a4c980c156033d8e3164adb37a4821f22b61710b25e7e0b28c09a
-Description: Dear diary..
+Size: 2653560
+MD5sum: eaaf160642753e6ee54c92913f5b5064
+SHA1: 8271b39ea0cbb3d416f2863db28426c7d87bd57e
+SHA256: 106c2a3ab7ad90fde80b7979805216078a3c1a046a65e039f30d1c88cf206e19
+SHA512: 6da5cb81d0fdb5fc72db743aafb88101fad991af9ed4ac17896a4cd11bb432287e7f14e5c5dd9499f9a862067f1928d88a997a82863ad981a142a3a2c8168241
+Description: Windows 10'den esinlenmiş kilit ekranı.
 Name: Diary 📖
 Author: Litten
+Icon: https://turannul.github.io/home/resources/diary.png
 
 Package: love.litten.dress
 Architecture: iphoneos-arm
