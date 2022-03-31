@@ -1605,11 +1605,11 @@ Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.mrgcgamer.libgcuniversal, com.peterdev.libpddokdo, love.litten.libkitten
 Conflicts: hi.my.name.is.ubik.kalm, com.peterdev.grupi, se.nosskirneh.properlockgestures
 Filename: ./debians/Tweaks/Litten-Archive/Diary/love.litten.diary_1.2.2_iphoneos-arm.deb
-Size: 2653560
-MD5sum: eaaf160642753e6ee54c92913f5b5064
-SHA1: 8271b39ea0cbb3d416f2863db28426c7d87bd57e
-SHA256: 106c2a3ab7ad90fde80b7979805216078a3c1a046a65e039f30d1c88cf206e19
-SHA512: 6da5cb81d0fdb5fc72db743aafb88101fad991af9ed4ac17896a4cd11bb432287e7f14e5c5dd9499f9a862067f1928d88a997a82863ad981a142a3a2c8168241
+Size: 2653208
+MD5sum: c7158a8120f9a446971ca8ead7c8246d
+SHA1: 1b5198ff137028b5925430f29f6f32247fd51f13
+SHA256: dd309a1ca2bc4668918eca408498a0ec9e19df89efa0208d60f8fc8b833e3bcb
+SHA512: 455750a168e273c59cc2c57a3567d0f1d2ed7acaafd53ce8939868eee5362cc6ea50325aad67b96dbb909a5c3d0b6754f2f21238f0bb9a0cd90892219eed3747
 Description: Windows 10'den esinlenmiş kilit ekranı.
 Name: Diary 📖
 Author: Litten
