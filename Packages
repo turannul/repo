@@ -2020,6 +2020,26 @@ Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler.html
 SileoDepiction: https://repo.cadoth.net/sileo-depictions/net.cadoth.otaenabler.json
 Author: nyuszika7h <nyuszika7h@gmail.com>
 
+Package: net.cadoth.otaenabler
+Architecture: iphoneos-arm
+Version: 0.4.1
+Section: System
+Maintainer: nyuszika7h <nyuszika7h@gmail.com>
+Installed-Size: 4
+Depends: awk | gawk, com.bingner.plutil, file-cmds
+Conflicts: com.apple.memecity, jp.akusio.kernbypass, jp.akusio.kernbypassbeta, jp.akusio.kernbypass-unofficial
+Filename: ./debians/Tweaks/OTAenabler/net.cadoth.otaenabler_0.4.1_iphoneos-arm.deb
+Size: 1854
+MD5sum: a3c93fa5349c9d4d48cc9ec68733fec0
+SHA1: 030c96bff43ea322020027dc82e8cf546a360709
+SHA256: dfc1f716b23f894cb6e59b9e631f5bb5c3c0d7ce611ad38dc2d7c3fb5d63247b
+SHA512: 90607b8e3454d13a76c46ea0553451c15022641136cad7213dea6464ab40bfb9cfae2f7d7c56b3ff2bc18ae8dcb2f996f705ed2d02dfa0eaa9cfd064d380a599
+Description: Re-enable OTA software updates blocked by various methods
+Name: OTAEnabler
+Depiction: https://repo.cadoth.net/depictions/net.cadoth.otaenabler.html
+SileoDepiction: https://repo.cadoth.net/sileo-depictions/net.cadoth.otaenabler.json
+Author: nyuszika7h <nyuszika7h@gmail.com>
+
 Package: com.doregon.overb0ard
 Architecture: iphoneos-arm
 Version: 1.0.3
@@ -3144,6 +3164,41 @@ Author: XITRIX
 Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
+
+Package: com.itsjafer.stopshortcutsnotifications
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: itsjafer <itsjafer@gmail.com>
+Installed-Size: 284
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debians/com.itsjafer.stopshortcutsnotifications_1.0.0_iphoneos-arm.deb
+Size: 9846
+MD5sum: 91e2f3559a6e042f6a04365fb7701ee8
+SHA1: 51f9cb6d7d9f2581aa387e4799fef9a4b6bfc3d1
+SHA256: 41226ea202609cfc85ac983fb7eb0c65140ae7935a647b3af496f3c9465b58e6
+SHA512: f9642f922448b14044203d66abf31a983f782287e9a5c58f0202e0eafa6cbe37ee07ddff8de5d652efa1c77540884bdb98496e7d73d25cbc39bd8e8f04e7336b
+Description: Stops all shortcuts notifications from being pushed.
+Name: StopShortcutsNotifications
+Author: itsjafer <itsjafer@gmail.com>
+Depiction: https://itsjafer.com/repo/depictions/?p=com.itsjafer.stopshortcutsnotifications
+
+Package: me.anubistweaks.cocoatoptoggle
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: AnubisTweaks
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debians/me.anubistweaks.cocoatoptoggle_1.0.0_iphoneos-arm.deb
+Size: 9226
+MD5sum: e4cae488f8b52fc44c49aba00d39025c
+SHA1: 40228df1560565f8fd78d3d41b9ff1c3af676f6e
+SHA256: 4de4caf279e6248797482d082d541ef5923c29f203998e6e76d023a0d3f6ed5a
+SHA512: 223ec7500d9cf4e4d4d2e492893b2341f43f1362407b92ff0555d894c6517147e85fb4bdc7803218de88ee80e7f6b7b3626c567f611eb540c32c1016e7dc00a3
+Description: An awesome Control Center module!
+Name: CocoatopToggle
+Author: AnubisTweaks
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
