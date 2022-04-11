@@ -26,11 +26,11 @@
                     "itemSize": "{160, 275.41333333333336}",
                     "screenshots": [
                         {
-                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/0.PNG",
+                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/IMG_0.PNG",
                             "accessibilityText": "Screenshot0"
                         },
                         {
-                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/1.PNG",
+                            "url": "https://turannul.github.io/repo/depictions/web/xyz.turannul.uptime/screenshots/IMG_1.PNG",
                             "accessibilityText": "Screenshot1"
                         }
                     ],
@@ -49,7 +49,7 @@
                 },
                 {
                     "title": "Version",
-                    "text": "6.2",
+                    "text": "6.2.2",
                     "class": "DepictionTableTextView"
                 },
                 {
