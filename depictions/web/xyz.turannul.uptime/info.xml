@@ -9,12 +9,12 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>zsh perl ncurses iokittools gawk</package>
+		<package>zsh ncurses iokittools gawk</package>
 	</dependencies>
 	<shortDescription></shortDescription>
 	<descriptionlist>
-		<description>uptime ama daha iyi</description>
-		<description>Kullanım: uptime2</description>
+		<description></description>
+		<description></description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -22,7 +22,13 @@
 		</screenshot>
 	<screenshot>
 			<image>1.PNG</image>
-		</screenshot>				
+		</screenshot>	
+<screenshot>
+			<image>IMG_0.PNG</image>
+		</screenshot>
+<screenshot>
+			<image>IMG_1.PNG</image>
+		</screenshot>			
 		<screenshot>
 			<description></description>
 			<image></image>

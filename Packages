@@ -941,6 +941,26 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
+Version: 6.2.2
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, zsh, uikittools, gawk
+Filename: ./debians/Scripts/Uptime2/xyz.turannul.uptime_6.2.2_iphoneos-arm.deb
+Size: 3936
+MD5sum: 22c08d282e7688587383cbf75a3e1bd2
+SHA1: 7562397ef558a4c6473fa184e7801a604ae202f8
+SHA256: ea8058cad230b426a0576ad81db5925324900bfae61865849bce9a390e274815
+SHA512: b8a6344356fe4ba74ce9e6517be67a0b66c29eabacbe97a7de4ac53d5fe9b0e2185d0a7f625f34ac14e767c4bddea6336fd43399ed6df0fd055412d057808348
+Description: Bildiğin uptime ama kullanışlı
+Author: turannul
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: uptime2
+Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
 Version: 6.2
 Priority: optional
 Section: Scripts
@@ -1461,6 +1481,27 @@ Depiction: https://kurrt.com/repo/lifeguard
 SileoDepiction: https://kurrt.com/repo/lifeguard/sileo.php
 Author: Kurrt <dev@kurrt.com>
 Icon: https://turannul.github.io/home/resources/lifeguard.png
+
+Package: com.kurrt.lifeguard
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: Kurrt <dev@kurrt.com>
+Installed-Size: 672
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debians/Tweaks/Lifeguard/com.kurrt.lifeguard_1.3_iphoneos-arm.deb
+Size: 132136
+MD5sum: 73928a7de7786a0595f1ce1372657e3c
+SHA1: 32bb2d396601d416e70a39c17e63a4083ba58ada
+SHA256: ab79d4baddb498e0c1b3cc6cad3c2ee71d2a2ba88c9fdc9d9ca0faed84d31cd9
+SHA512: ac002895f64419f4a53fcc25be98de537171c3245036d443980462e2584a8054b6458714827dd41fbe349329f1b4c7216693cb2c538391e6e5f8ace01a6271f2
+Homepage: https://kurrt.com/repo/lifeguard
+Description: Respring your device using the hardware buttons. 
+ Note: iOS 13 and later
+Name: Lifeguard
+Depiction: https://kurrt.com/repo/lifeguard
+SileoDepiction: https://kurrt.com/repo/lifeguard/sileo.php
+Author: Kurrt <dev@kurrt.com>
 
 Package: love.litten.amonglock
 Architecture: iphoneos-arm
