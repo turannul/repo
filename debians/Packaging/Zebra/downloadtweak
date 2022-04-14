@@ -1,0 +1,4 @@
+whereami=$(pwd)
+cd $whereami
+#rm *.deb
+apt-get download xyz.willy.zebra -y --allow-unauthenticated
