@@ -1,3 +1,20 @@
-cd /var/mobile/Documents/Github/repo/debians/Packaging/Sileo
-rm *.deb
-apt download org.coolstar.sileo -y --allow-unauthenticated
+path=$(pwd)
+cd $path
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.3/org.coolstar.sileo_2.3_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2.5/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2.4-1/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2.3/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2.2/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2.1/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.2/org.coolstar.sileo_2.2_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/2.1-1/org.coolstar.sileo_2.1-1_iphoneos-arm.deb
+
+wget -nc https://github.com/Sileo/Sileo/releases/download/v2.1/org.coolstar.sileo_2.1_iphoneos-arm.deb

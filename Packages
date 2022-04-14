@@ -1,41 +1,3 @@
-Package: xyz.turannul.firewatch
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Wallpaper
-Maintainer: turannul
-Depends: wallpaperloader
-Filename: ./debians/Duvar-Kağıtları/FireWatch/xyz.turannul.firewatch_1.0_iphoneos-arm.deb
-Size: 2013374
-MD5sum: 82e682fa52e4f0c1f6f99bbf8dfe7ff9
-SHA1: aa00df9587484f17e5e34a245f01d826a0bf6a3f
-SHA256: 16b45d616f40a2a869fa9f9d9f5d64b56574feb3ba29743db74ec8991d1a978b
-SHA512: e8c35f34a6930986584b19f342232fbd57951c2e955baa7b969186ba1441e885b8f15e39eed6094717d1c743acd2a4027186acd27de5029c72e1b7d6879cff2b
-Description:
-Name: FireWatch Wallpaper
-Author: turannul
-Depiction: N/A
-Icon: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.xrwallpapers
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Wallpaper
-Maintainer: turannul
-Depends: wallpaperloader
-Filename: ./debians/Duvar-Kağıtları/XR-Wallpapers/xyz.turannul.xrwallpapers_1.0_iphoneos-arm.deb
-Size: 22784474
-MD5sum: 87d53df5c001e966f2ee0a06cd76c834
-SHA1: 221e217814669a910a0dd8889bc0e4e82f0e1d56
-SHA256: 2ada649b4441502eea123a122ea7611c4cf859509be306d4cea3eae634f1f2b3
-SHA512: ead85fe9609b582e7c5a7bf9f1b23c56ae65a0d0f99793f9ea03d844da9628ec8845f02efff6b2a8f67368e8cb5f091ece8a7e6f85613345d3abbe10e03394e8
-Description: iPhone XR duvar kağıtları
-Name: XR Duvar kağıtları
-Author: turannul
-Depiction: n/a
-Icon: n/a
-SileoDepiction: n/a
-
 Package: xyz.turannul.SFcompactrounded12
 Architecture: iphoneos-arm
 Version: 1.0
@@ -276,20 +238,164 @@ SileoDepiction: N/A
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
+Version: 2.1-1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0)
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.1-1_iphoneos-arm.deb
+Size: 2355428
+MD5sum: 393639ba946f4465e4acaaac9a5dde0e
+SHA1: 60b5928fb9beff838b8957bd42892cf6734af810
+SHA256: 4c7c112301ffb1f5d9491a1653030211710e7bf02f7f74391650251012165f76
+SHA512: 586c79d8ccbe7be8d20cd938dd63a5f350a67d2e7026b62f4d19a45a310eecb94a7882843c2d8f77e94a9d29eeade9a394d6be9b76b3c8567f5af2bd1d45d596
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0)
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.1_iphoneos-arm.deb
+Size: 2375236
+MD5sum: ed9a31500df31b8f24177d68f8bee6af
+SHA1: 6cba1459fc8284c64fb32e77c4446961ff5e1ec1
+SHA256: cf1c0f3a2bd21a42252c00e5d55d9a0047e8df305730079f0ad984aaaa08226c
+SHA512: b2f36d54da047d81436d5ad5d9bf6c2e6a0dd5530f1e618a26bcb0a1a019c1961a03be25a30e7ca95654a60e6b7a6a9b9fe0a24e862f392b2d62aba4e36c452c
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
+Size: 2417704
+MD5sum: 5817c45bb8f2e8da003858cf5ab64cb1
+SHA1: eb07a4124771c63a1b9a6c54e82d056e462eb899
+SHA256: 94cf02601417f40450b57f55eb0d1ca0a8987b9b2ba32552dfadff0650fd8216
+SHA512: fc5b8112bd98270824b760ad8df936939fa2524b524ad84a5854f0402be20d71dc15dbadc33f6871e89d0eed74dfcfc59fd73bb1a55f41acf53af9acc390ac8b
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
+Size: 2417178
+MD5sum: 098ae5546d2876dd1cc8c1bdf032775b
+SHA1: 14771f71fc084dcd7aede23c14314bfc1ca10702
+SHA256: 025c403ecf80ca3f430be8b94c29b6e2badbbb7ccec3f61ea194634845281ca8
+SHA512: bf92d81274f0e9ededf61e0767911630ec58797d988b79b2e0e6e1f12ba0eeac2fbb27e776a3c03f98c1df8a8242e7bafc4fd1b20ef54843c5d41fab56d3e8fa
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.3
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
+Size: 2199780
+MD5sum: 70a60e134dd1ca6e69913131e89c03df
+SHA1: ff18b87bb21da28929880504819e7737697c1129
+SHA256: e2daff014a72766d51391a1bf1185406163fa500bad149c68504708aab14c43a
+SHA512: cf5044a02420c66d4105c0548218bc3667dbe6a25ed70d1798bf52e27a63e35eb67b5d1fec9b9b698191a16b460e0f49c5bf4255ab4222bea6832b06f8f907b7
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.4-1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
+Size: 2008776
+MD5sum: 49fd25d8ae7bd8679999286b11981791
+SHA1: a31a4725401816f5f4daeb247c66509563da3b58
+SHA256: 93a0ab577532e550dff8f6ce1cb360009d79cdc39e1a14301f5fb49ba4f352f2
+SHA512: 86cab936d8cbe7b3ddc3af50021fa47c0f0e8ccbabed4eb7f3d97660ee1cca4d4588a67bded43dc78c58576e90e1a8177e127a509753144bc1e7060bc039b2ac
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.5
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
+Size: 2013728
+MD5sum: 67fa3dce5d612a619ad945f47be737d3
+SHA1: e36ad1a374effadb081cb0e62aacb616b420e6fd
+SHA256: ccc9be922855c4b4fae085d7652391a99061f9c9ba34940b88f5d9c0df1a8971
+SHA512: 0f41a7414ceb80c16579b1cc30597855a23caf29b9fe1b785404a9bb4ffb33e13f5ba31f78a9b64497c3ba6608010fe2ece10bc3fda593024b287bf8cde57a2e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.32-4), dpkg (>= 1.20.0), apt (>= 2.3.0), libzstd1
+Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.2_iphoneos-arm.deb
+Size: 2414370
+MD5sum: 317056c00e8855f8f6346ee6e84edd28
+SHA1: 96ec21a027cf71086f2c7cc6dd98df81a5c36133
+SHA256: cb705f473aad72766adfcc92142f244978cf4c7084a69cc277b2d4ce85e572f4
+SHA512: a270294f23cd76004a14869d8be60f38332353064247f4ac0eae78418d4f7fa5e076eb20d57711e6e134d9e4bd7852eb3b63aa73fd148cfddeebd62ba3cf6b16
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
 Version: 2.3
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
 Filename: ./debians/Packaging/Sileo/org.coolstar.sileo_2.3_iphoneos-arm.deb
-Size: 2565976
-MD5sum: 661e08384f4519649f7c13dc01a9f408
-SHA1: 537887a3e0e5f0f0ebc75f4b491b92d375ed4873
-SHA256: 1c3b457ac5e5a8a59e776214f107d4cac1022652efeb1f3316cf020e75aa7548
-SHA512: 5aa50156a269465b335fa38b0dec39c3f694732e4c2c5ca20056b95892e536a16745ddd70afcc28cbbd6ca4ce5ffafff3717565468f99dc203dafb8ec3d96f40
+Size: 1997556
+MD5sum: 8ec089704f0bd944d914ff044fef91a4
+SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
+SHA256: d7cec451c30724bf92aec88ff217aa83a310ee87eab3fca438fce688a6d179ee
+SHA512: cedcd583b51118fd13107eb6dfc1bcfe7c1bbf5aee9a5364e38b439d7f60a34e9c016b048e912801f6edccfb1c15f531f06cc864185860fa9c3f2d3e74ddc0ff
 Description: A modern APT package manager frontend
 Name: Sileo
 Author: Sileo Team <getsileoapp@gmail.com>
-Icon: https://turannul.github.io/home/resources/sileo.png
+Icon: https://getsileo.app/img/icon.png
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: xyz.willy.zebra
@@ -1199,18 +1305,18 @@ Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.battsafepr
 
 Package: com.neinzedd9.bazzi
 Architecture: iphoneos-arm
-Version: 2.0.6
+Version: 2.0.6+1
 Section: Tweaks
 Maintainer: turannul
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1)
 Conflicts: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
 Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
-Filename: ./debians/Tweaks/Bazzi/com.neinzedd9.bazzi_2.0.6_iphoneos-arm.deb
-Size: 56698
-MD5sum: cc67d3ae061f2a1ac3e995d8a67169fa
-SHA1: ea9852661994a97a7c21c47ce9713128f5d86be8
-SHA256: f2bc8fbad8129693caa1d86cd3bbf1fb725111dfd736a37ed1e80353cdd8b5bd
-SHA512: c161607c8dd1dbd0de7778f1f54047b1c53cf3d61624bda3c0e5631d34c144cda967a1ad51292d1787dbee8a859a6ef58f00b63b229c62c229b7f9e1b162605a
+Filename: ./debians/Tweaks/Bazzi/com.neinzedd9.bazzi_2.0.6+1_iphoneos-arm.deb
+Size: 33276
+MD5sum: cb7594e13a2a41a4d708b912141e7dcd
+SHA1: 24429a49441033996cbc7d22795457442bd9afdc
+SHA256: fe214e7fe1e85decda4a754658003172b93202df688ed7710dd74e232e3db0af
+SHA512: 54c453cbb4790cbc6e814c6787b7dcb9eb4d085c58521acdf2629a0ff05ecdb7c573eeca791b5b17b6b5a16f54c38215ae1e63c0073bfbe7ad4d821849b2fccb
 Description: The ultimate iPhone X battery icon customizer tweak.
 Name: Bazzi
 Author: Blake Boxberger
@@ -1241,7 +1347,7 @@ Version: 2.0.2
 Section: Control Center (Modules)
 Maintainer: gilesgc & paisseon
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/CCcalc/ai.paisseon.cccalc_2.0.2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/CC Modules/CCcalc/ai.paisseon.cccalc_2.0.2_iphoneos-arm.deb
 Size: 96516
 MD5sum: f85d8796f5803489845e3d3007040f52
 SHA1: 8191d52003583dfd662722624f554934a6cb7998
@@ -1253,6 +1359,41 @@ Author: gilesgc & paisseon
 SileoDepiction: https://paisseon.github.io/info/cccalc.json
 Depiction: https://paisseon.github.io/info/cccalc.html
 Icon: https://turannul.github.io/home/resources/cccalc.png
+
+Package: me.anubistweaks.cocoatoptoggle
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: AnubisTweaks
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/CC Modules/CocoatopCC/me.anubistweaks.cocoatoptoggle_1.0.0_iphoneos-arm.deb
+Size: 9226
+MD5sum: e4cae488f8b52fc44c49aba00d39025c
+SHA1: 40228df1560565f8fd78d3d41b9ff1c3af676f6e
+SHA256: 4de4caf279e6248797482d082d541ef5923c29f203998e6e76d023a0d3f6ed5a
+SHA512: 223ec7500d9cf4e4d4d2e492893b2341f43f1362407b92ff0555d894c6517147e85fb4bdc7803218de88ee80e7f6b7b3626c567f611eb540c32c1016e7dc00a3
+Description: An awesome Control Center module!
+Name: CocoatopToggle
+Author: AnubisTweaks
+
+Package: com.level3tjg.vnodebypassccmodule
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Control Center (Modules)
+Maintainer: level3tjg
+Installed-Size: 152
+Depends: com.opa334.ccsupport, kr.xsf1re.vnodebypass
+Filename: ./debians/Tweaks/CC Modules/vnodeCC/com.level3tjg.vnodebypassccmodule_0.0.1_iphoneos-arm.deb
+Size: 8152
+MD5sum: 6ba605b1ad8d45002c7b46972300cd9c
+SHA1: c7c8e11c8c1534a5ecffac5196c4b3d746a49fa5
+SHA256: 2cc36685bd696681c0294328f4b54fea0a69a64eda82d606485ec58f39fbbdfb
+SHA512: 871dc4d89b13b5bb590c32c958f8e45231c9756eeabbed0d6496e2710f36357e5670f4fe644fab95ffabf2a083b2dd7c74bce355e6ddea2acae2c025dcd6f27f
+Description: Enable / disable vnodebypass from the Control Center
+Name: vnodebypass CC Module
+Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
+Author: level3tjg
 
 Package: com.wilsonthewolf.eliza
 Architecture: iphoneos-arm
@@ -2271,6 +2412,24 @@ Icon: https://paisseon.github.io/icons/satella2.png
 SileoDepiction: https://paisseon.github.io/depictions/satella2.json
 Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
+Package: com.itsjafer.stopshortcutsnotifications
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: itsjafer <itsjafer@gmail.com>
+Installed-Size: 284
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debians/Tweaks/ShutupShortcuts/com.itsjafer.stopshortcutsnotifications_1.0.0_iphoneos-arm.deb
+Size: 9846
+MD5sum: 91e2f3559a6e042f6a04365fb7701ee8
+SHA1: 51f9cb6d7d9f2581aa387e4799fef9a4b6bfc3d1
+SHA256: 41226ea202609cfc85ac983fb7eb0c65140ae7935a647b3af496f3c9465b58e6
+SHA512: f9642f922448b14044203d66abf31a983f782287e9a5c58f0202e0eafa6cbe37ee07ddff8de5d652efa1c77540884bdb98496e7d73d25cbc39bd8e8f04e7336b
+Description: Stops all shortcuts notifications from being pushed.
+Name: StopShortcutsNotifications
+Author: itsjafer <itsjafer@gmail.com>
+Depiction: https://itsjafer.com/repo/depictions/?p=com.itsjafer.stopshortcutsnotifications
+
 Package: com.wyattgahm-kanji.shadowx
 Architecture: iphoneos-arm
 Version: 1.0.1-3+debug
@@ -2278,7 +2437,7 @@ Section: Tweaks
 Maintainer: Wyatt Gahm
 Installed-Size: 1076
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy
-Filename: ./debians/Tweaks/Snapchet/com.wyattgahm-kanji.shadowx_1.0.1-3+debug_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Snapchat/com.wyattgahm-kanji.shadowx_1.0.1-3+debug_iphoneos-arm.deb
 Size: 239816
 MD5sum: 1cf3d1ed06814a107ea0779bbc24a670
 SHA1: f8d32ab9a6bd9ccc2fda3ab366f69f906fdd30ad
@@ -2816,24 +2975,6 @@ Name: vnodebypass
 Author: XsF1re
 Icon: https://turannul.github.io/home/resources/vnode.png
 
-Package: com.level3tjg.vnodebypassccmodule
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: Control Center (Modules)
-Maintainer: level3tjg
-Installed-Size: 152
-Depends: com.opa334.ccsupport, kr.xsf1re.vnodebypass
-Filename: ./debians/Tweaks/vnode/vnodecc/com.level3tjg.vnodebypassccmodule_0.0.1_iphoneos-arm.deb
-Size: 8152
-MD5sum: 6ba605b1ad8d45002c7b46972300cd9c
-SHA1: c7c8e11c8c1534a5ecffac5196c4b3d746a49fa5
-SHA256: 2cc36685bd696681c0294328f4b54fea0a69a64eda82d606485ec58f39fbbdfb
-SHA512: 871dc4d89b13b5bb590c32c958f8e45231c9756eeabbed0d6496e2710f36357e5670f4fe644fab95ffabf2a083b2dd7c74bce355e6ddea2acae2c025dcd6f27f
-Description: Enable / disable vnodebypass from the Control Center
-Name: vnodebypass CC Module
-Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
-Author: level3tjg
-
 Package: xyz.turannul.altstore
 Architecture: iphoneos-arm
 Version: 1.4.9
@@ -3205,40 +3346,43 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
-Package: com.itsjafer.stopshortcutsnotifications
+Package: xyz.turannul.firewatch
 Architecture: iphoneos-arm
-Version: 1.0.0
-Section: Tweaks
-Maintainer: itsjafer <itsjafer@gmail.com>
-Installed-Size: 284
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: ./debians/com.itsjafer.stopshortcutsnotifications_1.0.0_iphoneos-arm.deb
-Size: 9846
-MD5sum: 91e2f3559a6e042f6a04365fb7701ee8
-SHA1: 51f9cb6d7d9f2581aa387e4799fef9a4b6bfc3d1
-SHA256: 41226ea202609cfc85ac983fb7eb0c65140ae7935a647b3af496f3c9465b58e6
-SHA512: f9642f922448b14044203d66abf31a983f782287e9a5c58f0202e0eafa6cbe37ee07ddff8de5d652efa1c77540884bdb98496e7d73d25cbc39bd8e8f04e7336b
-Description: Stops all shortcuts notifications from being pushed.
-Name: StopShortcutsNotifications
-Author: itsjafer <itsjafer@gmail.com>
-Depiction: https://itsjafer.com/repo/depictions/?p=com.itsjafer.stopshortcutsnotifications
+Version: 1.0
+Section: Wallpaper
+Maintainer: turannul
+Depends: wallpaperloader
+Filename: ./debians/Wallpapers/FireWatch/xyz.turannul.firewatch_1.0_iphoneos-arm.deb
+Size: 2013374
+MD5sum: 82e682fa52e4f0c1f6f99bbf8dfe7ff9
+SHA1: aa00df9587484f17e5e34a245f01d826a0bf6a3f
+SHA256: 16b45d616f40a2a869fa9f9d9f5d64b56574feb3ba29743db74ec8991d1a978b
+SHA512: e8c35f34a6930986584b19f342232fbd57951c2e955baa7b969186ba1441e885b8f15e39eed6094717d1c743acd2a4027186acd27de5029c72e1b7d6879cff2b
+Description:
+Name: FireWatch Wallpaper
+Author: turannul
+Depiction: N/A
+Icon: N/A
+SileoDepiction: N/A
 
-Package: me.anubistweaks.cocoatoptoggle
+Package: xyz.turannul.xrwallpapers
 Architecture: iphoneos-arm
-Version: 1.0.0
-Section: Tweaks
-Maintainer: AnubisTweaks
-Installed-Size: 144
-Depends: mobilesubstrate
-Filename: ./debians/me.anubistweaks.cocoatoptoggle_1.0.0_iphoneos-arm.deb
-Size: 9226
-MD5sum: e4cae488f8b52fc44c49aba00d39025c
-SHA1: 40228df1560565f8fd78d3d41b9ff1c3af676f6e
-SHA256: 4de4caf279e6248797482d082d541ef5923c29f203998e6e76d023a0d3f6ed5a
-SHA512: 223ec7500d9cf4e4d4d2e492893b2341f43f1362407b92ff0555d894c6517147e85fb4bdc7803218de88ee80e7f6b7b3626c567f611eb540c32c1016e7dc00a3
-Description: An awesome Control Center module!
-Name: CocoatopToggle
-Author: AnubisTweaks
+Version: 1.0
+Section: Wallpaper
+Maintainer: turannul
+Depends: wallpaperloader
+Filename: ./debians/Wallpapers/XR-Wallpapers/xyz.turannul.xrwallpapers_1.0_iphoneos-arm.deb
+Size: 22784474
+MD5sum: 87d53df5c001e966f2ee0a06cd76c834
+SHA1: 221e217814669a910a0dd8889bc0e4e82f0e1d56
+SHA256: 2ada649b4441502eea123a122ea7611c4cf859509be306d4cea3eae634f1f2b3
+SHA512: ead85fe9609b582e7c5a7bf9f1b23c56ae65a0d0f99793f9ea03d844da9628ec8845f02efff6b2a8f67368e8cb5f091ece8a7e6f85613345d3abbe10e03394e8
+Description: iPhone XR duvar kağıtları
+Name: XR Duvar kağıtları
+Author: turannul
+Depiction: n/a
+Icon: n/a
+SileoDepiction: n/a
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
@@ -3248,7 +3392,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 980
 Depends: firmware (>= 8.0)
-Filename: ./debians/zzzzz/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
 Size: 163032
 MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
 SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
@@ -3269,7 +3413,7 @@ Version: 0.2
 Section: System
 Maintainer: Doregon <tunnic.adam@gmail.com>
 Depends: firmware (>= 6.0), dpkg (>= 1.13.25-5)
-Filename: ./debians/zzzzz/com.kramerapps.jetsamctl_0.2_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.kramerapps.jetsamctl_0.2_iphoneos-arm.deb
 Size: 7074
 MD5sum: 79d8ad5ea1879d6cba2698cb407c6dd1
 SHA1: 096a2028df64e911eafc18aae558959dea248b95
@@ -3287,7 +3431,7 @@ Architecture: iphoneos-arm
 Version: 1.0.3
 Section: System
 Maintainer: level3tjg
-Filename: ./debians/zzzzz/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.level3tjg.insert-dylib_1.0.3_iphoneos-arm.deb
 Size: 40636
 MD5sum: 789c283a43282dfa23f3ae7de8ee3b5d
 SHA1: 01e86b06b89109c0a0249cb0a7e805b750223230
@@ -3309,7 +3453,7 @@ Installed-Size: 392
 Pre-Depends: firmware (>= 5.0)
 Depends: net.angelxwind.appsyncunified (>= 5.1)
 Conflicts: com.sull.appinstaller
-Filename: ./debians/zzzzz/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.linusyang.appinst_1.1.4_iphoneos-arm.deb
 Size: 75224
 MD5sum: bc07d52e849498a244f392d09b8d1ae8
 SHA1: b8e7578118cee54ddb49b739907ad015310601c8
@@ -3330,7 +3474,7 @@ Maintainer: MrGcGamer
 Installed-Size: 336
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Filename: ./debians/zzzzz/com.mrgcgamer.libgcuniversal_1.4.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.mrgcgamer.libgcuniversal_1.4.3_iphoneos-arm.deb
 Size: 91096
 MD5sum: 0d99c9b8388dde549c23ebb7bf51da85
 SHA1: 0e2cf32fcbd16de53749c070d1c1c293c43dfa97
@@ -3349,7 +3493,7 @@ Maintainer: MrGcGamer
 Installed-Size: 328
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Filename: ./debians/zzzzz/com.mrgcgamer.libgcuniversal_1.5.0_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.mrgcgamer.libgcuniversal_1.5.0_iphoneos-arm.deb
 Size: 55446
 MD5sum: ad0cb30cec8e95e1e16445a8cef70a42
 SHA1: 63ac91b4a9c14a059e84eab7c3a5111cf9736271
@@ -3366,7 +3510,7 @@ Version: 1.3
 Section: System
 Maintainer: Soongyu Kwon
 Installed-Size: 164
-Filename: ./debians/zzzzz/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.peterdev.libpddokdo_1.3_iphoneos-arm.deb
 Size: 6718
 MD5sum: 9eab42650b671fadd0ee909bb617c928
 SHA1: 0e40e1a0b90494c6a25ca0c904be661034ca9ac9
@@ -3385,7 +3529,7 @@ Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
 Installed-Size: 168
 Provides: io.ominousness.ass, me.conorthedev.audiosnapshotserver
 Replaces: io.ominousness.ass, me.conorthedev.audiosnapshotserver
-Filename: ./debians/zzzzz/com.ryannair05.audiosnapshotserver_2.1.2_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.ryannair05.audiosnapshotserver_2.1.2_iphoneos-arm.deb
 Size: 5182
 MD5sum: 8c42760b2804dab566125f424a83a4e3
 SHA1: 0076b42807edd7d41f61afd4b1479cb06457700c
@@ -3404,7 +3548,7 @@ Version: 0.0.3
 Section: System
 Maintainer: udevs
 Installed-Size: 136
-Filename: ./debians/zzzzz/com.udevs.vexillarius_0.0.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.udevs.vexillarius_0.0.3_iphoneos-arm.deb
 Size: 5472
 MD5sum: 4b89ff607885606678559d688c77d5aa
 SHA1: 8e108531b7a78873a1b7767a2469b656e79c8d49
@@ -3423,7 +3567,7 @@ Version: 0.0.3
 Section: System
 Maintainer: Diego Barría
 Installed-Size: 172
-Filename: ./debians/zzzzz/com.xyaman.libkuro_0.0.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.xyaman.libkuro_0.0.3_iphoneos-arm.deb
 Size: 6430
 MD5sum: eea6beaa90df44b1f59bca2bbec0238d
 SHA1: 5fa81a8090a16d9fdaeb761abb49350876a4eeb2
@@ -3444,7 +3588,7 @@ Section: System
 Maintainer: Xyaman
 Installed-Size: 236
 Depends: mobilesubstrate, com.ryannair05.audiosnapshotserver
-Filename: ./debians/zzzzz/com.xyaman.libsona_0.1.2_iphoneos-arm.deb
+Filename: ./debians/zStuff/com.xyaman.libsona_0.1.2_iphoneos-arm.deb
 Size: 23308
 MD5sum: 6a0e7dab111cb2a31277edf63f5fc8c9
 SHA1: a58718fa578b88f2c6ad9efc8669ba5355f48c40
@@ -3466,7 +3610,7 @@ Maintainer: Theos Team <support@theos.dev>
 Installed-Size: 1412
 Provides: dev.theos.orion (= 1.0.0)
 Depends: firmware (>= 12.2), firmware (<< 14.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/zzzzz/dev.theos.orion12_1.0.0_iphoneos-arm.deb
+Filename: ./debians/zStuff/dev.theos.orion12_1.0.0_iphoneos-arm.deb
 Size: 454406
 MD5sum: faafcff2a1229a721fff850077d1d70e
 SHA1: 992cfd79edb4b0f47773a7f023cfd2c2bd773291
@@ -3487,7 +3631,7 @@ Maintainer: Theos Team <support@theos.dev>
 Installed-Size: 2560
 Provides: dev.theos.orion (= 1.0.0)
 Depends: firmware (>= 14.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/zzzzz/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Filename: ./debians/zStuff/dev.theos.orion14_1.0.0_iphoneos-arm.deb
 Size: 815260
 MD5sum: abf3d993b38c5dc1c0d9c4f97be4ce46
 SHA1: 37310e0daeb117cb5f21f81521e2295c499dc8e6
@@ -3508,7 +3652,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 464
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debians/zzzzz/libmryipc_2.0.1.deb
+Filename: ./debians/zStuff/libmryipc_2.0.1.deb
 Size: 28236
 MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
 SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
@@ -3528,7 +3672,7 @@ Version: 1.0.0
 Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 68
-Filename: ./debians/zzzzz/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
+Filename: ./debians/zStuff/me.alfhaily.opencli_1.0.0_iphoneos-arm.deb
 Size: 2504
 MD5sum: 64f400c8a9a649697e5e54f1a11d9cf4
 SHA1: 483c509d55722eaa84ada3ed2dc335f061850c8a
@@ -3547,7 +3691,7 @@ Version: 1.0.3
 Section: System
 Maintainer: ConorTheDev <conorthedev@gmail.com>
 Installed-Size: 204
-Filename: ./debians/zzzzz/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
+Filename: ./debians/zStuff/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm.deb
 Size: 15318
 MD5sum: b93607aad9ae0cc41f9785fef827d784
 SHA1: 17f25ecfb19fbc83edda70f92f268e0c68e3c205
@@ -3558,31 +3702,6 @@ Tag: role::developer
 Name: libappearancecell
 Author: ConorTheDev <conorthedev@gmail.com>
 
-Package: u.blanxd.opensshcc
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Control Center (Modules)
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 143
-Depends: cy+cpu.arm64, firmware (>= 11), openssh-server | openssh, mobilesubstrate, com.opa334.ccsupport, u.blanxd.sshswitch
-Breaks: u.blanxd.sshoncc (<< 1.5~b3)
-Replaces: u.blanxd.sshoncc (<< 1.5~b3)
-Filename: ./debians/zzzzz/opensshcc_1.0.1.deb
-Size: 13720
-MD5sum: 15d1ce6769b3099bb61454264fef2728
-SHA1: a58951800a7edf65e6816298913f9cc069c2ba54
-SHA256: 481e44dd3c11c328a383dfef34859c043aa030c82606498c949018a5291a561b
-SHA512: 4e25be3bd01b541d8838df592d8f345c055c0f62a19259197bebc11ae1b8b5e86cce9544b8cad9b2842da97e741511b566f00f78d68053d8345f02ad2fd1373c
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
-Description: OpenSSH toggle in CC
-Tag: purpose::extension
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: OpenSSH CC Toggle
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=opensshccDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-Icon: file:///Library/ControlCenter/Bundles/SSHonCC.bundle/SettingsIcon@2x.png
-
 Package: u.blanxd.opensshport
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -3592,7 +3711,7 @@ Installed-Size: 176
 Depends: cy+cpu.arm64, openssh-server | openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/zzzzz/opensshport_1.0.1.deb
+Filename: ./debians/zStuff/opensshport_1.0.1.deb
 Size: 24292
 MD5sum: a43317e950401f8f99965606be4bf2fd
 SHA1: 2f3dbb293d6828919d5b2b76eb90250e101edf78
@@ -3617,7 +3736,7 @@ Installed-Size: 201
 Depends: cy+cpu.arm64, openssh, preferenceloader, u.blanxd.sshswitch (>= 1.0)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/zzzzz/opensshport_1.0.deb
+Filename: ./debians/zStuff/opensshport_1.0.deb
 Size: 24262
 MD5sum: 9275a8e8cac48730318eb9f053f73328
 SHA1: 9108341f08462e78d1dadbb27b7f8313a6af074c
@@ -3643,7 +3762,7 @@ Depends: cy+cpu.arm64, openssh-server (>= 6.2) | openssh (>= 6.2)
 Conflicts: u.blanxd.opensshport (<< 1.0~b3)
 Breaks: u.blanxd.sshoncc (<= 1.4.0)
 Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/zzzzz/sshswitch_1.0.1.deb
+Filename: ./debians/zStuff/sshswitch_1.0.1.deb
 Size: 229982
 MD5sum: 47a4562553f078a877ffb5f27455c5cf
 SHA1: 959b1a5897fc98f22e63747b59b5d557ada04b33
