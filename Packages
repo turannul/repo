@@ -1395,6 +1395,26 @@ Name: vnodebypass CC Module
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
 Author: level3tjg
 
+Package: com.bid3v.electrode
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: biD3V
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debians/Tweaks/Electrode/com.bid3v.electrode_1.0.3_iphoneos-arm.deb
+Size: 41082
+MD5sum: 599c5a17fc75b96aa6681f5cc6593d48
+SHA1: bf876b44332d8af35a85403ab5cc7a75cc279c15
+SHA256: 22d09d0d77ad882e402b7de80631ed1564b358fd60ec3b72da6d5a6c5b8aec00
+SHA512: 710be1e241e86816ebae15fc63f753c2d7009d490bb728d0d593462e79a593ec3debca7912bf4bf827fb078195f74456db141b6abd4accea03e31cb678485ff4
+Description: Charging and low power mode toasts!
+Name: Electrode
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/electrode.html
+Icon: https://bid3v.github.io/repo/icons/Electrode.png
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/electrode.json
+
 Package: com.wilsonthewolf.eliza
 Architecture: iphoneos-arm
 Version: 0.0.2
@@ -2886,6 +2906,26 @@ Description: IPA Alma aracı Ayarlardan uygulamayı seçin, uygulamaya girin.
 Name: bfdecrypt
 Author: level3tjg <tjaygrantham@gmail.com>
 Icon: https://turannul.github.io/home/resources/bfdecrypt.png
+
+Package: com.bid3v.uki
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: biD3V
+Installed-Size: 336
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/Tweaks/uki/com.bid3v.uki_1.0.0_iphoneos-arm.deb
+Size: 26604
+MD5sum: 932020c41d3d9b46149555b15a986707
+SHA1: eb8ebc68ec2983bb3c562f8fb2f039b5efc7372e
+SHA256: b543e63c4bb4b096c8c3ae5b87ff5326d6d50d04c25a0a20f4badc3483455343
+SHA512: 391cd440d2af212752d568cf77b4d5257f115279a7a2f534c09ab8e9a549ecad6d2c56740d4fd9b8d41074e37df19c7607cf8135bad3f25aebae52e89a1053d5
+Description: Float your package headers!
+Name: uki
+Author: biD3V
+Depiction: https://bid3v.github.io/repo/depictions/uki.html
+Icon: https://bid3v.github.io/repo/icons/uki.png
+Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/uki.json
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
