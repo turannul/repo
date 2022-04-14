@@ -1,3 +1,0 @@
-cd /var/mobile/Documents/Github/repo/debians/Tweaks/Zetsu
-rm *.deb
-apt download jp.dcsyhi.zetsu -y --allow-unauthenticated

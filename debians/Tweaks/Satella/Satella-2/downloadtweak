@@ -1,5 +1,0 @@
-path=$(pwd)
-cd $path
-sudo apt update 2 > /dev/null
-rm *.deb
-apt-get download emt.paisseon.satella -y --allow-unauthenticated
