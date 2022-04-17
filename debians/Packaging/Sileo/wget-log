@@ -1,16 +1,0 @@
---2022-04-14 03:06:29--  https://github.com/Sileo/Sileo/releases/download/2.2.3/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
-Resolving github.com (github.com)... 140.82.121.4
-Connecting to github.com (github.com)|140.82.121.4|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/186243031/8b9ea33f-9bd2-4d3d-917d-b63eb1dad57b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220414T000534Z&X-Amz-Expires=300&X-Amz-Signature=30cf2ddff458cd30fe3ea281f8e6de8b91b5eacc47a6b21a528b50485e6cfb1e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=186243031&response-content-disposition=attachment%3B%20filename%3Dorg.coolstar.sileo_2.2.3_iphoneos-arm.deb&response-content-type=application%2Foctet-stream [following]
---2022-04-14 03:06:31--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/186243031/8b9ea33f-9bd2-4d3d-917d-b63eb1dad57b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220414%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220414T000534Z&X-Amz-Expires=300&X-Amz-Signature=30cf2ddff458cd30fe3ea281f8e6de8b91b5eacc47a6b21a528b50485e6cfb1e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=186243031&response-content-disposition=attachment%3B%20filename%3Dorg.coolstar.sileo_2.2.3_iphoneos-arm.deb&response-content-type=application%2Foctet-stream
-Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
-Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2199780 (2,1M) [application/octet-stream]
-Saving to: ‘org.coolstar.sileo_2.2.3_iphoneos-arm.deb’
-
-oolstar.sileo_2.2.3  88%[================>   ]   1,85M  8,07KB/s    eta 32s    olstar.sileo_2.2.3_  88%[================>   ]   1,86M  8,13KB/s    eta 32s    lstar.sileo_2.2.3_i  89%[================>   ]   1,88M  7,89KB/s    eta 32s    star.sileo_2.2.3_ip  91%[=================>  ]   1,91M  7,55KB/s    eta 32s    tar.sileo_2.2.3_iph  92%[=================>  ]   1,94M  7,20KB/s    eta 32s    ar.sileo_2.2.3_ipho  94%[=================>  ]   1,97M  7,00KB/s    eta 15s    r.sileo_2.2.3_iphon  96%[==================> ]   2,02M  6,36KB/s    eta 15s    .sileo_2.2.3_iphone  98%[==================> ]   2,07M  6,01KB/s    eta 15s    org.coolstar.sileo_ 100%[===================>]   2,10M  5,77KB/s    in 3m 56s  
-
-2022-04-14 03:10:28 (9,09 KB/s) - ‘org.coolstar.sileo_2.2.3_iphoneos-arm.deb’ saved [2199780/2199780]
-
