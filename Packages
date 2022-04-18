@@ -236,6 +236,55 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.redditpremium
+Architecture: iphoneos-arm
+Version: 1.0-1+debug
+Section: Tweaks
+Maintainer: turannul <turanull000@gmail.com>
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debians/MyTweaks/xyz.turannul.redditpremium_1.0-1+debug_iphoneos-arm.deb
+Size: 5804
+MD5sum: 0c36252ebffeee7d64a1bf4f1f1d2477
+SHA1: cc7c1df736acb15e4c13492a3d5083d5eb436a7c
+SHA256: b5a7235ab495a1626852916b82a47622519cb0742544b3662fdceb4c8cbfe41e
+SHA512: 72d125ede8d5bc70d517341e88bb84e8634398e00bdd52366728d4726de1d67f0262fd680109bed297dee19e92de49d7bb0694237db1120e85a320fd9da4f765
+Description: Ad-free Reddit.
+Name: Reddit: No Ads + Premium
+Author: turannul <turanull000@gmail.com>
+
+Package: xyz.turannul.youtubemusichax
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: turannul
+Installed-Size: 328
+Depends: mobilesubstrate
+Filename: ./debians/MyTweaks/xyz.turannul.youtubemusichax_1.0_iphoneos-arm.deb
+Size: 10420
+MD5sum: 593967210e9eca58226a1d806641419c
+SHA1: 4ba088364fb7f6bd0c38a9379ae842d4ad8dbe8b
+SHA256: f1f5a6c110c36d983651e395ca8a33bed9394b627b1a662be9751c1f7a45eaaa
+SHA512: 9bb58234109524d97fce8c314e980e4cff90b70a21283196d5df73e85b5a5c35760cda4d2d9f941034403628b90a0e5c036e2d78d84c4204a31748760435234a
+Description: Youtube Müzik Unlocker
+ Turkish
+ • Reklamsız
+ • Arka Planda çalma (Evet bu bi özellik)
+ • Premium uyarılarını gizleme
+ • Müzik / Video modları etkin (Sadece 4.40 veya daha eski sürümü ile çalışır.)
+ Bilinen sorunlar:
+ • İndirilenler sayfası açılamıyor.
+ *******************************************
+ English
+ • Ad-free
+ • Background playback (Yes it's a feature)
+ • Hide premium elements
+ • Song / Video switching enabled (It only works with version 4.40 or older.)
+ Known issues:
+ • Downloads tab is crashing app.
+Name: YouTube Music Unlocker
+Author: turannul
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.1-1
@@ -3423,38 +3472,6 @@ Author: turannul
 Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
-
-Package: xyz.turannul.youtubemusichax
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: turannul
-Installed-Size: 328
-Depends: mobilesubstrate
-Filename: ./debians/theos_compiled/xyz.turannul.youtubemusichax_1.0_iphoneos-arm.deb
-Size: 10420
-MD5sum: 593967210e9eca58226a1d806641419c
-SHA1: 4ba088364fb7f6bd0c38a9379ae842d4ad8dbe8b
-SHA256: f1f5a6c110c36d983651e395ca8a33bed9394b627b1a662be9751c1f7a45eaaa
-SHA512: 9bb58234109524d97fce8c314e980e4cff90b70a21283196d5df73e85b5a5c35760cda4d2d9f941034403628b90a0e5c036e2d78d84c4204a31748760435234a
-Description: Youtube Müzik Unlocker
- Turkish
- • Reklamsız
- • Arka Planda çalma (Evet bu bi özellik)
- • Premium uyarılarını gizleme
- • Müzik / Video modları etkin (Sadece 4.40 veya daha eski sürümü ile çalışır.)
- Bilinen sorunlar:
- • İndirilenler sayfası açılamıyor.
- *******************************************
- English
- • Ad-free
- • Background playback (Yes it's a feature)
- • Hide premium elements
- • Song / Video switching enabled (It only works with version 4.40 or older.)
- Known issues:
- • Downloads tab is crashing app.
-Name: YouTube Music Unlocker
-Author: turannul
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
