@@ -3209,6 +3209,25 @@ Author: julioverne
 Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
 Icon: https://turannul.github.io/home/resources/cracktool.png
 
+Package: com.julioverne.cracktool4
+Architecture: iphoneos-arm
+Version: 4.0~beta10b
+Section: Uygulama
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debians/Uygulamalar/CrackTool4/com.julioverne.cracktool4_4.0~beta10b_iphoneos-arm.deb
+Size: 1955016
+MD5sum: 2032bb9042c05779f8dbd4c5fbb2dfc7
+SHA1: faddd0e915e0457ee69ba2530a6cdc9ba37bda54
+SHA256: c45995ee0162ae87f96e637937561f803f9da2d18c4198c84cba70f43392ccb4
+SHA512: d1b0012b7480f4b8a62c23e8ff27569ddc0e74a1260659af4212c0deeab42c5f6d4a63779b26258cde6b2fa787b0965edba063c4bdfbb65151818fbeb3b43862
+Homepage: https://twitter.com/ijulioverne
+Description: Crack Tweaks on one click
+Name: CrackTool4 (iOS 9 - 14)
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Icon: https://turannul.github.io/home/resources/cracktool.png
+
 Package: cydia.com.ipc.crackerxi
 Architecture: iphoneos-arm
 Version: 1.1.16
