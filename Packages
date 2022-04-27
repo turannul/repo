@@ -236,6 +236,43 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.mackolik
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: turannul <turanull000@gmail.com>
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.0_iphoneos-arm.deb
+Size: 4448
+MD5sum: a87e0b37a034c7703dc2345d029be3f3
+SHA1: fab951762a9276c571ecd175c55e847aa11c9ddd
+SHA256: 2e69d8ef46aee8d5a2e4d11bbe20b066162da1268d415120865abaaba04d7826
+SHA512: b03c694af6ab0d22d390cedd1fe2d1c330366c3d8eb000ee346b20a2dbc9cc2d5fdf374e1723ff7dceea2bcfc36afc13d49c0656b0eb5278f73a1a6146f2a640
+Description: Maçkolik full, Uygulamanın en son sürümüyle (v4.4.1) çalışır.
+Name: Maçkolik Pro
+Author: turannul <turanull000@gmail.com>
+Icon: https://turannul.github.io/home/resources/mackolik.png
+
+Package: xyz.turannul.redditpremium
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: turannul <turanull000@gmail.com>
+Installed-Size: 140
+Depends: mobilesubstrate
+Filename: ./debians/MyTweaks/Reddithax/xyz.turannul.redditpremium_1.0_iphoneos-arm.deb
+Size: 5792
+MD5sum: a633596df923d2aca0e12e09dd34b84e
+SHA1: cd66fec8f74b0f5a475d58b30f00d4a25fc10bd1
+SHA256: c399956e7d2fbd84945ec6f196f8a794b1f111a3c63a9ff0ee4f6cd29e02d527
+SHA512: 9b55bce41ca9a00ed77999405d18880c234f3e7233ab83d9a41f67e205c39fa22766f2aad0386047fb56a613df142af3a2a58a8ada07512fbf04a1c5d6330ca0
+Description: Premium Reddit Experience
+ No you can't join r/Lounge. Just Ad-free
+Name: Reddit: No Ads + Premium
+Author: turannul <turanull000@gmail.com>
+Icon: https://turannul.github.io/home/resources/reddit.png
+
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
 Version: 2.1~safe
@@ -547,43 +584,6 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: uptime2
 Icon: https://turannul.github.io/home/resources/tweak.png
 
-Package: xyz.turannul.mackolik
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: Tweaks
-Maintainer: turannul <turanull000@gmail.com>
-Installed-Size: 264
-Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/xyz.turannul.mackolik_1.0.0_iphoneos-arm.deb
-Size: 4448
-MD5sum: a87e0b37a034c7703dc2345d029be3f3
-SHA1: fab951762a9276c571ecd175c55e847aa11c9ddd
-SHA256: 2e69d8ef46aee8d5a2e4d11bbe20b066162da1268d415120865abaaba04d7826
-SHA512: b03c694af6ab0d22d390cedd1fe2d1c330366c3d8eb000ee346b20a2dbc9cc2d5fdf374e1723ff7dceea2bcfc36afc13d49c0656b0eb5278f73a1a6146f2a640
-Description: Maçkolik full, Uygulamanın en son sürümüyle (v4.4.1) çalışır.
-Name: Maçkolik Pro
-Author: turannul <turanull000@gmail.com>
-Icon: https://turannul.github.io/home/resources/mackolik.png
-
-Package: xyz.turannul.redditpremium
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: turannul <turanull000@gmail.com>
-Installed-Size: 140
-Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/xyz.turannul.redditpremium_1.0_iphoneos-arm.deb
-Size: 5792
-MD5sum: a633596df923d2aca0e12e09dd34b84e
-SHA1: cd66fec8f74b0f5a475d58b30f00d4a25fc10bd1
-SHA256: c399956e7d2fbd84945ec6f196f8a794b1f111a3c63a9ff0ee4f6cd29e02d527
-SHA512: 9b55bce41ca9a00ed77999405d18880c234f3e7233ab83d9a41f67e205c39fa22766f2aad0386047fb56a613df142af3a2a58a8ada07512fbf04a1c5d6330ca0
-Description: Premium Reddit Experience
- No you can't join r/Lounge. Just Ad-free
-Name: Reddit: No Ads + Premium
-Author: turannul <turanull000@gmail.com>
-Icon: https://turannul.github.io/home/resources/reddit.png
-
 Package: xyz.turannul.youtubemusichax
 Architecture: iphoneos-arm
 Version: 1.0
@@ -591,7 +591,7 @@ Section: Tweaks
 Maintainer: turannul
 Installed-Size: 328
 Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/xyz.turannul.youtubemusichax_1.0_iphoneos-arm.deb
+Filename: ./debians/MyTweaks/YTMhax/xyz.turannul.youtubemusichax_1.0_iphoneos-arm.deb
 Size: 10128
 MD5sum: 1979507f2f7b23032228128c57b5eece
 SHA1: a14e58993f05aa087ef72f7aeb24c293fe59bc20
@@ -600,6 +600,24 @@ SHA512: b194e9564ba7699fb13f967993fd4c5266587afda232b4099d5bb69b3fabd9a33fe4611f
 Description: Youtube Müzik Unlocker Requires YTmusic 4.40 and older.
 Name: YouTube Music Unlocker
 Author: turannul
+Icon: https://turannul.github.io/home/resources/YTMusic.png
+
+Package: xyz.turannul.youtubemusichax
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: turannul <turanull000@gmail.com>
+Installed-Size: 280
+Depends:
+Filename: ./debians/MyTweaks/YTMhax/xyz.turannul.youtubemusichax_2.0_iphoneos-arm.deb
+Size: 8128
+MD5sum: c053b9f3787cc4c06287683e885d4120
+SHA1: f422e6c574a34a856a41f077aeeecba0c18bbdec
+SHA256: 4b542be063fb206f14d5dea457fda8adfee8a281cf3c7461e646eaf47674b8a4
+SHA512: 83eadd83a8ccf7888612e23de04cf25bbf52b546851e52a7c01eb1f6e6c40e9f6146c227a939f6a4ba7e4c12018c0ed153ca169b11ada66e888125eb01ee7da8
+Description: Youtube Müzik Unlocker Requires YTmusic 4.40 and older.
+Name: YouTube Music Unlocker
+Author: turannul <turanull000@gmail.com>
 Icon: https://turannul.github.io/home/resources/YTMusic.png
 
 Package: org.coolstar.sileo
