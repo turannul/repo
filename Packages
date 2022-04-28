@@ -2942,6 +2942,30 @@ Icon: https://turannul.github.io/home/resources/wifilist.png
 Depiction: https://www.icaughtuapp.com/repo/depictions/web/?p=com.itaysoft.wifilist
 SileoDepiction: https://www.icaughtuapp.com/repo/depictions/native/com.itaysoft.wifilist/depiction.json
 
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 1.1.2
+Section: Tweaks
+Maintainer: Ginsu <njl02@outlook.com>
+Filename: ./debians/Tweaks/YTMUltimate/com.ginsu.ytmusicultimate_1.1.2_iphoneos-arm.deb
+Size: 25188
+MD5sum: 409ba55aa1efc568dee28414f2bd0973
+SHA1: 611a03f4156de2b2451ac01f67288a130fb0e56a
+SHA256: f4a2d97d511d0507c5e263cc8bc9e32b646532f581db5ff053183a356b616412
+SHA512: 6627b6808acf327556e82b375c04bf1d8a04724803aef9458f7a20bf238c81a379806207a729533d93fbef03428ece270e300b500fd4897e53acbac650f005d7
+Homepage: https://ginsu.dev
+Description: YTMusic premium features + more.
+Tag: role::enduser
+Name: YTMusicUltimate
+Depiction: https://repo.ginsu.dev/depiction/web/com.ginsu.ytmusicultimate.html
+SileoDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.ytmusicultimate.json
+ModernDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.ytmusicultimate.json
+Icon: https://turannul.github.io/home/resources/YTMusic.png
+Tags: compatible_min::ios11.0, compatible_max::ios15.5
+Author: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+SomeOtherEntryToControl: True
+
 Package: jp.dcsyhi.zetsu
 Architecture: iphoneos-arm
 Version: 1.3.0.1
