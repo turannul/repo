@@ -584,42 +584,6 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: uptime2
 Icon: https://turannul.github.io/home/resources/tweak.png
 
-Package: xyz.turannul.youtubemusichax
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: turannul
-Installed-Size: 328
-Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/YTMhax/xyz.turannul.youtubemusichax_1.0_iphoneos-arm.deb
-Size: 10128
-MD5sum: 1979507f2f7b23032228128c57b5eece
-SHA1: a14e58993f05aa087ef72f7aeb24c293fe59bc20
-SHA256: fa07af9a443f614026b37dc100b73a7c16ad6e7c80b34edc46f64ad762d7568f
-SHA512: b194e9564ba7699fb13f967993fd4c5266587afda232b4099d5bb69b3fabd9a33fe4611f3b9c4c56efcd6aad38910f40d33b2677fafbc3e4d906e7dfcb55f66b
-Description: Youtube Müzik Unlocker Requires YTmusic 4.40 and older.
-Name: YouTube Music Unlocker
-Author: turannul
-Icon: https://turannul.github.io/home/resources/YTMusic.png
-
-Package: xyz.turannul.youtubemusichax
-Architecture: iphoneos-arm
-Version: 2.0
-Section: Tweaks
-Maintainer: turannul <turanull000@gmail.com>
-Installed-Size: 280
-Depends:
-Filename: ./debians/MyTweaks/YTMhax/xyz.turannul.youtubemusichax_2.0_iphoneos-arm.deb
-Size: 8128
-MD5sum: c053b9f3787cc4c06287683e885d4120
-SHA1: f422e6c574a34a856a41f077aeeecba0c18bbdec
-SHA256: 4b542be063fb206f14d5dea457fda8adfee8a281cf3c7461e646eaf47674b8a4
-SHA512: 83eadd83a8ccf7888612e23de04cf25bbf52b546851e52a7c01eb1f6e6c40e9f6146c227a939f6a4ba7e4c12018c0ed153ca169b11ada66e888125eb01ee7da8
-Description: Youtube Müzik Unlocker Requires YTmusic 4.40 and older.
-Name: YouTube Music Unlocker
-Author: turannul <turanull000@gmail.com>
-Icon: https://turannul.github.io/home/resources/YTMusic.png
-
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.1-1
