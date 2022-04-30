@@ -989,18 +989,18 @@ Icon: https:/turannul.github.io/home/resources/tetherme.png
 
 Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
-Version: 2.1.1-1
+Version: 2.1.1
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Pre-Depends: mobilesubstrate (>= 0.9.5101)
 Depends: firmware (>= 8.0), preferenceloader (>= 2.2.4), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: net.tetherme.tetherme, net.tetherme.tetherme8, xyz.canpng.tetherme8
-Filename: ./debians/PirateTweakss/Tetherme/xyz.canpng.tetherme8_2.1.1-1_iphoneos-arm.deb
-Size: 6221174
-MD5sum: c0795538b8798bc98eb16237e420f711
-SHA1: 50d15df90b7dcb80396b3bace962c271b6b83b92
-SHA256: 0d6954994c550796fe6623cd755a6bff7c811ad927431b11c7abf7b9a2d126ef
-SHA512: 4adb9c5e235f31916bcb861c8c5a92d1724958d40fcc1012d3ef1ad9c61195c991d88c4effdb403fce13228fdf5c4cb005e7f6b2fe3d5568d43da1284db53dd1
+Filename: ./debians/PirateTweakss/Tetherme/xyz.canpng.tetherme8_2.1.1_iphoneos-arm.deb
+Size: 4188772
+MD5sum: b2080813dd6a5e903c0863a9390f8b92
+SHA1: 12f2a02c694b42bc6006ce4561d3f481c04fb692
+SHA256: 0581d4b089f6dce8c8ca7a0017454fc8bd568fd08ac2581831a5a1f46f7d6a57
+SHA512: 1c7811482ad50f5dfba6c61fd94d83a812a3fd40367cc135f99112a852243cc5918e3e0d5b55a034e6c7a7c3d4028ae87a4e2818927338da5e26582dd7081e6d
 Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
 Name: TetherMe for iOS8+
 Author: Sam Bingner
@@ -1148,12 +1148,12 @@ Section: Tweaks
 Maintainer: turannul
 Conflicts: com.trappledestek.adblockplus
 Filename: ./debians/Tweaks/Adblock++/xyz.turannul.adblockplusplus_1.4.6_iphoneos-arm.deb
-Size: 8786
-MD5sum: 6233591b2bde21e817b8a8b4ba2ea61b
-SHA1: c0876fc5d523f69e56c1a18a72c1954c27924163
-SHA256: 593e17a4997e7873da506ad341a6f2d335ae588e4f096b2e93e692595e908e4b
-SHA512: 801e27546cecfcf29031b3b7b0b56b704937e21fd5f2007f11012b5fb0863d73d1e576104c99e6b94fdf04ac50cb09e138d531b64176dbf68065fd3b123a223f
-Description: Tweaked (++) Sosyal medya uygulamalarında reklam engelleme. (Youtube,Whatsapp,Instagram) compatible::iOS14, compatible::iOS13, compatible::iOS12 compatible::iOS11, compatible::iOS10
+Size: 5588
+MD5sum: 6480d445097a31f431a883d3c29e6c94
+SHA1: 8811055cc1ed8a1d58086921c30d16db27f47195
+SHA256: 176cf196fa888b43a24112b1bb8ea477106357b49667dca6a7281d6462f29679
+SHA512: 4da8e28d6d0c783bf4b492bb80cc8224a74d6235317a4c81f93a3474fe094b413cc96812fe380c01cec1b93499ab8832a44f1ec4e2329cd647176c26fb1c405d
+Description: Adblock for Tweaked (++) apps. (Youtube,Whatsapp,Instagram) compatible::iOS14, compatible::iOS13, compatible::iOS12 compatible::iOS11, compatible::iOS10
 Name: AdBlock++ (Eski Sürüm)
 Author: Adblock
 Depiction: N/A
@@ -1269,12 +1269,12 @@ Maintainer: turannul
 Depends: firmware (>= 11.0), firmware (<= 13.0), com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
 Filename: ./debians/Tweaks/Appstore++/xyz.turannul.appstoreplusplus-iOS12_0.9.11_iphoneos-arm.deb
-Size: 612740
-MD5sum: e3099486e5a82fc2b7b80e5c43bd5e27
-SHA1: 9fe55ab50ec572de7d4536c5d76a33059ed84d74
-SHA256: 1eef5251784a094c3607e054d4535f606698c0229d6cc5f66395d2f051c780bc
-SHA512: 78c8f767d03dd33d1f36b7e2418ded7a25f9134c3ccd382d754b626b38f8caad92dfc825b5e415750ee1124ef0cc6ec82961fb8f058bab6e0d8d5c1c9febc559
-Description: iOS 12 özel versiyon.
+Size: 331068
+MD5sum: 9deeca99ec21050d01efab8ea72d3270
+SHA1: 77528766960bf311749df70be468dcf76d733b06
+SHA256: bc75b03c0f0ea1d909fb396b23ad7962aae7eab34d0717909a340e81d2b58637
+SHA512: 4622fc3437e031a96b9dd51d46a354163303885192c37578e4cc40fce3110a025592cefb270aa3ad6c05b8c6eb15704c5b06cf760a894a4901d74474040d6e79
+Description: App Store ++ for iOS 12 Ad free
 Name: AppStore++ (iOS12)
 Author: CokePokes
 Depiction: N/A
@@ -1289,12 +1289,12 @@ Maintainer: turannul
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools, com.cokepokes.appstoreplusplus, com.trappledestek.appstoreplusplus
 Filename: ./debians/Tweaks/Appstore++/xyz.turannul.appstoreplusplus_0.9.18_iphoneos-arm.deb
-Size: 3440064
-MD5sum: a18b4065ac200f1d8213c122c0b91100
-SHA1: 2c3b09e81526439ee66a1dc6aa5088caa2c00237
-SHA256: 31369d79cd9df055b121aae4657f198507f38529ebc21f7afa2c6079e97eccb8
-SHA512: 4d1ce585e282c76b394aeee9fbd4da31127f8c103fab4f8b5aac76ff2baf2eba3ef98ec9f5b53701dd4cba310f048602cb2eba9e0b3431ab8854b986c537a0b0
-Description: App Store++
+Size: 1917552
+MD5sum: 9f1a24d89dffb9234496d57c203078df
+SHA1: d95aae11c19c0262c42ff3fcee1c3064ddd3709c
+SHA256: 1470453814afc96bfe744fc5f0caa59c2f244581332d8b3d1fb37560db79cfd4
+SHA512: 7dca0c9150d035790ae97d857f90f28e0d6d2237e6b5a7f5382cf91f8cbdad08002e33151ea2797b40fd1877f9c87c2fb73a93887b4c298d48eda9a964e07668
+Description: App Store++ Ad free
 Name: AppStore++
 Author: CokePokes
 Depiction: N/A
@@ -1319,6 +1319,22 @@ Description: Apple's hidden feature to show the battery percentage inside the ic
 Name: ArkromePro
 Author: dpkg_
 Icon: https://turannul.github.io/home/resources/arkromepro.png
+
+Package: com.zhenguwu.aurore
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zhenguwu
+Depends: mobilesubstrate, com.cokepokes.libnotifications, ws.hbang.alderis
+Filename: ./debians/Tweaks/Aurore/com.zhenguwu.aurore_1.0.2_iphoneos-arm.deb
+Size: 257388
+MD5sum: d798f58bd53f50983f72ce8d1563033c
+SHA1: b0649234a8874daf7cf083409881f0888d1fcb51
+SHA256: fb72ebadd5e960b87f002ec8421f4847f83c9e7f9255654db757a13ac5e9a197
+SHA512: 2868ceee99f7eec66968f67954a822c9a18193b375954cc378543514e0dbbfaaa7e0e8423c5ec34949029026507c3ed67069c2ebea7440c64c20fa1a0fb4b4ec
+Description: Musical iOS Alarms
+Name: Aurore
+Author: zhenguwu
 
 Package: com.shiftcmdk.autoalerts
 Architecture: iphoneos-arm
@@ -2400,27 +2416,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: rpetrich
 Icon: https://turannul.github.io/home/resources/powercuff.png
 
-Package: weeb.lillie.youtubedislikesreturn
-Architecture: iphoneos-arm
-Version: 1.6.3
-Section: Tweaks
-Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Installed-Size: 116
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debians/Tweaks/Return-Youtube-Dislike/weeb.lillie.youtubedislikesreturn_1.6.3_iphoneos-arm.deb
-Size: 18768
-MD5sum: 985c241ea9ebbc041bf4a435d35a4b7b
-SHA1: 21f1dff74f39155f445945c69453931ccb73a822
-SHA256: 157ff73aae7195f29c0b453784fdd3827fc8363f7a12991c61a480715132ccea
-SHA512: e23e78fe362dae1ca78f4087b360fa53cf306f4a193b8b3826318b1e6cbf0b93553bd08cfa9321b74ac52e274525d42b7de85534054f0f2d8e3cb8c3be6ca97f
-Description: Bring Back Dislikes On YouTube
-Tag: compatible_min::ios11.0
-Name: Return YouTube Dislike
-Author: PoomSmart and kirb <ytdislikesreturn@gmail.com>
-Icon: https://img.chariz.cloud/icon/return-youtube-dislike/icon@3x.png
-Header: https://img.chariz.cloud/sileo-banner/return-youtube-dislike.jpg
-Depiction: https://chariz.com/get/return-youtube-dislike
-
 Package: com.ichitaso.spenabler
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -2993,14 +2988,12 @@ Maintainer: level3tjg <tjaygrantham@gmail.com>
 Installed-Size: 560
 Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
 Filename: ./debians/Tweaks/bfdecrypt/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
-Size: 68668
-MD5sum: 654d7f22422cf1903b8eeabdd4d13105
-SHA1: 7c801ff3962e27716ceaf38f25298e42cf4be089
-SHA256: fcf2489d95975c8111774c60a73c39e0f2e17d09ca115394dc3faf8acdc23528
-SHA512: 46b43308b54e50c2ca1c7e486034cc041b7206931e271b9224bbbce611a6b41a01a4f8d606c2c79bcce3f49087eb0191d8c4f4c5a688b2d5c135b719cc14e486
-Description: IPA Alma aracı Ayarlardan uygulamayı seçin, uygulamaya girin.
- AppData tweak kullanarak uygulamanın Data gidin documents klasörü içerisinde iPA olacaktır. 
- iOS 11-14 Tüm Jailbreak(ler) ile çalışır.
+Size: 68624
+MD5sum: 5666c6c7fcb18d9f811d67807c7ee267
+SHA1: cecc1223233eaba29ff58d2305abf7f8e8373bed
+SHA256: 5d130d88fc8afefa1e7ee6ae4616918104f6e1131b7423eab0fb1d727c505476
+SHA512: b0f5112ea2616d02e83a77716adc96db0d4ba7006fccb320576aab10aac7f2628029ca45c9e4e93e64f148d9b4d4b27a4b5d272443acf1efe92b0982ef4c91f8
+Description: Works with iOS 11-14 All Jailbreak(s).
 Name: bfdecrypt
 Author: level3tjg <tjaygrantham@gmail.com>
 Icon: https://turannul.github.io/home/resources/bfdecrypt.png
@@ -3159,16 +3152,16 @@ Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
 Filename: ./debians/Uygulamalar/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
-Size: 3661316
-MD5sum: 0e717524a45a93db04fe450044f8cefe
-SHA1: 079faa30140f48ea3e495296a0f7fc41fafa3f37
-SHA256: 26ece464ba7d45bbbddaf1d84ddc2392aca6e9998657f790b56b4d2cd7095897
-SHA512: f18ccbb71e4b067d6384ef44616ead46bf187c16ddea7cbbc9fa3b125ce8aedab62f33223ca0c2660992a1b14980d007f11d785bad11d6bd1b050ec564c6a9eb
+Size: 3661524
+MD5sum: 49ff376de4521532a13302f939302931
+SHA1: ce5d256c9f9d4f288f4ace40a65e259f124c469e
+SHA256: 97c755c9fd86e4517f3324738b6d20b5caf3c088a607c1d5c9642d611489237b
+SHA512: 9f29d5b41fea12f3f68d5a11b98df5d57133d6209ca264ec643c1bab74c0abf9addba901b3c87dc2aacc1e2c6b80afa884bb54ab6a8c835c4614ffc4380188e5
 Homepage: https://altstore.io/
-Description: Patreon özellikleri aktif.
+Description: Patreon features active.
 Author: Riley Testut
 Name: AltStore++
-Depiction: Patreon özellikleri aktif.
+Depiction: Patreon features active.
 Icon: https://turannul.github.io/home/resources/altstore.png
 
 Package: Appcake
@@ -3241,12 +3234,12 @@ Maintainer: Muirey03
 Depends: mobilesubstrate, com.muirey03.libmryipc, com.cokepokes.libnotifications (>= 0.2-2), cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
 Conflicts: com.muirey03.cr4shed
 Filename: ./debians/Uygulamalar/Cr4shed/com.muirey03.cr4shedd_4.2.2_iphoneos-arm.deb
-Size: 413574
-MD5sum: a6916a07a4bb6dafe04e7d35d5fa4f86
-SHA1: 9b4cea56b685a5a4893e29ffa7894dd0c76b3f6d
-SHA256: 3a2d824e537016b3401ca9db5c3b90982a58da82de0a763acaca799ad4906d6d
-SHA512: 458128fda3dc5a43c6bb14a930f061bfda220bd00c5058cec34fd253d6ff99f0772667ff711b21c808a1b7cc6c2bcbd45431c9a5ed5cca5564dd4e5155fb4ae2
-Description: Sorun olduğunu bilmezsen sorun yoktur. Jetsam uyarıları kapatılmış versiyonudur.
+Size: 217996
+MD5sum: 31f3162c0be616a325a403ce64e5b5db
+SHA1: 7369da739959387c2307816a761999da33f67604
+SHA256: 17e4d8a64d7fd6333220abebe7f55050a28dc183bab0e010b9d57e82889c3a1d
+SHA512: a0adbed3d7041575122e97bcbc7eaa20ed385623e603256f600ec9d745ff036b7299f1d3f0f79221e6792323869dd2ad93b2f2826eddc640b9e84ec83cff37a0
+Description: If you don't know there is a problem, there is no problem. Jetsam is the version with alerts turned off.
 Name: Cr4shed
 Author: Muirey03
 Icon: https://turannul.github.io/home/resources/crashed.png
