@@ -236,42 +236,6 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
-Package: xyz.turannul.mackolik
-Architecture: iphoneos-arm
-Version: 1.0.1+debug
-Section: Tweaks
-Maintainer: turannul <turanull000@gmail.com>
-Installed-Size: 264
-Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.1+debug_iphoneos-arm.deb
-Size: 4456
-MD5sum: 398a6c5028b8dce07f4ad824d3706e31
-SHA1: 23bf6439d85653acc555dffb73883b082317c082
-SHA256: 7f345f6b122038e956c550050a18743ba4b3b4bbd69752f225695f8aeab917a6
-SHA512: 81ea6b6f494074b9ec178c67fbf02f05562b861efdafa83b3d07ba39c6ef89b6164a834d06ba44da97c7c60203241de7635026a60bbb444ce698afc8899f3e32
-Description: Maçkolik full, Uygulamanın en son sürümüyle (v4.4.1) çalışır.
-Name: Maçkolik Pro
-Author: turannul <turanull000@gmail.com>
-Icon: https://turannul.github.io/home/resources/mackolik.png
-
-Package: xyz.turannul.mackolik
-Architecture: iphoneos-arm
-Version: 1.0.2+2
-Section: Tweaks
-Maintainer: turannul <turanull000@gmail.com>
-Installed-Size: 264
-Depends:
-Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.2+2_iphoneos-arm.deb
-Size: 4456
-MD5sum: bb9d886b8b05007dd6d00e12afd19333
-SHA1: fa9c30a2eab1005c7f483ec561dafe1595cadd8e
-SHA256: 112a26c29962931b64cda063bc5cabe3da469b9d495654ed1dd59db0edda913d
-SHA512: 54b2912bae460cc825d5d1679f5142ff3d2bc159d1734b10588a7fe705b1b472ea0a0b5fd7bdf873fa5d31def3904b4836405670195cca48aaa820d818a86bb6
-Description: Maçkolik reklamsız.
-Name: Maçkolik Pro
-Author: turannul <turanull000@gmail.com>
-Icon: https://turannul.github.io/home/resources/mackolik.png
-
 Package: xyz.turannul.redditpremium
 Architecture: iphoneos-arm
 Version: 1.0
