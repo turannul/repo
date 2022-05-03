@@ -238,17 +238,17 @@ SileoDepiction: N/A
 
 Package: xyz.turannul.mackolik
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.0.1+debug
 Section: Tweaks
 Maintainer: turannul <turanull000@gmail.com>
 Installed-Size: 264
 Depends: mobilesubstrate
-Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.0_iphoneos-arm.deb
-Size: 4448
-MD5sum: a87e0b37a034c7703dc2345d029be3f3
-SHA1: fab951762a9276c571ecd175c55e847aa11c9ddd
-SHA256: 2e69d8ef46aee8d5a2e4d11bbe20b066162da1268d415120865abaaba04d7826
-SHA512: b03c694af6ab0d22d390cedd1fe2d1c330366c3d8eb000ee346b20a2dbc9cc2d5fdf374e1723ff7dceea2bcfc36afc13d49c0656b0eb5278f73a1a6146f2a640
+Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.1+debug_iphoneos-arm.deb
+Size: 4456
+MD5sum: 398a6c5028b8dce07f4ad824d3706e31
+SHA1: 23bf6439d85653acc555dffb73883b082317c082
+SHA256: 7f345f6b122038e956c550050a18743ba4b3b4bbd69752f225695f8aeab917a6
+SHA512: 81ea6b6f494074b9ec178c67fbf02f05562b861efdafa83b3d07ba39c6ef89b6164a834d06ba44da97c7c60203241de7635026a60bbb444ce698afc8899f3e32
 Description: Maçkolik full, Uygulamanın en son sürümüyle (v4.4.1) çalışır.
 Name: Maçkolik Pro
 Author: turannul <turanull000@gmail.com>
@@ -256,17 +256,17 @@ Icon: https://turannul.github.io/home/resources/mackolik.png
 
 Package: xyz.turannul.mackolik
 Architecture: iphoneos-arm
-Version: 1.0.2
+Version: 1.0.2+2
 Section: Tweaks
 Maintainer: turannul <turanull000@gmail.com>
 Installed-Size: 264
 Depends:
-Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.2_iphoneos-arm.deb
-Size: 4416
-MD5sum: 68847538ff3b0ea1a09e7206b64c2fb5
-SHA1: 263e6e3c6430a678b9b5dcbc9f00d1ca49b90656
-SHA256: 1343ff8ba1b0ec5a061923b437a9cef696fa6c1a00f0e739c50e844328f3792b
-SHA512: f139599fd6fb71378633a749f64cfb542707574def626c5b7ecb510dff6df199d60c6bc1af2004772e9f276520f86a978ec24164ac11b36dba9c45540c32d996
+Filename: ./debians/MyTweaks/Mackolikhax/xyz.turannul.mackolik_1.0.2+2_iphoneos-arm.deb
+Size: 4456
+MD5sum: bb9d886b8b05007dd6d00e12afd19333
+SHA1: fa9c30a2eab1005c7f483ec561dafe1595cadd8e
+SHA256: 112a26c29962931b64cda063bc5cabe3da469b9d495654ed1dd59db0edda913d
+SHA512: 54b2912bae460cc825d5d1679f5142ff3d2bc159d1734b10588a7fe705b1b472ea0a0b5fd7bdf873fa5d31def3904b4836405670195cca48aaa820d818a86bb6
 Description: Maçkolik reklamsız.
 Name: Maçkolik Pro
 Author: turannul <turanull000@gmail.com>
