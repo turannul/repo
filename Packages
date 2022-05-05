@@ -3285,16 +3285,16 @@ Icon: https://turannul.github.io/home/resources/cydown.png
 
 Package: E-Sign
 Architecture: iphoneos-arm
-Version: 4.4.0
+Version: 4.4.4
 Section: Uygulama
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.4.0_iphoneos-arm.deb
-Size: 4032076
-MD5sum: eca8abe99f57de5b7afa566259a11755
-SHA1: bf9c7c1c8e471306e7fad63f6268cd6a24eb6d78
-SHA256: 78b854aae631a9bd1c8eff60484e6990fe3cf983e26034425d50d8f277dad582
-SHA512: 08a06587127886266e481b69662a5503e444ce6f8a3bcf46a912996d9e0e4e6f0d87d6d808bc6e8ae38324fe010754414a80dbf9f50f11930a7a91b914cf1a3f
+Filename: ./debians/Uygulamalar/E-Sign/E-Sign_4.4.4_iphoneos-arm.deb
+Size: 7101836
+MD5sum: 3c7ee234ad444d3ce4ee0f9b9cc7780b
+SHA1: 5a5ac20119f4096bb1f80c401dbe839cbb4549fc
+SHA256: 875ede218c778a20ea6c2f6b1b1269aa56dd49f2a05228989805375576209a26
+SHA512: 259124a45c24dee12f26752926e16f981ab6f573aa579efb43090f927bfb9cc186f605b07e094700b55e0f331ae01bcdeb20dc40b1a7b749c00b273f7f6437f0
 Description: iPhone / iPad için Uygulama imzalama aracı. AppSync Repo: https://cydia.akemi.ai/
 Name: E-Sign
 Author: Unknown
