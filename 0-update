@@ -47,7 +47,7 @@ math3=$(expr $repoupdated - $repoupdate)
 math4=$(expr $repouploaded - $repoupload)
 
 math5=$(expr $math1 + $math2 + $math3 + $math4)
-#sonuç bölümü
+#Proof of how slow my internet 
 tput setaf 2
 echo "home updated in $math1 seconds, uploaded in $math2 seconds"
 echo "repo updated in $math3 seconds, uploaded in $math4 seconds"

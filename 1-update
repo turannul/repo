@@ -6,6 +6,7 @@ echo "What we doing right now?"
 read msg
 
 git pull
+clear
 git add *
 git commit -a -m "$msg"
 repoupload=$(date +%s)
