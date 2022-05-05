@@ -1083,24 +1083,6 @@ ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springc
 Icon: https://turannul.github.io/home/resources/tweak.png
 Author: AnthoPak <anthopakdev@gmail.com>
 
-Package: com.samgisaninja.successioncli
-Architecture: iphoneos-arm
-Version: 1.0~alpha2
-Section: Scripts
-Maintainer: Samg_is_a_Ninja, demhademha
-Installed-Size: 388
-Depends: coreutils-bin, coreutils, firmware-sbin, rsync, curl, p7zip, grep, gawk
-Filename: ./debians/Scripts/SuccessionCLI/com.samgisaninja.successioncli_1.0~alpha2_iphoneos-arm.deb
-Size: 61770
-MD5sum: 71d57c48437ceb1f61cf1b51e9588a18
-SHA1: e7a1382f605ef5d7f345568908e180c6fd7b7de0
-SHA256: a156705b1c126f119bf3feda152df36a59a155887d27251813980317f214ec6b
-SHA512: 7bf88e07d0cb636bb784f2e285abfcb4986f6fd8f0c8cfcfe5c2ca4759907e2245639af1e70e10f6c2a21d4c09f6fdbc0c9fc0710faa98092999495d934dc2dd
-Description: Restore without updating via rootfilesystem DMG
-Name: SuccessionCLI
-Author: Samg_is_a_Ninja <samgisaninja@unc0ver.dev>, demhademha
-Icon: https://turannul.github.io/home/resources/succession.png
-
 Package: com.moose.upmem
 Architecture: iphoneos-arm
 Version: 0.1.7
@@ -3379,23 +3361,6 @@ Name: NonceSet143
 Depiction: https://cydia.ichitaso.com/depiction/nonseset143.html
 dev: ichitaso
 Icon: https://turannul.github.io/home/resources/noncesetter.png
-
-Package: com.samgisaninja.successionrestore
-Architecture: iphoneos-arm
-Version: 1.4.16~b4
-Section: Utilities
-Maintainer: Samg_is_a_Ninja
-Depends: firmware-sbin, rsync
-Filename: ./debians/Uygulamalar/Succession/com.samgisaninja.successionrestore_1.4.16~b4_iphoneos-arm.deb
-Size: 1179332
-MD5sum: 8123588c1b4a65a9ad301033887ca017
-SHA1: b6ae8215319204969d3ee58ab01070bbc11e5399
-SHA256: 9f38291fcb35a167d815312aa7df5eca3b8ccddabeac4e45a1633e2efea21af0
-SHA512: a9ce946564d5b0d4e96b30b5cb025c26b3174171f0ed6b60a7dea68014db974bfe9f80518a091ceaa18f78668703f02b96446613b784fa0356a46b2cd1ce6418
-Description: Restore without updating via rootfilesystem DMG
-Name: Succession
-Author: Samg_is_a_Ninja
-Icon: https://turannul.github.io/home/resources/succession.png
 
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
