@@ -1,0 +1,17 @@
+#! /usr/bin/zsh
+
+cd /var/mobile/Documents/Github/repo
+
+echo "What we doing right now?"
+read msg
+
+git pull
+clear
+git add *
+git commit -a -m "$msg"
+repoupload=$(date +%s)
+git push 
+repouploaded=$(date +%s)
+
+upload=$(expr $repouploaded - $repoupload)
+echo "Completed in $upload seconds!"

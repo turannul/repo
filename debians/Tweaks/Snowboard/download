@@ -1,0 +1,7 @@
+#! /usr/bin/zsh
+
+cd /private/var/mobile/Documents/repo/debians/Tweaks/Snowboard
+
+rm *.deb
+
+apt-get download com.spark.snowboard com.spark.snowboard.dock com.spark.snowboard.effects com.spark.snowboard.statusbar com.spark.snowboard.ui com.spark.snowboard.respringextension com.spark.snowboard.fonts com.spark.snowboard.presetextension com.spark.snowboard.sounds com.spark.snowboard.masks com.spark.snowboard.pagedots com.spark.snowboard.labels com.spark.snowboard.blur com.spark.snowboard.settingsicons com.spark.snowboard.proceduralwallpapers --allow-unauthenticated

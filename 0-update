@@ -1,0 +1,54 @@
+#! /usr/bin/zsh
+
+echo "Say something, what song you like?"
+read msg
+
+homeupdate=$(date +%s)
+
+cd /var/mobile/Documents/Github/home
+git pull
+git add *
+git commit -a -m "$msg."
+homeupload=$(date +%s)
+git push 
+homeuploaded=$(date +%s)
+
+homeupdated=$(date +%s)
+
+############################################
+#2/3 #update repo
+cd /var/mobile/Documents/Github/repo
+git pull
+############################################
+repoupdate=$(date +%s)
+
+#rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg#}} 2> /dev/null
+#apt-ftparchive packages ./debians > Packages
+#gzip -c9 Packages > Packages.gz
+#xz -c9 Packages > Packages.xz
+#zstd -c19 Packages > Packages.zst
+#bzip2 -c9 Packages > Packages.bz2
+    
+#apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+repoupdated=$(date +%s)
+############################################
+git add *
+git commit -a -m "$msg."
+repoupload=$(date +%s)
+git push 
+repouploaded=$(date +%s)
+############################################
+#3/3 matematikten nefret ederim.
+
+math1=$(expr $homeupdated - $homeupdate)
+math2=$(expr $homeuploaded - $homeupload)
+ 
+math3=$(expr $repoupdated - $repoupdate)
+math4=$(expr $repouploaded - $repoupload)
+
+math5=$(expr $math1 + $math2 + $math3 + $math4)
+#Proof of how slow my internet 
+tput setaf 2
+echo "home updated in $math1 seconds, uploaded in $math2 seconds"
+echo "repo updated in $math3 seconds, uploaded in $math4 seconds"
+echo "All done. in $math5 seconds"
