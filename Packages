@@ -257,270 +257,17 @@ Icon: https://turannul.github.io/home/resources/reddit.png
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
-Version: 2.1~safe
-Priority: optional
-Section: Scripts
-Maintainer: Turann
-Depends: zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_2.1~safe_iphoneos-arm.deb
-Size: 1186
-MD5sum: ca0c64035acdd0d62e50e1961ca1c748
-SHA1: f4f8c6e832e5268bf5c436645a591d01800beff5
-SHA256: 6a393c754e4a1b4e5f021ae2e81ed1d7623c2d5bd749033a3319527803679715
-SHA512: 2d0b39ed5ba7c4c56336c80bd1d011d5efa921c5b5f02826c6a45b3ef24a3d0c5fa530f9ef7fc46daa8e71654d677e62b90e19b612f3bdf81ae928ac8a3180e7
-Description: Much better than you think. Usage: uptime2
-Author: Turann
-Depiction: Much better than you think. Usage: uptime2
-Name: Uptime2
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 2.2~safe
-Priority: optional
-Section: Scripts
-Maintainer: Turann
-Depends: zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_2.2~safe_iphoneos-arm.deb
-Size: 1630
-MD5sum: 01fd2785206f4bcde1e5286606c9958a
-SHA1: 323a03325f73c5eac06dfda4b2e6ca24a377cfa2
-SHA256: b959e801948601e66444127d2f9ba7f755639383e6179970aae777fb35ff84b1
-SHA512: 7a92183e0373d020570b9ea0d6c59876e9556c26cf9d4ce2ff1432501021bcdd4f68004e34485dab7b8e245a1b6ae5915daeccfe99781ba09b88e7279b8472bb
-Description: Much better than you think. Usage: uptime2
-Author: Turann
-Depiction: Much better than you think. Usage: uptime2
-Name: Uptime2
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 3.0.1
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_3.0.1_iphoneos-arm.deb
-Size: 2768
-MD5sum: 4c87dea1b718026f123386b3b111bf7d
-SHA1: 5fd63b12f1788659cfc3c88bcca0cd70efa3a353
-SHA256: 34f10f88b8778945f7f152d702ac8f906d9ce800774099879aef82b20ba07ee5
-SHA512: 6a75ad1be012736585e5ae9f5a45b991f0c3642ff6ddea8d10d0af32f4a52792d4bee0fdcd29646c822dcb0d305c19b5b5d8ba68f0cfd07ebc94192cd1fbcac8
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-Name: Uptime2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 3.0
-Priority: optional
-Section: Scripts
-Maintainer: Turann
-Depends: zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_3.0_iphoneos-arm.deb
-Size: 2710
-MD5sum: 7324a32f904c9b91a040b7b72dbd7872
-SHA1: 409e3cfb184eff6feaacecccbbd169b9daad4246
-SHA256: 8c8eaa81576b6db40c62b05d3ed94baa030cb1c62e0163d2491f90d29e3edda1
-SHA512: 5b7844081bd96acd57770129393f9e9cde956a4c3ca3191c26d01c410c7dd4bc2c1051d539ebbf2aaf25671d2995b70150397b2161b07885ad237f3fd63312eb
-Description: Much better than you think. Usage: uptime2
-Author: Turann
-Depiction: Much better than you think. Usage: uptime2
-Name: Uptime2
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.0.1
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.0.1_iphoneos-arm.deb
-Size: 3304
-MD5sum: e65fbb203c1ca2ee2a17730c888910ef
-SHA1: 630417e0ad4852cdfa69cfd199ca5e1b6671fbe8
-SHA256: a81e23ae401fe1faed279f22c427500be41da06da125c3ded65749576f072fa2
-SHA512: 8a3e79d851acb5023a83282cf93b109bd91cb1a68a68f507649cec6bb28afc90a6b4af7c5fbaf4a8de8565cf9a08e03777ba361f8d49853c6613a84ea6e1290c
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.0
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.0_iphoneos-arm.deb
-Size: 3276
-MD5sum: 8beb0b18cc498a69b745a61fae05912b
-SHA1: e1c650570a3b5cbc6e24361307896bb753dbf4dc
-SHA256: 5556f7c76bfc06b3787a134922093041741f8d064462a794ea05930e2f9fc318
-SHA512: 8b1e7f1caa5527f5ef3e3f700e92a05ead3e82c43d0d1343cc0911ab774e40e93cdf01a2b7b5a29ce67710d6312036b6cb74c95503f5eaaa46458006a09c2fa3
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.1
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.1_iphoneos-arm.deb
-Size: 3642
-MD5sum: 88ac25183bc83945940a2e1a0a3c8b1d
-SHA1: 1ce5c708f17c28180baf8e6b2f458d96042aac4f
-SHA256: aac04c84cee4bab55136c2ce35585265ac529225ee5adb067312b51041bb9108
-SHA512: c818858088cd024ffa3e970258f47a36a2958d2fb8ab600af3e95e56bd1e036be9694c34e2ed7c7bd0b1771a8e9af4cf446bcd03efbc432e6b7348ada159fde1
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.2
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.2_iphoneos-arm.deb
-Size: 3642
-MD5sum: 63b28b58a51e182cfbb1c2adcb68c66d
-SHA1: 07bbb138906283d5624c12508b95ae8e34f620bc
-SHA256: ff3c2700a32c4820c6834160822e1d8aa7733f208bc45aa7e431750768a4033b
-SHA512: 8153493ccde7406af085160d876e2096ffb41bbb8c1d943f52f40b5dc8c0c9efb28f6214787aa6a55426942a37a0d27a4f709b925a6ce744dad242b700537f26
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.3
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.3_iphoneos-arm.deb
-Size: 4034
-MD5sum: 8c9e01be8b160b9ef989bb47b0200672
-SHA1: 272f98de5e3dcf874c74232f1226d08aeb047eec
-SHA256: 6e698a184b8a9d43fee1e0524172fb747a434154c5ea66c4e61ef1dd72a4f97a
-SHA512: ae0c3a29507a44185d6c53db3964f383741a4f8daff7b397dfc0d0678741b61598e9624fa12031edf01434470fa87c3d81df2feb9680f32423df811adcaf3e2c
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.4
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh, uikittools
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.4_iphoneos-arm.deb
-Size: 4300
-MD5sum: 08dcfb679d4c00934efc07a757eff9ba
-SHA1: 407532ddb8c3bdf4b010cf6b79f2c10c1f4f8620
-SHA256: 2cd3ea8cc102b38467b5b5b5aa28b7fdd3bd4f87f2f95d8250549ba26ae9d4c6
-SHA512: 941a5f8aa3cab0e74fccff707e450acc89cb5473a789516ee047d78f3998077c8246b72851c19f815ca67121843d231de30d24cd855584df7db6d97e7cafd6d8
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/uptime.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 5.5
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh, uikittools
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_5.5_iphoneos-arm.deb
-Size: 4160
-MD5sum: f65c07ea70ceef2e2d9edbdaa38b2d34
-SHA1: 02f4330b9cb43008f51273ec69a116b1262e323b
-SHA256: 7a94da71f2e695aa711d9283e4dfd8daa47ebad21433d4e0a6048697148092da
-SHA512: 957f0ca57448d0da069189cf3fbb155a7d05b8d111cfeb06ab09d0f1fd98b7a2f6f12808f6ca56350a70fb5ab43d4fbbbfca3467dd9150b5d70d116bb28b11ad
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 6.0
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh, uikittools
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_6.0_iphoneos-arm.deb
-Size: 4342
-MD5sum: a8edc308509c17459948caaa367d1aa4
-SHA1: 39560dc53b9cdffb8493bd19505b0cf41c288dad
-SHA256: 191cd296c913bdfc9ea38ecc243af6883bea3f7b490b95a33ab9894a95b12c07
-SHA512: 931792671dfadeb19e4ac76345df79b5d1d67319f0d8f6db587511b8ed35c5e937fc601d721f3f14bcff1b92a7d4f729a1657608c5f357abaa427f70b10c9746
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 6.1
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_6.1_iphoneos-arm.deb
-Size: 4350
-MD5sum: 92b7537ccac2359e868db5508bf1be11
-SHA1: c927f0707654b89b0bfd311d1e65a67381448f6e
-SHA256: e7818715b0503e5a85cfd5f087bf37e5fff2dace578ec459b727939a5cb5b3ef
-SHA512: 4ee278a3092e2dc399a3945c3e7676d8984664faa672f801952ebf6f3412091bd15a711214b90b9109261ad795bceeac9d1889d8df8964f0693219f2b8740d6c
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: Uptime 2
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 6.2.2
+Version: 7.0
 Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_6.2.2_iphoneos-arm.deb
-Size: 3904
-MD5sum: 67e1ae4561a80bb99e166a4334595cfc
-SHA1: 6dc3e1e5d270b185af5273392f480feed8ba8a3a
-SHA256: 51019d866154222bc990f02b635789bbc5e22d06eb19fc714b2d514a3c81dee0
-SHA512: 4acf4110937b037a1ad796ebcaac656272597bc298437131f966d1dbe1e756fd38fd8987be9b50f89e1f4e102e2fb7a566f953cd576ae242801d4f1e53902f13
+Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_7.0_iphoneos-arm.deb
+Size: 6096
+MD5sum: d28f1670c8cc5a2284962d79bb427516
+SHA1: c3c3e1c895b32cebdea29968a0b14c4e64c6cf2a
+SHA256: 950c3e1f5cd42d31a1c3b02e24a8e11f8fd793decc3ecf00cdf3619bf203c391
+SHA512: 1e0ee079a17aaf555c0c1661537782f955dfddf7592064b47a744d2d698f569e73a76a3fb7d46e8a600e05f354fc640994867a90c4f0e77918fde63a5eeacdcb
 Description: uptime but useful.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
@@ -529,37 +276,17 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
-Version: 6.2
-Priority: optional
-Section: Scripts
-Maintainer: turannul
-Depends: ncurses | ncurses-term, perl, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_6.2_iphoneos-arm.deb
-Size: 4104
-MD5sum: 07122cc5c6b72ad06caa66ac85000814
-SHA1: 8c51841f497e18c9ae080be478adb2cdac5517ab
-SHA256: 9540a326bdb65e151d78220e1fc9979216f5849cbba18842316aa7dd2c1708d5
-SHA512: 4f1386626f18c7dfe458cef65239befebe7af46e30fa3f7c5b1a4c4d8ab817d155b4724ac20d5b89e3322cca38e2ac397c768ba7be200246d7e70af7005cec24
-Description: uptime ama çok daha iyisi.
-Author: turannul
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.uptime
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
-Name: uptime2
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: xyz.turannul.uptime
-Architecture: iphoneos-arm
-Version: 7.0.0
+Version: 8.0
 Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_7.0.0_iphoneos-arm.deb
-Size: 5896
-MD5sum: 65fbb43961cc4a4d8744dfa191447b2d
-SHA1: a493dcbfdedb46e3cae0ceeb61c2b3a01f85e307
-SHA256: de6aa473659ee5fdc7023006cf2c6f8b0ef61a1426066cae5cc1115c20023910
-SHA512: 4015f32d8c1a9f8d89c093936541791ef82cd7a8ff8567579a806a019dc4814b0f4b0773b4201b7197a2705b763942c2b20097710bf92eb3093a5f0cad547dd5
+Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_8.0_iphoneos-arm.deb
+Size: 6112
+MD5sum: 441440a621217f75844eeab976446ed5
+SHA1: 31e873fd7c993e0e2f82244f9ae538ca65f005fb
+SHA256: d31dc1d7756e92f3045d442aecb537df5202c23c8c2ff1fe6167d6ef81a09787
+SHA512: 5c7f5a44105745fd49ea787ea49725f9b5d93d8f86131c77b00985d72b90babd86a4ab9323715fdb92c26a241fcfcd7666fcf74e2c3cb017d1f5f4f19bf9f528
 Description: uptime but useful.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
