@@ -263,11 +263,11 @@ Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
 Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_7.0_iphoneos-arm.deb
-Size: 6096
-MD5sum: d28f1670c8cc5a2284962d79bb427516
-SHA1: c3c3e1c895b32cebdea29968a0b14c4e64c6cf2a
-SHA256: 950c3e1f5cd42d31a1c3b02e24a8e11f8fd793decc3ecf00cdf3619bf203c391
-SHA512: 1e0ee079a17aaf555c0c1661537782f955dfddf7592064b47a744d2d698f569e73a76a3fb7d46e8a600e05f354fc640994867a90c4f0e77918fde63a5eeacdcb
+Size: 5896
+MD5sum: 33f3d6b53f485d25dc94841ba9989512
+SHA1: d03c899f4674394817e7f8946b7b98e279153117
+SHA256: 1c87c9019c8c01d694e2e283c52ddac6fa76bda48b2a0a99a9c8a9bdbf14497b
+SHA512: e7f6eef1c81c1941f58f7e689862c1c91bc572a5209718de6fe77c836f9b52ed3098507838befbaa2f3ba2ffd1e6e66c1592b9760521ae676fdbe879f53b6dd0
 Description: uptime but useful.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
@@ -282,11 +282,11 @@ Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
 Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_8.0_iphoneos-arm.deb
-Size: 6112
-MD5sum: 441440a621217f75844eeab976446ed5
-SHA1: 31e873fd7c993e0e2f82244f9ae538ca65f005fb
-SHA256: d31dc1d7756e92f3045d442aecb537df5202c23c8c2ff1fe6167d6ef81a09787
-SHA512: 5c7f5a44105745fd49ea787ea49725f9b5d93d8f86131c77b00985d72b90babd86a4ab9323715fdb92c26a241fcfcd7666fcf74e2c3cb017d1f5f4f19bf9f528
+Size: 5616
+MD5sum: 2814affe18c939e643784ddd42504b89
+SHA1: 3bf5fb0791188e2212cb6187ec63cad382f26895
+SHA256: fd5ba954f377d59e4af99f8f55152486a4b3d121c53e5ed526ae5548924e1e97
+SHA512: c30a1665d954819922ff851027e4fae8aef589e5f027ce188293f2c382f5509de8b08b22c0ee701b12d39fb1a547647edadaf5d173e1395a2885e14e2f222a1d
 Description: uptime but useful.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
