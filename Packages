@@ -1028,6 +1028,25 @@ Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoalerts
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: com.udevs.compactbatteryavocado
+Architecture: iphoneos-arm
+Version: 2.0.6
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 456
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debians/Tweaks/AvacadoBattery/com.udevs.compactbatteryavocado_2.0.6.deb
+Size: 151756
+MD5sum: a6e7c5776b9e40e5da7a9f347aae2296
+SHA1: e6999033969fbdef0db94d7d5084ce81a8e333ed
+SHA256: 4e7cb82fcfa07fa78d26c55145ec178b5d2c824dcd3499e37edb1d1a50026edc
+SHA512: 0a3515508d1d5fcfb5d07b5f70fe31f2071bdb1a2c2cd8321975bdb63e60cb76010b0ea860e1520a23362156b933f37c33d0c1798c6e5cf636095ef6b41ee96b
+Description: Show battery percentage on 2x2 battery widget
+Name: CompactBatteryAvocado
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
+
 Package: com.udevs.battsafepro
 Architecture: iphoneos-arm
 Version: 1.1.6
@@ -2208,6 +2227,41 @@ SHA512: f3c91b0a92a358314b1695e82583708a6a77f4dc78f3d6e356d513efdcec0fc7975d7b51
 Description: Shadow X for Snapchat
 Name: Shadow X (Beta)
 Author: Wyatt x Kanji
+
+Package: com.no5up-kanji.librelic
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Development
+Maintainer: no5up + Kanji
+Installed-Size: 164
+Depends: mobilesubstrate (>= 0.9.5.000)
+Filename: ./debians/Tweaks/Snapchat/x/com.no5up-kanji.librelic_2.1.1_iphoneos-arm.deb
+Size: 6528
+MD5sum: da8a2c0144047ade4d9b54f04e7982c0
+SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
+SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
+SHA512: 4971afd12e94e1dbd2d54e25767d8e4444cafda5f6b25a84a224ef3631966116aec1e0dd3ce3bafd1703ed0b0c64776384f8ee994823f55d7afd911dfac67359
+Description: library for Snapchat hooking
+Name: librelic
+Author: no5up + Kanji
+
+Package: com.no5up-kanji.relicloader
+Architecture: iphoneos-arm
+Version: 3.3.0
+Section: Development
+Maintainer: no5up + Kanji
+Installed-Size: 1368
+Depends: mobilesubstrate, com.no5up-kanji.librelic
+Conflicts: com.wyattgahm-kanji.shadowx
+Filename: ./debians/Tweaks/Snapchat/x/com.no5up-kanji.relicloader_3.3.0_iphoneos-arm.deb
+Size: 317972
+MD5sum: ecc1371dbe5ad3662d903956cc539f6b
+SHA1: c6a3fc70f65850d1011264aaa84f788e402a2994
+SHA256: 1f633ad8192a10af16c8bc1cae545c7081168256698bfe1b933d88106f285598
+SHA512: 00a34fe8f911ae0f88a8c1dddf67429ad6bf8136dd2a95fc765d4083c449415177700645fff720d0ed510db6d0fdcfca0ac17764f4df78aeccf36699a23bc045
+Description: A ShadowX implementation for librelic 2.1
+Name: relicloader
+Author: no5up + Kanji
 
 Package: com.spark.snowboard.blur
 Architecture: iphoneos-arm
