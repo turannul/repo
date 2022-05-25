@@ -1,6 +1,6 @@
 #! /usr/bin/zsh
 
-cd /var/mobile/Documents/Github/repo
+cd /var/mobile/Documents/repo
 
 echo "What we doing right now?"
 read msg
