@@ -1219,6 +1219,26 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
+Version: 1.8.1
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 616
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.8.1_iphoneos-arm.deb
+Size: 118332
+MD5sum: 661d4996a7478b98caea81cfa7f1fa95
+SHA1: 18a417583b370476033dc87aa7217149849701d8
+SHA256: 0a67ff5c210f2ffb0b499f0501cdb09cc0060ef2ffde9b20b5353bd11f8ad929
+SHA512: e6a6b634ff4d0aaea86de307703a41450c6c59ff89a5640026992c8285be403cefe6b07a36afd6ee96d53a01310b73e211874a58779be3a0cf7ae7da235278d7
+Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
 Version: 1.8
 Section: Tweaks
 Maintainer: Paisseon
@@ -2259,6 +2279,24 @@ MD5sum: ecc1371dbe5ad3662d903956cc539f6b
 SHA1: c6a3fc70f65850d1011264aaa84f788e402a2994
 SHA256: 1f633ad8192a10af16c8bc1cae545c7081168256698bfe1b933d88106f285598
 SHA512: 00a34fe8f911ae0f88a8c1dddf67429ad6bf8136dd2a95fc765d4083c449415177700645fff720d0ed510db6d0fdcfca0ac17764f4df78aeccf36699a23bc045
+Description: A ShadowX implementation for librelic 2.1
+Name: relicloader
+Author: no5up + Kanji
+
+Package: com.no5up-kanji.relicloader
+Architecture: iphoneos-arm
+Version: 3.3.1
+Section: Development
+Maintainer: no5up + Kanji
+Installed-Size: 1368
+Depends: mobilesubstrate, com.no5up-kanji.librelic
+Conflicts: com.wyattgahm-kanji.shadowx
+Filename: ./debians/Tweaks/Snapchat/x/com.no5up-kanji.relicloader_3.3.1_iphoneos-arm.deb
+Size: 318084
+MD5sum: c9e3eea8ecdc314be25eb96f56a31c34
+SHA1: a57d5e9e9a88b2280c188ba86f1806e4c4ae942d
+SHA256: cc1053dc92f3b7ec8de13af981af53802ccc597035ad207c82d24e4d52894d08
+SHA512: 0fe18a883c5087e9b2901f821aa1b27ad53ab2befbaee1df4ab50f081f6c35aaa68b59722313ac8804a6c8271b9df3e24e13de088b103fbc786d296ea1924fae
 Description: A ShadowX implementation for librelic 2.1
 Name: relicloader
 Author: no5up + Kanji
