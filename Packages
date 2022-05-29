@@ -293,6 +293,25 @@ SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.u
 Name: uptime2
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
+Version: 8.2~1
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, zsh, uikittools, gawk
+Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_8.2~1-LAST_iphoneos-arm.deb
+Size: 4532
+MD5sum: d0702bdd6c6317bd749df4d2113f7f95
+SHA1: 77b3cb3ae3cb61988cffb6452ca60180fdfc2081
+SHA256: bba4e4885f812b5d67427cd268ba401dd654fe152e669fa13ca9e723d10420c6
+SHA512: 4e1b8a3dff0b0f7e4c47f1593e1b8417cb9d492e55e6826b3685f5b1eb4682d530df2d6cddb4a516bbe164e43137e1fdff3dc711945ae4ea4d172572be40e68d
+Description: uptime but more useful.
+Author: turannul
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: uptime2
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.1-1
