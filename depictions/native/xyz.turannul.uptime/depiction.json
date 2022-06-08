@@ -49,12 +49,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "6.2.2",
+                    "text": "8.1",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "02-22-2022",
+                    "text": "22-02-2022",
                     "class": "DepictionTableTextView"
                 },
                 {
