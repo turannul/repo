@@ -1198,6 +1198,25 @@ Name: Cardculator
 Author: sourcelocation
 Icon: https://havoc.app/media/627ad1f664d09c07d4a40439
 
+Package: com.sugiuta.dr4w
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: sugiuta
+Installed-Size: 1704
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>=14.0), ws.hbang.alderis (>= 1.1)
+Filename: ./debians/Tweaks/Dr4w/com.sugiuta.dr4w_0.0.1_iphoneos-arm.deb
+Size: 1011308
+MD5sum: 2390b357d41ab23d3fc07ca1da6d292a
+SHA1: a8c18a44a884135581b6bb19997b670f2603292e
+SHA256: 69c0e16b7441ec7396258cd73f85e3e0b293e92b3e9a9b8d44b66ddc6193299e
+SHA512: 06ea8ae3c22043b8f9f2151dfdd09c91c200d7d22699f5434a922a1e452b8db9e31b1ab8a582d72955033304dcccaada3d47df9a327be178a4a32520952b8e1d
+Description: You can draw and take screenshots anywhere.
+Name: Dr4w
+Depiction: https://sugiuta.github.io/descriptions/?p=com.sugiuta.dr4w
+Author: sugiuta
+Icon: file:///Library/PreferenceBundles/Dr4w.bundle/icon@3x.png
+
 Package: com.bid3v.electrode
 Architecture: iphoneos-arm
 Version: 1.0.3
