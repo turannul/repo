@@ -1257,37 +1257,17 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: emt.paisseon.erika
 Architecture: iphoneos-arm
-Version: 1.8.1
+Version: 1.8.2
 Section: Tweaks
 Maintainer: Paisseon
 Installed-Size: 616
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.8.1_iphoneos-arm.deb
-Size: 118332
-MD5sum: 661d4996a7478b98caea81cfa7f1fa95
-SHA1: 18a417583b370476033dc87aa7217149849701d8
-SHA256: 0a67ff5c210f2ffb0b499f0501cdb09cc0060ef2ffde9b20b5353bd11f8ad929
-SHA512: e6a6b634ff4d0aaea86de307703a41450c6c59ff89a5640026992c8285be403cefe6b07a36afd6ee96d53a01310b73e211874a58779be3a0cf7ae7da235278d7
-Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
-Name: Erika
-Author: Paisseon
-Icon: https://paisseon.github.io/icons/erika.png
-SileoDepiction: https://paisseon.github.io/depictions/erika.json
-Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
-
-Package: emt.paisseon.erika
-Architecture: iphoneos-arm
-Version: 1.8
-Section: Tweaks
-Maintainer: Paisseon
-Installed-Size: 616
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
-Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.8_iphoneos-arm.deb
-Size: 118634
-MD5sum: 3b513f0dd28c30f8c58441c32e639855
-SHA1: 42ea6fb90e8ecddac14d4599b4297cef56191257
-SHA256: 8caa807c3cdeb98ac049b493fe67e4f739313fca29675f0647e8cc9ce03d0ceb
-SHA512: f187f6f3002c587e13797ce723a707144d7c74ca24ffb631c11f3f31699e9070cd6675dd693458fe39709280194a480c46c6d537d1eedddf643eddc2cc3cde49
+Filename: ./debians/Tweaks/Erika/emt.paisseon.erika_1.8.2_iphoneos-arm.deb
+Size: 118880
+MD5sum: 1c7be1ff196fc036ea648c2a0a2912b0
+SHA1: e3cbf8249bd975c534c97cfc0715483c8243776f
+SHA256: 8f6b5b9ca2173de51401649648a5b857f7a77e70464200e31cb272e58f9c8931
+SHA512: dabd53d883e5c74c9c9e49a9970d3beac14ac1a17c19848751005b88fe3b852501ea9d95499d0017f36bb4c489814ff19786973c15132177aef2c8d9b652552a
 Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
 Name: Erika
 Author: Paisseon
