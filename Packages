@@ -3174,6 +3174,26 @@ Depiction: N/A
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
+Package: xyz.turanul.flappybird
+Architecture: iphoneos-arm
+Version: 4.2.2
+Section: Uygulama
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
+Size: 2481112
+MD5sum: b3a3c7d00608ce7ca9784f9b19d6ce1f
+SHA1: b2f1f7d5edfc1ccb230358601bed263eaf014fbd
+SHA256: 2d9163ec72997415a06039a64c8195af2ff1c510547ea28c29882e9d039b4890
+SHA512: 5bc19a73eab94737547fff730979a9e67394f93f0ee4609e91f076672df3b3ad04d3575b733797b71b55ceaca3933cb53329b5ee30ed7a623bf97d17c23600c0
+Description: A Flappy Bird clone that runs on the latest iOS! 
+ AppSync Repo: https://cydia.akemi.ai/
+Name: Flappy Bird
+Author: Brandon Plank, Thatcher Clough
+Depiction: N/A
+SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
+Icon: https://turannul.github.io/home/resources/flappybird.png
+
 Package: com.ichitaso.nonceset143
 Architecture: iphoneos-arm
 Version: 0.0.5
@@ -3351,6 +3371,25 @@ Author: turannul
 Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
+
+Package: xyz.turannul.limneoshaxx
+Architecture: iphoneos-arm
+Version: 0.0.1~beta
+Priority: none
+Section: Tweaks
+Maintainer: turannul
+Depends:
+Filename: ./debians/xyz.turannul.limneoshaxx_0.0.1~beta_iphoneos-arm.deb
+Size: 26766
+MD5sum: a2b2d1de6085ebde8e202e16d3e4c56f
+SHA1: 87c42737eaba67b9238db303529869afb00d9d40
+SHA256: 5f653c183d4be73a838d43de9ad9735c64db7ae49e11a6f6cac5b2413e544737
+SHA512: f692ae25e7362d7b9176ffb467d54e8203fe2c5d3d7f425b6d9e157f812b4ec5137fb6fc84683a50eece53f973f0cf21447fa24c1d096de676810cae9b27d95b
+Description: An awesome MobileSubstrate tweak!
+Name: Limneos PayPal Verification Bypass
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm
