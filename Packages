@@ -615,6 +615,25 @@ Name: Filza File Manager x64
 Author: TIGI Software
 Icon: https://turannul.github.io/home/resources/filza.png
 
+Package: xyz.turannul.limneoshaxx
+Architecture: iphoneos-arm
+Version: 0.0.1~beta
+Priority: none
+Section: Tweaks
+Maintainer: turannul
+Depends:
+Filename: ./debians/PirateTweakss/LimneosHack/xyz.turannul.limneoshaxx_0.0.1~beta_iphoneos-arm.deb
+Size: 26766
+MD5sum: a2b2d1de6085ebde8e202e16d3e4c56f
+SHA1: 87c42737eaba67b9238db303529869afb00d9d40
+SHA256: 5f653c183d4be73a838d43de9ad9735c64db7ae49e11a6f6cac5b2413e544737
+SHA512: f692ae25e7362d7b9176ffb467d54e8203fe2c5d3d7f425b6d9e157f812b4ec5137fb6fc84683a50eece53f973f0cf21447fa24c1d096de676810cae9b27d95b
+Description: An awesome MobileSubstrate tweak!
+Name: Limneos PayPal Verification Bypass
+Author: turannul
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.pencilbanner
 Architecture: iphoneos-arm
 Version: 1.2
@@ -3158,15 +3177,15 @@ Icon: https://turannul.github.io/home/resources/esign.png
 Package: xyz.turanul.flappybird
 Architecture: iphoneos-arm
 Version: 4.1.0
-Section: Uygulama
+Section: Games
 Maintainer: turannul
-Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Uygulamalar/FlappyBird/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
-Size: 2317900
-MD5sum: d482d94191a7fc11b3103a812e05ef85
-SHA1: 3cd4bec84ecbe6769535c682e90917506d9c58f3
-SHA256: 5ccdb23796ac3a6ce7db031dfc85abc88cdf47ec504196c46738ad3fa5dfb633
-SHA512: 4db3fb93ed74af647e420004e78c58ff8234de4d0d806bf5b7309950a49e3bf94a66e10508ca1a4bfb827ca1cffb2ea3d241e9f647a630b776b6fd5a6d97ce6c
+Depends: firmware (>= 13.0), net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/Games/FlappyBird/xyz.turanul.flappybird_4.1.0_iphoneos-arm.deb
+Size: 2337844
+MD5sum: e92b06f6ed4e1cdb30575a208cf73ad1
+SHA1: 80788eecb61b0cb925856484d7e8c16a826befff
+SHA256: 9b80c6d330cc30ca05c7d2ceee83e064464b2d07c6c11317f2150059b721b255
+SHA512: 7cca1f2c66a83b9fd793c64e7040c2be7f64040f85e76df48a8cfbbfc0876f1d6a245ca528c018841b13f315bd73ebe3f682de753b29bfaeaa1168ef6821dd64
 Description: A Flappy Bird clone that runs on the latest iOS! AppSync Repo: https://cydia.akemi.ai/
 Name: Flappy Bird
 Author: Brandon Plank, Thatcher Clough
@@ -3177,15 +3196,15 @@ Icon: https://turannul.github.io/home/resources/flappybird.png
 Package: xyz.turanul.flappybird
 Architecture: iphoneos-arm
 Version: 4.2.2
-Section: Uygulama
+Section: Games
 Maintainer: turannul
-Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Uygulamalar/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
-Size: 2481112
-MD5sum: b3a3c7d00608ce7ca9784f9b19d6ce1f
-SHA1: b2f1f7d5edfc1ccb230358601bed263eaf014fbd
-SHA256: 2d9163ec72997415a06039a64c8195af2ff1c510547ea28c29882e9d039b4890
-SHA512: 5bc19a73eab94737547fff730979a9e67394f93f0ee4609e91f076672df3b3ad04d3575b733797b71b55ceaca3933cb53329b5ee30ed7a623bf97d17c23600c0
+Depends: firmware (>= 13.0), net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Uygulamalar/Games/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
+Size: 2504826
+MD5sum: f252007a8912a5935609bc17b8f541a9
+SHA1: af0c2f936641c7b539a4e96aa5158200cdadd3c1
+SHA256: b3aa34a22a0ecbd117f11f8a2a810d9f8eb539d9fb0c5ae044e8331d430c25b7
+SHA512: 2cae51a2845325c382f3156be77932f08a1a6a4aa7c2f92cb14fe26874fac4a3f56f06a64654c971b6e3be26967811d017c06cdd7cdd42a6b70f844ac543e779
 Description: A Flappy Bird clone that runs on the latest iOS! 
  AppSync Repo: https://cydia.akemi.ai/
 Name: Flappy Bird
@@ -3371,25 +3390,6 @@ Author: turannul
 Depiction: n/a
 Icon: n/a
 SileoDepiction: n/a
-
-Package: xyz.turannul.limneoshaxx
-Architecture: iphoneos-arm
-Version: 0.0.1~beta
-Priority: none
-Section: Tweaks
-Maintainer: turannul
-Depends:
-Filename: ./debians/xyz.turannul.limneoshaxx_0.0.1~beta_iphoneos-arm.deb
-Size: 26766
-MD5sum: a2b2d1de6085ebde8e202e16d3e4c56f
-SHA1: 87c42737eaba67b9238db303529869afb00d9d40
-SHA256: 5f653c183d4be73a838d43de9ad9735c64db7ae49e11a6f6cac5b2413e544737
-SHA512: f692ae25e7362d7b9176ffb467d54e8203fe2c5d3d7f425b6d9e157f812b4ec5137fb6fc84683a50eece53f973f0cf21447fa24c1d096de676810cae9b27d95b
-Description: An awesome MobileSubstrate tweak!
-Name: Limneos PayPal Verification Bypass
-Author: turannul
-Depiction: N/A
-SileoDepiction: N/A
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm
