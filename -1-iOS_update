@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+
+if [[ "$EUID" -ne 0 ]]; then
+		echo "Repo updater needs to be run with root privileges."
+		exit
+	fi
+
+path=(/var/mobile/Documents/applefavour.com/repo.applefavour.com)
+cd $path
+
+strap=(/.procursus_strapped)
+if test -f "$strap";then 
+#=#=#=#=#=#
+if test ! "$(which apt-ftparchive)"; then
+        apt install apt-utils -y
+fi
+if test ! "$(which gzip)"; then
+        apt install apt-utils -y
+fi
+if test ! "$(which xz)"; then
+        apt install xz-utils -y
+fi
+if test ! "$(which zstd)"; then
+        apt install zstd -y
+fi
+if test ! "$(which bzip2)"; then
+        apt install bzip2 -y
+fi
+rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
+    
+apt-ftparchive packages ./debians > Packages
+    gzip -c9 Packages > Packages.gz
+    xz -c9 Packages > Packages.xz
+    zstd -c19 Packages > Packages.zst
+    bzip2 -c9 Packages > Packages.bz2
+apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+     echo "Repository Updated, thanks for using repo.me!"
+else 
+
+#Check packages 
+if test ! "$(which gzip)"; then
+        apt install apt-utils -y
+fi
+if test ! "$(which xz)"; then
+        apt install xz-utils -y
+fi
+if test ! "$(which zstd)"; then
+        apt install zstd -y
+fi
+if test ! "$(which bzip2)"; then
+        apt install bzip2 -y
+fi
+#Package identifiers are same on Bingner??
+#I do not change my jb to see.
+echo "unc0ver/Checkra1n maybe?"
+echo "apt-ftparchive compiled by @Diatrus" #credits to Hayden!
+
+wget -nc -q --show-progress https://apt.procurs.us/apt-ftparchive  
+
+chmod 751 ./apt-ftparchive 
+    
+ rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
+    
+    ./apt-ftparchive packages ./debians > Packages
+    gzip -c9 Packages > Packages.gz
+    xz -c9 Packages > Packages.xz
+    zstd -c19 Packages > Packages.zst
+    bzip2 -c9 Packages > Packages.bz2
+    
+    ./apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+    
+    echo "Repository Updated, thanks for using repo.me!"
+fi
+
+exit 0
