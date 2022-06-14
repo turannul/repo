@@ -5,7 +5,7 @@ if [[ "$EUID" -ne 0 ]]; then
 		exit
 	fi
 
-path=(/var/mobile/Documents/applefavour.com/repo.applefavour.com)
+path=(/private/var/mobile/Documents/...)
 cd $path
 
 strap=(/.procursus_strapped)
