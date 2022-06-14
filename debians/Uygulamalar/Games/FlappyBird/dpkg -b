@@ -1,5 +1,0 @@
-#! /usr/bin/zsh
-
-dpkg-deb -b -z9 /var/mobile/Documents/repo/debians/Uygulamalar/Games/FlappyBird/xyz.turanul.flappybird_4.1.0_iphoneos-arm
-
-dpkg-deb -b -z9 /var/mobile/Documents/repo/debians/Uygulamalar/Games/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm
