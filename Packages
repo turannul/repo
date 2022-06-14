@@ -3029,15 +3029,15 @@ Depiction: https://wilsonthewolf.github.io/repo/depictions/web/?p=com.wilsonthew
 Package: com.itaysoft.wifilist
 Architecture: iphoneos-arm
 Version: 1.0.0
-Section: Uygulama
+Section: Tweaks
 Maintainer: Itay
 Installed-Size: 1128
 Filename: ./debians/Tweaks/WiFi-List/com.itaysoft.wifilist_1.0.0_iphoneos-arm.deb
-Size: 924754
-MD5sum: d241f1987c27ed69a6e53c59645ef159
-SHA1: f401c05502e988a219a4d2617498b5ecd164dbaf
-SHA256: 3ae910b32819f0388db8f391762b681ffa7d9a17273a8f55a443979f9b46b08c
-SHA512: a7692275e5b31b5188a57373d945b3184661de49b9608ad3f8a49c49e43c580a7c4d7c0795a37da8d86c90c207695ccb9b678a44c81d84b4ad7f3f0b89b5b73e
+Size: 903316
+MD5sum: e512f4d33ff79130275d207f7f893b7c
+SHA1: 138294cacb8dfd28ed76cee34aec09e02b2a3541
+SHA256: 3d3b5df2fdc0f0a790c75daf16a27878f74ae5b025936e5ff5d4ab179393bfed
+SHA512: 13e45847373fdbb3357aced9e64444e96c31e0963f088eec1693056c5ff85e024c7f53811014a27705a932f995c4c4f853e1e4483f89d9a342df9bd855f848c3
 Description: View and share WiFi passwords
 Name: WiFi List
 Author: Itay
