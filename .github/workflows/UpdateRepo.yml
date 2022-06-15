@@ -1,24 +1,20 @@
-name: Update-Repo
+name: Packages-update
 on: [push]
 jobs:
   Update-Repo-job:
     runs-on: ubuntu-latest
-    steps:
-      - run: echo "${{ github.event_name }}."
-      - run: echo "${{ runner.os }}."
-      - run: echo "${{ github.ref }} ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: echo "${{ github.repository }}."
-      - run: echo "Runner Ready."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: chmod +x ./updaterepo.sh
-      - run: ./updaterepo.sh
-      - run: git config --global user.email "turannul000@gmail.com"
-      - run: git config --global user.name "Turann-bot"
-      - run: git add "${{ github.workspace }}"
-      - run: git commit -a -m "Packages updated."
-      - run: git push
-      - run: echo "${{ job.status }}."
+    steps: 
+- run: echo "${{ github.event_name }}."
+- run: echo "${{ runner.os }}."
+- run: echo "${{ github.ref }} ${{ github.repository }}."
+- run: echo "${{ github.repository }}."
+- run: echo "Runner Ready."
+- run: ls ${{ github.workspace }}
+- run: chmod -R +x Z-update-scripts
+- run: ./updaterepo.sh
+- run: git config --global user.email "turannul000@gmail.com"
+- run: git config --global user.name "Update-BOT"
+- run: git add "${{ github.workspace }}"
+- run: git commit -a -m "Repo updated.(Automatic Action)"
+- run: git push
+- run: echo "${{ job.status }}."
