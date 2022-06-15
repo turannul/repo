@@ -3675,28 +3675,3 @@ Tag: role::developer
 Name: libappearancecell
 Author: ConorTheDev <conorthedev@gmail.com>
 
-Package: u.blanxd.sshswitch
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 375
-Depends: cy+cpu.arm64, openssh-server (>= 6.2) | openssh (>= 6.2)
-Conflicts: u.blanxd.opensshport (<< 1.0~b3)
-Breaks: u.blanxd.sshoncc (<= 1.4.0)
-Replaces: u.blanxd.sshoncc (<= 1.4.0)
-Filename: ./debians/zStuff/sshswitch_1.0.1.deb
-Size: 229982
-MD5sum: 47a4562553f078a877ffb5f27455c5cf
-SHA1: 959b1a5897fc98f22e63747b59b5d557ada04b33
-SHA256: be67efbf39e6f337204b7c5846ef4d0fc7e0fce0cf1d80e0772c19df27df802c
-SHA512: a84f29240dcc7c7de38870336631112603a606cee5b5ea33a1c6ffdd7142e7b5f67c8ff36644b9254b4435d13b0990bd4aaeb0b646a114c549c3a3cbfb2e2656
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
-Description: CLI tool for changing OpenSSH settings
-Tag: purpose::console
-Author: BlanxdH <blanxd.h@gmail.com>
-Name: SSHswitch
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sshswitchDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: blanxd
-
