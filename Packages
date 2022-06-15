@@ -1,17 +1,17 @@
 Package: xyz.turannul.altstore
 Architecture: iphoneos-arm
 Version: 1.4.9
-Section: Uygulama
+Section: Apps
 Maintainer: turannul
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
 Filename: ./debians/Apps/3rdStores/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
-Size: 3661524
-MD5sum: 49ff376de4521532a13302f939302931
-SHA1: ce5d256c9f9d4f288f4ace40a65e259f124c469e
-SHA256: 97c755c9fd86e4517f3324738b6d20b5caf3c088a607c1d5c9642d611489237b
-SHA512: 9f29d5b41fea12f3f68d5a11b98df5d57133d6209ca264ec643c1bab74c0abf9addba901b3c87dc2aacc1e2c6b80afa884bb54ab6a8c835c4614ffc4380188e5
+Size: 3655948
+MD5sum: ede4cb1de71ff8c8f80b090754d7e198
+SHA1: 038a171c4f92b1b03d28cdb1511d388965da69c7
+SHA256: 71cc2f0532e9f5c41e5db6f92e3029ccf1acdd79c60488aea3728beadb3ff37a
+SHA512: 2f0deb7056228d2e27458ee4602c950ba728128c8f4cc0e096a3784e96e6cdd2e5a9692f8d9dcacc39eefbfdac68daa139f144c151ca34c1002f1f45cd398b59
 Homepage: https://altstore.io/
 Description: Patreon features active.
 Author: Riley Testut
@@ -22,15 +22,15 @@ Icon: https://turannul.github.io/home/resources/altstore.png
 Package: Appcake
 Architecture: iphoneos-arm
 Version: 7.2.2
-Section: Uygulama
+Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Apps/3rdStores/Appcake/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13423588
-MD5sum: c43ab642e63501547871705f4349be8f
-SHA1: f8add85292ee0a3d4bd5bbf3d0da502c1082a65d
-SHA256: 5f68f01b7f9e9b1cc7cab1d9b6a06545b641cb69c2eea29e8b13499a23714c61
-SHA512: 67a230524c44930b7982da77ca3520fca5f8430c575cbac9f15ffecca671bcec0b113b3b93e049eb7f15c18362827ec0c49dd8a4015964730939a8d8ce4fa02f
+Size: 13422692
+MD5sum: 88d76b95a165e824f2dc15b2517b5f9a
+SHA1: 8f7b18cde4445a13660d26a578cfc3127865f106
+SHA256: 7caa5329e9a16617ba84a7b12d6511fcf1c8cfc3572b28b0a310d70f8c4e085c
+SHA512: cdf6a3000511a751e4f4c296c9c0167830d3b8f848fd012269f55c3a273ab4fb3eb78c6e10b2801d7eba1647ae9e11799791f3ad03375f9d8eff513f6818aedc
 Description: iPhone / iPad için ücretsiz iPA Mağazası. AppSync Repo: https://cydia.akemi.ai/
 Name: Appcake
 Author: iPA Store
@@ -41,15 +41,15 @@ Icon: https://turannul.github.io/home/resources/appcake.png
 Package: Appdb
 Architecture: iphoneos-arm
 Version: 1.1.3
-Section: Uygulama
+Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified
 Filename: ./debians/Apps/3rdStores/Appdb/Appdb_1.1.3_iphoneos-arm.deb
-Size: 16260452
-MD5sum: e87f5906a3159e7b9790e7222369da28
-SHA1: 502fbf11b0da2387b99282de8c016685b0784581
-SHA256: bdb278cb82e00d30d077a44eb75f5f932078e630ab4f87a1c990084b8f58fae5
-SHA512: 43aebbc1b43408358fe9b12445fd514810327c7a6d04d759e063076f47699c7c62fea2919762cb353e28d06a48e2efe1d64c237630ca00ef04cbf0c034372b88
+Size: 16140652
+MD5sum: 5507735bbb99357a71e5ec1770fe4135
+SHA1: ea0f7f7321d34528e49279fb35f9a4d14fc7018a
+SHA256: d133982181191f6a4079ba74c26c48774cab6c3b08f92f62dfad1f98c3010ec8
+SHA512: 9cce6f6a38e1378981bfb77d2041a04b01f337539eafeb667944941d2e49dbcff5625f0acff52975c02d57b9d6bde497099a6270890d2319f2d6b8fde01e3032
 Description: Appdb
 Depiction: N/A
 SileoDepiction: N/A
@@ -96,15 +96,15 @@ Icon: https://turannul.github.io/home/resources/flappybird.png
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
 Version: 1.5.0.160502
-Section: Uygulama
+Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Apps/Movies_TV_Apps/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
-Size: 6489084
-MD5sum: 889ce55b1ca67e303afdd07c5a8df6a3
-SHA1: 823da59987a5c524bef54144ec710f5938c47e24
-SHA256: ecfd832c23e02aa3b35ddc6826b116ea51e96e586c1f3d4236e8a310f2931ce1
-SHA512: 29f01086604dd34d0e53d8021490adc2795d66f514d744d200ba1cb1875c8511594694fcf910cb30dd318cc9ed560f3444a180b5735275ceb03dc60c1d2a2c5b
+Size: 6489048
+MD5sum: 6810a15a10267186cd2c1e638889e3d3
+SHA1: 9b003a41b7475f98dd1c4fcd3e6e1c66201459e9
+SHA256: 71b3b34135e5ef57f3c63f93b4dc1706c0fc169b1bbae9b10092264b3c4eab2d
+SHA512: 6fb6380ee4b0fc2c47cf4656123af110d22e60562ce9ecb99ab91fda146408187712010f2ecae2631f71547773f18deafcdb47a736c541cb40d57956dafa8bac
 Homepage: https://zinitevi.github.io/movieapps/
 Description: Dizi ve Filmleri AppSync Repo: https://cydia.akemi.ai/
 Name: ZiniTevi
