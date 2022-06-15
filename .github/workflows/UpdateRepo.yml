@@ -10,7 +10,7 @@ jobs:
 - run: echo "${{ github.repository }}."
 - run: echo "Runner Ready."
 - run: ls ${{ github.workspace }}
-- run: chmod -R +x Z-update-scripts
+- run: chmod +x ./updaterepo.sh
 - run: ./updaterepo.sh
 - run: git config --global user.email "turannul000@gmail.com"
 - run: git config --global user.name "Update-BOT"
