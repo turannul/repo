@@ -386,6 +386,26 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.cellularx
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: turannul
+Installed-Size: 276
+Depends: preferenceloader, gsc.contains-cellular-radio
+Filename: ./debians/MyTweaks/CellularX/DEBs/xyz.turannul.cellularx_1.0_iphoneos-arm.deb
+Size: 12228
+MD5sum: bd5619f5fac3e1603aeb981b93c53e79
+SHA1: 776c20a2ad95b7524a105c500975a7fb74d5d284
+SHA256: f94c4d561fafc61cc9c49845f0adc1b4ee62bb8f6c0a189a8140758473135a0f
+SHA512: fbad4993fa92b9163281c3daad57372bd633981f3b5ee6a44463b319abe83ec6e9d24e0964209a63cac81cbec41b7e034c2e1d37962890659522deaeea0f9650
+Description: N/A
+Author: turannul
+SileoDepiction: N/A
+Name: CellularX
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: xyz.turannul.redditpremium
 Architecture: iphoneos-arm
 Version: 1.0
@@ -404,6 +424,23 @@ Description: Premium Reddit Experience
 Name: Reddit: No Ads + Premium
 Author: turannul <turanull000@gmail.com>
 Icon: https://turannul.github.io/home/resources/reddit.png
+
+Package: xyz.turannul.updateblockr
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: turannul <>
+Installed-Size: 136
+Depends: firmware (>= 9.0)
+Filename: ./debians/MyTweaks/UpdateBlockr/DEBs/xyz.turannul.updateblockr_0.0.1_iphoneos-arm.deb
+Size: 3956
+MD5sum: 6a9ac7e3489bbdc3ca4c2c7c78ba635e
+SHA1: 7d9c7b3921f1deaed004b5ed64a115f8961e2926
+SHA256: d6f60df8226a4fd7d2105bbd7b0d1d24287bc7f0ebad8ea644922e0c9a1189c2
+SHA512: 36243b7faf8e663a6e7d1478e23fd148cd2483d02417376e59db6b6fcb52828a9140c23b95bb3333088fd2288973b510b9583faca096c94aa1f431e64c43440a
+Description: Disable updates using icleaner method + remove from settings
+Name: UpdateBlockr
+Author: turannul <>
 
 Package: xyz.turannul.uptime
 Architecture: iphoneos-arm
@@ -479,6 +516,26 @@ Author: AppTapp <support@apptapp.me>
 Depiction: https://apptapp.me/repo/51/installer.html
 Icon: https://synnygr.dev/AppTapp/icon51.png
 Name: Installer
+
+Package: com.ceadd.installer5reset
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: ceadd
+Depends: firmware (>= 9.0)
+Filename: ./debians/Packaging/Installer5 Reset/com.ceadd.installer5reset_1.2_iphoneos-arm.deb
+Size: 902
+MD5sum: 6d26ee2ddaaf57ad0de613aa5e8f8af0
+SHA1: fd46d3e53630283c114f4b9d849b927038049f5c
+SHA256: 1563ae3ac57bc66f4f811e58a4f5beafed3ba1135b353e448c69a9f62b6da119
+SHA512: 8ae7f1dc1468e335745649ba5627ece32c33960207bacba7e1c57bb8ac9a67af2305ff1069585b66cd8a37ee2770f9f3d95a4654cf142bc2df019edaa1dc83d0
+Description: Reset Installer 5 back to stock!
+Tag: compatible_min::ios9, compatible_max::ios15
+Author: ceadd
+Depiction: http://ceadd.ca/cydia/depictions/?p=com.ceadd.installer5reset
+Icon: https://synnygr.dev/AppTapp/installer_icon.png
+Name: Installer 5 Reset
+SileoDepiction: http://ceadd.ca/cydia/depictions/com.ceadd.installer5reset/SileoDepiction.json
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
@@ -3228,6 +3285,24 @@ Author: biD3V
 Depiction: https://bid3v.github.io/repo/depictions/uki.html
 Icon: https://bid3v.github.io/repo/icons/uki.png
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/uki.json
+
+Package: com.yourepo.bluemaster.uselessdaemonbegone
+Architecture: iphoneos-arm
+Version: 0.2.2
+Section: Tweaks
+Maintainer: cloudblower <congthinh1210@icloud.com>
+Pre-Depends: firmware (>= 10)
+Depends: firmware (>= 10.0)
+Conflicts: com.unloadvsd, com.killvsd, com.unloadvsd2, com.exvsd, com.byevsd, com.unloadatd, com.unloadapd, com.unloadnano, com.unloaduad, com.unloadtipsd, com.unloadschpa, com.unloadwbd, com.dpkg.cappd
+Filename: ./debians/Tweaks/uselessdaemonbegone/com.yourepo.bluemaster.uselessdaemonbegone_0.2.2.deb
+Size: 1678
+MD5sum: a8c8e627dd304c75a94215cd75a6e801
+SHA1: 1407257d99c0dc25b48b3726f33951e3bf6985d1
+SHA256: 63ea028013193818c60d596e24e13eeefe9a964e9a531ec6f9c245c182a16cae
+SHA512: 916efde201dd385d8bc66f97ec52cb98ca96bb3fccc29c45a4302de5ab2715d2adb8efb12b6ff867661c8fe127e8e04eb9423ebac3d747a126a522530886f554
+Description: UselessDaemonBeGone unload more than 21 unuseful system daemons, which makes battery life greater and improves performance.
+Name: UselessDaemonBeGone
+Author: cloudblower <congthinh1210@icloud.com>
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
