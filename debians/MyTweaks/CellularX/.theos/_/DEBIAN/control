@@ -1,0 +1,13 @@
+Package: xyz.turannul.cellularx
+Architecture: iphoneos-arm
+Section: Tweaks
+Depends: preferenceloader, gsc.contains-cellular-radio
+Priority: optional
+Maintainer: turannul
+Author: turannul
+Description: N/A
+SileoDepiction: N/A
+Name: CellularX
+Icon: https://turannul.github.io/home/resources/tweak.png
+Version: 1.0
+Installed-Size: 276

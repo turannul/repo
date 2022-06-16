@@ -1,0 +1,10 @@
+{
+    entry =     {
+        bundle = CellularX;
+        cell = PSLinkCell;
+        detail = CXSettingController;
+        icon = "Icon.png";
+        isController = 1;
+        label = CellularX;
+    };
+}

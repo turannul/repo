@@ -1,0 +1,6 @@
+# to-do
+Design a icon for settings & cydia/sileo
+Support Custom 
+Make Repo depictions
+
+Note: try to find original author of tweak
