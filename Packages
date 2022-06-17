@@ -93,6 +93,23 @@ Author: Brandon Plank, Thatcher Clough
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
+Package: StreamerApp
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Apps
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Apps/Movies_TV_Apps/Streamer/StreamerApp.deb
+Size: 12849772
+MD5sum: d1ebf676bcfb2bb831ab4a03aa1217a1
+SHA1: 68a8d551c69158383b55f7e52e231b9e8a3be083
+SHA256: 815e7647d341daa0ff05a9f429ddb8a9ed4ca8cfe1018b785f8d562f0dcb5d74
+SHA512: 53bbfdd4117e8cda75b94ab639efe12f75e1bc6b96ae13b945ba6a75fa5af61e6de2a3c6b1ad7338e24d109a1ef6c6fa843cfa212c968be8dbbdb60c71a15495
+Description: Watch movies on your iDevice. AppSync Repo: https://cydia.akemi.ai/
+Name: Streamer
+Author: StreamerApp
+Icon: https://turannul.github.io/home/resources/streamer.png
+
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
 Version: 1.5.0.160502
@@ -1187,26 +1204,6 @@ Description: Enable / disable vnodebypass from the Control Center
 Name: vnodebypass CC Module
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.vnodebypassccmodule
 Author: level3tjg
-
-Package: ovh.exerhytm.cardculator
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Tweaks
-Maintainer: sourcelocation
-Installed-Size: 840
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), libactivator, ws.hbang.common (>= 1.17), com.opa334.ccsupport (>= 1.3.7)
-Filename: ./debians/Tweaks/Cardculator/ovh.exerhytm.cardculator_1.1_iphoneos-arm.deb
-Size: 111864
-MD5sum: 532dfcb7b8744705bf9c29ee5df7947a
-SHA1: e254a43a3c1fdc801f2ae4deb9db574f82eb9d8a
-SHA256: 5a65247471983823939f6e97147fa901b6d4c0b72b66e4c294cb74028f6773aa
-SHA512: 6945a47cb99d4a5d43f1097c50bfdd31c52b2a3b51ef3b18c4a079d6d7556f17f781735f850104819ac0cc361f655a47aab69b39f7e7eca4f3c5431ed5eeaccb
-Description: Calculator, but smaller
-Depiction: N/A
-SileoDepiction: N/A
-Name: Cardculator
-Author: sourcelocation
-Icon: https://turannul.github.io/home/resources/Cardculator.png
 
 Package: ru.domo.cocoatop64
 Architecture: iphoneos-arm
