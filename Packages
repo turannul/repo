@@ -57,25 +57,6 @@ Name: appdb
 Author: n3d1117
 Icon: https://turannul.github.io/home/resources/appdb.png
 
-Package: CPU-x
-Architecture: iphoneos-arm
-Version: 1.4.4
-Section: Apps
-Maintainer: turannul
-Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/CPU-x/CPU-x.deb
-Size: 6663604
-MD5sum: d7c440286d736bcf21243d67e5417ca8
-SHA1: 287c00690d47bda36b0afcd6702008b87391bdda
-SHA256: e77e2d9d152fd0ace333c38caf08cc5a5dbeb7b23be28c0d1877ed3b73e87345
-SHA512: c631024561bbfc10a913f3ea0fc0c67425ddbf91fe87e439762fec8419c572f93811c80c2e22b622bf8feec738a7c51afa60321b7883a2ea7bbe9696db103903
-Description: CPU-x back with widgets! (NOT Premium) AppSync Repo: https://cydia.akemi.ai/
-Name: CPU-x
-Author: unknown
-Depiction: N/A
-SileoDepiction: N/A
-Icon: https://turannul.github.io/home/resources/cpux.png
-
 Package: E-Sign
 Architecture: iphoneos-arm
 Version: 4.4.9
