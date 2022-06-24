@@ -6,7 +6,7 @@ Maintainer: turannul
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Apps/3rdStores/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
+Filename: ./debians/Apps/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
 Size: 3655948
 MD5sum: ede4cb1de71ff8c8f80b090754d7e198
 SHA1: 038a171c4f92b1b03d28cdb1511d388965da69c7
@@ -25,7 +25,7 @@ Version: 7.2.2
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/3rdStores/Appcake/Appcake_7.2.2_iphoneos-arm.deb
+Filename: ./debians/Apps/Appcake/Appcake_7.2.2_iphoneos-arm.deb
 Size: 13422692
 MD5sum: 88d76b95a165e824f2dc15b2517b5f9a
 SHA1: 8f7b18cde4445a13660d26a578cfc3127865f106
@@ -44,7 +44,7 @@ Version: 1.1.3
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified
-Filename: ./debians/Apps/3rdStores/Appdb/Appdb_1.1.3_iphoneos-arm.deb
+Filename: ./debians/Apps/Appdb/Appdb_1.1.3_iphoneos-arm.deb
 Size: 16140652
 MD5sum: 5507735bbb99357a71e5ec1770fe4135
 SHA1: ea0f7f7321d34528e49279fb35f9a4d14fc7018a
@@ -57,13 +57,32 @@ Name: appdb
 Author: n3d1117
 Icon: https://turannul.github.io/home/resources/appdb.png
 
+Package: CPU-x
+Architecture: iphoneos-arm
+Version: 1.4.4
+Section: Apps
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
+Filename: ./debians/Apps/CPU-x/CPU-x.deb
+Size: 6663604
+MD5sum: d7c440286d736bcf21243d67e5417ca8
+SHA1: 287c00690d47bda36b0afcd6702008b87391bdda
+SHA256: e77e2d9d152fd0ace333c38caf08cc5a5dbeb7b23be28c0d1877ed3b73e87345
+SHA512: c631024561bbfc10a913f3ea0fc0c67425ddbf91fe87e439762fec8419c572f93811c80c2e22b622bf8feec738a7c51afa60321b7883a2ea7bbe9696db103903
+Description: CPU-x back with widgets! (NOT Premium) AppSync Repo: https://cydia.akemi.ai/
+Name: CPU-x
+Author: unknown
+Depiction: N/A
+SileoDepiction: N/A
+Icon: https://turannul.github.io/home/resources/cpux.png
+
 Package: E-Sign
 Architecture: iphoneos-arm
 Version: 4.4.9
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/3rdStores/E-Sign/E-Sign_4.4.9_iphoneos-arm.deb
+Filename: ./debians/Apps/E-Sign/E-Sign_4.4.9_iphoneos-arm.deb
 Size: 6348328
 MD5sum: 84ecad18eaa471b3ad07ecfdacebf007
 SHA1: e60e9846110f1bce6433e5645dc2f43f5f2b546a
@@ -80,7 +99,7 @@ Version: 4.2.2
 Section: Games
 Maintainer: turannul
 Depends: firmware (>= 13.0), net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/Games/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
+Filename: ./debians/Apps/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
 Size: 2502148
 MD5sum: 1e18a6068687d70f6ae69f5a44bd68cd
 SHA1: 3e4bea174608e25b796cb514d6c7732d12d2a6d2
@@ -99,7 +118,7 @@ Version: 1.1.9
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/Movies_TV_Apps/Streamer/StreamerApp.deb
+Filename: ./debians/Apps/Streamer/StreamerApp.deb
 Size: 12849772
 MD5sum: d1ebf676bcfb2bb831ab4a03aa1217a1
 SHA1: 68a8d551c69158383b55f7e52e231b9e8a3be083
@@ -116,7 +135,7 @@ Version: 1.5.0.160502
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/Movies_TV_Apps/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
+Filename: ./debians/Apps/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
 Size: 6489048
 MD5sum: 6810a15a10267186cd2c1e638889e3d3
 SHA1: 9b003a41b7475f98dd1c4fcd3e6e1c66201459e9
@@ -134,7 +153,7 @@ Version: 1.23.7
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/Movies_TV_Apps/iSTB/xyz.canpng.istb_1.23.7_iphoneos-arm.deb
+Filename: ./debians/Apps/iSTB/xyz.canpng.istb_1.23.7_iphoneos-arm.deb
 Size: 37760972
 MD5sum: ddcb7a2bb6ef437182ef67db86a0e488
 SHA1: d37a59b52082438c4962f65a5ad4506d0ea9103f
@@ -152,7 +171,7 @@ Version: 1.8.3
 Section: Apps
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/Other/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
+Filename: ./debians/Apps/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
 Size: 20166620
 MD5sum: e4131d93d5f27c64ad054e5842ce6c51
 SHA1: fdd9f0c7b93f86251661ccc79a92b4f9df90be40
@@ -165,31 +184,13 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
-Package: xyz.turannul.SFcompactrounded12
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/12/xyz.turannul.SFcompactrounded12.deb
-Size: 8518308
-MD5sum: 90e987444e848579d89bc29de8065489
-SHA1: 7eb5ef5e0f48ba58d9ebd4792928a216c7d13e90
-SHA256: d1fb6380dafebebcfa64bd185fdee2d29293bc7add275100447947f46def1f90
-SHA512: 285de99c31ea379bb5a1d0147d66ef0ed5c6769c2b15006825ec50171ae7368ff70d430606b5d57fdb7fab80acc31ec414ebb5bae60b18e52e936f4febe26f39
-Description: N/A
-Name: SF Compact Rounded (iOS12)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
 Package: xyz.turannul.heartheat12
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/12/xyz.turannul.heartheat12.deb
+Filename: ./debians/Fonts/12/Hearthbeat/xyz.turannul.heartheat12.deb
 Size: 6941840
 MD5sum: d94c71102568d0abf27164c83bbff2be
 SHA1: 124a7519041e5fd5bbbf991de783635212c97a5f
@@ -201,20 +202,20 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
-Package: xyz.turannul.SFcompactrounded13
+Package: xyz.turannul.SFcompactrounded12
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/xyz.turannul.SFcompactrounded13.deb
-Size: 11095308
-MD5sum: ab30123e5a8a69fe162feef106b5d020
-SHA1: 536f1e46dbeff0e9cf15e926ecc0e50af60d16e0
-SHA256: 32671c1ffe09e08e500b9e620157e81c1427fc6ad7b85e1848f6ddf7d6160007
-SHA512: 23801bc04f686c923720d1e48d377b7782dead1defe2a4d8cacac392eb6b4381f214c372c5910c9fde261693ee5fd580853eec73236eff3f66f159c9f6a54339
+Filename: ./debians/Fonts/12/SFCompactRounded/xyz.turannul.SFcompactrounded12.deb
+Size: 8518308
+MD5sum: 90e987444e848579d89bc29de8065489
+SHA1: 7eb5ef5e0f48ba58d9ebd4792928a216c7d13e90
+SHA256: d1fb6380dafebebcfa64bd185fdee2d29293bc7add275100447947f46def1f90
+SHA512: 285de99c31ea379bb5a1d0147d66ef0ed5c6769c2b15006825ec50171ae7368ff70d430606b5d57fdb7fab80acc31ec414ebb5bae60b18e52e936f4febe26f39
 Description: N/A
-Name: SF Compact Rounded (iOS13)
+Name: SF Compact Rounded (iOS12)
 Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
@@ -225,7 +226,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/xyz.turannul.geogrotesque13.deb
+Filename: ./debians/Fonts/13/Geogrotesque/xyz.turannul.geogrotesque13.deb
 Size: 9941080
 MD5sum: 4723bd8f5988527fbf972ea43bf486f2
 SHA1: 3fb075d6cb9cfce990885338dbb4b7f2000185da
@@ -243,7 +244,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/xyz.turannul.heartheat13.deb
+Filename: ./debians/Fonts/13/Heartbeat/xyz.turannul.heartheat13.deb
 Size: 6678992
 MD5sum: a8c8c3ea5d106fa899552e3301fac21f
 SHA1: 76005f8a70c46d32303835de8d0d7b1395506eaf
@@ -261,7 +262,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/xyz.turannul.modulusprofont13.deb
+Filename: ./debians/Fonts/13/Modulus Pro/xyz.turannul.modulusprofont13.deb
 Size: 8902576
 MD5sum: 0810f4ad8b028110c2076794825f4df9
 SHA1: 50846102a0acaa237272664568dc5ebaed74e317
@@ -280,7 +281,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/xyz.turannul.odin13.deb
+Filename: ./debians/Fonts/13/Odin/xyz.turannul.odin13.deb
 Size: 9256424
 MD5sum: b5fa2eb3e5cf8c712000bd137af74c1f
 SHA1: 873421bbf6aeb4f375dbc82955e0c79f98953d2d
@@ -292,20 +293,20 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
-Package: xyz.turannul.SFcompactrounded14
+Package: xyz.turannul.SFcompactrounded13
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.SFcompactrounded14.deb
-Size: 10016764
-MD5sum: bf0c8f96f32bde4228a26e12d60295c4
-SHA1: 91586bd7e417441f0513e94e4de652fdb293424d
-SHA256: e533e49b26e0105c18b0af1c4bcb0a1a5d522737be5240c842c023a44f45ae60
-SHA512: 27306821de10223e1e3d9bd625171f88be6bcf09ee0f4e4d60bb0196d8c406085126124d34a367dfddd9bc562a76e68289ff760430ad753051d184373fdf169a
+Filename: ./debians/Fonts/13/SFCompactRounded/xyz.turannul.SFcompactrounded13.deb
+Size: 11095308
+MD5sum: ab30123e5a8a69fe162feef106b5d020
+SHA1: 536f1e46dbeff0e9cf15e926ecc0e50af60d16e0
+SHA256: 32671c1ffe09e08e500b9e620157e81c1427fc6ad7b85e1848f6ddf7d6160007
+SHA512: 23801bc04f686c923720d1e48d377b7782dead1defe2a4d8cacac392eb6b4381f214c372c5910c9fde261693ee5fd580853eec73236eff3f66f159c9f6a54339
 Description: N/A
-Name: SF Compact Rounded (iOS14)
+Name: SF Compact Rounded (iOS13)
 Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
@@ -316,7 +317,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.corporativesans14.deb
+Filename: ./debians/Fonts/14/Corporative/xyz.turannul.corporativesans14.deb
 Size: 8352044
 MD5sum: 6851e960f55486f1a160f9ddcf6be469
 SHA1: 39096b6210a0daebc4a2ca8afb2c7f514c712905
@@ -335,7 +336,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.geogrotesque14.deb
+Filename: ./debians/Fonts/14/Geogrotesque/xyz.turannul.geogrotesque14.deb
 Size: 9108772
 MD5sum: cc95197f682afec39f56a27808776c58
 SHA1: 55161dc7119cd14e5a771356f008eb18c98d69b7
@@ -353,7 +354,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.googlesans14.deb
+Filename: ./debians/Fonts/14/Google sans/xyz.turannul.googlesans14.deb
 Size: 7925376
 MD5sum: c3a872ce7f20f244319914fb44e2d2a7
 SHA1: 8adc4fd4b9e8298bc1fad73ca11c190941340583
@@ -372,7 +373,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.modulusprofont14.deb
+Filename: ./debians/Fonts/14/Modulus Pro/xyz.turannul.modulusprofont14.deb
 Size: 8540260
 MD5sum: 83ba0ec26a759403bbe600535c19438c
 SHA1: b3fff78754b8f53114736dbac310aa8f5da6e103
@@ -391,7 +392,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/xyz.turannul.odin14.deb
+Filename: ./debians/Fonts/14/Odin/xyz.turannul.odin14.deb
 Size: 8438744
 MD5sum: b2a4c5863c97de5ede60e92b9f37130c
 SHA1: 5e5b44a949e1b08529b5d3429aaa51d71916e592
@@ -399,6 +400,24 @@ SHA256: c71a8b52f6b1a3be47ac4f887cfed3c7af39c62e276afe02dfe9b304030c153f
 SHA512: ec1749a22e2e55463594de95a0c4201b60094c461c2995657c0af40bca9dac8c4901fa1110f154606bc6945c9d3ff4319c8e5a398ca1390a7e0d11872d3d0612
 Description: N/A
 Name: Odin (iOS14)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.SFcompactrounded14
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/14/SFRoundedCompact/xyz.turannul.SFcompactrounded14.deb
+Size: 10016764
+MD5sum: bf0c8f96f32bde4228a26e12d60295c4
+SHA1: 91586bd7e417441f0513e94e4de652fdb293424d
+SHA256: e533e49b26e0105c18b0af1c4bcb0a1a5d522737be5240c842c023a44f45ae60
+SHA512: 27306821de10223e1e3d9bd625171f88be6bcf09ee0f4e4d60bb0196d8c406085126124d34a367dfddd9bc562a76e68289ff760430ad753051d184373fdf169a
+Description: N/A
+Name: SF Compact Rounded (iOS14)
 Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
