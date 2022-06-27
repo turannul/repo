@@ -754,6 +754,24 @@ Name: Azule
 Author: Alaise
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.azule
+Architecture: iphoneos-arm
+Version: 0.7.1
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: odcctools, bzip2, gzip, zstd, xz-utils, bash, jq, com.level3tjg.insert-dylib, plutil | com.bingner.plutil, ldid, coreutils, zip, unzip, sed, curl, me.alfhaily.opencli, com.linusyang.appinst
+Filename: ./debians/Scripts/Azule/xyz.turannul.azule_0.7.1_iphoneos-arm.deb
+Size: 622288
+MD5sum: 6ee4895267cc32a238252647f480b08c
+SHA1: ebda5639c8c5f75b5b4b26746c9f92b1b5080ff1
+SHA256: e48629521dfd5b1e5535c3a8f74cdee35c79e17123b98370bbd24e6336c69965
+SHA512: 82871ebffc8b6508cebbeb0a468cb5fa614f3beef590838a81c1286d511a488b520143022875ad7c1020be8fea7f6cb4bd83b6a5defcfdcee10e62293b4bc2d1
+Description: A CLI tool that injects tweaks into jailed iOS apps
+Name: Azule
+Author: Alaise
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: com.sudo.debra
 Architecture: iphoneos-arm
 Version: 2.6.2
