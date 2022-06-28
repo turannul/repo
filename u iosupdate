@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+
+if [[ "$EUID" -ne 0 ]]; then
+echo "Run script with root privileges."
+exit
+fi
+
+path=($PWD)
+cd $path
+
+strap=(/.procursus_strapped)
+if test -f "$strap";then 
+#=#=#=#=#=#
+rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
+
+if test ! "$(which apt-ftparchive)"; then
+        apt install apt-utils -y
+fi
+apt-ftparchive packages ./debians > Packages
+apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+
+if test ! "$(which gzip)"; then
+        apt install apt-utils -y
+fi
+gzip -c9 Packages > Packages.gz
+
+if test ! "$(which xz)"; then
+        apt install xz-utils -y
+fi
+xz -c9 Packages > Packages.xz
+
+if test ! "$(which zstd)"; then
+        apt install zstd -y
+fi
+zstd -c19 Packages > Packages.zst
+
+if test ! "$(which bzip2)"; then
+        apt install bzip2 -y
+fi
+bzip2 -c9 Packages > Packages.bz2
+    
+echo "Repository Updated, thanks for using repo.me!"
+
+else 
+
+cd $path
+
+rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
+
+echo "apt-ftparchive compiled by @Diatrus" #credits to Hayden!
+
+wget -nc -q --show-progress https://apt.procurs.us/apt-ftparchive  
+
+chmod 751 ./apt-ftparchive 
+
+./apt-ftparchive packages ./debians > Packages
+
+./apt-ftparchive release -c ./assets/repo/repo.conf . > Release
+    
+echo "apt-ftparchive" >> .lol
+#Check packages 
+if test ! "$(which gzip)"; then
+        apt install gzip -y
+fi
+gzip -c9 Packages > Packages.gz
+
+if test ! "$(which xz)"; then
+        apt install xz -y
+fi
+xz -c9 Packages > Packages.xz
+
+if test ! "$(which zstd)"; then
+        apt install zstd -y
+fi
+zstd -c19 Packages > Packages.zst
+
+if test ! "$(which bzip2)"; then
+        apt install bzip2 -y
+fi
+bzip2 -c9 Packages > Packages.bz2
+
+echo "Repository Updated, thanks for using repo.me!"
+
+fi;exit

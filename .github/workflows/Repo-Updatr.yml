@@ -1,0 +1,16 @@
+name: Repo-Updatr
+on: [push]
+jobs:
+  Repo-Updatr-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: chmod +x ./updaterepo.sh
+      - run: ./updaterepo.sh
+#You can only edit email,username & message.
+      - run: git config --global user.email "turannul000@gmail.com"
+      - run: git config --global user.name "Turann's bot"
+      - run: git add .
+      - run: git commit -a -m "Packages updated. <Auto Action>"
+      - run: git push
