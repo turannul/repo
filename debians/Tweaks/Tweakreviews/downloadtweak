@@ -1,4 +1,0 @@
-path=$(pwd)
-cd $path
-rm *.deb
-apt-get download com.pixelomer.tweakreviews-db -y --allow-unauthenticated
