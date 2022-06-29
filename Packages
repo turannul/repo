@@ -860,7 +860,7 @@ Section: Tweaks
 Maintainer: level3tjg
 Installed-Size: 352
 Depends: mobilesubstrate, preferenceloader, firmware (>=13.0)
-Filename: ./debians/Tweaks/AirPodsGlyph/com.level3tjg.airpodsglyph_1.4.1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/AirPods glyph/com.level3tjg.airpodsglyph_1.4.1_iphoneos-arm.deb
 Size: 24342
 MD5sum: 8f43a5eb39da1f5f8fb390a0c4eb9207
 SHA1: ceb914eec59036356074d0d5e1a6e7a0f7f3c80a
@@ -871,26 +871,6 @@ Name: AirPodsGlyph
 Depiction: https://level3tjg.me/repo/depictions/?p=com.level3tjg.airpodsglyph
 Author: level3tjg
 Icon: https://turannul.github.io/home/resources/airpodsglyph.png
-
-Package: com.rileytestut.altdaemon
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: System
-Maintainer: Riley Testut <support@altstore.io>
-Installed-Size: 2560
-Depends: firmware (>= 12.2)
-Filename: ./debians/Tweaks/AltDeamon/com.rileytestut.altdaemon_1.0.1_iphoneos-arm.deb
-Size: 834024
-MD5sum: 166f796ae4fc518d6aa933eb26af8fd5
-SHA1: 9305eced6fc9299c4265aaef1271ecff52645f41
-SHA256: 4f6b3ae69a12d237296ef95e45d041542e2f9335b08f3c12e680fdae11a78be2
-SHA512: 3b4552944be920c9ed690e894f5fc3d58f9db7de9dbdbb0065d6575917de9c5bca0cce59c2e62ccbc684bfc2c8bc1b31ba3710b62bd237e872be45413c06c458
-Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Tag: compatible_min::ios12.2
-Name: AltDaemon
-Author: Riley Testut <support@altstore.io>
-Icon: https://turannul.github.io/home/resources/altstore.png
-Depiction: https://chariz.com/get/altdaemon
 
 Package: com.mtac.aperture
 Architecture: iphoneos-arm
@@ -923,7 +903,7 @@ Section: Tweaks
 Maintainer: Fouad Raheb <support@fouadraheb.com>
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts:
-Filename: ./debians/Tweaks/AppData/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
+Filename: ./debians/Tweaks/App data/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
 Size: 151924
 MD5sum: 0bb796339255cfb47cf8adf89a73d963
 SHA1: 5eac8a662da3c32a2c2d64ad2011425931eb5157
@@ -962,7 +942,7 @@ Version: 4.5-4
 Section: Tweaks
 Maintainer: Enkidu
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debians/Tweaks/AppsHack/com.firepo.hmodeis.apphack_4.5-4_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Apps hacks/com.firepo.hmodeis.apphack_4.5-4_iphoneos-arm.deb
 Size: 3087512
 MD5sum: a51e2cef62a13fb3ef7aa0d4a2dcc852
 SHA1: 8d485f6727758881b43e3ace5164b9a657a30af4
@@ -1022,7 +1002,7 @@ Maintainer: dpkg_
 Installed-Size: 280
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.creaturesurvive.libcscolorpicker
 Conflicts: com.dpkg.batterypercent12, com.dpkg.batterypercenta12, com.dpkg.arkrome
-Filename: ./debians/Tweaks/ArkromePro/com.dpkg.arkromepro_1.0.17_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Arkrome pro/com.dpkg.arkromepro_1.0.17_iphoneos-arm.deb
 Size: 42716
 MD5sum: 301dc2a4b776f5d645fe4960a71be192
 SHA1: 6d4ef8819b7ea98e2ff11f0c1b3c7e6de889da7f
@@ -1056,7 +1036,7 @@ Section: Tweaks
 Maintainer: shiftcmdk
 Installed-Size: 424
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/AutoAlerts/com.shiftcmdk.autoalerts_1.0.2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Auto Alerts/com.shiftcmdk.autoalerts_1.0.2_iphoneos-arm.deb
 Size: 94838
 MD5sum: d556d574f45cd7228be7df4f07b19f68
 SHA1: 361359344f8fb8e257c2824da8c51f74b4f84b45
@@ -1068,24 +1048,24 @@ Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.autoalerts
 Icon: https://turannul.github.io/home/resources/tweak.png
 
-Package: com.udevs.compactbatteryavocado
+Package: com.udevs.bakgrunnur
 Architecture: iphoneos-arm
-Version: 2.0.6
+Version: 1.7.11
 Section: Tweaks
 Maintainer: udevs
-Installed-Size: 456
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debians/Tweaks/AvacadoBattery/com.udevs.compactbatteryavocado_2.0.6.deb
-Size: 151756
-MD5sum: a6e7c5776b9e40e5da7a9f347aae2296
-SHA1: e6999033969fbdef0db94d7d5084ce81a8e333ed
-SHA256: 4e7cb82fcfa07fa78d26c55145ec178b5d2c824dcd3499e37edb1d1a50026edc
-SHA512: 0a3515508d1d5fcfb5d07b5f70fe31f2071bdb1a2c2cd8321975bdb63e60cb76010b0ea860e1520a23362156b933f37c33d0c1798c6e5cf636095ef6b41ee96b
-Description: Show battery percentage on 2x2 battery widget
-Name: CompactBatteryAvocado
+Installed-Size: 1404
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.opa334.ccsupport, com.opa334.altlist, com.udevs.vexillarius | firmware(<<14.0)
+Filename: ./debians/Tweaks/Backgrunnur/com.udevs.bakgrunnur_1.7.11_iphoneos-arm.deb
+Size: 260342
+MD5sum: cc234c511448deec4b9a2cd10b9a9f10
+SHA1: caf3efbae61d2b33392d508c5adef337716f60a3
+SHA256: 573fd8f88a03d0e34045ad0d533c5782d4953f678ab28a4c57d94e3527d2ff16
+SHA512: 3d56d3bfd65f26ee64696e8d80bcfacc0db5185e7725fddc545919af9eb29d8e03ee020d5b09d8437e6dc39e438d1909b4415e75c0d88f869d949f1e690cee0c
+Description: Truly backgrounding your apps
+Name: Bakgrunnur
 Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.bakgrunnur/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.bakgrunnur
 
 Package: xyz.turannul.backupaz4
 Architecture: iphoneos-arm
@@ -1093,7 +1073,7 @@ Version: 2.0
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Depends: firmware (>= 12.0), coreutils-bin, dpkg, shell-cmds
-Filename: ./debians/Tweaks/BackupAZ-IV/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
+Filename: ./debians/Tweaks/BackupAZ 4/xyz.turannul.backupaz4_2.0_iphoneos-arm.deb
 Size: 13294560
 MD5sum: 37cd47a57b1e15bff87cd9e2e34e80bb
 SHA1: ff71bea93c7f2546cd39cb2b626993188061264b
@@ -1105,6 +1085,25 @@ Author: SynnyG
 Depiction: N/A
 SileoDepiction: N/A
 Icon: https://turannul.github.io/home/resources/backupaz4.png
+
+Package: com.udevs.compactbatteryavocado
+Architecture: iphoneos-arm
+Version: 2.0.6
+Section: Tweaks
+Maintainer: udevs
+Installed-Size: 456
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: ./debians/Tweaks/Battery Avocado/com.udevs.compactbatteryavocado_2.0.6.deb
+Size: 151756
+MD5sum: a6e7c5776b9e40e5da7a9f347aae2296
+SHA1: e6999033969fbdef0db94d7d5084ce81a8e333ed
+SHA256: 4e7cb82fcfa07fa78d26c55145ec178b5d2c824dcd3499e37edb1d1a50026edc
+SHA512: 0a3515508d1d5fcfb5d07b5f70fe31f2071bdb1a2c2cd8321975bdb63e60cb76010b0ea860e1520a23362156b933f37c33d0c1798c6e5cf636095ef6b41ee96b
+Description: Show battery percentage on 2x2 battery widget
+Name: CompactBatteryAvocado
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
 
 Package: com.udevs.battsafepro
 Architecture: iphoneos-arm
@@ -1126,6 +1125,25 @@ Author: udevs
 Icon: https://turannul.github.io/home/resources/battsafepro.png
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.battsafepro
 
+Package: com.blakeboxberger.bazzi2
+Architecture: iphoneos-arm
+Version: 2.0.8
+Section: Tweaks
+Maintainer: turannul
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap
+Conflicts: com.neinzedd9.bazzi, com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
+Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
+Filename: ./debians/Tweaks/Bazzi 2/com.blakeboxberger.bazzi2_2.0.8_iphoneos-arm.deb
+Size: 85854
+MD5sum: 0a252cfcd7c425708b779ad4d22e69ec
+SHA1: 395cbaebc324136a2d55fe952a51965074a8ca2e
+SHA256: 672750a8c28d2773562dacbd3bcd86faf66696c1fd1afc1f1e5c8b4b961f458d
+SHA512: 7fac9bc35729377f07ca60d37133949791e52b042bb4f44d71e6800106f4fcfa91a72d171531a3fc28994ea24cf8c7a4e1225c02d3e7ee6fed6e6ff37fed284c
+Description: The ultimate battery icon customizer, modernized!
+Name: Bazzi 2
+Author: Blake Boxberger
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: com.neinzedd9.bazzi
 Architecture: iphoneos-arm
 Version: 2.0.6+1
@@ -1142,25 +1160,6 @@ SHA256: fe214e7fe1e85decda4a754658003172b93202df688ed7710dd74e232e3db0af
 SHA512: 54c453cbb4790cbc6e814c6787b7dcb9eb4d085c58521acdf2629a0ff05ecdb7c573eeca791b5b17b6b5a16f54c38215ae1e63c0073bfbe7ad4d821849b2fccb
 Description: The ultimate iPhone X battery icon customizer tweak.
 Name: Bazzi
-Author: Blake Boxberger
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: com.blakeboxberger.bazzi2
-Architecture: iphoneos-arm
-Version: 2.0.8
-Section: Tweaks
-Maintainer: turannul
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.rpetrich.rocketbootstrap
-Conflicts: com.neinzedd9.bazzi, com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
-Replaces: com.neinzedd9.percentagebatteryx, com.neinzedd9.percentagecirclex
-Filename: ./debians/Tweaks/Bazzi2/com.blakeboxberger.bazzi2_2.0.8_iphoneos-arm.deb
-Size: 85854
-MD5sum: 0a252cfcd7c425708b779ad4d22e69ec
-SHA1: 395cbaebc324136a2d55fe952a51965074a8ca2e
-SHA256: 672750a8c28d2773562dacbd3bcd86faf66696c1fd1afc1f1e5c8b4b961f458d
-SHA512: 7fac9bc35729377f07ca60d37133949791e52b042bb4f44d71e6800106f4fcfa91a72d171531a3fc28994ea24cf8c7a4e1225c02d3e7ee6fed6e6ff37fed284c
-Description: The ultimate battery icon customizer, modernized!
-Name: Bazzi 2
 Author: Blake Boxberger
 Icon: https://turannul.github.io/home/resources/tweak.png
 
@@ -1185,6 +1184,44 @@ Description: Customize your Control Center!
 Name: BetterCC
 Author: Miguelaka95 <miguelaka95@gmail.com>
 Icon: https://turannul.github.io/home/resources/bettercc.png
+
+Package: com.level3tjg.bfdecrypt
+Architecture: iphoneos-arm
+Version: 1.3.3-1
+Section: System
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Installed-Size: 560
+Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
+Filename: ./debians/Tweaks/Bfdecrypt /com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
+Size: 68624
+MD5sum: 5666c6c7fcb18d9f811d67807c7ee267
+SHA1: cecc1223233eaba29ff58d2305abf7f8e8373bed
+SHA256: 5d130d88fc8afefa1e7ee6ae4616918104f6e1131b7423eab0fb1d727c505476
+SHA512: b0f5112ea2616d02e83a77716adc96db0d4ba7006fccb320576aab10aac7f2628029ca45c9e4e93e64f148d9b4d4b27a4b5d272443acf1efe92b0982ef4c91f8
+Description: Works with iOS 11-14 All Jailbreak(s).
+Name: bfdecrypt
+Author: level3tjg <tjaygrantham@gmail.com>
+Icon: https://turannul.github.io/home/resources/bfdecrypt.png
+
+Package: com.nrkvv.blankicons
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Utilities
+Maintainer: m156nrkvv
+Installed-Size: 824
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: ./debians/Tweaks/Blank Icons/com.nrkvv.blankicons_0.1.1.deb
+Size: 71394
+MD5sum: 1f074e06313df44883a114c9d4f84651
+SHA1: ac20a8611c5157efb5561d08dbfda3bd816badaa
+SHA256: a3156a9ce5244ec61b4c8a792554867f4400191e9847c975e732cc3da2adc1b0
+SHA512: b54d2006eaf926a005da93433180c0b36f83bb70250fb6de749a07fdc513f79e8a43adce44b880766d4f2ee74f168537524c31e0797621aae14cd29e04e372f3
+Homepage: http://twitter.com/m156nrkvv
+Description: Create Blank Icons !!
+Tag: compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: BlankIcons
+Author: m156nrkvv
+Icon: file:///Library/PreferenceBundles/BlankIconsPrefs.bundle/BlankIcons@2x.png
 
 Package: ai.paisseon.cccalc
 Architecture: iphoneos-arm
@@ -1231,7 +1268,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 915
 Depends: firmware (>= 10.0)
 Conflicts: ru.domo.cocoatop
-Filename: ./debians/Tweaks/CocoaTop-x64/ru.domo.cocoatop64_2.2.3_iphoneos-arm.deb
+Filename: ./debians/Tweaks/CocoaTop/ru.domo.cocoatop64_2.2.3_iphoneos-arm.deb
 Size: 229848
 MD5sum: 02c1d2787e96b576af79a7d39401b76c
 SHA1: 78262be5be7cb2c5dd4dfc54c5366f4f52638e4d
@@ -1256,7 +1293,7 @@ Installed-Size: 560
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
-Filename: ./debians/Tweaks/ColorBadges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Color Badges/com.golddavid.colorbadges-new_1.5.0_iphoneos-arm.deb
 Size: 83366
 MD5sum: 47a2d397042c777fd0b71d961e8ccf37
 SHA1: d3a8bccd45a6468bd02eafda2008bcabef157846
@@ -1292,7 +1329,7 @@ Version: 4.0~beta10a
 Section: Tweaks
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Tweaks/CrackTool4/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
+Filename: ./debians/Tweaks/CrackTool 4/com.julioverne.cracktool4_4.0~beta10a_iphoneos-arm.deb
 Size: 1930304
 MD5sum: 90d09949cfe358d8e16681287ea6f82a
 SHA1: 18f0a115fa0692aada8c462d58c82f6f471ab33e
@@ -1311,7 +1348,7 @@ Version: 4.0~beta10b
 Section: Tweaks
 Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: ./debians/Tweaks/CrackTool4/com.julioverne.cracktool4_4.0~beta10b_iphoneos-arm.deb
+Filename: ./debians/Tweaks/CrackTool 4/com.julioverne.cracktool4_4.0~beta10b_iphoneos-arm.deb
 Size: 1954800
 MD5sum: 5b36858a9b8bd2344fd5c34f863f0998
 SHA1: 3d3236836b9f3c64eeb1b072035b6b9fd84a63be
@@ -1360,26 +1397,6 @@ Author: Julioverne & CyPwn
 SileoDepiction: https://paisseon.github.io/info/cydown.json
 Depiction: https://paisseon.github.io/info/cydown.html
 Icon: https://turannul.github.io/home/resources/cydown.png
-
-Package: xyz.turannul.diskprobe
-Architecture: iphoneos-arm
-Version: 1.0.8
-Section: 🏴‍☠️ Tweak
-Maintainer: turannul
-Conflicts: com.creaturecoding.diskprobe
-Filename: ./debians/Tweaks/DiskProbe/xyz.turannul.diskprobe_1.0.8_iphoneos-arm.deb
-Size: 4975776
-MD5sum: 1ac3d6e135ab98d6b6ae357665d53242
-SHA1: 9b63d3457ff84ebe92979eeca73d35e6d344a588
-SHA256: b74602ad6a4d900b6c6c73cc78da495743595452cee62edfae99a7fc27c8f3f2
-SHA512: 935c7872a9b8e5ee6daa5472a9793e0738076d769c1d318db0425a96821e1965c1208dcd089927507fd272bdba01ad3984ef7be51842c4d984434c815600d264
-Homepage: https://creaturecoding.com/index.html?page=depiction&id=diskprobe
-Description: A simple file browser designed to help you find the large storage hogging files and folders on your device and free up storage.
-Name: DiskProbe
-Author: CreatureSurvive
-Sileodepiction: N/A
-Depiction: N/A
-Icon: https://turannul.github.io/home/resources/diskprobe.png
 
 Package: com.sugiuta.dr4w
 Architecture: iphoneos-arm
@@ -1464,7 +1481,7 @@ Version: 0.0.3r4
 Section: Tweaks
 Maintainer: Turan <t.me/TuranUl>
 Depends: mobilesubstrate,applist,org.thebigboss.libcolorpicker
-Filename: ./debians/Tweaks/FPSindicator/xyz.turannul.unityfpsindicator_0.0.3r4_iphoneos-arm.deb
+Filename: ./debians/Tweaks/FPS Indicator/xyz.turannul.unityfpsindicator_0.0.3r4_iphoneos-arm.deb
 Size: 115398
 MD5sum: 1173ed23968375eadc20f85be9e1ca71
 SHA1: 7f2934ff76f6f8f89dfa2ae8a31fe66f5616fc70
@@ -1482,7 +1499,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 623
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debians/Tweaks/FakeModel/netskao.fakemodel_1.1-3_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Fake Model/netskao.fakemodel_1.1-3_iphoneos-arm.deb
 Size: 182492
 MD5sum: 3afd4f8768d9a7b7b358cafb79a5cb90
 SHA1: e9068a705dcc5333aeaebe6af069fde79746824c
@@ -1523,7 +1540,7 @@ Section: Tweaks
 Maintainer: 4nni3 <4nni3.14@gmail.com>
 Installed-Size: 140
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/FiveColumnCC/com.4nni3.fivecolumnscc_1.0~beta3_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Five Column CC/com.4nni3.fivecolumnscc_1.0~beta3_iphoneos-arm.deb
 Size: 7976
 MD5sum: 24eb245aea16cfed0f99b627f6923587
 SHA1: b67a123bb753fbd28c48a47cc24b8fd900590865
@@ -1541,7 +1558,7 @@ Section: Tweaks
 Maintainer: ichitaso
 Installed-Size: 352
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
-Filename: ./debians/Tweaks/Hideserial/com.ichitaso.hideserialnumber_0.0.2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Hide Serial Number/com.ichitaso.hideserialnumber_0.0.2_iphoneos-arm.deb
 Size: 71288
 MD5sum: 27d8e2b1ab553ab413ae8f4c119f44c4
 SHA1: 95c3eff09b3cf48d76140485b925f58b0883f165
@@ -1566,7 +1583,7 @@ Installed-Size: 0
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: sed, grep, coreutils
 Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.thireus.untrustedhostsblocker9, com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockermega, com.reddestdream.minimalhostsblocker, com.sukarodo.notavoke, com.ceadd.blockyou12, com.nathanaccidentally.systemhostsblocker, com.thireus.untrustedhostsblockermegaipv4, com.ichitaso.removeadstoggle, com.ichitaso.removeads, com.spinward.hostsfileflipswitch, com.clezz.restorehosts, ro.iphonews.adblock, com.rishanan.hostadblocker, miktr.switch.adblocker, miktr.switch.adblocker2, com.nathanaccidentally.mdnsflush
-Filename: ./debians/Tweaks/HostsCleaner/HostsCleaner_1.4.1-1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Hosts Cleaner/HostsCleaner_1.4.1-1_iphoneos-arm.deb
 Size: 2716
 MD5sum: 3c0cc3e7ccc110fc5ae634b640fe5db4
 SHA1: 1d426e992e8e6095232471cf8ace516ced8e1b03
@@ -1713,7 +1730,7 @@ Priority: none
 Section: Tweaks
 Maintainer: turannul
 Depends:
-Filename: ./debians/Tweaks/LimneosHack/xyz.turannul.limneoshaxx_0.0.1~beta_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Limneos hack/xyz.turannul.limneoshaxx_0.0.1~beta_iphoneos-arm.deb
 Size: 26766
 MD5sum: a2b2d1de6085ebde8e202e16d3e4c56f
 SHA1: 87c42737eaba67b9238db303529869afb00d9d40
@@ -2219,6 +2236,48 @@ Author: julioverne
 Icon: https://turannul.github.io/home/resources/ntspeed.png
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.ntspeed
 
+Package: com.brend0n.nopassafterrespringsafe
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/No Password Respring/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm.deb
+Size: 11162
+MD5sum: 4840f44f29446e3f3c02c48e825aedc1
+SHA1: 40ed91f60dd5c0f366b508f5b83e61b2e6c23812
+SHA256: 81b60ee301a8cf85de5edd7a74d0ed3ef60e3816e1d3c1205ad5a362d1dc71fb
+SHA512: dbf66c54d1a7166eab36e595ab2a96a6b62a5f20991ad5f137306cbfbec19912ddb8f14212edb3207bd73eb73cd9468649bd53927d914c52b4a2cefad070807e
+Description: Disables passcode after a respring.
+Name: NoPassAfterRespring (Safe)
+Author: Brend0n <brendonjkding@126.com>
+Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
+SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
+Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: xyz.turannul.nopassafterresprings
+Architecture: iphoneos-arm
+Version: 0.0.1
+Section: Tweaks
+Maintainer: turannul
+Conflicts: com.brend0n.nopassafterrespringsafe
+Filename: ./debians/Tweaks/No Password Respring/xyz.turannul.nopassafterresprings_0.0.1_iphoneos-arm.deb
+Size: 1250
+MD5sum: 59b948cbd7fb2999c7a4ca2a2a81d282
+SHA1: d5cd6c797d551a46017293fb8d02d601e543c12d
+SHA256: f654a889038bbe97512658050baf36bf4be8fcac97c5a30eef171b1248e26ca4
+SHA512: 270032afc05a6ed285ef8a5835b49ba3df8da33e975e855a0be6035a14cddfd8442b8d3e3367683fff551a57077f7c24f9298b47fa55f701987228c7d8941208
+Description: Prevent your phone from locking after respring.
+ %100 Safe | Does not make changes to system files
+ This is not a tweak so it doesn't affect  battery.
+Author: turannul
+Name: Don't lock (Safe)
+Depiction: Prevent your phone from locking after respring.
+ %100 Safe | Does not make changes to system files
+ This is not a tweak so it doesn't affect  battery.
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: com.devvix.nocshare
 Architecture: iphoneos-arm
 Version: 1.1.1
@@ -2241,26 +2300,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nocshareDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Devvix <jamie@devvix.com>
 dev: devvix
-Icon: https://turannul.github.io/home/resources/tweak.png
-
-Package: com.brend0n.nopassafterrespringsafe
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: Tweaks
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 200
-Depends: mobilesubstrate
-Filename: ./debians/Tweaks/NoPasswordRespring/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm.deb
-Size: 11162
-MD5sum: 4840f44f29446e3f3c02c48e825aedc1
-SHA1: 40ed91f60dd5c0f366b508f5b83e61b2e6c23812
-SHA256: 81b60ee301a8cf85de5edd7a74d0ed3ef60e3816e1d3c1205ad5a362d1dc71fb
-SHA512: dbf66c54d1a7166eab36e595ab2a96a6b62a5f20991ad5f137306cbfbec19912ddb8f14212edb3207bd73eb73cd9468649bd53927d914c52b4a2cefad070807e
-Description: Disables passcode after a respring.
-Name: NoPassAfterRespring (Safe)
-Author: Brend0n <brendonjkding@126.com>
-Depiction: https://brendonjkding.github.io/depictions/web/?p=com.brend0n.nopassafterrespringsafe
-SileoDepiction: https://brendonjkding.github.io/depictions/native/com.brend0n.nopassafterrespringsafe/depiction.json
 Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: com.ichitaso.nonceset143
@@ -2356,7 +2395,7 @@ Version: 1.2
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker, com.spark.libsparkapplist
-Filename: ./debians/Tweaks/PencilBanner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Pencil banner/xyz.turannul.pencilbanner_1.2_iphoneos-arm.deb
 Size: 395250
 MD5sum: 8c56bd8f87361cae47443669f77ffa21
 SHA1: 1cbeea663aaec3647137c29c7fef732814637b66
@@ -2376,7 +2415,7 @@ Section: Tweaks
 Maintainer: shepgoba
 Installed-Size: 104
 Depends: mobilesubstrate
-Filename: ./debians/Tweaks/PhotoInfo/com.shepgoba.photoinfo_1.0_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Photo Info/com.shepgoba.photoinfo_1.0_iphoneos-arm.deb
 Size: 3964
 MD5sum: ea7984805f51e6aab594d130602411fd
 SHA1: a3535e439cd2a70f9c0b065918415b22762339ef
@@ -2417,7 +2456,7 @@ Maintainer: c1d3r <c1d3rdev@gmail.com>
 Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
 Conflicts:
 Replaces:
-Filename: ./debians/Tweaks/PulloverPro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Pullover pro/com.c1d3r.PullOverPro_2.1.1_iphoneos-arm.deb
 Size: 743332
 MD5sum: 0760555f92f8eeb4f5539a0a5e98e290
 SHA1: 82f0a9c2bd22efd7dfb62d6ca96e96dcea100d23
@@ -2438,7 +2477,7 @@ Version: 1.0-2
 Section: 🏴‍☠️ Tweak
 Maintainer: turannul
 Depends: firmware (>= 14.0)
-Filename: ./debians/Tweaks/RelocateMe/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Relocate me/xyz.turannul.relocateme_1.0-2_iphoneos-arm.deb
 Size: 437134
 MD5sum: c783f6f07c0719fe5957843d693524f7
 SHA1: 073f8f8d0991b6d6ad1c49950bca9cc9596e5461
@@ -2449,27 +2488,6 @@ Name: RelocateMe
 Author: MidnightChips
 Icon: https://turannul.github.io/home/resources/relocateme.png
 Depiction: https://chariz.com/buy/relocate-me
-
-Package: com.ichitaso.spenabler
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: System
-Maintainer: ichitaso
-Installed-Size: 0
-Depends: firmware (>= 11.0)
-Filename: ./debians/Tweaks/SPenabler/com.ichitaso.spenabler_1.0.1_iphoneos-arm.deb
-Size: 10300
-MD5sum: 9106d201a71b21f4cd568293771a9d47
-SHA1: 87c27f8dd3d63c7ab1f754986566f3acde77fcf6
-SHA256: 073782976d37efb5cdc8bdf50d6ad99296838df09902df08e91f99781123d414
-SHA512: b2e4933faafaa223362c698d8e7d92c4b18e554e575e44b604dcfb580fe59bb3088a38368c5bceffae2763b591980b1984a89bbdcd0f7a97429c2b997a7b96b1
-Homepage: https://ichitaso.com/
-Description: Enable Supervised Mode
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
-Author: ichitaso
-Name: SupervisedEnabler
-Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
-dev: ichitaso
 
 Package: ai.paisseon.satella12
 Architecture: iphoneos-arm
@@ -2542,7 +2560,7 @@ Section: Tweaks
 Maintainer: itsjafer <itsjafer@gmail.com>
 Installed-Size: 284
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: ./debians/Tweaks/ShutupShortcuts/com.itsjafer.stopshortcutsnotifications_1.0.0_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Shutup shortcuts/com.itsjafer.stopshortcutsnotifications_1.0.0_iphoneos-arm.deb
 Size: 9846
 MD5sum: 91e2f3559a6e042f6a04365fb7701ee8
 SHA1: 51f9cb6d7d9f2581aa387e4799fef9a4b6bfc3d1
@@ -2631,7 +2649,7 @@ Maintainer: Jonathan Winger-lang
 Installed-Size: 1840
 Depends: mobilesubstrate, firmware(>=12.1)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2
-Filename: ./debians/Tweaks/Snapper2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Snapper 2/com.jontelang.snapper2.packix_2.5.12_iphoneos-arm.deb
 Size: 531004
 MD5sum: 7d9c839cf0db21705baffccf23884d7d
 SHA1: caa398813d35f3f2fafe20a1505d6c4fbee949b5
@@ -2925,6 +2943,27 @@ Author: julioverne
 Depiction: N/A
 Icon: https://turannul.github.io/home/resources/spotilife.png
 
+Package: com.ichitaso.spenabler
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: System
+Maintainer: ichitaso
+Installed-Size: 0
+Depends: firmware (>= 11.0)
+Filename: ./debians/Tweaks/Supervise enabler /com.ichitaso.spenabler_1.0.1_iphoneos-arm.deb
+Size: 10300
+MD5sum: 9106d201a71b21f4cd568293771a9d47
+SHA1: 87c27f8dd3d63c7ab1f754986566f3acde77fcf6
+SHA256: 073782976d37efb5cdc8bdf50d6ad99296838df09902df08e91f99781123d414
+SHA512: b2e4933faafaa223362c698d8e7d92c4b18e554e575e44b604dcfb580fe59bb3088a38368c5bceffae2763b591980b1984a89bbdcd0f7a97429c2b997a7b96b1
+Homepage: https://ichitaso.com/
+Description: Enable Supervised Mode
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Author: ichitaso
+Name: SupervisedEnabler
+Depiction: https://cydia.ichitaso.com/depiction/spenabler.html
+dev: ichitaso
+
 Package: xyz.canpng.tetherme8
 Architecture: iphoneos-arm
 Version: 2.0.3
@@ -2966,6 +3005,24 @@ Author: Sam Bingner
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
 Icon: https:/turannul.github.io/home/resources/tetherme.png
 
+Package: com.yourepo.bluemaster.uselessdaemonbegone
+Architecture: iphoneos-arm
+Version: 0.2.2
+Section: Tweaks
+Maintainer: cloudblower <congthinh1210@icloud.com>
+Pre-Depends: firmware (>= 10)
+Depends: firmware (>= 10.0)
+Conflicts: com.unloadvsd, com.killvsd, com.unloadvsd2, com.exvsd, com.byevsd, com.unloadatd, com.unloadapd, com.unloadnano, com.unloaduad, com.unloadtipsd, com.unloadschpa, com.unloadwbd, com.dpkg.cappd
+Filename: ./debians/Tweaks/Useless daemon be gone/com.yourepo.bluemaster.uselessdaemonbegone_0.2.2.deb
+Size: 1678
+MD5sum: a8c8e627dd304c75a94215cd75a6e801
+SHA1: 1407257d99c0dc25b48b3726f33951e3bf6985d1
+SHA256: 63ea028013193818c60d596e24e13eeefe9a964e9a531ec6f9c245c182a16cae
+SHA512: 916efde201dd385d8bc66f97ec52cb98ca96bb3fccc29c45a4302de5ab2715d2adb8efb12b6ff867661c8fe127e8e04eb9423ebac3d747a126a522530886f554
+Description: UselessDaemonBeGone unload more than 21 unuseful system daemons, which makes battery life greater and improves performance.
+Name: UselessDaemonBeGone
+Author: cloudblower <congthinh1210@icloud.com>
+
 Package: com.udevs.vpnindicator
 Architecture: iphoneos-arm
 Version: 1.1.5
@@ -2973,7 +3030,7 @@ Section: Tweaks
 Maintainer: udevs
 Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000), com.creaturesurvive.libcscolorpicker
-Filename: ./debians/Tweaks/VPNIndicator/com.udevs.vpnindicator_1.1.5_iphoneos-arm.deb
+Filename: ./debians/Tweaks/VPN Indicator/com.udevs.vpnindicator_1.1.5_iphoneos-arm.deb
 Size: 76352
 MD5sum: 6bed4c3fcb978241d4c621a30a04b2ad
 SHA1: a4516eed16f9af099edee91c1a74ffcc1fe45b97
@@ -3051,7 +3108,7 @@ Section: Tweaks
 Maintainer: Skitty
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debians/Tweaks/WallpaperLoader/wallpaperloader_1.1.1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Wallpaper Loader/wallpaperloader_1.1.1_iphoneos-arm.deb
 Size: 11644
 MD5sum: 0d2ec14a603503f9689b469e6008513e
 SHA1: 621a92f632f802a77f1805fb1d96f96822399f4d
@@ -3070,7 +3127,7 @@ Section: Tweaks
 Maintainer: rainwolf <rainwolf@submanifold.be>
 Installed-Size: 432
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debians/Tweaks/Weatherlock13/be.submanifold.weatherlock13_0.0.1-62+debug_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Weather lock 13/be.submanifold.weatherlock13_0.0.1-62+debug_iphoneos-arm.deb
 Size: 45262
 MD5sum: 65841c7df7c3be043162cd4b7fb64b8e
 SHA1: 23819c47406eaed38f5b10cad8ea744212ba46b2
@@ -3104,7 +3161,7 @@ Version: 1.0.0
 Section: Tweaks
 Maintainer: Itay
 Installed-Size: 1128
-Filename: ./debians/Tweaks/WiFi-List/com.itaysoft.wifilist_1.0.0_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Wi-Fi List/com.itaysoft.wifilist_1.0.0_iphoneos-arm.deb
 Size: 903316
 MD5sum: e512f4d33ff79130275d207f7f893b7c
 SHA1: 138294cacb8dfd28ed76cee34aec09e02b2a3541
@@ -3159,24 +3216,6 @@ Name: Zetsu
 Author: Dcsyhi
 icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
-
-Package: com.level3tjg.bfdecrypt
-Architecture: iphoneos-arm
-Version: 1.3.3-1
-Section: System
-Maintainer: level3tjg <tjaygrantham@gmail.com>
-Installed-Size: 560
-Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
-Filename: ./debians/Tweaks/bfdecrypt/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
-Size: 68624
-MD5sum: 5666c6c7fcb18d9f811d67807c7ee267
-SHA1: cecc1223233eaba29ff58d2305abf7f8e8373bed
-SHA256: 5d130d88fc8afefa1e7ee6ae4616918104f6e1131b7423eab0fb1d727c505476
-SHA512: b0f5112ea2616d02e83a77716adc96db0d4ba7006fccb320576aab10aac7f2628029ca45c9e4e93e64f148d9b4d4b27a4b5d272443acf1efe92b0982ef4c91f8
-Description: Works with iOS 11-14 All Jailbreak(s).
-Name: bfdecrypt
-Author: level3tjg <tjaygrantham@gmail.com>
-Icon: https://turannul.github.io/home/resources/bfdecrypt.png
 
 Package: com.dgh0st.flexall
 Architecture: iphoneos-arm
@@ -3300,24 +3339,6 @@ Author: biD3V
 Depiction: https://bid3v.github.io/repo/depictions/uki.html
 Icon: https://bid3v.github.io/repo/icons/uki.png
 Sileodepiction: https://bid3v.github.io/repo/depictions/sileo/uki.json
-
-Package: com.yourepo.bluemaster.uselessdaemonbegone
-Architecture: iphoneos-arm
-Version: 0.2.2
-Section: Tweaks
-Maintainer: cloudblower <congthinh1210@icloud.com>
-Pre-Depends: firmware (>= 10)
-Depends: firmware (>= 10.0)
-Conflicts: com.unloadvsd, com.killvsd, com.unloadvsd2, com.exvsd, com.byevsd, com.unloadatd, com.unloadapd, com.unloadnano, com.unloaduad, com.unloadtipsd, com.unloadschpa, com.unloadwbd, com.dpkg.cappd
-Filename: ./debians/Tweaks/uselessdaemonbegone/com.yourepo.bluemaster.uselessdaemonbegone_0.2.2.deb
-Size: 1678
-MD5sum: a8c8e627dd304c75a94215cd75a6e801
-SHA1: 1407257d99c0dc25b48b3726f33951e3bf6985d1
-SHA256: 63ea028013193818c60d596e24e13eeefe9a964e9a531ec6f9c245c182a16cae
-SHA512: 916efde201dd385d8bc66f97ec52cb98ca96bb3fccc29c45a4302de5ab2715d2adb8efb12b6ff867661c8fe127e8e04eb9423ebac3d747a126a522530886f554
-Description: UselessDaemonBeGone unload more than 21 unuseful system daemons, which makes battery life greater and improves performance.
-Name: UselessDaemonBeGone
-Author: cloudblower <congthinh1210@icloud.com>
 
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm
