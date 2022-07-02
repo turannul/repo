@@ -2278,6 +2278,28 @@ Depiction: Prevent your phone from locking after respring.
  This is not a tweak so it doesn't affect  battery.
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.nopassafterresprings
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: turannul
+Conflicts: com.brend0n.nopassafterrespringsafe
+Filename: ./debians/Tweaks/No Password Respring/xyz.turannul.nopassafterresprings_0.0.2_iphoneos-arm.deb
+Size: 1004
+MD5sum: 6f142379a53468a556ab30c11257868d
+SHA1: 7fef87810e47dbd8b4c653870542730ff9558b2a
+SHA256: 382a855fe018743c9b0b6459c05bf047fbcf8b3d92f6836a758076caf7a6c560
+SHA512: ad4bc2d02c56b89feb94aa81ef877585509550c1e5a1bfe5b2a15c9361d204bc50e669ef7284401e36e8e938a91ee4078597022c23bf8cf67ee24d34c4f2e64b
+Description: Prevent your phone from locking after respring.
+ %100 Safe | Does not make changes to system files
+ This is not a tweak so it doesn't affect  battery.
+Author: turannul
+Name: Don't lock (Safe)
+Depiction: Prevent your phone from locking after respring.
+ %100 Safe | Does not make changes to system files
+ This is not a tweak so it doesn't affect  battery.
+Icon: https://turannul.github.io/home/resources/tweak.png
+
 Package: com.devvix.nocshare
 Architecture: iphoneos-arm
 Version: 1.1.1
@@ -2497,7 +2519,7 @@ Maintainer: Paisseon
 Installed-Size: 100
 Depends: firmware (>= 12.0), firmware (<= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella/Satella-(iOS12)/ai.paisseon.satella12_2.8_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Satella (iOS12)/ai.paisseon.satella12_2.8_iphoneos-arm.deb
 Size: 31094
 MD5sum: d0171270c2bdce2b03cddf02a81458a6
 SHA1: c8a38fc8a81cc404f228be3189ff4a422089920b
@@ -2518,7 +2540,7 @@ Maintainer: Paisseon
 Installed-Size: 332
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Replaces: ai.paisseon.satella12
-Filename: ./debians/Tweaks/Satella/Satella-1/ai.paisseon.satella_2.8.1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Satella 1/ai.paisseon.satella_2.8.1_iphoneos-arm.deb
 Size: 65306
 MD5sum: 995458804b10cdaa19d599d9bc874817
 SHA1: 51981d2e3a43fa2005f7a94f65e54bf01fc5f569
@@ -2540,7 +2562,7 @@ Maintainer: Paisseon
 Installed-Size: 656
 Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
 Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella/Satella-2/emt.paisseon.satella_1.2_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Satella 2/emt.paisseon.satella_1.2_iphoneos-arm.deb
 Size: 81460
 MD5sum: 63e80e05fe325654b28259ddbccafb57
 SHA1: feac1414879a27eed42f602d6cad4335632b3813
@@ -2562,7 +2584,7 @@ Maintainer: Paisseon
 Installed-Size: 552
 Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
 Conflicts: ai.paisseon.satella
-Filename: ./debians/Tweaks/Satella/Satella-2/emt.paisseon.satella_1.3_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Satella 2/emt.paisseon.satella_1.3_iphoneos-arm.deb
 Size: 76694
 MD5sum: d7391afada1e912aa516a13a96423b5d
 SHA1: 81003e346dc9474fd5541c3390387b6dfa703c85
