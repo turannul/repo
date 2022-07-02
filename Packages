@@ -3428,6 +3428,62 @@ Name: vnodebypass
 Author: XsF1re
 Icon: https://turannul.github.io/home/resources/vnode.png
 
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm
+Version: 0.2.7
+Section: System
+Maintainer: ichitaso
+Installed-Size: 256
+Filename: ./debians/Tweaks/vnode/kr.xsf1re.vnodebypass_0.2.7_iphoneos-arm.deb
+Size: 58732
+MD5sum: 6f1a8528300e8071af84c309ed0d9cbf
+SHA1: 248c30c3d0fa185e684821dc566829e3a120c3b6
+SHA256: 9302fad26e5a315ebd132be5024c418d4ff2df2544f9b32bf73f9bdb1839744c
+SHA512: 300fbab07ae9b71ac9b057e62487bfb1dd5642eec6a22611dbfa853a656f117570256949206d467a0f2f723f0533884144dc0837120efdea3e1552243f87f9ea
+Description: An expermental tool to hide jailbreak files for bypass detection.
+Tag: role::hacker
+Name: vnodebypass
+Author: XsF1re
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm
+Version: 0.2.8
+Section: System
+Maintainer: ichitaso
+Installed-Size: 256
+Depends: firmware (>= 12.0)
+Filename: ./debians/Tweaks/vnode/kr.xsf1re.vnodebypass_0.2.8_iphoneos-arm.deb
+Size: 58774
+MD5sum: a9f4f4cec912c87d991f77759c729d38
+SHA1: b6ed2119eed04d8281a042d81b51bb27c3f2515d
+SHA256: b01876e0ade8576d07cde80191f43fe731cc3a54c824c583c7815609be15b257
+SHA512: 24419409af9b1eb76530dd4ab262ec13674cb715e3e84771e84262f25b2920be7e538701e0161387978e8559ef160b46bb175f1756bfacb3c1b88404537ed86f
+Description: An expermental tool to hide jailbreak files for bypass detection.
+Tag: role::hacker, compatible::ios12, compatible::ios13, compatible::ios14
+Author: XsF1re
+Name: vnodebypass
+Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm
+Version: 0.2.9
+Section: System
+Maintainer: ichitaso
+Installed-Size: 256
+Depends: firmware (>= 12.0)
+Filename: ./debians/Tweaks/vnode/kr.xsf1re.vnodebypass_0.2.9_iphoneos-arm.deb
+Size: 58776
+MD5sum: e6e01b9ce91f9be55e3639310e879035
+SHA1: 434adff3d8505c111c516261188453cd491a07fd
+SHA256: 3289385053fa4ec80688c286dee3efff89b90c3ff7000a8a50d8fa4dbc7980aa
+SHA512: 3622889fc2cbb11022a1094b956715eb5ece9b487d373f9f9a56e2e62f29d527cb118def272fb38c48b5bba7e8e16a828a80e5f38e5e3d3d3b2ac2db196cef94
+Description: An expermental tool to hide jailbreak files for bypass detection.
+Tag: role::hacker, compatible::ios12, compatible::ios13, compatible::ios14
+Author: XsF1re
+Name: vnodebypass
+Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+
 Package: xyz.turannul.firewatch
 Architecture: iphoneos-arm
 Version: 1.0
