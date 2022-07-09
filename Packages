@@ -3850,6 +3850,28 @@ Author: Muirey03 <tommy.muir@btinternet.com>
 dev: muirey03
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
 
+Package: com.modmyi.libswift4
+Architecture: iphoneos-arm
+Version: 4.2.1-2
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 170711
+Depends: firmware (>= 7.0)
+Filename: ./debians/zStuff/libswift4_4.2.1-2.deb
+Size: 18773744
+MD5sum: 0e9aed2309f4121b8beb3a9ebe2b8e6b
+SHA1: ec5f1cd478c8b2dc0a8232a86233458da65e4450
+SHA256: 1175b9f29d2959e41989f75bce90166a3f6e49729e0deb7f71c5a48530771711
+SHA512: 73eb0cd18846a27ed32dcf41b3a5354cbd50e7c31a4fed00e69010e7d4f815a5485efef24892b06c8dbd0dad9d1636f8a6db5ade028c8caf26f97644c890c12f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+Description: libswift dylibs for iOS
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Name: libswift4
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: kabiroberai
+
 Package: me.alfhaily.opencli
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -3885,4 +3907,26 @@ Description: A library for that allows developers to use an iOS 13-style appeara
 Tag: role::developer
 Name: libappearancecell
 Author: ConorTheDev <conorthedev@gmail.com>
+
+Package: com.kabiroberai.swift-toolchain
+Architecture: iphoneos-arm
+Version: 4.0.3-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 689520
+Depends: firmware (>= 7.0), cy+cpu.arm64, com.modmyi.libswift4 (>= 4.0.3)
+Filename: ./debians/zStuff/swift-toolchain_4.0.3-1.deb
+Size: 89838722
+MD5sum: 148b667a1abea5f2551d42b204ac94ef
+SHA1: a1f6525aa870dbd2c8e2e7c61dcf3c61acde5d4f
+SHA256: c4fd872ef1d25d32466bbb85680b3be3eec8b9b6c5e97446d7ad2301b58a5e10
+SHA512: 80792d0edc9e1bd299e214500b7e81ec6916622b2cbd4c2f43e53ddaa51d353cecda2a7bafe61c26b2cb75ea36e6f5f09d15f7f93ac466f5889c6c0d67a1426c
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swifttoolchainDp
+Description: Swift toolchain cross-compiled for iOS
+Tag: purpose::console, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Name: swift-toolchain
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swifttoolchainDp
+Author: Kabir Oberai <support@kabiroberai.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: kabiroberai
 
