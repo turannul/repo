@@ -1,23 +1,44 @@
 Package: xyz.turannul.altstore
 Architecture: iphoneos-arm
 Version: 1.4.9
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
 Filename: ./debians/Apps/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
-Size: 3655948
-MD5sum: ede4cb1de71ff8c8f80b090754d7e198
-SHA1: 038a171c4f92b1b03d28cdb1511d388965da69c7
-SHA256: 71cc2f0532e9f5c41e5db6f92e3029ccf1acdd79c60488aea3728beadb3ff37a
-SHA512: 2f0deb7056228d2e27458ee4602c950ba728128c8f4cc0e096a3784e96e6cdd2e5a9692f8d9dcacc39eefbfdac68daa139f144c151ca34c1002f1f45cd398b59
+Size: 3654628
+MD5sum: 4b5146ee13abdd08b068c43ed0e70d9e
+SHA1: fa2ce08afb232f0853fc56ffac9ddadaaa357121
+SHA256: d94e9c1764f19e10b8ac24374710657992b074089bd20ed4816d8f38ed85b17e
+SHA512: 1cc60f8bf024d176ef1d162c8b9628fd33ea3b71a9ce14149acda6439af2e00e7e01c6a108b38875dd2d12837c6eb1379545e72a566d3a586c1dc82f8a846c5a
 Homepage: https://altstore.io/
 Description: Patreon features active.
 Author: Riley Testut
 Name: AltStore++
 Depiction: Patreon features active.
 Icon: https://turannul.github.io/home/resources/altstore.png
+
+Package: xyz.turannul.altstore
+Architecture: iphoneos-arm
+Version: 1.5
+Section: Applications
+Maintainer: turannul
+Depends: firmware (>= 12.2)
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
+Replaces: com.ichitaso.altstore, com.trappledestek.altstore
+Filename: ./debians/Apps/AltStore/xyz.turannul.altstore_1.5_iphoneos-arm.deb
+Size: 3701672
+MD5sum: 5fa850ebb4bae60a515989eac6176ab2
+SHA1: 6a84adbeac1404db994f27970133cacc940e2643
+SHA256: 7f7f0cdb3fa79bfc92a93bf85a36bce427931f43424a59874a03ad89ae099602
+SHA512: f369156274bbaa93ced981ede9fb7cfeabf36d78c8aa9155381c00a31fd512ef735bacc010a477a5a26324fb0db5cc4ad507b0ad18592746f384e99db4f9c119
+Homepage: https://altstore.io/
+Description: Patreon features active & resigned with Linus Henze's CoreTrust bypass so it doesn't expire.
+Name: AltStore
+Author: Riley Testut
+Icon: https://turannul.github.io/home/resources/altstore.png
+Tags: compatible_min::ios12.2
 
 Package: Appcake
 Architecture: iphoneos-arm
@@ -92,6 +113,60 @@ Name: Flappy Bird
 Author: Brandon Plank, Thatcher Clough
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.1.deb
+Size: 1690588
+MD5sum: dc27976b45e7300f44b3ff13b899195a
+SHA1: f12830c4fdefde6876932f9747087b3766ccff2f
+SHA256: b67144599ea5f066c02959ad9d981d25d04e7e504e6c456fc2756ad65703cf6c
+SHA512: ff4f31f45cba9b21aa637fea82f6bc6f004933b65e3751833ac55ba2e272a1d262be8fd0de470256ff06f2305ca8c01e700f85433001639de0872cf96c47e73a
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.2
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.2.deb
+Size: 1770992
+MD5sum: 2629499d037404628070f25328538629
+SHA1: f7bd532fffe5b4768bc5af7b8cbd5c874388a40d
+SHA256: d2eaf48a6f34b69e0a7786d1aa20627f91c1e97e7aa763febf1796b3bd8f4a8b
+SHA512: 1687821b05ee2d42b978491077ab17cef8f29b70544b7d4bf7fb6c8bc5bf44e9e9d18fcca3f62216317c33bae7e55fd5ffbb042956883ce0284d6b37034c14c9
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.3
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.3.deb
+Size: 1771012
+MD5sum: 7901439b41eb8a0be219588d6bea2b40
+SHA1: 6c5b2859e842ca47c8b87e66b5025f8137be68cf
+SHA256: 4e03fa038cfa0adb9eca28b8821c6dec8d36df231bc5181e17fc8b2f1b0ca2f4
+SHA512: 639fff2809f5586f6f9f1da8e253f07735edce4f7c51ec0fd3afaadaef7e8f2f12dc5d7cf9f297f11a115a42b7d0dc44c186ca538c6f2ad6c4440ba59d1c282c
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
 
 Package: StreamerApp
 Architecture: iphoneos-arm
