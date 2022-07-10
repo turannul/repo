@@ -168,6 +168,60 @@ Name: permasigneriOS
 Author: Powen <powen0966091716@gmail.com>
 depiction: https://github.com/powenn/permasigneriOS
 
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.4
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.4.deb
+Size: 1772120
+MD5sum: 06124a02369434822d5b6125f43f4de2
+SHA1: 8a60a8f1593efa087eb7c7f239d549706bf9c4db
+SHA256: c984e85093a53034a5b61eff599275ca98b13f572cdb025b9f36f7d72da0fc36
+SHA512: f46fc8a3a7fd8e3ed3589f1465b93c4372db8203264e103c90b534c2f5dd24837878349b19b0338c87bf66408bd963133fdc8282a116352d1c074084e6747b60
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.5
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.5.deb
+Size: 1770336
+MD5sum: 941d98cf08da1f09bc25ff55d8ceaa75
+SHA1: e7f0962f32822b5efd05874b764aaa32bd588e67
+SHA256: 4701fcb5d9772a2d310bb4ccea2d1c7e818f17125563b01382293c496e72973a
+SHA512: 1c96e285cfebb3579782f5a67b674c1017fe7375f0465bd33b61005e2d4bc93b5c56263ac7445ab491059cd26f9a6cdd6b97ae42d1423a8fa1754be157de58bf
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.6
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.6.deb
+Size: 1770636
+MD5sum: a30ae37c5917eb1bde46c6de5d574d41
+SHA1: f3fb3e8fa6c9ca7a569ea7e1cf1470f84c85a06b
+SHA256: 09117ef1199566e43378b41a589f4b540a298697290c522c9a5f55aa2a016356
+SHA512: b564f2b4695f4e0d48ad1b7403a8736806a118758971c6ec023f239a78436a9572359546a657962f2b74b46946077560a2c6668420c7267eb3472fe102208f00
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
 Package: StreamerApp
 Architecture: iphoneos-arm
 Version: 1.1.9
