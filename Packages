@@ -2202,12 +2202,12 @@ Section: Litten-Archive
 Maintainer: Litten
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0), com.opa334.ccsupport
 Filename: ./debians/Tweaks/Litten-Archive/Puck/love.litten.puck_2.0.3_iphoneos-arm.deb
-Size: 1824106
-MD5sum: 45582ea26ffb3d9ecfaecdc046b0f013
-SHA1: 0dd0155761f727817cee4e1f1946b7b321956c51
-SHA256: 0e8ff0d1a46ee6d39f733dec8d5cb895e1a1584dd71b2c68b914c905acf28a3e
-SHA512: db5c0a1ad6084b9311669907d2cb3e7d59d72540142b3a19e83bd95ca00b30b2fe94cd10f881cfdd88e97b330ef77b66b9daa3dca2a4d8a42a5f0762361970ff
-Description: Pil bitmesine unc0ver için imza beklemeye SON! (Benim favorilerimden)
+Size: 1773344
+MD5sum: fe84f02c0513aa9e47abe54c8aee23ab
+SHA1: 2df25c1d98bf212b4576d7910be7f613a2f9baec
+SHA256: e5adebe3e622f797f37d03ab897d8a48331f87ecd927b62e5956018d9798bc9d
+SHA512: 5cd7f643230d84e3b47291cb90ced4a17a268d75cdb8390f036682c955956edcbc32e8e23600d12861640a40b30b36a7218233b2990714a9cd3bcac94078d86b
+Description: N/A Use Reverie Instead.
 Name: Puck 🔮
 Author: Litten
 Depiction: N/A
@@ -2639,6 +2639,26 @@ Name: RelocateMe
 Author: MidnightChips
 Icon: https://turannul.github.io/home/resources/relocateme.png
 Depiction: https://chariz.com/buy/relocate-me
+
+Package: ai.paisseon.reverie
+Architecture: iphoneos-arm
+Version: 2.7.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 660
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/Tweaks/Reverie/ai.paisseon.reverie_2.7.2_iphoneos-arm.deb
+Size: 71416
+MD5sum: c9d04dc85bc210044dce0616e4cf2ed0
+SHA1: 6468d7e14bdb1851b536fe54d291aa7f594409b6
+SHA256: c4a17fd2be3025887463c6066649eec2b58f1a3d60ed75bb6319fb92352f1e0f
+SHA512: 73058a5ca09907280ff150a22b1d7006c16379b7ee5bef627367d71a0e50e8ba08ed1ea8f193ef4a1fd3a3a3b0b340f9e0d026e604343e66da8ef7238f8e9c78
+Description: Hibernate when your battery gets low
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/reverie.png
+SileoDepiction: https://paisseon.github.io/depictions/reverie.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
 Package: ai.paisseon.satella12
 Architecture: iphoneos-arm
