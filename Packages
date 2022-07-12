@@ -222,6 +222,24 @@ Name: permasigneriOS
 Author: Powen <powen0966091716@gmail.com>
 depiction: https://github.com/powenn/permasigneriOS
 
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.7
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.7.deb
+Size: 1771176
+MD5sum: d166ad10edd009d10f67708dfe1326fa
+SHA1: 050eda4a033042736f6955d39ea57051e9821af7
+SHA256: 0d89be912da928573dffdd644ca3d6a6d787488454d8f61321a8a44dc38a27ac
+SHA512: 6444d7cb3706b87372f5caf99b92b666a109d2076eb478081e095cde17b80644cdbd9a6dcfeea0411db2103fd5b4a729b8897295ae46d877f120d0703bbfeaef
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
 Package: StreamerApp
 Architecture: iphoneos-arm
 Version: 1.1.9
