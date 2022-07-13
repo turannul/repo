@@ -5,7 +5,7 @@ deb https://getzbra.com/repo/ ./
 deb https://repo.packix.com/ ./
 deb https://repo.chariz.com/ ./
 deb https://turannul.github.io/repo/ ./
-deb https://canpng.github.io/repo/ ./
+deb https://burakexell.github.io/repo/ ./
 deb https://www.yourepo.com/ ./
 deb https://cydia.akemi.ai/ ./
 deb http://limneos.net/repo/ ./
