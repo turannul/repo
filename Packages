@@ -43,15 +43,15 @@ Tags: compatible_min::ios12.2
 Package: Appcake
 Architecture: iphoneos-arm
 Version: 7.2.2
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Apps/Appcake/Appcake_7.2.2_iphoneos-arm.deb
-Size: 13422692
-MD5sum: 88d76b95a165e824f2dc15b2517b5f9a
-SHA1: 8f7b18cde4445a13660d26a578cfc3127865f106
-SHA256: 7caa5329e9a16617ba84a7b12d6511fcf1c8cfc3572b28b0a310d70f8c4e085c
-SHA512: cdf6a3000511a751e4f4c296c9c0167830d3b8f848fd012269f55c3a273ab4fb3eb78c6e10b2801d7eba1647ae9e11799791f3ad03375f9d8eff513f6818aedc
+Size: 13422708
+MD5sum: a1836b1b68ea26ce64c2b90ce99b6f22
+SHA1: 152d26e3aaca75e50a4273c52e3b050994d4b063
+SHA256: bc38ddae515ca4f3a47d114b06ad02f94e2acf6e9d6511f4c1501676d9702751
+SHA512: 0de4e62bd2255be6a1f841fef1a22f34af4948d0de3733b2c77ff521dee5059fb68696c71f2bba4d327d6b525b9635059b3cd4da1bdf333f9cf1ea47277b5aca
 Description: iPhone / iPad için ücretsiz iPA Mağazası. AppSync Repo: https://cydia.akemi.ai/
 Name: Appcake
 Author: iPA Store
@@ -62,15 +62,15 @@ Icon: https://turannul.github.io/home/resources/appcake.png
 Package: Appdb
 Architecture: iphoneos-arm
 Version: 1.1.3
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified
 Filename: ./debians/Apps/Appdb/Appdb_1.1.3_iphoneos-arm.deb
-Size: 16140652
-MD5sum: 5507735bbb99357a71e5ec1770fe4135
-SHA1: ea0f7f7321d34528e49279fb35f9a4d14fc7018a
-SHA256: d133982181191f6a4079ba74c26c48774cab6c3b08f92f62dfad1f98c3010ec8
-SHA512: 9cce6f6a38e1378981bfb77d2041a04b01f337539eafeb667944941d2e49dbcff5625f0acff52975c02d57b9d6bde497099a6270890d2319f2d6b8fde01e3032
+Size: 16132036
+MD5sum: c8853733f5a8c40c268115b6e76b4696
+SHA1: 370a66f4b41d27f91edf5558600409f86c78a33f
+SHA256: 3acce331e889cf100bbb41c69263568bf2703962543d9066d4fca8be2c599d5b
+SHA512: 2d080d62489449728d2203ed616c7c3b71c5cc598fc0b037bffadd1a4a14d06bcd9e5d67ae3c0c1c728e1620fad435628053185dd2f85b8334583ff9962a87f0
 Description: Appdb
 Depiction: N/A
 SileoDepiction: N/A
@@ -80,19 +80,20 @@ Icon: https://turannul.github.io/home/resources/appdb.png
 
 Package: E-Sign
 Architecture: iphoneos-arm
-Version: 4.4.9
-Section: Apps
-Maintainer: turannul
-Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/E-Sign/E-Sign_4.4.9_iphoneos-arm.deb
-Size: 6348328
-MD5sum: 84ecad18eaa471b3ad07ecfdacebf007
-SHA1: e60e9846110f1bce6433e5645dc2f43f5f2b546a
-SHA256: e862d33622a4c223c7423abe148d988e80e971fd56ffc5b2bca27cfe9d4760ba
-SHA512: 54f55993c65ea463a75b52e9b174352e345e3aeda92f384a20da163bc2949c4bb09af5ce77640fe916209b9bab42771c153d7b9f784977d5bbadf394d034b8ca
-Description: On-device app signing tool. AppSync Repo: https://cydia.akemi.ai/
+Version: 4.5.1
+Section: Applications
+Maintainer: xyz
+Depends: firmware (>=10.0)
+Filename: ./debians/Apps/E-Sign/ESign_4.5.1.deb
+Size: 5069900
+MD5sum: 95d9f0babea10fe7ef0469509daf29d6
+SHA1: 4e5f8ab0bda5dba3a6dfbec97ef7c75dc0bc8fae
+SHA256: 3c7ac34e86dc28f8eac87d854480642b4ff14d1875a292e8e912f6d267740e4c
+SHA512: 82f176dde73cf60eca4bfbd057637984fecaab8182171be350dd022aeab7770483b92391c651e850c4a0027c71a97adafc2138960c4c2d5fa1cd95831ce16b36
+Description: On-device app signing tool, but permasigned.
 Name: Easy Sign (E-Sign)
-Author: yyyue
+Author: xyz
+Tags: compatible_min::ios10.0
 Icon: https://turannul.github.io/home/resources/esign.png
 
 Package: xyz.turanul.flappybird
@@ -114,144 +115,18 @@ Author: Brandon Plank, Thatcher Clough
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.1
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.1.deb
-Size: 1690588
-MD5sum: dc27976b45e7300f44b3ff13b899195a
-SHA1: f12830c4fdefde6876932f9747087b3766ccff2f
-SHA256: b67144599ea5f066c02959ad9d981d25d04e7e504e6c456fc2756ad65703cf6c
-SHA512: ff4f31f45cba9b21aa637fea82f6bc6f004933b65e3751833ac55ba2e272a1d262be8fd0de470256ff06f2305ca8c01e700f85433001639de0872cf96c47e73a
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.2
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.2.deb
-Size: 1770992
-MD5sum: 2629499d037404628070f25328538629
-SHA1: f7bd532fffe5b4768bc5af7b8cbd5c874388a40d
-SHA256: d2eaf48a6f34b69e0a7786d1aa20627f91c1e97e7aa763febf1796b3bd8f4a8b
-SHA512: 1687821b05ee2d42b978491077ab17cef8f29b70544b7d4bf7fb6c8bc5bf44e9e9d18fcca3f62216317c33bae7e55fd5ffbb042956883ce0284d6b37034c14c9
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.3
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.3.deb
-Size: 1771012
-MD5sum: 7901439b41eb8a0be219588d6bea2b40
-SHA1: 6c5b2859e842ca47c8b87e66b5025f8137be68cf
-SHA256: 4e03fa038cfa0adb9eca28b8821c6dec8d36df231bc5181e17fc8b2f1b0ca2f4
-SHA512: 639fff2809f5586f6f9f1da8e253f07735edce4f7c51ec0fd3afaadaef7e8f2f12dc5d7cf9f297f11a115a42b7d0dc44c186ca538c6f2ad6c4440ba59d1c282c
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.4
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.4.deb
-Size: 1772120
-MD5sum: 06124a02369434822d5b6125f43f4de2
-SHA1: 8a60a8f1593efa087eb7c7f239d549706bf9c4db
-SHA256: c984e85093a53034a5b61eff599275ca98b13f572cdb025b9f36f7d72da0fc36
-SHA512: f46fc8a3a7fd8e3ed3589f1465b93c4372db8203264e103c90b534c2f5dd24837878349b19b0338c87bf66408bd963133fdc8282a116352d1c074084e6747b60
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.5
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.5.deb
-Size: 1770336
-MD5sum: 941d98cf08da1f09bc25ff55d8ceaa75
-SHA1: e7f0962f32822b5efd05874b764aaa32bd588e67
-SHA256: 4701fcb5d9772a2d310bb4ccea2d1c7e818f17125563b01382293c496e72973a
-SHA512: 1c96e285cfebb3579782f5a67b674c1017fe7375f0465bd33b61005e2d4bc93b5c56263ac7445ab491059cd26f9a6cdd6b97ae42d1423a8fa1754be157de58bf
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.6
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid , bash
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.6.deb
-Size: 1770636
-MD5sum: a30ae37c5917eb1bde46c6de5d574d41
-SHA1: f3fb3e8fa6c9ca7a569ea7e1cf1470f84c85a06b
-SHA256: 09117ef1199566e43378b41a589f4b540a298697290c522c9a5f55aa2a016356
-SHA512: b564f2b4695f4e0d48ad1b7403a8736806a118758971c6ec023f239a78436a9572359546a657962f2b74b46946077560a2c6668420c7267eb3472fe102208f00
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
-Package: com.powen.permasignerios
-Architecture: iphoneos-arm
-Version: 0.1.7
-Section: Applications
-Maintainer: Powen <powen0966091716@gmail.com>
-Pre-Depends: firmware (>= 14.0)
-Depends: dpkg, ldid , bash
-Filename: ./debians/Apps/PermaSigner/com.powen.permasignerios.0.1.7.deb
-Size: 1771176
-MD5sum: d166ad10edd009d10f67708dfe1326fa
-SHA1: 050eda4a033042736f6955d39ea57051e9821af7
-SHA256: 0d89be912da928573dffdd644ca3d6a6d787488454d8f61321a8a44dc38a27ac
-SHA512: 6444d7cb3706b87372f5caf99b92b666a109d2076eb478081e095cde17b80644cdbd9a6dcfeea0411db2103fd5b4a729b8897295ae46d877f120d0703bbfeaef
-Description: permasigner on iOS
-Name: permasigneriOS
-Author: Powen <powen0966091716@gmail.com>
-depiction: https://github.com/powenn/permasigneriOS
-
 Package: StreamerApp
 Architecture: iphoneos-arm
 Version: 1.1.9
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Apps/Streamer/StreamerApp.deb
-Size: 12849772
-MD5sum: d1ebf676bcfb2bb831ab4a03aa1217a1
-SHA1: 68a8d551c69158383b55f7e52e231b9e8a3be083
-SHA256: 815e7647d341daa0ff05a9f429ddb8a9ed4ca8cfe1018b785f8d562f0dcb5d74
-SHA512: 53bbfdd4117e8cda75b94ab639efe12f75e1bc6b96ae13b945ba6a75fa5af61e6de2a3c6b1ad7338e24d109a1ef6c6fa843cfa212c968be8dbbdb60c71a15495
+Size: 12849460
+MD5sum: 00d5b05e6d7ac5dda7590290ff5d535e
+SHA1: c364a2a9656272073e4f5b03efd1ba0dda3a6484
+SHA256: 694827bab8fb06408a4c1ea28e598b6bd885f39895725af3ad354404622dbcfc
+SHA512: a5d6cc75a6228e6264eb5e9292d341054f631e82ff9959a6ca03c755e78278c77252813173cc45c0a585f2f7abd924c567d842094c80aacc813851eeb5692f6a
 Description: Watch movies on your iDevice. AppSync Repo: https://cydia.akemi.ai/
 Name: Streamer
 Author: StreamerApp
@@ -260,15 +135,15 @@ Icon: https://turannul.github.io/home/resources/streamer.png
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
 Version: 1.5.0.160502
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
 Filename: ./debians/Apps/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
-Size: 6489048
-MD5sum: 6810a15a10267186cd2c1e638889e3d3
-SHA1: 9b003a41b7475f98dd1c4fcd3e6e1c66201459e9
-SHA256: 71b3b34135e5ef57f3c63f93b4dc1706c0fc169b1bbae9b10092264b3c4eab2d
-SHA512: 6fb6380ee4b0fc2c47cf4656123af110d22e60562ce9ecb99ab91fda146408187712010f2ecae2631f71547773f18deafcdb47a736c541cb40d57956dafa8bac
+Size: 6489056
+MD5sum: 4f3fe6b2f84e6d09e3fd679dd59452d7
+SHA1: c56559be75a6a54516f382ce0c2ee11d43d8b559
+SHA256: 642dcf96f13eeb7b9dfb23fe35dc8eccce50fb097c4831129f6113b062c2f99d
+SHA512: 8b2db12bdc858633299348cf3a6bff791813660bf8fbbe8ccbcb4e59c62c3e35468e0432993344b1bea6d2d1168e75b4ad4bf3d60d1429674e96095b5ce548cd
 Homepage: https://zinitevi.github.io/movieapps/
 Description: Dizi ve Filmleri AppSync Repo: https://cydia.akemi.ai/
 Name: ZiniTevi
@@ -278,15 +153,15 @@ Icon: https://turannul.github.io/home/resources/zinitevi.png
 Package: xyz.canpng.istb
 Architecture: iphoneos-arm
 Version: 1.23.7
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
 Filename: ./debians/Apps/iSTB/xyz.canpng.istb_1.23.7_iphoneos-arm.deb
-Size: 37760972
-MD5sum: ddcb7a2bb6ef437182ef67db86a0e488
-SHA1: d37a59b52082438c4962f65a5ad4506d0ea9103f
-SHA256: 93b6179848b38e2bb10217e00809d539a4daf2eecf30c84c7c91ed12a3241676
-SHA512: 8d6d9ea6069050d783bb3504efcc307f29c89b4b83a6e0fd230f85238ebc7e1089211e3ba8b864a1dadfb7a40e98d2422216a3514d103b93a33416e4151a3a16
+Size: 37760984
+MD5sum: 6fb4c82d66fbe89fb26c62b5d1fbdf54
+SHA1: 35d8d366847f1d22adc537f3fecb2a14840727c3
+SHA256: 05bdc630168a1a66f5b4698cd5e9318699e9e87577b3a1eea2fe321b30897539
+SHA512: dcb1f74b129b44c999ec12858d0a15de07e580dbeb52afc980458ce3ae31d53c02e1a85339c51d2bece4e01d3f1343ab53fcad6b6afdce5b6ed7ec12f2dd7227
 Description: iPTV app for iDevices
  AppSync Repo: https://cydia.akemi.ai/
 Name: iSTB
@@ -296,15 +171,15 @@ Icon: https://turannul.github.io/home/resources/istb.png
 Package: iTorrent
 Architecture: iphoneos-arm
 Version: 1.8.3
-Section: Apps
+Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
 Filename: ./debians/Apps/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
-Size: 20166620
-MD5sum: e4131d93d5f27c64ad054e5842ce6c51
-SHA1: fdd9f0c7b93f86251661ccc79a92b4f9df90be40
-SHA256: 314e6378e04f0d5bbacf957d43e7948eece6f673f6dc5403f3950552b6fb2926
-SHA512: 9a560047333c4edb41dff2bb19edaca14e9d0d96c3f25a7baf82bee22e5cb5bc1bd8a79a71c2efcfe8eb053e072f842e0341ff33dc23980c330b24e3420fbaea
+Size: 20166628
+MD5sum: 200ed07619e869e398848de0a3027464
+SHA1: 704f281a339b6d877a2ff318ba7500de72243a0d
+SHA256: 5906b5b9a4c35fcea51762e66f45866a92df610b2b115b38a28bfc4177df8d29
+SHA512: c64acb15911b9ba35fbe8bc0bc29ca3a30e17c7c27cbd7eb1da610859042c8c4ffe10f8da6c55de24162b2d0bf7ee24b34664e246fc0c83dfc792c3af2f57101
 Description: Torrent client for iDevices. AppSync Repo: https://cydia.akemi.ai/
 Name: iTorrent
 Author: XITRIX
@@ -312,140 +187,13 @@ Depiction: https://github.com/XITRIX/iTorrent
 SileoDepiction: https://github.com/XITRIX/iTorrent
 Icon: https://turannul.github.io/home/resources/itorrent.png
 
-Package: xyz.turannul.heartheat12
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/12/Hearthbeat/xyz.turannul.heartheat12.deb
-Size: 6941840
-MD5sum: d94c71102568d0abf27164c83bbff2be
-SHA1: 124a7519041e5fd5bbbf991de783635212c97a5f
-SHA256: 0a23db3177f844de778c0e748aa29aa4620f89a35032d215bd7d251912658236
-SHA512: 24a1a98771cbe6282c022e23fb35b0140df3cc86959f39ba5703b04f8d122ca32eab1487d79e061626ff189c41999db010fbd6842ce5fdba9b9956c412685343
-Description: N/A
-Name: Heartheat (iOS12)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.SFcompactrounded12
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/12/SFCompactRounded/xyz.turannul.SFcompactrounded12.deb
-Size: 8518308
-MD5sum: 90e987444e848579d89bc29de8065489
-SHA1: 7eb5ef5e0f48ba58d9ebd4792928a216c7d13e90
-SHA256: d1fb6380dafebebcfa64bd185fdee2d29293bc7add275100447947f46def1f90
-SHA512: 285de99c31ea379bb5a1d0147d66ef0ed5c6769c2b15006825ec50171ae7368ff70d430606b5d57fdb7fab80acc31ec414ebb5bae60b18e52e936f4febe26f39
-Description: N/A
-Name: SF Compact Rounded (iOS12)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.geogrotesque13
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/Geogrotesque/xyz.turannul.geogrotesque13.deb
-Size: 9941080
-MD5sum: 4723bd8f5988527fbf972ea43bf486f2
-SHA1: 3fb075d6cb9cfce990885338dbb4b7f2000185da
-SHA256: 9c95bfed2208e60e7a6dc9e1ea8540e524ffd6872c9360a4cb895d2eb3e85aff
-SHA512: 2d1d6c4125b341004c70a06f0035621bccead67a6da270f11e7ca079bb3e8f66d40b7dbcd5f9a6d34cce2e892f68d6a1aff1d71aa220f245b3c29daef2e231f1
-Description: N/A
-Name: Geogrotesque (iOS13)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.heartheat13
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/Heartbeat/xyz.turannul.heartheat13.deb
-Size: 6678992
-MD5sum: a8c8c3ea5d106fa899552e3301fac21f
-SHA1: 76005f8a70c46d32303835de8d0d7b1395506eaf
-SHA256: f9f49f48706cf257e8f436da9d731ff9b06204b8cbc6b3b5666c44fb0811c08f
-SHA512: dc0ac9c01d3ed364c47c1c0988f7495c1fea8483182ea530c8fe564e0e6c62df09e1551c4282ab689f4341529e8c76133b1f16a05d321f323e483564482c745f
-Description: N/A
-Name: Heartheat (iOS13)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.modulusprofont13
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/Modulus Pro/xyz.turannul.modulusprofont13.deb
-Size: 8902576
-MD5sum: 0810f4ad8b028110c2076794825f4df9
-SHA1: 50846102a0acaa237272664568dc5ebaed74e317
-SHA256: 69b5c2a7825b6b0604d2431e2ff3aa35e9c021342b774c570a77935db237fa33
-SHA512: c74a46c64b6163e0c57dbcd08186931e2f04727d898e981ce61e5e540777e9bbf7718c9f00e3d8f4949d17d0fabacbb1ca4d437156600e61a64f7fae70a1812b
-Description: https://mobile.twitter.com/alexman1979/status/1409753777071034370
-Name: Modulus Pro Font (iOS 13)
-Icon: https://turannul.github.io/home/resources/moduluspro.png
-Author: Alexman1979
-Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.modulusprofont14
-SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
-
-Package: xyz.turannul.odin13
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/Odin/xyz.turannul.odin13.deb
-Size: 9256424
-MD5sum: b5fa2eb3e5cf8c712000bd137af74c1f
-SHA1: 873421bbf6aeb4f375dbc82955e0c79f98953d2d
-SHA256: c20c10f4b6b1a229921804832e455d38af00c59229b51b2524df914189b94a96
-SHA512: 2c2d36e6299b61729d963ac2430d580c90b8a2dd46fc01bee5d1e841449474cf51ea4777f1ead9b08c2d2eb4266c454268034a2eac925d35d192ad0ff05d141f
-Description: N/A
-Name: Odin (iOS13)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
-Package: xyz.turannul.SFcompactrounded13
-Architecture: iphoneos-arm
-Version: 1.0
-Section: Fonts
-Maintainer: turannul
-Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/13/SFCompactRounded/xyz.turannul.SFcompactrounded13.deb
-Size: 11095308
-MD5sum: ab30123e5a8a69fe162feef106b5d020
-SHA1: 536f1e46dbeff0e9cf15e926ecc0e50af60d16e0
-SHA256: 32671c1ffe09e08e500b9e620157e81c1427fc6ad7b85e1848f6ddf7d6160007
-SHA512: 23801bc04f686c923720d1e48d377b7782dead1defe2a4d8cacac392eb6b4381f214c372c5910c9fde261693ee5fd580853eec73236eff3f66f159c9f6a54339
-Description: N/A
-Name: SF Compact Rounded (iOS13)
-Author: Alexman1979
-Depiction: N/A
-SileoDepiction: N/A
-
 Package: xyz.turannul.corporativesans14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/Corporative/xyz.turannul.corporativesans14.deb
+Filename: ./debians/Fonts/Corporative-14/xyz.turannul.corporativesans14.deb
 Size: 8352044
 MD5sum: 6851e960f55486f1a160f9ddcf6be469
 SHA1: 39096b6210a0daebc4a2ca8afb2c7f514c712905
@@ -458,13 +206,31 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.geogrotesque13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/Geogrotesque-13/xyz.turannul.geogrotesque13.deb
+Size: 9941080
+MD5sum: 4723bd8f5988527fbf972ea43bf486f2
+SHA1: 3fb075d6cb9cfce990885338dbb4b7f2000185da
+SHA256: 9c95bfed2208e60e7a6dc9e1ea8540e524ffd6872c9360a4cb895d2eb3e85aff
+SHA512: 2d1d6c4125b341004c70a06f0035621bccead67a6da270f11e7ca079bb3e8f66d40b7dbcd5f9a6d34cce2e892f68d6a1aff1d71aa220f245b3c29daef2e231f1
+Description: N/A
+Name: Geogrotesque (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.geogrotesque14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/Geogrotesque/xyz.turannul.geogrotesque14.deb
+Filename: ./debians/Fonts/Geogrotesque-14/xyz.turannul.geogrotesque14.deb
 Size: 9108772
 MD5sum: cc95197f682afec39f56a27808776c58
 SHA1: 55161dc7119cd14e5a771356f008eb18c98d69b7
@@ -482,7 +248,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/Google sans/xyz.turannul.googlesans14.deb
+Filename: ./debians/Fonts/Google sans-14/xyz.turannul.googlesans14.deb
 Size: 7925376
 MD5sum: c3a872ce7f20f244319914fb44e2d2a7
 SHA1: 8adc4fd4b9e8298bc1fad73ca11c190941340583
@@ -495,13 +261,68 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.heartheat12
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/Heartbeat-12/xyz.turannul.heartheat12.deb
+Size: 6941840
+MD5sum: d94c71102568d0abf27164c83bbff2be
+SHA1: 124a7519041e5fd5bbbf991de783635212c97a5f
+SHA256: 0a23db3177f844de778c0e748aa29aa4620f89a35032d215bd7d251912658236
+SHA512: 24a1a98771cbe6282c022e23fb35b0140df3cc86959f39ba5703b04f8d122ca32eab1487d79e061626ff189c41999db010fbd6842ce5fdba9b9956c412685343
+Description: N/A
+Name: Heartheat (iOS12)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.heartheat13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/Heartbeat-13/xyz.turannul.heartheat13.deb
+Size: 6678992
+MD5sum: a8c8c3ea5d106fa899552e3301fac21f
+SHA1: 76005f8a70c46d32303835de8d0d7b1395506eaf
+SHA256: f9f49f48706cf257e8f436da9d731ff9b06204b8cbc6b3b5666c44fb0811c08f
+SHA512: dc0ac9c01d3ed364c47c1c0988f7495c1fea8483182ea530c8fe564e0e6c62df09e1551c4282ab689f4341529e8c76133b1f16a05d321f323e483564482c745f
+Description: N/A
+Name: Heartheat (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.modulusprofont13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/Modulus Pro-13/xyz.turannul.modulusprofont13.deb
+Size: 8902576
+MD5sum: 0810f4ad8b028110c2076794825f4df9
+SHA1: 50846102a0acaa237272664568dc5ebaed74e317
+SHA256: 69b5c2a7825b6b0604d2431e2ff3aa35e9c021342b774c570a77935db237fa33
+SHA512: c74a46c64b6163e0c57dbcd08186931e2f04727d898e981ce61e5e540777e9bbf7718c9f00e3d8f4949d17d0fabacbb1ca4d437156600e61a64f7fae70a1812b
+Description: https://mobile.twitter.com/alexman1979/status/1409753777071034370
+Name: Modulus Pro Font (iOS 13)
+Icon: https://turannul.github.io/home/resources/moduluspro.png
+Author: Alexman1979
+Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.modulusprofont14
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
+
 Package: xyz.turannul.modulusprofont14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/Modulus Pro/xyz.turannul.modulusprofont14.deb
+Filename: ./debians/Fonts/Modulus Pro-14/xyz.turannul.modulusprofont14.deb
 Size: 8540260
 MD5sum: 83ba0ec26a759403bbe600535c19438c
 SHA1: b3fff78754b8f53114736dbac310aa8f5da6e103
@@ -514,13 +335,31 @@ Author: Alexman1979
 Depiction: https://turannul.github.io/repo/depictions/web/?p=xyz.turannul.modulusprofont14
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.modulusprofont14/depiction.json
 
+Package: xyz.turannul.odin13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/Odin-13/xyz.turannul.odin13.deb
+Size: 9256424
+MD5sum: b5fa2eb3e5cf8c712000bd137af74c1f
+SHA1: 873421bbf6aeb4f375dbc82955e0c79f98953d2d
+SHA256: c20c10f4b6b1a229921804832e455d38af00c59229b51b2524df914189b94a96
+SHA512: 2c2d36e6299b61729d963ac2430d580c90b8a2dd46fc01bee5d1e841449474cf51ea4777f1ead9b08c2d2eb4266c454268034a2eac925d35d192ad0ff05d141f
+Description: N/A
+Name: Odin (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.odin14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/Odin/xyz.turannul.odin14.deb
+Filename: ./debians/Fonts/Odin-14/xyz.turannul.odin14.deb
 Size: 8438744
 MD5sum: b2a4c5863c97de5ede60e92b9f37130c
 SHA1: 5e5b44a949e1b08529b5d3429aaa51d71916e592
@@ -532,13 +371,49 @@ Author: Alexman1979
 Depiction: N/A
 SileoDepiction: N/A
 
+Package: xyz.turannul.SFcompactrounded12
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/SFCompactRounded-12/xyz.turannul.SFcompactrounded12.deb
+Size: 8518308
+MD5sum: 90e987444e848579d89bc29de8065489
+SHA1: 7eb5ef5e0f48ba58d9ebd4792928a216c7d13e90
+SHA256: d1fb6380dafebebcfa64bd185fdee2d29293bc7add275100447947f46def1f90
+SHA512: 285de99c31ea379bb5a1d0147d66ef0ed5c6769c2b15006825ec50171ae7368ff70d430606b5d57fdb7fab80acc31ec414ebb5bae60b18e52e936f4febe26f39
+Description: N/A
+Name: SF Compact Rounded (iOS12)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
+Package: xyz.turannul.SFcompactrounded13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Fonts
+Maintainer: turannul
+Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
+Filename: ./debians/Fonts/SFCompactRounded-13/xyz.turannul.SFcompactrounded13.deb
+Size: 11095308
+MD5sum: ab30123e5a8a69fe162feef106b5d020
+SHA1: 536f1e46dbeff0e9cf15e926ecc0e50af60d16e0
+SHA256: 32671c1ffe09e08e500b9e620157e81c1427fc6ad7b85e1848f6ddf7d6160007
+SHA512: 23801bc04f686c923720d1e48d377b7782dead1defe2a4d8cacac392eb6b4381f214c372c5910c9fde261693ee5fd580853eec73236eff3f66f159c9f6a54339
+Description: N/A
+Name: SF Compact Rounded (iOS13)
+Author: Alexman1979
+Depiction: N/A
+SileoDepiction: N/A
+
 Package: xyz.turannul.SFcompactrounded14
 Architecture: iphoneos-arm
 Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/14/SFRoundedCompact/xyz.turannul.SFcompactrounded14.deb
+Filename: ./debians/Fonts/SFRoundedCompact-14/xyz.turannul.SFcompactrounded14.deb
 Size: 10016764
 MD5sum: bf0c8f96f32bde4228a26e12d60295c4
 SHA1: 91586bd7e417441f0513e94e4de652fdb293424d
@@ -881,6 +756,27 @@ Tag: compatible::9.0-14.8
 Name: Zebra
 Author: Zebra Team <team@getzbra.com>
 Icon: https://turannul.github.io/home/resources/zebra.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.28
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14484
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.28_iphoneos-arm.deb
+Size: 8227596
+MD5sum: e568a4355b41a391027b15da9c49ba34
+SHA1: 354cff04d066c696e21f02e77b0b8aee887db242
+SHA256: cbbd9ef444415ac992ae5ed58f4a55d8be4016747990ba0989e36621427e0451
+SHA512: 9f0f3fa4f5a6944b7027722b1836daa34781d7386e4f670690f0273defb1893efeda4a384e8b2d505aa6b22163623269c5237c0814b341b2b6142ed1f76cc255
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
@@ -2577,6 +2473,150 @@ Depiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/
 SileoDepiction: https://repo.twickd.com/get/com.nahtedetihw.pencilbanner/native
 Icon: https://turannul.github.io/home/resources/pencilbanner.jpeg
 
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.1
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.1.deb
+Size: 1690588
+MD5sum: dc27976b45e7300f44b3ff13b899195a
+SHA1: f12830c4fdefde6876932f9747087b3766ccff2f
+SHA256: b67144599ea5f066c02959ad9d981d25d04e7e504e6c456fc2756ad65703cf6c
+SHA512: ff4f31f45cba9b21aa637fea82f6bc6f004933b65e3751833ac55ba2e272a1d262be8fd0de470256ff06f2305ca8c01e700f85433001639de0872cf96c47e73a
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.2
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.2.deb
+Size: 1770992
+MD5sum: 2629499d037404628070f25328538629
+SHA1: f7bd532fffe5b4768bc5af7b8cbd5c874388a40d
+SHA256: d2eaf48a6f34b69e0a7786d1aa20627f91c1e97e7aa763febf1796b3bd8f4a8b
+SHA512: 1687821b05ee2d42b978491077ab17cef8f29b70544b7d4bf7fb6c8bc5bf44e9e9d18fcca3f62216317c33bae7e55fd5ffbb042956883ce0284d6b37034c14c9
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.3
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.3.deb
+Size: 1771012
+MD5sum: 7901439b41eb8a0be219588d6bea2b40
+SHA1: 6c5b2859e842ca47c8b87e66b5025f8137be68cf
+SHA256: 4e03fa038cfa0adb9eca28b8821c6dec8d36df231bc5181e17fc8b2f1b0ca2f4
+SHA512: 639fff2809f5586f6f9f1da8e253f07735edce4f7c51ec0fd3afaadaef7e8f2f12dc5d7cf9f297f11a115a42b7d0dc44c186ca538c6f2ad6c4440ba59d1c282c
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.4
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.4.deb
+Size: 1772120
+MD5sum: 06124a02369434822d5b6125f43f4de2
+SHA1: 8a60a8f1593efa087eb7c7f239d549706bf9c4db
+SHA256: c984e85093a53034a5b61eff599275ca98b13f572cdb025b9f36f7d72da0fc36
+SHA512: f46fc8a3a7fd8e3ed3589f1465b93c4372db8203264e103c90b534c2f5dd24837878349b19b0338c87bf66408bd963133fdc8282a116352d1c074084e6747b60
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.5
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.5.deb
+Size: 1770336
+MD5sum: 941d98cf08da1f09bc25ff55d8ceaa75
+SHA1: e7f0962f32822b5efd05874b764aaa32bd588e67
+SHA256: 4701fcb5d9772a2d310bb4ccea2d1c7e818f17125563b01382293c496e72973a
+SHA512: 1c96e285cfebb3579782f5a67b674c1017fe7375f0465bd33b61005e2d4bc93b5c56263ac7445ab491059cd26f9a6cdd6b97ae42d1423a8fa1754be157de58bf
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.6
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.6.deb
+Size: 1770636
+MD5sum: a30ae37c5917eb1bde46c6de5d574d41
+SHA1: f3fb3e8fa6c9ca7a569ea7e1cf1470f84c85a06b
+SHA256: 09117ef1199566e43378b41a589f4b540a298697290c522c9a5f55aa2a016356
+SHA512: b564f2b4695f4e0d48ad1b7403a8736806a118758971c6ec023f239a78436a9572359546a657962f2b74b46946077560a2c6668420c7267eb3472fe102208f00
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.7
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.7.deb
+Size: 1771176
+MD5sum: d166ad10edd009d10f67708dfe1326fa
+SHA1: 050eda4a033042736f6955d39ea57051e9821af7
+SHA256: 0d89be912da928573dffdd644ca3d6a6d787488454d8f61321a8a44dc38a27ac
+SHA512: 6444d7cb3706b87372f5caf99b92b666a109d2076eb478081e095cde17b80644cdbd9a6dcfeea0411db2103fd5b4a729b8897295ae46d877f120d0703bbfeaef
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.8
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.8.deb
+Size: 2469264
+MD5sum: bdcad00d59478ccce86c5752d2c4cabe
+SHA1: f3618944bb9b394307c9f80df64ae3d1624d9727
+SHA256: 3bae62b987512733b054395f59476abbedef3a38358b42393025849ab91c1ca0
+SHA512: ab0042fdbef4466c18a314ef2f0065ffea67583e312239b04803127fa1aeec40c3a579c94a8f062ee5801a1b946c7d97c2468501e261f4584c2a1f48e030b0ce
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
 Package: com.shepgoba.photoinfo
 Architecture: iphoneos-arm
 Version: 1.0
@@ -3782,29 +3822,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportD
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: opa334
 
-Package: com.cokepokes.libnotifications
-Architecture: iphoneos-arm
-Version: 0.3-5
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 980
-Depends: firmware (>= 8.0)
-Filename: ./debians/zStuff/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
-Size: 163032
-MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
-SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
-SHA256: 922de051826c91762b43d87e829d5d76394d41ed507ce7edb074066b78e4e10a
-SHA512: 215a4d706ce5e9adb422279eecbcb649f718f5572f3740c2fb5ec7d88f20e7ebdd9c8de992611449428a880043282587d6301c2af6ce4c1998e9b3f947e0f64d
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
-Description: App notification library.
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
-Name: libnotifications
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: CokePokes <cokepokes@gmail.com>
-dev: cokepokes
-
 Package: com.kramerapps.jetsamctl
 Architecture: iphoneos-arm
 Version: 0.2
@@ -3977,48 +3994,6 @@ Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
 SileoDepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
 Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 
-Package: dev.theos.orion12
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: Development
-Maintainer: Theos Team <support@theos.dev>
-Installed-Size: 1412
-Provides: dev.theos.orion (= 1.0.0)
-Depends: firmware (>= 12.2), firmware (<< 14.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/zStuff/dev.theos.orion12_1.0.0_iphoneos-arm.deb
-Size: 454406
-MD5sum: faafcff2a1229a721fff850077d1d70e
-SHA1: 992cfd79edb4b0f47773a7f023cfd2c2bd773291
-SHA256: f21ecebaa5b84c7387f9bc7e187e6c63bdd82b907103e9266f1d2affb47f371a
-SHA512: 3ff20070e97a646ed9dd6000c05320d120a45523924dec9302a3bcc25ba710d6fff6e15c50f496878fd516aeedf1cd6410df77150133d6dc9e8e68f9806bd3e3
-Description: Runtime for tweaks built using Orion and Swift
-Tag: role::developer, compatible_min::ios12.2
-Name: Orion (iOS 12-13)
-Author: Theos Team <support@theos.dev>
-Icon: https://cdn.chariz.cloud/icon/orion-runtime12/icon@3x.png
-Depiction: https://chariz.com/get/orion-runtime12
-
-Package: dev.theos.orion14
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: Development
-Maintainer: Theos Team <support@theos.dev>
-Installed-Size: 2560
-Provides: dev.theos.orion (= 1.0.0)
-Depends: firmware (>= 14.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/zStuff/dev.theos.orion14_1.0.0_iphoneos-arm.deb
-Size: 815260
-MD5sum: abf3d993b38c5dc1c0d9c4f97be4ce46
-SHA1: 37310e0daeb117cb5f21f81521e2295c499dc8e6
-SHA256: 0820bd5fed1f3b7c46a270dfc0adf8e73894289b77585fd5812ccb7ebbf8cf05
-SHA512: 714d29484d09457e4181053001a4f2328e69591357e27d6e92b5529f04c8130605f173d07af407ffb18dfc1e5ace92be9d4dfffd03c6e6bdde02b5a9018f48a0
-Description: Runtime for tweaks built using Orion and Swift
-Tag: role::developer, compatible_min::ios14.0
-Name: Orion Runtime (iOS 14)
-Author: Theos Team <support@theos.dev>
-Icon: https://cdn.chariz.cloud/icon/orion-runtime14/icon@3x.png
-Depiction: https://chariz.com/get/orion-runtime14
-
 Package: com.muirey03.libmryipc
 Architecture: iphoneos-arm
 Version: 2.0.1
@@ -4040,6 +4015,29 @@ Name: libMRYIPC
 Author: Muirey03 <tommy.muir@btinternet.com>
 dev: muirey03
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm
+Version: 0.3-5
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 980
+Depends: firmware (>= 8.0)
+Filename: ./debians/zStuff/libnotifications/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
+Size: 163032
+MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
+SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
+SHA256: 922de051826c91762b43d87e829d5d76394d41ed507ce7edb074066b78e4e10a
+SHA512: 215a4d706ce5e9adb422279eecbcb649f718f5572f3740c2fb5ec7d88f20e7ebdd9c8de992611449428a880043282587d6301c2af6ce4c1998e9b3f947e0f64d
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
 
 Package: com.modmyi.libswift4
 Architecture: iphoneos-arm
@@ -4098,6 +4096,48 @@ Description: A library for that allows developers to use an iOS 13-style appeara
 Tag: role::developer
 Name: libappearancecell
 Author: ConorTheDev <conorthedev@gmail.com>
+
+Package: dev.theos.orion12
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Development
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 1412
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 12.2), firmware (<< 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/zStuff/orion/dev.theos.orion12_1.0.0_iphoneos-arm.deb
+Size: 454406
+MD5sum: faafcff2a1229a721fff850077d1d70e
+SHA1: 992cfd79edb4b0f47773a7f023cfd2c2bd773291
+SHA256: f21ecebaa5b84c7387f9bc7e187e6c63bdd82b907103e9266f1d2affb47f371a
+SHA512: 3ff20070e97a646ed9dd6000c05320d120a45523924dec9302a3bcc25ba710d6fff6e15c50f496878fd516aeedf1cd6410df77150133d6dc9e8e68f9806bd3e3
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios12.2
+Name: Orion (iOS 12-13)
+Author: Theos Team <support@theos.dev>
+Icon: https://cdn.chariz.cloud/icon/orion-runtime12/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime12
+
+Package: dev.theos.orion14
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Development
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 2560
+Provides: dev.theos.orion (= 1.0.0)
+Depends: firmware (>= 14.0), firmware (<< 16.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debians/zStuff/orion/dev.theos.orion14_1.0.0_iphoneos-arm.deb
+Size: 815260
+MD5sum: abf3d993b38c5dc1c0d9c4f97be4ce46
+SHA1: 37310e0daeb117cb5f21f81521e2295c499dc8e6
+SHA256: 0820bd5fed1f3b7c46a270dfc0adf8e73894289b77585fd5812ccb7ebbf8cf05
+SHA512: 714d29484d09457e4181053001a4f2328e69591357e27d6e92b5529f04c8130605f173d07af407ffb18dfc1e5ace92be9d4dfffd03c6e6bdde02b5a9018f48a0
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Name: Orion Runtime (iOS 14)
+Author: Theos Team <support@theos.dev>
+Icon: https://cdn.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Depiction: https://chariz.com/get/orion-runtime14
 
 Package: com.kabiroberai.swift-toolchain
 Architecture: iphoneos-arm
