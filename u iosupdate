@@ -1,16 +1,17 @@
 #!/usr/bin/env bash
 
+strap=(/.procursus_strapped)
+path=($PWD)
+
 if [[ "$EUID" -ne 0 ]]; then
 echo "Run script with root privileges."
 exit
 fi
 
-path=($PWD)
 cd $path
-
-strap=(/.procursus_strapped)
+# ============================================================
 if test -f "$strap";then 
-#=#=#=#=#=#
+
 rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
 
 if test ! "$(which apt-ftparchive)"; then
@@ -40,9 +41,9 @@ fi
 bzip2 -c9 Packages > Packages.bz2
     
 echo "Repository Updated, thanks for using repo.me!"
-
+# ============================================================
 else 
-
+# ============================================================
 cd $path
 
 rm {Packages{,.xz,.gz,.bz2,.zst},Release{,.gpg}} 2> /dev/null
@@ -56,9 +57,7 @@ chmod 751 ./apt-ftparchive
 ./apt-ftparchive packages ./debians > Packages
 
 ./apt-ftparchive release -c ./assets/repo/repo.conf . > Release
-    
-echo "apt-ftparchive" >> .lol
-#Check packages 
+
 if test ! "$(which gzip)"; then
         apt install gzip -y
 fi
@@ -81,4 +80,5 @@ bzip2 -c9 Packages > Packages.bz2
 
 echo "Repository Updated, thanks for using repo.me!"
 
-fi;exit
+fi
+exit 0
