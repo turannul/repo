@@ -2493,6 +2493,24 @@ depiction: https://github.com/powenn
 
 Package: com.powen.permasignerios
 Architecture: iphoneos-arm
+Version: 0.1.10
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.10.deb
+Size: 2466068
+MD5sum: 27179d86528de7fef71b5391f9b71dba
+SHA1: 14366d9c23e35a50219c2183b6ef1040c02cb129
+SHA256: 8b05c0ee324c87fcc25b46569c2628fe92a3cae95f3ad285cbedf90a75fafbdd
+SHA512: 76ee46959553650cdadb6a744c79015e2c7257643185985ef5341b297c3670a2aa5e6669ddf77803a31db96b5360cf2363da4ab83f562795ee7bc6d67754c721
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
 Version: 0.1.2
 Section: Applications
 Maintainer: Powen <powen0966091716@gmail.com>
@@ -2612,6 +2630,24 @@ MD5sum: bdcad00d59478ccce86c5752d2c4cabe
 SHA1: f3618944bb9b394307c9f80df64ae3d1624d9727
 SHA256: 3bae62b987512733b054395f59476abbedef3a38358b42393025849ab91c1ca0
 SHA512: ab0042fdbef4466c18a314ef2f0065ffea67583e312239b04803127fa1aeec40c3a579c94a8f062ee5801a1b946c7d97c2468501e261f4584c2a1f48e030b0ce
+Description: permasigner on iOS
+Name: permasigneriOS
+Author: Powen <powen0966091716@gmail.com>
+depiction: https://github.com/powenn/permasigneriOS
+
+Package: com.powen.permasignerios
+Architecture: iphoneos-arm
+Version: 0.1.9
+Section: Applications
+Maintainer: Powen <powen0966091716@gmail.com>
+Pre-Depends: firmware (>= 14.0)
+Depends: dpkg, ldid , bash
+Filename: ./debians/Tweaks/PermaSigner/com.powen.permasignerios.0.1.9.deb
+Size: 2468220
+MD5sum: 81e7a75380d5c8ba5dca066f745c67b7
+SHA1: 524d8ced2ed12c6a51005fc34d7d99a1484f7af5
+SHA256: 5d5f75d15ff5997fa268bd0f061faf249274706a5346d587f7b102faa3dd54c7
+SHA512: e681688ec2fdd45162cc2a342e31a41ab33dcbcd739dfe27fd700ecbb5c84f53ef885f5a95808396483d30646b24323ceb8b8761d06003f12d849752a6e453e5
 Description: permasigner on iOS
 Name: permasigneriOS
 Author: Powen <powen0966091716@gmail.com>
