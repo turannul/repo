@@ -6,7 +6,7 @@ Maintainer: turannul
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Apps/AltStore/xyz.turannul.altstore_1.4.9_iphoneos-arm.deb
+Filename: ./debians/Applications/AltStore/AltStore_1.4.9.deb
 Size: 3654628
 MD5sum: 4b5146ee13abdd08b068c43ed0e70d9e
 SHA1: fa2ce08afb232f0853fc56ffac9ddadaaa357121
@@ -21,13 +21,34 @@ Icon: https://turannul.github.io/home/resources/altstore.png
 
 Package: xyz.turannul.altstore
 Architecture: iphoneos-arm
+Version: 1.5.1
+Section: Applications
+Maintainer: turannul
+Depends: firmware (>= 12.2)
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
+Replaces: com.ichitaso.altstore, com.trappledestek.altstore
+Filename: ./debians/Applications/AltStore/AltStore_1.5.1.deb
+Size: 3705504
+MD5sum: 8813da6a167339667c6ab533600a3bbe
+SHA1: 4a4551e398148ae1da6d3b2fbc1938ae0528dea5
+SHA256: c9e612b2808b221591be3d382163e086c7108b880903de0f831756717079048c
+SHA512: b75c5e2bd9372375c88fd83dd7c5a957fdcfdb494473bd112b52b32f32563b8a7ba1f5d4a55b28c0e3865150140ad4b7d611b35c7ef4197d459ecc1b78235136
+Homepage: https://altstore.io/
+Description: Patreon features active & resigned with Linus Henze's CoreTrust bypass so it doesn't expire.
+Name: AltStore
+Author: Riley Testut
+Icon: https://turannul.github.io/home/resources/altstore.png
+Tags: compatible_min::ios12.2
+
+Package: xyz.turannul.altstore
+Architecture: iphoneos-arm
 Version: 1.5
 Section: Applications
 Maintainer: turannul
 Depends: firmware (>= 12.2)
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
 Replaces: com.ichitaso.altstore, com.trappledestek.altstore
-Filename: ./debians/Apps/AltStore/xyz.turannul.altstore_1.5_iphoneos-arm.deb
+Filename: ./debians/Applications/AltStore/AltStore_1.5.deb
 Size: 3701672
 MD5sum: 5fa850ebb4bae60a515989eac6176ab2
 SHA1: 6a84adbeac1404db994f27970133cacc940e2643
@@ -46,7 +67,7 @@ Version: 7.2.2
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/Appcake/Appcake_7.2.2_iphoneos-arm.deb
+Filename: ./debians/Applications/Appcake/Appcake_7.2.2_iphoneos-arm.deb
 Size: 13422708
 MD5sum: a1836b1b68ea26ce64c2b90ce99b6f22
 SHA1: 152d26e3aaca75e50a4273c52e3b050994d4b063
@@ -65,7 +86,7 @@ Version: 1.1.3
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified
-Filename: ./debians/Apps/Appdb/Appdb_1.1.3_iphoneos-arm.deb
+Filename: ./debians/Applications/Appdb/Appdb_1.1.3_iphoneos-arm.deb
 Size: 16132036
 MD5sum: c8853733f5a8c40c268115b6e76b4696
 SHA1: 370a66f4b41d27f91edf5558600409f86c78a33f
@@ -84,7 +105,7 @@ Version: 4.5.1
 Section: Applications
 Maintainer: xyz
 Depends: firmware (>=10.0)
-Filename: ./debians/Apps/E-Sign/ESign_4.5.1.deb
+Filename: ./debians/Applications/E-Sign/ESign_4.5.1.deb
 Size: 5069900
 MD5sum: 95d9f0babea10fe7ef0469509daf29d6
 SHA1: 4e5f8ab0bda5dba3a6dfbec97ef7c75dc0bc8fae
@@ -102,7 +123,7 @@ Version: 4.2.2
 Section: Games
 Maintainer: turannul
 Depends: firmware (>= 13.0), net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
+Filename: ./debians/Applications/FlappyBird/xyz.turanul.flappybird_4.2.2_iphoneos-arm.deb
 Size: 2502148
 MD5sum: 1e18a6068687d70f6ae69f5a44bd68cd
 SHA1: 3e4bea174608e25b796cb514d6c7732d12d2a6d2
@@ -121,7 +142,7 @@ Version: 1.1.9
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/Streamer/StreamerApp.deb
+Filename: ./debians/Applications/Streamer/StreamerApp.deb
 Size: 12849460
 MD5sum: 00d5b05e6d7ac5dda7590290ff5d535e
 SHA1: c364a2a9656272073e4f5b03efd1ba0dda3a6484
@@ -138,7 +159,7 @@ Version: 1.5.0.160502
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.autopear.installipa
-Filename: ./debians/Apps/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
+Filename: ./debians/Applications/ZinitEvi/jb.zini.tevi_1.5.0.160502_iphoneos-arm.deb
 Size: 6489056
 MD5sum: 4f3fe6b2f84e6d09e3fd679dd59452d7
 SHA1: c56559be75a6a54516f382ce0c2ee11d43d8b559
@@ -156,7 +177,7 @@ Version: 1.23.7
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/iSTB/xyz.canpng.istb_1.23.7_iphoneos-arm.deb
+Filename: ./debians/Applications/iSTB/xyz.canpng.istb_1.23.7_iphoneos-arm.deb
 Size: 37760984
 MD5sum: 6fb4c82d66fbe89fb26c62b5d1fbdf54
 SHA1: 35d8d366847f1d22adc537f3fecb2a14840727c3
@@ -174,7 +195,7 @@ Version: 1.8.3
 Section: Applications
 Maintainer: turannul
 Depends: net.angelxwind.appsyncunified, com.linusyang.appinst
-Filename: ./debians/Apps/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
+Filename: ./debians/Applications/iTorrent/iTorrent_1.8.3_iphoneos-arm.deb
 Size: 20166628
 MD5sum: 200ed07619e869e398848de0a3027464
 SHA1: 704f281a339b6d877a2ff318ba7500de72243a0d
@@ -3876,6 +3897,25 @@ Author: Conrad Kramer <conrad@kramerapps.com>
 Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json&name=conradev's jetsamctl&dev=Conrad%20Kramer&section=System
 SileoDepiction: https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json
 Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: com.lacertosusrepo.libdeusprefs
+Architecture: iphoneos-arm
+Version: 1.0.4
+Section: Development
+Maintainer: LacertosusDeus <lacertosusthemes@gmail.com>
+Installed-Size: 308
+Depends: preferenceloader
+Filename: ./debians/zStuff/com.lacertosusrepo.libdeusprefs_1.0.4_iphoneos-arm.deb
+Size: 45972
+MD5sum: ce575314fa3751110c50f0ea6082c40b
+SHA1: b282b7b0c1a4da209b1235e1d4bc8177557bd7e3
+SHA256: 36223f1063c694c62bcabcb685348fcd09571ee5385bac7a066e94f29605a629
+SHA512: d814caf2c4703ee1a78a5bef667160a2a688fdfc9f27df29a24237571f15d13936ca7d1521a8550e4eeaa64c628e4db4caf29619bc58e27331a31a34ca5ab0c6
+Description: Support library for my preferences...
+Tag: compatible_min::ios12.0
+Name: libDeusPrefs
+Author: LacertosusDeus <lacertosusthemes@gmail.com>
+Depiction: https://chariz.com/get/libdeusprefs
 
 Package: com.level3tjg.insert-dylib
 Architecture: iphoneos-arm
