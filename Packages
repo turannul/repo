@@ -269,7 +269,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/Google sans-14/xyz.turannul.googlesans14.deb
+Filename: ./debians/Fonts/Google-Sans-14/xyz.turannul.googlesans14.deb
 Size: 7925376
 MD5sum: c3a872ce7f20f244319914fb44e2d2a7
 SHA1: 8adc4fd4b9e8298bc1fad73ca11c190941340583
@@ -324,7 +324,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/Modulus Pro-13/xyz.turannul.modulusprofont13.deb
+Filename: ./debians/Fonts/Modulus-Pro-13/xyz.turannul.modulusprofont13.deb
 Size: 8902576
 MD5sum: 0810f4ad8b028110c2076794825f4df9
 SHA1: 50846102a0acaa237272664568dc5ebaed74e317
@@ -343,7 +343,7 @@ Version: 1.0
 Section: Fonts
 Maintainer: turannul
 Depends: mobilesubstrate, com.spark.snowboard, com.spark.snowboard.fonts
-Filename: ./debians/Fonts/Modulus Pro-14/xyz.turannul.modulusprofont14.deb
+Filename: ./debians/Fonts/Modulus-Pro-14/xyz.turannul.modulusprofont14.deb
 Size: 8540260
 MD5sum: 83ba0ec26a759403bbe600535c19438c
 SHA1: b3fff78754b8f53114736dbac310aa8f5da6e103
