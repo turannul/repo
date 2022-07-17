@@ -2841,6 +2841,28 @@ Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
 
 Package: emt.paisseon.satella
 Architecture: iphoneos-arm
+Version: 1.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 568
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Satella 2/emt.paisseon.satella_1.3.1_iphoneos-arm.deb
+Size: 79466
+MD5sum: 12c1b97d987388b15cc564116caff4e5
+SHA1: e0eaa3a8910d2cdf9ad47795355532a1e1326265
+SHA256: 0a56e23abe83b23b40020d24357b808a632fe018cbf43284361e5970b98dc857
+SHA512: cfba5c9a045ddf7a4a304a62e8b50cc89d89acff3f6c1e0a23d1883a1e18e6ad39f3366e522c19a561f95efbe9471a637bfaadabc03261346366dd1af7ce95e2
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella2.json&name=Satella2&dev=Paisseon
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
 Version: 1.3
 Priority: optional
 Section: Tweaks
