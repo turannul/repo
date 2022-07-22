@@ -1,7 +1,7 @@
 <package>
 	<id>xyz.turannul.uptime</id>
 	<name>uptime2</name>
-	<version>6.2.2</version>
+	<version>8.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>1.0</miniOS>
@@ -9,7 +9,7 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>zsh ncurses iokittools gawk</package>
+		<package>zsh ncurses gawk</package>
 	</dependencies>
 	<shortDescription></shortDescription>
 	<descriptionlist>
@@ -18,10 +18,10 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<image>IMG_0.PNG</image>
+			<image></image>
 		</screenshot>
 	<screenshot>
-			<image>IMG_1.PNG</image>
+			<image></image>
 		</screenshot>
 		<screenshot>
 	<links>
