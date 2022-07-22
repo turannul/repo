@@ -509,7 +509,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_7.0_iphoneos-arm.deb
+Filename: ./debians/MyTweaks/Uptime2/uptime2_7.0.deb
 Size: 5896
 MD5sum: 33f3d6b53f485d25dc94841ba9989512
 SHA1: d03c899f4674394817e7f8946b7b98e279153117
@@ -528,7 +528,7 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_8.0_iphoneos-arm.deb
+Filename: ./debians/MyTweaks/Uptime2/uptime2_8.0.deb
 Size: 5616
 MD5sum: 2814affe18c939e643784ddd42504b89
 SHA1: 3bf5fb0791188e2212cb6187ec63cad382f26895
@@ -547,13 +547,32 @@ Priority: optional
 Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, uikittools, gawk
-Filename: ./debians/MyTweaks/Uptime2/xyz.turannul.uptime_8.2~1-LAST_iphoneos-arm.deb
+Filename: ./debians/MyTweaks/Uptime2/uptime2_8.1.deb
 Size: 4532
 MD5sum: d0702bdd6c6317bd749df4d2113f7f95
 SHA1: 77b3cb3ae3cb61988cffb6452ca60180fdfc2081
 SHA256: bba4e4885f812b5d67427cd268ba401dd654fe152e669fa13ca9e723d10420c6
 SHA512: 4e1b8a3dff0b0f7e4c47f1593e1b8417cb9d492e55e6826b3685f5b1eb4682d530df2d6cddb4a516bbe164e43137e1fdff3dc711945ae4ea4d172572be40e68d
 Description: uptime but more useful.
+Author: turannul
+SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
+Name: uptime2
+Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: xyz.turannul.uptime
+Architecture: iphoneos-arm
+Version: 8.3
+Priority: optional
+Section: Scripts
+Maintainer: turannul
+Depends: ncurses | ncurses-term, zsh, gawk
+Filename: ./debians/MyTweaks/Uptime2/uptime2_8.3.deb
+Size: 4400
+MD5sum: e88db0483dd4ffa6cb679477f0b04b07
+SHA1: eace5ea43a676130ed21499c2a69d5e29d35d9d3
+SHA256: 9004f6ab0f2385f2308a8620bcfdc9c66d0945d26557bac978498e7d3c3dcb79
+SHA512: 6942db5c969935869ef6c117708dd7dab002c7c3e53f74ba902ba4e3d44f44ca26a0ce5cbcca859a16e7391606c18fe6c56c9ecad73bf5df416289d7ff39832a
+Description: uptime but more functional.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
 Name: uptime2
