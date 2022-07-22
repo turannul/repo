@@ -567,11 +567,11 @@ Section: Scripts
 Maintainer: turannul
 Depends: ncurses | ncurses-term, zsh, gawk
 Filename: ./debians/MyTweaks/Uptime2/uptime2_8.3.deb
-Size: 4400
-MD5sum: e88db0483dd4ffa6cb679477f0b04b07
-SHA1: eace5ea43a676130ed21499c2a69d5e29d35d9d3
-SHA256: 9004f6ab0f2385f2308a8620bcfdc9c66d0945d26557bac978498e7d3c3dcb79
-SHA512: 6942db5c969935869ef6c117708dd7dab002c7c3e53f74ba902ba4e3d44f44ca26a0ce5cbcca859a16e7391606c18fe6c56c9ecad73bf5df416289d7ff39832a
+Size: 4396
+MD5sum: 62df9337dcdcbc433e8f081426297dfa
+SHA1: ecec6724a9311f594f1a7e4d974a7908cbd99356
+SHA256: afeb9e5d2ef0a88b322f2fcd2ede1e63e396f44dc71cd7c790149da44958eafa
+SHA512: 0335c0ce2bb115b2f81d615de0883ea72a2204132d67fa77121486063835d73448c7aca6513e697134068f3bcdb1893f39add0cd89ab8b7a2bc090bfe798da15
 Description: uptime but more functional.
 Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
