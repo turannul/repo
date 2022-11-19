@@ -1,0 +1,41 @@
+<package>
+	<id>xyz.turannul.modulusprofont14</id>
+	<name>Modulus Pro</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>14.0</miniOS>
+         <maxiOS>14.99</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>snowboard, snowboard fonts</package>
+	</dependencies>
+	<shortDescription></shortDescription>
+	<descriptionlist>
+		<description></description>
+		<description></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<image>IMG_0.PNG</image>
+		</screenshot>
+	<screenshot>
+			<image></image>
+		</screenshot>				
+		<screenshot>
+			<description></description>
+			<image></image>
+		</screenshot>		
+	</screenshots>
+    <changelog>
+            <change></change>
+        </changelog>
+	<links>
+		<link>
+			<name>My Telegram</name>
+			<url>http://t.me/TuranUl</url>
+			<iconclass></iconclass>
+		</link>
+	</links>
+</package>
