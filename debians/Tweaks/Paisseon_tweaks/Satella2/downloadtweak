@@ -1,0 +1,4 @@
+zsh
+path=$(pwd)
+cd $path
+apt-get download emt.paisseon.satella -y --allow-unauthenticated

@@ -1,0 +1,18 @@
+# Zebra Sources List
+deb https://repo.dynastic.co/ ./
+deb https://havoc.app/ ./
+deb https://getzbra.com/repo/ ./
+deb https://repo.packix.com/ ./
+deb https://repo.chariz.com/ ./
+deb https://turannul.github.io/repo/ ./
+deb https://burakexell.github.io/repo/ ./
+deb https://www.yourepo.com/ ./
+deb https://cydia.akemi.ai/ ./
+deb http://limneos.net/repo/ ./
+deb https://evynw.github.io/ ./
+deb https://skitty.xyz/repo/ ./
+deb http://apt.thebigboss.org/repofiles/cydia/ stable main
+deb https://cydia.ichitaso.com/ ./
+deb https://repo.co.kr/ ./
+deb https://miro92.com/repo/ ./
+deb https://sparkdev.me/ ./

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+#some magic
+user=$(whoami)
+device=$(uname -m)
+
+echo "*********************************************"
+echo "   UpdateBlockr 0.0.1                "
+echo "           by turannul 15.05.2022    "
+echo "               Supports iOS 12-15    "
+echo "*********************************************"
+echo "$user@$device ~$ Disable Updates"
+echo "[i]: Starting"
+
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist >/dev/null 2>&1
+
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.OTATaskingAgent.plist >/dev/null 2>&1
+
+launchctl unload -w /System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist >/dev/null 2>&1
+
+echo "[i]: Done"
+echo "$user@$device ~$ Remove Update Settings"
+echo "[i]: Starting"
+killall Preferences >/dev/null 2>&1
+echo "[i]: Done"
+echo "*********************************************"
+echo "[i]: All done."
+echo "[i]: No respring required."
+echo "[i]: Stopped"
+echo "*********************************************"
+exit 0

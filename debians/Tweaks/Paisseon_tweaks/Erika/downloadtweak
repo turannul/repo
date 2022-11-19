@@ -1,0 +1,3 @@
+cd /var/mobile/Documents/repo/debians/Tweaks/Erika
+rm *.deb
+apt download emt.paisseon.erika -y --allow-unauthenticated

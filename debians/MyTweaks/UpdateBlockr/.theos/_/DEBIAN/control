@@ -1,0 +1,10 @@
+Package: xyz.turannul.updateblockr
+Section: Tweaks
+Maintainer: turannul <>
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0)
+Description: Disable updates using icleaner method + remove from settings
+Name: UpdateBlockr
+Author: turannul <>
+Version: 0.0.1
+Installed-Size: 136
