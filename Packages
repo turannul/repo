@@ -1467,6 +1467,28 @@ Icon: https://turannul.github.io/home/resources/crashed.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
+Version: 4.0~beta10b-extra~1.0.1
+Section: Tweaks
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Conflicts: xyz.cypwn.ct4-extra
+Replaces:  xyz.cypwn.ct4-extra
+Filename: ./debians/Tweaks/CrackTool4/CT4+Cypwn extra 1.0.1.deb
+Size: 1965880
+MD5sum: aca879923375f10a6282552316a722c2
+SHA1: e99dda21aab2bf9f89f7e2a4a4245c146f665908
+SHA256: 317fef14b26239e1e42fdd28ed3278b8ada9a6b19d98394b821fc0c346c67efb
+SHA512: 2879931fd186d860efae03797e183f6fac3c1ce042df34119a08a3249ff0c58368abbd3d468472a2a40abbf07a46d34f5fb36947e4fb188ab93eff0feba3c71c
+Homepage: https://twitter.com/ijulioverne
+Description: Crack Tweaks on one click 
+ (Includes Cypwn's CT4 Extra Package)
+Name: CrackTool4 (iOS 9 - 14)
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool4
+Icon: https://turannul.github.io/home/resources/cracktool.png
+
+Package: com.julioverne.cracktool4
+Architecture: iphoneos-arm
 Version: 4.0~beta10a
 Section: Tweaks
 Maintainer: Julio
