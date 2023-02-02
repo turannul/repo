@@ -1567,6 +1567,23 @@ Name: DownloadBar13
 Author: shepgoba
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: com.shepgoba.downloadbar13
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/Downloadbar13/com.shepgoba.downloadbar13_1.0_iphoneos-arm.deb
+Size: 5150
+MD5sum: d0a2b6c082667a046ad40c2931ccf4ac
+SHA1: 979374464af6489f524f06e5c3be031020246373
+SHA256: 5538673a6f4d3535bdb1e06218e6ffc5da8a592641428432d4fa2580d88544fd
+SHA512: ca2fd7383fca250432746146d111b1cc63561a66003e3b6543d7fc9762d07f0505fd652900a778f1ff2a15a96ea4844e3106bfaae15df97068861643bdd42ed2
+Description: Show a progress bar for downloading apps instead!
+Name: DownloadBar13
+Author: shepgoba
+
 Package: com.sugiuta.dr4w
 Architecture: iphoneos-arm
 Version: 0.0.1
