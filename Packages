@@ -61,6 +61,27 @@ Author: Riley Testut
 Icon: https://turannul.github.io/home/resources/altstore.png
 Tags: compatible_min::ios12.2
 
+Package: xyz.turannul.altstore
+Architecture: iphoneos-arm
+Version: 1.6
+Section: Applications
+Maintainer: turannul
+Depends: firmware (>= 12.2)
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore, xyz.turannul.altstorebeta
+Replaces: com.ichitaso.altstore, com.trappledestek.altstore
+Filename: ./debians/Applications/AltStore/AltStore_1.6.deb
+Size: 5666226
+MD5sum: 4abb5aa201088773f9e1bbd4253fd919
+SHA1: bce800776e71d5a9613d296e0d5668e940c2cc1e
+SHA256: 89e41eeb54abeb518229aadc99c91f388e394af14ae823c63d22ddbde6129b20
+SHA512: 135e16d469c9ea7b5d65c1e05f8adc991f136b6a837a8d1e6d6aff1febef424834b385e42075beebe3709a8f2abd1c606f7c781a5a6da16cddb628a7745df425
+Homepage: https://altstore.io/
+Description: Patreon features active & resigned with Linus Henze's CoreTrust bypass so it doesn't expire.
+Name: AltStore
+Author: Riley Testut
+Icon: https://turannul.github.io/home/resources/altstore.png
+Tags: compatible_min::ios12.2
+
 Package: Appcake
 Architecture: iphoneos-arm
 Version: 7.2.2
@@ -112,6 +133,26 @@ MD5sum: 1e18a6068687d70f6ae69f5a44bd68cd
 SHA1: 3e4bea174608e25b796cb514d6c7732d12d2a6d2
 SHA256: 038c15f4112f88ebb02f877adf207a1cfc2b04287d48e7001e26f552982d8702
 SHA512: 6727d6b5f7c13ae99abe04ae5b59561fccfae65663548f6ca2e571b29104d7890eee617d26c3e6b995d219546b486421f205cea9a9c580a0d74a26cd0869e6fc
+Description: A Flappy Bird clone that runs on the latest iOS! 
+ AppSync Repo: https://cydia.akemi.ai/
+Name: Flappy Bird
+Author: Brandon Plank, Thatcher Clough
+SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
+Icon: https://turannul.github.io/home/resources/flappybird.png
+
+Package: xyz.turanul.flappybird
+Architecture: iphoneos-arm
+Version: 4.3
+Section: Games
+Maintainer: turannul
+Depends: firmware (>= 13.0), net.angelxwind.appsyncunified, com.linusyang.appinst
+Filename: ./debians/Applications/FlappyBird/xyz.turanul.flappybird_4.3_iphoneos-arm.deb
+Size: 2091234
+MD5sum: 2bf1da6ec091192a9331be023e9a6e6e
+SHA1: 3e21249f4d1c41691031dd8abb762149e955e443
+SHA256: 830cce0a51c84d65b97ca6295f0f5d6ccda61140dfdb01f6bb547e224c8c6560
+SHA512: 80f8580bbda0310a8c4dde32feebafc54cbc5b739ddea460976b1f17b19c5401b65a540df86ca74a974820d31598011ef10f9108caaec9026503603037706e0c
+Homepage: https://github.com/brandonplank/flappybird
 Description: A Flappy Bird clone that runs on the latest iOS! 
  AppSync Repo: https://cydia.akemi.ai/
 Name: Flappy Bird
