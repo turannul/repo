@@ -2894,6 +2894,27 @@ Description: A modern jailbreak detection bypass for jailbroken iOS.
 Name: Shadow
 Author: jjolano
 
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm
+Version: 3.6.0
+Section: System
+Maintainer: jjolano
+Installed-Size: 1212
+Provides: me.jjolano.shadow.beta
+Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
+Recommends: preferenceloader
+Conflicts: me.jjolano.shadow.beta
+Replaces: me.jjolano.shadow.beta
+Filename: ./debians/Tweaks/Sh4dow/me.jjolano.shadow_3.6.0_iphoneos-arm.deb
+Size: 167886
+MD5sum: a19c1432ce47a3a9ee21446507eed8aa
+SHA1: b6c29fde6f533b6e7f6316fe85916e636b0d3cd3
+SHA256: 6b7e445751e25caaecc50fc3b2565c0fad34c565c0b0d9471f7ac90fa70db7f3
+SHA512: 72cc45cbca244f084cd04dc00706c1daf33e9907806bf8490d3191f8bae246b22015ad98e1c39557a76892c6706621200379dd9df81f67300a25a13a9a4421c5
+Description: A modern jailbreak detection bypass for jailbroken iOS.
+Name: Shadow
+Author: jjolano
+
 Package: com.no5up-kanji.librelic
 Architecture: iphoneos-arm
 Version: 2.1.1
@@ -3271,6 +3292,26 @@ Name: TetherMe for iOS8+
 Author: Sam Bingner
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tetherme8Dp
 Icon: https:/turannul.github.io/home/resources/tetherme.png
+
+Package: com.pixelomer.tweakreviews-db
+Architecture: iphoneos-arm
+Version: 1.1.10
+Section: Tweaks
+Maintainer: pixelomer
+Installed-Size: 640
+Depends: mobilesubstrate, firmware (>=9.0)
+Conflicts: com.samgisaninja.tweakcompatible-zebra, bz.jed.tweakcompatible
+Filename: ./debians/Tweaks/TweakReviews/com.pixelomer.tweakreviews-db_1.1.10_iphoneos-arm.deb
+Size: 141086
+MD5sum: d1b41529b34fc7e0df36c21e37bb9e31
+SHA1: 923667ec27a47e81e9fd61318224fe665d7005e6
+SHA256: df8a9370ff64c8f31aa7af168dfddc584775b0a2f0e6b52465ab0b20d602a97e
+SHA512: 382deae438f534cf568e5a2ed4bbeebb22318667a7c6cdadb2bacf81cd5e841c33b0eac29ac1e1466db9081d7b46ed6f3fa911c62af47f3d088c3a04253d6133
+Description: Tweak reviews made easy.
+  Easily read and create reviews about your tweaks with TweakReviewsDB.
+  Works with Sileo, Zebra, Cydia and Installer 5.
+Name: TweakReviewsDB
+Author: pixelomer
 
 Package: com.yourepo.bluemaster.uselessdaemonbegone
 Architecture: iphoneos-arm
@@ -3694,6 +3735,30 @@ MD5sum: 4ba0e0e0486ed5b532d358dea5db7e92
 SHA1: da0529dc2798b621da59dab5772fb4e393e6603c
 SHA256: 679419f675a3f5e4069a2e868490daf576a9228934a4a49b512949b26293fd88
 SHA512: b875ff0a450ea1635e72500f34a16a126829141e55bd150650a21b035af57a8d73ebdf6cff4c551432a67c1bcd2af0d9bad671456c1c660419e22245b719e2cb
+Homepage: https://ginsu.dev
+Description: YTMusic premium features + more.
+Tag: role::enduser
+Name: YTMusicUltimate
+Depiction: https://repo.ginsu.dev/depiction/web/com.ginsu.ytmusicultimate.html
+SileoDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.ytmusicultimate.json
+ModernDepiction: https://repo.ginsu.dev/depiction/native/com.ginsu.ytmusicultimate.json
+Icon: https://repo.ginsu.dev/assets/com.ginsu.ytmusicultimate/icon.png
+Tags: compatible_min::ios11.0, compatible_max::ios15.5
+Author: Ginsu <njl02@outlook.com>
+Sponsor: Ginsu Tweaks <njl02@outlook.com>
+SomeOtherEntryToControl: True
+
+Package: com.ginsu.ytmusicultimate
+Architecture: iphoneos-arm
+Version: 1.2.7
+Section: Tweaks
+Maintainer: Ginsu <njl02@outlook.com>
+Filename: ./debians/Tweaks/YTMUltimate/com.ginsu.ytmusicultimate_1.2.7_iphoneos-arm.deb
+Size: 61062
+MD5sum: 0547434056d3a1246aec6308effc6633
+SHA1: 01f61b3fc4ac4a9c333401ca12a8699c8b4a5230
+SHA256: eda0192b73fcb9413f2fc5d4b56f2557d3e20714c09a2da89c0e5ca3856df2d4
+SHA512: e4317666e53a5efef9828459f1d669a34a428e2928b9730d94574e0d5bca8fe3574e000dd5a43a97a0721495fabf58b9d3f4f06ffdaff05d92dfdb34565d6ebf
 Homepage: https://ginsu.dev
 Description: YTMusic premium features + more.
 Tag: role::enduser
