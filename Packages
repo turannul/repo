@@ -160,6 +160,41 @@ Author: Brandon Plank, Thatcher Clough
 SileoDepiction: https://repo.brandonplank.org/depictions/org.brandonplank.flappybird/flappybird.json
 Icon: https://turannul.github.io/home/resources/flappybird.png
 
+Package: StreamerApp
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Applications
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Applications/Streamer/StreamerApp_1.1.9.deb
+Size: 12849460
+MD5sum: 00d5b05e6d7ac5dda7590290ff5d535e
+SHA1: c364a2a9656272073e4f5b03efd1ba0dda3a6484
+SHA256: 694827bab8fb06408a4c1ea28e598b6bd885f39895725af3ad354404622dbcfc
+SHA512: a5d6cc75a6228e6264eb5e9292d341054f631e82ff9959a6ca03c755e78278c77252813173cc45c0a585f2f7abd924c567d842094c80aacc813851eeb5692f6a
+Description: Watch movies on your iDevice. AppSync Repo: https://cydia.akemi.ai/
+Name: Streamer
+Author: StreamerApp
+Icon: https://turannul.github.io/home/resources/streamer.png
+
+Package: StreamerApp
+Architecture: iphoneos-arm
+Version: 1.2.12
+Section: Applications
+Maintainer: turannul
+Depends: net.angelxwind.appsyncunified, com.autopear.installipa
+Filename: ./debians/Applications/Streamer/StreamerApp_1.2.12.deb
+Size: 12002966
+MD5sum: 72a24f5f09e791309a582ff854782b70
+SHA1: 170b3a340f643be049aa1bfb5212c81af28ecac8
+SHA256: 30de387fc336469e8c837d38617f7655726b0fe9992dd63e6bc49633320cd025
+SHA512: 3d672343f2e29f961c4ca1bedd782f8af72bf64eca1f36e50f3e0d126222d45c7831133804be0b547e0205dc428ff1d1ca8c50ecbd7e43076c9e889cdf4f5eff
+Homepage: https://github.com/StreamerApp/Streamer
+Description: Watch movies on your iDevice. AppSync Repo: https://cydia.akemi.ai/
+Name: Streamer
+Author: StreamerApp
+Icon: https://turannul.github.io/home/resources/streamer.png
+
 Package: jb.zini.tevi
 Architecture: iphoneos-arm
 Version: 1.5.0.160502
@@ -919,6 +954,48 @@ Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.29
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 12580
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.29_iphoneos-arm.deb
+Size: 7581290
+MD5sum: b59da94017076ae1fb0f24e639c2ba31
+SHA1: b3166f666bd2a6ede615e1a38dc710cba0117c69
+SHA256: 0ab0820e5b32cfa1ffeb04acdc8f3e8017612cc2c3ea845a2abc6bfff07d8300
+SHA512: 7332ba5a6b57846ffb7e525d1796fc0c941cc2da88606c4dd3732db7af4cfe46fda8a1511b556799ee7485cf43ceef962367b7d06c39b1c6a217bdee7ecd3f58
+Description: A Useful Package Manager
+Tag: compatible::9.0-15.7
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.willy.zebra
+Architecture: iphoneos-arm
+Version: 1.1.30
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 12584
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debians/Packaging/Zebra/xyz.willy.zebra_1.1.30_iphoneos-arm.deb
+Size: 7581688
+MD5sum: 7b8d0f9a461f3bbbd261ccb40f0e8d0d
+SHA1: 326ff1ff310df58f9824a9ace09576ee2c7b8c97
+SHA256: 2f08203f916a54a04cc2c2f49892b944c22de903ae5bf7e1d86c55b639c4e4b5
+SHA512: 812f49ce4da5288aedb1361600a7785a3c6b16aba45e23ca70768b0ab9b05039016b2e5ca6c6d145ccfe9a90f40972a33f53f631ba547f2e937f794c95bac0f2
+Description: A Useful Package Manager
+Tag: compatible::9.0-15.7
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm
 Version: 0.5.3
@@ -1027,6 +1104,44 @@ Name: Debra
 Author: Sudo & Paisseon
 Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
 
+Package: xyz.cypwn.debra
+Architecture: iphoneos-arm
+Version: 2.7.1
+Section: Utilities
+Maintainer: CyPwn
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
+Filename: ./debians/Scripts/Debra/xyz.cypwn.debra_2.7.1_iphoneos-arm.deb
+Size: 14734
+MD5sum: 84a721e2c29f5e78ee67d886f198de1d
+SHA1: 0ab73518d3dba1bbe6c016aca62270ce315c12fd
+SHA256: 51be3c275479207b56448e9776f853699fcb513b728e05c0b7dbbf43a38b5c0d
+SHA512: a1562c9a79c54e782a7e43796832fbb6860f8c52252c1417db761806b1469af3b0ed5279c41512099a94806a5b04231ca4426dc68b16f3f9a3822220883c0c02
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Depiction: https://repo.cypwn.xyz/depiction/891
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/891
+Name: Debra
+Author: Sudo & Paisseon
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+
+Package: xyz.cypwn.debra
+Architecture: iphoneos-arm
+Version: 2.7.2
+Section: Utilities
+Maintainer: CyPwn
+Depends: bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), sudo, gawk (>= 4.2.1-1), tar (>= 1.33-1), xyz.cypwn.termcolors (>= 2.0.5)
+Filename: ./debians/Scripts/Debra/xyz.cypwn.debra_2.7.2_iphoneos-arm.deb
+Size: 15506
+MD5sum: 9ccda2042c8ff1e63130141dc5a7264a
+SHA1: 7429ebb454adf825be16f3a19e92ad9acc7d2232
+SHA256: 1000b2e8d650126cfbd65769a6a0763cca52e99e3285fb10e0acc0756a5b8367
+SHA512: a5fb0709e2946eb09a332cfadc96990e099272e97624230832ff9bf33afca856375b89392692cbca6d977062f17bb19b9fbdf0da44f2b1e1ab546190da7102d1
+Description: Deb Repackaging Assistant. Simply type 'debra' into a terminal.
+Depiction: https://repo.cypwn.xyz/depiction/977
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/977
+Name: Debra
+Author: Sudo & Paisseon
+Icon: https://sudo9000.github.io/depictions/debra/assets/icon.png
+
 Package: com.anthopak.springcuts
 Architecture: iphoneos-arm
 Version: 1.2
@@ -1046,6 +1161,27 @@ Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.springcuts.php
 SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
 ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
 Icon: https://turannul.github.io/home/resources/tweak.png
+Author: AnthoPak <anthopakdev@gmail.com>
+
+Package: com.anthopak.springcuts
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.muirey03.libmryipc (>= 2.0)
+Filename: ./debians/Scripts/SpringCuts/com.anthopak.springcuts_1.3_iphoneos-arm.deb
+Size: 63158
+MD5sum: d5633ed05882fad6bc2efd501e4054fb
+SHA1: ab2ae724a81ad08239219d31bdbcda61c07ecdab
+SHA256: 4ab9e312427a1e1cb0c9794a4ec423ee51672668d9c84ad1091edc33bef3c5d4
+SHA512: f5442ecfe4a0c39ff84b8a6a4930c04befc864ecd2b5a31a1a7d91bb7bcf305db408bc7be9dfe9627bb5aedff079f8bcb79f0a1917350d846f558824b2d4ae25
+Homepage: https://repo.anthopak.dev
+Description: Run Shortcuts from SpringBoard (Support library, Activator actions, CLI command)
+Name: SpringCuts
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.springcuts.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.springcuts.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.springcuts/icon.png
 Author: AnthoPak <anthopakdev@gmail.com>
 
 Package: com.moose.upmem
@@ -1472,6 +1608,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: domo
 Icon: https://turannul.github.io/home/resources/cocoatop.png
 
+Package: com.muirey03.cr4shed
+Architecture: iphoneos-arm
+Version: 4.3.0
+Section: Tweaks
+Maintainer: Muirey03
+Installed-Size: 1384
+Depends: mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: ./debians/Tweaks/Cr4shed/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb
+Size: 149078
+MD5sum: 293df1ba4eea1c3787ff31c0114725a7
+SHA1: 30aa8b231bb41dca965c57218918d307babe375d
+SHA256: 7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049
+SHA512: 0214d967a516afda8b2d95206642f226695aa6f942d8be983243683a5960556c69f7a7d384b2d99f653cab9e7cf0ca6e3c552073c96dd07648327f6ab1c8548b
+Description: A modern crash reporter for iOS
+Name: Cr4shed
+Author: Muirey03
+
 Package: com.muirey03.cr4shedd
 Architecture: iphoneos-arm
 Version: 4.2.2
@@ -1587,6 +1740,23 @@ Description: Show a progress bar for downloading apps instead!
 Name: DownloadBar13
 Author: shepgoba
 Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: com.shepgoba.downloadbar13
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: shepgoba
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debians/Tweaks/Downloadbar13/com.shepgoba.downloadbar13_1.0.2_iphoneos-arm.deb
+Size: 5812
+MD5sum: f0802e9b3851ec09c29233f143a173a4
+SHA1: f1e558062e7e098f574b9a5baa54860878cf1e1f
+SHA256: e0c5f6f0dc11bfa99f47f2868ce97dc42c1ab715c6be5ff1262d51a50f806e87
+SHA512: 450a7931566cfccb7ace130582013da1b0ae08f0f9da7449ad2e63691a3da69dfb79f66382e7eb1939f96f9144cac3e7f01c021d2d53a58ee5e3e1f091f02cff
+Description: Show a progress bar for downloading apps instead!
+Name: DownloadBar13
+Author: shepgoba
 
 Package: com.shepgoba.downloadbar13
 Architecture: iphoneos-arm
@@ -1908,6 +2078,336 @@ Depiction: https://kurrt.com/repo/lifeguard
 SileoDepiction: https://kurrt.com/repo/lifeguard/sileo.php
 Author: Kurrt <dev@kurrt.com>
 Icon: https://turannul.github.io/home/resources/lifeguard.png
+
+Package: ai.paisseon.cydown
+Architecture: iphoneos-arm
+Version: 7.1.7-1
+Section: Tweaks
+Maintainer: Paisseon
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, org.mr.cydown, ru.rj.cydown
+Filename: ./debians/Tweaks/Lilliana_tweaks/Cydown++/ai.paisseon.cydown_7.1.7-1_iphoneos-arm.deb
+Size: 4481682
+MD5sum: 6d4e3f5b8ba720633c0f502fc2e89749
+SHA1: 10eb5a243f908d384729e2bee2aabcbd363fd13a
+SHA256: dc2aa88e2db55b09d023c8ab8a25398fa9918537e4946b187b406da2051bfaf6
+SHA512: a23c6397f7947d9e1c9c95d3c2e6b80aaa86c5f8151e9a3bc3a02974bfeaf10869b8db648a96988fcb739fc585efd4f26e27b5498e89f5ede6e790533b5de06e
+Description: Download tweaks for free
+Name: CyDown++
+Author: Julioverne & CyPwn
+SileoDepiction: https://paisseon.github.io/info/cydown.json
+Depiction: https://paisseon.github.io/info/cydown.html
+Icon: https://turannul.github.io/home/resources/cydown.png
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.10.3
+Section: Tweaks (Piracy)
+Maintainer: Lilliana
+Installed-Size: 540
+Depends: firmware (>= 12.2), firmware (>= 15.0) | lilliana.async
+Filename: ./debians/Tweaks/Lilliana_tweaks/Erika/emt.paisseon.erika_1.10.3_iphoneos-arm.deb
+Size: 97744
+MD5sum: 74199eefedb3f0ea6716484673d89613
+SHA1: 5526d775a45710ca9473aa2b90448ca9511113f2
+SHA256: 9aa575fced4b419ac40e626a9fb76fc6b3fd05eefaa124570b69d5a1cc9c1715
+SHA512: a10ecb22a410f9f9f5e709a51f94b820b9d4522bc1a646441f96037d8c066017657aff7caa861c6ada5193aa62b5c09dd0f5c8902351733fb0cb3a93717a4c02
+Description: Download paid tweaks for free
+Name: Erika
+Author: Lilliana
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/Erika.json
+Depiction: Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Erika.json&name=Erika&dev=Lilliana
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.8.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 616
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Lilliana_tweaks/Erika/emt.paisseon.erika_1.8.3_iphoneos-arm.deb
+Size: 118344
+MD5sum: 618b369d2a4465e4b8172f9f70db7dda
+SHA1: 506d5b4432da5af52d3abcef1967d3d47dd812b6
+SHA256: bd428afa8196dc698d04ff12932714b0d116cb57b904549ddaa6d2b594727013
+SHA512: 0d7ca9574fe928a6b122d372fb8167f58399525b8aee291010c40f8a8fa3e2ec8259f9b1d598cd4265f145b3335df5de9b8f70cabecae1a8c2410e7fb363309c
+Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.8.4
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 616
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Lilliana_tweaks/Erika/emt.paisseon.erika_1.8.4_iphoneos-arm.deb
+Size: 118540
+MD5sum: 1d8bd50ff51e991f20242a16fb4c8e2f
+SHA1: 58091c2c0ea2b1373a7f64fb0924ff6f22d6124f
+SHA256: 8f13ab5a10d05e3d378bece13d89029eb4148d7b60399e8f4ecec1eee2d88649
+SHA512: 9463c185c5e04365817de2329d99ff71c0fe1ca44a444048937d395a58ae51b9b9927899ce50e410f2a96c94682535da2ae71b78b94ecf90dbf9f519c630a604
+Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/erika.json&name=Erika&dev=Paisseon
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.9.1
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 632
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Lilliana_tweaks/Erika/emt.paisseon.erika_1.9.1_iphoneos-arm.deb
+Size: 118788
+MD5sum: bfb884460c693dbb2bd46f3c5543f944
+SHA1: c6b6a2e79d361d078c3fd6ac71fa76ce3bdf6168
+SHA256: 33d553c8f881ad1f3f5c8a467aebbb8e4fcb9a69c6daa3481de724f8b1949c08
+SHA512: f81412dc5d95a84acbc97d02ba9f5acc42cd5dcbe508fb6fa1741825d62305fa64925abba21a645d428575f7562429bd99441e3ecff94b03614b8e1fba7be89c
+Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/erika.json&name=Erika&dev=Paisseon
+
+Package: emt.paisseon.erika
+Architecture: iphoneos-arm
+Version: 1.9
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 364
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17)
+Filename: ./debians/Tweaks/Lilliana_tweaks/Erika/emt.paisseon.erika_1.9_iphoneos-arm.deb
+Size: 93402
+MD5sum: e474273ded2ce05b0c403034f9c3eeb2
+SHA1: f93654af282edae2167a465182b1851ed85ef1d5
+SHA256: 1ffb8f0c7791475a2ef3656e5522961cd7de9ba5a1502f91f50a0acd7aa32c98
+SHA512: ab5bc6e7b8db240e2d50f127ccb1b5f462179ea7d897c151131471d3ad0cd3385a58b4e70c372dd856d96b8bd2721483926e01df4bc3bb28b8fc810c89c41678
+Description: Paid tweaks for free on Installer, Saily, Sileo, and Zebra
+Name: Erika
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/erika.png
+SileoDepiction: https://paisseon.github.io/depictions/erika.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/erika.json&name=Erika&dev=Paisseon
+
+Package: ai.paisseon.reverie
+Architecture: iphoneos-arm
+Version: 2.7.2
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 660
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/Tweaks/Lilliana_tweaks/Reverie/ai.paisseon.reverie_2.7.2_iphoneos-arm.deb
+Size: 71416
+MD5sum: c9d04dc85bc210044dce0616e4cf2ed0
+SHA1: 6468d7e14bdb1851b536fe54d291aa7f594409b6
+SHA256: c4a17fd2be3025887463c6066649eec2b58f1a3d60ed75bb6319fb92352f1e0f
+SHA512: 73058a5ca09907280ff150a22b1d7006c16379b7ee5bef627367d71a0e50e8ba08ed1ea8f193ef4a1fd3a3a3b0b340f9e0d026e604343e66da8ef7238f8e9c78
+Description: Hibernate when your battery gets low
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/reverie.png
+SileoDepiction: https://paisseon.github.io/depictions/reverie.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: ai.paisseon.reverie
+Architecture: iphoneos-arm
+Version: 2.7.3
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 664
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/Tweaks/Lilliana_tweaks/Reverie/ai.paisseon.reverie_2.7.3_iphoneos-arm.deb
+Size: 72544
+MD5sum: bbabc72c8640f7349d283b177b1aa72c
+SHA1: 36d8cdee9544369c10cf288b3f718ad8dfdbf33d
+SHA256: 7e960d00df4d7f3b6b78fb7219ac6c5d3e12f1ed25dce295eca8ca1ea9b8094c
+SHA512: f504b665dd6d0d6981551ba21fce31eb24ae9369ca8160e88e33c8ae1bbe19bcf7e7fb9704e2ed8383f9e24861400a750c99f56ec4bd3a6bf27fbef548385c41
+Description: Hibernate when your battery gets low
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/reverie.png
+SileoDepiction: https://paisseon.github.io/depictions/reverie.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/reverie.json&name=Reverie&dev=Paisseon
+
+Package: ai.paisseon.reverie
+Architecture: iphoneos-arm
+Version: 2.7.4
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 668
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/Tweaks/Lilliana_tweaks/Reverie/ai.paisseon.reverie_2.7.4_iphoneos-arm.deb
+Size: 76676
+MD5sum: ef2e52636bf24f11c1e8205b6a66291c
+SHA1: 6a3fea72d92a42671a5a8e117f79248ad3a097eb
+SHA256: a9b0c9e389420017d199e17a9df6e18ab80282becfd40d0a10dcd3efb3aed426
+SHA512: 49ece7ec1f57cf3af2f0c15a908c1c16e5b27aa98220aa36bf225e0569afd624ca94434e9c8c78360971f9148cb61f74bb5cc0c285fd4ea7f56d42dae94c257c
+Description: Hibernate when your battery gets low
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/reverie.png
+SileoDepiction: https://paisseon.github.io/depictions/reverie.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/reverie.json&name=Reverie&dev=Paisseon
+
+Package: emt.paisseon.reverie
+Architecture: iphoneos-arm
+Version: 0.1b
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 652
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 13.0), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: ./debians/Tweaks/Lilliana_tweaks/Reverie/emt.paisseon.reverie_0.1b_iphoneos-arm.deb
+Size: 87686
+MD5sum: c8cb764cee6d11b42a3cbd915a4a5eb2
+SHA1: d3f9169bbdce56ae8a8c3400ae3297c5f80ce925
+SHA256: 5cf66017e9f815538cf4befb113da821ed1b3c1ce3ee3420d2d62d176f6ad756
+SHA512: c21afa8b84bced3342d542734ece33996639ffaecb2651c53188eb668cc7834118d0628f1ab6e7b8c7c14d3d39786598adf836657ddad8a5a60c19dcc0e0f19f
+Description: Hibernate when your battery gets low
+Name: Reverie
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/reverie.png
+SileoDepiction: https://paisseon.github.io/depictions/reverie.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/reverie.json&name=Reverie&dev=Paisseon
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: optional
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 656
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.2_iphoneos-arm.deb
+Size: 81460
+MD5sum: 63e80e05fe325654b28259ddbccafb57
+SHA1: feac1414879a27eed42f602d6cad4335632b3813
+SHA256: 381b7bbd0961b0462867b82a385f51bf5496279348de599420aea8419cbd4e9c
+SHA512: 9189da7098d61344cf7cb01f8aabb5f7623ff5fb953a783b2541beaf537069895ece2607c487f7c6cb49f0a0d6d47a69b8c0905a1abafac75921570b780dd0ce
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 568
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.3.1_iphoneos-arm.deb
+Size: 79466
+MD5sum: 12c1b97d987388b15cc564116caff4e5
+SHA1: e0eaa3a8910d2cdf9ad47795355532a1e1326265
+SHA256: 0a56e23abe83b23b40020d24357b808a632fe018cbf43284361e5970b98dc857
+SHA512: cfba5c9a045ddf7a4a304a62e8b50cc89d89acff3f6c1e0a23d1883a1e18e6ad39f3366e522c19a561f95efbe9471a637bfaadabc03261346366dd1af7ce95e2
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella2.json&name=Satella2&dev=Paisseon
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.3.2
+Priority: optional
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 568
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.3.2_iphoneos-arm.deb
+Size: 79592
+MD5sum: 95fa5d55d332d118fedd877ab5bcf126
+SHA1: a14b378ed42c578f7a83aaa5088f28f73970b985
+SHA256: 9221799ca0e348df0921186ebf38c4a57ca2b9c4018ca64c6b34c0f85c12e73b
+SHA512: c14378bf77559efbe73818f14aacb4aa12b8ddeb1164ecf9316205342d94d13bd718230632e1678baf1a807569c6d988eb782443c59ab714f75cf093b94623d6
+Description: Modern in-app purchase cracker
+Name: Satella
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella.png
+SileoDepiction: https://paisseon.github.io/depictions/satella.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella.json&name=Satella&dev=Paisseon
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.3
+Priority: optional
+Section: Tweaks
+Maintainer: Paisseon
+Installed-Size: 552
+Depends:  dev.theos.orion (>= 1.0.0), firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.3_iphoneos-arm.deb
+Size: 76694
+MD5sum: d7391afada1e912aa516a13a96423b5d
+SHA1: 81003e346dc9474fd5541c3390387b6dfa703c85
+SHA256: 27261fa8be5faa563a56848a0bfc5ed46f2efccd91f0232d807534c920d1344f
+SHA512: 86abb0222478d7580884ec7642b6f59cadd6152ea5cbbc7d6f7e76a39fd5ae2e117a3e22dcff73b8abbc16df35091fd899c1a705f134e4264a711331342287f5
+Description: Modern in-app purchase cracker
+Name: Satella 2
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/satella2.png
+SileoDepiction: https://paisseon.github.io/depictions/satella2.json
+Depiction: https://paisseon.github.io/depictions/ButNobodyCame.html
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.4.1
+Section: Tweaks (Piracy)
+Maintainer: Lilliana
+Installed-Size: 480
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.4.1_iphoneos-arm.deb
+Size: 63392
+MD5sum: 20b3de2403dcd67161377779d8f87f5b
+SHA1: c5488e51ad2ea799df6affe925e8ed1d30a6587f
+SHA256: f2cc54425d460a4554e2b1365c415122a23b3dc7535ef05943d0aac6b2394a2e
+SHA512: d26f960c775b4939cf069fd95febdb4bb33da9c3dc98d096d1caac0d96471c4abd84b9210cc2ab1ccc96039390bbc746061710ba06b07b9b5415d45bee023119
+Description: Modern in-app purchase cracker
+Name: Satella
+Author: Lilliana
+Icon: https://paisseon.github.io/icons/satella.png
+SileoDepiction: https://paisseon.github.io/depictions/satella.json
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella.json&name=Satella&dev=Paisseon
+
+Package: emt.paisseon.satella
+Architecture: iphoneos-arm
+Version: 1.6
+Section: Tweaks (Piracy)
+Maintainer: Lilliana
+Installed-Size: 648
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, lilliana.jinxserver
+Conflicts: ai.paisseon.satella
+Filename: ./debians/Tweaks/Lilliana_tweaks/Satella/emt.paisseon.satella_1.6_iphoneos-arm.deb
+Size: 106682
+MD5sum: 1e996dba819204c017cd75214601a280
+SHA1: b311837dba9e8b6ceab3854d218f9126cdcde1a8
+SHA256: a36887d5f464406cb8350e916727df98db37dc7f432116c193bcaaca6f6a627b
+SHA512: 168b22f9981b0250a716a78e85a22b0a8a2f42fe70ce449a914c2666d3f7659952ad008d72025c07df8f455795f5a5caa25225c4959ff134deefd5e19319b9d3
+Description: Modern in-app purchase cracker
+Name: Satella
+Author: Lilliana
+Icon: https://paisseon.github.io/icons/satella.png
+SileoDepiction: https://paisseon.github.io/depictions/Satella.json
+Depiction: Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
 
 Package: love.litten.amonglock
 Architecture: iphoneos-arm
@@ -2934,6 +3434,27 @@ Author: jjolano
 
 Package: me.jjolano.shadow
 Architecture: iphoneos-arm
+Version: 3.5.6
+Section: System
+Maintainer: jjolano
+Installed-Size: 1244
+Provides: me.jjolano.shadow.beta
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta
+Replaces: me.jjolano.shadow.beta
+Filename: ./debians/Tweaks/Sh4dow/me.jjolano.shadow_3.5.6_iphoneos-arm.deb
+Size: 171254
+MD5sum: b102dd9cc5f4ef18a1c36b661800b417
+SHA1: 39699adb8b268ec7feec172b1abfa177bf25d7c3
+SHA256: 186cb1a1bd379a1218924dc92a4a0b10a6a5d383bf277a3ebe406938e19f0da5
+SHA512: e19ca7941bdf1d10862303d86189617601f50122f9c268057658a390014c4f5c636fdb07a2c2bf8eb28f524229cecdfdaf933523e1e21a91c509d16f4c1dbbaa
+Description: A modern jailbreak detection bypass for jailbroken iOS.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm
 Version: 3.6.0
 Section: System
 Maintainer: jjolano
@@ -2949,6 +3470,27 @@ MD5sum: a19c1432ce47a3a9ee21446507eed8aa
 SHA1: b6c29fde6f533b6e7f6316fe85916e636b0d3cd3
 SHA256: 6b7e445751e25caaecc50fc3b2565c0fad34c565c0b0d9471f7ac90fa70db7f3
 SHA512: 72cc45cbca244f084cd04dc00706c1daf33e9907806bf8490d3191f8bae246b22015ad98e1c39557a76892c6706621200379dd9df81f67300a25a13a9a4421c5
+Description: A modern jailbreak detection bypass for jailbroken iOS.
+Name: Shadow
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm
+Version: 3.6.1
+Section: System
+Maintainer: jjolano
+Installed-Size: 1380
+Provides: me.jjolano.shadow.beta
+Depends: firmware (>= 8.0), mobilesubstrate, dpkg, com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit (>= 0.1.5)
+Recommends: preferenceloader
+Conflicts: me.jjolano.shadow.beta
+Replaces: me.jjolano.shadow.beta
+Filename: ./debians/Tweaks/Sh4dow/me.jjolano.shadow_3.6.1_iphoneos-arm.deb
+Size: 153378
+MD5sum: 6827e27d61d9ad8a49a58ec9ae2a8e64
+SHA1: aa7ffbbe7c8c3f5aa7bd8b0300a89295093e726a
+SHA256: d570985593c4beeac7dd046769d1a3107fe11b59102ca3a758684e9aea0a21f0
+SHA512: ff7ad5c9cd59503d1a2c28e811b4c91966ca23e5c54e461c0a6cee9bce538f37f5dfe44cea784be1aeb5237d8e122439b38a04a81ec82ab440e58dca792764f2
 Description: A modern jailbreak detection bypass for jailbroken iOS.
 Name: Shadow
 Author: jjolano
@@ -3268,6 +3810,26 @@ Name: SnowBoard
 Author: Spark & Dennis D. Bednarz <info@sparkdev.me>
 Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
 Depiction: https://chariz.com/get/snowboard
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm
+Version: 1.5.1~Beta1
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 5108
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debians/Tweaks/Snowboard/com.spark.snowboard_1.5.1~Beta1_iphoneos-arm.deb
+Size: 1600416
+MD5sum: 63829b6cb64204bf7954f70cdcd578de
+SHA1: ceb456f0a5a563584820c8ab81663c0228f2d002
+SHA256: 18a4c5b43db3caa1c4a380fc795afa1fd0d4907a671ed4c5fbdbc34eb4eb33a0
+SHA512: 3d1b1f0911270a497c1f58f4983cb440cae9218498bcd8b3c991462c6f3da37fca9a39d13c2cd6b2038eac2cbce245e0d749bb8a0489591495e80446a77f1b81
+Description: Snowboard theming engine
+Name: SnowBoard
+Author: Spark & Dennis D. Bednarz
 
 Package: com.ichitaso.spenabler
 Architecture: iphoneos-arm
@@ -3865,6 +4427,27 @@ Name: libFLEX
 Author: Tanner Bennett <thepantsthief@me.com>
 Depiction: https://nscake.github.io/package.html?package=libflex
 SileoDepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
+Package: com.gamegod.igg
+Architecture: iphoneos-arm
+Version: 0.2.5
+Section: Uygulama
+Maintainer: iGameGod
+Installed-Size: 184304
+Depends: mobilesubstrate (>= 0.9.5000), FIRMWARE (>= 13) | applist
+Filename: ./debians/Tweaks/iGameGod/com.gamegod.igg_0.2.5_iphoneos-arm.deb
+Size: 51462188
+MD5sum: ed51f041a2404be718f03514e7de7e20
+SHA1: 71080a6bf57a7096d230989fbbc84acc1f015154
+SHA256: ee2aa8ea66c5f74eb71f57e745e1c90a1a2ad081489fa0e29f18627ce1f25a70
+SHA512: 0ba9c8cffe6316e9dd8a96070a4dbd0bd71688e71b25fe8bf3f2aa8dbffccac9c3bf691bad9cd26e9f6c14e6736cd229851940366062884a197a095c1410853a
+Description: Hile kolsuz işidir
+ -turannul
+ Bu tweak iPA almak için kullanılabilir,
+ Libhooker jailbreaklarda çalışıyor.
+Name: iGameGod
+Author: iGameGod
+Icon: https://turannul.github.io/home/resources/younoob.png
 
 Package: com.gamegod.igg
 Architecture: iphoneos-arm
