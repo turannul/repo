@@ -1651,7 +1651,7 @@ Maintainer: Julio
 Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
 Conflicts: xyz.cypwn.ct4-extra
 Replaces:  xyz.cypwn.ct4-extra
-Filename: ./debians/Tweaks/CrackTool4/CT4+Cypwn extra 1.0.1.deb
+Filename: ./debians/Tweaks/CrackTool4/CT4_cypwnextra_1.0.1.deb
 Size: 1965880
 MD5sum: aca879923375f10a6282552316a722c2
 SHA1: e99dda21aab2bf9f89f7e2a4a4245c146f665908
