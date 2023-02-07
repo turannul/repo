@@ -1480,7 +1480,7 @@ Section: System
 Maintainer: level3tjg <tjaygrantham@gmail.com>
 Installed-Size: 560
 Depends: firmware (>=11.0), preferenceloader, applist, com.fouadraheb.appdata
-Filename: ./debians/Tweaks/Bfdecrypt /com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Bfdecrypt/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
 Size: 68624
 MD5sum: 5666c6c7fcb18d9f811d67807c7ee267
 SHA1: cecc1223233eaba29ff58d2305abf7f8e8373bed
@@ -1498,7 +1498,7 @@ Section: Tweaks
 Maintainer: level3tjg
 Installed-Size: 388
 Depends: mobilesubstrate, com.opa334.altlist, firmware (>=11.0)
-Filename: ./debians/Tweaks/Bfdecrypt /com.level3tjg.bfdecrypt_1.3.4_iphoneos-arm.deb
+Filename: ./debians/Tweaks/Bfdecrypt/com.level3tjg.bfdecrypt_1.3.4_iphoneos-arm.deb
 Size: 69810
 MD5sum: 7d485a5623d1fac60940178162705f55
 SHA1: 0bf3c243278d5d7ed14089ad056c0e5163df0000
@@ -1607,41 +1607,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cocoatop64
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: domo
 Icon: https://turannul.github.io/home/resources/cocoatop.png
-
-Package: com.muirey03.cr4shed
-Architecture: iphoneos-arm
-Version: 4.3.0
-Section: Tweaks
-Maintainer: Muirey03
-Installed-Size: 1384
-Depends: mobilesubstrate, com.muirey03.libmryipc, cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Filename: ./debians/Tweaks/Cr4shed/com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb
-Size: 149078
-MD5sum: 293df1ba4eea1c3787ff31c0114725a7
-SHA1: 30aa8b231bb41dca965c57218918d307babe375d
-SHA256: 7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049
-SHA512: 0214d967a516afda8b2d95206642f226695aa6f942d8be983243683a5960556c69f7a7d384b2d99f653cab9e7cf0ca6e3c552073c96dd07648327f6ab1c8548b
-Description: A modern crash reporter for iOS
-Name: Cr4shed
-Author: Muirey03
-
-Package: com.muirey03.cr4shedd
-Architecture: iphoneos-arm
-Version: 4.2.2
-Section: Tweaks
-Maintainer: Muirey03
-Depends: mobilesubstrate, com.muirey03.libmryipc, com.cokepokes.libnotifications (>= 0.2-2), cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Conflicts: com.muirey03.cr4shed
-Filename: ./debians/Tweaks/Cr4shed/com.muirey03.cr4shedd_4.2.2_iphoneos-arm.deb
-Size: 218236
-MD5sum: 9cf0cb01aba4885604fc4f2079bf6844
-SHA1: 44e18a9dbc99301187b3fbe6fd523314f9a3972f
-SHA256: 2b2db83bb9ea012b753351738eafdbb48b446750d745be1ad75d1195dae89e2b
-SHA512: 362c0cecc9776fad9808a42bb3880d3dc791e526cc78e6da3503e1b0a3f93d820ddca17d29f9bd6e01e516e6b84ca779adcd621b25f09ecb4994a874fb397244
-Description: If you don't know there is a problem, there is no problem. Jetsam is the version with alerts turned off.
-Name: Cr4shed
-Author: Muirey03
-Icon: https://turannul.github.io/home/resources/crashed.png
 
 Package: com.julioverne.cracktool4
 Architecture: iphoneos-arm
