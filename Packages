@@ -507,6 +507,23 @@ SileoDepiction: N/A
 Name: CellularX
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: xyz.turannul.cydiaiconfix
+Architecture: iphoneos-arm
+Version: 1
+Section: Scripts
+Maintainer: turannul
+Depends: cydia (<= 1.1.36), com.bingner.plutil, gawk, xyz.turannul.givemeroot
+Filename: ./debians/MyTweaks/CydiaIconFix/iconfix.deb
+Size: 1876
+MD5sum: 75827537c60a5f714d91c805e06e53d1
+SHA1: 79c2844964e95b36dfdde70d17138b7b3a026a3b
+SHA256: 91a17c0d036ef075691c777bff99cf8edb5827d5da8489367ea4f39ba28a0dac
+SHA512: 65d43157b722728954e4492fb125327fef9240dc3dc116c55e4d0527a6ce0bee786096e97931ce7c29e15522356330af2afda2aa5177acacc17d9485239e8ec6
+Description: Make Cydia great again! (by removing ugly 4s icon) Usage: Run cyfix command on any terminal
+Name: Cydia Icon Fix
+Author: turannul
+Icon: n/a
+
 Package: xyz.turannul.pxlbattery
 Architecture: iphoneos-arm
 Version: 1.0.0
