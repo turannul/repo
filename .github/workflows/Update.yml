@@ -1,4 +1,14 @@
 name: Update_Packages
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 on: [push]
 jobs:
   Update_Packages:
@@ -20,20 +30,8 @@ jobs:
           git add .
           git commit -m "Packages updated. <Auto Action>"
           git push
-#You can edit (if you want to) email,username & message.
-name: Deploy to Pages
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-jobs:
+# You can edit (if you want to) email,username & message.
+# Simple workflow for deploying static content to GitHub Pages
   deploy:
     environment:
       name: github-pages
