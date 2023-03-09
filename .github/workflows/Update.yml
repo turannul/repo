@@ -20,31 +20,17 @@ jobs:
         run: |
           chmod +x ./updaterepo.sh
           ./updaterepo.sh
-      - name: Commit Files
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: github-actions[bot]
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
-          message: "Packages updated. <Auto Action>"
-          add: .
-      - name: Push Changes
-        run: |
-          git push
-
-      #- name: Set up Git
-       # run: |
-        #  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        #  git config user.name "Turann's bot"
-        #  git add .
-        #  git commit -m "Packages updated. <Auto Action>"
-        #  git push
-# You can edit (if you want to) email,username & message.
-# Simple workflow for deploying static content to GitHub Pages
+      - run: git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git config user.name "github-actions[bot]"
+      - run: git add .
+      - run: git commit -a -m "Packages updated. <Auto Action>"
+      - run: git push
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: Update_Packages 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
