@@ -28,11 +28,8 @@ jobs:
           message: "Packages updated. <Auto Action>"
           add: .
       - name: Push Changes
-        uses: EndBug/push@v2
-        with:
-          branch: ${{ github.head_ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push
 
       #- name: Set up Git
        # run: |
