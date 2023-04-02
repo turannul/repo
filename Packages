@@ -271,19 +271,20 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.cydiaiconfix
 Architecture: iphoneos-arm
-Version: 1
+Version: 0.0.4
 Section: Scripts
-Maintainer: turannul
+Maintainer: Turann_
 Depends: cydia (<= 1.1.36), com.bingner.plutil, gawk, xyz.turannul.givemeroot
 Filename: ./debians/MyTweaks/CydiaIconFix/iconfix.deb
-Size: 1876
-MD5sum: 75827537c60a5f714d91c805e06e53d1
-SHA1: 79c2844964e95b36dfdde70d17138b7b3a026a3b
-SHA256: 91a17c0d036ef075691c777bff99cf8edb5827d5da8489367ea4f39ba28a0dac
-SHA512: 65d43157b722728954e4492fb125327fef9240dc3dc116c55e4d0527a6ce0bee786096e97931ce7c29e15522356330af2afda2aa5177acacc17d9485239e8ec6
-Description: Make Cydia great again! (by removing ugly 4s icon) Usage: Run cyfix command on any terminal
+Size: 1936
+MD5sum: 33bc529b1463a003280bfa320ccc8da3
+SHA1: a7cffeadb3bf238ea482ab31b0088c01d3354dc2
+SHA256: cd4f8b1956b774fb836979abd7efc83a511702b622f606fdc013666b7ed8eedd
+SHA512: 5438cbdcaeab6bc198b5c0c63615636a0dcb832bedda6347815dfd42b80d5ae3fa66a4847affd6ee038ca48f9a3478568f3a85ba51e1ec57178da731f1c67e8d
+Description: Make Cydia great again! (by removing ugly 4s icon) 
+  Usage: Run cyfix command on any terminal
 Name: Cydia Icon Fix
-Author: turannul
+Author: Turann_
 Icon: n/a
 
 Package: xyz.turannul.pxlbattery
@@ -433,6 +434,24 @@ Author: turannul
 SileoDepiction: https://turannul.github.io/repo/depictions/native/xyz.turannul.uptime/depiction.json
 Name: uptime2
 Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: xyz.turannul.givemeroot
+Architecture: iphoneos-arm
+Version: 2.0.0
+Section: Terminal Support
+Maintainer: Turann_
+Installed-Size: 132
+Depends: firmware (>= 11.0), zsh | zsh2
+Filename: ./debians/MyTweaks/gimmeroot/xyz.turannul.givemeroot_2.0.0_iphoneos-arm.deb
+Size: 3810
+MD5sum: a9b312b498d457884a6d049777c11b00
+SHA1: 9d9e590bbcd391b527f5b8b08b0d9cc072d61b95
+SHA256: e12041ee2ac8f91e5806f74e53c0b6cbcc08f131b8a0da0132910733913f9d81
+SHA512: f7af5c0ee204d6446405149d4c10211a22338317ab254b15735bac05f23d0c8ae9930971e5ec48306307655654564c46ea7cbd031614a1e6813ea4c4ccb2be22
+Description: password less su/[do], created from Randy420's reversed gap. 
+  Usage: tnl <command> [args]
+Name: tnl
+Author: Turann_
 
 Package: me.apptapp.installer
 Architecture: iphoneos-arm
@@ -983,6 +1002,27 @@ Name: Upmem
 Author: Moose <gathering011@gmail.com>
 Depiction: https://memoose.github.io/repo/depic/Upmem/upmem.html
 Icon: https://turannul.github.io/home/resources/tweak.png
+
+Package: zsh2
+Architecture: iphoneos-arm
+Version: 5.9
+Priority: optional
+Section: Terminal Support
+Maintainer: Turann_
+Pre-Depends: curl, git
+Depends:
+Recommends: ws.hbang.newterm3
+Replaces: zsh
+Filename: ./debians/Scripts/zsh2/zsh2.deb
+Size: 1523292
+MD5sum: cf313abca3482590d929440a7dc91809
+SHA1: cbad504787a3d3ce8fff557e522bd9365e184141
+SHA256: 16d6b66ef7d22fa1185f67e10054783c1ab55c4998c256fd9eb8095d29f7e631
+SHA512: 0ee19868135e8a9fcb97bc6cc083582f78db57022d2593a406fea1d3cd1ff871068a1958f8e04c06f1511b240cfeac7dad976c85b54ed47d9778323878399b7c
+Description: (Thanks to Procursus) zsh 5.9 on checkra1n/unc0ver! 
+ [Optional] Also includes oh-my-zsh install script:`omzi`.
+Name: Z-Shell 2
+Author: Procursus Team <support@procurs.us>
 
 Package: xyz.turannul.adblockplusplus
 Architecture: iphoneos-arm
