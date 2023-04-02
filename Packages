@@ -1013,12 +1013,12 @@ Pre-Depends: curl, git
 Depends:
 Recommends: ws.hbang.newterm3
 Replaces: zsh
-Filename: ./debians/Scripts/zsh2/zsh2.deb
-Size: 1523292
-MD5sum: cf313abca3482590d929440a7dc91809
-SHA1: cbad504787a3d3ce8fff557e522bd9365e184141
-SHA256: 16d6b66ef7d22fa1185f67e10054783c1ab55c4998c256fd9eb8095d29f7e631
-SHA512: 0ee19868135e8a9fcb97bc6cc083582f78db57022d2593a406fea1d3cd1ff871068a1958f8e04c06f1511b240cfeac7dad976c85b54ed47d9778323878399b7c
+Filename: ./debians/Scripts/zsh2/zsh2_5.9_iphoneos-arm.deb
+Size: 2335744
+MD5sum: af2da3ff7eb50e6d3edd0f5847a1a260
+SHA1: 98dcdc71205bf43098ed08103dd500b68514822b
+SHA256: dcfa05000f527ed7c65dc24527c7566fe7e9c96bf8e4969c85db56a2471a9512
+SHA512: f9bdabca1a239f9662ae65c663bbf3fe1b2da6e082125e64dbf503df8ff100cbb06dfac5e0d3b2bc9be6bf292bbfba1e8f727d73b21cb3ccffa734b59a9833d4
 Description: (Thanks to Procursus) zsh 5.9 on checkra1n/unc0ver! 
  [Optional] Also includes oh-my-zsh install script:`omzi`.
 Name: Z-Shell 2
