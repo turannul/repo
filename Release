@@ -1,7 +1,7 @@
 Architectures: any
 Codename: any
 Components: main
-Date: Sun, 02 Apr 2023 00:27:33 +0000
+Date: Sun, 02 Apr 2023 00:40:57 +0000
 Description: Nobody reads this lol
 Label: Turann_'s Repo 
 Origin: Turann_'s Repo 
@@ -10,28 +10,28 @@ Version: 2.0
 MD5Sum:
  6c159973c782b7d43cb17fa545100f97           222743 Packages
  ff521ff9e96a6ed17af58faa844c6810            59377 Packages.bz2
- afb6bb7775f9c1b07dcbd593fa2a0aa7            70258 Packages.gz
+ 7e4044b00cfdd6e70c98ae059eb843c8            70258 Packages.gz
  5fcf08c7de92e06b6eb6b56bc02f7f38            59324 Packages.xz
  ea0ab8ca9d66cbc3c702af75a2c507a0            60549 Packages.zst
- 0fe7231fbb323ae6311dc9da55614c85              197 Release
+ 56aea92fd3b67bc78b87c39c631a397a              197 Release
 SHA1:
  88d7deee5c37ebd174919944d92257afd2363412           222743 Packages
  2567f4776181e4dfa78d6936b983c59cf4885b90            59377 Packages.bz2
- 4bf8111f085b9f42973907aa8864fcc1564ec004            70258 Packages.gz
+ e5ed4bd8388142244dfa8f48de5095586710722f            70258 Packages.gz
  af9e7096c5dfc1173a8cf6f8829e1a23db3b70ff            59324 Packages.xz
  0c33ceae2efe7b63de1493694cc08eaba8d219ad            60549 Packages.zst
- 0f051e8719f9a53dd5e2b571e2dde3cd8510f172              197 Release
+ 1c508faa032c3ed51aceb4db866c6cf54f823d71              197 Release
 SHA256:
  c8b86d9fdbb486783c05393b649b9669a2bcbcc6bff7d00df274b94cfb445fab           222743 Packages
  fd28a0085c7436e1b11c6e031c808a4cd37deae98e8df586d6fda88b08405211            59377 Packages.bz2
- 4d6f6f7afc796e7ff99f75abc972bffe83bf889fc44dcb58885310bb2cc0f143            70258 Packages.gz
+ ac480fff47fcd3c253c8617973960dcc5d5d61617b0d7e398bf74880428b249d            70258 Packages.gz
  4ee3819f04944ed32d3060f4bd7df0a83b18274b9be317aa9d0a7fe3925dbbc0            59324 Packages.xz
  ec9ffc6abbb4bac605a3e974822ca1588a18bb94ac51f6a4e3d60ea30ad8612b            60549 Packages.zst
- cfa8723bcae41cd8112417d0917334ca5c08f13eb6e5b3f81ead8a080bfa3102              197 Release
+ d7a2f53b8e8c097d8525431df8758e70fd11c44711b7afc7581a938ab86033ae              197 Release
 SHA512:
  bb99f59f1f6b84c828825f346aad542288d82350382390b691fbbde8b80adbe114a56cb1f75333b4ebb5d13f3f38c69fa0231a71ec3b713e96ebfbb809c3f135           222743 Packages
  83420e04d3c3e8631a7d6653008bcb8dcf42b249296fe1507e5425e684e00901fe6a6a205b2b341ae7503c0010b8e07426c7e4cdf322b599f7a687f2e59ff42a            59377 Packages.bz2
- 630fdca8f351e7f39e16b772c3c7fff694b0a1b75112fa1bfbfc505262e835708f18fc10eb10ae3f22bcd360924d3aa1d92f150e026e7f8083f70c622fa22560            70258 Packages.gz
+ 4b1cb029e37e1a623260d54cfa56c2cf0c96379929daea062e6ede7d0153ab09558e0375915e5baadc468547e1cba4bf9e0cabe85a6b38880d443e1a71fcfe3d            70258 Packages.gz
  fe8a63bd000a1ca781e38d27b9ccecf914f0835ce1e15361a1934baf3fabb8c3039e8347a5636668b4475d2d42d082a3d11db637d2181864afd93b52e25db0cd            59324 Packages.xz
  6a586ad1a689136ae89e915b7a6d9384acf590bd7fbfec6bbeb908e118ad862fe7594299bb9344bd18aec2e314956c3b7edfc7a1bb005d1dd96edb51895d20eb            60549 Packages.zst
- a762270b892ed1423872f008ac5bf59ad67b205a6b1976a3d47d1f67b8dda267a5dda0d1f8d8b7429f9ad8917f5b0afcf361680a136e2cd99905b8ec9fdedb05              197 Release
+ e54fecc039e52b0b875c748ecbaae7fc775be5478725aeeed8df2882c4621aacdfa3f11008b70e42f6ad3167eb640cda7586659630ca1395a2fa0ead02213548              197 Release
