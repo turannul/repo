@@ -491,40 +491,24 @@ Icon: https://turannul.github.io/home/resources/tweak.png
 
 Package: xyz.turannul.forgetyourupdates
 Architecture: iphoneos-arm
-Version: 1.1~(3)
+Version: 1.1~5
 Section: Tweaks
 Maintainer: Turann_
 Installed-Size: 136
 Depends: preferenceloader, mobilesubstrate, bash, launchctl
 Replaces: xyz.turannul.updateblockr
-Filename: ./debians/MyTweaks/forgetyourupdate/xyz.turannul.forgetyourupdates_1.1~(3)_iphoneos-arm.deb
-Size: 4222
-MD5sum: 0c945672ea4ccf2c46cb7fae96d34baa
-SHA1: 69825cd6b5455ea2713471757a5209f9f8ceae88
-SHA256: 6e68ed623a78757c6afe8866edb64519250b28c77e990c610aac9d57b1c27584
-SHA512: 3be8fcc039a48dade700dbcf7bd8368c14537b7d5cfc92f83f18ae6a79b017a57be5b22cd9a3017155d4ab1153c66a70c36d2eef15d8fdc6eb96e37416975bd4
-Description: Features:
+Filename: ./debians/MyTweaks/forgetyourupdate/xyz.turannul.forgetyourupdates_1.1~5_iphoneos-arm.deb
+Size: 4140
+MD5sum: b460d4c89a634db8b3f655394f5d1d49
+SHA1: 27ab1a3e65a4e17e6db18219adac8605e4baf0e2
+SHA256: f7baafbb74e6592fe7057fe1b74115eccaa3e2e2ea3784bed856aad78f477ec4
+SHA512: a3a0d6a78b80ce7c0eb30a7bfc4d2690cc1487f8fbf705b25a70a2647148f310fd0da380d160317c3e4b2e30ce28a210e89deb4774ade3aa7c7b7041bdd2acba
+Description: 
  Disable updates, Removes Software Update preference in Settings/General.
  Now open source, you can find the codes here > https://github.com/turannul/ForgetYourUpdate
+Conflict: xyz.turannul.updateblockr
 Name: Forget Your Update
 Author: Turann_
-
-Package: xyz.turannul.updateblockr
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: Tweaks
-Maintainer: turannul <>
-Installed-Size: 136
-Depends: firmware (>= 9.0)
-Filename: ./debians/MyTweaks/forgetyourupdate/xyz.turannul.updateblockr_0.0.1_iphoneos-arm.deb
-Size: 3956
-MD5sum: 6a9ac7e3489bbdc3ca4c2c7c78ba635e
-SHA1: 7d9c7b3921f1deaed004b5ed64a115f8961e2926
-SHA256: d6f60df8226a4fd7d2105bbd7b0d1d24287bc7f0ebad8ea644922e0c9a1189c2
-SHA512: 36243b7faf8e663a6e7d1478e23fd148cd2483d02417376e59db6b6fcb52828a9140c23b95bb3333088fd2288973b510b9583faca096c94aa1f431e64c43440a
-Description: Disable updates using icleaner method + remove from settings
-Name: UpdateBlockr
-Author: turannul <>
 
 Package: xyz.turannul.givemeroot
 Architecture: iphoneos-arm
