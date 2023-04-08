@@ -1,4 +1,10 @@
 name: Update Full
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on: [push]
 jobs:
   update:
@@ -10,8 +16,8 @@ jobs:
         run: |
           chmod +x ./updaterepo.sh
           ./updaterepo.sh
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add .
-          git commit -a -m "Packages updated. <Auto Action>"
-          git push
+      - run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: git config --global user.name "github-actions[bot]"
+      - run: git add .
+      - run: git commit -a -m "Packages updated. <Auto Action>"
+      - run: git push
