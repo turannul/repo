@@ -423,35 +423,17 @@ Author: Turann_
 
 Package: xyz.turannul.givemeroot
 Architecture: iphoneos-arm
-Version: 2.0.0
-Section: Terminal Support
-Maintainer: Turann_
-Installed-Size: 132
-Depends: firmware (>= 11.0), zsh | zsh2
-Filename: ./debians/MyTweaks/gimmeroot/xyz.turannul.givemeroot_2.0.0_iphoneos-arm.deb
-Size: 3812
-MD5sum: aa0acf8a4d50a6d7b02408096508cebe
-SHA1: 4fa6c98e50930857a5f0609b684dd1aa5a2d4515
-SHA256: 19e782a5afaf28fe15804ee42272066c34dfd50cae6badc9c470e59fc210a452
-SHA512: d5adb5a2ebef3832831e960103db39d3475e521c8323543b9baf53cda37d20751b1b85b1452f3e4873b7f1029933400df030a30cb102f9dff5b8c60c85521e5c
-Description: password less su/[do], created from Randy420's reversed gap. 
-  Usage: tnl <command> [args]
-Name: tnl
-Author: Turann_
-
-Package: xyz.turannul.givemeroot
-Architecture: iphoneos-arm
 Version: 2.0.1
 Section: Terminal Support
 Maintainer: Turann_
 Installed-Size: 132
 Depends: firmware (>= 11.0), zsh | zsh2
 Filename: ./debians/MyTweaks/gimmeroot/xyz.turannul.givemeroot_2.0.1_iphoneos-arm.deb
-Size: 3806
-MD5sum: 87d0dcd6658be43b7773e79b9f5261a8
-SHA1: 4993ae823dc6640c87455b510573342a57829c7a
-SHA256: aa5571ad1925316c5a72d082e34f60660ee760b7f703fe59bab26863b3ab2b56
-SHA512: 76fcd8542f66bebfa7e5c291dff8f0deb2b39eb8ad0e929130aa7f923c592306ef10a40cfdb7a2081aee27c9b220fbb60dd485e8d3e8344ce840bb320c017d3c
+Size: 3790
+MD5sum: 44a7ff4e0e9d59223a41bb843125b642
+SHA1: 738eb0b299c03ce3e5136595d2f59e64ddc767bd
+SHA256: 86f5e36790ad46b8791629d7c959e3a615ef58c525e49740868ea75c86497e77
+SHA512: 09066fd3110afd29c2a12246d0c80fd6d7e2e04b791d4de9ec6c17fbd67cb667cd32fe040d60e644469afac921352292ea2d7ac4dedb4b1971821bd82d131d26
 Description: password less su/[do], created from Randy420's reversed gap. 
   Usage: tnl <command> [args]
 Name: tnl
