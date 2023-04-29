@@ -4941,28 +4941,6 @@ Depiction: https://repo.xyaman.xyz/depictions/index.html?p=libsona
 SileoDepiction: https://repo.xyaman.xyz/depictions/libsona/depiction.json
 Icon: https://repo.xyaman.xyz/depictions/libsona/assets/icon.png
 
-Package: com.muirey03.libmryipc
-Architecture: iphoneos-arm
-Version: 2.0.1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 464
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debians/zStuff/libmryipc_2.0.1.deb
-Size: 28236
-MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
-SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
-SHA256: 206b196b2acae7a0ebe7a82d3197e0f1fd358a1f77138d5e0ca130d67f2cd55e
-SHA512: ce9589692ea7bbb0c9e04aaf3017626062e0d14e8417c5d856534884e7b3057f0f0110303755bb85eeae9359dd3d41adc3146161eb6fe9af71c6186148f8fb09
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
-Description: Easy-to-use, RocketBootstrap-less iOS IPC
-Tag: role::developer, purpose::library, cydia::obsolete
-Name: libMRYIPC
-Author: Muirey03 <tommy.muir@btinternet.com>
-dev: muirey03
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
-
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm
 Version: 0.3-5
