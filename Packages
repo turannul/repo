@@ -305,6 +305,26 @@ Name: PXL Battery
 Author: turannul x Randy420
 Icon: https://turannul.github.io/home/resources/PXL.png
 
+Package: xyz.turannul.pxlbattery
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Turann_
+Installed-Size: 576
+Pre-Depends: firmware (>= 13.0), mobilesubstrate
+Depends: ws.hbang.common (>= 1.17), com.spark.libsparkcolourpicker
+Recommends: com.opa334.ccsupport
+Filename: ./debians/MyTweaks/PXL_Battery/xyz.turannul.pxlbattery_2.0_iphoneos-arm.deb
+Size: 59460
+MD5sum: 5f06dce28eb62899aef7ff82d905a685
+SHA1: fdf4c6827cc351a5ae096526f3c287a77885d010
+SHA256: da4b965bc981fced6d063ca7bc862c39e4edc1b3d3d823881422cda09d1657d9
+SHA512: 45e4c4924d867f6fe20aa40c236a49245b972bd464588da51533fca8f6dacea92d03d8826bcebec7f960971a6f49b858a0f3886948b030e628eca0bfc21cde5a
+Description: Battery indicator
+Name: PXL Battery
+Author: Turann_ x Randy420
+Icon: https://turannul.github.io/home/resources/PXL.png
+
 Package: xyz.turannul.redditpremium
 Architecture: iphoneos-arm
 Version: 1.0
@@ -438,6 +458,25 @@ Description: password less su/[do], created from Randy420's reversed gap.
   Usage: tnl <command> [args]
 Name: tnl
 Author: Turann_
+
+Package: org.favour.mackoliknoads-objc
+Architecture: any
+Version: 2.0.5
+Section: Tweaks
+Maintainer: AppleFavour Team (Turann_ x canpng)
+Pre-Depends: mobilesubstrate
+Recommends: ws.hbang.common (>= 1.17)
+Replaces: xyz.turannul.mackolikpro, xyz.applefavour.mackoliknoads, org.favour.mackoliknoads-swift
+Filename: ./debians/MyTweaks/mack/org.favour.mackoliknoads-objc_2.0.5_any.deb
+Size: 65906
+MD5sum: b85cef924d03202f718c3058a8a7f27f
+SHA1: 9fd254205be43703c14843a17fa27bbe7a3b545f
+SHA256: 8e0915d2f262b3900912a0f0609edcd0be01b1eadb95cabf756ff1eb78f1156c
+SHA512: 15014a7782d047c02ba7378645b5ea442654be8d3d44632f4182ea1d83b6a4efbc3b73157398885a8f252220ee790b0bd71f84ccc7884e4e48a1cc3bbe135f1f
+Description: Make Mackolik great again!
+Name: Mackolik No Ads
+Author: AppleFavour Team (Turann_ x canpng)
+Icon: https://turannul.github.io/home/resources/mackolik.png
 
 Package: me.apptapp.installer
 Architecture: iphoneos-arm
