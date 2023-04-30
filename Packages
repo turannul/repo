@@ -460,19 +460,19 @@ Name: tnl
 Author: Turann_
 
 Package: org.favour.mackoliknoads-objc
-Architecture: any
+Architecture: iphoneos-arm
 Version: 2.0.5
 Section: Tweaks
 Maintainer: AppleFavour Team (Turann_ x canpng)
 Pre-Depends: mobilesubstrate
 Recommends: ws.hbang.common (>= 1.17)
 Replaces: xyz.turannul.mackolikpro, xyz.applefavour.mackoliknoads, org.favour.mackoliknoads-swift
-Filename: ./debians/MyTweaks/mack/org.favour.mackoliknoads-objc_2.0.5_any.deb
-Size: 65906
-MD5sum: b85cef924d03202f718c3058a8a7f27f
-SHA1: 9fd254205be43703c14843a17fa27bbe7a3b545f
-SHA256: 8e0915d2f262b3900912a0f0609edcd0be01b1eadb95cabf756ff1eb78f1156c
-SHA512: 15014a7782d047c02ba7378645b5ea442654be8d3d44632f4182ea1d83b6a4efbc3b73157398885a8f252220ee790b0bd71f84ccc7884e4e48a1cc3bbe135f1f
+Filename: ./debians/MyTweaks/mack/org.favour.mackoliknoads-objc_2.0.5_iphoneos-arm.deb
+Size: 65918
+MD5sum: 528107633a2f741ab4c2d0eec9aefd0b
+SHA1: f12ec562c20f04a8c365a24c8bce7d81f5f426ff
+SHA256: 0e59f0a01b8257523b5b5733e91c78ea7d255e9d20a68cebd104ae8a4a9a4e49
+SHA512: 96326579f4b01f32a654357be84e7ac59ab1c9f021f84cbc974f076bf685e92682e5fcf03c0eeba8dc553ea6b2a01a2aa976b980d0551b08b7b24999c80c72d4
 Description: Make Mackolik great again!
 Name: Mackolik No Ads
 Author: AppleFavour Team (Turann_ x canpng)
