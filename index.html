@@ -2,99 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<meta name="viewport" content="user-scalable=yes" content="width=device-width, initial-scale=1">
-<meta name="apple-mobile-web-app-capable" content="yes">
-    <title> Turann_'s Place </title>
-	<link rel="stylesheet" type="text/css" href="./web/css/animate.css"/>
-	<link rel="stylesheet" type="text/css" href="./web/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Turann_'s Place</title>
+    <link rel="stylesheet" type="text/css" href="./web/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="./web/css/style.css"/>
 </head>
 <body>
-   <div class="animated fadeInDown" id="topnavbar">
-<br>
-<br>
-<div id="supporticons">
-        <div class="hovershadow" id="emailicon" onclick="location.href='mailto:turanull000@gmail.com'">    
+    <div style="margin-left: 30px; margin-right: 30px" class="filter animated fadeInUp" id="clickto">
+        <div style="margin-top: 60px; margin-bottom: 90px;" class="animated fadeIn2">
+            <div style="margin-top: 30px; margin-bottom: 25px; margin-left: 25px; margin-right: 40px" class="row zoom animated swirlcydia">
+                <div class="cydiablur zoom">
+                    <div class="cydiablur-inside">
+                        <img onclick="location.href='cydia://url/https://cydia.saurik.com/api/share#?source=https://turannul.github.io/repo';" src="./web/cydiaicon.png" style="width: 125px; height: 125px" class="filter">
+                    </div>
+                </div>
+                <div class="filter animated fadecydia" id="caption"></div>
+            </div>
+            <div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlsileo">
+                <div class="sileoblur zoom">
+                    <div class="sileoblur-inside">
+                        <img onclick="location.href='sileo://source/https://turannul.github.io/repo';" src="./web/sileoicon.png" style="width: 125px; height: 125px" class="filter">
+                    </div>
+                </div>
+                <div class="filter animated fadesileo" id="caption"></div>
+            </div>
+            <div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlzebra">
+                <div class="zebrablur zoom">
+                    <div class="zebrablur-inside">
+                        <img onclick="location.href='zbra://sources/add/https://turannul.github.io/repo';" src="./web/zebraicon.png" style="width: 125px; height: 125px" class="filter">
+                    </div>
+                </div>
+                <div class="filter animated fadezebra" id="caption"></div>
+                <div class="filter animated fadeinstaller" id="caption"></div>
+            </div>
         </div>
-        <div class="hovershadow" id="githubicon" onclick="location.href='https://github.com/turannul'">       
-        </div>
-<!---
-        <div class="hovershadow" id="redditicon" onclick="location.href='https://reddit.com/user/ImNotTuran'">       
-        </div>
-
-        <div class="hovershadow" id="twittericon" onclick="location.href='https://mobile.twitter.com/username'">       
-        </div>
---->
-</div>
-   </div>
-<div class="headhov">
-    <div class="animated count pulse" id="header" onclick="location.href='https://turannul.github.io/repo'">
     </div>
-</div>
-    <div class="filter animated fadeInUp" id="repotitle">
-        Turann_'s Place
-    </div>
-    <div class="filter animated fadeInUp" id="repodesc">
-        Hello, you can add my repo using icons below.
-    </div>
-	<center>
-<br>
-<img src="./web/tag.png" style="width: 100px; height: 100px" class="filter animated fadeInUp">
-<br>
-   </center>
-</div>
-  <div style="margin-left: 30px; margin-right: 30px" class="filter animated fadeInUp" id="clickto">
-<div style="margin-top: 60px; margin-bottom: 90px; class="animated fadeIn2">
-<div style="margin-top: 30px; margin-bottom: 25px; margin-left: 25px; margin-right: 40px" class="row zoom animated swirlcydia">
- <div class="cydiablur zoom">
-  <div class="cydiablur-inside">
-    <img onclick="location.href='cydia://url/https://cydia.saurik.com/api/share#?source=https://turannul.github.io/repo';" src="./web/cydiaicon.png" style="width: 125px; height: 125px" class="filter">
-  </div>
- </div>
-<div class="filter animated fadecydia" id="caption">Cydia</div>
-</div>
-<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlsileo">
- <div class="sileoblur zoom">
-  <div class="sileoblur-inside">
-    <img onclick="location.href='sileo://source/https://turannul.github.io/repo';" src="./web/sileoicon.png" style="width: 125px; height: 125px" class="filter">
-  </div>
- </div>
-<div class="filter animated fadesileo" id="caption">Sileo</div>
-</div>
-<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlzebra">
- <div class="zebrablur zoom">
-  <div class="zebrablur-inside">
-    <img onclick="location.href='zbra://sources/add/https://turannul.github.io/repo';" src="./web/zebraicon.png" style="width: 125px; height: 125px" class="filter">
-  </div>
- </div>
-<div class="filter animated fadezebra" id="caption">Zebra</div>
-</div>
-<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 25px" class="row zoom animated swirlinstaller">
- <div class="installerblur zoom">
-  <div class="installerblur-inside">
-    <img onclick="location.href='installer://add/repo=https://turannul.github.io/repo';" src="./web/installericon.png" style="width: 125px; height: 125px" class="filter">
-  </div>
- </div>
-<div class="filter animated fadeinstaller" id="caption">Installer</div>
-</div>
-<div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 25px" class="row zoom animated swirlinstaller">
- <div class="installerblur zoom">
-  <div class="installerblur-inside">
-    <img onclick="location.href='apt-repo://https://turannul.github.io/repo/';" src="./web/sailyicon.png" style="width: 125px; height: 125px" class="filter">
-  </div>
- </div>
-<div class="filter animated fadeinstaller" id="caption">Saily</div>
-</div>
-	<center>
-<br>
-<img src="./web/tag.png" style="width: 100px; height: 100px" class="filter animated fadeInUp">
-<br>
-   </center>
-<br> 
-<br>
-<!-- 
-<div class="footer"data-aos="zoom-in" data-aos-duration="1000" once=true>
-    <footer>turannul [c] 2023 All Rights Reserved.</footer>
-</div>
--->
 </body>
 </html>
