@@ -1,4 +1,0 @@
-path=$(pwd)
-cd $path
-
-apt download me.apptapp.installer --allow-unauthenticated
