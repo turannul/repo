@@ -513,18 +513,18 @@ Package: org.favour.mackoliknoads-objc
 Architecture: iphoneos-arm
 Version: 3.0.2-1
 Section: Tweaks
-Maintainer: AppleFavour Team
+Maintainer: AppleFavour
 Installed-Size: 168
 Pre-Depends: mobilesubstrate
-Filename: ./deb_files/MyTweaks/macko/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm.deb
-Size: 4658
-MD5sum: 65b9e6123f2396172700eb4be0a8cb37
-SHA1: b5fdf70328c26badb15d8b379902336e571f6499
-SHA256: 21afa7f341e8384553a9db4176a85a50071902a06acf0754e564e0f3a3e486ff
-SHA512: ca6cbcf5d0c4c1ca4cffaefa102cdff3673733f9d557ad8be9ea6be6d8637633235d6506fa2c13001e4fa321ce4c108c423c905ea1de7cae2dd7d2ab8fab9256
+Filename: ./deb_files/MyTweaks/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm.deb
+Size: 4654
+MD5sum: aeb5a381e496dcffceecbb7f6c1a4092
+SHA1: f59a9a576edfca3accaca78e13a1b7332bfa01eb
+SHA256: 67397e504f24dcb413f9baecfcea4d1345bd8f6cd60c139ed5c1d3b0d435e7be
+SHA512: 8f4c526da7220fa64f9e649d05261cc8a40154922494141c039d95bbe2c41f5380c7deffb18bf8caa10953b21a78434b4d03aca8844503e412ce0a5ce820850c
 Description: Make Mackolik great again!
 Name: Mackolik No Ads
-Author: AppleFavour Team
+Author: AppleFavour
 Icon: https://turannul.github.io/home/resources/mackolik.png
 
 Package: xyz.turannul.azule
