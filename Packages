@@ -279,6 +279,24 @@ Description: A font from Android 4
 Name: Rosemary
 Author: unknown
 
+Package: org.favour.nowatusialert
+Architecture: iphoneos-arm
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: AppleFavour
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./deb_files/MyTweaks/BeQuietWatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm.deb
+Size: 4710
+MD5sum: 24ae0641e46742c3523a80c273ea349b
+SHA1: d0eff5e642a80e0a83325bc1f273956f391d1d36
+SHA256: fc29d2597734c966f34047b338f0fb0f84f2f9a8a4fdbf13d00eb48316efa7fc
+SHA512: 396404dca80208ffd434124ebc4284f963011ddd41b1564c929708f48e8419a63e13d53e9d231b366896e6df81475d9ecb4bfad19a77070d26ada8eddd8c4150
+Description: Unveiling an alert with a touch of magic.
+Name: BeQuietWatusi
+Author: AppleFavour
+Icon: https://turannul.github.io/home/resources/whatsapp.png
+
 Package: xyz.turannul.cellularx
 Architecture: iphoneos-arm
 Version: 1.0
@@ -493,17 +511,17 @@ Author: Turann_
 
 Package: org.favour.mackoliknoads-objc
 Architecture: iphoneos-arm
-Version: 3.0.1
+Version: 3.0.2-1
 Section: Tweaks
 Maintainer: AppleFavour Team
 Installed-Size: 168
 Pre-Depends: mobilesubstrate
-Filename: ./deb_files/MyTweaks/macko/org.favour.mackoliknoads-objc_3.0.1_iphoneos-arm.deb
-Size: 4776
-MD5sum: 4703e8321a63309010da9acecaab8070
-SHA1: ac9402108040311b42c5f4a76c03313812e42573
-SHA256: 06c8779c8dd8f1baf7ef73516ee6108a8158d1b4b31ed98d2397dd46b381dfa5
-SHA512: 87358e2cd5f53555064e6925a8337b4343aa038b810fe1328a7296d4973c4d45201c62e3861688f8af628b0e5ca65c95441d6c877be3cee01471ce6a39cfacef
+Filename: ./deb_files/MyTweaks/macko/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm.deb
+Size: 4658
+MD5sum: 65b9e6123f2396172700eb4be0a8cb37
+SHA1: b5fdf70328c26badb15d8b379902336e571f6499
+SHA256: 21afa7f341e8384553a9db4176a85a50071902a06acf0754e564e0f3a3e486ff
+SHA512: ca6cbcf5d0c4c1ca4cffaefa102cdff3673733f9d557ad8be9ea6be6d8637633235d6506fa2c13001e4fa321ce4c108c423c905ea1de7cae2dd7d2ab8fab9256
 Description: Make Mackolik great again!
 Name: Mackolik No Ads
 Author: AppleFavour Team
