@@ -26,6 +26,14 @@ jobs:
           chmod +x update_all.bash
           ./update_all.bash
 
+      #- name: Commit changes
+      #  run: |
+      #    git config --local user.email "action@github.com"
+      #    git config --local user.name "GitHub Action"
+      #    git add .
+      #    git commit -am "Packages updated. <Auto Action>"
+      #    git push
+
   deploy:
     environment:
       name: github-pages
