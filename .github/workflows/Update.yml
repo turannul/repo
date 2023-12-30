@@ -1,18 +1,11 @@
-name: Update and Deploy
+name: Update Packages
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
-on:
-  push:
-    branches: [main]
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
+on: [push]
 jobs:
   update-packages:
     runs-on: ubuntu-latest
@@ -33,22 +26,3 @@ jobs:
           git add .
           git commit -am "Packages updated. <Auto Action>"
           git push
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: update-packages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
