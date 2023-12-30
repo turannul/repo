@@ -1,24 +1,54 @@
-name: Update Full
+name: Update and Deploy
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
-on: [push]
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  update:
+  update-packages:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
+
       - name: Update Packages
+        id: update_packages
         run: | 
           chmod +x update_all.bash
           ./update_all.bash
+
+  deploy:
+    needs: update-packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: actions/deploy-pages@v4
         with:
-            publish_branch: main
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: .
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
