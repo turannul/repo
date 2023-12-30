@@ -1,9 +1,4 @@
 #!/bin/bash
-if [[ "$OSTYPE" == "linux"* ]]; then
-    linux_update_repo
-elif [[ "$(uname)" == Darwin ]] && [[ "$(uname -p)" == i386 ]]; then
-    macOS_update_repo
-fi
 
 macOS_update_repo(){
     echo "Checking for Homebrew, wget, xz, & zstd..."
@@ -57,3 +52,9 @@ linux_update_repo(){
     zstd -c19 rootless/Packages > rootless/Packages.zst
     echo "Repository Updated."
 }
+
+if [[ "$OSTYPE" == "linux"* ]]; then
+    linux_update_repo
+elif [[ "$(uname)" == Darwin ]] && [[ "$(uname -p)" == i386 ]]; then
+    macOS_update_repo
+fi
