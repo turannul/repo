@@ -2,13 +2,8 @@
 name: Deploy to Pages
 
 on:
-  push:
-    branches: ["main"]
-
-  workflow_dispatch: 
   workflow_run:
     workflows: ["Update Packages"]
-    branches: ["main"]
     types:
       - completed
 
