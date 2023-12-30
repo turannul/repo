@@ -31,7 +31,6 @@ macOS_update_repo(){
     echo "Repository Updated."
 }
 
-
 linux_update_repo(){
     echo "Updating repository..."
     rm Packages Packages.xz Packages.gz Packages.bz2 Packages.zst Release 2> /dev/null
