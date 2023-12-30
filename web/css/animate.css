@@ -21,7 +21,7 @@
 
 .jello-horizontal {
 	-webkit-animation: jello-horizontal 0.9s both;
-	        animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }
 
 @-webkit-keyframes jello-horizontal {
@@ -87,7 +87,7 @@
 
 .bounce-in-fwd {
 	-webkit-animation: bounce-in-fwd 1.1s both;
-	        animation: bounce-in-fwd 1.1s both;
+	animation: bounce-in-fwd 1.1s both;
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
 }
@@ -200,10 +200,10 @@
 
 .puff-in-center {
 	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 
-   -webkit-animation-delay: 2s;
-           animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 
 }
 
@@ -242,7 +242,7 @@
 
 .swirl-out {
 	-webkit-animation: swirl-out 0.65s ease-in both;
-	        animation: swirl-out 0.65s ease-in both;
+  animation: swirl-out 0.65s ease-in both;
 }
 
 @-webkit-keyframes swirl-out {
@@ -272,9 +272,9 @@
 
 .swirlcydia {
 	-webkit-animation: swirlcydia 0.6s ease-out both;
-	        animation: swirlcydia 0.6s ease-out both;
-   -webkit-animation-delay: 0.2s;
-           animation-delay: 0.2s;
+	animation: swirlcydia 0.6s ease-out both;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 @-webkit-keyframes swirlcydia {
@@ -304,9 +304,9 @@
 
 .swirlsileo {
 	-webkit-animation: swirlsileo 0.6s ease-out both;
-	        animation: swirlsileo 0.6s ease-out both;
-   -webkit-animation-delay: 0.4s;
-           animation-delay: 0.4s;
+  animation: swirlsileo 0.6s ease-out both;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 @-webkit-keyframes swirlsileo {
@@ -336,9 +336,9 @@
 
 .swirlzebra {
 	-webkit-animation: swirlzebra 0.6s ease-out both;
-	        animation: swirlzebra 0.6s ease-out both;
-   -webkit-animation-delay: 0.6s;
-           animation-delay: 0.6s;
+	animation: swirlzebra 0.6s ease-out both;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 @-webkit-keyframes swirlzebra {
@@ -354,38 +354,6 @@
   }
 }
 @keyframes swirlzebra {
-  0% {
-    -webkit-transform: rotate(-540deg) scale(0);
-            transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-}
-
-.swirlinstaller {
-	-webkit-animation: swirlsinstaller 0.6s ease-out both;
-	        animation: swirlinstaller 0.6s ease-out both;
-   -webkit-animation-delay: 0.8s;
-           animation-delay: 0.8s;
-}
-
-@-webkit-keyframes swirlinstaller {
-  0% {
-    -webkit-transform: rotate(-540deg) scale(0);
-            transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-}
-@keyframes swirlinstaller {
   0% {
     -webkit-transform: rotate(-540deg) scale(0);
             transform: rotate(-540deg) scale(0);
@@ -437,8 +405,8 @@
 }
 
 .shaketilt {
-   animation-name: shaketilt;
-   animation-delay: 0.8s;
+  animation-name: shaketilt;
+  animation-delay: 0.8s;
 }
 
 
@@ -1844,33 +1812,6 @@
   animation-name: fadezebra;
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
-}
-
-@-webkit-keyframes fadeinstaller {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeinstaller {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.fadeinstaller {
-  -webkit-animation-name: fadeinstaller;
-  animation-name: fadeinstaller;
-  -webkit-animation-delay: 1.1s;
-  animation-delay: 1.1s;
 }
 
 @-webkit-keyframes fadeIn {

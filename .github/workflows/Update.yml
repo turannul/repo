@@ -13,11 +13,12 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Update Packages
-        run: |
-          chmod +x ./updaterepo.sh
-          ./updaterepo.sh
-      - run: git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - run: git config --global user.name "github-actions[bot]"
-      - run: git add .
-      - run: git commit -a -m "Packages updated. <Auto Action>"
-      - run: git push
+        run: | 
+          chmod +x update_all.bash
+          ./update_all.bash
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+            publish_branch: main
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: .

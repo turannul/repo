@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 if [[ "$OSTYPE" == "linux"* ]]; then # Linux usage of repo.me
     cd "$(dirname "$0")" || exit
-    
     rm Packages Packages.xz Packages.gz Packages.bz2 Packages.zst Release 2> /dev/null
-    
     apt-ftparchive packages ./deb_files > Packages
     gzip -c9 Packages > Packages.gz
     xz -c9 Packages > Packages.xz
     zstd -c19 Packages > Packages.zst
     bzip2 -c9 Packages > Packages.bz2
-    
     apt-ftparchive release -c ./assets/repo/repo.conf . > Release
 
     #echo "Repository Updated, thanks for using repo.me!"

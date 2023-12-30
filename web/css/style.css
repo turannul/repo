@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 .modern {
     background:0 0;
@@ -54,13 +54,13 @@ display:-webkit-inline-box;display:inline-flex;-webkit-box-flex:2;flex-grow:2;pa
 
 
     body {
-	    background: linear-gradient(240deg, #1b1b1b, #000000, #1a1a1a, #000000, #1f1f1f, #2a2b2a, #000000, #1a1a1a, #000000, #1f1f1f, #1b1b1b, #000000, #2a2b2a);
-       background-size: 400% 400%;
-	    font-family: -apple-system, Sans-Serif;
-	    font-weight: bold;
-       color: #FFFFFF;
-	    -webkit-animation: gradient 15s ease infinite;
-	    animation: gradient 15s ease infinite;
+      background: linear-gradient(240deg, #1b1b1b, #000000, #1a1a1a, #000000, #1f1f1f, #2a2b2a, #000000, #1a1a1a, #000000, #1f1f1f, #1b1b1b, #000000, #2a2b2a);
+      background-size: 400% 400%;
+      font-family: -apple-system, Sans-Serif;
+      font-weight: bold;
+      color: #FFFFFF;
+      -webkit-animation: gradient 15s ease infinite;
+      animation: gradient 15s ease infinite;
 }
 
   #topnavbar {
@@ -105,7 +105,7 @@ display:-webkit-inline-box;display:inline-flex;-webkit-box-flex:2;flex-grow:2;pa
         box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.85);
         margin-bottom: 200px;
     }
-     
+
 div.row {
   display: inline-block;
 }
@@ -139,18 +139,18 @@ div.row {
 
 .packages{
 	text-align: justify;
-   margin-left: 10px;
+  margin-left: 10px;
 }
 
 .packagebox {
-   background-color: rgba(23, 22, 22, 0.80);
-   position: flex;
-   border-top-left-radius: 50px;
-   border-top-right-radius: 50px;
-   border-bottom-left-radius: 50px;
-   border-bottom-right-radius: 50px;
-   width: 90%;
-   height: 90%;
+  background-color: rgba(23, 22, 22, 0.80);
+  position: flex;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 90%;
+  height: 90%;
 }
 
 a {
@@ -158,12 +158,12 @@ a {
 	font-weight: 500;
 	font-size: 40px;
 	margin-top: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   color: white;
-   text-decoration: underline;
-   margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: underline;
+  margin-top: 10px;
 }
 
 a:visited, a:link, a:hover, a:active {
@@ -171,12 +171,12 @@ a:visited, a:link, a:hover, a:active {
 	font-weight: 500;
 	font-size: 40px;
 	margin-top: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   color: white;
-   text-decoration: underline;
-   margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: underline;
+  margin-top: 10px;
 }
 
 hr.hr1{
@@ -203,30 +203,30 @@ hr.hr3{
 
 h1{
 	font-size: 70px;
-    margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 h2{
 	font-size: 60px;
 	margin-bottom: 0px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 h3{
-	font-size: 45px;
+  font-size: 45px;
 	margin-bottom: 0px;
-   margin-left: 20px;
-   margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h4{
 	font-size: 40px;
-   margin-top: 0px;
-	margin-bottom: 0px;
-   margin-left: 20px;
-   margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 p{
@@ -234,33 +234,33 @@ p{
 	font-weight: 500;
 	font-size: 40px;
 	margin-top: 10px;
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .pbreak {
 	font-family: -apple-system, Sans-Serif;
 	font-weight: bold;
 	font-size: 50px;
-   text-align: center;
-   margin-top: 0px;
-   margin-bottom: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .pbreak2 {
 	font-family: -apple-system, Sans-Serif;
 	font-weight: bold;
 	font-size: 100px;
-   text-align: center;
-   margin-top: -10px;
-   margin-bottom: 20px;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .imageleft {
-   margin-left: 20px;
-   margin-right: 20px;
-   box-shadow: 0px 0px 80px 8px rgba(0,0,0,0.85);
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 80px 8px rgba(0,0,0,0.85);
 }
 
     #header {
@@ -277,16 +277,11 @@ p{
 
     }
 
-.headhov {
-
-}
-.headhov:hover {
-       animation:pulse 1s infinite;
-}
+.headhov:hover { animation:pulse 1s infinite; }
 
     div#repotitle {
         text-align: center;
-        font-size: 75px;
+        font-size: 30px;
         font-family: -apple-system, Sans-Serif;
         font-weight: bold;
         margin-top: 45px;
@@ -296,12 +291,12 @@ p{
 
     div#repodesc {
         text-align: center;
-        font-size: 45px;
+        font-size: 15px;
         font-family: -apple-system, Sans-Serif;
         font-weight: normal;
         margin-top: 25px;
         margin-bottom: 45px;
-	    text-shadow: 0px 0px 30px #00000080;
+	      text-shadow: 0px 0px 30px #00000080;
     }
 
     div#clickto {
@@ -312,7 +307,7 @@ p{
         margin-top: 30px;
         margin-bottom: 0px;
         color: white;
-	     text-shadow: 0px 0px 30px #00000080;
+	      text-shadow: 0px 0px 30px #00000080;
     }
 
     div#supporticons {
@@ -324,28 +319,14 @@ p{
         margin-top: 10px;
     }
 
-    #supporticons div {
-        margin-right: 135px;
-    }
+    #supporticons div { margin-right: 135px; }
 
-    #supporticons div:last-child {
-        margin-right: auto !important;
-    }
+    #supporticons div:last-child { margin-right: auto !important; }
 
-#filter {
+    .filter { filter: drop-shadow(6px 6px 8px #00000055); }
+    .filter2 { filter: drop-shadow(0px 0px 50px #ffffff); }
 
-}
-
-    .filter {
-           filter: drop-shadow(6px 6px 8px #00000055);
-}
-    .filter2 {
-           filter: drop-shadow(0px 0px 50px #ffffff);
-}
-
-    .filterbox {
-  box-shadow: 0px 0px 80px 8px rgba(0,0,0,0.85);
-}
+    .filterbox { box-shadow: 0px 0px 80px 8px rgba(0,0,0,0.85); }
 
 .cydiablur {
   position: relative;
@@ -411,27 +392,6 @@ p{
   position: relative;
 }
 
-.installerblur {
-  position: relative;
-  display: flex
-}
-.installerblur::before {
-  content: "";
-  position: absolute;
-  width: 100px; height: 100px;
-  border-radius: 30px;
-  box-shadow: 0px 0px 100px 8px rgba(82,192,251,0.85);
-  animation: pulse2 4s infinite;
-  margin-left: 10px;
-  margin-right: 0px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-
-.installerblur-inside {
-  position: relative;
-}
-
     #caption {
         text-align: center;
         font-size: 35px;
@@ -470,3 +430,4 @@ p{
         width: 80px;
         background-size: contain;
         background-repeat: no-repeat;
+}
