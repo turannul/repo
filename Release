@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sat, 30 Dec 2023 16:34:01 +0000
+Date: Sat, 30 Dec 2023 16:41:02 +0000
 Description: Nobody reads this lol
 Label: Turann_'s Repo 
 Origin: Turann_'s Repo 
@@ -9,17 +9,17 @@ Suite: stable
 Version: 1.0.0
 MD5Sum:
  a55fff2860962319ac172aaea9536aee           153685 Packages
- 4f716872c199b49d259a6977f61ce8f2              208 Release
+ 483daecc3b98838c80d5ae6a9a15cf24              208 Release
  d41d8cd98f00b204e9800998ecf8427e                0 rootless/Packages
 SHA1:
  a7d86aa6312d04b34fb04ab4dc144cbf3135bd3c           153685 Packages
- 76b1e3f4e3d30fcab5a6e7c70d89b447c0398d50              208 Release
+ 83d21009405a0b60ae89d4fb2f9f10a8282b876d              208 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 rootless/Packages
 SHA256:
  56e194a2818323c8ee66e04e215aadf6a7c6eec661a7832749b8dc85baa57d25           153685 Packages
- 10d467cccd96fe8a0196e94d068b3700448eb208ab2a7750efd2a6b650859e29              208 Release
+ 5c36c44ef4e60097d5184fa52d47d976244ddea95070d1e1abdd927d5bb3cc1c              208 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 rootless/Packages
 SHA512:
  251986df20afe40de84502581d14ab59f568ffd5ad879d6a95e47dd7f6a05a8d48457cffec29edf967ff3b48afac3d897f4b1817c8cb6bf21ba0dd8926022da8           153685 Packages
- 564bee441f01779c1f7e107044a4703498629e238d8ee980624f8b0328ad961ae667ce7e1033fbb9df1b40d8e5d5ea66cccb2a19d57a768a34fb3c3e3ef9e985              208 Release
+ 2b931fb7fdf10cc91d73a9377570ddd5b0f5bd5cc9da58807c58d2122a1771168c0a359702c459bfebb53d6040f9248b6b49c2baba2692d9f4fc076724299c9c              208 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rootless/Packages
