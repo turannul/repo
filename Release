@@ -1,38 +1,61 @@
-Usage: apt-ftparchive [options] command
-Commands: packages binarypath [overridefile [pathprefix]]
-          sources srcpath [overridefile [pathprefix]]
-          contents path
-          release path
-          generate config [groups]
-          clean config
-
-apt-ftparchive generates index files for Debian archives. It supports
-many styles of generation from fully automated to functional replacements
-for dpkg-scanpackages and dpkg-scansources
-
-apt-ftparchive generates Package files from a tree of .debs. The
-Package file contains the contents of all the control fields from
-each package as well as the MD5 hash and filesize. An override file
-is supported to force the value of Priority and Section.
-
-Similarly apt-ftparchive generates Sources files from a tree of .dscs.
-The --source-override option can be used to specify a src override file
-
-The 'packages' and 'sources' command should be run in the root of the
-tree. BinaryPath should point to the base of the recursive search and 
-override file should contain the override flags. Pathprefix is
-appended to the filename fields if present. Example usage from the 
-Debian archive:
-   apt-ftparchive packages dists/potato/main/binary-i386/ > \
-               dists/potato/main/binary-i386/Packages
-
-Options:
-  -h    This help text
-  --md5 Control MD5 generation
-  -s=?  Source override file
-  -q    Quiet
-  -d=?  Select the optional caching database
-  --no-delink Enable delinking debug mode
-  --contents  Control contents file generation
-  -c=?  Read this configuration file
-  -o=?  Set an arbitrary configuration option
+Architectures: iphoneos-arm
+Codename: ios
+Components: main
+Date: Sun, 31 Dec 2023 08:46:23 +0000
+Description: Nobody reads this lol
+Label: Turann_'s Repo 
+Origin: Turann_'s Repo 
+Suite: stable
+Version: 1.0.0
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e                0 Packages
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 Packages.bz2
+ 595a87b9d58c47af60aa556a4b3eba92               29 Packages.gz
+ 8dc5aea5b03dff8595f096f9e368e888               32 Packages.xz
+ 5d80401e01d33084c65e94f93351e94c               13 Packages.zst
+ 18d036a4ecedbed32c915e48caec078d              208 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 rootless/Packages
+ 4059d198768f9f8dc9372dc1c54bc3c3               14 rootless/Packages.bz2
+ 30acd82f44ba1f18df147c0e8e4247e4               29 rootless/Packages.gz
+ 8dc5aea5b03dff8595f096f9e368e888               32 rootless/Packages.xz
+ 5d80401e01d33084c65e94f93351e94c               13 rootless/Packages.zst
+ d41d8cd98f00b204e9800998ecf8427e                0 rootless/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 Packages.bz2
+ d1aefea9f3f02153344a45c6a5068fd32684ead1               29 Packages.gz
+ 9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 Packages.xz
+ fb2e51cbd24e286dd066bd419d77cd772967e384               13 Packages.zst
+ 24ebe0355c33c17bfbf0ad468dfd323146319bad              208 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 rootless/Packages
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2               14 rootless/Packages.bz2
+ 7fe18737b016c6074db22c9e924fbca5b0077f18               29 rootless/Packages.gz
+ 9746882f4236fa1c3a8f86be2f1d9c46680c0b10               32 rootless/Packages.xz
+ fb2e51cbd24e286dd066bd419d77cd772967e384               13 rootless/Packages.zst
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 rootless/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 Packages.bz2
+ ce32acc7f52c4900291321f558146b4c1a1c0ab37605a70254f0a8c271b6b998               29 Packages.gz
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 Packages.xz
+ f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c               13 Packages.zst
+ 3a3a084ad08537f65759d962c3d9b39abc510bc3ab87d0e6bcf3618826bd71ea              208 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 rootless/Packages
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058               14 rootless/Packages.bz2
+ 7a9c4fdf17f34e6cc22e4260b9cc9867ed343a6a5f91fddf6f15df622b527e6f               29 rootless/Packages.gz
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275               32 rootless/Packages.xz
+ f96deff1816083fdff8bc3e46c3fe6ca46a6bb49f4d5a00627616c13237a512c               13 rootless/Packages.zst
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 rootless/Release
+SHA512:
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Packages
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 Packages.bz2
+ 19163a9583b6274b274d1eba5d3e730cddba61e8ae8f79b4b40670ef8584e6173a742fc4e2cdf3b57754e7cc8b1a7b20585b2977a99ebfcede1c88bad1c47454               29 Packages.gz
+ 034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 Packages.xz
+ 654b3bc259db923bca2fb5ac8d8c2aa5ceddf594cce152d2a467850ae092317206e3bea307c8528e05442811f5ef8c4ccb9daa4da2a56ddc7f436c6ee1aee7d0               13 Packages.zst
+ 01ed2a2df4d9e6a8cedb0655507035ae90596bb9a76de843cb82fd434c13d1304b686ce6e9d5b06d6a0b607a486185ce30e8a4c6fe85e409392b213d3d711ff5              208 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rootless/Packages
+ 6de201dfed1d45412509c65deb34690dc2d09c6aafccfe491fd2f440f92842b9c755b61dc7bcdd4cc0c9f18cf46c2b3a1241e99c4c2a33fff5555e7b2f0b6348               14 rootless/Packages.bz2
+ 4c775caabbd744a87310208526e07cad7fdac23e62db97509ee1b2d1d2e0ebb540d80d175898d3bc3269ebd239339bf9448e8fc86a9b575a63764dc71463eff0               29 rootless/Packages.gz
+ 034b32f1138322638c7a5b7949a3b184c6a4cdfd003360a496c08c56c2cc645c94fbe9cdf9d84c963af6dda6c442717cd61d7e1cecf7024bd463f6f5196c5527               32 rootless/Packages.xz
+ 654b3bc259db923bca2fb5ac8d8c2aa5ceddf594cce152d2a467850ae092317206e3bea307c8528e05442811f5ef8c4ccb9daa4da2a56ddc7f436c6ee1aee7d0               13 rootless/Packages.zst
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 rootless/Release
