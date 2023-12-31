@@ -24,7 +24,7 @@ update_rootless(){
     echo "Updating (rootless) repository..."
     cd rootless/ || exit
     rm Packages Packages.xz Packages.gz Packages.bz2 Packages.zst Release 2> /dev/null
-    apt-ftparchive packages ./deb_files_rootless > Packages
+    apt-ftparchive packages ./deb_files > Packages
     gzip -c9 Packages > Packages.gz
     xz -c9 Packages > Packages.xz
     bzip2 -c9 Packages > Packages.bz2
@@ -49,7 +49,7 @@ update_rootless_macOS(){
     echo "Updating (rootless) repository..."
     cd rootless/ || exit
     rm Packages Packages.xz Packages.gz Packages.bz2 Packages.zst Release 2> /dev/null
-    ./apt-ftparchive packages ../deb_files_rootless > Packages
+    ./apt-ftparchive packages ./deb_files > Packages
     gzip -c9 Packages > Packages.gz
     xz -c9 Packages > Packages.xz
     bzip2 -c9 Packages > Packages.bz2
