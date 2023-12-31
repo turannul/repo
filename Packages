@@ -317,6 +317,24 @@ SileoDepiction: N/A
 Name: CellularX
 Icon: https://turannul.github.io/home/resources/tweak.png
 
+Package: org.applefavour.devicemonitor2++
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: AppleFavour
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./deb_files/MyTweaks/DeviceMonitor2/org.applefavour.devicemonitor2++_1.0.0_iphoneos-arm.deb
+Size: 3824
+MD5sum: e4ba28c0708b66d5d04b420d65b4dbc4
+SHA1: dc65fa153e0b3be20c891b137fa92ec786641f00
+SHA256: 33466f3b1c1f43e76d1d0ea081b4b8e562c272f2a66e0efbb6beb74187cca431
+SHA512: 01da0852e97d25ff4fc1d0382b12fd471d5b7e87ef8d70734c32854e04f1d7881a9a6df6f8aaedd98c71b3f879922711394f688a9d6231a4300b29266759753f
+Description: An awesome MobileSubstrate tweak!
+Name: devicemonitor2++
+Author: AppleFavour
+Icon: https://turannul.github.io/home/resources/devicemonitor2.png
+
 Package: xyz.turannul.pxlbattery
 Architecture: iphoneos-arm
 Version: 1.0.0
