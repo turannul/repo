@@ -1,0 +1,37 @@
+Architectures: iphoneos-arm
+Codename: ios
+Components: main
+Date: Sun, 31 Dec 2023 09:06:23 +0000
+Description: Nobody reads this lol
+Label: Turann_'s Repo 
+Origin: Turann_'s Repo 
+Suite: stable
+Version: 1.0.0
+MD5Sum:
+ a55fff2860962319ac172aaea9536aee           153685 Packages
+ 4e0490ccff94733e3111e158e81db879            43217 Packages.bz2
+ 73055ac5418024024ab37e5195f71be2            50741 Packages.gz
+ 4aeea048d275a7dd8ced8b56880d8d34            43460 Packages.xz
+ 00c237399444be7170af916ae8dc5263            44674 Packages.zst
+ ef97968af47f72274f0a8bb70a02b747              208 Release
+SHA1:
+ a7d86aa6312d04b34fb04ab4dc144cbf3135bd3c           153685 Packages
+ 3937001259b3aa85cebf8fa953251ccfebad296a            43217 Packages.bz2
+ e132216b1faef4015ecf2fbf20d3d8025f542d0d            50741 Packages.gz
+ c93401962a084ba1b376aeef2e86436cd59cefca            43460 Packages.xz
+ e0bd14484d0cf7387352b5ca699c75a999e1c040            44674 Packages.zst
+ 724978b661f6aacbcd198ee64184dc047fd426de              208 Release
+SHA256:
+ 56e194a2818323c8ee66e04e215aadf6a7c6eec661a7832749b8dc85baa57d25           153685 Packages
+ 3b9b05d7053f25525cd6c3dc7d8cd4fdd76b67afbc8dc13315f0c83ae6145302            43217 Packages.bz2
+ 6c28b59611397b65096db9d5f6d582746ad7511c0a22f18654a3b17bbb149e0a            50741 Packages.gz
+ 767bf83413b3d52973b16f24d3807dbe709c6089a31cb4aca3b546c33566d334            43460 Packages.xz
+ e62c6ca3a91c32ec7dfa96d8a4b0df74ed1cc450acc341c09d86c6b7e38c062e            44674 Packages.zst
+ 8d4ab760a46a58558150e0dc4f13f5578e8b06113b07545645e09866fdea2973              208 Release
+SHA512:
+ 251986df20afe40de84502581d14ab59f568ffd5ad879d6a95e47dd7f6a05a8d48457cffec29edf967ff3b48afac3d897f4b1817c8cb6bf21ba0dd8926022da8           153685 Packages
+ d0d5907b057c14e59a59eca8049137d1a9c3d477d01ec480b0e993eecb76494fed0edadf3f3d02102fe025ff1360f46031c4bc57b2b9a2127b8afc6ef4c7cb01            43217 Packages.bz2
+ c170c6f46dee4797d22ea6ad151e6532e945724483db28e6210f7f88fb3c09a092dde85a1470eec679bd14e0b133b7a9278a69a52844364cf216aea57e7d61ae            50741 Packages.gz
+ 02333f93bfbdb761b560e136dcd26b566d5b3d8577f78bf662b2828df61523de80127e643e39cf9a9df9d2e73d0e12ae8deabaceb616631d11c98ee7abd37144            43460 Packages.xz
+ c653764014491108fe585717c94bcbcd4c53fd417f7d1463cc1b58d8f6018fae385d14710c4ae87a68643ae68d4baade3d21ebada643277badaaaa09cde60bd6            44674 Packages.zst
+ 7cd270b1b73e5ac6461ee6c4e6929e1ec39a497fc32e93d82c87064fa5b11bec0a67152a163e51db8f65bc9d4f3931bd56df2c7ace9319e3e2e9ebe7d4437cf0              208 Release
