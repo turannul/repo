@@ -5,7 +5,7 @@ Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./deb_files/bequietwatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm64e.deb
+Filename: ./deb_files/RootHide-arm64e/bequietwatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm64e.deb
 Size: 4288
 MD5sum: 3caabcde7669ed524879e407ffec1ce7
 SHA1: d3601b0bceadfcfd7ded961003ac2eb5d218247b
@@ -23,7 +23,7 @@ Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./deb_files/devicemonitor2/org.applefavour.devicemonitor2++_1.0.0_iphoneos-arm64e.deb
+Filename: ./deb_files/RootHide-arm64e/devicemonitor2/org.applefavour.devicemonitor2++_1.0.0_iphoneos-arm64e.deb
 Size: 3822
 MD5sum: 6a9531376d8f1fe05b7310e04c2a48b5
 SHA1: f5319e310b35cd89f524f2b83b33a0528fa652b5
@@ -41,12 +41,66 @@ Section: Tweaks
 Maintainer: AppleFavour Team
 Installed-Size: 168
 Pre-Depends: mobilesubstrate
-Filename: ./deb_files/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm64e.deb
+Filename: ./deb_files/RootHide-arm64e/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm64e.deb
 Size: 4230
 MD5sum: 3eac28d631618c09defe2569e9e106cc
 SHA1: 11440e4b83337a556ea0bc58d56f28ddde114700
 SHA256: 5cd1c30679b05804b4a0422eb65dc7083adffe9140b070a75720b16f2629c94b
 SHA512: fc57bc90b13812cb3bf2894b6bc3f713cce72fe9e56b8a6a479ab1cec829b24ccf35471f7c42587ab593d09b0ad82e980e4f6dc99457f33e9c54f5bc7b40ee71
+Description: Make Mackolik great again!
+Name: Mackolik No Ads
+Author: AppleFavour Team
+Icon: https://turannul.github.io/home/resources/mackolik.png
+
+Package: org.favour.nowatusialert
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: AppleFavour
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./deb_files/Rootless-arm64/bequietwatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm64.deb
+Size: 4352
+MD5sum: 15b14622b4b64d5d0f941afdaf7db78b
+SHA1: 7b28b59cf36926ef5774555ad4b9830c0fa5daa7
+SHA256: 17f09b6b4b39bec34bb6efeebe2319c1f149c5c2efd071a6bdd8d509ee1e5719
+SHA512: f33a9ead6905bb7cee0f9d29adbf57d8d86466688bd2d293814650fba949f3b0c2d039c589b8f5bd7a28e0e87649410f469e20553562ef44f97940e76cb1a4f8
+Description: Unveiling an alert with a touch of magic.
+Name: BeQuietWatusi
+Author: AppleFavour
+Icon: https://turannul.github.io/home/resources/whatsapp.png
+
+Package: org.applefavour.devicemonitor2++
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: AppleFavour
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./deb_files/Rootless-arm64/devicemonitor2/org.applefavour.devicemonitor2++_1.0.0_iphoneos-arm64.deb
+Size: 3876
+MD5sum: abcec1fb6f202669bc85019afa19b33b
+SHA1: 4608ab97db193c34a63ac8a8b987e153fdbb9b70
+SHA256: fff45bb84de54b6b91a69bd846cb22641c0c974fc1e5ac01ad9818be0de914c3
+SHA512: c707c3e224966e4aa72b4bddad579f4220822ecbff116e117319553bda969ba909587cff9209c1fd1c54a16b4b8a71fb2dbdb0a3b3cfa930fce5e82c932355d8
+Description: An awesome MobileSubstrate tweak!
+Name: devicemonitor2++
+Author: AppleFavour
+Icon: https://turannul.github.io/home/resources/devicemonitor2.png
+
+Package: org.favour.mackoliknoads-objc
+Architecture: iphoneos-arm64
+Version: 3.0.2-1
+Section: Tweaks
+Maintainer: AppleFavour Team
+Installed-Size: 168
+Pre-Depends: mobilesubstrate
+Filename: ./deb_files/Rootless-arm64/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm64.deb
+Size: 4300
+MD5sum: 03e77eb947e9145c9c3c00de0e3a62c5
+SHA1: d2879fb976c4dddd16cd02892d3d642d95787f58
+SHA256: aae14fc3e56ae5b81e5f4b6f22a79ac69f054f85902fc449d9279fbe59182176
+SHA512: da141f471e54402474a07af554a59002947e9b66fe71384c08b2a6d548a08b369ec9a4f07f005c0cecb3fc4a279af23e6f8e19cc8fc687e1c552f651f50bfb69
 Description: Make Mackolik great again!
 Name: Mackolik No Ads
 Author: AppleFavour Team
