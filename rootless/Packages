@@ -1,16 +1,16 @@
 Package: org.favour.nowatusialert
 Architecture: iphoneos-arm64e
-Version: 1.0.0-1
+Version: 1.0.1
 Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./deb_files/RootHide-arm64e/bequietwatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm64e.deb
-Size: 4288
-MD5sum: 3caabcde7669ed524879e407ffec1ce7
-SHA1: d3601b0bceadfcfd7ded961003ac2eb5d218247b
-SHA256: 91632e9c2d639b7e8991648368af68c0b7fa10551c87498063af1a5c09033d7e
-SHA512: 3de84f25d3a7a87d2d8bdefdd6fd5b7289c9e4702e4fea6cd94196897e57c5dddae2c23e5be15abc9ebd11db9e8a0a3075dd040aa76d7abc7f3c4534446c72e7
+Filename: ./deb_files/RootHide-arm64e/bequietwatusi/org.favour.nowatusialert_1.0.1_iphoneos-arm64e.deb
+Size: 4544
+MD5sum: b7a5433b7bbcff62ce2a26de08423d17
+SHA1: 468cfa16ffc7e988095a581967827be450d84c0e
+SHA256: bc6a7f4ae25d529025eea50c2fde01aa5e69013f5182a30d9fcbf77f8384c615
+SHA512: aa24f9ebd10f68e17362d5e702a952932ba8c4039dd6ed6c74e5656270d9ad8b464be107f72b5f6cad86b8b01c10a49e6dab5a41ef5343f615b38d2630b784d4
 Description: Unveiling an alert with a touch of magic.
 Name: BeQuietWatusi
 Author: AppleFavour
@@ -54,17 +54,17 @@ Icon: https://turannul.github.io/home/resources/mackolik.png
 
 Package: org.favour.nowatusialert
 Architecture: iphoneos-arm64
-Version: 1.0.0-1
+Version: 1.0.1
 Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./deb_files/Rootless-arm64/bequietwatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm64.deb
-Size: 4352
-MD5sum: 15b14622b4b64d5d0f941afdaf7db78b
-SHA1: 7b28b59cf36926ef5774555ad4b9830c0fa5daa7
-SHA256: 17f09b6b4b39bec34bb6efeebe2319c1f149c5c2efd071a6bdd8d509ee1e5719
-SHA512: f33a9ead6905bb7cee0f9d29adbf57d8d86466688bd2d293814650fba949f3b0c2d039c589b8f5bd7a28e0e87649410f469e20553562ef44f97940e76cb1a4f8
+Filename: ./deb_files/Rootless-arm64/bequietwatusi/org.favour.nowatusialert_1.0.1_iphoneos-arm64.deb
+Size: 4586
+MD5sum: e907bbbe6941df34cb2da3323b188f92
+SHA1: d68ff595b6d9a4f65c68853c428d2cf443de0066
+SHA256: 00013e23b530696a97f71d1482b8ec7f0db475a928e779c8ac3391f926603895
+SHA512: 5d50a4612c7eb68c62b8d2965fb82c75b95d43a92ed177b702151952a8c2b8f0f228b3b82b7e60c05b0fb301268bd2880d85a1798a914c6318066d591c6a43f8
 Description: Unveiling an alert with a touch of magic.
 Name: BeQuietWatusi
 Author: AppleFavour

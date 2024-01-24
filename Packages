@@ -281,17 +281,17 @@ Author: unknown
 
 Package: org.favour.nowatusialert
 Architecture: iphoneos-arm
-Version: 1.0.0-1
+Version: 1.0.1
 Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./deb_files/MyTweaks/BeQuietWatusi/org.favour.nowatusialert_1.0.0-1_iphoneos-arm.deb
-Size: 4710
-MD5sum: 24ae0641e46742c3523a80c273ea349b
-SHA1: d0eff5e642a80e0a83325bc1f273956f391d1d36
-SHA256: fc29d2597734c966f34047b338f0fb0f84f2f9a8a4fdbf13d00eb48316efa7fc
-SHA512: 396404dca80208ffd434124ebc4284f963011ddd41b1564c929708f48e8419a63e13d53e9d231b366896e6df81475d9ecb4bfad19a77070d26ada8eddd8c4150
+Filename: ./deb_files/MyTweaks/BeQuietWatusi/org.favour.nowatusialert_1.0.1_iphoneos-arm.deb
+Size: 4528
+MD5sum: 33d668f1e9253edd9aaf73175c8a2a1e
+SHA1: b8bd04f5a69d903e869365694d0b5276d1abb964
+SHA256: 0a76c571f62f078da1955e3bd09c0f8eef29fa74190ad83f5b64167ee495b0ce
+SHA512: 878b3a98e1084dd0feee4c9227d40f7bb70631e4b6e0f464a532671af8ea3f7fab09cc9d5e455e14eb461865351e854dc351f4cc6871456fa7470b11c46abcfb
 Description: Unveiling an alert with a touch of magic.
 Name: BeQuietWatusi
 Author: AppleFavour
