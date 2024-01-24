@@ -335,6 +335,24 @@ Name: devicemonitor2++
 Author: AppleFavour
 Icon: https://turannul.github.io/home/resources/devicemonitor2.png
 
+Package: org.favour.mackoliknoads-objc
+Architecture: iphoneos-arm
+Version: 3.0.3
+Section: Tweaks
+Maintainer: AppleFavour Team
+Installed-Size: 168
+Pre-Depends: mobilesubstrate
+Filename: ./deb_files/MyTweaks/MScoresNoAds/org.favour.mackoliknoads-objc_3.0.3_iphoneos-arm.deb
+Size: 4252
+MD5sum: 7dcba981d79c30435fa07aadca7f0ecf
+SHA1: 528578f4601ab7f018d04f17dc4c42a2065386b6
+SHA256: d62eb231971cc1f564ccdd5c7fbe690a9d731fa8b6e0dcdaaf819c1ce61aa322
+SHA512: 90397e744d6e40083511e2e07e3f4ab5bb3c4a906b85f67d7041492b819d617f1033c96ab5b7066683423b5a7f44d85c6b88bf9567e48c41399e274418d12b70
+Description: Make Mackolik great again!
+Name: Mackolik NoAds - M Scores
+Author: AppleFavour Team
+Icon: https://turannul.github.io/home/resources/mackolik.png
+
 Package: xyz.turannul.pxlbattery
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -526,24 +544,6 @@ Description: password less su/[do], created from Randy420's reversed gap.
   Usage: tnl <command> [args]
 Name: tnl
 Author: Turann_
-
-Package: org.favour.mackoliknoads-objc
-Architecture: iphoneos-arm
-Version: 3.0.2-1
-Section: Tweaks
-Maintainer: AppleFavour
-Installed-Size: 168
-Pre-Depends: mobilesubstrate
-Filename: ./deb_files/MyTweaks/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm.deb
-Size: 4654
-MD5sum: aeb5a381e496dcffceecbb7f6c1a4092
-SHA1: f59a9a576edfca3accaca78e13a1b7332bfa01eb
-SHA256: 67397e504f24dcb413f9baecfcea4d1345bd8f6cd60c139ed5c1d3b0d435e7be
-SHA512: 8f4c526da7220fa64f9e649d05261cc8a40154922494141c039d95bbe2c41f5380c7deffb18bf8caa10953b21a78434b4d03aca8844503e412ce0a5ce820850c
-Description: Make Mackolik great again!
-Name: Mackolik No Ads
-Author: AppleFavour
-Icon: https://turannul.github.io/home/resources/mackolik.png
 
 Package: xyz.turannul.azule
 Architecture: iphoneos-arm

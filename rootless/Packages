@@ -1,3 +1,21 @@
+Package: org.favour.mackoliknoads-objc
+Architecture: iphoneos-arm64e
+Version: 3.0.3
+Section: Tweaks
+Maintainer: AppleFavour Team
+Installed-Size: 168
+Pre-Depends: mobilesubstrate
+Filename: ./deb_files/RootHide-arm64e/MScoresNoAds/org.favour.mackoliknoads-objc_3.0.3_iphoneos-arm64e.deb
+Size: 4274
+MD5sum: 7e6d83577141d41ff01dd470f75970c3
+SHA1: 148cd4930ebe094602ab9adc76504b5a527a1cde
+SHA256: 9453101972c674d39820a6b40ed9e7c789a528efd69f183c2236b13b03a9d060
+SHA512: aad94a76caae4e4eb3d3f3efd5ae68f51154d94c3e56645d1b731b1c873d26a83859e518bae7d5eebf86f0871d63be26d9d214578ad6175335f296ae459a92e2
+Description: Make Mackolik great again!
+Name: Mackolik NoAds - M Scores
+Author: AppleFavour Team
+Icon: https://turannul.github.io/home/resources/mackolik.png
+
 Package: org.favour.nowatusialert
 Architecture: iphoneos-arm64e
 Version: 1.0.1
@@ -35,20 +53,20 @@ Author: AppleFavour
 Icon: https://turannul.github.io/home/resources/devicemonitor2.png
 
 Package: org.favour.mackoliknoads-objc
-Architecture: iphoneos-arm64e
-Version: 3.0.2-1
+Architecture: iphoneos-arm64
+Version: 3.0.3
 Section: Tweaks
 Maintainer: AppleFavour Team
 Installed-Size: 168
 Pre-Depends: mobilesubstrate
-Filename: ./deb_files/RootHide-arm64e/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm64e.deb
-Size: 4230
-MD5sum: 3eac28d631618c09defe2569e9e106cc
-SHA1: 11440e4b83337a556ea0bc58d56f28ddde114700
-SHA256: 5cd1c30679b05804b4a0422eb65dc7083adffe9140b070a75720b16f2629c94b
-SHA512: fc57bc90b13812cb3bf2894b6bc3f713cce72fe9e56b8a6a479ab1cec829b24ccf35471f7c42587ab593d09b0ad82e980e4f6dc99457f33e9c54f5bc7b40ee71
+Filename: ./deb_files/Rootless-arm64/MScoresNoAds/org.favour.mackoliknoads-objc_3.0.3_iphoneos-arm64.deb
+Size: 4328
+MD5sum: 29a977c93c9232b2fd1d1e0980b482bd
+SHA1: 20be6f271dd9e8e9277351aada7ce63322903170
+SHA256: 29d52b7d0d24a3d8f4ce6ad4d2180ea7fa44e31a163ab7efe4ff44b12118de57
+SHA512: ca047ef51de224c88af4ddcfcb73aa7967c1f375053506b839b946cc7411454cff660985f57cdc7f2dbf6b4a17c46e56da63d256b2ceb4ff818aeff50a34b0d1
 Description: Make Mackolik great again!
-Name: Mackolik No Ads
+Name: Mackolik NoAds - M Scores
 Author: AppleFavour Team
 Icon: https://turannul.github.io/home/resources/mackolik.png
 
@@ -87,22 +105,4 @@ Description: An awesome MobileSubstrate tweak!
 Name: devicemonitor2++
 Author: AppleFavour
 Icon: https://turannul.github.io/home/resources/devicemonitor2.png
-
-Package: org.favour.mackoliknoads-objc
-Architecture: iphoneos-arm64
-Version: 3.0.2-1
-Section: Tweaks
-Maintainer: AppleFavour Team
-Installed-Size: 168
-Pre-Depends: mobilesubstrate
-Filename: ./deb_files/Rootless-arm64/mackoliknoads/org.favour.mackoliknoads-objc_3.0.2-1_iphoneos-arm64.deb
-Size: 4300
-MD5sum: 03e77eb947e9145c9c3c00de0e3a62c5
-SHA1: d2879fb976c4dddd16cd02892d3d642d95787f58
-SHA256: aae14fc3e56ae5b81e5f4b6f22a79ac69f054f85902fc449d9279fbe59182176
-SHA512: da141f471e54402474a07af554a59002947e9b66fe71384c08b2a6d548a08b369ec9a4f07f005c0cecb3fc4a279af23e6f8e19cc8fc687e1c552f651f50bfb69
-Description: Make Mackolik great again!
-Name: Mackolik No Ads
-Author: AppleFavour Team
-Icon: https://turannul.github.io/home/resources/mackolik.png
 
