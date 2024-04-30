@@ -16,19 +16,21 @@ Name: Mackolik NoAds - M Scores
 Author: AppleFavour Team
 Icon: https://turannul.github.io/home/resources/mackolik.png
 
-Package: org.favour.nowatusialert
+Package: org.favour.bequietwatusi
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./deb_files/iphoneos-arm64/bequietwatusi/org.favour.nowatusialert_1.0.1_iphoneos-arm64.deb
-Size: 4586
-MD5sum: e907bbbe6941df34cb2da3323b188f92
-SHA1: d68ff595b6d9a4f65c68853c428d2cf443de0066
-SHA256: 00013e23b530696a97f71d1482b8ec7f0db475a928e779c8ac3391f926603895
-SHA512: 5d50a4612c7eb68c62b8d2965fb82c75b95d43a92ed177b702151952a8c2b8f0f228b3b82b7e60c05b0fb301268bd2880d85a1798a914c6318066d591c6a43f8
+Depends:
+Conflicts: org.favour.nowatusialert
+Replaces: org.favour.nowatusialert
+Filename: ./deb_files/iphoneos-arm64/bequietwatusi/org.favour.bequietwatusi_1.0.2_iphoneos-arm64.deb
+Size: 4590
+MD5sum: 41a0d6737bd854c4b3cdd4765e5bf44c
+SHA1: 93a9b1126189a2740b72e59e9e7a48bafcff5334
+SHA256: 28d1ff5febcd7c08aac4d9cd51870da9d831d249c4c62745bf65a841e91e262e
+SHA512: 5602394376a11846a22491a73bcc7098eb5dfb2883505496d7d0587bba2c0272262ce1c65912349e0de6b51b03bd0ad24daf9e1e7eb1d18a8a0e3560d42a01ef
 Description: Unveiling an alert with a touch of magic.
 Name: BeQuietWatusi
 Author: AppleFavour

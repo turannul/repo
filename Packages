@@ -279,19 +279,21 @@ Description: A font from Android 4
 Name: Rosemary
 Author: unknown
 
-Package: org.favour.nowatusialert
+Package: org.favour.bequietwatusi
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.2
 Section: Tweaks
 Maintainer: AppleFavour
 Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./deb_files/MyTweaks/BeQuietWatusi/org.favour.nowatusialert_1.0.1_iphoneos-arm.deb
-Size: 4528
-MD5sum: 33d668f1e9253edd9aaf73175c8a2a1e
-SHA1: b8bd04f5a69d903e869365694d0b5276d1abb964
-SHA256: 0a76c571f62f078da1955e3bd09c0f8eef29fa74190ad83f5b64167ee495b0ce
-SHA512: 878b3a98e1084dd0feee4c9227d40f7bb70631e4b6e0f464a532671af8ea3f7fab09cc9d5e455e14eb461865351e854dc351f4cc6871456fa7470b11c46abcfb
+Depends:
+Conflicts: org.favour.nowatusialert
+Replaces: org.favour.nowatusialert
+Filename: ./deb_files/MyTweaks/BeQuietWatusi/org.favour.bequietwatusi_1.0.2_iphoneos-arm.deb
+Size: 4504
+MD5sum: 1ae53b4a331105866476590b62c7a638
+SHA1: ebb28f6e40435429a8e110571e51b29c27bcb448
+SHA256: c42dbdd22c98af259e3fc911ed3955502c4e541abf12512315d70a260d7e5d31
+SHA512: 249b5894f46ec4d139dc43dcf3e58b676da3519e2e12f4ed65826d04e7c43e0c892f02f7cf5dd437ceb299668e7564a5de74f43ba7526ef73a985b8dc6635b16
 Description: Unveiling an alert with a touch of magic.
 Name: BeQuietWatusi
 Author: AppleFavour
